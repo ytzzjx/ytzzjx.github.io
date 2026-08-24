@@ -15,7 +15,6 @@ const siteConfig = {
     "GoRouter",
     "TabiToken",
     "北执半公益站",
-    "Lzhiyu",
     "GemAI（哈基米公益站）",
     "AgentRouter 国内入口",
     "Sulmate 半公益站",
@@ -229,23 +228,6 @@ const siteConfig = {
       caveat: "每个月必须使用超过 100 额度，否则可能删号；签到金额为随机值。",
       benefits: ["联系群主送 200", "每日随机签到", "8 月 14 日签到 15", "8 月 15 日签到 15"],
       url: "https://gy.leyanshi.me/sign-up?aff=lorI",
-      tone: "notice",
-    },
-    {
-      publishedAt: "2026-08-13 22:12",
-      kind: "公益新站",
-      name: "Lzhiyu",
-      summary: "新开公益站，使用推广码注册即送 100 额度，每天签到随机送 50-100 额度。",
-      details:
-        "注册流程简单，可使用 Kimi-K3、GLM-5.2 和 DeepSeek V4-0731。适合先注册领取初始额度，再通过每日签到补充使用额度。",
-      registration: "通过带推广码的邀请链接注册，注册后即可登录使用。",
-      signupBonus: "100 额度",
-      dailyCheckin: "随机 50-100 额度",
-      models: "Kimi-K3 / GLM-5.2 / DeepSeek V4-0731",
-      experience: "注册简单，新站活动待持续观察",
-      caveat: "注册与签到规则可能调整，请以站内说明为准。",
-      benefits: ["注册送 100 额度", "每日随机签到 50-100", "Kimi-K3", "GLM-5.2", "DeepSeek V4-0731"],
-      url: "https://lzhiyu.ccwu.cc/register?ref=REF-8A7434490E",
       tone: "notice",
     },
     {
@@ -563,20 +545,6 @@ const entryTranslations = {
     experience: "Fast and stable",
     caveat: "The registration window may close at any time. Make an API request soon after registration or the account may be suspended.",
     benefits: ["Registration open", "$70 sign-up credit", "$5-10 daily check-in", "Check in from Profile", "Use soon after registration"],
-  },
-  Lzhiyu: {
-    kind: "New public service",
-    summary:
-      "Register with the referral code to receive 100 credits. Daily check-ins award a random 50-100 credits.",
-    details:
-      "Registration is straightforward. Available models include Kimi-K3, GLM-5.2, and DeepSeek V4-0731. Daily check-ins can replenish the starting credit.",
-    registration: "Register through the referral link and use the service after signing in.",
-    signupBonus: "100 credits",
-    dailyCheckin: "Random 50-100 credits",
-    models: "Kimi-K3 / GLM-5.2 / DeepSeek V4-0731",
-    experience: "Simple registration; new-service reliability is still being observed",
-    caveat: "Registration and check-in rules may change. Refer to the service's current notices.",
-    benefits: ["100 sign-up credits", "Random 50-100 daily check-in", "Kimi-K3", "GLM-5.2", "DeepSeek V4-0731"],
   },
   "北执半公益站": {
     kind: "Freemium service",
