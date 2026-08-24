@@ -5,9 +5,29 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-08-21",
+  lastUpdated: "2026-08-24",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
+  displayOrder: [
+    "AgentRouter",
+    "AnyRouter",
+    "JustWoker 公益站",
+    "GoRouter",
+    "TabiToken",
+    "北执半公益站",
+    "Lzhiyu",
+    "GemAI（哈基米公益站）",
+    "AgentRouter 国内入口",
+    "Sulmate 半公益站",
+    "PAI 生图公益站",
+    "Jasperio",
+    "Zynk 公益站",
+    "Kscsnkli AI",
+    "SeekAI",
+    "一梦五千年",
+    "Xingya",
+    "ArityFlow",
+  ],
   entries: [
     {
       publishedAt: "2026-08-20 18:05",
@@ -179,6 +199,23 @@ const siteConfig = {
       tone: "active",
     },
     {
+      publishedAt: "2026-08-24 00:00",
+      kind: "半公益站",
+      name: "北执半公益站",
+      summary: "半公益站，提供免费的国产模型；签到额度较多，并支持 Gemini 新模型和 Claude。",
+      details:
+        "提供统一 OpenAI 格式接口，无需为不同模型编写多套代码，可一键切换模型。",
+      registration: "仅支持主流邮箱注册，例如 QQ 邮箱。",
+      signupBonus: "免费国产模型",
+      dailyCheckin: "额度较多",
+      models: "免费国产模型 / Gemini 新模型 / Claude",
+      experience: "统一 OpenAI 格式接口，一键切换模型",
+      caveat: "每分钟最多 15 次请求，不适合 Agent 或自动化高频任务；站点由个人维护，不提供商业 SLA，请勿用于生产环境。",
+      benefits: ["免费国产模型", "签到额度较多", "Gemini 新模型", "Claude", "统一 OpenAI 格式接口", "一键切换模型"],
+      url: "https://beizhi.sylu.cc/sign-up?aff=hk5Q",
+      tone: "active",
+    },
+    {
       publishedAt: "2026-08-15 10:38",
       kind: "公益新站",
       name: "Zynk 公益站",
@@ -212,19 +249,19 @@ const siteConfig = {
       tone: "notice",
     },
     {
-      publishedAt: "2026-08-14 00:22",
-      kind: "半公益",
+      publishedAt: "2026-08-24 00:00",
+      kind: "付费站 / 有签到",
       name: "Xingya",
-      summary: "半公益代币站，新站开业；注册即领取试吃 50 芽点，邀请好友注册并加入 QQ 群再送 80 芽点。",
+      summary: "付费代币站，注册可领取试吃 50 芽点，邀请好友注册并加入 QQ 群再送 80 芽点；每日签到可领取 20-50 芽点。",
       details:
-        "采用代币模式，充值比例 1:100，按次计费，约 4 代币/请求，适合酒馆用户。提供小克和 Gemini 新模型，每日签到可领取 20-50 芽点。",
+        "采用代币模式，充值比例 1:100，按次计费，约 4 代币/请求，适合酒馆用户。提供小克和 Gemini 新模型。优先级已下调，但因保留签到福利，仍放在暂停注册站点之前。",
       registration: "通过邀请链接注册；邀请好友注册并加入 QQ 群后，可再领取 80 芽点。",
       signupBonus: "试吃 50 芽点",
       dailyCheckin: "20-50 芽点",
       models: "小克 / Gemini 新模型",
-      experience: "代币模式，约 4 代币/请求，适合酒馆用户",
-      caveat: "充值比例、代币消耗和新用户福利可能调整，请以站内实际规则为准。",
-      benefits: ["试吃 50 芽点", "邀请注册并入 QQ 群再送 80", "每日签到 20-50", "充值比例 1:100", "约 4 代币/请求", "小克", "Gemini 新模型"],
+      experience: "付费代币模式，约 4 代币/请求，适合酒馆用户",
+      caveat: "这是付费站；充值比例、代币消耗和新用户福利可能调整，请以站内实际规则为准。",
+      benefits: ["付费站", "试吃 50 芽点", "邀请注册并入 QQ 群再送 80", "每日签到 20-50", "充值比例 1:100", "约 4 代币/请求", "小克", "Gemini 新模型"],
       url: "https://xingya.site/sign-up?aff=SV10",
       tone: "notice",
     },
@@ -541,19 +578,34 @@ const entryTranslations = {
     caveat: "Registration and check-in rules may change. Refer to the service's current notices.",
     benefits: ["100 sign-up credits", "Random 50-100 daily check-in", "Kimi-K3", "GLM-5.2", "DeepSeek V4-0731"],
   },
-  Xingya: {
+  "北执半公益站": {
     kind: "Freemium service",
+    name: "Beizhi Freemium Service",
     summary:
-      "A new token-based service. New users receive a 50 Sprout-point trial; invite a friend who joins the QQ group for another 80 points.",
+      "A freemium service with free Chinese models, generous check-in credit, and access to newer Gemini and Claude models.",
     details:
-      "Top-ups use a 1:100 ratio and requests cost about 4 tokens each, making it suitable for SillyTavern users. Offers Claude and newer Gemini models, plus 20-50 points from daily check-ins.",
+      "Provides a unified OpenAI-compatible API, so you can switch models without writing separate integrations.",
+    registration: "Registration supports mainstream email providers, such as QQ Mail.",
+    signupBonus: "Free Chinese models",
+    dailyCheckin: "Generous credit",
+    models: "Free Chinese models / newer Gemini models / Claude",
+    experience: "Unified OpenAI-compatible API with one-click model switching",
+    caveat: "Limited to 15 requests per minute, so it is not suitable for agents or high-frequency automation. It is personally maintained without a commercial SLA and should not be used in production.",
+    benefits: ["Free Chinese models", "Generous check-in credit", "Newer Gemini models", "Claude", "Unified OpenAI-compatible API", "One-click model switching"],
+  },
+  Xingya: {
+    kind: "Paid service / check-in",
+    summary:
+      "A paid token-based service. New users receive a 50 Sprout-point trial, another 80 after a referral joins the QQ group, and 20-50 points from daily check-ins.",
+    details:
+      "Top-ups use a 1:100 ratio and requests cost about 4 tokens each, making it suitable for SillyTavern users. It offers Claude and newer Gemini models. Its priority is lower, but it remains before paused-registration services because daily check-ins are available.",
     registration: "Register through the referral link. Invite a friend who joins the QQ group to receive another 80 points.",
     signupBonus: "50-point trial",
     dailyCheckin: "20-50 Sprout points",
     models: "Claude / newer Gemini models",
-    experience: "About 4 tokens per request; suited to SillyTavern",
-    caveat: "Top-up ratios, token costs, and new-user rewards may change. Check the current rules before paying.",
-    benefits: ["50-point trial", "80 more after referral and QQ group join", "20-50 daily check-in", "1:100 top-up ratio", "About 4 tokens/request", "Claude", "Newer Gemini models"],
+    experience: "Paid token billing, about 4 tokens per request; suited to SillyTavern",
+    caveat: "This is a paid service. Top-up ratios, token costs, and new-user rewards may change. Check the current rules before paying.",
+    benefits: ["Paid service", "50-point trial", "80 more after referral and QQ group join", "20-50 daily check-in", "1:100 top-up ratio", "About 4 tokens/request", "Claude", "Newer Gemini models"],
   },
   ArityFlow: {
     kind: "Registration paused",
@@ -832,7 +884,16 @@ const renderPage = () => {
     button.setAttribute("aria-pressed", String(button.dataset.langOption === currentLocale));
   });
 
-  document.querySelector("#feed-items").innerHTML = siteConfig.entries.map(renderEntry).join("");
+  const order = new Map(siteConfig.displayOrder.map((name, index) => [name, index]));
+  const orderedEntries = siteConfig.entries
+    .map((entry, index) => ({ entry, index }))
+    .sort((left, right) => {
+      const leftOrder = order.has(left.entry.name) ? order.get(left.entry.name) : siteConfig.displayOrder.length + left.index;
+      const rightOrder = order.has(right.entry.name) ? order.get(right.entry.name) : siteConfig.displayOrder.length + right.index;
+      return leftOrder - rightOrder;
+    })
+    .map(({ entry }) => entry);
+  document.querySelector("#feed-items").innerHTML = orderedEntries.map(renderEntry).join("");
 
   window.lucide?.createIcons();
 };
