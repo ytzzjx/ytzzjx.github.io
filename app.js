@@ -22,6 +22,7 @@ const siteConfig = {
     "Jasperio",
     "Zynk 公益站",
     "Kscsnkli AI",
+    "TokenGate",
     "SeekAI",
     "一梦五千年",
     "Xingya",
@@ -297,6 +298,25 @@ const siteConfig = {
       benefits: ["限量开放 31 个名额", "注册送 10 刀", "1x 倍率", "随机签到奖励"],
       url: "https://fapi.leileihog.top/sign-up?aff=ZR02",
       tone: "limited",
+    },
+    {
+      publishedAt: "2026-08-24 00:00",
+      kind: "低可用性 / 当前不可用",
+      name: "TokenGate",
+      summary: "注册送 50 额度，每日签到 15 额度；模型数量多且规格较高，但可用性较低，发布前检查时已全部不可用。",
+      details:
+        "2026 年 8 月 24 日中午曾有 DeepSeek V4 Pro 和 Claude Opus 5 可用，但发布前再次检查时，所有模型均已不可用。适合持续观察状态，不建议作为主要线路。",
+      registration: "使用 GitHub 注册；GitHub 主账号邮箱需为 Google 或 Microsoft 邮箱，账号注册时间需超过 14 天。注册后还需通过 Discord 认证，似乎必须加入社区。",
+      signupBonus: "50 额度",
+      dailyCheckin: "15 额度",
+      models: "DeepSeek V4 Pro / Claude Opus 5 / 其他高级模型（当前均不可用）",
+      experience: "模型规格高，但可用性较低；发布前检查时全部不可用",
+      caveat: "模型状态变化较快，请以调用时的实际可用性为准；GitHub 邮箱、账号年龄和 Discord 社区认证均有门槛。",
+      benefits: ["注册送 50", "每日签到 15", "高级模型较多", "DeepSeek V4 Pro", "Claude Opus 5", "需 Discord 认证"],
+      url: "https://tokengate-cqt9ivzs.manus.space/sign-up?aff=ep0v",
+      tutorialUrl: "https://discord.gg/fhQKyxnsC",
+      tutorialLabel: "加入 TokenGate Discord 社区并完成认证",
+      tone: "caution",
     },
     {
       publishedAt: "2026-08-19 23:14",
@@ -631,6 +651,21 @@ const entryTranslations = {
     experience: "Registration switch was enabled at 16:03 on Aug 17, 2026",
     caveat: "Only 31 slots were released. The public status endpoint shows registration enabled but does not return a remaining count. Do not bulk-probe, as your IP may be blocked.",
     benefits: ["31 limited slots", "$10 sign-up credit", "1x rate", "Random check-in reward"],
+  },
+  TokenGate: {
+    kind: "Low availability / currently unavailable",
+    summary:
+      "New accounts receive 50 credits and daily check-ins add 15. The service lists many advanced models, but availability is low and all models were unavailable at the final publication check.",
+    details:
+      "DeepSeek V4 Pro and Claude Opus 5 were available around noon on August 24, 2026, but a later publication check found every model unavailable. Monitor it for status changes rather than relying on it as a primary service.",
+    registration: "Register with GitHub. The GitHub account's primary email must be from Google or Microsoft, and the account must be more than 14 days old. Discord verification is required after registration, and joining the community appears mandatory.",
+    signupBonus: "50 credits",
+    dailyCheckin: "15 credits",
+    models: "DeepSeek V4 Pro / Claude Opus 5 / other advanced models (currently unavailable)",
+    experience: "Advanced model list but low availability; all models unavailable at publication check",
+    caveat: "Model status changes quickly, so verify availability when making a request. GitHub email, account age, and Discord community verification requirements all apply.",
+    benefits: ["50 sign-up credits", "15 daily check-in credits", "Many advanced models", "DeepSeek V4 Pro", "Claude Opus 5", "Discord verification required"],
+    tutorialLabel: "Join the TokenGate Discord community and complete verification",
   },
 };
 
