@@ -11,6 +11,7 @@ const siteConfig = {
   displayOrder: [
     "AgentRouter",
     "AnyRouter",
+    "Fate New API",
     "JustWoker 公益站",
     "GoRouter",
     "TabiToken",
@@ -179,6 +180,23 @@ const siteConfig = {
       caveat: "人多，高峰期需要反复重试才能挤进去。",
       benefits: ["注册送 100 刀", "每日签到 25 刀", "Claude Fabel5", "无降智", "人多需排队"],
       url: "https://anyrouter.top/register?aff=LJPP",
+      tone: "active",
+    },
+    {
+      publishedAt: "2026-08-24 00:00",
+      kind: "NodeLoc 注册 / 有签到",
+      name: "Fate New API",
+      summary: "通过 NodeLoc 注册，注册送 150 刀，有每日签到，支持全模型。",
+      details:
+        "模型覆盖范围较广，适合想集中体验多种模型的用户；具体模型可用性、签到额度和站点规则请以站内实际情况为准。",
+      registration: "通过 NodeLoc 注册。",
+      signupBonus: "150 刀",
+      dailyCheckin: "有签到，金额待确认",
+      models: "全模型",
+      experience: "模型覆盖广，具体可用性以站内状态为准",
+      caveat: "签到金额、模型可用性、倍率和服务规则可能调整，请以站内实际说明为准。",
+      benefits: ["NodeLoc 注册", "注册送 150 刀", "每日签到", "全模型"],
+      url: "https://fatenewapi.xxxxo.bond/sign-up?aff=N02f",
       tone: "active",
     },
     {
@@ -508,6 +526,20 @@ const entryTranslations = {
     experience: "Fast and stable once connected; no obvious degradation",
     caveat: "Heavy demand means repeated retries may be needed during peak hours.",
     benefits: ["$100 sign-up credit", "$25 daily check-in", "Claude Fabel5", "No obvious degradation", "Busy during peak hours"],
+  },
+  "Fate New API": {
+    kind: "NodeLoc registration / check-in",
+    summary:
+      "Register through NodeLoc to receive $150. Daily check-ins are available, and the service advertises access to all models.",
+    details:
+      "The model range is broad and may suit users who want to try multiple models in one place. Verify model availability, check-in amount, and current rules on the service before use.",
+    registration: "Register through NodeLoc.",
+    signupBonus: "$150 credit",
+    dailyCheckin: "Available; amount unconfirmed",
+    models: "All models",
+    experience: "Broad model coverage; verify live availability on the service",
+    caveat: "Check-in amounts, model availability, rates, and service rules may change. Refer to the service's current notices.",
+    benefits: ["NodeLoc registration", "$150 sign-up credit", "Daily check-in", "All models"],
   },
   "GemAI（哈基米公益站）": {
     kind: "Freemium / SillyTavern pick",
