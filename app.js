@@ -190,15 +190,15 @@ const siteConfig = {
       name: "Fate New API",
       summary: "通过 NodeLoc 注册，注册送 150 刀，有每日签到，支持全模型。",
       details:
-        "模型覆盖范围较广，适合想集中体验多种模型的用户；具体模型可用性、签到额度和站点规则请以站内实际情况为准。",
+        "模型覆盖范围较广，适合想集中体验多种模型的用户。站点近期清理过一轮此前注册的账号，老账号可以再走一遍注册链接。",
       registration: "通过 NodeLoc 注册。",
       signupBonus: "150 刀",
       dailyCheckin: "有签到，金额待确认",
       models: "全模型",
       experience: "模型覆盖广，具体可用性以站内状态为准",
-      caveat: "签到金额、模型可用性、倍率和服务规则可能调整，请以站内实际说明为准。",
-      benefits: ["NodeLoc 注册", "注册送 150 刀", "每日签到", "全模型"],
-      url: "https://fatenewapi.xxxxo.bond/sign-up?aff=N02f",
+      caveat: "近期曾清理一批此前注册的账号；老账号可以再走一遍注册链接。签到金额、模型可用性、倍率和服务规则也可能调整，请以站内实际说明为准。",
+      benefits: ["NodeLoc 注册", "注册送 150 刀", "每日签到", "全模型", "老账号可重新走注册链接"],
+      url: "https://fatenewapi.xxxxo.bond/sign-up?aff=DW0d",
       tone: "active",
     },
     {
@@ -320,23 +320,25 @@ const siteConfig = {
       tone: "limited",
     },
     {
-      publishedAt: "2026-08-24 00:00",
-      kind: "低可用性 / 当前不可用",
+      publishedAt: "2026-08-26 00:00",
+      kind: "模型恢复 / 使用前检查",
       name: "TokenGate",
-      summary: "注册送 50 额度，每日签到 15 额度；模型数量多且规格较高，但可用性较低，发布前检查时已全部不可用。",
+      summary: "注册送 50 额度，每日签到 15 额度；DeepSeek V4 Pro 和 Claude Opus 5 当前已恢复可用。",
       details:
-        "2026 年 8 月 24 日中午曾有 DeepSeek V4 Pro 和 Claude Opus 5 可用，但发布前再次检查时，所有模型均已不可用。适合持续观察状态，不建议作为主要线路。",
+        "模型数量多且规格较高，但状态可能随时变化。建议每次使用前打开模型状态页自行检查可用性，再选择模型调用。",
       registration: "使用 GitHub 注册；GitHub 主账号邮箱需为 Google 或 Microsoft 邮箱，账号注册时间需超过 14 天。注册后还需通过 Discord 认证，似乎必须加入社区。",
       signupBonus: "50 额度",
       dailyCheckin: "15 额度",
-      models: "DeepSeek V4 Pro / Claude Opus 5 / 其他高级模型（当前均不可用）",
-      experience: "模型规格高，但可用性较低；发布前检查时全部不可用",
-      caveat: "模型状态变化较快，请以调用时的实际可用性为准；GitHub 邮箱、账号年龄和 Discord 社区认证均有门槛。",
-      benefits: ["注册送 50", "每日签到 15", "高级模型较多", "DeepSeek V4 Pro", "Claude Opus 5", "需 Discord 认证"],
+      models: "DeepSeek V4 Pro / Claude Opus 5 / 其他高级模型",
+      experience: "DeepSeek V4 Pro 与 Claude Opus 5 当前可用；状态可能变化",
+      caveat: "使用前请先打开模型状态页检查可用性；GitHub 邮箱、账号年龄和 Discord 社区认证均有门槛。",
+      benefits: ["注册送 50", "每日签到 15", "DeepSeek V4 Pro 当前可用", "Claude Opus 5 当前可用", "模型状态页", "需 Discord 认证"],
       url: "https://tokengate-cqt9ivzs.manus.space/sign-up?aff=ep0v",
       tutorialUrl: "https://discord.gg/fhQKyxnsC",
       tutorialLabel: "加入 TokenGate Discord 社区并完成认证",
-      tone: "caution",
+      statusUrl: "https://tokengate-cqt9ivzs.manus.space/dashboard/models",
+      statusLabel: "打开 TokenGate 模型状态页检查可用性",
+      tone: "active",
     },
     {
       publishedAt: "2026-08-19 23:14",
@@ -534,14 +536,14 @@ const entryTranslations = {
     summary:
       "Register through NodeLoc to receive $150. Daily check-ins are available, and the service advertises access to all models.",
     details:
-      "The model range is broad and may suit users who want to try multiple models in one place. Verify model availability, check-in amount, and current rules on the service before use.",
+      "The model range is broad and may suit users who want to try multiple models in one place. The service recently removed a batch of previously registered accounts, so existing users can go through the sign-up link again.",
     registration: "Register through NodeLoc.",
     signupBonus: "$150 credit",
     dailyCheckin: "Available; amount unconfirmed",
     models: "All models",
     experience: "Broad model coverage; verify live availability on the service",
-    caveat: "Check-in amounts, model availability, rates, and service rules may change. Refer to the service's current notices.",
-    benefits: ["NodeLoc registration", "$150 sign-up credit", "Daily check-in", "All models"],
+    caveat: "A batch of previously registered accounts was recently removed; existing users can go through the sign-up link again. Check-in amounts, model availability, rates, and service rules may also change.",
+    benefits: ["NodeLoc registration", "$150 sign-up credit", "Daily check-in", "All models", "Existing users can use the sign-up link again"],
   },
   "GemAI（哈基米公益站）": {
     kind: "Freemium / SillyTavern pick",
@@ -687,19 +689,20 @@ const entryTranslations = {
     benefits: ["31 limited slots", "$10 sign-up credit", "1x rate", "Random check-in reward"],
   },
   TokenGate: {
-    kind: "Low availability / currently unavailable",
+    kind: "Models restored / check before use",
     summary:
-      "New accounts receive 50 credits and daily check-ins add 15. The service lists many advanced models, but availability is low and all models were unavailable at the final publication check.",
+      "New accounts receive 50 credits and daily check-ins add 15. DeepSeek V4 Pro and Claude Opus 5 are currently available again.",
     details:
-      "DeepSeek V4 Pro and Claude Opus 5 were available around noon on August 24, 2026, but a later publication check found every model unavailable. Monitor it for status changes rather than relying on it as a primary service.",
+      "The service lists many advanced models, but status can change at any time. Open the model-status page before each use and confirm availability before selecting a model.",
     registration: "Register with GitHub. The GitHub account's primary email must be from Google or Microsoft, and the account must be more than 14 days old. Discord verification is required after registration, and joining the community appears mandatory.",
     signupBonus: "50 credits",
     dailyCheckin: "15 credits",
-    models: "DeepSeek V4 Pro / Claude Opus 5 / other advanced models (currently unavailable)",
-    experience: "Advanced model list but low availability; all models unavailable at publication check",
-    caveat: "Model status changes quickly, so verify availability when making a request. GitHub email, account age, and Discord community verification requirements all apply.",
-    benefits: ["50 sign-up credits", "15 daily check-in credits", "Many advanced models", "DeepSeek V4 Pro", "Claude Opus 5", "Discord verification required"],
+    models: "DeepSeek V4 Pro / Claude Opus 5 / other advanced models",
+    experience: "DeepSeek V4 Pro and Claude Opus 5 are currently available; status may change",
+    caveat: "Check the model-status page before use. GitHub email, account age, and Discord community verification requirements all apply.",
+    benefits: ["50 sign-up credits", "15 daily check-in credits", "DeepSeek V4 Pro currently available", "Claude Opus 5 currently available", "Model-status page", "Discord verification required"],
     tutorialLabel: "Join the TokenGate Discord community and complete verification",
+    statusLabel: "Open the TokenGate model-status page and check availability",
   },
 };
 
@@ -837,12 +840,18 @@ const renderEntry = (sourceEntry) => {
     ? benefits.map((benefit) => `<li>${escapeHtml(benefit)}</li>`).join("")
     : `<li>${escapeHtml(copy.noBenefits)}</li>`;
   const openLinkLabel = escapeHtml(copy.openLink.replace("{name}", entry.name));
-  const tutorialLink = entry.tutorialUrl
-    ? `<a class="entry-resource-link" href="${escapeHtml(safeHttpUrl(entry.tutorialUrl))}" target="_blank" rel="noreferrer" aria-label="${escapeHtml(entry.tutorialLabel)}" data-umami-event="打开 ${safeAnalyticsName} 教程">
-          <span><i data-lucide="book-open" aria-hidden="true"></i>${escapeHtml(entry.tutorialLabel)}</span>
+  const resourceLinks = [
+    { url: entry.tutorialUrl, label: entry.tutorialLabel, icon: "book-open", event: "教程" },
+    { url: entry.statusUrl, label: entry.statusLabel, icon: "activity", event: "模型状态" },
+  ]
+    .filter((resource) => resource.url && resource.label)
+    .map(
+      (resource) => `<a class="entry-resource-link" href="${escapeHtml(safeHttpUrl(resource.url))}" target="_blank" rel="noreferrer" aria-label="${escapeHtml(resource.label)}" data-umami-event="打开 ${safeAnalyticsName} ${escapeHtml(resource.event)}">
+          <span><i data-lucide="${resource.icon}" aria-hidden="true"></i>${escapeHtml(resource.label)}</span>
           <i data-lucide="arrow-up-right" aria-hidden="true"></i>
-        </a>`
-    : "";
+        </a>`,
+    )
+    .join("");
 
   return `
     <article class="feed-item" data-tone="${tone}">
@@ -875,7 +884,7 @@ const renderEntry = (sourceEntry) => {
         </div>
         <span class="entry-arrow" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span>
       </a>
-      ${tutorialLink}
+      ${resourceLinks}
     </article>
   `;
 };
