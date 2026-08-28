@@ -5,10 +5,12 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-08-26",
+  lastUpdated: "2026-08-28",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "KKToken",
+    "BaaaAI 公益站",
     "AgentRouter",
     "AnyRouter",
     "Fate New API",
@@ -21,15 +23,50 @@ const siteConfig = {
     "AgentRouter 国内入口",
     "Sulmate 半公益站",
     "PAI 生图公益站",
+    "Rinko NAI 生图公益站",
     "Jasperio",
     "Zynk 公益站",
     "Kscsnkli AI",
     "SeekAI",
     "一梦五千年",
     "Xingya",
+    "Nofx",
     "ArityFlow",
   ],
   entries: [
+    {
+      publishedAt: "2026-08-28 00:00",
+      kind: "公益站 / 少见 GPT 模型",
+      name: "BaaaAI 公益站",
+      summary: "公益 API 站，提供较少见的 GPT 模型；每日可在控制台申请 20 额度，但需至少调用一次，并发限制为 2。",
+      details:
+        "通过邀请链接注册后，可在控制台自行申请每日 20 额度。为保持每日权益，需要至少完成一次调用。站内包含较少见的 GPT 模型，具体可用列表以控制台为准。",
+      registration: "通过邀请链接注册。",
+      dailyCheckin: "每日控制台申请 20（需至少调用一次）",
+      models: "少见的 GPT 模型（以控制台为准）",
+      experience: "适合作为少见 GPT 模型的补充来源；并发为 2。",
+      caveat: "每日额度需在控制台自行申请且要至少调用一次；并发只有 2。模型列表、额度与使用规则可能调整，请以控制台实际显示为准。",
+      benefits: ["公益站", "每日申请 20 额度", "需至少调用一次", "并发 2", "少见 GPT 模型"],
+      url: "https://baaaai.com/register?aff=MDTFQQRGCR2X",
+      tone: "active",
+    },
+    {
+      publishedAt: "2026-08-28 17:39",
+      kind: "新站 / 当前开放",
+      name: "KKToken",
+      summary: "JustWoker 站长的新站，注册送 100 刀、每日签到 20 刀，主打 Claude Opus 4.8 与 Opus 5；注册有 GitHub 限制。",
+      details:
+        "与 JustWoker 公益站为同一站长。目前已知福利为注册送 100 刀、每日签到 20 刀，可用 Claude Opus 4.8 和 Opus 5。注册需要 GitHub 账号，具体门槛以注册页提示为准。",
+      registration: "需要 GitHub 账号，有账号限制，具体门槛以注册页提示为准。",
+      signupBonus: "100 刀",
+      dailyCheckin: "20 刀",
+      models: "Claude Opus 4.8 / Opus 5",
+      experience: "新站刚上线，速度与稳定性待观察",
+      caveat: "新站上线时间不长，额度、签到与模型规则可能调整；注册有 GitHub 限制，具体门槛以注册页为准。",
+      benefits: ["新站", "JustWoker 同站长", "注册送 100 刀", "每日签到 20 刀", "Claude Opus 4.8", "Claude Opus 5", "GitHub 限制"],
+      url: "https://kktoken.cc/sign-up?aff=vrZc",
+      tone: "active",
+    },
     {
       publishedAt: "2026-08-20 18:05",
       kind: "当前开放",
@@ -130,6 +167,22 @@ const siteConfig = {
       benefits: ["image2 无限量生图", "GPT-5.5-mini 无限量聊天", "无需签到", "图片请尽快下载", "请勿滥用"],
       url: "https://jasperio.xyz:8848/",
       tone: "notice",
+    },
+    {
+      publishedAt: "2026-08-28 00:00",
+      kind: "公益生图 / API",
+      name: "Rinko NAI 生图公益站",
+      summary: "专注 AI 生图的公益站，提供 NAI Diffusion API；每日签到可领 25 代币，设有作品广场。",
+      details:
+        "与 PAI、Jasperio 的网页文生图方式不同，该站以 API 调用为主，使用 NAI Diffusion 模型。站内提供作品广场，可浏览其他用户公开的生图作品与参考提示词。",
+      registration: "通过邀请链接注册。",
+      dailyCheckin: "25 代币",
+      models: "NAI Diffusion",
+      experience: "面向 API 生图，带作品广场供参考",
+      caveat: "代币规则、模型能力、API 限制和作品广场内容可能调整，请以站内公告与实际页面为准。",
+      benefits: ["公益生图", "API 调用", "NAI Diffusion", "每日签到 25 代币", "作品广场"],
+      url: "https://nai.rinko.ai/sign-up?aff=OQhG",
+      tone: "active",
     },
     {
       publishedAt: "2026-08-26 00:00",
@@ -341,6 +394,23 @@ const siteConfig = {
       tone: "active",
     },
     {
+      publishedAt: "2026-08-28 00:00",
+      kind: "付费站 / 可用",
+      name: "Nofx",
+      summary: "付费站；注册链接可得 20 刀，日签到 5 刀（上限 50），GPT-5.6-sol 0.6x。",
+      details:
+        "该站为付费服务但可用。注册链接可领 20 刀，日签到 5 刀（当日上限 50），GPT-5.6-sol 显示倍率 0.6x。",
+      registration: "使用邀请注册链接注册。",
+      signupBonus: "20 刀",
+      dailyCheckin: "5 刀（上限 50）",
+      models: "GPT-5.6-sol",
+      experience: "付费站，当前可用；建议先实测后再大规模使用",
+      caveat: "付费站；请以站内公告和实际调用为准，签到上限与倍率可能调整。",
+      benefits: ["付费站", "注册链接 ref=PWF8Z79Q", "注册送 20 刀", "每日签到 5（签到上限 50）", "GPT-5.6-sol 0.6x"],
+      url: "https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q",
+      tone: "notice",
+    },
+    {
       publishedAt: "2026-08-19 23:14",
       kind: "暂停注册",
       name: "ArityFlow",
@@ -429,6 +499,34 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  "BaaaAI 公益站": {
+    kind: "Public service / uncommon GPT models",
+    name: "BaaaAI Public Service",
+    summary:
+      "A public API service with less common GPT models. Claim 20 credits per day in the console, make at least one call to keep the daily benefit, and note the concurrency limit of 2.",
+    details:
+      "After registering through the referral link, claim the daily 20 credits yourself in the console. At least one request is required to maintain the daily benefit. The console is the source of truth for the current uncommon GPT-model lineup.",
+    registration: "Register through the referral link.",
+    dailyCheckin: "Claim 20 daily in the console (at least one call required)",
+    models: "Uncommon GPT models (see the console for the current list)",
+    experience: "A useful supplementary source for uncommon GPT models; concurrency is limited to 2.",
+    caveat: "Claim the daily credits in the console and make at least one call. Concurrency is two. Model availability, credit amounts, and usage rules may change.",
+    benefits: ["Public service", "Claim 20 credits daily", "At least one call required", "Concurrency 2", "Uncommon GPT models"],
+  },
+  KKToken: {
+    kind: "New service / currently open",
+    summary:
+      "A new service from the operator behind JustWoker. Sign-up grants $100 and daily check-ins add $20, with Claude Opus 4.8 and Opus 5 as the main models; registration has a GitHub requirement.",
+    details:
+      "Run by the same operator as JustWoker Public Service. Known bonuses are $100 on sign-up and $20 per daily check-in, with Claude Opus 4.8 and Opus 5 available. A GitHub account is required; check the registration page for the exact requirement.",
+    registration: "A GitHub account is required; the exact restriction is shown on the registration page.",
+    signupBonus: "$100 credit",
+    dailyCheckin: "$20",
+    models: "Claude Opus 4.8 / Opus 5",
+    experience: "Newly launched; speed and stability still unproven",
+    caveat: "The service launched recently, so credit, check-in, and model rules may change. Registration has a GitHub requirement — confirm it on the registration page.",
+    benefits: ["New service", "Same operator as JustWoker", "$100 sign-up credit", "$20 daily check-in", "Claude Opus 4.8", "Claude Opus 5", "GitHub requirement"],
+  },
   "JustWoker 公益站": {
     kind: "New public service / currently tryable",
     name: "JustWoker Public Service",
@@ -472,6 +570,20 @@ const entryTranslations = {
     experience: "Generous point supply and low per-image point cost",
     caveat: "The extra 888 registration points are a same-day promotion. Check-in amounts, model pricing, and promotional rules may change; verify the current values on the service.",
     benefits: ["2,000 sign-in points", "888 extra today", "Check-in yielded 620", "1K image: 100 points", "2K image: 150 points", "4K image: 200 points"],
+  },
+  "Rinko NAI 生图公益站": {
+    kind: "Public image generation / API",
+    name: "Rinko NAI Public Image Generator",
+    summary:
+      "A public-service image generator focused on NAI Diffusion through an API. Daily check-ins grant 25 tokens, and the service includes a public gallery.",
+    details:
+      "Unlike PAI and Jasperio's browser-based text-to-image workflows, this service is primarily API-based and uses NAI Diffusion models. Its public gallery lets users browse shared generations and prompt ideas.",
+    registration: "Register through the referral link.",
+    dailyCheckin: "25 tokens",
+    models: "NAI Diffusion",
+    experience: "API-focused image generation with a public gallery for reference",
+    caveat: "Token rules, model capability, API limits, and public-gallery content may change. Confirm the latest notices and live service behavior.",
+    benefits: ["Public-service image generation", "API access", "NAI Diffusion", "25-token daily check-in", "Public gallery"],
   },
   Jasperio: {
     kind: "Free image generation / light chat",
@@ -672,6 +784,20 @@ const entryTranslations = {
     experience: "DeepSeek only; possible web proxy and tool-calling issues",
     caveat: "DeepSeek is currently the only available model. Tool calls may fail, and stability and output quality can fluctuate. Use as a backup only.",
     benefits: ["$200 sign-up credit", "$20 daily check-in", "DeepSeek only", "Possible web proxy", "Tool-calling issues"],
+  },
+  Nofx: {
+    kind: "Paid service / usable",
+    name: "Nofx",
+    summary: "Paid service: $20 signup credit. Daily check-in is $5 with a $50 daily max. GPT-5.6-sol is available at 0.6x.",
+    details:
+      "This is a paid service but currently usable. New users receive $20 on signup, daily check-in earns $5 with a $50 cap, and GPT-5.6-sol is listed at 0.6x.",
+    registration: "Register via referral link.",
+    signupBonus: "$20 credit",
+    dailyCheckin: "$5 (daily cap $50)",
+    models: "GPT-5.6-sol",
+    experience: "Paid service, currently usable; test availability before relying heavily",
+    caveat: "This is a paid service. Please verify check-in cap and multiplier in the latest site notices.",
+    benefits: ["Paid service", "Referral link ref=PWF8Z79Q", "$20 signup credit", "$5 daily check-in", "Daily cap $50", "GPT-5.6-sol 0.6x"],
   },
   "一梦五千年": {
     kind: "Limited registration",
