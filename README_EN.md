@@ -31,7 +31,7 @@ These are the sites I currently track that still accept registration, ordered by
 | Rinko NAI Public Image Generator | API-focused image generation using NAI Diffusion, with a 25-token daily check-in and a public gallery. | [Register](https://nai.rinko.ai/sign-up?aff=OQhG) |
 | Jasperio | Free image generation and light chat with no extra registration; download images promptly. | [Open](https://jasperio.xyz:8848/) |
 | Zynk Public Service | New public service; invite registration then contact the group owner. Random credit, unstable, with monthly usage requirements. | [Register](https://gy.leyanshi.me/sign-up?aff=lorI) |
-| Kscsnkli AI | Reopened service focused on Chinese models, with large sign-up and daily-check-in credit; some models are limited. | [Register](https://ai.kscsnkli.site/sign-up?aff=qeZ9) |
+| ze | Listed here previously as Kscsnkli AI (ai.kscsnkli.site). The operator switched the service to sub2api, so the old credit and check-in figures no longer hold and existing accounts must register again; sign-up currently grants 10,000 credits but may be reverted, and the post-switch models and billing rules are unverified. | [Register](https://ai.kscsnkli.site/register?aff=X9LDUXSBPHYE) |
 | SeekAI | Use with caution; GitHub new account gets $200 sign-up and $20 daily check-in, DeepSeek only, possibly a web proxy with unstable tool calls. | [Register](https://seekai.cc/sign-up?aff=NzMk) |
 | Yimeng 5000 | Limited registration; invite sign-up grants $10 and supports GPT-5.6-sol with Chinese models; slots are limited. | [Register](https://fapi.leileihog.top/sign-up?aff=ZR02) |
 

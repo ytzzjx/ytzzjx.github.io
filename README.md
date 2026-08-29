@@ -31,7 +31,7 @@
 | Rinko NAI 生图公益站 | 专注 API 生图，使用 NAI Diffusion 模型；每日签到 25 代币，带作品广场。 | [注册](https://nai.rinko.ai/sign-up?aff=OQhG) |
 | Jasperio | 免费生图与轻量对话，无需额外注册，图片请尽快下载。 | [直达](https://jasperio.xyz:8848/) |
 | Zynk 公益站 | 公益新站，邀请注册后联系群主，额度随机，有不稳定性与月用量要求。 | [注册](https://gy.leyanshi.me/sign-up?aff=lorI) |
-| Kscsnkli AI | 老站重开，以国产模型为主，注册送大量额度、每日签到，部分模型限量。 | [注册](https://ai.kscsnkli.site/sign-up?aff=qeZ9) |
+| ze | 原合集里的 Kscsnkli AI（域名 ai.kscsnkli.site）。站长已把站点类型换成 sub2api，原有额度与签到数据不再准确，老账号需要重新注册；目前注册送 10,000 但可能被改回去，换型后的模型与计费规则待核实。 | [注册](https://ai.kscsnkli.site/register?aff=X9LDUXSBPHYE) |
 | SeekAI | 谨慎使用，GitHub 新号注册送 200 刀、每日签到 20 刀，仅有 DeepSeek，疑似网页反代、工具调用异常。 | [注册](https://seekai.cc/sign-up?aff=NzMk) |
 | 一梦五千年 | 限量开放，邀请注册送 10 刀，支持 GPT-5.6-sol 与国产模型，名额有限。 | [注册](https://fapi.leileihog.top/sign-up?aff=ZR02) |
 
