@@ -33,7 +33,7 @@
 | ze | 原合集里的 Kscsnkli AI（域名 ai.kscsnkli.site）。站长已把站点类型换成 sub2api，原有额度与签到数据不再准确，老账号需要重新注册；目前注册送 10,000 但可能被改回去，换型后的模型与计费规则待核实。 | [注册](https://ai.kscsnkli.site/register?aff=X9LDUXSBPHYE) |
 | SeekAI | 谨慎使用，GitHub 新号注册送 200 刀、每日签到 20 刀，仅有 DeepSeek，疑似网页反代、工具调用异常。 | [注册](https://seekai.cc/sign-up?aff=NzMk) |
 | 一梦五千年 | 限量开放，邀请注册送 10 刀，支持 GPT-5.6-sol 与国产模型，名额有限。 | [注册](https://fapi.leileihog.top/sign-up?aff=ZR02) |
-| Xingya | 付费代币站，注册领试吃 50 芽点，邀请好友注册并加入 QQ 群再送 80 芽点，每日签到 20-50 芽点；充值比例 1:100，按次计费约 4 代币/请求，含小克与 Gemini 新模型。 | [注册](https://xingya.site/sign-up?aff=SV10) |
+| Xingya | 付费代币站，注册领试吃 50 芽点，邀请好友注册并加入 QQ 群再送 80 芽点，每日签到 20-50 芽点；**签到需先进 QQ 群，在群精华里取签到码**。充值比例 1:100，按次计费约 4 代币/请求，含小克与 Gemini 新模型。 | [注册](https://xingya.site/sign-up?aff=SV10) |
 
 ## 暂停注册的站点
 

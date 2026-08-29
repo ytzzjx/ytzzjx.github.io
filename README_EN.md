@@ -33,7 +33,7 @@ These are the sites I currently track that still accept registration, ordered by
 | ze | Listed here previously as Kscsnkli AI (ai.kscsnkli.site). The operator switched the service to sub2api, so the old credit and check-in figures no longer hold and existing accounts must register again; sign-up currently grants 10,000 credits but may be reverted, and the post-switch models and billing rules are unverified. | [Register](https://ai.kscsnkli.site/register?aff=X9LDUXSBPHYE) |
 | SeekAI | Use with caution; GitHub new account gets $200 sign-up and $20 daily check-in, DeepSeek only, possibly a web proxy with unstable tool calls. | [Register](https://seekai.cc/sign-up?aff=NzMk) |
 | Yimeng 5000 | Limited registration; invite sign-up grants $10 and supports GPT-5.6-sol with Chinese models; slots are limited. | [Register](https://fapi.leileihog.top/sign-up?aff=ZR02) |
-| Xingya | Paid token-based service: a 50 Sprout-point trial on sign-up, another 80 after a referral joins the QQ group, and 20-50 points per daily check-in; 1:100 top-up ratio, about 4 tokens per request, with Claude and newer Gemini models. | [Register](https://xingya.site/sign-up?aff=SV10) |
+| Xingya | Paid token-based service: a 50 Sprout-point trial on sign-up, another 80 after a referral joins the QQ group, and 20-50 points per daily check-in; **checking in now requires joining the QQ group and using the code from its highlighted messages**. 1:100 top-up ratio, about 4 tokens per request, with Claude and newer Gemini models. | [Register](https://xingya.site/sign-up?aff=SV10) |
 
 ## Sites with registration paused
 
