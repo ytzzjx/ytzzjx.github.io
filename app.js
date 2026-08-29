@@ -5,18 +5,18 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-08-28",
+  lastUpdated: "2026-08-29",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
     "KKToken",
+    "JustWoker 公益站",
     "BaaaAI 公益站",
     "AgentRouter",
     "AnyRouter",
     "Fate New API",
-    "JustWoker 公益站",
-    "GoRouter",
     "TabiToken",
+    "GoRouter",
     "北执半公益站",
     "TokenGate",
     "GemAI（哈基米公益站）",
@@ -25,13 +25,34 @@ const siteConfig = {
     "PAI 生图公益站",
     "Rinko NAI 生图公益站",
     "Jasperio",
-    "Zynk 公益站",
     "ze",
     "SeekAI",
     "一梦五千年",
     "Xingya",
     "Nofx",
     "ArityFlow",
+  ],
+  // 已失效的站点搬到这里：页面不再渲染，但数据完整保留，万一恢复就把对象移回 entries
+  // 并把名字加回 displayOrder。英文文案仍留在 entryTranslations 里，不用来回搬。
+  archivedEntries: [
+    {
+      archivedAt: "2026-08-29",
+      archivedReason: "站点已失效，域名无法正常使用；若恢复再移回 entries。",
+      publishedAt: "2026-08-15 10:38",
+      kind: "公益新站",
+      name: "Zynk 公益站",
+      summary: "注册后联系群主可领取 200 额度；支持每日签到，签到金额随机，8 月 14 日和 8 月 15 日实测均为 15。",
+      details:
+        "新站目前暂不稳定，适合作为备用。账号每个月必须使用超过 100 额度，未达到使用要求可能会被删除。",
+      registration: "通过邀请链接注册，进入后联系群主领取 200 额度。",
+      signupBonus: "联系群主送 200",
+      dailyCheckin: "随机；最近两次均为 15",
+      experience: "新站暂不稳定，建议先小量使用",
+      caveat: "每个月必须使用超过 100 额度，否则可能删号；签到金额为随机值。",
+      benefits: ["联系群主送 200", "每日随机签到", "8 月 14 日签到 15", "8 月 15 日签到 15"],
+      url: "https://gy.leyanshi.me/sign-up?aff=lorI",
+      tone: "notice",
+    },
   ],
   entries: [
     {
@@ -105,16 +126,16 @@ const siteConfig = {
       publishedAt: "2026-08-19 20:26",
       kind: "当前开放",
       name: "GoRouter",
-      summary: "目前已开放注册，邀请注册额度为 70 刀，每日签到 5-10 刀；注册窗口可能随时关闭，建议尽快尝试。",
+      summary: "目前已开放注册，邀请注册额度为 70 刀，每日签到 5-10 刀；近期稳定性有所下降，注册窗口也可能随时关闭。",
       details:
-        "主打 Claude Opus 4.8 和 Opus 5，速度和稳定性都不错。签到入口：点击右上角个人头像，进入个人资料后签到。",
+        "主打 Claude Opus 4.8 和 Opus 5，速度仍然不错，但 2026 年 8 月 29 日起稳定性明显不如此前。签到入口：点击右上角个人头像，进入个人资料后签到。",
       registration: "当前开放注册，窗口可能随时关闭，建议尽快尝试。",
       signupBonus: "70 刀",
       dailyCheckin: "5-10 刀",
       models: "Claude Opus 4.8 / Opus 5",
-      experience: "速度快、稳定",
-      caveat: "注册窗口可能随时关闭；已注册用户请尽快调用，否则有封号风险。",
-      benefits: ["当前开放", "注册送 70 刀", "每日签到 5-10 刀", "个人资料内签到", "已注册请尽快调用"],
+      experience: "速度尚可，但近期稳定性下降",
+      caveat: "近期稳定性下降，建议留一个备用线路，不要作为唯一依赖；注册窗口可能随时关闭；已注册用户请尽快调用，否则有封号风险。",
+      benefits: ["当前开放", "注册送 70 刀", "每日签到 5-10 刀", "个人资料内签到", "已注册请尽快调用", "近期稳定性下降"],
       url: "https://gorouter.app/sign-up?aff=e9NL",
       tone: "active",
     },
@@ -289,22 +310,6 @@ const siteConfig = {
       tone: "active",
     },
     {
-      publishedAt: "2026-08-15 10:38",
-      kind: "公益新站",
-      name: "Zynk 公益站",
-      summary: "注册后联系群主可领取 200 额度；支持每日签到，签到金额随机，8 月 14 日和 8 月 15 日实测均为 15。",
-      details:
-        "新站目前暂不稳定，适合作为备用。账号每个月必须使用超过 100 额度，未达到使用要求可能会被删除。",
-      registration: "通过邀请链接注册，进入后联系群主领取 200 额度。",
-      signupBonus: "联系群主送 200",
-      dailyCheckin: "随机；最近两次均为 15",
-      experience: "新站暂不稳定，建议先小量使用",
-      caveat: "每个月必须使用超过 100 额度，否则可能删号；签到金额为随机值。",
-      benefits: ["联系群主送 200", "每日随机签到", "8 月 14 日签到 15", "8 月 15 日签到 15"],
-      url: "https://gy.leyanshi.me/sign-up?aff=lorI",
-      tone: "notice",
-    },
-    {
       publishedAt: "2026-08-24 00:00",
       kind: "付费站 / 有签到",
       name: "Xingya",
@@ -461,6 +466,7 @@ const pageCopy = {
     githubTitle: "GitHub 主页",
     backToTop: "返回页面顶部",
     languageLabel: "语言选择",
+    localeSwitched: "已切换为中文，共 {count} 个站点。",
   },
   en: {
     brand: "Public AI API Directory",
@@ -495,6 +501,7 @@ const pageCopy = {
     githubTitle: "GitHub profile",
     backToTop: "Back to top",
     languageLabel: "Language",
+    localeSwitched: "Switched to English. {count} services listed.",
   },
 };
 
@@ -703,16 +710,16 @@ const entryTranslations = {
   GoRouter: {
     kind: "Registration open",
     summary:
-      "Registration is currently open. Referral registration grants $70, with $5-10 from daily check-ins. The window may close at any time, so try it soon.",
+      "Registration is currently open. Referral registration grants $70, with $5-10 from daily check-ins. Reliability has declined recently, and the window may close at any time.",
     details:
-      "Focused on Claude Opus 4.8 and Opus 5, with good speed and stability. To check in, open the profile photo in the top-right and go to Profile.",
+      "Focused on Claude Opus 4.8 and Opus 5. Speed is still good, but reliability has been noticeably worse since August 29, 2026. To check in, open the profile photo in the top-right and go to Profile.",
     registration: "Registration is currently open and may close at any time; try it soon.",
     signupBonus: "$70 credit",
     dailyCheckin: "$5-10",
     models: "Claude Opus 4.8 / Opus 5",
-    experience: "Fast and stable",
-    caveat: "The registration window may close at any time. Make an API request soon after registration or the account may be suspended.",
-    benefits: ["Registration open", "$70 sign-up credit", "$5-10 daily check-in", "Check in from Profile", "Use soon after registration"],
+    experience: "Decent speed, but reliability has declined recently",
+    caveat: "Reliability has declined recently, so keep a backup route rather than relying on it alone. The registration window may close at any time, and you should make an API request soon after registration or the account may be suspended.",
+    benefits: ["Registration open", "$70 sign-up credit", "$5-10 daily check-in", "Check in from Profile", "Use soon after registration", "Reliability declining"],
   },
   "北执半公益站": {
     kind: "Freemium service",
@@ -799,6 +806,7 @@ const entryTranslations = {
     caveat: "This is a paid service. Please verify check-in cap and multiplier in the latest site notices.",
     benefits: ["Paid service", "Referral link ref=PWF8Z79Q", "$20 signup credit", "$5 daily check-in", "Daily cap $50", "GPT-5.6-sol 0.6x"],
   },
+
   "一梦五千年": {
     kind: "Limited registration",
     name: "Yimeng 5000",
@@ -896,13 +904,16 @@ const escapeHtml = (value) =>
     return entities[character];
   });
 
+// 链接非法时返回 null，由调用方决定不渲染链接，避免把用户送到无关站点。
 const safeHttpUrl = (value) => {
   try {
     const url = new URL(value);
-    return url.protocol === "https:" || url.protocol === "http:" ? url.href : "https://example.com";
+    if (url.protocol === "https:" || url.protocol === "http:") return url.href;
   } catch {
-    return "https://example.com";
+    // 落到下面的告警分支。
   }
+  console.warn("[directory] 跳过非法链接：", value);
+  return null;
 };
 
 const parsePublishedAt = (publishedAt) => new Date(String(publishedAt).replace(" ", "T"));
@@ -971,13 +982,24 @@ const renderEntry = (sourceEntry) => {
     { url: entry.statusUrl, label: entry.statusLabel, icon: "activity", event: "模型状态" },
   ]
     .filter((resource) => resource.url && resource.label)
+    .map((resource) => ({ ...resource, href: safeHttpUrl(resource.url) }))
+    .filter((resource) => resource.href)
     .map(
-      (resource) => `<a class="entry-resource-link" href="${escapeHtml(safeHttpUrl(resource.url))}" target="_blank" rel="noreferrer" aria-label="${escapeHtml(resource.label)}" data-umami-event="打开 ${safeAnalyticsName} ${escapeHtml(resource.event)}">
+      (resource) => `<a class="entry-resource-link" href="${escapeHtml(resource.href)}" target="_blank" rel="noreferrer" aria-label="${escapeHtml(resource.label)}" data-umami-event="打开 ${safeAnalyticsName} ${escapeHtml(resource.event)}">
           <span><i data-lucide="${resource.icon}" aria-hidden="true"></i>${escapeHtml(resource.label)}</span>
           <i data-lucide="arrow-up-right" aria-hidden="true"></i>
         </a>`,
     )
     .join("");
+
+  // 链接非法时降级成不可点击的卡片，信息照常展示。
+  const cardOpenTag = href
+    ? `<a class="feed-card" href="${escapeHtml(href)}" target="_blank" rel="noreferrer" aria-label="${openLinkLabel}" data-umami-event="打开 ${safeAnalyticsName}">`
+    : `<div class="feed-card" data-link-missing="true">`;
+  const cardCloseTag = href ? "</a>" : "</div>";
+  const cardArrow = href
+    ? `<span class="entry-arrow" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span>`
+    : "";
 
   return `
     <article class="feed-item" data-tone="${tone}">
@@ -987,7 +1009,7 @@ const renderEntry = (sourceEntry) => {
           <span>${escapeHtml(publishedAt.time)}</span>
         </time>
       </div>
-      <a class="feed-card" href="${escapeHtml(href)}" target="_blank" rel="noreferrer" aria-label="${openLinkLabel}" data-umami-event="打开 ${safeAnalyticsName}">
+      ${cardOpenTag}
         <div class="entry-content">
           <p class="entry-kind">${escapeHtml(entry.kind)} / ${escapeHtml(localizedTones[tone])}</p>
           <h3>${safeName}</h3>
@@ -1008,11 +1030,68 @@ const renderEntry = (sourceEntry) => {
             </div>
           </div>
         </div>
-        <span class="entry-arrow" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span>
-      </a>
+        ${cardArrow}
+      ${cardCloseTag}
       ${resourceLinks}
     </article>
   `;
+};
+
+const SITE_ORIGIN = "https://ytzzjx.github.io";
+
+// 中英文共用同一个 URL（靠 ?lang 区分），所以 canonical 和 Open Graph 要跟着语言走，
+// 否则分享出去的卡片语言和实际页面对不上。
+const applyMetaForLocale = (copy) => {
+  const canonicalUrl = currentLocale === defaultLocale ? `${SITE_ORIGIN}/` : `${SITE_ORIGIN}/?lang=en`;
+  const setMeta = (selector, attribute, value) =>
+    document.querySelector(selector)?.setAttribute(attribute, value);
+
+  setMeta("[data-canonical]", "href", canonicalUrl);
+  setMeta("[data-og-url]", "content", canonicalUrl);
+  setMeta("[data-og-site-name]", "content", copy.brand);
+  setMeta("[data-og-title]", "content", copy.documentTitle);
+  setMeta("[data-og-description]", "content", copy.metaDescription);
+  setMeta("[data-og-image-alt]", "content", `${copy.brand} · ${copy.feedTitle}`);
+  setMeta("[data-twitter-title]", "content", copy.documentTitle);
+  setMeta("[data-twitter-description]", "content", copy.metaDescription);
+  setMeta("[data-og-locale]", "content", currentLocale === "en" ? "en_US" : "zh_CN");
+  setMeta("[data-og-locale-alt]", "content", currentLocale === "en" ? "zh_CN" : "en_US");
+};
+
+// 目录型页面输出 ItemList 结构化数据，让搜索引擎能读懂这是一份站点清单。
+const applyStructuredData = (copy, orderedEntries) => {
+  const itemListElement = orderedEntries
+    .map((sourceEntry, index) => {
+      const entry = localizeEntry(sourceEntry);
+      const url = safeHttpUrl(entry.url);
+      if (!url) return null;
+      return {
+        "@type": "ListItem",
+        position: index + 1,
+        name: entry.name,
+        description: entry.summary,
+        url,
+      };
+    })
+    .filter(Boolean);
+
+  let script = document.querySelector("#structured-data");
+  if (!script) {
+    script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = "structured-data";
+    document.head.append(script);
+  }
+  script.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: copy.documentTitle,
+    description: copy.metaDescription,
+    inLanguage: currentLocale,
+    numberOfItems: itemListElement.length,
+    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    itemListElement,
+  });
 };
 
 const renderPage = () => {
@@ -1047,7 +1126,14 @@ const renderPage = () => {
   document.querySelector(".site-nav")?.setAttribute("aria-label", copy.nav);
 
   if (githubLink) {
-    githubLink.href = safeHttpUrl(siteConfig.githubUrl);
+    const githubHref = safeHttpUrl(siteConfig.githubUrl);
+    if (githubHref) {
+      githubLink.href = githubHref;
+      githubLink.hidden = false;
+    } else {
+      githubLink.removeAttribute("href");
+      githubLink.hidden = true;
+    }
     githubLink.setAttribute("aria-label", copy.githubLabel);
     githubLink.setAttribute("title", copy.githubTitle);
   }
@@ -1067,15 +1153,30 @@ const renderPage = () => {
     .map(({ entry }) => entry);
   document.querySelector("#feed-items").innerHTML = orderedEntries.map(renderEntry).join("");
 
+  applyMetaForLocale(copy);
+  applyStructuredData(copy, orderedEntries);
+
   window.lucide?.createIcons();
 };
 
-const setLocale = (locale, { updateUrl = true } = {}) => {
+const setLocale = (locale, { updateUrl = true, announce = true } = {}) => {
   if (!supportedLocales.has(locale)) return;
   currentLocale = locale;
   storeLocale(locale);
   if (updateUrl) updateLocaleInUrl(locale);
   renderPage();
+
+  // 列表本身不是 live region，否则每次渲染都会把 23 条全部朗读一遍；
+  // 只在用户主动切换语言时播报一句摘要。
+  if (announce) {
+    const status = document.querySelector("[data-locale-status]");
+    if (status) {
+      status.textContent = pageCopy[currentLocale].localeSwitched.replace(
+        "{count}",
+        String(siteConfig.entries.length),
+      );
+    }
+  }
 };
 
 document.addEventListener("DOMContentLoaded", () => {

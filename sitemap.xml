@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 由 scripts/build-site-meta.mjs 生成，请勿手改。 -->
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+  <url>
+    <loc>https://ytzzjx.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ytzzjx.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ytzzjx.github.io/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ytzzjx.github.io/" />
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

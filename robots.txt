@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# 运营推广/ 目前不在仓库里，这条是防止以后误发布后被收录（路径按 RFC 3986 百分号编码）。
+Disallow: /%E8%BF%90%E8%90%A5%E6%8E%A8%E5%B9%BF/
+
+# 失效站点/ 只是留档，里面的旧邀请链接不应该出现在搜索结果里。
+Disallow: /%E5%A4%B1%E6%95%88%E7%AB%99%E7%82%B9/
+
+# 讨论记录/ 是内部笔记，不需要被收录。
+Disallow: /%E8%AE%A8%E8%AE%BA%E8%AE%B0%E5%BD%95/
+
+Sitemap: https://ytzzjx.github.io/sitemap.xml
