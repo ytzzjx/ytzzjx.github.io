@@ -14,6 +14,7 @@ const siteConfig = {
     "BaaaAI 公益站",
     "AgentRouter",
     "AnyRouter",
+    "Nofx",
     "Fate New API",
     "TabiToken",
     "GoRouter",
@@ -29,7 +30,6 @@ const siteConfig = {
     "SeekAI",
     "一梦五千年",
     "Xingya",
-    "Nofx",
     "ArityFlow",
   ],
   // 已失效的站点搬到这里：页面不再渲染，但数据完整保留，万一恢复就把对象移回 entries
