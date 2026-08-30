@@ -21,6 +21,7 @@ const ICONS = [
   "gauge",
   "gift",
   "globe",
+  "history",
   "plug",
   "route",
   "sparkles",

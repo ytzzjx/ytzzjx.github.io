@@ -41,7 +41,6 @@ body {
   border: 0;
 }
 
-
 a {
   color: inherit;
 }
@@ -271,6 +270,83 @@ h1 {
   padding: 28px 0 42px;
 }
 
+/* 最近变更：内容由 updatedAt / archivedAt 汇总，为空时整块 hidden。 */
+.changes-section {
+  padding: 26px 0 0;
+}
+
+.changes-section[hidden] {
+  display: none;
+}
+
+.changes-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.changes-item {
+  display: flex;
+  gap: 14px;
+  padding: 11px 14px;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+}
+
+.changes-item:first-child {
+  border-top: 0;
+}
+
+.changes-when {
+  flex: none;
+  min-width: 76px;
+  color: var(--cyan);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.changes-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 8px;
+  min-width: 0;
+}
+
+.changes-body strong {
+  font-weight: 800;
+}
+
+.changes-tag {
+  padding: 1px 7px;
+  color: var(--surface);
+  background: var(--amber);
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.changes-note {
+  flex-basis: 100%;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+@media (max-width: 720px) {
+  .changes-item {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .changes-when {
+    min-width: 0;
+  }
+}
+
 .section-heading {
   display: flex;
   align-items: end;
@@ -395,11 +471,7 @@ h2 {
   color: var(--cyan);
 }
 
-.feed-item[data-tone="notice"] .feed-card {
-  border-left-color: var(--coral);
-}
-
-.feed-item[data-tone="limited"] .feed-card {
+.feed-item[data-tone="closed"] .feed-card {
   border-left-color: var(--amber);
 }
 
@@ -414,16 +486,52 @@ h2 {
   font-weight: 800;
 }
 
-.feed-item[data-tone="notice"] .entry-kind {
-  color: var(--coral);
-}
-
-.feed-item[data-tone="limited"] .entry-kind {
+.feed-item[data-tone="closed"] .entry-kind {
   color: var(--amber);
 }
 
 .feed-item[data-tone="caution"] .entry-kind {
   color: var(--coral);
+}
+
+/* 时效标记：由 updatedAt 算出来，不是手写的 tone。 */
+.entry-updated {
+  margin-left: 8px;
+  padding: 1px 7px;
+  color: var(--surface);
+  background: var(--cyan);
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0;
+  vertical-align: 1px;
+}
+
+.entry-update-note {
+  display: flex;
+  gap: 7px;
+  margin: 0 0 8px;
+  padding: 8px 10px;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--cyan) 8%, var(--surface));
+  border-left: 2px solid var(--cyan);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.entry-update-note svg {
+  flex: none;
+  width: 15px;
+  height: 15px;
+  margin-top: 2px;
+  color: var(--cyan);
+}
+
+.entry-update-note strong {
+  margin-right: 6px;
+  color: var(--cyan);
+  font-weight: 800;
 }
 
 h3 {

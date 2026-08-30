@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-08-29",
+  lastUpdated: "2026-08-30",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
@@ -51,7 +51,7 @@ const siteConfig = {
       caveat: "每个月必须使用超过 100 额度，否则可能删号；签到金额为随机值。",
       benefits: ["联系群主送 200", "每日随机签到", "8 月 14 日签到 15", "8 月 15 日签到 15"],
       url: "https://gy.leyanshi.me/sign-up?aff=lorI",
-      tone: "notice",
+      tone: "closed",
     },
   ],
   entries: [
@@ -124,6 +124,8 @@ const siteConfig = {
     },
     {
       publishedAt: "2026-08-19 20:26",
+      updatedAt: "2026-08-29",
+      updateNote: "稳定性下降，建议留一条备用线路，排序也相应下调。",
       kind: "当前开放",
       name: "GoRouter",
       summary: "目前已开放注册，邀请注册额度为 70 刀，每日签到 5-10 刀；近期稳定性有所下降，注册窗口也可能随时关闭。",
@@ -153,7 +155,7 @@ const siteConfig = {
       caveat: "今日 800+ 是页面显示的免费额度，不代表固定签到值；公益池、签到奖励、VIP 价格和分组规则可能调整，请以站内实际说明为准。",
       benefits: ["公益组全站共享", "每日共享 1,000 刀", "签到通常送 10", "VIP 付费调用", "VIP 倍率 0.15x", "公益倍率 1x"],
       url: "https://free.sulmate.cn/sign-up?aff=E4io",
-      tone: "notice",
+      tone: "active",
     },
     {
       publishedAt: "2026-08-18 16:00",
@@ -187,7 +189,7 @@ const siteConfig = {
       caveat: "生成图片会不定时删除，请尽快下载；当前免费能力可能调整，请勿滥用。",
       benefits: ["image2 无限量生图", "GPT-5.5-mini 无限量聊天", "无需签到", "图片请尽快下载", "请勿滥用"],
       url: "https://jasperio.xyz:8848/",
-      tone: "notice",
+      tone: "active",
     },
     {
       publishedAt: "2026-08-28 00:00",
@@ -311,6 +313,8 @@ const siteConfig = {
     },
     {
       publishedAt: "2026-08-24 00:00",
+      updatedAt: "2026-08-29",
+      updateNote: "签到改为必须先进 QQ 群，在群精华里取当期签到码。",
       kind: "付费站 / 有签到",
       name: "Xingya",
       summary: "付费代币站，注册可领取试吃 50 芽点，邀请好友注册并加入 QQ 群再送 80 芽点；每日签到可领取 20-50 芽点，但现在必须用签到码。",
@@ -324,7 +328,7 @@ const siteConfig = {
       caveat: "签到现在依赖 QQ 群精华里的签到码，不进群就签不了，签到码也可能随时更换。这是付费站；充值比例、代币消耗和新用户福利可能调整，请以站内实际规则为准。",
       benefits: ["付费站", "试吃 50 芽点", "邀请注册并入 QQ 群再送 80", "每日签到 20-50", "签到需群精华签到码", "充值比例 1:100", "约 4 代币/请求", "小克", "Gemini 新模型"],
       url: "https://xingya.site/sign-up?aff=SV10",
-      tone: "notice",
+      tone: "active",
     },
     {
       publishedAt: "2026-08-28 00:00",
@@ -375,7 +379,7 @@ const siteConfig = {
       caveat: "共放出 31 个名额，公开状态接口虽显示注册已开启，但不返回剩余数量；不要批量测活，可能会被拉黑 IP。",
       benefits: ["限量开放 31 个名额", "注册送 10 刀", "1x 倍率", "随机签到奖励"],
       url: "https://fapi.leileihog.top/sign-up?aff=ZR02",
-      tone: "limited",
+      tone: "active",
     },
     {
       publishedAt: "2026-08-26 00:00",
@@ -400,20 +404,22 @@ const siteConfig = {
     },
     {
       publishedAt: "2026-08-28 00:00",
+      updatedAt: "2026-08-30",
+      updateNote: "加入 Discord 另送 5 刀；同时上调了排序位置。",
       kind: "付费站 / 可用",
       name: "Nofx",
-      summary: "付费站；注册链接可得 20 刀，日签到 5 刀（上限 50），GPT-5.6-sol 0.6x。",
+      summary: "付费站；注册链接可得 20 刀，加入 Discord 另送 5 刀，日签到 5 刀（上限 50），GPT-5.6-sol 0.6x。",
       details:
-        "该站为付费服务但可用。注册链接可领 20 刀，日签到 5 刀（当日上限 50），GPT-5.6-sol 显示倍率 0.6x。",
-      registration: "使用邀请注册链接注册。",
-      signupBonus: "20 刀",
+        "该站为付费服务但可用。注册链接可领 20 刀，加入 Discord 后另送 5 刀，日签到 5 刀（当日上限 50），GPT-5.6-sol 显示倍率 0.6x。除专业开发者外，日常用量通常够用。",
+      registration: "使用邀请注册链接注册；注册后加入 Discord 可再领 5 刀。",
+      signupBonus: "20 刀（+ Discord 5 刀）",
       dailyCheckin: "5 刀（上限 50）",
       models: "GPT-5.6-sol",
-      experience: "付费站，当前可用；建议先实测后再大规模使用",
+      experience: "付费站，当前可用；对非专业开发者来说日常量够用",
       caveat: "付费站；请以站内公告和实际调用为准，签到上限与倍率可能调整。",
-      benefits: ["付费站", "注册链接 ref=PWF8Z79Q", "注册送 20 刀", "每日签到 5（签到上限 50）", "GPT-5.6-sol 0.6x"],
+      benefits: ["付费站", "注册链接 ref=PWF8Z79Q", "注册送 20 刀", "进 Discord 另送 5 刀", "每日签到 5（签到上限 50）", "GPT-5.6-sol 0.6x"],
       url: "https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q",
-      tone: "notice",
+      tone: "active",
     },
     {
       publishedAt: "2026-08-19 23:14",
@@ -430,7 +436,7 @@ const siteConfig = {
       caveat: "注册已关闭；恢复时间未知。严查除 coding 分组以外的编程行为，违规可能封号。",
       benefits: ["暂停注册", "原支持 QQ 注册", "邀请码赠送额度", "每日签到最高 50", "按次计费", "小克", "免费模型"],
       url: "https://www.arityflow.top/sign-up?aff=PTiI",
-      tone: "limited",
+      tone: "closed",
     },
   ],
 };
@@ -467,6 +473,15 @@ const pageCopy = {
     backToTop: "返回页面顶部",
     languageLabel: "语言选择",
     localeSwitched: "已切换为中文，共 {count} 个站点。",
+    changesEyebrow: "RECENT CHANGES",
+    changesTitle: "最近变更",
+    changesNote: "近 {days} 天",
+    changesArchivedLabel: "下架",
+    changesArchivedNote: "已从页面下架归档",
+    updatedToday: "今天更新",
+    updatedYesterday: "昨天更新",
+    updatedDaysAgo: "{days} 天前更新",
+    updateNoteLabel: "本次更新",
   },
   en: {
     brand: "Public AI API Directory",
@@ -502,6 +517,15 @@ const pageCopy = {
     backToTop: "Back to top",
     languageLabel: "Language",
     localeSwitched: "Switched to English. {count} services listed.",
+    changesEyebrow: "RECENT CHANGES",
+    changesTitle: "Recent changes",
+    changesNote: "Last {days} days",
+    changesArchivedLabel: "Delisted",
+    changesArchivedNote: "Removed from the directory and archived",
+    updatedToday: "Updated today",
+    updatedYesterday: "Updated yesterday",
+    updatedDaysAgo: "Updated {days} days ago",
+    updateNoteLabel: "This update",
   },
 };
 
@@ -709,6 +733,7 @@ const entryTranslations = {
   },
   GoRouter: {
     kind: "Registration open",
+    updateNote: "Reliability has declined; keep a backup route. Ranking lowered accordingly.",
     summary:
       "Registration is currently open. Referral registration grants $70, with $5-10 from daily check-ins. Reliability has declined recently, and the window may close at any time.",
     details:
@@ -738,6 +763,7 @@ const entryTranslations = {
   },
   Xingya: {
     kind: "Paid service / check-in",
+    updateNote: "Check-in now requires joining the QQ group and using the code from its highlights.",
     summary:
       "A paid token-based service. New users receive a 50 Sprout-point trial, another 80 after a referral joins the QQ group, and 20-50 points from daily check-ins — which now require a check-in code.",
     details:
@@ -795,16 +821,17 @@ const entryTranslations = {
   Nofx: {
     kind: "Paid service / usable",
     name: "Nofx",
-    summary: "Paid service: $20 signup credit. Daily check-in is $5 with a $50 daily max. GPT-5.6-sol is available at 0.6x.",
+    updateNote: "Joining the Discord grants another $5; also moved up in the ordering.",
+    summary: "Paid service: $20 signup credit plus $5 for joining the Discord. Daily check-in is $5 with a $50 daily max. GPT-5.6-sol is available at 0.6x.",
     details:
-      "This is a paid service but currently usable. New users receive $20 on signup, daily check-in earns $5 with a $50 cap, and GPT-5.6-sol is listed at 0.6x.",
-    registration: "Register via referral link.",
-    signupBonus: "$20 credit",
+      "This is a paid service but currently usable. New users receive $20 on signup and another $5 after joining the Discord, daily check-in earns $5 with a $50 cap, and GPT-5.6-sol is listed at 0.6x. Outside of heavy professional development, the daily allowance is usually enough.",
+    registration: "Register via referral link, then join the Discord to claim another $5.",
+    signupBonus: "$20 credit (+$5 Discord)",
     dailyCheckin: "$5 (daily cap $50)",
     models: "GPT-5.6-sol",
-    experience: "Paid service, currently usable; test availability before relying heavily",
+    experience: "Paid service, currently usable; the daily allowance suits non-professional use",
     caveat: "This is a paid service. Please verify check-in cap and multiplier in the latest site notices.",
-    benefits: ["Paid service", "Referral link ref=PWF8Z79Q", "$20 signup credit", "$5 daily check-in", "Daily cap $50", "GPT-5.6-sol 0.6x"],
+    benefits: ["Paid service", "Referral link ref=PWF8Z79Q", "$20 signup credit", "$5 for joining Discord", "$5 daily check-in", "Daily cap $50", "GPT-5.6-sol 0.6x"],
   },
 
   "一梦五千年": {
@@ -840,20 +867,22 @@ const entryTranslations = {
   },
 };
 
+// tone 只表达「我的判断」，不再承担时效信息——时效由 updatedAt 算出来，生命周期写在 kind 里。
 const toneLabels = {
   "zh-CN": {
     active: "推荐",
-    limited: "限时",
-    notice: "新收录",
     caution: "谨慎",
+    closed: "已关闭注册",
   },
   en: {
     active: "Recommended",
-    limited: "Limited",
-    notice: "New",
     caution: "Caution",
+    closed: "Registration closed",
   },
 };
+
+// 「最近变更」和卡片上的更新标记都只看这个窗口内的改动。
+const RECENT_WINDOW_DAYS = 7;
 
 const defaultLocale = "zh-CN";
 const supportedLocales = new Set([defaultLocale, "en"]);
@@ -918,6 +947,25 @@ const safeHttpUrl = (value) => {
 
 const parsePublishedAt = (publishedAt) => new Date(String(publishedAt).replace(" ", "T"));
 
+const startOfDay = (date) => new Date(date.getFullYear(), date.getMonth(), date.getDate());
+
+// 返回该日期距今天的整天数；解析不出来就返回 null，由调用方跳过。
+const daysSince = (dateText) => {
+  if (!dateText) return null;
+  const parsed = new Date(`${String(dateText).slice(0, 10)}T00:00:00`);
+  if (Number.isNaN(parsed.getTime())) return null;
+  return Math.round((startOfDay(new Date()) - startOfDay(parsed)) / 86400000);
+};
+
+// 只有落在窗口内、且不是未来日期的改动才算「最近」。
+const isRecent = (days) => days !== null && days >= 0 && days <= RECENT_WINDOW_DAYS;
+
+const formatUpdatedAgo = (days, copy) => {
+  if (days === 0) return copy.updatedToday;
+  if (days === 1) return copy.updatedYesterday;
+  return copy.updatedDaysAgo.replace("{days}", String(days));
+};
+
 const formatPublishedAt = (publishedAt) => {
   const parsed = parsePublishedAt(publishedAt);
   if (Number.isNaN(parsed.getTime())) return { date: publishedAt, time: "" };
@@ -977,6 +1025,17 @@ const renderEntry = (sourceEntry) => {
     ? benefits.map((benefit) => `<li>${escapeHtml(benefit)}</li>`).join("")
     : `<li>${escapeHtml(copy.noBenefits)}</li>`;
   const openLinkLabel = escapeHtml(copy.openLink.replace("{name}", entry.name));
+
+  // 时效标记完全由 updatedAt 算出来，手工的 tone 只管「推荐 / 谨慎 / 已关闭注册」。
+  const updatedDays = daysSince(sourceEntry.updatedAt);
+  const showUpdate = isRecent(updatedDays);
+  const updateBadge = showUpdate
+    ? `<span class="entry-updated">${escapeHtml(formatUpdatedAgo(updatedDays, copy))}</span>`
+    : "";
+  // 英文说明缺失时整行不渲染，避免中文漏到英文页上。
+  const updateNote = showUpdate && entry.updateNote
+    ? `<p class="entry-update-note"><i data-lucide="history" aria-hidden="true"></i><span><strong>${escapeHtml(copy.updateNoteLabel)}</strong>${escapeHtml(entry.updateNote)}</span></p>`
+    : "";
   const resourceLinks = [
     { url: entry.tutorialUrl, label: entry.tutorialLabel, icon: "book-open", event: "教程" },
     { url: entry.statusUrl, label: entry.statusLabel, icon: "activity", event: "模型状态" },
@@ -1002,7 +1061,7 @@ const renderEntry = (sourceEntry) => {
     : "";
 
   return `
-    <article class="feed-item" data-tone="${tone}">
+    <article class="feed-item" data-tone="${tone}"${showUpdate ? ' data-updated="true"' : ""}>
       <div class="feed-meta">
         <time datetime="${datetime}" aria-label="${escapeHtml(copy.publishedAt)} ${escapeHtml(entry.publishedAt)}">
           <span>${escapeHtml(publishedAt.date)}</span>
@@ -1011,8 +1070,9 @@ const renderEntry = (sourceEntry) => {
       </div>
       ${cardOpenTag}
         <div class="entry-content">
-          <p class="entry-kind">${escapeHtml(entry.kind)} / ${escapeHtml(localizedTones[tone])}</p>
+          <p class="entry-kind">${escapeHtml(entry.kind)} / ${escapeHtml(localizedTones[tone])}${updateBadge}</p>
           <h3>${safeName}</h3>
+          ${updateNote}
           <p class="entry-description">${escapeHtml(entry.summary)}</p>
           <p class="entry-details">${escapeHtml(entry.details)}</p>
           <div class="entry-quota">
@@ -1094,6 +1154,54 @@ const applyStructuredData = (copy, orderedEntries) => {
   });
 };
 
+// 「最近变更」不额外维护数据：直接从各条目的 updatedAt 和归档条目的 archivedAt 汇总，
+// 所以只要平时改站点时顺手填一句 updateNote，这一块就会自己更新。
+const renderRecentChanges = (copy) => {
+  const section = document.querySelector("[data-recent-changes]");
+  const list = document.querySelector("[data-changes-list]");
+  if (!section || !list) return;
+
+  const items = [];
+  for (const sourceEntry of siteConfig.entries) {
+    const days = daysSince(sourceEntry.updatedAt);
+    if (!isRecent(days)) continue;
+    const entry = localizeEntry(sourceEntry);
+    items.push({ days, name: entry.name, note: entry.updateNote ?? "", tag: "" });
+  }
+  for (const sourceEntry of siteConfig.archivedEntries ?? []) {
+    const days = daysSince(sourceEntry.archivedAt);
+    if (!isRecent(days)) continue;
+    const entry = localizeEntry(sourceEntry);
+    // archivedReason 只有中文，英文页改用通用说明，避免中文漏出去。
+    const note = currentLocale === defaultLocale ? sourceEntry.archivedReason : copy.changesArchivedNote;
+    items.push({ days, name: entry.name, note: note ?? "", tag: copy.changesArchivedLabel });
+  }
+
+  if (!items.length) {
+    section.hidden = true;
+    list.innerHTML = "";
+    return;
+  }
+
+  items.sort((left, right) => left.days - right.days || left.name.localeCompare(right.name));
+  section.hidden = false;
+  list.innerHTML = items
+    .map(
+      (item) => `<li class="changes-item">
+        <span class="changes-when">${escapeHtml(formatUpdatedAgo(item.days, copy))}</span>
+        <span class="changes-body">
+          <strong>${escapeHtml(item.name)}</strong>${item.tag ? `<span class="changes-tag">${escapeHtml(item.tag)}</span>` : ""}
+          ${item.note ? `<span class="changes-note">${escapeHtml(item.note)}</span>` : ""}
+        </span>
+      </li>`,
+    )
+    .join("");
+
+  applyText("[data-changes-eyebrow]", copy.changesEyebrow);
+  applyText("[data-changes-title]", copy.changesTitle);
+  applyText("[data-changes-note]", copy.changesNote.replace("{days}", String(RECENT_WINDOW_DAYS)));
+};
+
 const renderPage = () => {
   const copy = pageCopy[currentLocale];
   const githubLink = document.querySelector("[data-github-link]");
@@ -1153,6 +1261,7 @@ const renderPage = () => {
     .map(({ entry }) => entry);
   document.querySelector("#feed-items").innerHTML = orderedEntries.map(renderEntry).join("");
 
+  renderRecentChanges(copy);
   applyMetaForLocale(copy);
   applyStructuredData(copy, orderedEntries);
 

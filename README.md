@@ -19,7 +19,7 @@
 | BaaaAI 公益站 | 公益 API 站，含少见 GPT 模型；每日在控制台申请 20 额度且需至少调用一次，并发 2。 | [注册](https://baaaai.com/register?aff=MDTFQQRGCR2X) |
 | AgentRouter | 注册送 175 刀、每日签到 25 刀；现已支持 GLM-5.3、DeepSeek V4 Flash，Claude 倍率上调、GPT-5.6-sol 倍率下调。GitHub 老号或 Linux Do 账号。 | [注册](https://agentrouter.org/register?aff=i3Xz) / [国内入口](https://ps.air-outer.com/register?aff=i3Xz) |
 | AnyRouter | 邀请注册送 100、每日签到 25；GPT-5.6-sol 支持 1M 上下文。Linux Do 二级或 edu.cn 邮箱。 | [注册](https://anyrouter.top/register?aff=LJPP) |
-| Nofx | 付费站，注册链接注册送 20，每天可签到 5（签到上限 50），GPT-5.6-sol 可用且倍率 0.6x。 | [注册链接](https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q) |
+| Nofx | 付费站，注册链接注册送 20，**加入 Discord 另送 5**，每天可签到 5（签到上限 50），GPT-5.6-sol 可用且倍率 0.6x。 | [注册链接](https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q) |
 | Fate New API | 通过 NodeLoc 注册，注册送 150 刀，有每日签到，支持全模型。近期清理过一批账号，老账号可以再走一遍注册链接。 | [注册](https://fatenewapi.xxxxo.bond/sign-up?aff=DW0d) |
 | TabiToken | 当前开放，注册送 120 刀、每日签到 5-10 刀，支持 Claude Opus 4.8 与 Opus 5。 | [注册](https://tabitoken.com/sign-up?aff=AQDR) |
 | GoRouter | 当前开放，注册送 70 刀、每日签到 5-10 刀，支持 Claude Opus 4.8 与 Opus 5；**近期稳定性下降，建议留备用线路**。 | [注册](https://gorouter.app/sign-up?aff=e9NL) |

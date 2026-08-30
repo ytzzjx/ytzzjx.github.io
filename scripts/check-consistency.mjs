@@ -104,6 +104,45 @@ for (const entry of [...siteConfig.entries, ...archivedEntries]) {
   }
 }
 
+// 5b. updatedAt / updateNote：时效标记和「最近变更」都靠它们算，格式错了会静默不显示。
+const DATE_ONLY = /^\d{4}-\d{2}-\d{2}$/;
+for (const entry of siteConfig.entries) {
+  if (entry.updateNote && !entry.updatedAt) {
+    fail(`「${entry.name}」有 updateNote 但缺 updatedAt，说明不会显示`);
+  }
+  if (!entry.updatedAt) continue;
+  if (!DATE_ONLY.test(entry.updatedAt)) {
+    fail(`「${entry.name}」的 updatedAt 必须是 YYYY-MM-DD，当前是「${entry.updatedAt}」`);
+    continue;
+  }
+  const updated = new Date(`${entry.updatedAt}T00:00:00`);
+  if (Number.isNaN(updated.getTime())) {
+    fail(`「${entry.name}」的 updatedAt 不是合法日期：${entry.updatedAt}`);
+    continue;
+  }
+  const published = new Date(String(entry.publishedAt).slice(0, 10) + "T00:00:00");
+  if (!Number.isNaN(published.getTime()) && updated < published) {
+    fail(`「${entry.name}」的 updatedAt（${entry.updatedAt}）早于 publishedAt（${entry.publishedAt}）`);
+  }
+  if (updated > new Date()) {
+    fail(`「${entry.name}」的 updatedAt 是未来日期：${entry.updatedAt}`);
+  }
+}
+
+// 归档条目的 archivedAt 同样会进「最近变更」，格式一起校验。
+for (const entry of archivedEntries) {
+  if (entry.archivedAt && !DATE_ONLY.test(entry.archivedAt)) {
+    fail(`归档条目「${entry.name}」的 archivedAt 必须是 YYYY-MM-DD，当前是「${entry.archivedAt}」`);
+  }
+}
+
+const withNote = siteConfig.entries.filter((entry) => entry.updateNote);
+const missingEnNote = withNote.filter((entry) => !entryTranslations[entry.name]?.updateNote);
+if (missingEnNote.length) {
+  // 英文说明是可选的：缺了英文页整行不渲染，不会漏中文，所以只提示不报错。
+  notes.push(`以下条目只有中文 updateNote，英文页不会显示说明：${missingEnNote.map((e) => e.name).join("、")}`);
+}
+
 // 6. 两份 README 都要覆盖到每个站点。英文 README 用英文名，且两份都带直达链接，
 //    所以中文名、英文名、URL 命中任意一个就算已覆盖。
 for (const readme of ["README.md", "README_EN.md"]) {
