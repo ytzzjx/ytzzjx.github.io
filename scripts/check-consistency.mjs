@@ -143,6 +143,65 @@ if (missingEnNote.length) {
   notes.push(`以下条目只有中文 updateNote，英文页不会显示说明：${missingEnNote.map((e) => e.name).join("、")}`);
 }
 
+// 5c. quietUpdate 只用来把小改动挡在「最近变更」外面，没有 updatedAt 时它没有意义。
+for (const entry of siteConfig.entries) {
+  if (entry.quietUpdate && !entry.updatedAt) {
+    fail(`「${entry.name}」有 quietUpdate 但缺 updatedAt，该字段不会起作用`);
+  }
+}
+const quiet = siteConfig.entries.filter((entry) => entry.quietUpdate);
+if (quiet.length) notes.push(`不进「最近变更」的静默更新：${quiet.map((e) => e.name).join("、")}`);
+
+// 5d. addedAt 是「首次收录日期」，只在新增站点时填。不要用 publishedAt 代替：那个字段
+//     历史上被当作「信息最后成稿时间」改过，拿它判断会把改过文案的老站认成新站。
+for (const entry of siteConfig.entries) {
+  if (!entry.addedAt) continue;
+  if (!DATE_ONLY.test(entry.addedAt)) {
+    fail(`「${entry.name}」的 addedAt 必须是 YYYY-MM-DD，当前是「${entry.addedAt}」`);
+    continue;
+  }
+  const added = new Date(`${entry.addedAt}T00:00:00`);
+  if (Number.isNaN(added.getTime())) {
+    fail(`「${entry.name}」的 addedAt 不是合法日期：${entry.addedAt}`);
+    continue;
+  }
+  if (added > new Date()) fail(`「${entry.name}」的 addedAt 是未来日期：${entry.addedAt}`);
+  if (entry.updatedAt) {
+    const updated = new Date(`${entry.updatedAt}T00:00:00`);
+    if (!Number.isNaN(updated.getTime()) && updated < added) {
+      fail(`「${entry.name}」的 updatedAt（${entry.updatedAt}）早于 addedAt（${entry.addedAt}）`);
+    }
+  }
+}
+
+// 5e. 新收录和改动都在「最近变更」里，同一个站两者都落在窗口内时只会按改动显示，
+//     此时 addedAt 白填了，提示一下免得以为自己漏了什么。
+const RECENT_WINDOW_DAYS = 7;
+const daysFromToday = (text) => {
+  if (!text) return null;
+  const parsed = new Date(`${String(text).slice(0, 10)}T00:00:00`);
+  if (Number.isNaN(parsed.getTime())) return null;
+  const now = new Date();
+  const startOfDay = (d) => new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  return Math.round((startOfDay(now) - startOfDay(parsed)) / 86400000);
+};
+const inWindow = (days) => days !== null && days >= 0 && days <= RECENT_WINDOW_DAYS;
+for (const entry of siteConfig.entries) {
+  if (!entry.addedAt || !entry.quietUpdate) continue;
+  if (inWindow(daysFromToday(entry.updatedAt)) && inWindow(daysFromToday(entry.addedAt))) {
+    notes.push(`「${entry.name}」的 addedAt 和 updatedAt 都在窗口内，且标了 quietUpdate，两条都不会显示`);
+  }
+}
+const recentlyAdded = siteConfig.entries.filter((entry) => inWindow(daysFromToday(entry.addedAt)));
+if (recentlyAdded.length) {
+  notes.push(`近 ${RECENT_WINDOW_DAYS} 天新收录：${recentlyAdded.map((e) => e.name).join("、")}`);
+}
+
+// 5f. 新收录进「最近变更」时说明直接用 kind，所以 kind 不能缺。
+for (const entry of siteConfig.entries) {
+  if (!entry.kind) fail(`「${entry.name}」缺少 kind，新收录进「最近变更」时会没有说明`);
+}
+
 // 6. 两份 README 都要覆盖到每个站点。英文 README 用英文名，且两份都带直达链接，
 //    所以中文名、英文名、URL 命中任意一个就算已覆盖。
 for (const readme of ["README.md", "README_EN.md"]) {

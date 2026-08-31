@@ -93,6 +93,7 @@ const siteConfig = {
     },
     {
       publishedAt: "2026-08-31 00:00",
+      addedAt: "2026-08-31",
       kind: "老站复活 / GPT",
       name: "Denxio",
       summary: "已复活的老站，主打 GPT。参加仙池活动每天可得 20 仙缘（仙缘与刀等值），签到另得 0.5-1 仙缘；注册需要先去 Telegram 领登仙令。",
@@ -235,6 +236,7 @@ const siteConfig = {
       publishedAt: "2026-08-26 00:00",
       updatedAt: "2026-08-31",
       updateNote: "注册赠送已下调至 75 刀。",
+      quietUpdate: true,
       kind: "国内入口 / GLM-5.3",
       name: "AgentRouter 国内入口",
       summary: "AgentRouter 国内注册地址；现已支持 GLM-5.3，另有 DeepSeek V4 Flash；Claude 倍率上调，GPT-5.6-sol 倍率下调。",
@@ -256,6 +258,7 @@ const siteConfig = {
       publishedAt: "2026-08-26 00:00",
       updatedAt: "2026-08-31",
       updateNote: "注册赠送已下调至 75 刀。",
+      quietUpdate: true,
       kind: "GLM-5.3 / 模型更新",
       name: "AgentRouter",
       summary: "现已支持 GLM-5.3，另有 DeepSeek V4 Flash；Claude 倍率上调，GPT-5.6-sol 倍率下调。",
@@ -508,11 +511,18 @@ const pageCopy = {
     changesEyebrow: "RECENT CHANGES",
     changesTitle: "最近变更",
     changesNote: "近 {days} 天",
+    changesAddedLabel: "新收录",
     changesArchivedLabel: "下架",
     changesArchivedNote: "已从页面下架归档",
     updatedToday: "今天更新",
     updatedYesterday: "昨天更新",
     updatedDaysAgo: "{days} 天前更新",
+    addedToday: "今天收录",
+    addedYesterday: "昨天收录",
+    addedDaysAgo: "{days} 天前收录",
+    archivedToday: "今天下架",
+    archivedYesterday: "昨天下架",
+    archivedDaysAgo: "{days} 天前下架",
     updateNoteLabel: "本次更新",
   },
   en: {
@@ -552,11 +562,18 @@ const pageCopy = {
     changesEyebrow: "RECENT CHANGES",
     changesTitle: "Recent changes",
     changesNote: "Last {days} days",
+    changesAddedLabel: "New",
     changesArchivedLabel: "Delisted",
     changesArchivedNote: "Removed from the directory and archived",
     updatedToday: "Updated today",
     updatedYesterday: "Updated yesterday",
     updatedDaysAgo: "Updated {days} days ago",
+    addedToday: "Added today",
+    addedYesterday: "Added yesterday",
+    addedDaysAgo: "Added {days} days ago",
+    archivedToday: "Delisted today",
+    archivedYesterday: "Delisted yesterday",
+    archivedDaysAgo: "Delisted {days} days ago",
     updateNoteLabel: "This update",
   },
 };
@@ -1015,11 +1032,20 @@ const daysSince = (dateText) => {
 // 只有落在窗口内、且不是未来日期的改动才算「最近」。
 const isRecent = (days) => days !== null && days >= 0 && days <= RECENT_WINDOW_DAYS;
 
-const formatUpdatedAgo = (days, copy) => {
-  if (days === 0) return copy.updatedToday;
-  if (days === 1) return copy.updatedYesterday;
-  return copy.updatedDaysAgo.replace("{days}", String(days));
+// kind 决定用哪套说法：新收录说「收录」、下架说「下架」、其余说「更新」，
+// 否则会出现「今天更新 [新收录]」这种自相矛盾的行。
+const formatDaysAgo = (days, copy, variant = "updated") => {
+  const keys = {
+    updated: ["updatedToday", "updatedYesterday", "updatedDaysAgo"],
+    added: ["addedToday", "addedYesterday", "addedDaysAgo"],
+    archived: ["archivedToday", "archivedYesterday", "archivedDaysAgo"],
+  }[variant];
+  if (days === 0) return copy[keys[0]];
+  if (days === 1) return copy[keys[1]];
+  return copy[keys[2]].replace("{days}", String(days));
 };
+
+const formatUpdatedAgo = (days, copy) => formatDaysAgo(days, copy, "updated");
 
 const formatPublishedAt = (publishedAt) => {
   const parsed = parsePublishedAt(publishedAt);
@@ -1209,8 +1235,12 @@ const applyStructuredData = (copy, orderedEntries) => {
   });
 };
 
-// 「最近变更」不额外维护数据：直接从各条目的 updatedAt 和归档条目的 archivedAt 汇总，
-// 所以只要平时改站点时顺手填一句 updateNote，这一块就会自己更新。
+// 「最近变更」不额外维护数据：新收录看 addedAt，改动看 updatedAt，下架看 archivedAt。
+// 注意不能拿 publishedAt 当收录时间——它历史上被当作「这条信息最后一次成稿的时间」用过
+// （AnyRouter 8-11 就收录了，publishedAt 却被改成过 8-13 和 8-26），拿它判断会把改过
+// 文案的老站全认成新站。所以新增站点时单独填一个 addedAt，老条目一律不补。
+// 不值得占位置的小改动（比如单纯的额度数字变化）可以加 quietUpdate: true，
+// 卡片上的时效标记照旧显示，只是不进这个列表。
 const renderRecentChanges = (copy) => {
   const section = document.querySelector("[data-recent-changes]");
   const list = document.querySelector("[data-changes-list]");
@@ -1218,10 +1248,19 @@ const renderRecentChanges = (copy) => {
 
   const items = [];
   for (const sourceEntry of siteConfig.entries) {
-    const days = daysSince(sourceEntry.updatedAt);
-    if (!isRecent(days)) continue;
+    const updatedDays = daysSince(sourceEntry.updatedAt);
+    // 改过的按改动算，没改过的按收录算——同一个站不会既算新收录又算更新。
+    if (isRecent(updatedDays)) {
+      if (sourceEntry.quietUpdate) continue;
+      const entry = localizeEntry(sourceEntry);
+      items.push({ days: updatedDays, name: entry.name, note: entry.updateNote ?? "", tag: "", variant: "updated" });
+      continue;
+    }
+    const addedDays = daysSince(sourceEntry.addedAt);
+    if (!isRecent(addedDays)) continue;
     const entry = localizeEntry(sourceEntry);
-    items.push({ days, name: entry.name, note: entry.updateNote ?? "", tag: "" });
+    // 新收录本身就是变更，说明用 kind（中英文都有），不必另写一句。
+    items.push({ days: addedDays, name: entry.name, note: entry.kind ?? "", tag: copy.changesAddedLabel, variant: "added" });
   }
   for (const sourceEntry of siteConfig.archivedEntries ?? []) {
     const days = daysSince(sourceEntry.archivedAt);
@@ -1229,7 +1268,7 @@ const renderRecentChanges = (copy) => {
     const entry = localizeEntry(sourceEntry);
     // archivedReason 只有中文，英文页改用通用说明，避免中文漏出去。
     const note = currentLocale === defaultLocale ? sourceEntry.archivedReason : copy.changesArchivedNote;
-    items.push({ days, name: entry.name, note: note ?? "", tag: copy.changesArchivedLabel });
+    items.push({ days, name: entry.name, note: note ?? "", tag: copy.changesArchivedLabel, variant: "archived" });
   }
 
   if (!items.length) {
@@ -1243,7 +1282,7 @@ const renderRecentChanges = (copy) => {
   list.innerHTML = items
     .map(
       (item) => `<li class="changes-item">
-        <span class="changes-when">${escapeHtml(formatUpdatedAgo(item.days, copy))}</span>
+        <span class="changes-when">${escapeHtml(formatDaysAgo(item.days, copy, item.variant))}</span>
         <span class="changes-body">
           <strong>${escapeHtml(item.name)}</strong>${item.tag ? `<span class="changes-tag">${escapeHtml(item.tag)}</span>` : ""}
           ${item.note ? `<span class="changes-note">${escapeHtml(item.note)}</span>` : ""}

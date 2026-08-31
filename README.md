@@ -62,3 +62,18 @@
 | `python scripts/build_og_image.py` | 重新生成分享封面 `og-cover.png` | 标题、配色或站点数量变化后 |
 
 图标是自托管的：`icons.js` 只包含站内实际用到的 17 个 lucide 图标（约 3.7 KB），不再从 CDN 加载完整图标库。新增图标时要先把名字加进 `scripts/build-icons.mjs` 的 `ICONS` 数组再重新生成，否则 `check-consistency.mjs` 会报错。
+
+## 「最近变更」用到的日期字段
+
+首页的「最近变更」不单独维护数据，全部从条目上的日期算出来，窗口是近 7 天（`RECENT_WINDOW_DAYS`）：
+
+| 字段 | 含义 | 什么时候填 |
+| --- | --- | --- |
+| `addedAt` | 首次收录日期，`YYYY-MM-DD` | 只在新增站点时填一次，之后不动 |
+| `updatedAt` + `updateNote` | 改动日期和一句说明 | 每次改站点信息时填，说明会显示在列表和卡片上 |
+| `quietUpdate: true` | 这次改动不进「最近变更」 | 只是数字变了之类的小改动，卡片徽标照旧显示 |
+| `archivedAt` + `archivedReason` | 下架日期和原因 | 移进 `archivedEntries` 时填 |
+
+同一个站的 `addedAt` 和 `updatedAt` 都在窗口内时只按改动显示，不会重复出现两行。
+
+**不要拿 `publishedAt` 当收录时间用。** 它历史上被当作「这条信息最后一次成稿的时间」改过（AnyRouter 8 月 11 日就收录了，`publishedAt` 却先后被改成 8-13 和 8-26），拿它判断新收录会把改过文案的老站全认成新站。老条目一律不补 `addedAt`，补也是猜。
