@@ -2,3 +2,10 @@
 Thumbs.db
 assets/
 讨论记录/
+开发文档/
+
+# 通用指南和 FAQ 两个子页面还在草稿阶段，先不上线。页面本体留在本地，
+# 配套样式（styles.css 里的 .doc-* / .faq-* / .protocol-table 等）已经提交，
+# 想启用时把两个目录去掉忽略、并在 index.html 里加回导航入口即可。
+guide/
+faq/
