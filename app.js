@@ -20,7 +20,10 @@ const siteConfig = {
     "TabiToken",
     "GoRouter",
     "北执半公益站",
+    "一梦五千年",
+    "GcmodAi",
     "CheapCodex",
+    "247看 API",
     "GemAI（哈基米公益站）",
     "AgentRouter 国内入口",
     "PAI 生图公益站",
@@ -28,12 +31,18 @@ const siteConfig = {
     "Jasperio",
     "ze",
     "SeekAI",
-    "一梦五千年",
     "Xingya",
     "ArityFlow",
     "Sulmate 半公益站",
     "TokenForge（tokengate）",
+    "Hubway",
+    "AIHub",
+    "True SOTA",
+    "AbinAPI",
   ],
+  // 「公益 / 付费」两个分区靠条目上的 pricing 字段区分：
+  // 只有纯付费站要写 pricing: "paid"，不写就是公益区。半公益站（有免费额度、也能充值）
+  // 归公益区，因为大家找它们是为了免费额度；但要在文案里说清充值部分。
   // 已失效的站点搬到这里：页面不再渲染，但数据完整保留，万一恢复就把对象移回 entries
   // 并把名字加回 displayOrder。英文文案仍留在 entryTranslations 里，不用来回搬。
   archivedEntries: [
@@ -90,6 +99,43 @@ const siteConfig = {
       caveat: "Claude Code CLI 的请求头会被站点 CF 拦截并报错，curl 调 /v1/messages 正常，请改用 Claude Desktop。新站上线时间不长，额度、签到与模型规则可能调整；注册有 GitHub 限制，具体门槛以注册页为准。",
       benefits: ["新站", "JustWoker 同站长", "注册送 100 刀", "每日签到 20 刀", "Claude Opus 4.8", "Claude Opus 5", "需用 Claude Desktop", "GitHub 限制"],
       url: "https://kktoken.cc/sign-up?aff=vrZc",
+      tone: "active",
+    },
+    {
+      publishedAt: "2026-08-31 00:00",
+      addedAt: "2026-08-31",
+      kind: "半公益站 / 一分钱一次",
+      name: "GcmodAi",
+      summary: "半公益站，注册送 1 块，全部模型按次计费，每次请求一分钱（0.01 元），不看 token 用量。注意免费额度只有这 1 块，跑完约一百次请求就得充值；充值 1:1，充值订阅可解锁 VIP 分组。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。",
+      details:
+        "计费方式是固定单价而不是倍率：全部模型统一每次请求一分钱，跟这次请求用了多少 token 无关，长上下文的任务会比较划算。注册送 1 块，按这个价算够跑一百次请求，试水足够。充值比例 1:1，另有充值订阅解锁的 VIP 分组。已知可用模型包括 Kimi-K3、GPT-5.6-luna 和 DeepSeek V4 Pro。",
+      registration: "通过邀请链接注册即可，注册后送 1 块。",
+      signupBonus: "1 块（约 100 次请求）",
+      dailyCheckin: "未提供",
+      models: "Kimi-K3 / GPT-5.6-luna / DeepSeek V4 Pro",
+      experience: "半公益站，全模型每次请求一分钱",
+      caveat: "免费部分只有注册那 1 块，约一百次请求，用完就得自己充值——它列在公益区是因为有这笔免费额度，但本质更接近付费站的试用装，别当成能长期白用的站。没有签到，所以额度不会自己回来。全部模型按次计费，每次一分钱，不按 token 计量；充值 1:1，VIP 分组需充值订阅解锁。并发和具体模型清单以站内实际显示为准。",
+      benefits: ["半公益站", "免费额度仅 1 块", "无签到", "每次请求一分钱", "不按 token 计费", "充值 1:1", "Kimi-K3", "GPT-5.6-luna", "DeepSeek V4 Pro"],
+      url: "https://zc.gcmod.cn/sign-up?aff=4wem",
+      tone: "active",
+    },
+    {
+      publishedAt: "2026-08-31 00:00",
+      addedAt: "2026-08-31",
+      kind: "纯付费站 / 常驻 0.06 倍率",
+      pricing: "paid",
+      name: "247看 API",
+      summary: "纯付费站，没有注册赠送。常驻特惠分组倍率 0.06，有时还会更低；充值 1:1，含 GPT-5.6-luna。",
+      details:
+        "这是一个纯付费站，注册没有任何赠送额度，想用得先充钱，所以更适合当低倍率的付费线路而不是薅额度。特惠分组是常驻的，倍率 0.06，有时会放到更低；充值比例 1:1。已知含 GPT-5.6-luna。",
+      registration: "邀请链接注册；纯付费站，注册无赠送额度，需自行充值后使用。",
+      signupBonus: "无（纯付费站）",
+      dailyCheckin: "无",
+      models: "GPT-5.6-luna",
+      experience: "纯付费站，常驻特惠分组 0.06 倍率",
+      caveat: "纯付费站，注册没有赠送，必须充值才能用。特惠分组虽是常驻，但倍率和分组规则可能调整，请以站内实际显示为准；充值比例 1:1。",
+      benefits: ["纯付费站", "常驻特惠分组", "倍率 0.06", "有时更低", "充值 1:1", "GPT-5.6-luna"],
+      url: "https://api.247kan.com/register?aff=MPVV6RM33864",
       tone: "active",
     },
     {
@@ -366,6 +412,7 @@ const siteConfig = {
       updatedAt: "2026-08-29",
       updateNote: "签到改为必须先进 QQ 群，在群精华里取当期签到码。",
       kind: "付费站 / 有签到",
+      pricing: "paid",
       name: "Xingya",
       summary: "付费代币站，注册可领取试吃 50 芽点，邀请好友注册并加入 QQ 群再送 80 芽点；每日签到可领取 20-50 芽点，但现在必须用签到码。",
       details:
@@ -378,6 +425,81 @@ const siteConfig = {
       caveat: "签到现在依赖 QQ 群精华里的签到码，不进群就签不了，签到码也可能随时更换。这是付费站；充值比例、代币消耗和新用户福利可能调整，请以站内实际规则为准。",
       benefits: ["付费站", "试吃 50 芽点", "邀请注册并入 QQ 群再送 80", "每日签到 20-50", "签到需群精华签到码", "充值比例 1:100", "约 4 代币/请求", "小克", "Gemini 新模型"],
       url: "https://xingya.site/sign-up?aff=SV10",
+      tone: "active",
+    },
+    {
+      publishedAt: "2026-08-14 00:00",
+      kind: "长期自用 / 老牌中转",
+      pricing: "paid",
+      name: "Hubway",
+      summary: "老牌中转，本人充值 50 长期自用；注册并进群送 10，充值比例 1:10，标示倍率约 0.6 但实际约 0.06。",
+      details:
+        "我自己充了 50 长期用着的一家，作为备用线路比较稳。注册并进群可得 10。充值比例 1:10；站内标示倍率约 0.6，实际计费下来约 0.06。",
+      registration: "通过注册链接注册，并加入官方群可领 10。",
+      signupBonus: "进群送 10",
+      dailyCheckin: "未提供",
+      models: "未逐项核实",
+      experience: "本人充值 50 长期自用，作为备用线路较稳",
+      caveat: "付费站，注册赠送只有进群那 10。标示倍率与实际倍率不一致（约 0.6 对约 0.06），以站内实际计费为准。",
+      benefits: ["长期自用", "本人充值 50", "进群送 10", "充值比例 1:10", "标示倍率约 0.6", "实际倍率约 0.06"],
+      url: "https://hubway.cc/register?aff=H8ET6TLL4AEP",
+      tone: "active",
+    },
+    {
+      publishedAt: "2026-08-14 00:00",
+      kind: "长期自用 / 多上游聚合",
+      pricing: "paid",
+      name: "AIHub",
+      summary: "本人实测，聚合多家上游可自选渠道，渠道异常时支持自动切换，适合持续工作；进群送 10 刀，L 站好评再送 10 刀，最低倍率 0.06。",
+      details:
+        "聚合了多家上游，可以自行选择渠道；渠道出问题时支持自动切换，适合需要长时间连续跑的场景。进群送 10 刀，在 L 站好评可再送 10 刀。最低倍率 0.06。自动切换的具体策略我没确认；我没有 L 站账号，所以那 10 刀好评赠送没领过。据站长说明，站方会主动检测渠道，发现掺水或投毒会退款。",
+      registration: "注册后加入官方群可领 10 刀；有 L 站账号的话，好评可再领 10 刀。",
+      signupBonus: "进群送 10 刀（L 站好评再送 10 刀）",
+      dailyCheckin: "未提供",
+      models: "多家上游聚合，可自选渠道",
+      experience: "本人实测；渠道异常可自动切换，适合持续工作",
+      caveat: "付费站。自动切换的具体策略待确认；L 站好评赠送我没领过，条件以站内说明为准。站长称会主动检测渠道并对掺水或投毒退款，这是站方自述，我没有独立验证。",
+      benefits: ["长期自用", "本人实测", "多上游聚合", "渠道自动切换", "进群送 10 刀", "L 站好评再送 10 刀", "最低倍率 0.06"],
+      url: "https://aihub.top/",
+      tone: "active",
+    },
+    {
+      publishedAt: "2026-08-19 00:00",
+      updatedAt: "2026-08-30",
+      updateNote: "去掉 GPT 倍率，只保留 Kiro 约 0.35。",
+      quietUpdate: true,
+      kind: "付费站羊毛 / 低倍率",
+      pricing: "paid",
+      name: "True SOTA",
+      summary: "付费站，注册即送 20 刀，Kiro 约 0.35 倍率，适合想找低倍率付费线路的用户。",
+      details:
+        "注册即送 20 刀，Kiro 倍率约 0.35。适合专门来找低倍率付费线路的人；其他模型、签到规则和长期稳定性我没有核实。",
+      registration: "通过邀请链接注册即送 20 刀。",
+      signupBonus: "20 刀",
+      dailyCheckin: "未核实",
+      models: "Kiro（约 0.35 倍率）",
+      experience: "付费站羊毛，注册即送 20 刀",
+      caveat: "付费站。其他模型、签到和稳定性暂未确认；倍率、赠送和计费规则请以站内实际说明为准。",
+      benefits: ["付费站羊毛", "注册送 20 刀", "Kiro 倍率约 0.35"],
+      url: "https://true-sota.com/register?aff=7SQNRMRSXPP4",
+      tone: "active",
+    },
+    {
+      publishedAt: "2026-08-20 00:00",
+      kind: "付费站羊毛 / 分组调用",
+      pricing: "paid",
+      name: "AbinAPI",
+      summary: "付费站，注册进群送 20 刀，支持 GPT；充值比例 1:10，0.5 分组约等于 0.05，0.75 分组约等于 0.075 且相对更稳。",
+      details:
+        "注册并进群送 20 刀，支持 GPT。充值比例 1:10。支持分组调用：0.5 分组约等于 0.05 倍率，0.75 分组约等于 0.075，后者稳定性相对更好，赶时间的活可以直接走 0.75。",
+      registration: "通过邀请链接注册，注册后进群可领 20 刀。",
+      signupBonus: "进群送 20 刀",
+      dailyCheckin: "未核实",
+      models: "GPT",
+      experience: "付费站羊毛；0.75 分组稳定性相对更好",
+      caveat: "付费站。支持分组调用，0.75 分组相对更稳定；实际倍率和服务状态请以站内调用结果为准。",
+      benefits: ["付费站羊毛", "进群送 20 刀", "充值比例 1:10", "0.5 分组约 0.05", "0.75 分组约 0.075", "0.75 分组更稳"],
+      url: "https://www.abinapi.com/sign-up?aff=9yXf",
       tone: "active",
     },
     {
@@ -416,18 +538,20 @@ const siteConfig = {
     },
     {
       publishedAt: "2026-08-17 16:03",
-      kind: "限量开放",
+      updatedAt: "2026-08-31",
+      updateNote: "注册已重新开放，不再限量；只能用 GitHub / Linux Do / Discord 注册，排序相应上调。",
+      kind: "已开放注册 / 第三方登录",
       name: "一梦五千年",
-      summary: "新放出 31 个注册名额，2026 年 8 月 17 日 16:03 核对时注册开关已开启，可以尝试注册；剩余资格以页面实际结果为准。",
+      summary: "注册已重新开放，不再是此前的限量名额，但只能用 GitHub、Linux Do 或 Discord 账号注册，不支持邮箱；注册送 10 刀，GPT-5.6-sol 与 GPT-5.6-luna 为 1x 倍率，也有其他国产模型。",
       details:
-        "支持 QQ、163 或 Outlook 邮箱注册，注册奖励为 10 刀，GPT-5.6-sol 与 GPT-5.6-luna 为 1x 倍率，也提供其他国产模型。",
-      registration: "限量开放 31 个名额；当前注册开关已开启，剩余资格以注册页面为准。",
+        "此前只放出 31 个名额，现已重新开放注册。注册只走第三方授权，可用 GitHub、Linux Do 或 Discord，不能直接用邮箱注册，三个都没有就进不去。注册奖励为 10 刀，GPT-5.6-sol 与 GPT-5.6-luna 是 1x 倍率，另有其他国产模型。",
+      registration: "只能用 GitHub、Linux Do 或 Discord 账号授权注册，不支持邮箱注册；2026-08-31 核对时注册已开放。",
       signupBonus: "10 刀",
       dailyCheckin: "随机奖励",
       models: "GPT-5.6-sol / GPT-5.6-luna / 国产模型",
-      experience: "2026-08-17 16:03 核对时注册开关已开启，可尝试注册",
-      caveat: "共放出 31 个名额，公开状态接口虽显示注册已开启，但不返回剩余数量；不要批量测活，可能会被拉黑 IP。",
-      benefits: ["限量开放 31 个名额", "注册送 10 刀", "1x 倍率", "随机签到奖励"],
+      experience: "2026-08-31 核对时注册已重新开放；需用 GitHub / Linux Do / Discord 登录",
+      caveat: "只能用 GitHub、Linux Do 或 Discord 注册，三者都没有就没法注册。注册开放状态可能再次收紧，以注册页面实际结果为准；不要批量测活，可能会被拉黑 IP。签到为随机奖励，数额不固定。",
+      benefits: ["已开放注册", "GitHub / Linux Do / Discord 注册", "不支持邮箱", "注册送 10 刀", "1x 倍率", "随机签到奖励"],
       url: "https://fapi.leileihog.top/sign-up?aff=ZR02",
       tone: "active",
     },
@@ -459,6 +583,7 @@ const siteConfig = {
       updatedAt: "2026-08-30",
       updateNote: "加入 Discord 另送 5 刀；同时上调了排序位置。",
       kind: "付费站 / 可用",
+      pricing: "paid",
       name: "Nofx",
       summary: "付费站；注册链接可得 20 刀，加入 Discord 另送 5 刀，日签到 5 刀（上限 50），GPT-5.6-sol 0.6x。",
       details:
@@ -530,8 +655,16 @@ const pageCopy = {
     changesEyebrow: "RECENT CHANGES",
     changesTitle: "最近变更",
     changesNote: "近 {days} 天",
+    pricingLabel: "站点类型",
+    pricingPublic: "公益",
+    pricingPaid: "付费",
+    pricingPublicNote: "免费额度为主，部分半公益站也支持充值",
+    pricingPaidNote: "以下都需要充值，注册赠送只够试用",
+    pricingSwitched: "已切换到{tab}，共 {count} 个站点",
     changesAddedLabel: "新收录",
     changesArchivedLabel: "下架",
+    changesExpand: "展开全部 {count} 条",
+    changesCollapse: "收起",
     changesArchivedNote: "已从页面下架归档",
     updatedToday: "今天更新",
     updatedYesterday: "昨天更新",
@@ -581,8 +714,16 @@ const pageCopy = {
     changesEyebrow: "RECENT CHANGES",
     changesTitle: "Recent changes",
     changesNote: "Last {days} days",
+    pricingLabel: "Service type",
+    pricingPublic: "Free",
+    pricingPaid: "Paid",
+    pricingPublicNote: "Mostly free credit; some freemium services also accept top-ups",
+    pricingPaidNote: "All of these need a top-up — sign-up credit only covers a trial",
+    pricingSwitched: "Switched to {tab}, {count} services",
     changesAddedLabel: "New",
     changesArchivedLabel: "Delisted",
+    changesExpand: "Show all {count}",
+    changesCollapse: "Collapse",
     changesArchivedNote: "Removed from the directory and archived",
     updatedToday: "Updated today",
     updatedYesterday: "Updated yesterday",
@@ -626,6 +767,92 @@ const entryTranslations = {
     experience: "Claude Desktop works; Claude Code CLI is blocked by Cloudflare",
     caveat: "The Claude Code CLI request headers are blocked by the service's Cloudflare layer, while curl against /v1/messages returns normally — use Claude Desktop instead. The service launched recently, so credit, check-in, and model rules may change. Registration has a GitHub requirement — confirm it on the registration page.",
     benefits: ["New service", "Same operator as JustWoker", "$100 sign-up credit", "$20 daily check-in", "Claude Opus 4.8", "Claude Opus 5", "Use Claude Desktop", "GitHub requirement"],
+  },
+  GcmodAi: {
+    kind: "Freemium service / one cent per request",
+    summary:
+      "A freemium service granting 1 yuan on sign-up. Every model is billed per request at a flat 0.01 yuan regardless of token usage. Note that the free allowance is just that 1 yuan — about a hundred requests — after which you have to top up. Top-ups are 1:1, and a paid subscription unlocks a VIP group. Kimi-K3, GPT-5.6-luna, and DeepSeek V4 Pro are available.",
+    details:
+      "Billing is a flat price per call rather than a rate multiplier: every model costs 0.01 yuan per request no matter how many tokens it used, which makes long-context work comparatively cheap. Sign-up grants 1 yuan, about a hundred requests at that price — enough to try it out. Top-ups convert 1:1, and there is a VIP group unlocked by a paid subscription. Known models include Kimi-K3, GPT-5.6-luna, and DeepSeek V4 Pro.",
+    registration: "Register through the referral link; sign-up grants 1 yuan.",
+    signupBonus: "1 yuan (about 100 requests)",
+    dailyCheckin: "Not offered",
+    models: "Kimi-K3 / GPT-5.6-luna / DeepSeek V4 Pro",
+    experience: "Freemium service charging one cent per request on every model",
+    caveat: "The free portion is only the 1 yuan from sign-up, about a hundred requests, after which you top up yourself — it sits in the free tab because that allowance exists, but it is closer to a paid service's trial than somewhere you can use free indefinitely. There is no check-in, so credit does not come back on its own. All models are billed per request at 0.01 yuan, not metered by tokens; top-ups are 1:1 and the VIP group requires a paid subscription. Confirm concurrency limits and the full model list in the service itself.",
+    benefits: ["Freemium service", "Free allowance only 1 yuan", "No check-in", "One cent per request", "Not token-metered", "1:1 top-up", "Kimi-K3", "GPT-5.6-luna", "DeepSeek V4 Pro"],
+  },
+  Hubway: {
+    kind: "Long-term personal use / established relay",
+    summary:
+      "An established relay I topped up 50 on and use as a long-term backup. Registering and joining the group grants 10, top-ups convert 1:10, and the advertised rate of about 0.6 works out to roughly 0.06 in practice.",
+    details:
+      "This is the one I put 50 into and keep around; it holds up well as a backup route. Registering and joining the group grants 10. Top-ups convert 1:10. The service advertises a rate of about 0.6, but actual billing works out to roughly 0.06.",
+    registration: "Register through the link and join the official group to claim 10.",
+    signupBonus: "10 for joining the group",
+    dailyCheckin: "Not offered",
+    models: "Not itemised",
+    experience: "Topped up 50 myself; holds up as a backup route",
+    caveat: "Paid service — the only grant is the 10 for joining the group. The advertised and actual rates differ (about 0.6 versus roughly 0.06); rely on actual billing in the service.",
+    benefits: ["Long-term use", "Topped up 50", "10 for joining", "1:10 top-up", "Advertised about 0.6", "Actual about 0.06"],
+  },
+  AIHub: {
+    kind: "Long-term personal use / multi-upstream",
+    summary:
+      "Tested personally. It aggregates several upstreams with channel selection and automatic failover, which suits long continuous runs. Joining the group grants $10, a review on L-site grants another $10, and the lowest rate is 0.06.",
+    details:
+      "It aggregates several upstreams and lets you pick a channel; when a channel misbehaves it can switch automatically, which suits work that runs for a long stretch. Joining the group grants $10, and a review on L-site grants another $10. The lowest rate is 0.06. I have not confirmed how the automatic switching decides, and I have no L-site account, so I never claimed that second $10. The operator states that they actively test channels and refund when they find diluted or poisoned responses.",
+    registration: "Join the official group after registering to claim $10; with an L-site account, a review grants another $10.",
+    signupBonus: "$10 for joining the group (another $10 for an L-site review)",
+    dailyCheckin: "Not offered",
+    models: "Several aggregated upstreams with channel selection",
+    experience: "Tested personally; automatic failover suits long continuous work",
+    caveat: "Paid service. The automatic switching policy is unconfirmed, and I never claimed the L-site review bonus — check the terms in the service. The operator's claim about testing channels and refunding for diluted or poisoned responses is their own statement, which I have not verified independently.",
+    benefits: ["Long-term use", "Tested personally", "Multi-upstream", "Automatic failover", "$10 for joining", "$10 for L-site review", "Lowest rate 0.06"],
+  },
+  "True SOTA": {
+    kind: "Paid-service freebie / low rate",
+    updateNote: "Dropped the GPT rate, keeping Kiro at about 0.35.",
+    summary:
+      "A paid service granting $20 on sign-up, with Kiro at about a 0.35 rate — worth a look if you specifically want a low-rate paid route.",
+    details:
+      "Sign-up grants $20 and Kiro runs at about a 0.35 rate. It suits people specifically hunting for a low-rate paid route; I have not verified other models, check-in rules, or long-term stability.",
+    registration: "Register through the referral link for $20.",
+    signupBonus: "$20 credit",
+    dailyCheckin: "Unverified",
+    models: "Kiro (about 0.35 rate)",
+    experience: "Paid-service freebie granting $20 on sign-up",
+    caveat: "Paid service. Other models, check-in, and stability are unconfirmed; rely on the service for rates, grants, and billing rules.",
+    benefits: ["Paid-service freebie", "$20 sign-up credit", "Kiro about 0.35"],
+  },
+  AbinAPI: {
+    kind: "Paid-service freebie / group routing",
+    summary:
+      "A paid service granting $20 for registering and joining the group, with GPT support. Top-ups convert 1:10; the 0.5 group works out to about 0.05 and the 0.75 group to about 0.075, with the latter noticeably steadier.",
+    details:
+      "Registering and joining the group grants $20, and GPT is supported. Top-ups convert 1:10. It supports group routing: the 0.5 group works out to roughly a 0.05 rate and the 0.75 group to about 0.075, with the latter comparatively more stable — worth using directly when the work is time-sensitive.",
+    registration: "Register through the referral link, then join the group to claim $20.",
+    signupBonus: "$20 for joining the group",
+    dailyCheckin: "Unverified",
+    models: "GPT",
+    experience: "Paid-service freebie; the 0.75 group is comparatively steadier",
+    caveat: "Paid service. Group routing is supported and the 0.75 group is comparatively more stable; rely on actual call results for rates and service status.",
+    benefits: ["Paid-service freebie", "$20 for joining", "1:10 top-up", "0.5 group about 0.05", "0.75 group about 0.075", "0.75 group steadier"],
+  },
+  "247看 API": {
+    kind: "Paid only / standing 0.06 rate",
+    name: "247kan API",
+    summary:
+      "A paid-only service with no sign-up credit. Its standing discount group runs at a 0.06 rate, sometimes lower, top-ups are 1:1, and GPT-5.6-luna is available.",
+    details:
+      "This is a paid-only service: registration grants no credit at all, so you have to top up before using it — which makes it a low-rate paid route rather than somewhere to farm free credit. The discount group is permanent at a 0.06 rate and occasionally goes lower. Top-ups convert 1:1. GPT-5.6-luna is known to be available.",
+    registration: "Register through the referral link. Paid-only, with no sign-up credit — you need to top up before use.",
+    signupBonus: "None (paid-only)",
+    dailyCheckin: "None",
+    models: "GPT-5.6-luna",
+    experience: "Paid-only service with a standing 0.06 discount group",
+    caveat: "Paid-only with no sign-up credit, so a top-up is required. The discount group is permanent, but rates and group rules may change — rely on what the service shows. Top-ups convert 1:1.",
+    benefits: ["Paid only", "Standing discount group", "0.06 rate", "Sometimes lower", "1:1 top-up", "GPT-5.6-luna"],
   },
   CheapCodex: {
     kind: "New service / subsidised · check spam",
@@ -939,19 +1166,20 @@ const entryTranslations = {
   },
 
   "一梦五千年": {
-    kind: "Limited registration",
     name: "Yimeng 5000",
+    kind: "Registration open / third-party login only",
+    updateNote: "Registration has reopened and is no longer limited, but sign-up requires GitHub, Linux Do, or Discord; ranking raised accordingly.",
     summary:
-      "A batch of 31 registration slots has been released. At 16:03 on August 17, 2026, the public registration switch was enabled, so you can try registering; remaining eligibility depends on the registration page.",
+      "Registration has reopened and is no longer the limited batch it was before, but sign-up works only through a GitHub, Linux Do, or Discord account — email registration is not available. New accounts receive $10, with GPT-5.6-sol and GPT-5.6-luna at a 1x rate, plus other Chinese models.",
     details:
-      "Supports QQ, 163, or Outlook email registration. New accounts receive $10, with GPT-5.6-sol and GPT-5.6-luna at a 1x rate, plus additional Chinese models.",
-    registration: "Limited batch of 31 slots. The registration switch is currently enabled, but use the page to confirm whether any slots remain.",
+      "The service previously released only 31 slots; registration is now open again. Sign-up goes through third-party authorisation only — GitHub, Linux Do, or Discord — with no direct email registration, so without one of the three you cannot get in. New accounts receive $10, GPT-5.6-sol and GPT-5.6-luna run at a 1x rate, and other Chinese models are available.",
+    registration: "Sign-up requires authorising a GitHub, Linux Do, or Discord account; email registration is not supported. As of 2026-08-31, registration is open.",
     signupBonus: "$10",
     dailyCheckin: "Random reward",
     models: "GPT-5.6-sol / GPT-5.6-luna / Chinese models",
-    experience: "Registration switch was enabled at 16:03 on Aug 17, 2026",
-    caveat: "Only 31 slots were released. The public status endpoint shows registration enabled but does not return a remaining count. Do not bulk-probe, as your IP may be blocked.",
-    benefits: ["31 limited slots", "$10 sign-up credit", "1x rate", "Random check-in reward"],
+    experience: "Registration confirmed reopened on 2026-08-31; needs GitHub, Linux Do, or Discord login",
+    caveat: "Only GitHub, Linux Do, or Discord accounts can register, so without one of the three you cannot sign up. Registration may tighten again — rely on the registration page. Do not bulk-probe, as your IP may be blocked. Check-in rewards are random, so the amount is not fixed.",
+    benefits: ["Registration open", "GitHub / Linux Do / Discord sign-up", "No email option", "$10 sign-up credit", "1x rate", "Random check-in reward"],
   },
   "TokenForge（tokengate）": {
     kind: "Not recommended / injection locks English",
@@ -990,9 +1218,21 @@ const toneLabels = {
 // 「最近变更」和卡片上的更新标记都只看这个窗口内的改动。
 const RECENT_WINDOW_DAYS = 7;
 
+// 变更多的时候整块会把首屏占满，把站点列表挤到一屏半以下，所以默认只露前几条。
+const CHANGES_PREVIEW_COUNT = 5;
+let changesExpanded = false;
+
 const defaultLocale = "zh-CN";
 const supportedLocales = new Set([defaultLocale, "en"]);
 let currentLocale = defaultLocale;
+
+// 公益区是主场，所以每次打开都从公益开始，不记住上次选的付费区。
+const defaultPricing = "public";
+const supportedPricing = new Set([defaultPricing, "paid"]);
+let currentPricing = defaultPricing;
+
+// 不写 pricing 就算公益，这样只有纯付费站需要标注。
+const entryPricing = (entry) => (entry.pricing === "paid" ? "paid" : "public");
 
 const getStoredLocale = () => {
   try {
@@ -1315,7 +1555,7 @@ const renderRecentChanges = (copy) => {
   section.hidden = false;
   list.innerHTML = items
     .map(
-      (item) => `<li class="changes-item">
+      (item, index) => `<li class="changes-item"${index >= CHANGES_PREVIEW_COUNT && !changesExpanded ? " hidden" : ""}>
         <span class="changes-when">${escapeHtml(formatDaysAgo(item.days, copy, item.variant))}</span>
         <span class="changes-body">
           <strong>${escapeHtml(item.name)}</strong>${item.tag ? `<span class="changes-tag">${escapeHtml(item.tag)}</span>` : ""}
@@ -1324,6 +1564,21 @@ const renderRecentChanges = (copy) => {
       </li>`,
     )
     .join("");
+
+  // 条数没超过预览上限时整个按钮都不出现，避免点了没反应。
+  const toggle = document.querySelector("[data-changes-toggle]");
+  const collapsed = !changesExpanded && items.length > CHANGES_PREVIEW_COUNT;
+  list.toggleAttribute("data-changes-collapsed", collapsed);
+  if (toggle) {
+    const needsToggle = items.length > CHANGES_PREVIEW_COUNT;
+    toggle.hidden = !needsToggle;
+    if (needsToggle) {
+      toggle.textContent = changesExpanded
+        ? copy.changesCollapse
+        : copy.changesExpand.replace("{count}", String(items.length));
+      toggle.setAttribute("aria-expanded", String(changesExpanded));
+    }
+  }
 
   applyText("[data-changes-eyebrow]", copy.changesEyebrow);
   applyText("[data-changes-title]", copy.changesTitle);
@@ -1350,9 +1605,7 @@ const renderPage = () => {
   applyText("[data-site-count-label]", copy.siteCountLabel);
   applyText("[data-section-eyebrow]", copy.sectionEyebrow);
   applyText("[data-feed-title]", copy.feedTitle);
-  applyText("[data-section-note]", copy.sectionNote);
   applyText("[data-footer]", copy.brand);
-  applyText("[data-site-count]", String(siteConfig.entries.length).padStart(2, "0"));
   applyText("[data-last-updated]", `${copy.lastUpdated} ${siteConfig.lastUpdated.replaceAll("-", ".")}`);
   applyText("[data-disclaimer]", copy.disclaimer);
 
@@ -1387,7 +1640,21 @@ const renderPage = () => {
       return leftOrder - rightOrder;
     })
     .map(({ entry }) => entry);
-  document.querySelector("#feed-items").innerHTML = orderedEntries.map(renderEntry).join("");
+
+  // 分区切换只过滤当前显示的列表；结构化数据仍然输出全部站点，
+  // 否则搜索引擎只能看到公益区那一半。
+  const visibleEntries = orderedEntries.filter((entry) => entryPricing(entry) === currentPricing);
+  document.querySelector("#feed-items").innerHTML = visibleEntries.map(renderEntry).join("");
+
+  applyText("[data-section-note]", currentPricing === "paid" ? copy.pricingPaidNote : copy.pricingPublicNote);
+  applyText("[data-site-count]", String(visibleEntries.length).padStart(2, "0"));
+  document.querySelector("[data-pricing-switcher]")?.setAttribute("aria-label", copy.pricingLabel);
+  document.querySelectorAll("[data-pricing-option]").forEach((button) => {
+    const value = button.dataset.pricingOption;
+    const count = orderedEntries.filter((entry) => entryPricing(entry) === value).length;
+    button.textContent = `${value === "paid" ? copy.pricingPaid : copy.pricingPublic} ${count}`;
+    button.setAttribute("aria-pressed", String(value === currentPricing));
+  });
 
   renderRecentChanges(copy);
   applyMetaForLocale(copy);
@@ -1416,11 +1683,38 @@ const setLocale = (locale, { updateUrl = true, announce = true } = {}) => {
   }
 };
 
+const setPricing = (pricing, { announce = true } = {}) => {
+  if (!supportedPricing.has(pricing) || pricing === currentPricing) return;
+  currentPricing = pricing;
+  renderPage();
+
+  // 和切换语言同理：列表本身不是 live region，只在用户主动切分区时播报一句。
+  if (announce) {
+    const status = document.querySelector("[data-locale-status]");
+    if (status) {
+      const copy = pageCopy[currentLocale];
+      const count = siteConfig.entries.filter((entry) => entryPricing(entry) === pricing).length;
+      status.textContent = copy.pricingSwitched
+        .replace("{tab}", pricing === "paid" ? copy.pricingPaid : copy.pricingPublic)
+        .replace("{count}", String(count));
+    }
+  }
+};
+
 document.addEventListener("DOMContentLoaded", () => {
   currentLocale = resolveLocale();
 
   document.querySelectorAll("[data-lang-option]").forEach((button) => {
     button.addEventListener("click", () => setLocale(button.dataset.langOption));
+  });
+
+  document.querySelectorAll("[data-pricing-option]").forEach((button) => {
+    button.addEventListener("click", () => setPricing(button.dataset.pricingOption));
+  });
+
+  document.querySelector("[data-changes-toggle]")?.addEventListener("click", () => {
+    changesExpanded = !changesExpanded;
+    renderRecentChanges(pageCopy[currentLocale]);
   });
 
   renderPage();

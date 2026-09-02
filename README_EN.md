@@ -20,11 +20,12 @@ These are the sites I currently track that still accept registration, ordered by
 | AgentRouter | $75 sign-up credit and $25 daily check-in. Now with GLM-5.3 and DeepSeek V4 Flash; Claude rates increased and GPT-5.6-sol rates decreased. Requires an older GitHub account or a Linux Do account. | [Register](https://agentrouter.org/register?aff=i3Xz) / [China access](https://ps.air-outer.com/register?aff=i3Xz) |
 | Denxio | A revived older service focused on GPT. The Xianchi event grants 20 xianyuan per day (equivalent to dollars) and check-ins add 0.5-1. Registration needs a code collected from the Telegram channel first. | [Register](https://api.denxio.top/register?invite_code=YP9XP5EMB68Q) / [Get the code](https://t.me/denxio_free) |
 | AnyRouter | Referral registration grants $100 and $25 daily check-in; GPT-5.6-sol supports a 1M context window. Linux Do level 2 or .edu.cn email. | [Register](https://anyrouter.top/register?aff=LJPP) |
-| Nofx | Paid service with $20 signup credit and **another $5 for joining the Discord**. Daily check-in gives $5, with a $50 daily cap, and GPT-5.6-sol is listed at 0.6x. | [Sign up](https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q) |
 | Fate New API | Register through NodeLoc for $150 credit and daily check-ins, with access to all models. A batch of old accounts was recently cleared, so existing users can go through the sign-up link again. | [Register](https://fatenewapi.xxxxo.bond/sign-up?aff=DW0d) |
 | TabiToken | Registration currently open; $120 sign-up credit and $5-10 daily check-in; Claude Opus 4.8 and Opus 5. | [Register](https://tabitoken.com/sign-up?aff=AQDR) |
 | GoRouter | Registration currently open; $70 sign-up credit and $5-10 daily check-in; Claude Opus 4.8 and Opus 5. **Reliability has declined recently, so keep a backup route.** | [Register](https://gorouter.app/sign-up?aff=e9NL) |
 | Beizhi Freemium Service | Freemium site supporting mainstream email registration, with a unified OpenAI-compatible API, generous check-in credit, and Gemini / Claude models. | [Register](https://beizhi.sylu.cc/sign-up?aff=hk5Q) |
+| Yimeng 5000 | **Registration has reopened** and is no longer limited, but **sign-up requires a GitHub, Linux Do, or Discord account** — no email option; $10 sign-up credit, GPT-5.6-sol and GPT-5.6-luna at a 1x rate, plus other Chinese models. | [Register](https://fapi.leileihog.top/sign-up?aff=ZR02) |
+| GcmodAi | Freemium service granting 1 yuan on sign-up, with every model billed **one cent per request** (not token-metered). **The free allowance is only that 1 yuan — about a hundred requests — and there is no check-in**, so you top up after that; top-ups are 1:1 and a paid subscription unlocks a VIP group. Kimi-K3, GPT-5.6-luna, and DeepSeek V4 Pro are available. | [Register](https://zc.gcmod.cn/sign-up?aff=4wem) |
 | CheapCodex | $20 sign-up credit and $20 daily check-in during a subsidy push; GPT is billed at 2.5x, so discount the headline numbers. **The registration mail system is unreliable — check your spam folder if the verification email does not arrive.** | [Register](https://api.cheapcodex.online/register?aff=2PSJ57HNVGZW) |
 | GemAI (Hakimi Public Service) | Referral registration grants 200 credits and 13 daily check-in; pay-per-use and recommended for SillyTavern, with newer Gemini and full Claude models. | [Register](https://api.gemai.cc/sign-up?aff=8Ouk3uT6) |
 | PAI Public Image Generator | Public image-generation service with sign-up credit and gpt-image series plus light chat. | [Register](https://pai.zaiduyu.top/#/auth?ref=EA5364BCCDE4) |
@@ -32,9 +33,21 @@ These are the sites I currently track that still accept registration, ordered by
 | Jasperio | Free image generation and light chat with no extra registration; download images promptly. | [Open](https://jasperio.xyz:8848/) |
 | ze | Listed here previously as Kscsnkli AI (ai.kscsnkli.site). The operator switched the service to sub2api, so the old credit and check-in figures no longer hold and existing accounts must register again; sign-up currently grants 10,000 credits but may be reverted, and the post-switch models and billing rules are unverified. | [Register](https://ai.kscsnkli.site/register?aff=X9LDUXSBPHYE) |
 | SeekAI | Use with caution; GitHub new account gets $200 sign-up and $20 daily check-in, DeepSeek only, possibly a web proxy with unstable tool calls. | [Register](https://seekai.cc/sign-up?aff=NzMk) |
-| Yimeng 5000 | Limited registration; invite sign-up grants $10 and supports GPT-5.6-sol with Chinese models; slots are limited. | [Register](https://fapi.leileihog.top/sign-up?aff=ZR02) |
-| Xingya | Paid token-based service: a 50 Sprout-point trial on sign-up, another 80 after a referral joins the QQ group, and 20-50 points per daily check-in; **checking in now requires joining the QQ group and using the code from its highlighted messages**. 1:100 top-up ratio, about 4 tokens per request, with Claude and newer Gemini models. | [Register](https://xingya.site/sign-up?aff=SV10) |
 | TokenForge (formerly TokenGate) | Formerly TokenGate; reachable again after renaming and moving off Manus, with 50 sign-up credit and 15 per check-in. **However, testing found injection — the model only replies in English, even to Chinese prompts — plus poor reliability, so it is not recommended for real work** and is kept as a warning. | [Sign-up page](https://tokenforge.ai.studio/sign-up?aff=5dyr) |
+
+## Services that require payment
+
+All of these need a top-up for sustained use; sign-up credit only covers a trial. This is what the "Paid" tab on the page shows.
+
+| Site | Summary | Link |
+| --- | --- | --- |
+| Nofx | Paid service with $20 signup credit and **another $5 for joining the Discord**. Daily check-in gives $5, with a $50 daily cap, and GPT-5.6-sol is listed at 0.6x. | [Sign up](https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q) |
+| 247kan API | **Paid-only with no sign-up credit** — a top-up is required. Its standing discount group runs at a 0.06 rate (sometimes lower), top-ups are 1:1, and GPT-5.6-luna is available. | [Register](https://api.247kan.com/register?aff=MPVV6RM33864) |
+| Xingya | Paid token-based service: a 50 Sprout-point trial on sign-up, another 80 after a referral joins the QQ group, and 20-50 points per daily check-in; **checking in now requires joining the QQ group and using the code from its highlighted messages**. 1:100 top-up ratio, about 4 tokens per request, with Claude and newer Gemini models. | [Register](https://xingya.site/sign-up?aff=SV10) |
+| Hubway | An established relay I topped up 50 on for long-term use; registering and joining the group grants 10, top-ups are 1:10, and the advertised rate of about 0.6 works out to **roughly 0.06**. | [Register](https://hubway.cc/register?aff=H8ET6TLL4AEP) |
+| AIHub | Tested personally. Aggregates several upstreams with channel selection and **automatic failover**, which suits long continuous runs; $10 for joining the group, another $10 for an L-site review, lowest rate 0.06. | [Site](https://aihub.top/) |
+| True SOTA | Paid-service freebie: $20 on sign-up with Kiro at about a 0.35 rate. Other models and check-in are unverified. | [Register](https://true-sota.com/register?aff=7SQNRMRSXPP4) |
+| AbinAPI | Paid-service freebie: $20 for registering and joining the group, with GPT support; 1:10 top-ups, the 0.5 group at about 0.05 and **the 0.75 group at about 0.075 and steadier**. | [Register](https://www.abinapi.com/sign-up?aff=9yXf) |
 
 ## Sites with registration paused
 

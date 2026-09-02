@@ -202,6 +202,19 @@ for (const entry of siteConfig.entries) {
   if (!entry.kind) fail(`「${entry.name}」缺少 kind，新收录进「最近变更」时会没有说明`);
 }
 
+// 5g. 「公益 / 付费」分区靠 pricing 区分：只有纯付费站写 "paid"，不写即公益。
+//     写错值会被当成公益，站点静默出现在错误的分区里，所以这里卡住。
+for (const entry of [...siteConfig.entries, ...archivedEntries]) {
+  if (entry.pricing !== undefined && entry.pricing !== "paid") {
+    fail(`「${entry.name}」的 pricing 只能是 "paid" 或不写，当前是「${entry.pricing}」`);
+  }
+}
+const paidEntries = siteConfig.entries.filter((entry) => entry.pricing === "paid");
+const publicEntries = siteConfig.entries.filter((entry) => entry.pricing !== "paid");
+if (!paidEntries.length) fail("付费分区没有任何站点，切到付费会是空列表");
+if (!publicEntries.length) fail("公益分区没有任何站点，默认打开会是空列表");
+notes.push(`分区：公益 ${publicEntries.length} 个，付费 ${paidEntries.length} 个`);
+
 // 6. 两份 README 都要覆盖到每个站点。英文 README 用英文名，且两份都带直达链接，
 //    所以中文名、英文名、URL 命中任意一个就算已覆盖。
 for (const readme of ["README.md", "README_EN.md"]) {
