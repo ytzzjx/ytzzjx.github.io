@@ -14,9 +14,9 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| MotoMoto | 邀请链接注册送 50 刀（注册 30 + 邀请码 20），倍率 1x。**签到分两档：先去站点打开「数据授权」再签到约 50，不开只有 10**——授权的正式名称是训练数据授权，打开后提示词与模型输出可能被存下来用于训练，跑敏感内容建议关掉只领 10。 | [注册](https://motomoto.lol/sign-up?aff=91Tp) / [隐私政策](https://motomoto.lol/privacy) |
 | KKToken | JustWoker 站长的新站，注册送 100 刀、每日签到 20 刀，主打 Claude Opus 4.8 与 Opus 5；注册有 GitHub 限制。**Claude Code CLI 会被 CF 拦截，请改用 Claude Desktop。** | [注册](https://kktoken.cc/sign-up?aff=vrZc) |
 | JustWoker 公益站 | GitHub 账号注册满 1 年，注册送 90 刀、每日签到 20 刀，主打 Claude。 | [注册](https://api.justwoker.icu/sign-up?aff=T5tm) |
-| BaaaAI 公益站 | 公益 API 站，含少见 GPT 模型；每日在控制台申请 20 额度且需至少调用一次，并发 2。 | [注册](https://baaaai.com/register?aff=MDTFQQRGCR2X) |
 | AgentRouter | 注册送 75 刀、每日签到 25 刀；现已支持 GLM-5.3、DeepSeek V4 Flash，Claude 倍率上调、GPT-5.6-sol 倍率下调。GitHub 老号或 Linux Do 账号。 | [注册](https://agentrouter.org/register?aff=i3Xz) / [国内入口](https://ps.air-outer.com/register?aff=i3Xz) |
 | Denxio | 已复活的老站，主打 GPT。仙池活动每天 20 仙缘（与刀等值），签到 0.5-1 仙缘；注册需先去 TG 频道领登仙令注册码。 | [注册](https://api.denxio.top/register?invite_code=YP9XP5EMB68Q) / [领登仙令](https://t.me/denxio_free) |
 | AnyRouter | 邀请注册送 100、每日签到 25；GPT-5.6-sol 支持 1M 上下文。Linux Do 二级或 edu.cn 邮箱。 | [注册](https://anyrouter.top/register?aff=LJPP) |
@@ -32,8 +32,9 @@
 | Rinko NAI 生图公益站 | 专注 API 生图，使用 NAI Diffusion 模型；每日签到 25 代币，带作品广场。 | [注册](https://nai.rinko.ai/sign-up?aff=OQhG) |
 | Jasperio | 免费生图与轻量对话，无需额外注册，图片请尽快下载。 | [直达](https://jasperio.xyz:8848/) |
 | ze | 原合集里的 Kscsnkli AI（域名 ai.kscsnkli.site）。站长已把站点类型换成 sub2api，原有额度与签到数据不再准确，老账号需要重新注册；目前注册送 10,000 但可能被改回去，换型后的模型与计费规则待核实。 | [注册](https://ai.kscsnkli.site/register?aff=X9LDUXSBPHYE) |
+| BaaaAI 公益站 | **模型已经几天调不通**，已下调排序。原本主打少见 GPT 模型，每日在控制台申请 20 额度且需至少调用一次，并发 2。 | [注册](https://baaaai.com/register?aff=MDTFQQRGCR2X) |
 | SeekAI | 谨慎使用，GitHub 新号注册送 200 刀、每日签到 20 刀，仅有 DeepSeek，疑似网页反代、工具调用异常。 | [注册](https://seekai.cc/sign-up?aff=NzMk) |
-| TokenForge（tokengate） | 原 TokenGate，改名并搬离 Manus 后已恢复访问，注册送 50、每日签到 15。**但实测有注入：模型被锁成只用英文回答，中文提问也回英文；稳定性也差，不建议用于正经任务**，仅作留档与避坑参考。 | [注册页](https://tokenforge.ai.studio/sign-up?aff=5dyr) |
+| TokenForge（tokengate） | **站方莫名删除了所有用户，正在修复**，已注册的账号需重新确认。此前实测还有注入：模型被锁成只用英文回答。**两件事叠加，不建议用于正经任务**，仅作留档与避坑参考。 | [注册页](https://tokenforge.ai.studio/sign-up?aff=5dyr) |
 
 ## 需要付费的站点
 

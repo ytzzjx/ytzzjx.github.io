@@ -14,9 +14,9 @@ These are the sites I currently track that still accept registration, ordered by
 
 | Site | Summary | Link |
 | --- | --- | --- |
+| MotoMoto | Referral registration grants $50 ($30 sign-up + $20 invite code) at a 1x rate. **Check-in has two tiers: turn on "data authorisation" on the site first for about $50, or get about $10 without it** — formally it is training-data authorisation, so prompts and outputs may be stored for training; leave it off and take the $10 for sensitive work. | [Register](https://motomoto.lol/sign-up?aff=91Tp) / [Privacy policy](https://motomoto.lol/privacy) |
 | KKToken | A new service from the JustWoker operator: $100 sign-up credit, $20 daily check-in, and Claude Opus 4.8 plus Opus 5. Registration has a GitHub requirement. **Claude Code CLI requests are blocked by Cloudflare — use Claude Desktop.** | [Register](https://kktoken.cc/sign-up?aff=vrZc) |
 | JustWoker Public Service | GitHub account at least one year old; $90 sign-up credit and $20 daily check-in; focused on Claude. | [Register](https://api.justwoker.icu/sign-up?aff=T5tm) |
-| BaaaAI Public Service | Public API service with uncommon GPT models; claim 20 credits daily in the console and make at least one call, with a concurrency limit of 2. | [Register](https://baaaai.com/register?aff=MDTFQQRGCR2X) |
 | AgentRouter | $75 sign-up credit and $25 daily check-in. Now with GLM-5.3 and DeepSeek V4 Flash; Claude rates increased and GPT-5.6-sol rates decreased. Requires an older GitHub account or a Linux Do account. | [Register](https://agentrouter.org/register?aff=i3Xz) / [China access](https://ps.air-outer.com/register?aff=i3Xz) |
 | Denxio | A revived older service focused on GPT. The Xianchi event grants 20 xianyuan per day (equivalent to dollars) and check-ins add 0.5-1. Registration needs a code collected from the Telegram channel first. | [Register](https://api.denxio.top/register?invite_code=YP9XP5EMB68Q) / [Get the code](https://t.me/denxio_free) |
 | AnyRouter | Referral registration grants $100 and $25 daily check-in; GPT-5.6-sol supports a 1M context window. Linux Do level 2 or .edu.cn email. | [Register](https://anyrouter.top/register?aff=LJPP) |
@@ -32,8 +32,9 @@ These are the sites I currently track that still accept registration, ordered by
 | Rinko NAI Public Image Generator | API-focused image generation using NAI Diffusion, with a 25-token daily check-in and a public gallery. | [Register](https://nai.rinko.ai/sign-up?aff=OQhG) |
 | Jasperio | Free image generation and light chat with no extra registration; download images promptly. | [Open](https://jasperio.xyz:8848/) |
 | ze | Listed here previously as Kscsnkli AI (ai.kscsnkli.site). The operator switched the service to sub2api, so the old credit and check-in figures no longer hold and existing accounts must register again; sign-up currently grants 10,000 credits but may be reverted, and the post-switch models and billing rules are unverified. | [Register](https://ai.kscsnkli.site/register?aff=X9LDUXSBPHYE) |
+| BaaaAI Public Service | **Calls have been failing for several days**, and its ranking has been lowered. It previously offered uncommon GPT models, with 20 credits claimable daily in the console, at least one call required, and concurrency of 2. | [Register](https://baaaai.com/register?aff=MDTFQQRGCR2X) |
 | SeekAI | Use with caution; GitHub new account gets $200 sign-up and $20 daily check-in, DeepSeek only, possibly a web proxy with unstable tool calls. | [Register](https://seekai.cc/sign-up?aff=NzMk) |
-| TokenForge (formerly TokenGate) | Formerly TokenGate; reachable again after renaming and moving off Manus, with 50 sign-up credit and 15 per check-in. **However, testing found injection — the model only replies in English, even to Chinese prompts — plus poor reliability, so it is not recommended for real work** and is kept as a warning. | [Sign-up page](https://tokenforge.ai.studio/sign-up?aff=5dyr) |
+| TokenForge (formerly TokenGate) | **The operator deleted every user account and is repairing the service**, so existing accounts need re-checking. Testing had already found injection — the model only replies in English. **Between the two, it is not recommended for real work** and is kept as a warning. | [Sign-up page](https://tokenforge.ai.studio/sign-up?aff=5dyr) |
 
 ## Services that require payment
 
