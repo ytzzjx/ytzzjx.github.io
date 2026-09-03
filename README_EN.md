@@ -48,7 +48,7 @@ All of these need a top-up for sustained use; sign-up credit only covers a trial
 | Hubway | An established relay I topped up 50 on for long-term use; registering and joining the group grants 10, top-ups are 1:10, and the advertised rate of about 0.6 works out to **roughly 0.06**. | [Register](https://hubway.cc/register?aff=H8ET6TLL4AEP) |
 | AIHub | Tested personally. Aggregates several upstreams with channel selection and **automatic failover**, which suits long continuous runs; $10 for joining the group, another $10 for an L-site review, lowest rate 0.06. | [Site](https://aihub.top/) |
 | True SOTA | Paid-service freebie: $20 on sign-up with Kiro at about a 0.35 rate. Other models and check-in are unverified. | [Register](https://true-sota.com/register?aff=7SQNRMRSXPP4) |
-| AbinAPI | Paid-service freebie: $20 for registering and joining the group, with GPT support; 1:10 top-ups, the 0.5 group at about 0.05 and **the 0.75 group at about 0.075 and steadier**. | [Register](https://www.abinapi.com/sign-up?aff=9yXf) |
+| AbinAPI | **Promotion period**: after registering, join the official QQ group 547911817 and send "/试用 your-username" for **$15**, credited instantly; there is also a **daily check-in of 1-10 yuan**. GPT supported, 1:10 top-ups, the 0.5 group at about 0.05 and **the 0.75 group at about 0.075 and steadier**. | [Register](https://www.abinapi.com/sign-up?aff=9yXf) |
 
 ## Sites with registration paused
 
