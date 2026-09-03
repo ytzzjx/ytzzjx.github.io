@@ -9,13 +9,12 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Nofx",
     "MotoMoto",
     "KKToken",
     "JustWoker 公益站",
     "AgentRouter",
-    "Denxio",
     "AnyRouter",
-    "Nofx",
     "Fate New API",
     "TabiToken",
     "GoRouter",
@@ -30,6 +29,7 @@ const siteConfig = {
     "Rinko NAI 生图公益站",
     "Jasperio",
     "ze",
+    "Denxio",
     "BaaaAI 公益站",
     "SeekAI",
     "Xingya",
@@ -182,22 +182,24 @@ const siteConfig = {
     {
       publishedAt: "2026-08-31 00:00",
       addedAt: "2026-08-31",
-      kind: "老站复活 / GPT",
+      updatedAt: "2026-09-02",
+      updateNote: "上游号池全部被封，公益服务已停，排序下调。",
+      kind: "公益服务已停 / 上游号池被封",
       name: "Denxio",
-      summary: "已复活的老站，主打 GPT。参加仙池活动每天可得 20 仙缘（仙缘与刀等值），签到另得 0.5-1 仙缘；注册需要先去 Telegram 领登仙令。",
+      summary: "上游号池全部被封，公益服务已经停了，排序已下调。原本主打 GPT，仙池活动每天 20 仙缘（仙缘与刀等值），签到另得 0.5-1 仙缘；注册需先去 Telegram 领登仙令。",
       details:
-        "注册要两个码：邀请码已经带在下面的注册链接里，注册码（登仙令）要自己去 Telegram 领。进频道 t.me/denxio_free 的登仙令分区，向 @JieYin_bot 发送「登仙令」即可拿到，再回注册页填上完成注册。额度主要来自仙池活动，每天 20 仙缘，最近几天每天都开放；开放通知发在 Telegram 频道和 QQ 群，需要自己盯。",
+        "有人拿这个站做涩情内容和模型蒸馏，站方买来做上游的 Pro 号因此全部被封，公益服务随之停止。注册页仍可访问。原有机制：注册要两个码，邀请码已经带在下面的注册链接里，注册码（登仙令）要自己去 Telegram 领——进频道 t.me/denxio_free 的登仙令分区，向 @JieYin_bot 发送「登仙令」即可拿到，再回注册页填上完成注册。额度主要来自仙池活动，每天 20 仙缘；开放通知发在 Telegram 频道和 QQ 群。",
       registration: "注册链接已含邀请码；另需去 Telegram 频道 t.me/denxio_free 的登仙令分区向 @JieYin_bot 发送「登仙令」领取注册码。",
-      signupBonus: "仙池活动每天 20 仙缘（与刀等值）",
-      dailyCheckin: "0.5-1 仙缘",
-      models: "GPT",
-      experience: "老站复活，稳定性待观察",
-      caveat: "注册码（登仙令）必须去 Telegram 领，没有就注册不了。仙池最近每天开放，但是否长期每天开放没有保证，开放通知只发在 Telegram 频道和 QQ 群。刚复活，稳定性和额度规则都可能变，请以站内和群内公告为准。",
-      benefits: ["老站复活", "GPT", "仙池每天 20 仙缘", "仙缘与刀等值", "签到 0.5-1 仙缘", "需 TG 领登仙令"],
+      signupBonus: "原为仙池活动每天 20 仙缘（与刀等值）",
+      dailyCheckin: "原为 0.5-1 仙缘",
+      models: "原为 GPT",
+      experience: "上游号池被封，公益服务已停",
+      caveat: "有人用这个站做涩情内容和蒸馏，把站方的上游 Pro 号全搞封了，公益服务已停，恢复情况请看 Telegram 频道和 QQ 群公告。原有门槛：注册码（登仙令）必须去 Telegram 领，没有就注册不了；仙池的开放通知也只发在 Telegram 频道和 QQ 群。",
+      benefits: ["公益服务已停", "上游号池被封", "GPT", "原仙池每天 20 仙缘", "原签到 0.5-1 仙缘", "需 TG 领登仙令"],
       url: "https://api.denxio.top/register?invite_code=YP9XP5EMB68Q",
       tutorialUrl: "https://t.me/denxio_free",
-      tutorialLabel: "进 Telegram 频道领取登仙令注册码",
-      tone: "active",
+      tutorialLabel: "进 Telegram 频道看恢复公告、领登仙令注册码",
+      tone: "caution",
     },
     {
       publishedAt: "2026-08-20 18:05",
@@ -393,7 +395,7 @@ const siteConfig = {
       experience: "模型覆盖广，具体可用性以站内状态为准",
       caveat: "近期曾清理一批此前注册的账号；老账号可以再走一遍注册链接。签到金额、模型可用性、倍率和服务规则也可能调整，请以站内实际说明为准。",
       benefits: ["NodeLoc 注册", "注册送 150 刀", "每日签到", "全模型", "老账号可重新走注册链接"],
-      url: "https://fatenewapi.xxxxo.bond/sign-up?aff=DW0d",
+      url: "https://fatenewapi.xxxxo.bond/sign-up?aff=eZHA",
       tone: "active",
     },
     {
@@ -603,21 +605,20 @@ const siteConfig = {
     },
     {
       publishedAt: "2026-08-28 00:00",
-      updatedAt: "2026-08-30",
-      updateNote: "加入 Discord 另送 5 刀；同时上调了排序位置。",
-      kind: "付费站 / 可用",
-      pricing: "paid",
+      updatedAt: "2026-09-02",
+      updateNote: "站内没找到充值入口，改归公益区并排到最前面。",
+      kind: "公益区 / 未见充值入口",
       name: "Nofx",
-      summary: "付费站；注册链接可得 20 刀，加入 Discord 另送 5 刀，日签到 5 刀（上限 50），GPT-5.6-sol 0.6x。",
+      summary: "注册链接可得 20 刀，加入 Discord 另送 5 刀，日签到 5 刀（上限 50），GPT-5.6-sol 0.6x；站内没找到充值入口，已归到公益区。",
       details:
-        "该站为付费服务但可用。注册链接可领 20 刀，加入 Discord 后另送 5 刀，日签到 5 刀（当日上限 50），GPT-5.6-sol 显示倍率 0.6x。除专业开发者外，日常用量通常够用。",
+        "此前按付费站收录，但站内没找到充值入口，所以改归公益区。注册链接可领 20 刀，加入 Discord 后另送 5 刀，日签到 5 刀（当日上限 50），GPT-5.6-sol 显示倍率 0.6x。除专业开发者外，日常用量通常够用。",
       registration: "使用邀请注册链接注册；注册后加入 Discord 可再领 5 刀。",
       signupBonus: "20 刀（+ Discord 5 刀）",
       dailyCheckin: "5 刀（上限 50）",
       models: "GPT-5.6-sol",
-      experience: "付费站，当前可用；对非专业开发者来说日常量够用",
-      caveat: "付费站；请以站内公告和实际调用为准，签到上限与倍率可能调整。",
-      benefits: ["付费站", "注册链接 ref=PWF8Z79Q", "注册送 20 刀", "进 Discord 另送 5 刀", "每日签到 5（签到上限 50）", "GPT-5.6-sol 0.6x"],
+      experience: "当前可用；对非专业开发者来说日常量够用",
+      caveat: "站内没找到充值入口，是否真的不支持充值以站内实际显示为准。签到上限与倍率可能调整，请以站内公告和实际调用为准。",
+      benefits: ["未见充值入口", "注册链接 ref=PWF8Z79Q", "注册送 20 刀", "进 Discord 另送 5 刀", "每日签到 5（签到上限 50）", "GPT-5.6-sol 0.6x"],
       url: "https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q",
       tone: "active",
     },
@@ -657,6 +658,8 @@ const pageCopy = {
     feedTitle: "站点推荐",
     sectionNote: "整张卡片均可点击",
     disclaimer: siteConfig.disclaimer,
+    usageNotice:
+      "另外提醒：不建议拿中转站的模型做逆向、蒸馏、涩情等操作，除非站点明确公告不禁止。这类用法会把站方买来的上游账号搞封，最后是整站的人一起没得用——登仙站就是这么停的。",
     documentTitle: "公益中转分享 | 站点与福利导航",
     metaDescription: "公益中转分享，集中整理注册方式、活动福利、模型信息与风险提示。",
     lastUpdated: "更新于",
@@ -715,6 +718,8 @@ const pageCopy = {
     sectionNote: "Click anywhere on a card",
     disclaimer:
       "Bonuses, check-in rewards, and model availability are for reference only. Rules may change at any time; verify details on each service before use.",
+    usageNotice:
+      "One more thing: do not use a relay service's models for reverse engineering, distillation, or pornographic content unless the service explicitly says it allows them. That kind of use gets the upstream accounts the operator paid for banned, and everyone on the service loses access — it is exactly how Denxio's free service stopped.",
     documentTitle: "Public AI API Directory | Services and bonuses",
     metaDescription:
       "A maintained directory of AI API services with registration requirements, bonuses, model availability, and risk notes.",
@@ -908,21 +913,22 @@ const entryTranslations = {
     benefits: ["$20 sign-up credit", "$20 daily check-in", "Subsidy phase", "GPT 2.5x rate", "Mail may land in spam"],
   },
   Denxio: {
-    kind: "Revived service / GPT",
+    kind: "Free service stopped / upstream pool banned",
+    updateNote: "The entire upstream account pool was banned and the free service has stopped; ranking lowered.",
     summary:
-      "A revived older service focused on GPT. The Xianchi (仙池) event grants 20 xianyuan per day — xianyuan is equivalent to dollars — and daily check-ins add 0.5-1. Registration requires a code obtained from Telegram first.",
+      "The entire upstream account pool was banned, so the free service has stopped and its ranking has been lowered. It previously focused on GPT, with the Xianchi (仙池) event granting 20 xianyuan per day — xianyuan is equivalent to dollars — plus 0.5-1 from daily check-ins. Registration required a code obtained from Telegram first.",
     details:
-      "Two codes are needed. The referral code is already part of the registration link below; the registration code (dengxianling, 登仙令) has to be collected from Telegram. Join the t.me/denxio_free channel, go to the dengxianling section, send \"登仙令\" to @JieYin_bot to receive the code, then return to the registration page to finish signing up. Credit comes mainly from the Xianchi event at 20 xianyuan per day, which has been open daily in recent days. Opening announcements are posted only in the Telegram channel and the QQ group, so you have to watch for them.",
+      "Someone used the service for pornographic content and model distillation, which got the Pro accounts the operator had bought as upstream banned across the board, and the free service stopped as a result. The registration page is still reachable. The original mechanics: two codes are needed — the referral code is already part of the registration link below, while the registration code (dengxianling, 登仙令) has to be collected from Telegram by joining the t.me/denxio_free channel, going to the dengxianling section, and sending \"登仙令\" to @JieYin_bot, then returning to the registration page. Credit came mainly from the Xianchi event at 20 xianyuan per day, with opening announcements posted only in the Telegram channel and the QQ group.",
     registration:
       "The registration link already contains the referral code. You also need a registration code: join the Telegram channel t.me/denxio_free, go to the dengxianling section, and send \"登仙令\" to @JieYin_bot.",
-    signupBonus: "20 xianyuan per day from the Xianchi event (equivalent to dollars)",
-    dailyCheckin: "0.5-1 xianyuan",
-    models: "GPT",
-    experience: "Recently revived; stability still unproven",
+    signupBonus: "Previously 20 xianyuan per day from the Xianchi event (equivalent to dollars)",
+    dailyCheckin: "Previously 0.5-1 xianyuan",
+    models: "Previously GPT",
+    experience: "Upstream account pool banned; the free service has stopped",
     caveat:
-      "The registration code must be collected from Telegram — without it you cannot register. The Xianchi event has been open daily recently, but there is no guarantee it stays that way, and announcements appear only in the Telegram channel and QQ group. The service was just revived, so stability and credit rules may change; rely on the announcements in the service and the groups.",
-    benefits: ["Revived service", "GPT", "20 xianyuan/day from Xianchi", "Xianyuan equals dollars", "0.5-1 check-in", "Telegram code required"],
-    tutorialLabel: "Join the Telegram channel to collect the registration code",
+      "Someone used the service for pornographic content and distillation, which got the operator's upstream Pro accounts banned; the free service has stopped — watch the Telegram channel and QQ group for recovery announcements. The original requirements: the registration code had to be collected from Telegram, without which you cannot register, and Xianchi opening announcements were posted only in the Telegram channel and QQ group.",
+    benefits: ["Free service stopped", "Upstream pool banned", "GPT", "Previously 20 xianyuan/day", "Previously 0.5-1 check-in", "Telegram code required"],
+    tutorialLabel: "Join the Telegram channel for recovery news and the registration code",
   },
   "JustWoker 公益站": {
     kind: "New public service / currently tryable",
@@ -1189,19 +1195,19 @@ const entryTranslations = {
     benefits: ["$200 sign-up credit", "$20 daily check-in", "DeepSeek only", "Possible web proxy", "Tool-calling issues"],
   },
   Nofx: {
-    kind: "Paid service / usable",
+    kind: "Free tab / no top-up option found",
     name: "Nofx",
-    updateNote: "Joining the Discord grants another $5; also moved up in the ordering.",
-    summary: "Paid service: $20 signup credit plus $5 for joining the Discord. Daily check-in is $5 with a $50 daily max. GPT-5.6-sol is available at 0.6x.",
+    updateNote: "No top-up option was found on the site, so it moved to the free tab and to the front of the list.",
+    summary: "$20 signup credit plus $5 for joining the Discord. Daily check-in is $5 with a $50 daily max, and GPT-5.6-sol is available at 0.6x. No top-up option was found on the site, so it is listed under the free tab.",
     details:
-      "This is a paid service but currently usable. New users receive $20 on signup and another $5 after joining the Discord, daily check-in earns $5 with a $50 cap, and GPT-5.6-sol is listed at 0.6x. Outside of heavy professional development, the daily allowance is usually enough.",
+      "It was previously listed as a paid service, but no top-up option could be found on the site, so it has moved to the free tab. New users receive $20 on signup and another $5 after joining the Discord, daily check-in earns $5 with a $50 cap, and GPT-5.6-sol is listed at 0.6x. Outside of heavy professional development, the daily allowance is usually enough.",
     registration: "Register via referral link, then join the Discord to claim another $5.",
     signupBonus: "$20 credit (+$5 Discord)",
     dailyCheckin: "$5 (daily cap $50)",
     models: "GPT-5.6-sol",
-    experience: "Paid service, currently usable; the daily allowance suits non-professional use",
-    caveat: "This is a paid service. Please verify check-in cap and multiplier in the latest site notices.",
-    benefits: ["Paid service", "Referral link ref=PWF8Z79Q", "$20 signup credit", "$5 for joining Discord", "$5 daily check-in", "Daily cap $50", "GPT-5.6-sol 0.6x"],
+    experience: "Currently usable; the daily allowance suits non-professional use",
+    caveat: "No top-up option was found on the site; whether it genuinely does not accept top-ups is best confirmed there. The check-in cap and multiplier may change — verify in the latest site notices.",
+    benefits: ["No top-up found", "Referral link ref=PWF8Z79Q", "$20 signup credit", "$5 for joining Discord", "$5 daily check-in", "Daily cap $50", "GPT-5.6-sol 0.6x"],
   },
 
   "一梦五千年": {
@@ -1647,6 +1653,7 @@ const renderPage = () => {
   applyText("[data-footer]", copy.brand);
   applyText("[data-last-updated]", `${copy.lastUpdated} ${siteConfig.lastUpdated.replaceAll("-", ".")}`);
   applyText("[data-disclaimer]", copy.disclaimer);
+  applyText("[data-usage-notice]", copy.usageNotice);
 
   brandLink?.setAttribute("aria-label", copy.backToTop);
   languageSwitcher?.setAttribute("aria-label", copy.languageLabel);

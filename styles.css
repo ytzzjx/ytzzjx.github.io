@@ -699,6 +699,20 @@ h3 {
   line-height: 1.6;
 }
 
+/* 使用守则的提醒：跟免责声明分开一段，左侧加条竖线，比免责声明更需要被看见。 */
+.site-notice {
+  margin: 0 0 26px;
+  padding: 12px 14px;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--cyan);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
 .pricing-switcher {
   height: 32px;
   display: inline-flex;
