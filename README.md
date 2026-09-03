@@ -16,11 +16,11 @@
 | --- | --- | --- |
 | Nofx | 注册链接注册送 20，**加入 Discord 另送 5**，每天可签到 5（签到上限 50），GPT-5.6-sol 可用且倍率 0.6x；站内没找到充值入口，已归到公益区。 | [注册链接](https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q) |
 | MotoMoto | 邀请链接注册送 50 刀（注册 30 + 邀请码 20），倍率 1x。**签到分两档：先去站点打开「数据授权」再签到约 50，不开只有 10**——授权的正式名称是训练数据授权，打开后提示词与模型输出可能被存下来用于训练，跑敏感内容建议关掉只领 10。 | [注册](https://motomoto.lol/sign-up?aff=91Tp) / [隐私政策](https://motomoto.lol/privacy) |
+| Fate New API | 通过 NodeLoc 注册，注册送 150 刀，有每日签到，支持全模型。**注意不使用好像会被删号**，删了重新走注册链接再注册一遍即可。 | [注册](https://fatenewapi.xxxxo.bond/sign-up?aff=eZHA) |
 | KKToken | JustWoker 站长的新站，注册送 100 刀、每日签到 20 刀，主打 Claude Opus 4.8 与 Opus 5；注册有 GitHub 限制。**Claude Code CLI 会被 CF 拦截，请改用 Claude Desktop。** | [注册](https://kktoken.cc/sign-up?aff=vrZc) |
 | JustWoker 公益站 | GitHub 账号注册满 1 年，注册送 90 刀、每日签到 20 刀，主打 Claude。 | [注册](https://api.justwoker.icu/sign-up?aff=T5tm) |
 | AgentRouter | 注册送 75 刀、每日签到 25 刀；现已支持 GLM-5.3、DeepSeek V4 Flash，Claude 倍率上调、GPT-5.6-sol 倍率下调。GitHub 老号或 Linux Do 账号。 | [注册](https://agentrouter.org/register?aff=i3Xz) / [国内入口](https://ps.air-outer.com/register?aff=i3Xz) |
 | AnyRouter | 邀请注册送 100、每日签到 25；GPT-5.6-sol 支持 1M 上下文。Linux Do 二级或 edu.cn 邮箱。 | [注册](https://anyrouter.top/register?aff=LJPP) |
-| Fate New API | 通过 NodeLoc 注册，注册送 150 刀，有每日签到，支持全模型。近期清理过一批账号，老账号可以再走一遍注册链接。 | [注册](https://fatenewapi.xxxxo.bond/sign-up?aff=eZHA) |
 | TabiToken | 当前开放，注册送 120 刀、每日签到 5-10 刀，支持 Claude Opus 4.8 与 Opus 5。 | [注册](https://tabitoken.com/sign-up?aff=AQDR) |
 | GoRouter | 当前开放，注册送 70 刀、每日签到 5-10 刀，支持 Claude Opus 4.8 与 Opus 5；**近期稳定性下降，建议留备用线路**。 | [注册](https://gorouter.app/sign-up?aff=e9NL) |
 | 北执半公益站 | 半公益站，仅支持主流邮箱注册，有统一 OpenAI 格式接口，签到额度较多，含 Gemini 新模型和 Claude。 | [注册](https://beizhi.sylu.cc/sign-up?aff=hk5Q) |
