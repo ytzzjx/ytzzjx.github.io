@@ -24,6 +24,7 @@
 | TabiToken | 当前开放，注册送 120 刀、每日签到 5-10 刀，支持 Claude Opus 4.8 与 Opus 5。 | [注册](https://tabitoken.com/sign-up?aff=AQDR) |
 | GoRouter | 当前开放，注册送 70 刀、每日签到 5-10 刀，支持 Claude Opus 4.8 与 Opus 5；**近期稳定性下降，建议留备用线路**。 | [注册](https://gorouter.app/sign-up?aff=e9NL) |
 | 北执半公益站 | 半公益站，仅支持主流邮箱注册，有统一 OpenAI 格式接口，签到额度较多，含 Gemini 新模型和 Claude。 | [注册](https://beizhi.sylu.cc/sign-up?aff=hk5Q) |
+| GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1。注册送 1 块试水；订阅两档很划算——5 元每周重置 30 元额度，**20 元每天重置 300 元额度**（每天约三万次请求）。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://zc.gcmod.cn/sign-up?aff=4wem) |
 | 一梦五千年 | **注册已重新开放**，不再限量，但**只能用 GitHub、Linux Do 或 Discord 账号注册**，不支持邮箱；注册送 10 刀，GPT-5.6-sol 与 GPT-5.6-luna 为 1x 倍率，另有国产模型。 | [注册](https://fapi.leileihog.top/sign-up?aff=ZR02) |
 | CheapCodex | 注册送 20 刀、每日签到 20 刀，目前在百亿补贴阶段；GPT 倍率 2.5x 偏贵，赠送要按倍率折算。**注册邮件系统有问题，收不到验证邮件请翻垃圾箱。** | [注册](https://api.cheapcodex.online/register?aff=2PSJ57HNVGZW) |
 | GemAI（哈基米公益站） | 邀请链接注册，注册送 200、每日签到 13，按次计费，推荐酒馆用户，含 Gemini 新模型与 Claude。 | [注册](https://api.gemai.cc/sign-up?aff=8Ouk3uT6) |
@@ -42,7 +43,6 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1，充值订阅解锁 VIP 分组。注册送 1 块约一百次请求，**但没有签到**，用完需自行充值。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://zc.gcmod.cn/sign-up?aff=4wem) |
 | 247看 API | **纯付费站，注册没有赠送**，需自行充值。常驻特惠分组倍率 0.06（有时更低），充值 1:1，含 GPT-5.6-luna。 | [注册](https://api.247kan.com/register?aff=MPVV6RM33864) |
 | Xingya | 付费代币站，注册领试吃 50 芽点，邀请好友注册并加入 QQ 群再送 80 芽点，每日签到 20-50 芽点；**签到需先进 QQ 群，在群精华里取签到码**。充值比例 1:100，按次计费约 4 代币/请求，含小克与 Gemini 新模型。 | [注册](https://xingya.site/sign-up?aff=SV10) |
 | Hubway | 老牌中转，本人充值 50 长期自用；注册并进群送 10，充值比例 1:10，标示倍率约 0.6 但**实际约 0.06**。 | [注册](https://hubway.cc/register?aff=H8ET6TLL4AEP) |
