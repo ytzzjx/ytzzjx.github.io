@@ -26,7 +26,6 @@
 | 北执半公益站 | 半公益站，仅支持主流邮箱注册，有统一 OpenAI 格式接口，签到额度较多，含 Gemini 新模型和 Claude。 | [注册](https://beizhi.sylu.cc/sign-up?aff=hk5Q) |
 | GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1。注册送 1 块试水；订阅两档很划算——5 元每周重置 30 元额度，**20 元每天重置 300 元额度**（每天约三万次请求）。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://zc.gcmod.cn/sign-up?aff=4wem) |
 | 一梦五千年 | **注册已重新开放**，不再限量，但**只能用 GitHub、Linux Do 或 Discord 账号注册**，不支持邮箱；注册送 10 刀，GPT-5.6-sol 与 GPT-5.6-luna 为 1x 倍率，另有国产模型。 | [注册](https://fapi.leileihog.top/sign-up?aff=ZR02) |
-| CheapCodex | 注册送 20 刀、每日签到 20 刀，目前在百亿补贴阶段；GPT 倍率 2.5x 偏贵，赠送要按倍率折算。**注册邮件系统有问题，收不到验证邮件请翻垃圾箱。** | [注册](https://api.cheapcodex.online/register?aff=2PSJ57HNVGZW) |
 | GemAI（哈基米公益站） | 邀请链接注册，注册送 200、每日签到 13，按次计费，推荐酒馆用户，含 Gemini 新模型与 Claude。 | [注册](https://api.gemai.cc/sign-up?aff=8Ouk3uT6) |
 | PAI 生图公益站 | 公益生图站，登录送额度，含 gpt-image 系列与轻量对话。 | [注册](https://pai.zaiduyu.top/#/auth?ref=EA5364BCCDE4) |
 | Rinko NAI 生图公益站 | 专注 API 生图，使用 NAI Diffusion 模型；每日签到 25 代币，带作品广场。 | [注册](https://nai.rinko.ai/sign-up?aff=OQhG) |
@@ -49,6 +48,7 @@
 | AIHub | 本人实测，聚合多家上游可自选渠道，**渠道异常时自动切换**，适合持续工作；进群送 10 刀，L 站好评再送 10 刀，最低倍率 0.06。 | [站点](https://aihub.top/) |
 | True SOTA | 付费站羊毛，注册即送 20 刀，Kiro 约 0.35 倍率；其他模型与签到未核实。 | [注册](https://true-sota.com/register?aff=7SQNRMRSXPP4) |
 | AbinAPI | **推广期**：注册后加入官方 QQ 群 547911817，群内发送「/试用 你的用户名」**送 15 刀**，秒到账；另有**每日签到 1-10 元**。支持 GPT，充值比例 1:10，0.5 分组约 0.05，**0.75 分组约 0.075 且相对更稳**。 | [注册](https://www.abinapi.com/sign-up?aff=9yXf) |
+| CheapCodex | **玩不起**：百亿补贴已取消，**每日签到等福利都没了**，注册送的 20 刀应该还在。GPT 倍率 2.5x 偏贵，赠送要按倍率折算。注册邮件系统有问题，收不到验证邮件请翻垃圾箱。 | [注册](https://api.cheapcodex.online/register?aff=2PSJ57HNVGZW) |
 
 ## 暂停注册的站点
 
