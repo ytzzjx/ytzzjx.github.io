@@ -27,6 +27,7 @@
 | 北执半公益站 | 半公益站，仅支持主流邮箱注册，有统一 OpenAI 格式接口，签到额度较多，含 Gemini 新模型和 Claude。 | [注册](https://beizhi.sylu.cc/sign-up?aff=hk5Q) |
 | GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1。注册送 1 块，**现已开签到，每天约 1 毛（约十次请求）**；订阅两档也划算——5 元每周重置 30 元额度，**20 元每天重置 300 元额度**（每天约三万次请求）。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://zc.gcmod.cn/sign-up?aff=4wem) |
 | 一梦五千年 | **注册已重新开放**，不再限量，但**只能用 GitHub、Linux Do 或 Discord 账号注册**，不支持邮箱；注册送 10 刀，GPT-5.6-sol 与 GPT-5.6-luna 为 1x 倍率，另有国产模型。 | [注册](https://fapi.leileihog.top/sign-up?aff=ZR02) |
+| TokenForge（tokengate） | **已恢复正常，每日签到 20 刀**；账号被站方清空过，**需要重新注册**。此前实测的注入（模型被锁成只用英文回答）没有复测，第一次调用时用中文问一句自己验一下。 | [注册](https://tokenforge.ai.studio/sign-up?aff=iheu) |
 | GemAI（哈基米公益站） | 邀请链接注册，注册送 200、每日签到 13，按次计费，推荐酒馆用户，含 Gemini 新模型与 Claude。 | [注册](https://api.gemai.cc/sign-up?aff=8Ouk3uT6) |
 | PAI 生图公益站 | 公益生图站，登录送额度，含 gpt-image 系列与轻量对话。 | [注册](https://pai.zaiduyu.top/#/auth?ref=EA5364BCCDE4) |
 | Rinko NAI 生图公益站 | 专注 API 生图，使用 NAI Diffusion 模型；每日签到 25 代币，带作品广场。 | [注册](https://nai.rinko.ai/sign-up?aff=OQhG) |
@@ -34,7 +35,6 @@
 | Denxio | **有人拿它做涩情和蒸馏，站方上游 Pro 号全被封，公益服务已停**，恢复情况看 TG 频道与 QQ 群公告，排序已下调。原本主打 GPT，仙池活动每天 20 仙缘（与刀等值），签到 0.5-1 仙缘；注册需先去 TG 领登仙令。 | [注册](https://api.denxio.top/register?invite_code=YP9XP5EMB68Q) / [TG 频道](https://t.me/denxio_free) |
 | BaaaAI 公益站 | **模型已经几天调不通**，已下调排序。原本主打少见 GPT 模型，每日在控制台申请 20 额度且需至少调用一次，并发 2。 | [注册](https://baaaai.com/register?aff=MDTFQQRGCR2X) |
 | SeekAI | 谨慎使用，GitHub 新号注册送 200 刀、每日签到 20 刀，仅有 DeepSeek，疑似网页反代、工具调用异常。 | [注册](https://seekai.cc/sign-up?aff=NzMk) |
-| TokenForge（tokengate） | **站方莫名删除了所有用户，正在修复**，已注册的账号需重新确认。此前实测还有注入：模型被锁成只用英文回答。**两件事叠加，不建议用于正经任务**，仅作留档与避坑参考。 | [注册页](https://tokenforge.ai.studio/sign-up?aff=5dyr) |
 
 ## 需要付费的站点
 
