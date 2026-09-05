@@ -25,7 +25,7 @@
 | TabiToken | 当前开放，注册送 120 刀、每日签到 5-10 刀，支持 Claude Opus 4.8 与 Opus 5。 | [注册](https://tabitoken.com/sign-up?aff=AQDR) |
 | GoRouter | 当前开放，注册送 70 刀、每日签到 5-10 刀，支持 Claude Opus 4.8 与 Opus 5；**近期稳定性下降，建议留备用线路**。 | [注册](https://gorouter.app/sign-up?aff=e9NL) |
 | 北执半公益站 | 半公益站，仅支持主流邮箱注册，有统一 OpenAI 格式接口，签到额度较多，含 Gemini 新模型和 Claude。 | [注册](https://beizhi.sylu.cc/sign-up?aff=hk5Q) |
-| GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1。注册送 1 块试水；订阅两档很划算——5 元每周重置 30 元额度，**20 元每天重置 300 元额度**（每天约三万次请求）。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://zc.gcmod.cn/sign-up?aff=4wem) |
+| GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1。注册送 1 块，**现已开签到，每天约 1 毛（约十次请求）**；订阅两档也划算——5 元每周重置 30 元额度，**20 元每天重置 300 元额度**（每天约三万次请求）。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://zc.gcmod.cn/sign-up?aff=4wem) |
 | 一梦五千年 | **注册已重新开放**，不再限量，但**只能用 GitHub、Linux Do 或 Discord 账号注册**，不支持邮箱；注册送 10 刀，GPT-5.6-sol 与 GPT-5.6-luna 为 1x 倍率，另有国产模型。 | [注册](https://fapi.leileihog.top/sign-up?aff=ZR02) |
 | GemAI（哈基米公益站） | 邀请链接注册，注册送 200、每日签到 13，按次计费，推荐酒馆用户，含 Gemini 新模型与 Claude。 | [注册](https://api.gemai.cc/sign-up?aff=8Ouk3uT6) |
 | PAI 生图公益站 | 公益生图站，登录送额度，含 gpt-image 系列与轻量对话。 | [注册](https://pai.zaiduyu.top/#/auth?ref=EA5364BCCDE4) |
