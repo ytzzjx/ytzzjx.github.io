@@ -14,6 +14,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| ze（芙芙中转站） | **换回 NewAPI 后需重新注册**，注册送 **60 万**额度；**额度主要靠去论坛 [bbs.kscsnkli.site](https://bbs.kscsnkli.site/) 做任务赚**，也有签到。模型有 GLM-5.3-Flash、GPT-5.6-sol、DeepSeek V4 Pro、GLM-5.2 与 Kimi-K3。 | [注册](https://ai.kscsnkli.site/sign-up?aff=av7W) / [论坛](https://bbs.kscsnkli.site/) |
 | Nofx | 注册链接注册送 20，**加入 Discord 另送 5**，每天可签到 5（签到上限 50），GPT-5.6-sol 可用且倍率 0.6x；站内没找到充值入口，已归到公益区。 | [注册链接](https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q) |
 | MotoMoto | 邀请链接注册送 50 刀（注册 30 + 邀请码 20），倍率 1x。**签到分两档：先去站点打开「数据授权」再签到约 50，不开只有 10**——授权的正式名称是训练数据授权，打开后提示词与模型输出可能被存下来用于训练，跑敏感内容建议关掉只领 10。 | [注册](https://motomoto.lol/sign-up?aff=91Tp) / [隐私政策](https://motomoto.lol/privacy) |
 | Fate New API | 通过 NodeLoc 注册，注册送 150 刀，有每日签到，支持全模型。**注意不使用好像会被删号**，删了重新走注册链接再注册一遍即可。 | [注册](https://fatenewapi.xxxxo.bond/sign-up?aff=eZHA) |
@@ -30,7 +31,6 @@
 | PAI 生图公益站 | 公益生图站，登录送额度，含 gpt-image 系列与轻量对话。 | [注册](https://pai.zaiduyu.top/#/auth?ref=EA5364BCCDE4) |
 | Rinko NAI 生图公益站 | 专注 API 生图，使用 NAI Diffusion 模型；每日签到 25 代币，带作品广场。 | [注册](https://nai.rinko.ai/sign-up?aff=OQhG) |
 | Jasperio | 免费生图与轻量对话，无需额外注册，图片请尽快下载。 | [直达](https://jasperio.xyz:8848/) |
-| ze（芙芙中转站） | **已从 sub2api 换回 NewAPI**，模型状态和模型列表比之前直观得多，定价页也回来了；站内自称「异常芙芙公益」。注册链接已更新，注册需邮箱验证；换回后的赠送与签到数额未核实，以站内显示为准。 | [注册](https://ai.kscsnkli.site/sign-up?aff=av7W) / [定价页](https://ai.kscsnkli.site/pricing) |
 | Denxio | **有人拿它做涩情和蒸馏，站方上游 Pro 号全被封，公益服务已停**，恢复情况看 TG 频道与 QQ 群公告，排序已下调。原本主打 GPT，仙池活动每天 20 仙缘（与刀等值），签到 0.5-1 仙缘；注册需先去 TG 领登仙令。 | [注册](https://api.denxio.top/register?invite_code=YP9XP5EMB68Q) / [TG 频道](https://t.me/denxio_free) |
 | BaaaAI 公益站 | **模型已经几天调不通**，已下调排序。原本主打少见 GPT 模型，每日在控制台申请 20 额度且需至少调用一次，并发 2。 | [注册](https://baaaai.com/register?aff=MDTFQQRGCR2X) |
 | SeekAI | 谨慎使用，GitHub 新号注册送 200 刀、每日签到 20 刀，仅有 DeepSeek，疑似网页反代、工具调用异常。 | [注册](https://seekai.cc/sign-up?aff=NzMk) |
