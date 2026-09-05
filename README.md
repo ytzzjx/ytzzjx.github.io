@@ -30,7 +30,7 @@
 | PAI 生图公益站 | 公益生图站，登录送额度，含 gpt-image 系列与轻量对话。 | [注册](https://pai.zaiduyu.top/#/auth?ref=EA5364BCCDE4) |
 | Rinko NAI 生图公益站 | 专注 API 生图，使用 NAI Diffusion 模型；每日签到 25 代币，带作品广场。 | [注册](https://nai.rinko.ai/sign-up?aff=OQhG) |
 | Jasperio | 免费生图与轻量对话，无需额外注册，图片请尽快下载。 | [直达](https://jasperio.xyz:8848/) |
-| ze | 原合集里的 Kscsnkli AI（域名 ai.kscsnkli.site）。站长已把站点类型换成 sub2api，原有额度与签到数据不再准确，老账号需要重新注册；目前注册送 10,000 但可能被改回去，换型后的模型与计费规则待核实。 | [注册](https://ai.kscsnkli.site/register?aff=X9LDUXSBPHYE) |
+| ze（芙芙中转站） | **已从 sub2api 换回 NewAPI**，模型状态和模型列表比之前直观得多，定价页也回来了；站内自称「异常芙芙公益」。注册链接已更新，注册需邮箱验证；换回后的赠送与签到数额未核实，以站内显示为准。 | [注册](https://ai.kscsnkli.site/sign-up?aff=av7W) / [定价页](https://ai.kscsnkli.site/pricing) |
 | Denxio | **有人拿它做涩情和蒸馏，站方上游 Pro 号全被封，公益服务已停**，恢复情况看 TG 频道与 QQ 群公告，排序已下调。原本主打 GPT，仙池活动每天 20 仙缘（与刀等值），签到 0.5-1 仙缘；注册需先去 TG 领登仙令。 | [注册](https://api.denxio.top/register?invite_code=YP9XP5EMB68Q) / [TG 频道](https://t.me/denxio_free) |
 | BaaaAI 公益站 | **模型已经几天调不通**，已下调排序。原本主打少见 GPT 模型，每日在控制台申请 20 额度且需至少调用一次，并发 2。 | [注册](https://baaaai.com/register?aff=MDTFQQRGCR2X) |
 | SeekAI | 谨慎使用，GitHub 新号注册送 200 刀、每日签到 20 刀，仅有 DeepSeek，疑似网页反代、工具调用异常。 | [注册](https://seekai.cc/sign-up?aff=NzMk) |
