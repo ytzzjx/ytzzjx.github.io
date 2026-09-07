@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "JustWoker 公益站",
     "ze（芙芙中转站）",
     "TokenForge（tokengate）",
     "Nofx",
@@ -29,7 +30,6 @@ const siteConfig = {
     "BaaaAI 公益站",
     "SeekAI",
     "KKToken",
-    "JustWoker 公益站",
     "TabiToken",
     "GoRouter",
     "Xingya",
@@ -115,7 +115,7 @@ const siteConfig = {
       name: "KKToken",
       summary: "站内已经没有模型可用，排序已降到最低，等恢复再上调。原本是 JustWoker 站长的新站，注册送 100 刀、每日签到 20 刀，主打 Claude Opus 4.8 与 Opus 5。",
       details:
-        "站点现在没有模型可调，先按等恢复处理，不要当主力线路。与 JustWoker 公益站为同一站长，两个站这次一起没了模型。原有福利为注册送 100 刀、每日签到 20 刀，可用 Claude Opus 4.8 和 Opus 5；注册需要 GitHub 账号，具体门槛以注册页提示为准。注册和签到看起来还在，想占位可以先注册攒额度，但能不能用要等模型回来。恢复后仍可能遇到 Claude Code CLI 报「Attention Required! | Cloudflare」，那是出网线路被挡：开代理，并把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env（任何终端启动都生效），或者直接开代理客户端的 TUN 模式。同一处理对 TabiToken 和 GoRouter 一样有效。",
+        "站点现在没有模型可调，先按等恢复处理，不要当主力线路。与 JustWoker 公益站为同一站长；两个站此前一起没了模型，但目前只有 JustWoker 以 GPT 线路恢复，KKToken 仍不可用。原有福利为注册送 100 刀、每日签到 20 刀，可用 Claude Opus 4.8 和 Opus 5；注册需要 GitHub 账号，具体门槛以注册页提示为准。注册和签到看起来还在，想占位可以先注册攒额度，但能不能用要等模型回来。恢复后仍可能遇到 Claude Code CLI 报「Attention Required! | Cloudflare」，那是出网线路被挡：开代理，并把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env（任何终端启动都生效），或者直接开代理客户端的 TUN 模式。同一处理对 TabiToken 和 GoRouter 一样有效。",
       registration: "需要 GitHub 账号，有账号限制，具体门槛以注册页提示为准；注册状态以注册页实际显示为准。",
       signupBonus: "原为 100 刀",
       dailyCheckin: "原为 20 刀",
@@ -230,21 +230,21 @@ const siteConfig = {
     {
       publishedAt: "2026-08-20 10:15",
       updatedAt: "2026-09-07",
-      updateNote: "站内已经没有模型了，排序降到最低，等恢复再上调。",
-      kind: "无可用模型 / 等待恢复",
+      updateNote: "站点已经复活，目前只能使用 GPT 模型，排序升到第一位。",
+      kind: "公益站 / 已恢复 / 仅 GPT",
       name: "JustWoker 公益站",
-      summary: "站内已经没有模型可用，排序已降到最低，等恢复再上调。原有福利为注册送 90 刀、每日签到 20 刀，支持 Claude；注册需要满 1 年的 GitHub 账号。",
+      summary: "站点已经恢复可用，目前只能使用 GPT 模型，不再提供 Claude；排序已升到公益区第一位。",
       details:
-        "站点现在没有模型可调，先按等恢复处理。与 KKToken 为同一站长，两个站这次一起没了模型。原有福利为注册赠送 90 刀、每日签到 20 刀，可使用 Claude 系列模型；注册需要 GitHub 账号，且账号注册时间需满 1 年。注册和签到看起来还在，想占位可以先注册攒额度，但能不能用要等模型回来。",
-      registration: "使用注册满 1 年的 GitHub 账号注册；注册状态以注册页实际显示为准。",
-      signupBonus: "原为 90 刀",
-      dailyCheckin: "原为 20 刀",
-      models: "原为 Claude，当前没有可用模型",
-      experience: "站内已无模型可调，等待恢复",
-      caveat: "站内没有模型可用，恢复时间未知，别当唯一线路。GitHub 账号注册年限是已知门槛；模型范围、签到规则、倍率和稳定性都可能随恢复一起变，请以站内实际规则为准。",
-      benefits: ["当前无可用模型", "等待恢复", "KKToken 同站长", "原注册送 90 刀", "原每日签到 20 刀", "原 Claude", "GitHub 账号满 1 年"],
+        "JustWoker 已经复活，当前可用模型仅限 GPT，原有 Claude 线路没有恢复。此前已知注册需要 GitHub 账号且账号注册时间满 1 年；本次没有复核注册赠送、每日签到和倍率，具体以站内实际显示为准。",
+      registration: "此前需使用注册满 1 年的 GitHub 账号；当前注册状态与门槛以注册页实际显示为准。",
+      signupBonus: "以站内当前显示为准",
+      dailyCheckin: "以站内当前显示为准",
+      models: "仅 GPT",
+      experience: "已恢复可用；当前仅支持 GPT",
+      caveat: "当前只有 GPT 模型，Claude 尚未恢复。注册门槛、赠送、签到、倍率和稳定性本次未复核，请以站内实际规则为准。",
+      benefits: ["已恢复可用", "排序第一", "仅 GPT", "GitHub 账号门槛以站内为准"],
       url: "https://api.justwoker.icu/sign-up?aff=T5tm",
-      tone: "caution",
+      tone: "active",
     },
     {
       publishedAt: "2026-08-19 20:26",
@@ -607,10 +607,10 @@ const siteConfig = {
     {
       publishedAt: "2026-08-26 00:00",
       updatedAt: "2026-09-07",
-      updateNote: "排序大幅上调到公益区第二位：KKToken / JustWoker / TabiToken / GoRouter 都没了模型，现在它是主要的 Claude 线路。",
+      updateNote: "每日签到 20 刀，当前仍是主要的 Claude Opus 5 线路；排序现位于 JustWoker 和 ze 之后。",
       kind: "已恢复 / 需重新注册",
       name: "TokenForge（tokengate）",
-      summary: "站点已恢复正常，每日签到 20 刀，现在是站内主要的 Claude Opus 5 线路，排序已上调到公益区第二位；账号被站方清空过，所以要重新注册一遍。此前实测的注入问题（模型被锁成只用英文回答）这次没有复测，第一次调用时自己验一下。",
+      summary: "站点已恢复正常，每日签到 20 刀，当前仍是主要的 Claude Opus 5 线路；排序现位于 JustWoker 和 ze 之后。账号被站方清空过，所以要重新注册一遍。此前实测的注入问题（模型被锁成只用英文回答）这次没有复测，第一次调用时自己验一下。",
       details:
         "2026 年 9 月 2 日站方把所有用户账号删了，现在站点已经恢复正常，每日签到 20 刀。被删掉的账号不会回来，得走注册链接重新注册一遍；注册赠送多少我没核实，以站内实际显示为准。另外，被清空之前实测过一个注入问题：模型只肯用英文回答，用中文提问也回英文——说明请求在到达模型前被塞了额外的指令。这次恢复后是否还在，我没有复测，第一次调用时用中文问一句就能看出来；跑要求结果可信的任务前，建议先自己验这一下。",
       registration: "需要重新注册：旧账号已被站方清空，走注册链接重新注册一遍。原门槛为 GitHub 注册、主账号邮箱需为 Google 或 Microsoft 邮箱、账号注册时间超过 14 天，并需通过 Discord 认证，具体以注册页提示为准。",
@@ -828,7 +828,7 @@ const entryTranslations = {
     summary:
       "No models are available on the service any more, so it has been moved to the bottom of the ranking until it recovers. It previously offered $100 in sign-up credit and $20 daily check-ins, with Claude Opus 4.8 and Opus 5 as the main models.",
     details:
-      "There are no models left to call, so treat this as a service to wait on rather than a primary route. It is run by the same operator as JustWoker Public Service, and both lost their models at the same time. The previous offer was $100 on sign-up and $20 per daily check-in, with Claude Opus 4.8 and Opus 5 available; a GitHub account is required, and the exact requirement is shown on the registration page. Registration and check-ins appear to still work, so you can register to hold a spot and accumulate credit, but usability depends on the models coming back. After a recovery the Claude Code CLI may still return an \"Attention Required! | Cloudflare\" page — that is the network route being blocked: turn on a proxy and set HTTPS_PROXY / HTTP_PROXY in the env block of ~/.claude/settings.json (which applies to every terminal you start), or switch the proxy client to TUN mode. The same fix applies to TabiToken and GoRouter.",
+      "There are no models left to call, so treat this as a service to wait on rather than a primary route. It is run by the same operator as JustWoker Public Service; both lost their models at the same time, but JustWoker has since recovered with GPT only while KKToken remains unavailable. The previous offer was $100 on sign-up and $20 per daily check-in, with Claude Opus 4.8 and Opus 5 available; a GitHub account is required, and the exact requirement is shown on the registration page. Registration and check-ins appear to still work, so you can register to hold a spot and accumulate credit, but usability depends on the models coming back. After a recovery the Claude Code CLI may still return an \"Attention Required! | Cloudflare\" page — that is the network route being blocked: turn on a proxy and set HTTPS_PROXY / HTTP_PROXY in the env block of ~/.claude/settings.json (which applies to every terminal you start), or switch the proxy client to TUN mode. The same fix applies to TabiToken and GoRouter.",
     registration: "A GitHub account is required; the exact restriction and the current registration status are shown on the registration page.",
     signupBonus: "Previously $100 credit",
     dailyCheckin: "Previously $20",
@@ -959,20 +959,20 @@ const entryTranslations = {
     tutorialLabel: "Join the Telegram channel for recovery news and the registration code",
   },
   "JustWoker 公益站": {
-    kind: "No models available / waiting for recovery",
+    kind: "Public service / restored / GPT only",
     name: "JustWoker Public Service",
-    updateNote: "No models are left on the service, so it has been moved to the bottom of the ranking until it recovers.",
+    updateNote: "The service is back online with GPT models only and has moved to first place.",
     summary:
-      "No models are available on the service any more, so it has been moved to the bottom of the ranking until it recovers. It previously offered $90 in sign-up credit and $20 daily check-ins with access to Claude; registration requires a GitHub account that is at least one year old.",
+      "The service is back online and has moved to first place in the public section. It currently supports GPT models only; Claude has not returned.",
     details:
-      "There are no models left to call, so treat this as a service to wait on. It is run by the same operator as KKToken, and both lost their models at the same time. The previous offer was $90 in sign-up credit plus $20 from daily check-ins, with access to Claude models; a GitHub account created at least one year ago is required. Registration and check-ins appear to still work, so you can register to hold a spot and accumulate credit, but usability depends on the models coming back.",
-    registration: "Register with a GitHub account that is at least one year old; the current registration status is shown on the registration page.",
-    signupBonus: "Previously $90 credit",
-    dailyCheckin: "Previously $20",
-    models: "Previously Claude; no models available now",
-    experience: "No models left to call; waiting for recovery",
-    caveat: "No models are available and there is no known recovery date, so do not rely on this as your only route. The GitHub account age requirement is the known gate; model coverage, check-in rules, rates, and stability may all change along with a recovery, so verify the current service rules.",
-    benefits: ["No models available", "Waiting for recovery", "Same operator as KKToken", "Previously $90 sign-up credit", "Previously $20 daily check-in", "Previously Claude", "GitHub account at least one year old"],
+      "JustWoker is operational again, but its current model lineup is limited to GPT and the former Claude route has not returned. The previously known registration gate was a GitHub account at least one year old. Sign-up credit, daily check-ins, and rates were not re-verified in this update, so check the current values on the site.",
+    registration: "It previously required a GitHub account at least one year old; verify the current registration status and gate on the sign-up page.",
+    signupBonus: "Check the current value on the site",
+    dailyCheckin: "Check the current value on the site",
+    models: "GPT only",
+    experience: "Back online; currently GPT only",
+    caveat: "Only GPT models are currently available; Claude has not returned. Registration gates, bonuses, check-ins, rates, and stability were not re-verified in this update, so confirm the current rules on the site.",
+    benefits: ["Back online", "Ranked first", "GPT only", "Verify the GitHub gate on the site"],
   },
   "Sulmate 半公益站": {
     kind: "Registration paused / freemium service",
@@ -1265,9 +1265,9 @@ const entryTranslations = {
   "TokenForge（tokengate）": {
     kind: "Recovered / re-registration required",
     name: "TokenForge (formerly TokenGate)",
-    updateNote: "Moved well up to second in the free section: KKToken, JustWoker, TabiToken, and GoRouter have all lost their models, making this the main Claude route.",
+    updateNote: "Still the main Claude Opus 5 route with a $20 daily check-in; it now sits behind JustWoker and ze.",
     summary:
-      "The service is back to normal with a $20 daily check-in, and it is now the main Claude Opus 5 route here, so it has moved up to second in the free section. Accounts were wiped by the operator, so you have to register again. The injection found in earlier testing — the model locked to English-only replies — has not been re-tested, so check it on your first call.",
+      "The service is back to normal with a $20 daily check-in and remains the main Claude Opus 5 route here; it now sits behind JustWoker and ze. Accounts were wiped by the operator, so you have to register again. The injection found in earlier testing — the model locked to English-only replies — has not been re-tested, so check it on your first call.",
     details:
       "On 2 September 2026 the operator deleted every user account; the service is now back to normal with a $20 daily check-in. Deleted accounts do not come back, so you have to go through the sign-up link again, and the sign-up grant is unverified — go by what the site shows. One thing from before the wipe: testing found injection, with the model answering only in English and returning English even for a Chinese prompt, meaning extra instructions were inserted before the request reached the model. I have not re-tested that since the recovery; one Chinese prompt on your first call will tell you, and it is worth doing before any work where the output has to be trustworthy.",
     registration: "Re-registration is required: earlier accounts were wiped by the operator, so sign up again through the link. The previous requirements were GitHub registration with a Google or Microsoft primary email, an account older than 14 days, and Discord verification — confirm the current ones on the registration page.",

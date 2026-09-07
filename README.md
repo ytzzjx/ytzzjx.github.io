@@ -14,8 +14,9 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| JustWoker 公益站 | **现已恢复可用，排序升到第一。** 当前只能使用 GPT 模型，不再提供 Claude；原有注册门槛为 GitHub 账号满 1 年，当前注册与福利规则以站内显示为准。 | [注册](https://api.justwoker.icu/sign-up?aff=T5tm) |
 | ze（芙芙中转站） | **换回 NewAPI 后需重新注册**，注册送 **60 万**额度；**额度主要靠去论坛 [bbs.kscsnkli.site](https://bbs.kscsnkli.site/) 做任务赚**，也有签到。模型有 GLM-5.3-Flash、GPT-5.6-sol、DeepSeek V4 Pro、GLM-5.2 与 Kimi-K3。 | [注册](https://ai.kscsnkli.site/sign-up?aff=av7W) / [论坛](https://bbs.kscsnkli.site/) |
-| TokenForge（tokengate） | **已恢复正常，每日签到 20 刀，现在是这里主要的 Claude Opus 5 线路，排序已上调到第二位**；账号被站方清空过，**需要重新注册**。此前实测的注入（模型被锁成只用英文回答）没有复测，第一次调用时用中文问一句自己验一下。 | [注册](https://tokenforge.ai.studio/sign-up?aff=iheu) |
+| TokenForge（tokengate） | **已恢复正常，每日签到 20 刀，仍是这里主要的 Claude Opus 5 线路；排序现位于 JustWoker 和 ze 之后**。账号被站方清空过，**需要重新注册**。此前实测的注入（模型被锁成只用英文回答）没有复测，第一次调用时用中文问一句自己验一下。 | [注册](https://tokenforge.ai.studio/sign-up?aff=iheu) |
 | Nofx | 注册链接注册送 20，**加入 Discord 另送 5**，每天可签到 5（签到上限 50），GPT-5.6-sol 可用且倍率 0.6x；站内没找到充值入口，已归到公益区。 | [注册链接](https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q) |
 | MotoMoto | 注册送 50 刀（注册 30 + 邀请码 20），倍率 1x，每日签到约 50，含 gpt-5.5 与 gpt-5.6-sol。**密码注册已关闭，改用 GitHub 注册**；老账号还能用密码登录但要进「个人设置」绑定 GitHub，没绑会被按刷号暂停。**站方规定 OpenAI 模型只能在 Codex 里用，接到其他智能体按违规处理。** 隐私政策里的训练数据授权条款仍在，跑敏感内容前自己看一眼开关。 | [注册](https://motomoto.lol/sign-up?aff=vMPH) / [隐私政策](https://motomoto.lol/privacy) |
 | Fate New API | 通过 NodeLoc 注册，注册送 150 刀，有每日签到，支持全模型。**注意不使用好像会被删号**，删了重新走注册链接再注册一遍即可。 | [注册](https://fatenewapi.xxxxo.bond/sign-up?aff=eZHA) |
@@ -31,8 +32,7 @@
 | Denxio | **有人拿它做涩情和蒸馏，站方上游 Pro 号全被封，公益服务已停**，恢复情况看 TG 频道与 QQ 群公告，排序已下调。原本主打 GPT，仙池活动每天 20 仙缘（与刀等值），签到 0.5-1 仙缘；注册需先去 TG 领登仙令。 | [注册](https://api.denxio.top/register?invite_code=YP9XP5EMB68Q) / [TG 频道](https://t.me/denxio_free) |
 | BaaaAI 公益站 | **模型已经几天调不通**，已下调排序。原本主打少见 GPT 模型，每日在控制台申请 20 额度且需至少调用一次，并发 2。 | [注册](https://baaaai.com/register?aff=MDTFQQRGCR2X) |
 | SeekAI | 谨慎使用，GitHub 新号注册送 200 刀、每日签到 20 刀，仅有 DeepSeek，疑似网页反代、工具调用异常。 | [注册](https://seekai.cc/sign-up?aff=NzMk) |
-| KKToken | **站内已经没有模型了，排序降到最低，等恢复再上调。** 与 JustWoker 同站长，两站一起没了模型。原本注册送 100 刀、每日签到 20 刀，主打 Claude Opus 4.8 与 Opus 5；注册有 GitHub 限制。恢复后若在 Claude Code CLI 报 CF 拦截，开代理即可（把 HTTPS_PROXY / HTTP_PROXY 写进 `~/.claude/settings.json` 的 `env`，或改用 TUN 模式）。 | [注册](https://kktoken.cc/sign-up?aff=vrZc) |
-| JustWoker 公益站 | **站内已经没有模型了，排序降到最低，等恢复再上调。** 与 KKToken 同站长。原本 GitHub 账号注册满 1 年，注册送 90 刀、每日签到 20 刀，主打 Claude。 | [注册](https://api.justwoker.icu/sign-up?aff=T5tm) |
+| KKToken | **站内已经没有模型了，排序降到最低，等恢复再上调。** 与 JustWoker 同站长；两站此前一起没了模型，但目前只有 JustWoker 以 GPT 线路恢复，KKToken 仍不可用。原本注册送 100 刀、每日签到 20 刀，主打 Claude Opus 4.8 与 Opus 5；注册有 GitHub 限制。恢复后若在 Claude Code CLI 报 CF 拦截，开代理即可（把 HTTPS_PROXY / HTTP_PROXY 写进 `~/.claude/settings.json` 的 `env`，或改用 TUN 模式）。 | [注册](https://kktoken.cc/sign-up?aff=vrZc) |
 | TabiToken | **站内已经没有模型了，排序降到最低，等恢复再上调。** 原本注册送 120 刀、每日签到 5-10 刀，支持 Claude Opus 4.8 与 Opus 5；恢复后报 CF 拦截时开代理即可。 | [注册](https://tabitoken.com/sign-up?aff=AQDR) |
 | GoRouter | **站内已经没有模型了，排序降到最低，等恢复再上调。** 没模型之前稳定性就已经在下降。原本注册送 70 刀、每日签到 5-10 刀，支持 Claude Opus 4.8 与 Opus 5；恢复后报 CF 拦截时开代理即可。 | [注册](https://gorouter.app/sign-up?aff=e9NL) |
 
