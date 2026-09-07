@@ -15,7 +15,7 @@
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
 | JustWoker 公益站 | **现已恢复可用，排序升到第一。** 当前只能使用 GPT 模型，不再提供 Claude；原有注册门槛为 GitHub 账号满 1 年，当前注册与福利规则以站内显示为准。 | [注册](https://api.justwoker.icu/sign-up?aff=T5tm) |
-| ze（芙芙中转站） | **换回 NewAPI 后需重新注册**，注册送 **60 万**额度；**额度主要靠去论坛 [bbs.kscsnkli.site](https://bbs.kscsnkli.site/) 做任务赚**，也有签到。模型有 GLM-5.3-Flash、GPT-5.6-sol、DeepSeek V4 Pro、GLM-5.2 与 Kimi-K3。 | [注册](https://ai.kscsnkli.site/sign-up?aff=av7W) / [论坛](https://bbs.kscsnkli.site/) |
+| ze（芙芙中转站） | **此前有人批量注册，现在需要通过新邀请链接重新注册**；新注册送 **43.8 万以上额度**，实际数额以站内显示为准。**日常额度主要靠去论坛 [bbs.kscsnkli.site](https://bbs.kscsnkli.site/) 做任务赚**，也有签到。模型有 GLM-5.3-Flash、GPT-5.6-sol、DeepSeek V4 Pro、GLM-5.2 与 Kimi-K3。请勿批量注册。 | [注册](https://ai.kscsnkli.site/sign-up?aff=Chz0) / [论坛](https://bbs.kscsnkli.site/) |
 | TokenForge（tokengate） | **已恢复正常，每日签到 20 刀，仍是这里主要的 Claude Opus 5 线路；排序现位于 JustWoker 和 ze 之后**。账号被站方清空过，**需要重新注册**。此前实测的注入（模型被锁成只用英文回答）没有复测，第一次调用时用中文问一句自己验一下。 | [注册](https://tokenforge.ai.studio/sign-up?aff=iheu) |
 | Nofx | 注册链接注册送 20，**加入 Discord 另送 5**，每天可签到 5（签到上限 50），GPT-5.6-sol 可用且倍率 0.6x；站内没找到充值入口，已归到公益区。 | [注册链接](https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q) |
 | MotoMoto | 注册送 50 刀（注册 30 + 邀请码 20），倍率 1x，每日签到约 50，含 gpt-5.5 与 gpt-5.6-sol。**密码注册已关闭，改用 GitHub 注册**；老账号还能用密码登录但要进「个人设置」绑定 GitHub，没绑会被按刷号暂停。**站方规定 OpenAI 模型只能在 Codex 里用，接到其他智能体按违规处理。** 隐私政策里的训练数据授权条款仍在，跑敏感内容前自己看一眼开关。 | [注册](https://motomoto.lol/sign-up?aff=vMPH) / [隐私政策](https://motomoto.lol/privacy) |
