@@ -14,12 +14,13 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| JustWoker 公益站 | **现已恢复可用，排序升到第一。** 当前只能使用 GPT 模型，不再提供 Claude；原有注册门槛为 GitHub 账号满 1 年，当前注册与福利规则以站内显示为准。 | [注册](https://api.justwoker.icu/sign-up?aff=T5tm) |
-| ze（芙芙中转站） | **此前有人批量注册，现在需要通过新邀请链接重新注册**；新注册送 **43.8 万以上额度**，实际数额以站内显示为准。**日常额度主要靠去论坛 [bbs.kscsnkli.site](https://bbs.kscsnkli.site/) 做任务赚**，也有签到。模型有 GLM-5.3-Flash、GPT-5.6-sol、DeepSeek V4 Pro、GLM-5.2 与 Kimi-K3。请勿批量注册。 | [注册](https://ai.kscsnkli.site/sign-up?aff=Chz0) / [论坛](https://bbs.kscsnkli.site/) |
-| TokenForge（tokengate） | **已恢复正常，每日签到 20 刀，仍是这里主要的 Claude Opus 5 线路；排序现位于 JustWoker 和 ze 之后**。账号被站方清空过，**需要重新注册**。此前实测的注入（模型被锁成只用英文回答）没有复测，第一次调用时用中文问一句自己验一下。 | [注册](https://tokenforge.ai.studio/sign-up?aff=iheu) |
+| AgentRouter | 注册送 75 刀、每日签到 25 刀；现已支持 GLM-5.3、DeepSeek V4 Flash，Claude 倍率上调、GPT-5.6-sol 倍率下调。GitHub 老号或 Linux Do 账号。 | [注册](https://agentrouter.org/register?aff=i3Xz) / [国内入口](https://ps.air-outer.com/register?aff=i3Xz) |
+| JustWoker 公益站 | **现已恢复可用。** 当前只能使用 GPT 模型，不再提供 Claude；调用站内模型请使用 /v1/messages。原有注册门槛为 GitHub 账号满 1 年，当前注册与福利规则以站内显示为准。 | [注册](https://api.justwoker.icu/sign-up?aff=T5tm) |
+| TokenForge（tokengate） | **已恢复正常，每日签到 20 刀，仍是这里主要的 Claude Opus 5 线路。** 账号被站方清空过，**需要重新注册**。此前实测的注入（模型被锁成只用英文回答）没有复测，第一次调用时用中文问一句自己验一下。 | [注册](https://tokenforge.ai.studio/sign-up?aff=iheu) |
 | Nofx | 注册链接注册送 20，**加入 Discord 另送 5**，每天可签到 5（签到上限 50），GPT-5.6-sol 可用且倍率 0.6x；站内没找到充值入口，已归到公益区。 | [注册链接](https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q) |
 | MotoMoto | 注册送 50 刀（注册 30 + 邀请码 20），倍率 1x，每日签到约 50，含 gpt-5.5 与 gpt-5.6-sol。**密码注册已关闭，改用 GitHub 注册**；老账号还能用密码登录但要进「个人设置」绑定 GitHub，没绑会被按刷号暂停。**站方规定 OpenAI 模型只能在 Codex 里用，接到其他智能体按违规处理。** 隐私政策里的训练数据授权条款仍在，跑敏感内容前自己看一眼开关。 | [注册](https://motomoto.lol/sign-up?aff=vMPH) / [隐私政策](https://motomoto.lol/privacy) |
-| AgentRouter | 注册送 75 刀、每日签到 25 刀；现已支持 GLM-5.3、DeepSeek V4 Flash，Claude 倍率上调、GPT-5.6-sol 倍率下调。GitHub 老号或 Linux Do 账号。 | [注册](https://agentrouter.org/register?aff=i3Xz) / [国内入口](https://ps.air-outer.com/register?aff=i3Xz) |
+| Txcxgzs 公益站 | GitHub 注册，当前 0 付费，签到约 0.1。主要提供 free2-glm-5.3-flash、free2-qwen3.8-flash、free2-mimo-v2.5，另有 nvd-minimaxai/minimax-m3。 | [注册](https://ai.txcxgzs.com/sign-up?aff=VegH) |
+| Hyper 公益站 | GitHub 注册，注册送 5、签到 15-25；含 gpt-5.6-sol、gpt-5.6-terra、gpt-5.6-luna、gpt-5.3-codex-spark、gpt-5.5 及多个免费模型。可挂全局代理，但有地区限制；使用前需在钱包购买套餐日卡，余额 5 可用 20。 | [注册](https://ai.hyper.nyc.mn/sign-up?aff=IY2B) |
 | 北执半公益站 | 半公益站，仅支持主流邮箱注册，有统一 OpenAI 格式接口，签到额度较多，含 Gemini 新模型和 Claude。 | [注册](https://beizhi.sylu.cc/sign-up?aff=hk5Q) |
 | AnyRouter | 邀请注册送 100、每日签到 25；GPT-5.6-sol 支持 1M 上下文。Linux Do 二级或 edu.cn 邮箱。 | [注册](https://anyrouter.top/register?aff=LJPP) |
 | 一梦五千年 | **注册已重新开放**，不再限量，但**只能用 GitHub、Linux Do 或 Discord 账号注册**，不支持邮箱；注册送 10 刀，GPT-5.6-sol 与 GPT-5.6-luna 为 1x 倍率，另有国产模型。 | [注册](https://fapi.leileihog.top/sign-up?aff=ZR02) |
@@ -29,6 +30,8 @@
 | Rinko NAI 生图公益站 | 专注 API 生图，使用 NAI Diffusion 模型；每日签到 25 代币，带作品广场。 | [注册](https://nai.rinko.ai/sign-up?aff=OQhG) |
 | Jasperio | 免费生图与轻量对话，无需额外注册，图片请尽快下载。 | [直达](https://jasperio.xyz:8848/) |
 | SeekAI | 谨慎使用，GitHub 新号注册送 200 刀、每日签到 20 刀，仅有 DeepSeek，疑似网页反代、工具调用异常。 | [注册](https://seekai.cc/sign-up?aff=NzMk) |
+| 咕嘎咕嘎 | 微信注册，签到约 1 元临时额度，每月底清空。含 Gemini-3.7-Flash、GLM-5.3-Flash、GPT-5.6-sol、GPT-Image-2、Grok-4.6、Qwen3.8-Flash；价格为 1/1/0.1（输入/输出/缓存）。 | [注册](https://ai.xmiaom.com/sign-up?aff=04Qy) |
+| ze（芙芙中转站） | **此前有人批量注册，现在需要通过新邀请链接重新注册**；新注册送 **43.8 万以上额度**，实际数额以站内显示为准。**日常额度主要靠去论坛 [bbs.kscsnkli.site](https://bbs.kscsnkli.site/) 做任务赚**，也有签到。模型有 GLM-5.3-Flash、GPT-5.6-sol、DeepSeek V4 Pro、GLM-5.2 与 Kimi-K3。请勿批量注册。 | [注册](https://ai.kscsnkli.site/sign-up?aff=Chz0) / [论坛](https://bbs.kscsnkli.site/) |
 
 ## 需要付费的站点
 
