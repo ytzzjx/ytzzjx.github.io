@@ -1,13 +1,29 @@
+/* ============================================================
+   方案 A · 报刊田野笔记（Editorial Field Notes）
+   ------------------------------------------------------------
+   调色板：暖纸底 + 墨线，品牌青 #008e9a 保留为唯一主色；
+   珊瑚红只做「时效/警示」，琥珀只做「关闭/版记阴影」。
+   字体：标题衬线（宋体系），标签/日期/数字等宽，正文无衬线。
+   工艺：直角、1px 墨线收边、偏移实体阴影、印章式时效标记。
+   ============================================================ */
+
 :root {
-  --ink: #15191b;
-  --muted: #697176;
-  --page: #f4f6f5;
-  --surface: #ffffff;
-  --line: #d8dddd;
+  --ink: #1a1f1d;
+  --muted: #5e6863;
+  --page: #f4f2ec;
+  --surface: #fbfaf6;
+  --line: #d8d6c9;
+  --line-strong: #b6b4a4;
   --cyan: #008e9a;
-  --coral: #d65b4b;
-  --amber: #b57612;
-  --radius: 6px;
+  --cyan-deep: #00707a;
+  --coral: #c74f3d;
+  --amber: #a8720f;
+  --green: #2f9053;
+  --radius: 3px;
+  --font-serif: "Noto Serif SC", "Songti SC", "STSong", "SimSun", Georgia, serif;
+  --font-sans: "Aptos", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-mono: "Cascadia Mono", "Cascadia Code", Consolas, ui-monospace, monospace;
+  --offset-shadow: 5px 5px 0 rgba(26, 31, 29, 0.1);
 }
 
 * {
@@ -21,11 +37,17 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  background: var(--page);
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
-    "Microsoft YaHei", sans-serif;
+  background-color: var(--page);
+  /* 极淡纸面噪点：只加纹理，不改变底色 */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .035 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+  font-family: var(--font-sans);
   font-size: 16px;
   line-height: 1.5;
+}
+
+::selection {
+  color: var(--surface);
+  background: var(--cyan);
 }
 
 /* 只给屏幕阅读器的播报区域，例如切换语言后的状态提示。 */
@@ -57,13 +79,14 @@ main,
   margin: 0 auto;
 }
 
+/* 报头：底部一条 1px 墨线，像报纸的版头分隔线 */
 .site-header {
-  min-height: 60px;
+  min-height: 62px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   column-gap: 12px;
   align-items: center;
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid var(--ink);
 }
 
 .brand {
@@ -75,8 +98,9 @@ main,
   gap: 9px;
   color: var(--ink);
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 800;
+  font-family: var(--font-serif);
+  font-size: 15px;
+  font-weight: 900;
 }
 
 .brand [data-brand] {
@@ -94,7 +118,7 @@ main,
   place-items: center;
   color: var(--surface);
   background: var(--ink);
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 .brand-mark svg,
@@ -107,8 +131,10 @@ main,
 
 .site-nav {
   color: var(--muted);
-  font-size: 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
   font-weight: 700;
+  letter-spacing: 0.12em;
 }
 
 .header-actions {
@@ -118,6 +144,7 @@ main,
   gap: 8px;
 }
 
+/* 分段切换器共用：报刊式的直角墨框 */
 .language-switcher {
   height: 36px;
   display: grid;
@@ -125,8 +152,8 @@ main,
   align-items: stretch;
   padding: 2px;
   background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 4px;
+  border: 1px solid var(--line-strong);
+  border-radius: 0;
 }
 
 .language-option {
@@ -135,9 +162,10 @@ main,
   color: var(--muted);
   background: transparent;
   border: 0;
-  border-radius: 2px;
+  border-radius: 0;
   cursor: pointer;
   font: inherit;
+  font-family: var(--font-mono);
   font-size: 11px;
   font-weight: 800;
 }
@@ -152,7 +180,7 @@ main,
 }
 
 .language-option:focus-visible {
-  outline: 2px solid var(--cyan);
+  outline: 2px solid var(--coral);
   outline-offset: -2px;
 }
 
@@ -163,8 +191,10 @@ main,
   display: grid;
   place-items: center;
   color: var(--ink);
-  border: 1px solid var(--line);
-  border-radius: 4px;
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  border-radius: 0;
+  transition: color 140ms ease, background 140ms ease;
 }
 
 .icon-link:hover,
@@ -174,14 +204,15 @@ main,
   border-color: var(--ink);
 }
 
+/* 首屏：报刊导语区 */
 .intro-section {
-  min-height: 178px;
+  min-height: 190px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
-  padding: 32px 0;
-  border-bottom: 1px solid var(--line);
+  padding: 34px 0;
+  border-bottom: 1px solid var(--ink);
 }
 
 .intro-copy {
@@ -191,31 +222,37 @@ main,
 .intro-kicker {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 7px;
+  gap: 14px;
+  margin-bottom: 9px;
 }
 
+/* 栏目标签：等宽大写字距，报纸栏目头的味道 */
 .eyebrow {
   margin: 0;
-  color: var(--cyan);
-  font-size: 12px;
+  color: var(--cyan-deep);
+  font-family: var(--font-mono);
+  font-size: 11px;
   font-weight: 800;
-  letter-spacing: 0;
+  letter-spacing: 0.22em;
 }
 
 .update-status {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: #287447;
-  font-size: 12px;
+  padding: 2px 8px;
+  color: var(--green);
+  border: 1px solid color-mix(in srgb, var(--green) 45%, transparent);
+  border-radius: 2px;
+  font-family: var(--font-mono);
+  font-size: 11px;
   font-weight: 800;
 }
 
 .update-status > .update-dot {
   width: 7px;
   height: 7px;
-  background: #33a35c;
+  background: var(--green);
   border-radius: 50%;
 }
 
@@ -229,14 +266,16 @@ p {
 h1,
 h2,
 h3 {
+  font-family: var(--font-serif);
+  font-weight: 900;
   letter-spacing: 0;
 }
 
 h1 {
   max-width: 680px;
-  margin-bottom: 8px;
-  font-size: 40px;
-  line-height: 1.1;
+  margin-bottom: 10px;
+  font-size: 46px;
+  line-height: 1.08;
 }
 
 .intro-text {
@@ -246,33 +285,43 @@ h1 {
   font-size: 15px;
 }
 
+/* 「当前收录」做成版记印章：墨框 + 琥珀硬偏移阴影，是全页的记忆点之一 */
 .directory-summary {
-  flex: 0 0 128px;
-  padding: 0 0 3px 22px;
-  border-left: 1px solid var(--ink);
+  flex: 0 0 auto;
+  min-width: 128px;
+  padding: 12px 18px 13px;
+  background: var(--surface);
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  box-shadow: 5px 5px 0 var(--amber);
 }
 
 .directory-summary strong {
   display: block;
-  font-size: 36px;
+  font-family: var(--font-mono);
+  font-size: 32px;
+  font-weight: 700;
   line-height: 1;
+  font-variant-numeric: tabular-nums;
 }
 
 .directory-summary span {
   display: block;
-  margin-top: 9px;
+  margin-top: 8px;
   color: var(--muted);
-  font-size: 13px;
+  font-family: var(--font-mono);
+  font-size: 11px;
   font-weight: 700;
+  letter-spacing: 0.08em;
 }
 
 .feed-section {
-  padding: 28px 0 42px;
+  padding: 30px 0 44px;
 }
 
-/* 最近变更：内容由 updatedAt / archivedAt 汇总，为空时整块 hidden。 */
+/* 最近变更：台账式清单，等宽珊瑚红日期列 */
 .changes-section {
-  padding: 26px 0 0;
+  padding: 28px 0 0;
 }
 
 .changes-section[hidden] {
@@ -284,8 +333,8 @@ h1 {
   padding: 0;
   list-style: none;
   background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
+  border: 1px solid var(--line-strong);
+  border-radius: 0;
 }
 
 .changes-toggle {
@@ -293,21 +342,23 @@ h1 {
   padding: 7px 12px;
   color: var(--muted);
   background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 4px;
+  border: 1px solid var(--line-strong);
+  border-radius: 0;
   cursor: pointer;
   font: inherit;
-  font-size: 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
   font-weight: 700;
+  letter-spacing: 0.08em;
 }
 
 .changes-toggle:hover {
   color: var(--ink);
-  border-color: var(--cyan);
+  border-color: var(--ink);
 }
 
 .changes-toggle:focus-visible {
-  outline: 2px solid var(--cyan);
+  outline: 2px solid var(--coral);
   outline-offset: 2px;
 }
 
@@ -317,6 +368,11 @@ h1 {
   padding: 11px 14px;
   border-top: 1px solid var(--line);
   font-size: 14px;
+  transition: background 140ms ease;
+}
+
+.changes-item:hover {
+  background: color-mix(in srgb, var(--cyan) 4%, var(--surface));
 }
 
 .changes-item:first-child {
@@ -336,11 +392,13 @@ h1 {
 
 .changes-when {
   flex: none;
-  min-width: 76px;
-  color: var(--cyan);
-  font-size: 12px;
+  min-width: 78px;
+  color: var(--coral);
+  font-family: var(--font-mono);
+  font-size: 11px;
   font-weight: 800;
-  line-height: 1.6;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
 }
 
 .changes-body {
@@ -359,9 +417,11 @@ h1 {
   padding: 1px 7px;
   color: var(--surface);
   background: var(--amber);
-  border-radius: 999px;
-  font-size: 11px;
+  border-radius: 2px;
+  font-family: var(--font-mono);
+  font-size: 10px;
   font-weight: 800;
+  letter-spacing: 0.05em;
 }
 
 .changes-note {
@@ -381,12 +441,15 @@ h1 {
   }
 }
 
+/* 分区标题：1px 墨线收底，衬线标题 + 等宽栏目名 */
 .section-heading {
   display: flex;
   align-items: end;
   justify-content: space-between;
   gap: 20px;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--ink);
 }
 
 .section-heading .eyebrow {
@@ -395,14 +458,16 @@ h1 {
 
 h2 {
   margin-bottom: 0;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.15;
 }
 
 .section-note {
   margin: 0 0 2px;
   color: var(--muted);
-  font-size: 13px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.05em;
 }
 
 .feed-list {
@@ -424,8 +489,10 @@ h2 {
 .feed-meta {
   padding: 0 2px 5px;
   color: var(--muted);
-  font-size: 11px;
+  font-family: var(--font-mono);
+  font-size: 10px;
   font-weight: 700;
+  letter-spacing: 0.06em;
   text-align: left;
 }
 
@@ -438,6 +505,7 @@ h2 {
   margin-left: 5px;
 }
 
+/* 卡片：保留左侧 3px 色条基因，hover 用偏移实体阴影「盖章」 */
 .feed-card {
   flex: 1;
   min-height: 288px;
@@ -451,8 +519,23 @@ h2 {
   background: var(--surface);
   border: 1px solid var(--line);
   border-left: 3px solid var(--cyan);
-  border-radius: var(--radius);
+  border-radius: 0;
   text-decoration: none;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.feed-card:hover,
+.feed-card:focus-visible {
+  border-color: var(--ink);
+  border-left-color: var(--cyan);
+  box-shadow: var(--offset-shadow);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.feed-card:hover h3,
+.feed-card:focus-visible h3 {
+  color: var(--cyan-deep);
 }
 
 .entry-resource-link {
@@ -464,12 +547,13 @@ h2 {
   margin-top: 6px;
   padding: 8px 10px;
   color: var(--ink);
-  background: var(--page);
+  background: transparent;
   border: 1px solid var(--line);
-  border-radius: 4px;
+  border-radius: 0;
   font-size: 12px;
   font-weight: 800;
   text-decoration: none;
+  transition: border-color 140ms ease, color 140ms ease, background 140ms ease;
 }
 
 .entry-resource-link span {
@@ -483,26 +567,15 @@ h2 {
   flex: 0 0 auto;
   width: 15px;
   height: 15px;
-  color: var(--cyan);
+  color: var(--cyan-deep);
 }
 
 .entry-resource-link:hover,
 .entry-resource-link:focus-visible {
-  color: var(--cyan);
+  color: var(--cyan-deep);
+  background: var(--surface);
   border-color: var(--cyan);
   outline: none;
-}
-
-.feed-card:hover,
-.feed-card:focus-visible {
-  border-color: var(--cyan);
-  border-left-color: var(--cyan);
-  outline: none;
-}
-
-.feed-card:hover h3,
-.feed-card:focus-visible h3 {
-  color: var(--cyan);
 }
 
 .feed-item[data-tone="closed"] .feed-card {
@@ -514,10 +587,12 @@ h2 {
 }
 
 .entry-kind {
-  margin-bottom: 4px;
-  color: var(--cyan);
-  font-size: 12px;
+  margin-bottom: 5px;
+  color: var(--cyan-deep);
+  font-family: var(--font-mono);
+  font-size: 11px;
   font-weight: 800;
+  letter-spacing: 0.08em;
 }
 
 .feed-item[data-tone="closed"] .entry-kind {
@@ -528,17 +603,21 @@ h2 {
   color: var(--coral);
 }
 
-/* 时效标记：由 updatedAt 算出来，不是手写的 tone。 */
+/* 时效标记：珊瑚红小印章，微倾斜，等宽描边 chip */
 .entry-updated {
+  display: inline-block;
   margin-left: 8px;
-  padding: 1px 7px;
-  color: var(--surface);
-  background: var(--cyan);
-  border-radius: 999px;
-  font-size: 11px;
+  padding: 1px 6px;
+  color: var(--coral);
+  background: color-mix(in srgb, var(--coral) 7%, var(--surface));
+  border: 1px solid var(--coral);
+  border-radius: 1px;
+  font-family: var(--font-mono);
+  font-size: 10px;
   font-weight: 800;
-  letter-spacing: 0;
+  letter-spacing: 0.06em;
   vertical-align: 1px;
+  transform: rotate(-2deg);
 }
 
 .entry-update-note {
@@ -549,7 +628,7 @@ h2 {
   color: var(--ink);
   background: color-mix(in srgb, var(--cyan) 8%, var(--surface));
   border-left: 2px solid var(--cyan);
-  border-radius: 0 var(--radius) var(--radius) 0;
+  border-radius: 0;
   font-size: 13px;
   line-height: 1.5;
 }
@@ -559,19 +638,20 @@ h2 {
   width: 15px;
   height: 15px;
   margin-top: 2px;
-  color: var(--cyan);
+  color: var(--cyan-deep);
 }
 
 .entry-update-note strong {
   margin-right: 6px;
-  color: var(--cyan);
+  color: var(--cyan-deep);
   font-weight: 800;
 }
 
 h3 {
   margin-bottom: 5px;
-  font-size: 19px;
+  font-size: 20px;
   line-height: 1.2;
+  transition: color 160ms ease;
 }
 
 .entry-description {
@@ -595,25 +675,29 @@ h3 {
 }
 
 .quota-cell {
-  padding: 6px 8px;
+  padding: 6px 9px;
   background: var(--page);
   border: 1px solid var(--line);
-  border-radius: 4px;
+  border-radius: 0;
 }
 
 .quota-label {
   display: block;
   color: var(--muted);
-  font-size: 11px;
+  font-family: var(--font-mono);
+  font-size: 10px;
   font-weight: 800;
+  letter-spacing: 0.06em;
 }
 
 .quota-value {
   display: block;
-  margin-top: 1px;
+  margin-top: 2px;
+  font-family: var(--font-mono);
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.25;
+  font-variant-numeric: tabular-nums;
 }
 
 .entry-info {
@@ -642,7 +726,7 @@ h3 {
 .entry-info-label svg {
   width: 15px;
   height: 15px;
-  color: var(--cyan);
+  color: var(--cyan-deep);
 }
 
 .registration-text {
@@ -661,10 +745,10 @@ h3 {
 }
 
 .benefit-tags li {
-  padding: 2px 6px;
+  padding: 2px 7px;
   color: var(--muted);
   border: 1px solid var(--line);
-  border-radius: 3px;
+  border-radius: 2px;
   font-size: 11px;
   font-weight: 700;
 }
@@ -677,7 +761,8 @@ h3 {
   justify-self: end;
   color: var(--surface);
   background: var(--ink);
-  border-radius: 4px;
+  border-radius: 2px;
+  transition: background 160ms ease, transform 160ms ease;
 }
 
 .entry-arrow svg {
@@ -688,6 +773,7 @@ h3 {
 .feed-card:hover .entry-arrow,
 .feed-card:focus-visible .entry-arrow {
   background: var(--cyan);
+  transform: translate(1px, -1px);
 }
 
 .site-disclaimer {
@@ -707,20 +793,21 @@ h3 {
   background: var(--surface);
   border: 1px solid var(--line);
   border-left: 3px solid var(--cyan);
-  border-radius: 4px;
+  border-radius: 0;
   font-size: 12px;
   font-weight: 700;
   line-height: 1.7;
 }
 
+/* 公益/付费切换器：与语言切换同一套墨框语言 */
 .pricing-switcher {
   height: 32px;
   display: inline-flex;
   align-items: stretch;
   padding: 2px;
   background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 4px;
+  border: 1px solid var(--line-strong);
+  border-radius: 0;
 }
 
 .pricing-option {
@@ -729,7 +816,7 @@ h3 {
   color: var(--muted);
   background: transparent;
   border: 0;
-  border-radius: 2px;
+  border-radius: 0;
   cursor: pointer;
   font: inherit;
   font-size: 12px;
@@ -747,25 +834,27 @@ h3 {
 }
 
 .pricing-option:focus-visible {
-  outline: 2px solid var(--cyan);
+  outline: 2px solid var(--coral);
   outline-offset: -2px;
 }
 
-
 .site-footer {
-  min-height: 54px;
+  min-height: 56px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
   color: var(--muted);
-  border-top: 1px solid var(--line);
+  border-top: 1px solid var(--ink);
   font-size: 12px;
   font-weight: 700;
 }
 
 .footer-meta {
   flex: 0 0 auto;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.05em;
 }
 
 @media (max-width: 980px) {
@@ -797,23 +886,25 @@ h3 {
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 34px;
   }
 
   .intro-text {
     font-size: 16px;
   }
 
+  /* 窄屏下印章改为横排小票，缩小阴影避免出屏 */
   .directory-summary {
-    display: flex;
+    display: inline-flex;
     align-items: baseline;
-    gap: 10px;
+    gap: 12px;
     margin-top: 18px;
-    padding: 0 0 0 13px;
+    padding: 10px 14px;
+    box-shadow: 3px 3px 0 var(--amber);
   }
 
   .directory-summary strong {
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .directory-summary span {
@@ -896,7 +987,26 @@ h3 {
     scroll-behavior: auto;
   }
 
+  .feed-card,
+  .entry-arrow,
+  .icon-link,
+  .entry-resource-link,
+  .changes-item,
+  h3 {
+    transition: none;
+  }
+
+  .feed-card:hover,
+  .feed-card:focus-visible {
+    transform: none;
+    box-shadow: none;
+  }
+
 }
+
+/* ============================================================
+   文档页（guide / faq）：同一套报刊语言的延伸
+   ============================================================ */
 .guide-page,
 .faq-page {
   min-height: 100vh;
@@ -913,8 +1023,10 @@ h3 {
   gap: 6px;
   color: var(--muted);
   text-decoration: none;
-  font-size: 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
   font-weight: 800;
+  letter-spacing: 0.08em;
 }
 
 .doc-back:hover,
@@ -934,7 +1046,7 @@ h3 {
 
 .doc-header h1 {
   margin: 8px 0 12px;
-  font-size: clamp(32px, 5vw, 52px);
+  font-size: clamp(34px, 5vw, 54px);
   line-height: 1.05;
 }
 
@@ -956,7 +1068,7 @@ h3 {
   padding: 20px;
   background: var(--surface);
   border: 1px solid var(--line);
-  border-radius: var(--radius);
+  border-radius: 0;
 }
 
 .doc-card h2,
@@ -998,8 +1110,10 @@ h3 {
 
 .protocol-table th {
   color: var(--muted);
+  font-family: var(--font-mono);
   font-size: 11px;
   font-weight: 800;
+  letter-spacing: 0.06em;
 }
 
 .doc-steps {
@@ -1026,7 +1140,7 @@ h3 {
 }
 
 .doc-link {
-  color: var(--cyan);
+  color: var(--cyan-deep);
   font-weight: 800;
 }
 
@@ -1068,13 +1182,17 @@ h3 {
   background: var(--surface);
   border: 1px solid var(--line);
   border-left: 3px solid var(--cyan);
-  border-radius: 4px;
+  border-radius: 0;
   text-decoration: none;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
 }
 
 .doc-link-card:hover,
 .doc-link-card:focus-visible {
-  border-color: var(--cyan);
+  border-color: var(--ink);
+  border-left-color: var(--cyan);
+  box-shadow: 4px 4px 0 rgba(26, 31, 29, 0.1);
+  transform: translateY(-1px);
 }
 
 .doc-link-card strong,
@@ -1095,7 +1213,7 @@ h3 {
 .doc-link-card svg {
   width: 16px;
   height: 16px;
-  color: var(--cyan);
+  color: var(--cyan-deep);
 }
 
 .faq-toc {
@@ -1114,7 +1232,7 @@ h3 {
   color: var(--muted);
   background: var(--surface);
   border: 1px solid var(--line);
-  border-radius: 4px;
+  border-radius: 0;
   text-decoration: none;
   font-size: 12px;
   font-weight: 800;
@@ -1123,19 +1241,20 @@ h3 {
 .faq-toc a:hover,
 .faq-toc a:focus-visible {
   color: var(--ink);
-  border-color: var(--cyan);
+  border-color: var(--ink);
 }
 
 .faq-toc svg {
   width: 15px;
   height: 15px;
-  color: var(--cyan);
+  color: var(--cyan-deep);
 }
 
 .faq-toc span {
   padding-left: 6px;
   border-left: 1px solid var(--line);
-  color: var(--cyan);
+  color: var(--cyan-deep);
+  font-family: var(--font-mono);
   font-size: 11px;
 }
 
@@ -1144,7 +1263,7 @@ h3 {
   background: var(--surface);
   border: 1px solid var(--line);
   border-left: 3px solid var(--cyan);
-  border-radius: var(--radius);
+  border-radius: 0;
   scroll-margin-top: 16px;
 }
 
@@ -1166,6 +1285,7 @@ h3 {
 .faq-count {
   flex: 0 0 auto;
   color: var(--muted);
+  font-family: var(--font-mono);
   font-size: 11px;
   font-weight: 800;
 }
@@ -1235,9 +1355,9 @@ h3 {
   color: var(--ink);
   background: var(--page);
   border: 1px solid var(--line);
-  border-radius: 4px;
+  border-radius: 0;
   overflow-x: auto;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
   font-size: 12px;
   line-height: 1.6;
 }
@@ -1248,8 +1368,8 @@ h3 {
   color: var(--ink);
   background: var(--page);
   border: 1px solid var(--line);
-  border-radius: 3px;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  border-radius: 2px;
+  font-family: var(--font-mono);
   font-size: 12px;
 }
 
