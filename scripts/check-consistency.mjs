@@ -1,5 +1,6 @@
 // 提交前的一致性检查：新增/下线站点时最容易漏掉某一处，这里一次性全查出来。
 //   node scripts/check-consistency.mjs
+import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 
@@ -8,6 +9,14 @@ const problems = [];
 const notes = [];
 
 const fail = (message) => problems.push(message);
+const DATE_ONLY = /^\d{4}-\d{2}-\d{2}$/;
+const parseDateOnly = (value) => {
+  if (!DATE_ONLY.test(String(value))) return null;
+  const [year, month, day] = String(value).split("-").map(Number);
+  const parsed = new Date(year, month - 1, day);
+  if (parsed.getFullYear() !== year || parsed.getMonth() !== month - 1 || parsed.getDate() !== day) return null;
+  return parsed;
+};
 
 // app.js 是普通脚本而不是模块，用受控的桩对象把它执行一遍，取出里面的配置。
 const loadConfig = async () => {
@@ -46,6 +55,13 @@ for (const name of archivedNames) {
 for (const entry of archivedEntries) {
   if (!entry.archivedAt) fail(`归档条目「${entry.name}」缺少 archivedAt`);
   if (!entry.archivedReason) fail(`归档条目「${entry.name}」缺少 archivedReason`);
+  if (!entryTranslations[entry.name]) fail(`归档条目「${entry.name}」缺少英文翻译`);
+  if (!entryTranslations[entry.name]?.archivedReason) fail(`归档条目「${entry.name}」缺少英文 archivedReason`);
+}
+for (const entry of siteConfig.entries) {
+  if (entry.archivedAt !== undefined || entry.archivedReason !== undefined) {
+    fail(`在线条目「${entry.name}」不应携带 archivedAt 或 archivedReason`);
+  }
 }
 if (archivedNames.length) notes.push(`已归档 ${archivedNames.length} 个站点：${archivedNames.join("、")}`);
 
@@ -63,11 +79,11 @@ for (const name of siteConfig.displayOrder) {
   if (!entryNames.includes(name)) fail(`displayOrder 里的「${name}」在 entries 中不存在`);
 }
 
-// 2. 站点名不能重复，否则 displayOrder 和翻译都会对错。
+// 2. 站点名在在线和归档数据中都必须全局唯一，否则排序、翻译和恢复都会对错。
 const nameCounts = new Map();
-for (const name of entryNames) nameCounts.set(name, (nameCounts.get(name) ?? 0) + 1);
+for (const name of [...entryNames, ...archivedNames]) nameCounts.set(name, (nameCounts.get(name) ?? 0) + 1);
 for (const [name, count] of nameCounts) {
-  if (count > 1) fail(`entries 里「${name}」出现了 ${count} 次`);
+  if (count > 1) fail(`entries + archivedEntries 里「${name}」出现了 ${count} 次`);
 }
 
 // 3. 英文翻译缺失时，英文模式会静默显示中文。归档站点的翻译保留不动，方便恢复。
@@ -105,23 +121,18 @@ for (const entry of [...siteConfig.entries, ...archivedEntries]) {
 }
 
 // 5b. updatedAt / updateNote：时效标记和「最近变更」都靠它们算，格式错了会静默不显示。
-const DATE_ONLY = /^\d{4}-\d{2}-\d{2}$/;
 for (const entry of siteConfig.entries) {
   if (entry.updateNote && !entry.updatedAt) {
     fail(`「${entry.name}」有 updateNote 但缺 updatedAt，说明不会显示`);
   }
   if (!entry.updatedAt) continue;
-  if (!DATE_ONLY.test(entry.updatedAt)) {
-    fail(`「${entry.name}」的 updatedAt 必须是 YYYY-MM-DD，当前是「${entry.updatedAt}」`);
+  const updated = parseDateOnly(entry.updatedAt);
+  if (!updated) {
+    fail(`「${entry.name}」的 updatedAt 必须是真实的 YYYY-MM-DD，当前是「${entry.updatedAt}」`);
     continue;
   }
-  const updated = new Date(`${entry.updatedAt}T00:00:00`);
-  if (Number.isNaN(updated.getTime())) {
-    fail(`「${entry.name}」的 updatedAt 不是合法日期：${entry.updatedAt}`);
-    continue;
-  }
-  const published = new Date(String(entry.publishedAt).slice(0, 10) + "T00:00:00");
-  if (!Number.isNaN(published.getTime()) && updated < published) {
+  const published = parseDateOnly(String(entry.publishedAt).slice(0, 10));
+  if (published && updated < published) {
     fail(`「${entry.name}」的 updatedAt（${entry.updatedAt}）早于 publishedAt（${entry.publishedAt}）`);
   }
   if (updated > new Date()) {
@@ -129,10 +140,18 @@ for (const entry of siteConfig.entries) {
   }
 }
 
-// 归档条目的 archivedAt 同样会进「最近变更」，格式一起校验。
+// 归档条目的 archivedAt 同样会进「最近变更」，必须是真实、非未来且不早于首次记录的日期。
 for (const entry of archivedEntries) {
-  if (entry.archivedAt && !DATE_ONLY.test(entry.archivedAt)) {
-    fail(`归档条目「${entry.name}」的 archivedAt 必须是 YYYY-MM-DD，当前是「${entry.archivedAt}」`);
+  if (!entry.archivedAt) continue;
+  const archived = parseDateOnly(entry.archivedAt);
+  if (!archived) {
+    fail(`归档条目「${entry.name}」的 archivedAt 必须是真实的 YYYY-MM-DD，当前是「${entry.archivedAt}」`);
+    continue;
+  }
+  if (archived > new Date()) fail(`归档条目「${entry.name}」的 archivedAt 是未来日期：${entry.archivedAt}`);
+  const firstRecorded = parseDateOnly(String(entry.addedAt ?? entry.publishedAt ?? "").slice(0, 10));
+  if (firstRecorded && archived < firstRecorded) {
+    fail(`归档条目「${entry.name}」的 archivedAt（${entry.archivedAt}）早于首次记录（${entry.addedAt ?? entry.publishedAt}）`);
   }
 }
 
@@ -156,19 +175,15 @@ if (quiet.length) notes.push(`不进「最近变更」的静默更新：${quiet.
 //     历史上被当作「信息最后成稿时间」改过，拿它判断会把改过文案的老站认成新站。
 for (const entry of siteConfig.entries) {
   if (!entry.addedAt) continue;
-  if (!DATE_ONLY.test(entry.addedAt)) {
-    fail(`「${entry.name}」的 addedAt 必须是 YYYY-MM-DD，当前是「${entry.addedAt}」`);
-    continue;
-  }
-  const added = new Date(`${entry.addedAt}T00:00:00`);
-  if (Number.isNaN(added.getTime())) {
-    fail(`「${entry.name}」的 addedAt 不是合法日期：${entry.addedAt}`);
+  const added = parseDateOnly(entry.addedAt);
+  if (!added) {
+    fail(`「${entry.name}」的 addedAt 必须是真实的 YYYY-MM-DD，当前是「${entry.addedAt}」`);
     continue;
   }
   if (added > new Date()) fail(`「${entry.name}」的 addedAt 是未来日期：${entry.addedAt}`);
   if (entry.updatedAt) {
-    const updated = new Date(`${entry.updatedAt}T00:00:00`);
-    if (!Number.isNaN(updated.getTime()) && updated < added) {
+    const updated = parseDateOnly(entry.updatedAt);
+    if (updated && updated < added) {
       fail(`「${entry.name}」的 updatedAt（${entry.updatedAt}）早于 addedAt（${entry.addedAt}）`);
     }
   }
@@ -229,16 +244,113 @@ for (const readme of ["README.md", "README_EN.md"]) {
 
   // 已归档的站点不能还留在「现在开放注册」那张表里，否则等于继续推荐一个死站。
   const openSection = text.split(/^## /m).find((section) => /^(现在开放注册的站点|Sites open for registration)/.test(section));
-  if (openSection) {
+  if (!openSection) {
+    fail(`${readme} 缺少开放注册章节`);
+  } else {
     for (const entry of archivedEntries) {
-      if (openSection.includes(entry.url)) {
+      const aliases = [entry.name, entryTranslations[entry.name]?.name, entry.url].filter(Boolean);
+      if (aliases.some((alias) => openSection.includes(alias))) {
         fail(`${readme} 的「现在开放注册」表里还留着已归档的「${entry.name}」`);
+      }
+    }
+  }
+
+  const archiveSection = text.split(/^## /m).find((section) => /^(已失效的站点|Delisted sites)/.test(section));
+  if (!archiveSection) {
+    fail(`${readme} 缺少归档章节`);
+  } else {
+    for (const entry of archivedEntries) {
+      const aliases = [entry.name, entryTranslations[entry.name]?.name].filter(Boolean);
+      if (!aliases.some((alias) => archiveSection.includes(alias))) {
+        fail(`${readme} 的归档章节未收录「${entry.name}」`);
       }
     }
   }
 }
 
-// 7. 自托管的 icons.js 必须包含所有用到的图标，漏掉会静默渲染成空白。
+// 7. 生成归档、首页挂载点和自托管图标也必须保持一致。
+const archiveDoc = await readFile(path.join(ROOT, "失效站点/README.md"), "utf8");
+if (!archiveDoc.includes(`共 ${archivedEntries.length} 个。`)) {
+  fail(`失效站点/README.md 的归档总数不是 ${archivedEntries.length}`);
+}
+for (const entry of archivedEntries) {
+  const section = archiveDoc.split(/^## /m).find((part) => part.startsWith(`${entry.name}\n`));
+  if (!section) {
+    fail(`失效站点/README.md 未收录「${entry.name}」`);
+    continue;
+  }
+  for (const [label, value] of [
+    ["下架日期", entry.archivedAt],
+    ["下架原因", entry.archivedReason],
+    ["原分类", entry.kind],
+    ["首次收录", entry.publishedAt],
+    ["注册方式", entry.registration],
+    ["注册赠送", entry.signupBonus],
+    ["每日签到", entry.dailyCheckin],
+    ["可用模型", entry.models],
+    ["速度与稳定性", entry.experience],
+    ["当时的注意事项", entry.caveat],
+  ]) {
+    if (value && !section.includes(`| ${label} | ${value} |`)) {
+      fail(`失效站点/README.md 中「${entry.name}」的${label}未同步`);
+    }
+  }
+  if (entry.summary && !section.includes(entry.summary)) fail(`失效站点/README.md 中「${entry.name}」的简介未同步`);
+  if (entry.url && !section.includes(`| 原链接（不再推荐访问） | \`${entry.url}\` |`)) {
+    fail(`失效站点/README.md 中「${entry.name}」的原链接未同步`);
+  }
+  if (entry.benefits?.length && !section.includes(`当时记录的福利：${entry.benefits.join("、")}`)) {
+    fail(`失效站点/README.md 中「${entry.name}」的福利记录未同步`);
+  }
+}
+
+const sitemapSource = await readFile(path.join(ROOT, "sitemap.xml"), "utf8");
+if (!sitemapSource.includes(`<lastmod>${siteConfig.lastUpdated}</lastmod>`)) {
+  fail(`sitemap.xml 的 lastmod 未同步为 ${siteConfig.lastUpdated}`);
+}
+
+const indexSource = await readFile(path.join(ROOT, "index.html"), "utf8");
+const ledgerSource = await readFile(path.join(ROOT, "运营推广/站点状态核实台账.csv"), "utf8");
+for (const entry of archivedEntries) {
+  const ledgerName = entry.name === "Zynk 公益站" ? "Zynk公益站" : entry.name;
+  const row = ledgerSource.split(/\r?\n/).find((line) => line.startsWith(`${ledgerName},`));
+  if (!row) {
+    fail(`站点状态核实台账.csv 缺少归档条目「${entry.name}」`);
+    continue;
+  }
+  if (entry.name === "Zynk 公益站") {
+    if (!row.includes("已失效") || !row.includes("无需再核实")) fail("Zynk 公益站的台账归档状态未同步");
+  } else if (!row.includes("已归档") || !row.includes("archivedEntries") || !row.includes("首页失效区")) {
+    fail(`站点状态核实台账.csv 中「${entry.name}」未标记为已归档并迁入首页失效区`);
+  }
+}
+
+const assetVersions = {};
+for (const asset of ["styles.css", "app.js", "icons.js"]) {
+  const content = await readFile(path.join(ROOT, asset));
+  assetVersions[asset] = createHash("sha256").update(content).digest("hex").slice(0, 8);
+}
+for (const page of ["index.html", "guide/index.html", "faq/index.html", "faq/agentrouter/index.html"]) {
+  const source = page === "index.html" ? indexSource : await readFile(path.join(ROOT, page), "utf8");
+  for (const [asset, version] of Object.entries(assetVersions)) {
+    const pattern = new RegExp(`(?:\\.\\./)*${asset.replace(".", "\\.")}\\?v=${version}(?:[\"'])`);
+    const mentionsAsset = new RegExp(`(?:\\.\\./)*${asset.replace(".", "\\.")}\\?v=`).test(source);
+    if (mentionsAsset && !pattern.test(source)) fail(`${page} 中 ${asset} 的资源哈希未同步为 ${version}`);
+  }
+}
+for (const hook of [
+  "data-archive-section",
+  "data-archive-drawer",
+  "data-archive-title",
+  "data-archive-count",
+  "data-archive-note",
+  "data-archive-list",
+]) {
+  if (!indexSource.includes(hook)) fail(`index.html 缺少失效区挂载点 ${hook}`);
+}
+if (/data-archive-drawer[^>]*\sopen(?:\s|>|=)/.test(indexSource)) {
+  fail("index.html 的失效区默认不应带 open 属性");
+}
 const iconsSource = await readFile(path.join(ROOT, "icons.js"), "utf8");
 const availableIcons = new Set([...iconsSource.matchAll(/^\s{4}"([a-z0-9-]+)":/gm)].map((match) => match[1]));
 const pages = ["index.html", "guide/index.html", "faq/index.html", "faq/agentrouter/index.html", "app.js"];
@@ -258,7 +370,7 @@ for (const icon of usedIcons) {
 const unusedIcons = [...availableIcons].filter((icon) => !usedIcons.has(icon));
 if (unusedIcons.length) notes.push(`icons.js 里有未使用的图标：${unusedIcons.join("、")}`);
 
-console.log(`检查完成：${entryNames.length} 个站点，${availableIcons.size} 个图标。`);
+console.log(`检查完成：在线 ${entryNames.length} 个（公益 ${publicEntries.length}、付费 ${paidEntries.length}），归档 ${archivedEntries.length} 个，${availableIcons.size} 个图标。`);
 for (const note of notes) console.log(`提示  ${note}`);
 for (const problem of problems) console.error(`错误  ${problem}`);
 if (problems.length) {

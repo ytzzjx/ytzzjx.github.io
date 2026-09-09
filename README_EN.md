@@ -19,7 +19,6 @@ These are the sites I currently track that still accept registration, ordered by
 | TokenForge (formerly TokenGate) | **Back to normal with a $20 daily check-in and still the main Claude Opus 5 route here; it now sits behind JustWoker and ze.** Accounts were wiped by the operator, so **re-registration is required**. The injection found in earlier testing (English-only replies) has not been re-tested — check it on your first call. | [Register](https://tokenforge.ai.studio/sign-up?aff=iheu) |
 | Nofx | $20 signup credit and **another $5 for joining the Discord**. Daily check-in gives $5, with a $50 daily cap, and GPT-5.6-sol is listed at 0.6x. No top-up option was found on the site, so it is listed as free. | [Sign up](https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q) |
 | MotoMoto | Registration grants $50 ($30 sign-up + $20 invite code) at a 1x rate, with an about-$50 daily check-in and gpt-5.5 plus gpt-5.6-sol. **Password registration is closed, so sign-up is via GitHub**; older accounts can still log in with a password but must bind GitHub under Personal Settings or be suspended for farming. **The operator restricts OpenAI models to use inside Codex — wiring them into other agents counts as a violation.** The training-data authorisation clause remains in the privacy policy, so check the switch before sensitive work. | [Register](https://motomoto.lol/sign-up?aff=vMPH) / [Privacy policy](https://motomoto.lol/privacy) |
-| Fate New API | Register through NodeLoc for $150 credit and daily check-ins, with access to all models. **Note that leaving the account unused appears to get it deleted** — going through the sign-up link again is enough to re-register. | [Register](https://fatenewapi.xxxxo.bond/sign-up?aff=eZHA) |
 | AgentRouter | $75 sign-up credit and $25 daily check-in. Now with GLM-5.3 and DeepSeek V4 Flash; Claude rates increased and GPT-5.6-sol rates decreased. Requires an older GitHub account or a Linux Do account. | [Register](https://agentrouter.org/register?aff=i3Xz) / [China access](https://ps.air-outer.com/register?aff=i3Xz) |
 | Beizhi Freemium Service | Freemium site supporting mainstream email registration, with a unified OpenAI-compatible API, generous check-in credit, and Gemini / Claude models. | [Register](https://beizhi.sylu.cc/sign-up?aff=hk5Q) |
 | AnyRouter | Referral registration grants $100 and $25 daily check-in; GPT-5.6-sol supports a 1M context window. Linux Do level 2 or .edu.cn email. | [Register](https://anyrouter.top/register?aff=LJPP) |
@@ -29,12 +28,7 @@ These are the sites I currently track that still accept registration, ordered by
 | PAI Public Image Generator | Public image-generation service with sign-up credit and gpt-image series plus light chat. | [Register](https://pai.zaiduyu.top/#/auth?ref=EA5364BCCDE4) |
 | Rinko NAI Public Image Generator | API-focused image generation using NAI Diffusion, with a 25-token daily check-in and a public gallery. | [Register](https://nai.rinko.ai/sign-up?aff=OQhG) |
 | Jasperio | Free image generation and light chat with no extra registration; download images promptly. | [Open](https://jasperio.xyz:8848/) |
-| Denxio | **Someone used it for pornographic content and distillation, the operator's upstream Pro accounts were all banned, and the free service has stopped** — watch the Telegram channel and QQ group for recovery news; ranking lowered. It previously focused on GPT, with 20 xianyuan per day from the Xianchi event (equivalent to dollars) and 0.5-1 per check-in; registration needed a code from Telegram. | [Register](https://api.denxio.top/register?invite_code=YP9XP5EMB68Q) / [Telegram](https://t.me/denxio_free) |
-| BaaaAI Public Service | **Calls have been failing for several days**, and its ranking has been lowered. It previously offered uncommon GPT models, with 20 credits claimable daily in the console, at least one call required, and concurrency of 2. | [Register](https://baaaai.com/register?aff=MDTFQQRGCR2X) |
 | SeekAI | Use with caution; GitHub new account gets $200 sign-up and $20 daily check-in, DeepSeek only, possibly a web proxy with unstable tool calls. | [Register](https://seekai.cc/sign-up?aff=NzMk) |
-| KKToken | **No models are left on the service, so it has moved to the bottom of the ranking until it recovers.** It shares an operator with JustWoker; both previously lost their models, but only JustWoker has returned with GPT while KKToken remains unavailable. It previously offered $100 sign-up credit, $20 daily check-in, and Claude Opus 4.8 plus Opus 5, with a GitHub requirement. If a recovered service shows a Cloudflare block in the Claude Code CLI, turn on a proxy (set `HTTPS_PROXY` / `HTTP_PROXY` in the `env` block of `~/.claude/settings.json`, or use TUN mode). | [Register](https://kktoken.cc/sign-up?aff=vrZc) |
-| TabiToken | **No models are left on the service, so it has moved to the bottom of the ranking until it recovers.** It previously offered $120 sign-up credit and $5-10 daily check-in with Claude Opus 4.8 and Opus 5; a Cloudflare block after recovery is cleared by turning on a proxy. | [Register](https://tabitoken.com/sign-up?aff=AQDR) |
-| GoRouter | **No models are left on the service, so it has moved to the bottom of the ranking until it recovers.** Reliability was already declining before the models went. It previously offered $70 sign-up credit and $5-10 daily check-in with Claude Opus 4.8 and Opus 5; a Cloudflare block after recovery is cleared by turning on a proxy. | [Register](https://gorouter.app/sign-up?aff=e9NL) |
 
 ## Services that require payment
 
@@ -61,7 +55,15 @@ All of these need a top-up for sustained use; sign-up credit only covers a trial
 
 Delisted services are kept as a record only and are no longer recommended. Full records live in [失效站点/](./失效站点/), generated from `siteConfig.archivedEntries` in `app.js`.
 
-Currently archived: Zynk Public Service (delisted 2026-08-29, service is dead).
+Currently archived (no access links are provided):
+
+- Fate New API (delisted 2026-09-09): temporarily unavailable; re-verification is required after recovery.
+- Denxio (delisted 2026-09-09): the upstream account pool was banned and the free service stopped.
+- BaaaAI Public Service (delisted 2026-09-09): models have been unreachable for several days, pending recovery.
+- KKToken (delisted 2026-09-09): no models are available, pending recovery.
+- TabiToken (delisted 2026-09-09): no models are available, pending recovery.
+- GoRouter (delisted 2026-09-09): no models are available, and reliability had already declined.
+- Zynk Public Service (delisted 2026-08-29): the service is dead and its domain no longer works.
 
 Available models, rates, and check-in amounts may change at any time. Always confirm with each site's announcements and actual usage.
 

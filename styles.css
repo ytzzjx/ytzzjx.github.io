@@ -690,6 +690,120 @@ h3 {
   background: var(--cyan);
 }
 
+.archive-section {
+  padding: 0 0 30px;
+}
+
+.archive-section[hidden] {
+  display: none;
+}
+
+.archive-drawer {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--amber);
+  border-radius: var(--radius);
+}
+
+.archive-drawer summary {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 14px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.archive-drawer summary::-webkit-details-marker {
+  display: none;
+}
+
+.archive-drawer summary::after {
+  content: "+";
+  flex: 0 0 auto;
+  color: var(--amber);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.archive-drawer[open] summary::after {
+  content: "−";
+}
+
+.archive-drawer summary:hover .archive-summary-title {
+  color: var(--amber);
+}
+
+.archive-drawer summary:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
+}
+
+.archive-summary-title {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.archive-summary-count {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.archive-content {
+  padding: 0 14px 14px;
+  border-top: 1px solid var(--line);
+}
+
+.archive-note {
+  margin: 12px 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.archive-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+
+.archive-item {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.8fr) minmax(150px, 0.55fr) minmax(280px, 2fr);
+  gap: 16px;
+  align-items: baseline;
+  padding: 10px 12px;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+}
+
+.archive-item:first-child {
+  border-top: 0;
+}
+
+.archive-name {
+  font-weight: 800;
+}
+
+.archive-date {
+  color: var(--amber);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.archive-reason {
+  min-width: 0;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
 .site-disclaimer {
   margin: 0;
   padding: 0 0 26px;
@@ -822,6 +936,16 @@ h3 {
 
   .feed-section {
     padding: 24px 0 34px;
+  }
+
+  .archive-item {
+    grid-template-columns: 1fr;
+    gap: 3px;
+    padding: 11px 12px;
+  }
+
+  .archive-summary-count {
+    white-space: nowrap;
   }
 
   /* 窄屏下标题、分区按钮和说明各占一行，否则三者挤在一行会把按钮压变形。 */

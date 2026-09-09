@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-09-07",
+  lastUpdated: "2026-09-09",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
@@ -14,7 +14,6 @@ const siteConfig = {
     "TokenForge（tokengate）",
     "Nofx",
     "MotoMoto",
-    "Fate New API",
     "AgentRouter",
     "北执半公益站",
     "AnyRouter",
@@ -26,12 +25,7 @@ const siteConfig = {
     "PAI 生图公益站",
     "Rinko NAI 生图公益站",
     "Jasperio",
-    "Denxio",
-    "BaaaAI 公益站",
     "SeekAI",
-    "KKToken",
-    "TabiToken",
-    "GoRouter",
     "Xingya",
     "ArityFlow",
     "Sulmate 半公益站",
@@ -47,6 +41,134 @@ const siteConfig = {
   // 已失效的站点搬到这里：页面不再渲染，但数据完整保留，万一恢复就把对象移回 entries
   // 并把名字加回 displayOrder。英文文案仍留在 entryTranslations 里，不用来回搬。
   archivedEntries: [
+    {
+      archivedAt: "2026-09-09",
+      archivedReason: "站点暂时无法使用，已从在线推荐下架并移入失效区；恢复后需重新核实注册、福利、模型与倍率。",
+      publishedAt: "2026-08-24 00:00",
+      updatedAt: "2026-09-09",
+      updateNote: "站点暂时失效，已从在线推荐下架并移入失效区。",
+      kind: "暂时失效 / 等待恢复",
+      name: "Fate New API",
+      summary: "站点目前暂时失效。此前通过 NodeLoc 注册，注册送 150 刀，有每日签到并支持全模型。",
+      details:
+        "站点目前暂时无法使用，恢复时间未知。此前通过 NodeLoc 注册，注册送 150 刀，有每日签到并支持全模型；账号若长期不调用好像会被删除，本人已遇到两次，删号后重新走注册链接即可再注册。以上均为失效前的历史信息，恢复后的注册、福利和模型情况需要重新核实。",
+      registration: "站点暂时失效；原为通过 NodeLoc 注册，删号后可重新走注册链接注册。",
+      signupBonus: "原为 150 刀",
+      dailyCheckin: "原为有签到，金额待确认",
+      models: "原为全模型；当前站点暂时失效",
+      experience: "站点暂时失效，等待恢复",
+      caveat: "站点目前暂时失效，恢复时间未知。此前不使用好像会被删号，恢复后仍建议保持调用；注册门槛、赠送、签到、模型和倍率届时都需以站内实际显示为准。",
+      benefits: ["站点暂时失效", "等待恢复", "原 NodeLoc 注册", "原注册送 150 刀", "原每日签到", "原全模型", "原删号后可重新注册"],
+      url: "https://fatenewapi.xxxxo.bond/sign-up?aff=eZHA",
+      tone: "caution",
+    },
+    {
+      archivedAt: "2026-09-09",
+      archivedReason: "上游账号池全部被封，公益服务已停止；已从在线推荐下架并移入失效区。",
+      publishedAt: "2026-08-31 00:00",
+      addedAt: "2026-08-31",
+      updatedAt: "2026-09-02",
+      updateNote: "上游号池全部被封，公益服务已停，已从在线推荐下架。",
+      kind: "公益服务已停 / 上游号池被封",
+      name: "Denxio",
+      summary: "上游号池全部被封，公益服务已经停止。原本主打 GPT，仙池活动每天 20 仙缘（仙缘与刀等值），签到另得 0.5-1 仙缘；注册需先去 Telegram 领登仙令。",
+      details:
+        "有人拿这个站做涩情内容和模型蒸馏，站方买来做上游的 Pro 号因此全部被封，公益服务随之停止。注册页仍可访问。原有机制：注册要两个码，邀请码已经带在注册链接里，注册码（登仙令）要自己去 Telegram 领——进频道 t.me/denxio_free 的登仙令分区，向 @JieYin_bot 发送「登仙令」即可拿到，再回注册页填上完成注册。额度主要来自仙池活动，每天 20 仙缘；开放通知发在 Telegram 频道和 QQ 群。",
+      registration: "注册链接已含邀请码；另需去 Telegram 频道 t.me/denxio_free 的登仙令分区向 @JieYin_bot 发送「登仙令」领取注册码。",
+      signupBonus: "原为仙池活动每天 20 仙缘（与刀等值）",
+      dailyCheckin: "原为 0.5-1 仙缘",
+      models: "原为 GPT",
+      experience: "上游号池被封，公益服务已停",
+      caveat: "有人用这个站做涩情内容和蒸馏，把站方的上游 Pro 号全搞封了，公益服务已停，恢复情况请看 Telegram 频道和 QQ 群公告。原有门槛：注册码（登仙令）必须去 Telegram 领，没有就注册不了；仙池的开放通知也只发在 Telegram 频道和 QQ 群。",
+      benefits: ["公益服务已停", "上游号池被封", "GPT", "原仙池每天 20 仙缘", "原签到 0.5-1 仙缘", "需 TG 领登仙令"],
+      url: "https://api.denxio.top/register?invite_code=YP9XP5EMB68Q",
+      tutorialUrl: "https://t.me/denxio_free",
+      tutorialLabel: "进 Telegram 频道看恢复公告、领登仙令注册码",
+      tone: "caution",
+    },
+    {
+      archivedAt: "2026-09-09",
+      archivedReason: "模型已连续多日无法调用，已从在线推荐下架并移入失效区，等待恢复。",
+      publishedAt: "2026-08-28 00:00",
+      updatedAt: "2026-09-02",
+      updateNote: "模型已连续多日不可用，已从在线推荐下架。",
+      kind: "模型不可用 / 等待恢复",
+      name: "BaaaAI 公益站",
+      summary: "站内模型已经连续几天调不通。原本主打较少见的 GPT 模型，每日可在控制台申请 20 额度，需至少调用一次，并发 2。",
+      details:
+        "模型不可用已经持续几天。原有机制：通过邀请链接注册后，可在控制台自行申请每日 20 额度，为保持每日权益需要至少完成一次调用；站内包含较少见的 GPT 模型，具体可用列表以控制台为准。",
+      registration: "通过邀请链接注册。",
+      dailyCheckin: "每日控制台申请 20（需至少调用一次）",
+      models: "原为少见的 GPT 模型，当前调不通",
+      experience: "模型已连续几天不可用",
+      caveat: "模型已经几天调不通，恢复时间未知。每日额度需在控制台自行申请且要至少调用一次；并发只有 2。模型列表、额度与使用规则可能调整，请以控制台实际显示为准。",
+      benefits: ["模型当前不可用", "每日申请 20 额度", "需至少调用一次", "并发 2", "少见 GPT 模型"],
+      url: "https://baaaai.com/register?aff=MDTFQQRGCR2X",
+      tone: "caution",
+    },
+    {
+      archivedAt: "2026-09-09",
+      archivedReason: "站内已无可用模型，已从在线推荐下架并移入失效区，等待恢复。",
+      publishedAt: "2026-08-28 17:39",
+      updatedAt: "2026-09-07",
+      updateNote: "站内已无可用模型，已从在线推荐下架。",
+      kind: "无可用模型 / 等待恢复",
+      name: "KKToken",
+      summary: "站内已经没有模型可用。原本是 JustWoker 站长的新站，注册送 100 刀、每日签到 20 刀，主打 Claude Opus 4.8 与 Opus 5。",
+      details:
+        "站点现在没有模型可调。与 JustWoker 公益站为同一站长；两个站此前一起没了模型，但目前只有 JustWoker 以 GPT 线路恢复，KKToken 仍不可用。原有福利为注册送 100 刀、每日签到 20 刀，可用 Claude Opus 4.8 和 Opus 5；注册需要 GitHub 账号，具体门槛以注册页提示为准。恢复后仍可能遇到 Claude Code CLI 报「Attention Required! | Cloudflare」，那是出网线路被挡：开代理，并把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env，或者直接开代理客户端的 TUN 模式。",
+      registration: "需要 GitHub 账号，有账号限制，具体门槛以注册页提示为准；注册状态以注册页实际显示为准。",
+      signupBonus: "原为 100 刀",
+      dailyCheckin: "原为 20 刀",
+      models: "原为 Claude Opus 4.8 / Opus 5，当前没有可用模型",
+      experience: "站内已无模型可调，等待恢复",
+      caveat: "站内没有模型可用，恢复时间未知。恢复后若在 Claude Code CLI 报「Attention Required! | Cloudflare」，开代理并把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env（或改用 TUN 模式）即可。",
+      benefits: ["当前无可用模型", "等待恢复", "JustWoker 同站长", "原注册送 100 刀", "原每日签到 20 刀", "原 Claude Opus 4.8 / Opus 5", "GitHub 限制"],
+      url: "https://kktoken.cc/sign-up?aff=vrZc",
+      tone: "caution",
+    },
+    {
+      archivedAt: "2026-09-09",
+      archivedReason: "站内已无可用模型，已从在线推荐下架并移入失效区，等待恢复。",
+      publishedAt: "2026-08-20 18:05",
+      updatedAt: "2026-09-07",
+      updateNote: "站内已无可用模型，已从在线推荐下架。",
+      kind: "无可用模型 / 等待恢复",
+      name: "TabiToken",
+      summary: "站内已经没有模型可用。原本注册送 120 刀、每日签到 5-10 刀，主打 Claude Opus 4.8 与 Opus 5。",
+      details:
+        "站点现在没有模型可调。原有福利为邀请注册 120 刀、每日签到 5-10 刀，主打 Claude Opus 4.8 和 Opus 5，此前速度快、连接稳定。签到入口：点击右上角个人头像，进入个人资料后签到。恢复后仍可能在 Claude Code CLI 里报「Attention Required! | Cloudflare」，那是出网线路被 CF 挡了：开代理，并把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env，或者直接开代理客户端的 TUN 模式。",
+      registration: "注册窗口此前随时可能关闭，当前状态以注册页实际显示为准。",
+      signupBonus: "原为 120 刀",
+      dailyCheckin: "原为 5-10 刀",
+      models: "原为 Claude Opus 4.8 / Opus 5，当前没有可用模型",
+      experience: "站内已无模型可调，等待恢复",
+      caveat: "站内没有模型可用，恢复时间未知。注册窗口可能随时关闭；恢复后若报「Attention Required! | Cloudflare」，开代理即可：把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env，或改用 TUN 模式。",
+      benefits: ["当前无可用模型", "等待恢复", "原注册送 120 刀", "原每日签到 5-10 刀", "个人资料内签到", "原 Claude Opus 4.8 / Opus 5"],
+      url: "https://tabitoken.com/sign-up?aff=AQDR",
+      tone: "caution",
+    },
+    {
+      archivedAt: "2026-09-09",
+      archivedReason: "站内已无可用模型且此前稳定性已下降，已从在线推荐下架并移入失效区。",
+      publishedAt: "2026-08-19 20:26",
+      updatedAt: "2026-09-07",
+      updateNote: "站内已无可用模型，已从在线推荐下架。",
+      kind: "无可用模型 / 等待恢复",
+      name: "GoRouter",
+      summary: "站内已经没有模型可用。原本注册送 70 刀、每日签到 5-10 刀，主打 Claude Opus 4.8 与 Opus 5，且 8 月末起稳定性就已经在下降。",
+      details:
+        "站点现在没有模型可调。原有福利为邀请注册 70 刀、每日签到 5-10 刀，主打 Claude Opus 4.8 和 Opus 5；速度此前尚可，但 2026 年 8 月 29 日起稳定性已经明显不如更早的时候，这次直接没了模型。签到入口：点击右上角个人头像，进入个人资料后签到。恢复后仍可能在 Claude Code CLI 里报「Attention Required! | Cloudflare」，那是出网线路被 CF 挡了：开代理，并把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env，或者直接开代理客户端的 TUN 模式。",
+      registration: "注册窗口此前随时可能关闭，当前状态以注册页实际显示为准。",
+      signupBonus: "原为 70 刀",
+      dailyCheckin: "原为 5-10 刀",
+      models: "原为 Claude Opus 4.8 / Opus 5，当前没有可用模型",
+      experience: "站内已无模型可调，等待恢复；此前稳定性已在下降",
+      caveat: "站内没有模型可用，恢复时间未知；这个站在没模型之前稳定性就已经在下降。注册窗口可能随时关闭；恢复后若报「Attention Required! | Cloudflare」，开代理即可：把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env，或改用 TUN 模式。",
+      benefits: ["当前无可用模型", "等待恢复", "原注册送 70 刀", "原每日签到 5-10 刀", "个人资料内签到", "原 Claude Opus 4.8 / Opus 5", "此前稳定性下降"],
+      url: "https://gorouter.app/sign-up?aff=e9NL",
+      tone: "caution",
+    },
     {
       archivedAt: "2026-08-29",
       archivedReason: "站点已失效，域名无法正常使用；若恢复再移回 entries。",
@@ -88,43 +210,6 @@ const siteConfig = {
       tutorialUrl: "https://motomoto.lol/privacy",
       tutorialLabel: "先看隐私政策里的训练数据授权条款",
       tone: "active",
-    },
-    {
-      publishedAt: "2026-08-28 00:00",
-      updatedAt: "2026-09-02",
-      updateNote: "模型已经几天不可用，排序下调到列表后段。",
-      kind: "模型不可用 / 暂时观察",
-      name: "BaaaAI 公益站",
-      summary: "站内模型已经连续几天调不通，已下调排序。原本主打较少见的 GPT 模型，每日可在控制台申请 20 额度，需至少调用一次，并发 2。",
-      details:
-        "模型不可用已经持续几天。原有机制：通过邀请链接注册后，可在控制台自行申请每日 20 额度，为保持每日权益需要至少完成一次调用；站内包含较少见的 GPT 模型，具体可用列表以控制台为准。",
-      registration: "通过邀请链接注册。",
-      dailyCheckin: "每日控制台申请 20（需至少调用一次）",
-      models: "原为少见的 GPT 模型，当前调不通",
-      experience: "模型已连续几天不可用",
-      caveat: "模型已经几天调不通，恢复时间未知。每日额度需在控制台自行申请且要至少调用一次；并发只有 2。模型列表、额度与使用规则可能调整，请以控制台实际显示为准。",
-      benefits: ["模型当前不可用", "每日申请 20 额度", "需至少调用一次", "并发 2", "少见 GPT 模型"],
-      url: "https://baaaai.com/register?aff=MDTFQQRGCR2X",
-      tone: "caution",
-    },
-    {
-      publishedAt: "2026-08-28 17:39",
-      updatedAt: "2026-09-07",
-      updateNote: "站内已经没有模型了，排序降到最低，等恢复再上调。",
-      kind: "无可用模型 / 等待恢复",
-      name: "KKToken",
-      summary: "站内已经没有模型可用，排序已降到最低，等恢复再上调。原本是 JustWoker 站长的新站，注册送 100 刀、每日签到 20 刀，主打 Claude Opus 4.8 与 Opus 5。",
-      details:
-        "站点现在没有模型可调，先按等恢复处理，不要当主力线路。与 JustWoker 公益站为同一站长；两个站此前一起没了模型，但目前只有 JustWoker 以 GPT 线路恢复，KKToken 仍不可用。原有福利为注册送 100 刀、每日签到 20 刀，可用 Claude Opus 4.8 和 Opus 5；注册需要 GitHub 账号，具体门槛以注册页提示为准。注册和签到看起来还在，想占位可以先注册攒额度，但能不能用要等模型回来。恢复后仍可能遇到 Claude Code CLI 报「Attention Required! | Cloudflare」，那是出网线路被挡：开代理，并把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env（任何终端启动都生效），或者直接开代理客户端的 TUN 模式。同一处理对 TabiToken 和 GoRouter 一样有效。",
-      registration: "需要 GitHub 账号，有账号限制，具体门槛以注册页提示为准；注册状态以注册页实际显示为准。",
-      signupBonus: "原为 100 刀",
-      dailyCheckin: "原为 20 刀",
-      models: "原为 Claude Opus 4.8 / Opus 5，当前没有可用模型",
-      experience: "站内已无模型可调，等待恢复",
-      caveat: "站内没有模型可用，恢复时间未知，别当唯一线路。注册与签到是否照旧、恢复后额度和倍率会不会变，都以站内实际显示为准。恢复后若在 Claude Code CLI 报「Attention Required! | Cloudflare」，那是出网线路的问题，不是接口或 CLI 请求头被针对：开代理并把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env（或改用 TUN 模式）即可，不必换 Claude Desktop。",
-      benefits: ["当前无可用模型", "等待恢复", "JustWoker 同站长", "原注册送 100 刀", "原每日签到 20 刀", "原 Claude Opus 4.8 / Opus 5", "GitHub 限制"],
-      url: "https://kktoken.cc/sign-up?aff=vrZc",
-      tone: "caution",
     },
     {
       publishedAt: "2026-08-31 00:00",
@@ -187,47 +272,6 @@ const siteConfig = {
       tone: "caution",
     },
     {
-      publishedAt: "2026-08-31 00:00",
-      addedAt: "2026-08-31",
-      updatedAt: "2026-09-02",
-      updateNote: "上游号池全部被封，公益服务已停，排序下调。",
-      kind: "公益服务已停 / 上游号池被封",
-      name: "Denxio",
-      summary: "上游号池全部被封，公益服务已经停了，排序已下调。原本主打 GPT，仙池活动每天 20 仙缘（仙缘与刀等值），签到另得 0.5-1 仙缘；注册需先去 Telegram 领登仙令。",
-      details:
-        "有人拿这个站做涩情内容和模型蒸馏，站方买来做上游的 Pro 号因此全部被封，公益服务随之停止。注册页仍可访问。原有机制：注册要两个码，邀请码已经带在下面的注册链接里，注册码（登仙令）要自己去 Telegram 领——进频道 t.me/denxio_free 的登仙令分区，向 @JieYin_bot 发送「登仙令」即可拿到，再回注册页填上完成注册。额度主要来自仙池活动，每天 20 仙缘；开放通知发在 Telegram 频道和 QQ 群。",
-      registration: "注册链接已含邀请码；另需去 Telegram 频道 t.me/denxio_free 的登仙令分区向 @JieYin_bot 发送「登仙令」领取注册码。",
-      signupBonus: "原为仙池活动每天 20 仙缘（与刀等值）",
-      dailyCheckin: "原为 0.5-1 仙缘",
-      models: "原为 GPT",
-      experience: "上游号池被封，公益服务已停",
-      caveat: "有人用这个站做涩情内容和蒸馏，把站方的上游 Pro 号全搞封了，公益服务已停，恢复情况请看 Telegram 频道和 QQ 群公告。原有门槛：注册码（登仙令）必须去 Telegram 领，没有就注册不了；仙池的开放通知也只发在 Telegram 频道和 QQ 群。",
-      benefits: ["公益服务已停", "上游号池被封", "GPT", "原仙池每天 20 仙缘", "原签到 0.5-1 仙缘", "需 TG 领登仙令"],
-      url: "https://api.denxio.top/register?invite_code=YP9XP5EMB68Q",
-      tutorialUrl: "https://t.me/denxio_free",
-      tutorialLabel: "进 Telegram 频道看恢复公告、领登仙令注册码",
-      tone: "caution",
-    },
-    {
-      publishedAt: "2026-08-20 18:05",
-      updatedAt: "2026-09-07",
-      updateNote: "站内已经没有模型了，排序降到最低，等恢复再上调。",
-      kind: "无可用模型 / 等待恢复",
-      name: "TabiToken",
-      summary: "站内已经没有模型可用，排序已降到最低，等恢复再上调。原本注册送 120 刀、每日签到 5-10 刀，主打 Claude Opus 4.8 与 Opus 5。",
-      details:
-        "站点现在没有模型可调，先按等恢复处理，不要当主力线路。原有福利为邀请注册 120 刀、每日签到 5-10 刀，主打 Claude Opus 4.8 和 Opus 5，此前速度快、连接稳定。签到入口：点击右上角个人头像，进入个人资料后签到。恢复后仍可能在 Claude Code CLI 里报「Attention Required! | Cloudflare」，那是出网线路被 CF 挡了，不是站点接口的问题：开代理，并把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env（任何终端启动都生效），或者直接开代理客户端的 TUN 模式。",
-      registration: "注册窗口此前随时可能关闭，当前状态以注册页实际显示为准。",
-      signupBonus: "原为 120 刀",
-      dailyCheckin: "原为 5-10 刀",
-      models: "原为 Claude Opus 4.8 / Opus 5，当前没有可用模型",
-      experience: "站内已无模型可调，等待恢复",
-      caveat: "站内没有模型可用，恢复时间未知，别当唯一线路。注册窗口可能随时关闭；已注册用户此前有「不尽快调用可能封号」的说法，但现在没有模型可调，只能等恢复。恢复后若报「Attention Required! | Cloudflare」，开代理即可：把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env，或改用 TUN 模式。",
-      benefits: ["当前无可用模型", "等待恢复", "原注册送 120 刀", "原每日签到 5-10 刀", "个人资料内签到", "原 Claude Opus 4.8 / Opus 5"],
-      url: "https://tabitoken.com/sign-up?aff=AQDR",
-      tone: "caution",
-    },
-    {
       publishedAt: "2026-08-20 10:15",
       updatedAt: "2026-09-07",
       updateNote: "站点已经复活，目前只能使用 GPT 模型，排序升到第一位。",
@@ -245,25 +289,6 @@ const siteConfig = {
       benefits: ["已恢复可用", "排序第一", "仅 GPT", "GitHub 账号门槛以站内为准"],
       url: "https://api.justwoker.icu/sign-up?aff=T5tm",
       tone: "active",
-    },
-    {
-      publishedAt: "2026-08-19 20:26",
-      updatedAt: "2026-09-07",
-      updateNote: "站内已经没有模型了，排序降到最低，等恢复再上调。",
-      kind: "无可用模型 / 等待恢复",
-      name: "GoRouter",
-      summary: "站内已经没有模型可用，排序已降到最低，等恢复再上调。原本注册送 70 刀、每日签到 5-10 刀，主打 Claude Opus 4.8 与 Opus 5，且 8 月末起稳定性就已经在下降。",
-      details:
-        "站点现在没有模型可调，先按等恢复处理，不要当主力线路。原有福利为邀请注册 70 刀、每日签到 5-10 刀，主打 Claude Opus 4.8 和 Opus 5；速度此前尚可，但 2026 年 8 月 29 日起稳定性已经明显不如更早的时候，这次直接没了模型。签到入口：点击右上角个人头像，进入个人资料后签到。恢复后仍可能在 Claude Code CLI 里报「Attention Required! | Cloudflare」，那是出网线路被 CF 挡了，不是站点接口的问题：开代理，并把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env（任何终端启动都生效），或者直接开代理客户端的 TUN 模式。",
-      registration: "注册窗口此前随时可能关闭，当前状态以注册页实际显示为准。",
-      signupBonus: "原为 70 刀",
-      dailyCheckin: "原为 5-10 刀",
-      models: "原为 Claude Opus 4.8 / Opus 5，当前没有可用模型",
-      experience: "站内已无模型可调，等待恢复；此前稳定性已在下降",
-      caveat: "站内没有模型可用，恢复时间未知，别当唯一线路；这个站在没模型之前稳定性就已经在下降。注册窗口可能随时关闭；已注册用户此前有「不尽快调用可能封号」的说法，但现在没有模型可调，只能等恢复。恢复后若报「Attention Required! | Cloudflare」，开代理即可：把 HTTPS_PROXY / HTTP_PROXY 写进 ~/.claude/settings.json 的 env，或改用 TUN 模式。",
-      benefits: ["当前无可用模型", "等待恢复", "原注册送 70 刀", "原每日签到 5-10 刀", "个人资料内签到", "原 Claude Opus 4.8 / Opus 5", "此前稳定性下降"],
-      url: "https://gorouter.app/sign-up?aff=e9NL",
-      tone: "caution",
     },
     {
       publishedAt: "2026-08-18 17:13",
@@ -393,25 +418,6 @@ const siteConfig = {
       caveat: "模型范围、上下文规则和服务状态可能调整，请以站内实际说明为准。",
       benefits: ["注册送 100 刀", "每日签到 25 刀", "GPT-5.6-sol", "1M 上下文"],
       url: "https://anyrouter.top/register?aff=LJPP",
-      tone: "active",
-    },
-    {
-      publishedAt: "2026-08-24 00:00",
-      updatedAt: "2026-09-02",
-      updateNote: "不调用好像会被删号，本人已被删两次；排序上调。",
-      kind: "NodeLoc 注册 / 需保持调用",
-      name: "Fate New API",
-      summary: "通过 NodeLoc 注册，注册送 150 刀，有每日签到，支持全模型。注意：不使用好像会被删号，删了要重新注册，本人已经被删过两次。",
-      details:
-        "模型覆盖范围较广，适合想集中体验多种模型的用户。要留意账号存活：不调用好像就会被删号，本人已经被删过两次，删掉之后重新走注册链接再注册一遍即可。站点此前也清理过一轮账号，老账号同样是重新走注册链接。",
-      registration: "通过 NodeLoc 注册。被删号之后重新走一遍注册链接就能再注册。",
-      signupBonus: "150 刀",
-      dailyCheckin: "有签到，金额待确认",
-      models: "全模型",
-      experience: "模型覆盖广；不调用好像会被删号，本人已被删两次",
-      caveat: "不使用好像会被删号——本人已经被删过两次，所以注册完记得保持调用。被删之后重新走注册链接可以再注册。签到金额、模型可用性、倍率和服务规则也可能调整，请以站内实际说明为准。",
-      benefits: ["NodeLoc 注册", "注册送 150 刀", "每日签到", "全模型", "不用会被删号", "删号后可重新注册"],
-      url: "https://fatenewapi.xxxxo.bond/sign-up?aff=eZHA",
       tone: "active",
     },
     {
@@ -716,6 +722,11 @@ const pageCopy = {
     changesExpand: "展开全部 {count} 条",
     changesCollapse: "收起",
     changesArchivedNote: "已从页面下架归档",
+    archiveTitle: "失效站点",
+    archiveCount: "{count} 个留档",
+    archiveNote: "仅作状态留档，不再推荐访问；恢复后会重新核实并移回在线列表。",
+    archiveDateLabel: "下架日期",
+    archiveReasonFallback: "已从在线推荐下架并移入失效区。",
     updatedToday: "今天更新",
     updatedYesterday: "昨天更新",
     updatedDaysAgo: "{days} 天前更新",
@@ -777,6 +788,11 @@ const pageCopy = {
     changesExpand: "Show all {count}",
     changesCollapse: "Collapse",
     changesArchivedNote: "Removed from the directory and archived",
+    archiveTitle: "Unavailable services",
+    archiveCount: "{count} archived",
+    archiveNote: "Kept for status history only and no longer recommended. Recovered services are re-verified before returning to the live directory.",
+    archiveDateLabel: "Delisted",
+    archiveReasonFallback: "Removed from the live recommendations and moved to the unavailable archive.",
     updatedToday: "Updated today",
     updatedYesterday: "Updated yesterday",
     updatedDaysAgo: "Updated {days} days ago",
@@ -808,11 +824,12 @@ const entryTranslations = {
     tutorialLabel: "Read the training-data authorisation terms in the privacy policy first",
   },
   "BaaaAI 公益站": {
-    kind: "Models unavailable / on hold",
+    kind: "Models unavailable / waiting for recovery",
     name: "BaaaAI Public Service",
-    updateNote: "Models have been unavailable for several days; ranking lowered to the back of the list.",
+    updateNote: "Models have been unavailable for several days; removed from the live recommendations.",
+    archivedReason: "Models have been unavailable for several days, so the service was removed from the live recommendations and moved to the unavailable archive pending recovery.",
     summary:
-      "Calls to the service's models have been failing for several days, and its ranking has been lowered. It previously focused on less common GPT models, with 20 credits claimable daily in the console, at least one call required, and a concurrency limit of 2.",
+      "Calls to the service's models have been failing for several days. It previously focused on less common GPT models, with 20 credits claimable daily in the console, at least one call required, and a concurrency limit of 2.",
     details:
       "The models have been unavailable for several days. The original mechanics: after registering through the referral link, claim the daily 20 credits yourself in the console, with at least one request required to maintain the daily benefit; the console is the source of truth for the uncommon GPT-model lineup.",
     registration: "Register through the referral link.",
@@ -824,9 +841,10 @@ const entryTranslations = {
   },
   KKToken: {
     kind: "No models available / waiting for recovery",
-    updateNote: "No models are left on the service, so it has been moved to the bottom of the ranking until it recovers.",
+    updateNote: "No models are left on the service; removed from the live recommendations.",
+    archivedReason: "No models are available, so the service was removed from the live recommendations and moved to the unavailable archive pending recovery.",
     summary:
-      "No models are available on the service any more, so it has been moved to the bottom of the ranking until it recovers. It previously offered $100 in sign-up credit and $20 daily check-ins, with Claude Opus 4.8 and Opus 5 as the main models.",
+      "No models are available on the service any more. It previously offered $100 in sign-up credit and $20 daily check-ins, with Claude Opus 4.8 and Opus 5 as the main models.",
     details:
       "There are no models left to call, so treat this as a service to wait on rather than a primary route. It is run by the same operator as JustWoker Public Service; both lost their models at the same time, but JustWoker has since recovered with GPT only while KKToken remains unavailable. The previous offer was $100 on sign-up and $20 per daily check-in, with Claude Opus 4.8 and Opus 5 available; a GitHub account is required, and the exact requirement is shown on the registration page. Registration and check-ins appear to still work, so you can register to hold a spot and accumulate credit, but usability depends on the models coming back. After a recovery the Claude Code CLI may still return an \"Attention Required! | Cloudflare\" page — that is the network route being blocked: turn on a proxy and set HTTPS_PROXY / HTTP_PROXY in the env block of ~/.claude/settings.json (which applies to every terminal you start), or switch the proxy client to TUN mode. The same fix applies to TabiToken and GoRouter.",
     registration: "A GitHub account is required; the exact restriction and the current registration status are shown on the registration page.",
@@ -942,9 +960,10 @@ const entryTranslations = {
   },
   Denxio: {
     kind: "Free service stopped / upstream pool banned",
-    updateNote: "The entire upstream account pool was banned and the free service has stopped; ranking lowered.",
+    updateNote: "The entire upstream account pool was banned and the free service stopped; removed from the live recommendations.",
+    archivedReason: "The entire upstream account pool was banned and the free service stopped, so it was removed from the live recommendations and moved to the unavailable archive.",
     summary:
-      "The entire upstream account pool was banned, so the free service has stopped and its ranking has been lowered. It previously focused on GPT, with the Xianchi (仙池) event granting 20 xianyuan per day — xianyuan is equivalent to dollars — plus 0.5-1 from daily check-ins. Registration required a code obtained from Telegram first.",
+      "The entire upstream account pool was banned, so the free service has stopped. It previously focused on GPT, with the Xianchi (仙池) event granting 20 xianyuan per day — xianyuan is equivalent to dollars — plus 0.5-1 from daily check-ins. Registration required a code obtained from Telegram first.",
     details:
       "Someone used the service for pornographic content and model distillation, which got the Pro accounts the operator had bought as upstream banned across the board, and the free service stopped as a result. The registration page is still reachable. The original mechanics: two codes are needed — the referral code is already part of the registration link below, while the registration code (dengxianling, 登仙令) has to be collected from Telegram by joining the t.me/denxio_free channel, going to the dengxianling section, and sending \"登仙令\" to @JieYin_bot, then returning to the registration page. Credit came mainly from the Xianchi event at 20 xianyuan per day, with opening announcements posted only in the Telegram channel and the QQ group.",
     registration:
@@ -1080,19 +1099,20 @@ const entryTranslations = {
     benefits: ["$100 sign-up credit", "$25 daily check-in", "GPT-5.6-sol", "1M context"],
   },
   "Fate New API": {
-    kind: "NodeLoc registration / keep it in use",
-    updateNote: "Accounts appear to be deleted when left unused — mine was twice; ranking raised.",
+    kind: "Temporarily unavailable / waiting for recovery",
+    updateNote: "The service is temporarily unavailable and has been removed from the live recommendations.",
+    archivedReason: "The service is temporarily unavailable, so it was removed from the live recommendations and moved to the unavailable archive; registration, benefits, models, and rates must be re-verified after recovery.",
     summary:
-      "Register through NodeLoc to receive $150. Daily check-ins are available, and the service advertises access to all models. Note that leaving an account unused appears to get it deleted, after which you register again — mine has been deleted twice.",
+      "The service is temporarily unavailable. It previously offered NodeLoc registration, $150 in sign-up credit, daily check-ins, and access to all models.",
     details:
-      "The model range is broad and may suit users who want to try multiple models in one place. Watch account survival: leaving it unused appears to get the account deleted — mine has been twice — and the fix is simply to go through the sign-up link and register again. The service also cleared a batch of accounts earlier, with the same remedy.",
-    registration: "Register through NodeLoc. If your account gets deleted, going through the sign-up link again is enough to re-register.",
-    signupBonus: "$150 credit",
-    dailyCheckin: "Available; amount unconfirmed",
-    models: "All models",
-    experience: "Broad model coverage; unused accounts appear to be deleted — mine was twice",
-    caveat: "Leaving the account unused appears to get it deleted — mine has been deleted twice — so keep making calls after registering. If it happens, the sign-up link lets you register again. Check-in amounts, model availability, rates, and service rules may also change.",
-    benefits: ["NodeLoc registration", "$150 sign-up credit", "Daily check-in", "All models", "Unused accounts get deleted", "Can re-register after deletion"],
+      "The service is currently unusable with no known recovery date, so do not treat it as an available route. It previously offered NodeLoc registration, $150 in sign-up credit, daily check-ins, and access to all models. Accounts left unused appeared to be deleted — mine was twice — and re-registering through the sign-up link was enough to recover access. All of that is historical information from before the outage; registration, benefits, and model availability need to be verified again after recovery.",
+    registration: "Temporarily unavailable; registration previously went through NodeLoc, and deleted accounts could re-register through the sign-up link.",
+    signupBonus: "Previously $150 credit",
+    dailyCheckin: "Previously available; amount unconfirmed",
+    models: "Previously all models; service currently unavailable",
+    experience: "Temporarily unavailable; waiting for recovery",
+    caveat: "The service is temporarily unavailable with no known recovery date, so do not rely on it as an active route. Unused accounts previously appeared to be deleted, so regular calls may still be advisable after recovery. Re-check registration requirements, sign-up credit, check-ins, models, and rates against the service itself when it returns.",
+    benefits: ["Temporarily unavailable", "Waiting for recovery", "Previously NodeLoc registration", "Previously $150 sign-up credit", "Previously daily check-in", "Previously all models", "Previously allowed re-registration after deletion"],
   },
   "GemAI（哈基米公益站）": {
     kind: "Freemium / SillyTavern pick",
@@ -1112,6 +1132,7 @@ const entryTranslations = {
   "Zynk 公益站": {
     kind: "New public service",
     name: "Zynk Public Service",
+    archivedReason: "The service is dead and its domain no longer works; move it back to the live entries only if it recovers.",
     summary:
       "Contact the group admin after registering to receive 200 credits. Daily check-in rewards are random; August 14 and 15 both yielded 15.",
     details:
@@ -1125,9 +1146,10 @@ const entryTranslations = {
   },
   TabiToken: {
     kind: "No models available / waiting for recovery",
-    updateNote: "No models are left on the service, so it has been moved to the bottom of the ranking until it recovers.",
+    updateNote: "No models are left on the service; removed from the live recommendations.",
+    archivedReason: "No models are available, so the service was removed from the live recommendations and moved to the unavailable archive pending recovery.",
     summary:
-      "No models are available on the service any more, so it has been moved to the bottom of the ranking until it recovers. Referral registration previously granted $120, with $5-10 from daily check-ins and Claude Opus 4.8 and Opus 5 as the main models.",
+      "No models are available on the service any more. Referral registration previously granted $120, with $5-10 from daily check-ins and Claude Opus 4.8 and Opus 5 as the main models.",
     details:
       "There are no models left to call, so treat this as a service to wait on rather than a primary route. The previous offer was $120 from referral registration plus $5-10 from daily check-ins, focused on Claude Opus 4.8 and Opus 5, and connections used to be fast and stable. To check in, open the profile photo in the top-right and go to Profile. After a recovery the Claude Code CLI may still return an \"Attention Required! | Cloudflare\" page — Cloudflare is blocking the network route rather than the endpoint: turn on a proxy and set HTTPS_PROXY / HTTP_PROXY in the env block of ~/.claude/settings.json (which applies to every terminal you start), or switch the proxy client to TUN mode.",
     registration: "The registration window could close at any time; the current status is shown on the registration page.",
@@ -1140,9 +1162,10 @@ const entryTranslations = {
   },
   GoRouter: {
     kind: "No models available / waiting for recovery",
-    updateNote: "No models are left on the service, so it has been moved to the bottom of the ranking until it recovers.",
+    updateNote: "No models are left on the service; removed from the live recommendations.",
+    archivedReason: "No models are available and reliability had already declined, so the service was removed from the live recommendations and moved to the unavailable archive.",
     summary:
-      "No models are available on the service any more, so it has been moved to the bottom of the ranking until it recovers. Referral registration previously granted $70 with $5-10 from daily check-ins, and reliability had already been declining since late August.",
+      "No models are available on the service any more. Referral registration previously granted $70 with $5-10 from daily check-ins, and reliability had already been declining since late August.",
     details:
       "There are no models left to call, so treat this as a service to wait on rather than a primary route. The previous offer was $70 from referral registration plus $5-10 from daily check-ins, focused on Claude Opus 4.8 and Opus 5. Speed used to be decent, but reliability had been noticeably worse since August 29, 2026, and now the models are gone entirely. To check in, open the profile photo in the top-right and go to Profile. After a recovery the Claude Code CLI may still return an \"Attention Required! | Cloudflare\" page — Cloudflare is blocking the network route rather than the endpoint: turn on a proxy and set HTTPS_PROXY / HTTP_PROXY in the env block of ~/.claude/settings.json (which applies to every terminal you start), or switch the proxy client to TUN mode.",
     registration: "The registration window could close at any time; the current status is shown on the registration page.",
@@ -1420,6 +1443,23 @@ const formatPublishedAt = (publishedAt) => {
   };
 };
 
+// YYYY-MM-DD 按本地日历构造，避免把 UTC 午夜换算成当地前一天。
+const formatCalendarDate = (dateText) => {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(dateText));
+  if (!match) return String(dateText ?? "");
+  const parsed = new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]));
+  if (
+    parsed.getFullYear() !== Number(match[1])
+    || parsed.getMonth() !== Number(match[2]) - 1
+    || parsed.getDate() !== Number(match[3])
+  ) return String(dateText);
+  return new Intl.DateTimeFormat(currentLocale === "en" ? "en-US" : "zh-CN", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(parsed);
+};
+
 const applyText = (selector, value) => {
   document.querySelectorAll(selector).forEach((element) => {
     element.textContent = value;
@@ -1535,6 +1575,43 @@ const renderEntry = (sourceEntry) => {
 
 const SITE_ORIGIN = "https://ytzzjx.github.io";
 
+const renderArchivedEntries = (copy) => {
+  const section = document.querySelector("[data-archive-section]");
+  const list = document.querySelector("[data-archive-list]");
+  if (!section || !list) return;
+
+  const entries = (siteConfig.archivedEntries ?? [])
+    .map((entry, index) => ({ entry, index }))
+    .sort((left, right) =>
+      String(right.entry.archivedAt).localeCompare(String(left.entry.archivedAt)) || left.index - right.index,
+    )
+    .map(({ entry }) => entry);
+
+  if (!entries.length) {
+    list.innerHTML = "";
+    section.hidden = true;
+    return;
+  }
+
+  list.innerHTML = entries
+    .map((sourceEntry) => {
+      const entry = localizeEntry(sourceEntry);
+      const reason = entry.archivedReason || copy.archiveReasonFallback;
+      const date = formatCalendarDate(sourceEntry.archivedAt);
+      return `<li class="archive-item">
+        <strong class="archive-name">${escapeHtml(entry.name)}</strong>
+        <time class="archive-date" datetime="${escapeHtml(sourceEntry.archivedAt)}">${escapeHtml(copy.archiveDateLabel)} ${escapeHtml(date)}</time>
+        <span class="archive-reason">${escapeHtml(reason)}</span>
+      </li>`;
+    })
+    .join("");
+
+  section.hidden = false;
+  applyText("[data-archive-title]", copy.archiveTitle);
+  applyText("[data-archive-count]", copy.archiveCount.replace("{count}", String(entries.length)));
+  applyText("[data-archive-note]", copy.archiveNote);
+};
+
 // 中英文共用同一个 URL（靠 ?lang 区分），所以 canonical 和 Open Graph 要跟着语言走，
 // 否则分享出去的卡片语言和实际页面对不上。
 const applyMetaForLocale = (copy) => {
@@ -1621,9 +1698,8 @@ const renderRecentChanges = (copy) => {
     const days = daysSince(sourceEntry.archivedAt);
     if (!isRecent(days)) continue;
     const entry = localizeEntry(sourceEntry);
-    // archivedReason 只有中文，英文页改用通用说明，避免中文漏出去。
-    const note = currentLocale === defaultLocale ? sourceEntry.archivedReason : copy.changesArchivedNote;
-    items.push({ days, name: entry.name, note: note ?? "", tag: copy.changesArchivedLabel, variant: "archived" });
+    const note = entry.archivedReason || copy.changesArchivedNote;
+    items.push({ days, name: entry.name, note, tag: copy.changesArchivedLabel, variant: "archived" });
   }
 
   if (!items.length) {
@@ -1739,6 +1815,7 @@ const renderPage = () => {
   });
 
   renderRecentChanges(copy);
+  renderArchivedEntries(copy);
   applyMetaForLocale(copy);
   applyStructuredData(copy, orderedEntries);
 
