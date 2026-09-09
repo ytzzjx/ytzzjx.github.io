@@ -96,6 +96,8 @@
 | `quietUpdate: true` | 这次改动不进「最近变更」 | 只是数字变了之类的小改动，卡片徽标照旧显示 |
 | `archivedAt` + `archivedReason` | 下架日期和原因 | 移进 `archivedEntries` 时填 |
 
-同一个站的 `addedAt` 和 `updatedAt` 都在窗口内时只按改动显示，不会重复出现两行。
+同一个站的 addedAt 和 updatedAt 为同一天时按「新收录」显示；以后 updatedAt 晚于
+addedAt 时才按普通更新显示。最近变更在同一天会优先展示新收录，其次是更新和下架，
+避免新增站点被大量下架记录挤进折叠区；同一个站始终不会重复出现两行。
 
 **不要拿 `publishedAt` 当收录时间用。** 它历史上被当作「这条信息最后一次成稿的时间」改过（AnyRouter 8 月 11 日就收录了，`publishedAt` 却先后被改成 8-13 和 8-26），拿它判断新收录会把改过文案的老站全认成新站。老条目一律不补 `addedAt`，补也是猜。

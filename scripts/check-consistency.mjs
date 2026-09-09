@@ -189,8 +189,8 @@ for (const entry of siteConfig.entries) {
   }
 }
 
-// 5e. 新收录和改动都在「最近变更」里，同一个站两者都落在窗口内时只会按改动显示，
-//     此时 addedAt 白填了，提示一下免得以为自己漏了什么。
+// 5e. 新收录和改动都在「最近变更」里。addedAt / updatedAt 同日时按新收录显示；
+//     updatedAt 晚于 addedAt 时按改动显示。同一个站始终只显示一次。
 const RECENT_WINDOW_DAYS = 7;
 const daysFromToday = (text) => {
   if (!text) return null;

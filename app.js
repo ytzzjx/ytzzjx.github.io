@@ -1791,7 +1791,15 @@ const renderRecentChanges = (copy) => {
 
   const items = [];
   for (const sourceEntry of siteConfig.entries) {
+    const addedDays = daysSince(sourceEntry.addedAt);
     const updatedDays = daysSince(sourceEntry.updatedAt);
+    // 新站首次收录时通常会同时填写 addedAt / updatedAt；两者同日时应按「新收录」展示，
+    // 避免被普通更新和同日下架记录挤进折叠区。后续 updatedAt 晚于 addedAt 时再按更新算。
+    if (isRecent(addedDays) && sourceEntry.addedAt === sourceEntry.updatedAt) {
+      const entry = localizeEntry(sourceEntry);
+      items.push({ days: addedDays, name: entry.name, note: entry.kind ?? "", tag: copy.changesAddedLabel, variant: "added" });
+      continue;
+    }
     // 改过的按改动算，没改过的按收录算——同一个站不会既算新收录又算更新。
     if (isRecent(updatedDays)) {
       if (sourceEntry.quietUpdate) continue;
@@ -1799,7 +1807,6 @@ const renderRecentChanges = (copy) => {
       items.push({ days: updatedDays, name: entry.name, note: entry.updateNote ?? "", tag: "", variant: "updated" });
       continue;
     }
-    const addedDays = daysSince(sourceEntry.addedAt);
     if (!isRecent(addedDays)) continue;
     const entry = localizeEntry(sourceEntry);
     // 新收录本身就是变更，说明用 kind（中英文都有），不必另写一句。
@@ -1819,7 +1826,13 @@ const renderRecentChanges = (copy) => {
     return;
   }
 
-  items.sort((left, right) => left.days - right.days || left.name.localeCompare(right.name));
+  const variantPriority = { added: 0, updated: 1, archived: 2 };
+  items.sort(
+    (left, right) =>
+      left.days - right.days ||
+      variantPriority[left.variant] - variantPriority[right.variant] ||
+      left.name.localeCompare(right.name),
+  );
   section.hidden = false;
   list.innerHTML = items
     .map(
