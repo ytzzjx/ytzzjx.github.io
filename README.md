@@ -31,7 +31,10 @@
 | Jasperio | 免费生图与轻量对话，无需额外注册，图片请尽快下载。 | [直达](https://jasperio.xyz:8848/) |
 | SeekAI | 谨慎使用，GitHub 新号注册送 200 刀、每日签到 20 刀，仅有 DeepSeek，疑似网页反代、工具调用异常。 | [注册](https://seekai.cc/sign-up?aff=NzMk) |
 | 咕嘎咕嘎 | 微信注册，签到约 1 元临时额度，每月底清空。含 Gemini-3.7-Flash、GLM-5.3-Flash、GPT-5.6-sol、GPT-Image-2、Grok-4.6、Qwen3.8-Flash；价格为 1/1/0.1（输入/输出/缓存）。 | [注册](https://ai.xmiaom.com/sign-up?aff=04Qy) |
-| ze（芙芙中转站） | **此前有人批量注册，现在需要通过新邀请链接重新注册**；新注册送 **43.8 万以上额度**，实际数额以站内显示为准。**日常额度主要靠去论坛 [bbs.kscsnkli.site](https://bbs.kscsnkli.site/) 做任务赚**，也有签到。模型有 GLM-5.3-Flash、GPT-5.6-sol、DeepSeek V4 Pro、GLM-5.2 与 Kimi-K3。请勿批量注册。 | [注册](https://ai.kscsnkli.site/sign-up?aff=Chz0) / [论坛](https://bbs.kscsnkli.site/) |
+| ze（芙芙中转站） | **此前有人批量注册，现在需要通过新邀请链接重新注册**；每日额度现已有限制，具体上限与重置规则以站内显示为准。**日常额度主要靠去论坛 [bbs.kscsnkli.site](https://bbs.kscsnkli.site/) 做任务赚**，也有签到。模型有 GLM-5.3-Flash、GPT-5.6-sol、DeepSeek V4 Pro、GLM-5.2 与 Kimi-K3。请勿批量注册。 | [注册](https://ai.kscsnkli.site/sign-up?aff=nHwf) / [论坛](https://bbs.kscsnkli.site/) |
+| 奶酪公益站 | QQ 邮箱注册，进签到群绑定 QQ 后可在群内签到，每次约 1 毛额度；全部模型约一分钱一次，站内暂未发现充值入口，人数达到阶段目标时会发放几百额度。含 GLM-5.3-Flash、DeepSeek V4 Pro、GPT-5.6-luna 与 Qwen3.8-Flash。**酒馆站，不支持写代码。** | [注册](https://nailao.biz/sign-up?aff=8KMU) |
+| SharedChat 公益站 | QQ 注册，提供 GPT-5.6-sol；每日限额 50、个人每三小时限额 15，全站另有共享的三小时总限额。只允许单并发，并限制 IP，**使用时需要关闭代理**。 | [注册](https://new.sharedchat.cc/list/#/register?i=m11Qn) |
+| XXS 公益站 | Claude 倍率 0.16，但不定期开放；QQ群可签到领取鸡蛋。另有 Image-2、DeepSeek V4.1 Flash、Qwen3.8 Flash、GLM-5.3 Flash、DeepSeek V4 Flash、GLM-5-3 与 Kimi-K3。站长规划增加 GPT 0.16 与 Grok 4.6 0.5，**这两项尚未上线**。 | [注册](https://xxs.l.cd/sign-up?aff=q6G2) |
 
 ## 需要付费的站点
 
