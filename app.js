@@ -272,7 +272,7 @@ const siteConfig = {
       experience: "倍率 1x、签到约 50；OpenAI 模型限 Codex 内使用",
       caveat: "**站方规定 OpenAI 模型只能在 Codex 里用，接到其他第三方智能体按违规处理**——拿它跑 Claude Code 之类的客户端属于违规，注意别踩。站规还禁止多开账号、脚本注册或签到、刷额度、倒卖密钥与额度、越狱提示与绕过内容审核，一经查实直接封号、额度作废不退不补；9 月 5 日刚因大量违规封过一批号并短暂停服，误封可走 /appeal 申诉。隐私政策里有训练数据授权条款：授权后站方可能存储或采样你的提示词、模型输出和工具调用用于训练、微调、蒸馏和评测，已进入训练的部分通常无法单独剔除，跑敏感内容前自己去设置里确认开关状态（签到金额现在统一约 50，和这个开关还有没有关系我没核实）。额度是站内记账、不是现金，长时间不用会被清零；站点上线不久，稳定性和额度政策都可能变。",
       benefits: ["GitHub 注册", "老账号需绑定 GitHub", "注册送 50 刀", "倍率 1x", "签到约 50", "OpenAI 仅限 Codex 内使用", "严禁多开与刷额度", "闲置余额清零"],
-      url: "https://motomoto.lol/sign-up?aff=vMPH",
+      url: "https://motomoto.lol/sign-up?aff=91Tp",
       tutorialUrl: "https://motomoto.lol/privacy",
       tutorialLabel: "先看隐私政策里的训练数据授权条款",
       tone: "active",

@@ -26,7 +26,7 @@
 | XXS 公益站 | Claude 倍率 0.16，但不定期开放；QQ群可签到领取鸡蛋。另有 Image-2、DeepSeek V4.1 Flash、Qwen3.8 Flash、GLM-5.3 Flash、DeepSeek V4 Flash、GLM-5-3 与 Kimi-K3。站长规划增加 GPT 0.16 与 Grok 4.6 0.5，**这两项尚未上线**。 | [注册](https://xxs.l.cd/sign-up?aff=q6G2) |
 | Txcxgzs 公益站 | GitHub 注册，当前 0 付费，签到约 0.1。主要提供 free2-glm-5.3-flash、free2-qwen3.8-flash、free2-mimo-v2.5，另有 nvd-minimaxai/minimax-m3。 | [注册](https://ai.txcxgzs.com/sign-up?aff=VegH) |
 | 咕嘎咕嘎 | 微信注册，签到约 1 元临时额度，每月底清空。含 Gemini-3.7-Flash、GLM-5.3-Flash、GPT-5.6-sol、GPT-Image-2、Grok-4.6、Qwen3.8-Flash；价格为 1/1/0.1（输入/输出/缓存）。 | [注册](https://ai.xmiaom.com/sign-up?aff=04Qy) |
-| MotoMoto | 注册送 50 刀（注册 30 + 邀请码 20），倍率 1x，每日签到约 50，含 gpt-5.5 与 gpt-5.6-sol。**密码注册已关闭，改用 GitHub 注册**；老账号还能用密码登录但要进「个人设置」绑定 GitHub，没绑会被按刷号暂停。**站方规定 OpenAI 模型只能在 Codex 里用，接到其他智能体按违规处理。** 隐私政策里的训练数据授权条款仍在，跑敏感内容前自己看一眼开关。 | [注册](https://motomoto.lol/sign-up?aff=vMPH) / [隐私政策](https://motomoto.lol/privacy) |
+| MotoMoto | 注册送 50 刀（注册 30 + 邀请码 20），倍率 1x，每日签到约 50，含 gpt-5.5 与 gpt-5.6-sol。**密码注册已关闭，改用 GitHub 注册**；老账号还能用密码登录但要进「个人设置」绑定 GitHub，没绑会被按刷号暂停。**站方规定 OpenAI 模型只能在 Codex 里用，接到其他智能体按违规处理。** 隐私政策里的训练数据授权条款仍在，跑敏感内容前自己看一眼开关。 | [注册](https://motomoto.lol/sign-up?aff=91Tp) / [隐私政策](https://motomoto.lol/privacy) |
 | AnyRouter | 邀请注册送 100、每日签到 25；GPT-5.6-sol 支持 1M 上下文。Linux Do 二级或 edu.cn 邮箱。 | [注册](https://anyrouter.top/register?aff=LJPP) |
 | TokenForge（tokengate） | **已恢复正常，每日签到 20 刀，仍是这里主要的 Claude Opus 5 线路。** 账号被站方清空过，**需要重新注册**。此前实测的注入（模型被锁成只用英文回答）没有复测，第一次调用时用中文问一句自己验一下。 | [注册](https://tokenforge.ai.studio/sign-up?aff=iheu) |
 | GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1。注册送 1 块，**现已开签到，每天约 1 毛（约十次请求）**；订阅两档也划算——5 元每周重置 30 元额度，**20 元每天重置 300 元额度**（每天约三万次请求）。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://zc.gcmod.cn/sign-up?aff=4wem) |
