@@ -31,7 +31,6 @@
 | TokenForge（tokengate） | **已恢复正常，每日签到 20 刀，仍是这里主要的 Claude Opus 5 线路。** 账号被站方清空过，**需要重新注册**。此前实测的注入（模型被锁成只用英文回答）没有复测，第一次调用时用中文问一句自己验一下。 | [注册](https://tokenforge.ai.studio/sign-up?aff=iheu) |
 | GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1。注册送 1 块，**现已开签到，每天约 1 毛（约十次请求）**；订阅两档也划算——5 元每周重置 30 元额度，**20 元每天重置 300 元额度**（每天约三万次请求）。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://zc.gcmod.cn/sign-up?aff=4wem) |
 | Nofx | 注册链接注册送 20，**加入 Discord 另送 5**，每天可签到 5（签到上限 50），GPT-5.6-sol 可用且倍率 0.6x；站内没找到充值入口，已归到公益区。 | [注册链接](https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q) |
-| 一梦五千年 | **注册已重新开放**，不再限量，但**只能用 GitHub、Linux Do 或 Discord 账号注册**，不支持邮箱；注册送 10 刀，GPT-5.6-sol 与 GPT-5.6-luna 为 1x 倍率，另有国产模型。 | [注册](https://fapi.leileihog.top/sign-up?aff=ZR02) |
 | Rinko NAI 生图公益站 | 专注 API 生图，使用 NAI Diffusion 模型；每日签到 25 代币，带作品广场。 | [注册](https://nai.rinko.ai/sign-up?aff=OQhG) |
 | 北执半公益站 | 半公益站，仅支持主流邮箱注册，有统一 OpenAI 格式接口，签到额度较多，含 Gemini 新模型和 Claude。 | [注册](https://beizhi.sylu.cc/sign-up?aff=hk5Q) |
 | Jasperio | 免费生图与轻量对话，无需额外注册，图片请尽快下载。 | [直达](https://jasperio.xyz:8848/) |

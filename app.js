@@ -27,7 +27,6 @@ const siteConfig = {
     "Nofx",
     "AbinAPI",
     "247看 API",
-    "一梦五千年",
     "ArityFlow",
     "Sulmate 半公益站",
     "True SOTA",
@@ -726,25 +725,6 @@ const siteConfig = {
       benefits: ["注册送 200 刀", "每日签到 20 刀", "支持 Telegram 注册", "仅支持 DeepSeek", "疑似网页反代", "工具调用异常"],
       url: "https://seekai.cc/sign-up?aff=NzMk",
       tone: "caution",
-    },
-    {
-      publishedAt: "2026-08-17 16:03",
-      updatedAt: "2026-08-31",
-      updateNote: "注册已重新开放，不再限量；只能用 GitHub / Linux Do / Discord 注册，排序相应上调。",
-      kind: "已开放注册 / 第三方登录",
-      name: "一梦五千年",
-      summary: "注册已重新开放，不再是此前的限量名额，但只能用 GitHub、Linux Do 或 Discord 账号注册，不支持邮箱；注册送 10 刀，GPT-5.6-sol 与 GPT-5.6-luna 为 1x 倍率，也有其他国产模型。",
-      details:
-        "此前只放出 31 个名额，现已重新开放注册。注册只走第三方授权，可用 GitHub、Linux Do 或 Discord，不能直接用邮箱注册，三个都没有就进不去。注册奖励为 10 刀，GPT-5.6-sol 与 GPT-5.6-luna 是 1x 倍率，另有其他国产模型。",
-      registration: "只能用 GitHub、Linux Do 或 Discord 账号授权注册，不支持邮箱注册；2026-08-31 核对时注册已开放。",
-      signupBonus: "10 刀",
-      dailyCheckin: "随机奖励",
-      models: "GPT-5.6-sol / GPT-5.6-luna / 国产模型",
-      experience: "2026-08-31 核对时注册已重新开放；需用 GitHub / Linux Do / Discord 登录",
-      caveat: "只能用 GitHub、Linux Do 或 Discord 注册，三者都没有就没法注册。注册开放状态可能再次收紧，以注册页面实际结果为准；不要批量测活，可能会被拉黑 IP。签到为随机奖励，数额不固定。",
-      benefits: ["已开放注册", "GitHub / Linux Do / Discord 注册", "不支持邮箱", "注册送 10 刀", "1x 倍率", "随机签到奖励"],
-      url: "https://fapi.leileihog.top/sign-up?aff=ZR02",
-      tone: "active",
     },
     {
       publishedAt: "2026-08-26 00:00",
@@ -1499,22 +1479,6 @@ const entryTranslations = {
     benefits: ["No top-up found", "Referral link ref=PWF8Z79Q", "$20 signup credit", "$5 for joining Discord", "$5 daily check-in", "Daily cap $50", "GPT-5.6-sol 0.6x"],
   },
 
-  "一梦五千年": {
-    name: "Yimeng 5000",
-    kind: "Registration open / third-party login only",
-    updateNote: "Registration has reopened and is no longer limited, but sign-up requires GitHub, Linux Do, or Discord; ranking raised accordingly.",
-    summary:
-      "Registration has reopened and is no longer the limited batch it was before, but sign-up works only through a GitHub, Linux Do, or Discord account — email registration is not available. New accounts receive $10, with GPT-5.6-sol and GPT-5.6-luna at a 1x rate, plus other Chinese models.",
-    details:
-      "The service previously released only 31 slots; registration is now open again. Sign-up goes through third-party authorisation only — GitHub, Linux Do, or Discord — with no direct email registration, so without one of the three you cannot get in. New accounts receive $10, GPT-5.6-sol and GPT-5.6-luna run at a 1x rate, and other Chinese models are available.",
-    registration: "Sign-up requires authorising a GitHub, Linux Do, or Discord account; email registration is not supported. As of 2026-08-31, registration is open.",
-    signupBonus: "$10",
-    dailyCheckin: "Random reward",
-    models: "GPT-5.6-sol / GPT-5.6-luna / Chinese models",
-    experience: "Registration confirmed reopened on 2026-08-31; needs GitHub, Linux Do, or Discord login",
-    caveat: "Only GitHub, Linux Do, or Discord accounts can register, so without one of the three you cannot sign up. Registration may tighten again — rely on the registration page. Do not bulk-probe, as your IP may be blocked. Check-in rewards are random, so the amount is not fixed.",
-    benefits: ["Registration open", "GitHub / Linux Do / Discord sign-up", "No email option", "$10 sign-up credit", "1x rate", "Random check-in reward"],
-  },
   "TokenForge（tokengate）": {
     kind: "Recovered / re-registration required",
     name: "TokenForge (formerly TokenGate)",
