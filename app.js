@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-09-10",
+  lastUpdated: "2026-09-13",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
@@ -14,6 +14,7 @@ const siteConfig = {
     "Hyper 公益站",
     "ze（芙芙中转站）",
     "Chinahk 公益站",
+    "Ksir的小饭锅",
     "奶酪公益站",
     "SharedChat 公益站",
     "XXS 公益站",
@@ -194,6 +195,26 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-09-13 00:00",
+      addedAt: "2026-09-13",
+      updatedAt: "2026-09-13",
+      updateNote: "新增收录：邀请注册送 0.2，每日签到 5，有 Claude 和 DeepSeek，酒馆站。",
+      kind: "半公益站 / 邀请注册送 0.2 / 酒馆站",
+      name: "Ksir的小饭锅",
+      summary: "半公益酒馆站，邀请注册送 0.2、每日签到 5；站内有 Claude 和 DeepSeek 可用。",
+      details:
+        "面向酒馆（SillyTavern）用户的半公益站。走邀请链接注册送 0.2，每日签到得 5，额度主要靠签到维持；站内有 Claude 和 DeepSeek 可用。赠送与签到的单位、倍率和模型清单以站内实际显示为准。",
+      registration: "通过邀请链接注册。",
+      signupBonus: "0.2",
+      dailyCheckin: "5",
+      models: "Claude / DeepSeek",
+      experience: "酒馆站，额度靠每日签到维持",
+      caveat: "半公益站，赠送与签到的金额单位、倍率、模型清单和充值规则可能调整，请以站内实际显示为准。",
+      benefits: ["半公益站", "酒馆站", "邀请注册送 0.2", "每日签到 5", "Claude", "DeepSeek"],
+      url: "https://api.biliksir.ggff.net/sign-up?aff=q3ep",
+      tone: "active",
+    },
     {
       publishedAt: "2026-09-09 00:00",
       addedAt: "2026-09-09",
@@ -923,6 +944,22 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  "Ksir的小饭锅": {
+    name: "Ksir's Little Rice Pot",
+    kind: "Freemium service / 0.2 referral credit / SillyTavern-oriented",
+    updateNote: "New listing: 0.2 on referral sign-up and a 5 daily check-in, with Claude and DeepSeek available; oriented toward SillyTavern users.",
+    summary:
+      "A freemium service oriented toward SillyTavern users. Referral sign-up grants 0.2 and the daily check-in adds 5; Claude and DeepSeek are available on the service.",
+    details:
+      "A freemium service for SillyTavern users. Registration through the referral link grants 0.2 and the daily check-in adds 5, so credit is mainly sustained by checking in; Claude and DeepSeek are available. The units of the sign-up bonus and check-in amounts, rates, and the model lineup should be verified on the service.",
+    registration: "Register through the referral link.",
+    signupBonus: "0.2",
+    dailyCheckin: "5",
+    models: "Claude / DeepSeek",
+    experience: "SillyTavern-oriented; credit is sustained by the daily check-in",
+    caveat: "As a freemium service, the units of the bonus and check-in amounts, rates, the model lineup, and top-up rules may change; verify them on the service.",
+    benefits: ["Freemium service", "SillyTavern-oriented", "0.2 referral sign-up credit", "5 daily check-in", "Claude", "DeepSeek"],
+  },
   "Txcxgzs 公益站": {
     name: "Txcxgzs Public Service",
     kind: "Public service / GitHub sign-up / no payment required",
