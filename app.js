@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-09-13",
+  lastUpdated: "2026-09-15",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Orevx Engine 半公益站",
     "AgentRouter",
     "JustWoker 公益站",
     "Hyper 公益站",
@@ -195,6 +196,29 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-09-15 00:00",
+      addedAt: "2026-09-15",
+      updatedAt: "2026-09-15",
+      updateNote: "新增收录：半公益站，邮箱或手机注册送 100 算力，每日随机签到 100-200 算力，常见大模型都有，调用速度快。",
+      kind: "半公益站 / 邮箱或手机注册 / 每日签到 100-200 算力",
+      name: "Orevx Engine 半公益站",
+      summary:
+        "半公益站，邮箱或手机注册送 100 算力，每日随机签到 100-200 算力；常见大模型都有，调用速度快，模型使用界面在 /llm-dashboard。",
+      details:
+        "一站式 AI 创作与智能工作平台，除 LLM API 外还自带对话、绘图、视频、音乐与工作流等功能。额度单位叫「算力」：新用户注册送 100 算力，每日签到随机得 100-200 算力（签到为随机模式，上下限已由站方公开配置确认）；站点同时开放支付宝与微信支付的订阅和充值，所以归半公益而非纯公益。注册支持邮箱或手机号，邮箱仅限 qq.com / 163.com / gmail.com / outlook.com / hotmail.com，且要求同时绑定邮箱和手机号。模型调用界面在 https://orevx.ai/llm-dashboard/ 。",
+      registration: "邮箱或手机号注册（邮箱仅限 qq.com / 163.com / gmail.com / outlook.com / hotmail.com），注册后需同时绑定邮箱和手机号。",
+      signupBonus: "100 算力",
+      dailyCheckin: "随机 100-200 算力",
+      models: "常见大模型均有（具体清单以站内 llm-dashboard 显示为准）",
+      experience: "用户反馈调用速度快",
+      caveat: "模型清单与倍率本次未逐项核实（需登录后才能看到），请以站内 llm-dashboard 实际显示为准；签到为随机额度，每次金额不固定；站点同时经营付费订阅，免费额度规则可能随时调整。",
+      benefits: ["半公益站", "邮箱或手机注册", "注册送 100 算力", "每日随机签到 100-200 算力", "常见大模型均有", "速度快", "llm-dashboard 调用界面", "支持支付宝/微信订阅"],
+      url: "https://orevx.ai/login?mode=register&inviteCode=FAGCRGAT",
+      tutorialUrl: "https://orevx.ai/llm-dashboard/",
+      tutorialLabel: "模型使用界面（llm-dashboard）",
+      tone: "active",
+    },
     {
       publishedAt: "2026-09-13 00:00",
       addedAt: "2026-09-13",
@@ -944,6 +968,22 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  "Orevx Engine 半公益站": {
+    name: "Orevx Engine Freemium Service",
+    kind: "Freemium / email or phone sign-up / 100-200 compute daily check-in",
+    updateNote: "New listing: a freemium service granting 100 compute on sign-up and a random 100-200 compute daily check-in, covering the common major models with fast calls.",
+    summary:
+      "A freemium service: email or phone sign-up grants 100 compute and the daily check-in randomly adds 100-200 compute. All the common major models are available, calls are fast, and the model console is at /llm-dashboard.",
+    details:
+      "An all-in-one AI creation and work platform that bundles chat, drawing, video, music, and workflow features alongside the LLM API. Credit is measured in \"compute\": new users get 100 on sign-up and the daily check-in randomly grants 100-200 (the random mode and its bounds are confirmed by the service's public configuration). Alipay and WeChat subscriptions are sold, so it is freemium rather than purely free. Registration is by email or phone, with email restricted to qq.com / 163.com / gmail.com / outlook.com / hotmail.com, and both an email and a phone number must be bound. The model console is at https://orevx.ai/llm-dashboard/ .",
+    registration: "Sign up with an email or phone number (email limited to qq.com / 163.com / gmail.com / outlook.com / hotmail.com); both an email and a phone number must be bound afterwards.",
+    signupBonus: "100 compute",
+    dailyCheckin: "Random 100-200 compute",
+    models: "All common major models (see the in-site llm-dashboard for the exact list)",
+    experience: "Fast calls per user report",
+    caveat: "The model list and rates were not verified item by item this time (a login is required to see them); confirm them in the in-site llm-dashboard. Check-in credit is random, so the amount varies. The service also sells paid subscriptions, so free-credit rules may change.",
+    benefits: ["Freemium", "Email or phone sign-up", "100 compute on sign-up", "Random 100-200 daily check-in", "All common major models", "Fast", "llm-dashboard console", "Alipay/WeChat subscriptions"],
+  },
   "Ksir的小饭锅": {
     name: "Ksir's Little Rice Pot",
     kind: "Public service / $0.2 referral credit / SillyTavern-oriented",
