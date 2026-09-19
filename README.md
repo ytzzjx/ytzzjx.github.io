@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| StarBridge 公益站 | 公益站，GitHub 注册送 20 元、每日签到 10 元；含 gemini-3.8-flash-high、gpt-6-astra、gpt-5.6-sol、claude-sonnet-4-6 等 15 个模型，模型广场公开可查。**站内 9 月 18 日公告称暂停新用户注册、部分模型限量供应，注册改走 GitHub，但 9 月 19 日实测邀请链接仍可注册**；Gemini 占比高，受 Google 限速调整影响的可能性较大。 | [注册](https://api.careke.cn/sign-up?aff=w6xn) |
 | AgentRouter | 注册送 75 刀、每日签到 25 刀；现已支持 GLM-5.3、DeepSeek V4 Flash，Claude 倍率上调、GPT-5.6-sol 倍率下调。GitHub 老号或 Linux Do 账号；国内打不开原站可直接走国内入口，无需代理。 | [注册](https://agentrouter.org/register?aff=i3Xz) / [国内入口](https://ps.air-outer.com/register?aff=i3Xz) |
 | JustWoker 公益站 | **现已恢复可用。** 当前只能使用 GPT 模型，不再提供 Claude；调用站内模型请使用 /v1/messages。原有注册门槛为 GitHub 账号满 1 年，当前注册与福利规则以站内显示为准。 | [注册](https://api.justwoker.icu/sign-up?aff=T5tm) |
 | Hyper 公益站 | GitHub 注册，注册送 5、签到 15-25；含 gpt-5.6-sol、gpt-5.6-terra、gpt-5.6-luna、gpt-5.3-codex-spark、gpt-5.5 及多个免费模型。可挂全局代理，但有地区限制；使用前需在钱包购买套餐日卡，余额 5 可用 20。 | [注册](https://ai.hyper.nyc.mn/sign-up?aff=IY2B) |
