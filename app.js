@@ -5,10 +5,12 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-09-19",
+  lastUpdated: "2026-09-20",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Piu酱",
+    "GcmodAi",
     "StarBridge 公益站",
     "Orevx Engine 半公益站",
     "AgentRouter",
@@ -25,7 +27,6 @@ const siteConfig = {
     "MotoMoto",
     "AnyRouter",
     "TokenForge（tokengate）",
-    "GcmodAi",
     "CheapCodex",
     "Nofx",
     "AbinAPI",
@@ -198,6 +199,40 @@ const siteConfig = {
   ],
   entries: [
     {
+      publishedAt: "2026-09-20 00:00",
+      addedAt: "2026-09-20",
+      updatedAt: "2026-09-20",
+      updateNote:
+        "新增收录：已重新开放注册，注册送 20 额度、每日随机签到 1-10 刀；含 Gemini、DeepSeek、GLM-5.3-Flash，按量与按次两种计费，按次每次 0.2。",
+      kind: "公益站 / 邀请链接注册 / 注册送 20 签到 1-10 刀",
+      name: "Piu酱",
+      summary:
+        "公益站，已重新开放注册（先到先得）；注册送 20 额度，每日随机签到 1-10 刀。含 gemini-3.8-flash-medium、gemini-3-pro、DeepSeek V4.1 Flash、GLM-5.3-Flash 等 14 个模型，按量与按次两种计费，按次每次 0.2。",
+      details:
+        "New API 站点，站内名称「Piu 酱」，2026 年 8 月 31 日开站测试，9 月 3 日设置签到额度，属较新的站点。通过邀请链接注册，需要邮箱验证，没有人机验证码；9 月 20 日已重新开放注册。模型广场无需登录即可查看，共 14 个模型：gemini-3.8-flash-medium、gemini-3.7-flash-medium、gemini-3-pro、gemini-3.1-pro、deepseek/deepseek-v4.1-flash、deepseek-ai/DeepSeek-V4-Flash-0731、zai-org/GLM-5.3-Flash、z-ai/glm-5.3-flash、mimo-v2.5-pro 等。计费分两种：4 个带「次」后缀的 gemini 模型（gemini-3-pro次、gemini-3.1-pro次、gemini-3.8-flash-medium次、gemini-3.7-flash-medium次）为按次计费，每次固定 0.2，不看 token；其余模型按倍率，其中 GLM-5.3-Flash、DeepSeek 与 MiMo 等模型倍率为 0。注册送 20 额度，每日签到随机得 1-10 刀。站内公告另有一个约 2 元的回血链接，可获取 100 刀额度卡密。",
+      registration: "通过邀请链接注册，需邮箱验证（2026-09-20 已重新开放注册）。",
+      signupBonus: "20 额度",
+      dailyCheckin: "随机 1-10 刀",
+      models: "gemini-3.8-flash-medium / gemini-3-pro / gemini-3.1-pro / deepseek-v4.1-flash / GLM-5.3-Flash / mimo-v2.5-pro 等 14 个（公开模型广场核实）",
+      experience: "按次每次 0.2；GLM、DeepSeek、MiMo 等模型倍率为 0",
+      caveat: "8 月底才开站，属新站，稳定性有待观察；用户反馈注册先到先得，可能再次关闭；注册赠送额度、签到金额与模型可用情况以站内实际显示为准。",
+      benefits: [
+        "公益站",
+        "已重新开放注册",
+        "邀请链接注册",
+        "注册送 20 额度",
+        "每日随机签到 1-10 刀",
+        "gemini-3.8-flash-medium",
+        "gemini-3-pro",
+        "DeepSeek V4.1 Flash",
+        "GLM-5.3-Flash",
+        "按次每次 0.2",
+        "部分模型倍率 0",
+      ],
+      url: "https://piu.du4s.com/sign-up?aff=SjXZ",
+      tone: "active",
+    },
+    {
       publishedAt: "2026-09-19 00:00",
       addedAt: "2026-09-19",
       updatedAt: "2026-09-19",
@@ -358,8 +393,8 @@ const siteConfig = {
     {
       publishedAt: "2026-08-31 00:00",
       addedAt: "2026-08-31",
-      updatedAt: "2026-09-05",
-      updateNote: "已开签到，每天约 1 毛，够跑十次请求。",
+      updatedAt: "2026-09-20",
+      updateNote: "新增 Kimi-K3，已移到公益区前列。",
       kind: "半公益站 / 一分钱一次",
       name: "GcmodAi",
       summary: "全部模型按次计费，每次请求一分钱（0.01 元），不看 token 用量。注册送 1 块，现已开签到，每天约 1 毛、够跑十次请求；订阅两档也划算——5 元每周重置 30 元额度，20 元每天重置 300 元额度。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。",
@@ -1158,9 +1193,39 @@ const entryTranslations = {
     caveat: "No models are available and there is no known recovery date, so do not rely on this as your only route. Whether registration and check-ins stay as they were, and whether credit and rates change on recovery, is up to what the service actually shows. If a recovered service returns an \"Attention Required! | Cloudflare\" page in the Claude Code CLI, that is the network route, not the endpoint and not the CLI request headers: turn on a proxy and set HTTPS_PROXY / HTTP_PROXY in the env block of ~/.claude/settings.json, or switch the proxy client to TUN mode. Claude Desktop is not required.",
     benefits: ["No models available", "Waiting for recovery", "Same operator as JustWoker", "Previously $100 sign-up credit", "Previously $20 daily check-in", "Previously Claude Opus 4.8 / Opus 5", "GitHub requirement"],
   },
+  "Piu酱": {
+    name: "Piu Jiang",
+    kind: "Public service / referral sign-up / 20 credits on sign-up, 1-10 daily check-in",
+    updateNote:
+      "New listing: registration is open again, granting 20 credits on sign-up and a random 1-10 daily check-in; 14 models including Gemini, DeepSeek, and GLM-5.3-Flash, with both metered and per-request billing (0.2 per call).",
+    summary:
+      "A public service with registration open again (first come, first served): 20 credits on sign-up and a random 1-10 daily check-in. It offers 14 models including gemini-3.8-flash-medium, gemini-3-pro, DeepSeek V4.1 Flash, and GLM-5.3-Flash, with both metered and per-request billing at 0.2 per call.",
+    details:
+      "A New API service called \"Piu Jiang\" that opened for testing on August 31, 2026 and set up check-in credit on September 3, so it is a fairly new service. Registration goes through the referral link, requires email verification, and has no captcha; registration reopened on September 20. The model marketplace is viewable without logging in and lists 14 models: gemini-3.8-flash-medium, gemini-3.7-flash-medium, gemini-3-pro, gemini-3.1-pro, deepseek/deepseek-v4.1-flash, deepseek-ai/DeepSeek-V4-Flash-0731, zai-org/GLM-5.3-Flash, z-ai/glm-5.3-flash, mimo-v2.5-pro, and others. Billing works two ways: the four Gemini models with a 次 suffix (gemini-3-pro次, gemini-3.1-pro次, gemini-3.8-flash-medium次, gemini-3.7-flash-medium次) are billed per request at a flat 0.2 regardless of token usage, while the rest are billed by multiplier, with GLM-5.3-Flash, DeepSeek, and MiMo among those at a 0x rate. Sign-up grants 20 credits and the daily check-in adds a random 1-10. The in-site announcement also links a roughly ¥2 thank-you card worth 100 in credit.",
+    registration: "Register through the referral link with email verification (registration reopened on 2026-09-20).",
+    signupBonus: "20 credits",
+    dailyCheckin: "Random 1-10",
+    models: "gemini-3.8-flash-medium / gemini-3-pro / gemini-3.1-pro / deepseek-v4.1-flash / GLM-5.3-Flash / mimo-v2.5-pro and more — 14 in total (verified on the public model marketplace)",
+    experience: "0.2 per request; GLM, DeepSeek, and MiMo models are billed at 0x",
+    caveat:
+      "It only opened at the end of August, so reliability is still being established; users report registration is first come, first served and may close again. Confirm sign-up credit, check-in amounts, and model availability on the service.",
+    benefits: [
+      "Public service",
+      "Registration open again",
+      "Referral sign-up",
+      "20 credits on sign-up",
+      "Random 1-10 daily check-in",
+      "gemini-3.8-flash-medium",
+      "gemini-3-pro",
+      "DeepSeek V4.1 Flash",
+      "GLM-5.3-Flash",
+      "0.2 per request",
+      "Some models at 0x",
+    ],
+  },
   GcmodAi: {
     kind: "Freemium service / one cent per request",
-    updateNote: "A check-in is now live at roughly 0.1 yuan a day — about ten requests.",
+    updateNote: "Kimi-K3 was added, and the service moved up to the front of the free section.",
     summary:
       "Every model is billed per request at a flat 0.01 yuan regardless of token usage. Sign-up grants 1 yuan, and a check-in is now live at roughly 0.1 yuan a day — about ten requests. Two subscription tiers also offer strong value: ¥5 resets 30 yuan weekly, ¥20 resets 300 yuan daily. Kimi-K3, GPT-5.6-luna, and DeepSeek V4 Pro are available.",
     details:

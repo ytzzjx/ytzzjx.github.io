@@ -16,6 +16,8 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| Piu酱 | 公益站，**已重新开放注册，先到先得**；注册送 20 额度，每日随机签到 1-10 刀。含 gemini-3.8-flash-medium、gemini-3-pro、DeepSeek V4.1 Flash、GLM-5.3-Flash 等 14 个模型，按量与按次两种计费，**按次每次 0.2**，GLM、DeepSeek、MiMo 等模型倍率 0。8 月底开站，属新站。 | [注册](https://piu.du4s.com/sign-up?aff=SjXZ) |
+| GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1。注册送 1 块，**现已开签到，每天约 1 毛（约十次请求）**；订阅两档也划算——5 元每周重置 30 元额度，**20 元每天重置 300 元额度**（每天约三万次请求）。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://zc.gcmod.cn/sign-up?aff=4wem) |
 | StarBridge 公益站 | 公益站，GitHub 注册送 20 元、每日签到 10 元；含 gemini-3.8-flash-high、gpt-6-astra、gpt-5.6-sol、claude-sonnet-4-6 等 15 个模型，模型广场公开可查。**站内 9 月 18 日公告称暂停新用户注册、部分模型限量供应，注册改走 GitHub，但 9 月 19 日实测邀请链接仍可注册**；Gemini 占比高，受 Google 限速调整影响的可能性较大。 | [注册](https://api.careke.cn/sign-up?aff=w6xn) |
 | AgentRouter | 注册送 75 刀、每日签到 25 刀；现已支持 GLM-5.3、DeepSeek V4 Flash，Claude 倍率上调、GPT-5.6-sol 倍率下调。GitHub 老号或 Linux Do 账号；国内打不开原站可直接走国内入口，无需代理。 | [注册](https://agentrouter.org/register?aff=i3Xz) / [国内入口](https://ps.air-outer.com/register?aff=i3Xz) |
 | JustWoker 公益站 | **现已恢复可用。** 当前只能使用 GPT 模型，不再提供 Claude；调用站内模型请使用 /v1/messages。原有注册门槛为 GitHub 账号满 1 年，当前注册与福利规则以站内显示为准。 | [注册](https://api.justwoker.icu/sign-up?aff=T5tm) |
@@ -32,7 +34,6 @@
 | MotoMoto | 注册送 50 刀（注册 30 + 邀请码 20），倍率 1x，每日签到约 50，含 gpt-5.5 与 gpt-5.6-sol。**密码注册已关闭，改用 GitHub 注册**；老账号还能用密码登录但要进「个人设置」绑定 GitHub，没绑会被按刷号暂停。**站方规定 OpenAI 模型只能在 Codex 里用，接到其他智能体按违规处理。** 隐私政策里的训练数据授权条款仍在，跑敏感内容前自己看一眼开关。 | [注册](https://motomoto.lol/sign-up?aff=91Tp) / [隐私政策](https://motomoto.lol/privacy) |
 | AnyRouter | 邀请注册送 100、每日签到 25；GPT-5.6-sol 支持 1M 上下文。Linux Do 二级或 edu.cn 邮箱。 | [注册](https://anyrouter.top/register?aff=LJPP) |
 | TokenForge（tokengate） | **已恢复正常，每日签到 20 刀，仍是这里主要的 Claude Opus 5 线路。** 账号被站方清空过，**需要重新注册**。此前实测的注入（模型被锁成只用英文回答）没有复测，第一次调用时用中文问一句自己验一下。 | [注册](https://tokenforge.ai.studio/sign-up?aff=iheu) |
-| GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1。注册送 1 块，**现已开签到，每天约 1 毛（约十次请求）**；订阅两档也划算——5 元每周重置 30 元额度，**20 元每天重置 300 元额度**（每天约三万次请求）。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://zc.gcmod.cn/sign-up?aff=4wem) |
 | Nofx | 注册链接注册送 20，**加入 Discord 另送 5**，每天可签到 5（签到上限 50），GPT-5.6-sol 可用且倍率 0.6x；站内没找到充值入口，已归到公益区。 | [注册链接](https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q) |
 | Rinko NAI 生图公益站 | 专注 API 生图，使用 NAI Diffusion 模型；每日签到 25 代币，带作品广场。 | [注册](https://nai.rinko.ai/sign-up?aff=OQhG) |
 | 北执半公益站 | 半公益站，仅支持主流邮箱注册，有统一 OpenAI 格式接口，签到额度较多，含 Gemini 新模型和 Claude。 | [注册](https://beizhi.sylu.cc/sign-up?aff=hk5Q) |
