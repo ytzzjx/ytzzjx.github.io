@@ -48,6 +48,8 @@ These are the sites I currently track that still accept registration, with the m
 
 All of these need a top-up for sustained use; sign-up credit only covers a trial. This is what the "Paid" tab on the page shows.
 
+> **Read this before paying**: GPT risk control has been strict lately, and dumbing-down heavily affects the experience. Prefer services with dumbing-down detection or a stated policy; failing that, before paying, have the model draw an SVG of a pelican riding a bicycle as a self-test — don't waste money without making progress.
+
 | Site | Summary | Link |
 | --- | --- | --- |
 | zquant | **A paid service I have topped up over 20 on.** The rate is about 0.15, with the full GPT lineup and Grok. **It includes dumbing-down detection**: GPT risk control has been strict lately and dumbing-down heavily affects the experience, so **check the in-site dumbing-down radar before use**; join QQ group 738420477 for a 1-yuan trial. | [Register](https://sub2api.zquant.site/register?aff=Y2YY4BZ5MSD4) |
