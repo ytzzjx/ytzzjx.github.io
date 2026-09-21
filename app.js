@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "星见雅",
     "墨白公益站",
     "Piu酱",
     "GcmodAi",
@@ -199,6 +200,40 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-09-21 00:00",
+      addedAt: "2026-09-21",
+      updatedAt: "2026-09-21",
+      updateNote:
+        "新增收录：老牌公益站，GitHub 或 Linux DO 注册，可签到；含 gpt-5.6-sol、gpt-5.6-terra、z-ai/glm-5.3、z-ai/glm-5.3-flash、moonshotai/kimi-k3 与 deepseek-ai/deepseek-v4-flash-0731。",
+      kind: "公益站 / GitHub 或 Linux DO 注册 / 可签到",
+      name: "星见雅",
+      summary:
+        "老牌公益站，GitHub 或 Linux DO 注册，可签到；含 gpt-5.6-sol、gpt-5.6-terra、z-ai/glm-5.3、z-ai/glm-5.3-flash、moonshotai/kimi-k3 与 deepseek-ai/deepseek-v4-flash-0731。",
+      details:
+        "站内名称「星见雅 API」。注册方式为 GitHub 或 Linux DO，支持每日签到。可用模型包括 gpt-5.6-sol、gpt-5.6-terra、z-ai/glm-5.3、z-ai/glm-5.3-flash、moonshotai/kimi-k3 和 deepseek-ai/deepseek-v4-flash-0731。",
+      registration: "GitHub 或 Linux DO 注册。",
+      signupBonus: "未提供",
+      dailyCheckin: "可签到",
+      models: "gpt-5.6-sol / gpt-5.6-terra / z-ai/glm-5.3 / z-ai/glm-5.3-flash / moonshotai/kimi-k3 / deepseek-ai/deepseek-v4-flash-0731",
+      experience: "gpt-5.6-sol 用起来怪怪的（用户反馈）",
+      caveat: "gpt-5.6-sol 实际使用表现不太对劲，用户反馈「用起来怪怪的」，对该模型有依赖的话先小量试用；签到金额、模型可用性与倍率以站内实际显示为准。",
+      benefits: [
+        "公益站",
+        "老牌公益站",
+        "GitHub 注册",
+        "Linux DO 注册",
+        "可签到",
+        "gpt-5.6-sol",
+        "gpt-5.6-terra",
+        "z-ai/glm-5.3",
+        "z-ai/glm-5.3-flash",
+        "moonshotai/kimi-k3",
+        "deepseek-ai/deepseek-v4-flash-0731",
+      ],
+      url: "https://new.xinjianya.top/register?aff=NTKW",
+      tone: "active",
+    },
     {
       publishedAt: "2026-09-21 00:00",
       addedAt: "2026-09-21",
@@ -632,6 +667,9 @@ const siteConfig = {
     },
     {
       publishedAt: "2026-08-24 00:00",
+      addedAt: "2026-08-24",
+      updatedAt: "2026-09-21",
+      updateNote: "已更换域名为 beizhi.dedyn.io，该站只能 http 访问，https 打不开。",
       kind: "半公益站",
       name: "北执半公益站",
       summary: "半公益站，提供免费的国产模型；签到额度较多，并支持 Gemini 新模型和 Claude。",
@@ -642,9 +680,9 @@ const siteConfig = {
       dailyCheckin: "额度较多",
       models: "免费国产模型 / Gemini 新模型 / Claude",
       experience: "统一 OpenAI 格式接口，一键切换模型",
-      caveat: "每分钟最多 15 次请求，不适合 Agent 或自动化高频任务；站点由个人维护，不提供商业 SLA，请勿用于生产环境。",
+      caveat: "每分钟最多 15 次请求，不适合 Agent 或自动化高频任务；站点由个人维护，不提供商业 SLA，请勿用于生产环境。已更换域名为 beizhi.dedyn.io，**该站只能 http 访问，https 打不开，收藏时不要加 s**。",
       benefits: ["免费国产模型", "签到额度较多", "Gemini 新模型", "Claude", "统一 OpenAI 格式接口", "一键切换模型"],
-      url: "https://beizhi.sylu.cc/sign-up?aff=hk5Q",
+      url: "http://beizhi.dedyn.io/sign-up?aff=hk5Q",
       tone: "active",
     },
     {
@@ -1069,6 +1107,35 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  "星见雅": {
+    name: "Xinjianya",
+    kind: "Public service / GitHub or Linux DO sign-up / daily check-in",
+    updateNote:
+      "New listing: a long-running public service with GitHub or Linux DO sign-up and a daily check-in; includes gpt-5.6-sol, gpt-5.6-terra, z-ai/glm-5.3, z-ai/glm-5.3-flash, moonshotai/kimi-k3, and deepseek-ai/deepseek-v4-flash-0731.",
+    summary:
+      "A long-running public service with GitHub or Linux DO sign-up and a daily check-in. Available models include gpt-5.6-sol, gpt-5.6-terra, z-ai/glm-5.3, z-ai/glm-5.3-flash, moonshotai/kimi-k3, and deepseek-ai/deepseek-v4-flash-0731.",
+    details:
+      "The service calls itself \"Xinjianya API\" (星见雅 API). Registration is via GitHub or Linux DO, and a daily check-in is available. Available models include gpt-5.6-sol, gpt-5.6-terra, z-ai/glm-5.3, z-ai/glm-5.3-flash, moonshotai/kimi-k3, and deepseek-ai/deepseek-v4-flash-0731.",
+    registration: "Sign up with GitHub or Linux DO.",
+    signupBonus: "Not provided",
+    dailyCheckin: "A daily check-in is available",
+    models: "gpt-5.6-sol / gpt-5.6-terra / z-ai/glm-5.3 / z-ai/glm-5.3-flash / moonshotai/kimi-k3 / deepseek-ai/deepseek-v4-flash-0731",
+    experience: "gpt-5.6-sol behaves oddly in use (per user report)",
+    caveat: "gpt-5.6-sol does not behave as expected — a user reported it \"feels weird\" — so test it lightly first if you depend on that model. Confirm check-in amounts, model availability, and rates on the service.",
+    benefits: [
+      "Public service",
+      "Long-running public service",
+      "GitHub sign-up",
+      "Linux DO sign-up",
+      "Daily check-in",
+      "gpt-5.6-sol",
+      "gpt-5.6-terra",
+      "z-ai/glm-5.3",
+      "z-ai/glm-5.3-flash",
+      "moonshotai/kimi-k3",
+      "deepseek-ai/deepseek-v4-flash-0731",
+    ],
+  },
   "墨白公益站": {
     name: "Hinswu Public Service",
     kind: "Public service / email sign-up / 1-10 daily check-in",
@@ -1590,6 +1657,7 @@ const entryTranslations = {
   "北执半公益站": {
     kind: "Freemium service",
     name: "Beizhi Freemium Service",
+    updateNote: "The domain changed to beizhi.dedyn.io, and the site is reachable over http only — https does not work.",
     summary:
       "A freemium service with free Chinese models, generous check-in credit, and access to newer Gemini and Claude models.",
     details:
@@ -1599,7 +1667,7 @@ const entryTranslations = {
     dailyCheckin: "Generous credit",
     models: "Free Chinese models / newer Gemini models / Claude",
     experience: "Unified OpenAI-compatible API with one-click model switching",
-    caveat: "Limited to 15 requests per minute, so it is not suitable for agents or high-frequency automation. It is personally maintained without a commercial SLA and should not be used in production.",
+    caveat: "Limited to 15 requests per minute, so it is not suitable for agents or high-frequency automation. It is personally maintained without a commercial SLA and should not be used in production. The domain has changed to beizhi.dedyn.io, and the site is reachable over http only — https does not work, so do not add the s.",
     benefits: ["Free Chinese models", "Generous check-in credit", "Newer Gemini models", "Claude", "Unified OpenAI-compatible API", "One-click model switching"],
   },
   Xingya: {
