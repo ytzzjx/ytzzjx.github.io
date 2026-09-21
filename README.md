@@ -16,7 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| 星见雅 | 老牌公益站，GitHub 或 Linux DO 注册，可签到；含 gpt-5.6-sol、gpt-5.6-terra、z-ai/glm-5.3、z-ai/glm-5.3-flash、moonshotai/kimi-k3 与 deepseek-ai/deepseek-v4-flash-0731。**gpt-5.6-sol 用起来怪怪的**，对该模型有依赖的话先小量试用。 | [注册](https://new.xinjianya.top/register?aff=NTKW) |
+| 星见雅 | 老牌公益站，GitHub 或 Linux DO 注册，**每日签到约 1000**；含 gpt-5.6-sol、gpt-5.6-terra、z-ai/glm-5.3、z-ai/glm-5.3-flash、moonshotai/kimi-k3 与 deepseek-ai/deepseek-v4-flash-0731。**gpt-5.6-sol 用起来怪怪的**，对该模型有依赖的话先小量试用。 | [注册](https://new.xinjianya.top/register?aff=NTKW) |
 | 墨白公益站 | 公益站，限 gmail / 163 / qq / foxmail / icloud 邮箱注册，需邮箱验证和人机验证；**每日签到 1-10，进官方 QQ 群 444158239（进群答案 zakozako）可再签到一次，相当于每天两次**。免费可用 DeepSeek V4.1 Flash（模型广场虽列出 936 个，实际可用不多）。 | [注册](https://new.ai.hinswu.top/sign-up?aff=L6as) |
 | Piu酱 | 公益站，**已重新开放注册，先到先得**；注册送 20 额度，每日随机签到 1-10 刀。含 gemini-3.8-flash-medium、gemini-3-pro、DeepSeek V4.1 Flash、GLM-5.3-Flash 等 14 个模型，按量与按次两种计费，**按次每次 0.2**，GLM、DeepSeek、MiMo 等模型倍率 0。8 月底开站，属新站。 | [注册](https://piu.du4s.com/sign-up?aff=SjXZ) |
 | GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1。注册送 1 块，**现已开签到，每天约 1 毛（约十次请求）**；订阅两档也划算——5 元每周重置 30 元额度，**20 元每天重置 300 元额度**（每天约三万次请求）。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://zc.gcmod.cn/sign-up?aff=4wem) |

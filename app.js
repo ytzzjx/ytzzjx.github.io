@@ -205,8 +205,8 @@ const siteConfig = {
       addedAt: "2026-09-21",
       updatedAt: "2026-09-21",
       updateNote:
-        "新增收录：老牌公益站，GitHub 或 Linux DO 注册，可签到；含 gpt-5.6-sol、gpt-5.6-terra、z-ai/glm-5.3、z-ai/glm-5.3-flash、moonshotai/kimi-k3 与 deepseek-ai/deepseek-v4-flash-0731。",
-      kind: "公益站 / GitHub 或 Linux DO 注册 / 可签到",
+        "新增收录：老牌公益站，GitHub 或 Linux DO 注册，每日签到约 1000；含 gpt-5.6-sol、gpt-5.6-terra、z-ai/glm-5.3、z-ai/glm-5.3-flash、moonshotai/kimi-k3 与 deepseek-ai/deepseek-v4-flash-0731。",
+      kind: "公益站 / GitHub 或 Linux DO 注册 / 每日签到约 1000",
       name: "星见雅",
       summary:
         "老牌公益站，GitHub 或 Linux DO 注册，可签到；含 gpt-5.6-sol、gpt-5.6-terra、z-ai/glm-5.3、z-ai/glm-5.3-flash、moonshotai/kimi-k3 与 deepseek-ai/deepseek-v4-flash-0731。",
@@ -214,7 +214,7 @@ const siteConfig = {
         "站内名称「星见雅 API」。注册方式为 GitHub 或 Linux DO，支持每日签到。可用模型包括 gpt-5.6-sol、gpt-5.6-terra、z-ai/glm-5.3、z-ai/glm-5.3-flash、moonshotai/kimi-k3 和 deepseek-ai/deepseek-v4-flash-0731。",
       registration: "GitHub 或 Linux DO 注册。",
       signupBonus: "未提供",
-      dailyCheckin: "可签到",
+      dailyCheckin: "约 1000",
       models: "gpt-5.6-sol / gpt-5.6-terra / z-ai/glm-5.3 / z-ai/glm-5.3-flash / moonshotai/kimi-k3 / deepseek-ai/deepseek-v4-flash-0731",
       experience: "gpt-5.6-sol 用起来怪怪的（用户反馈）",
       caveat: "gpt-5.6-sol 实际使用表现不太对劲，用户反馈「用起来怪怪的」，对该模型有依赖的话先小量试用；签到金额、模型可用性与倍率以站内实际显示为准。",
@@ -223,7 +223,7 @@ const siteConfig = {
         "老牌公益站",
         "GitHub 注册",
         "Linux DO 注册",
-        "可签到",
+        "每日签到约 1000",
         "gpt-5.6-sol",
         "gpt-5.6-terra",
         "z-ai/glm-5.3",
@@ -1109,16 +1109,16 @@ const pageCopy = {
 const entryTranslations = {
   "星见雅": {
     name: "Xinjianya",
-    kind: "Public service / GitHub or Linux DO sign-up / daily check-in",
+    kind: "Public service / GitHub or Linux DO sign-up / about 1000 daily check-in",
     updateNote:
-      "New listing: a long-running public service with GitHub or Linux DO sign-up and a daily check-in; includes gpt-5.6-sol, gpt-5.6-terra, z-ai/glm-5.3, z-ai/glm-5.3-flash, moonshotai/kimi-k3, and deepseek-ai/deepseek-v4-flash-0731.",
+      "New listing: a long-running public service with GitHub or Linux DO sign-up and an about-1000 daily check-in; includes gpt-5.6-sol, gpt-5.6-terra, z-ai/glm-5.3, z-ai/glm-5.3-flash, moonshotai/kimi-k3, and deepseek-ai/deepseek-v4-flash-0731.",
     summary:
-      "A long-running public service with GitHub or Linux DO sign-up and a daily check-in. Available models include gpt-5.6-sol, gpt-5.6-terra, z-ai/glm-5.3, z-ai/glm-5.3-flash, moonshotai/kimi-k3, and deepseek-ai/deepseek-v4-flash-0731.",
+      "A long-running public service with GitHub or Linux DO sign-up and an about-1000 daily check-in. Available models include gpt-5.6-sol, gpt-5.6-terra, z-ai/glm-5.3, z-ai/glm-5.3-flash, moonshotai/kimi-k3, and deepseek-ai/deepseek-v4-flash-0731.",
     details:
       "The service calls itself \"Xinjianya API\" (星见雅 API). Registration is via GitHub or Linux DO, and a daily check-in is available. Available models include gpt-5.6-sol, gpt-5.6-terra, z-ai/glm-5.3, z-ai/glm-5.3-flash, moonshotai/kimi-k3, and deepseek-ai/deepseek-v4-flash-0731.",
     registration: "Sign up with GitHub or Linux DO.",
     signupBonus: "Not provided",
-    dailyCheckin: "A daily check-in is available",
+    dailyCheckin: "About 1000",
     models: "gpt-5.6-sol / gpt-5.6-terra / z-ai/glm-5.3 / z-ai/glm-5.3-flash / moonshotai/kimi-k3 / deepseek-ai/deepseek-v4-flash-0731",
     experience: "gpt-5.6-sol behaves oddly in use (per user report)",
     caveat: "gpt-5.6-sol does not behave as expected — a user reported it \"feels weird\" — so test it lightly first if you depend on that model. Confirm check-in amounts, model availability, and rates on the service.",
@@ -1127,7 +1127,7 @@ const entryTranslations = {
       "Long-running public service",
       "GitHub sign-up",
       "Linux DO sign-up",
-      "Daily check-in",
+      "About 1000 daily check-in",
       "gpt-5.6-sol",
       "gpt-5.6-terra",
       "z-ai/glm-5.3",
