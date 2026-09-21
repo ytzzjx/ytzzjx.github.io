@@ -544,20 +544,23 @@ const siteConfig = {
     },
     {
       publishedAt: "2026-08-20 10:15",
-      updatedAt: "2026-09-09",
-      updateNote: "补充调用说明：站内模型请使用 /v1/messages；当前仅支持 GPT。",
-      kind: "公益站 / 已恢复 / 仅 GPT",
+      updatedAt: "2026-09-21",
+      updateNote:
+        "站内模型已换成 Claude Opus 4.8（Kiro 渠道）；有部分用户反馈存在偷数据和注入问题，不要用在隐私场景，使用时盯着提示词。",
+      kind: "公益站 / Claude Opus 4.8 / Kiro 渠道",
       name: "JustWoker 公益站",
-      summary: "站点已经恢复可用，目前只能使用 GPT 模型，不再提供 Claude；调用站内模型请使用 /v1/messages。",
+      summary:
+        "站内模型已换成 Claude Opus 4.8，走 Kiro 渠道；调用站内模型请使用 /v1/messages。有部分用户反馈存在偷数据和注入问题，不要用在隐私场景，使用时盯着提示词。",
       details:
-        "JustWoker 已经复活，当前可用模型仅限 GPT，原有 Claude 线路没有恢复。调用站内模型请使用兼容接口的 /v1/messages 路径。此前已知注册需要 GitHub 账号且账号注册时间满 1 年；本次没有复核注册赠送、每日签到和倍率，具体以站内实际显示为准。",
+        "JustWoker 此前以 GPT 线路恢复，现在站内模型已换成 Claude Opus 4.8，渠道是 Kiro。调用站内模型请使用兼容接口的 /v1/messages 路径。需要注意：有部分用户反馈该渠道存在偷数据和注入问题，所以不要用在隐私场景，使用时盯着提示词，发现不对就停。此前已知注册需要 GitHub 账号且账号注册时间满 1 年；注册赠送、每日签到和倍率以站内实际显示为准。",
       registration: "此前需使用注册满 1 年的 GitHub 账号；当前注册状态与门槛以注册页实际显示为准。",
       signupBonus: "以站内当前显示为准",
       dailyCheckin: "以站内当前显示为准",
-      models: "仅 GPT（调用请使用 /v1/messages）",
-      experience: "已恢复可用；当前仅支持 GPT",
-      caveat: "当前只有 GPT 模型，Claude 尚未恢复；模型调用请使用 /v1/messages。注册门槛、赠送、签到、倍率和稳定性本次未复核，请以站内实际规则为准。",
-      benefits: ["已恢复可用", "靠前推荐", "仅 GPT", "调用使用 /v1/messages", "GitHub 账号门槛以站内为准"],
+      models: "Claude Opus 4.8（Kiro 渠道，调用请使用 /v1/messages）",
+      experience: "已恢复可用；当前为 Claude Opus 4.8，走 Kiro 渠道",
+      caveat:
+        "有部分用户反馈该渠道存在偷数据和注入问题：不要用在隐私场景，使用时盯着提示词；模型调用请使用 /v1/messages。注册门槛、赠送、签到、倍率和稳定性未复核，请以站内实际规则为准。",
+      benefits: ["已恢复可用", "Claude Opus 4.8", "Kiro 渠道", "调用使用 /v1/messages", "GitHub 账号门槛以站内为准", "勿用于隐私场景"],
       url: "https://api.justwoker.icu/sign-up?aff=T5tm",
       tone: "active",
     },
@@ -1514,20 +1517,22 @@ const entryTranslations = {
     tutorialLabel: "Join the Telegram channel for recovery news and the registration code",
   },
   "JustWoker 公益站": {
-    kind: "Public service / restored / GPT only",
+    kind: "Public service / Claude Opus 4.8 / Kiro channel",
     name: "JustWoker Public Service",
-    updateNote: "Added the calling requirement: use /v1/messages for the site's models; GPT only at present.",
+    updateNote:
+      "The model lineup changed to Claude Opus 4.8 on a Kiro channel; some users reported data-theft and injection problems, so avoid private scenarios and watch the prompt while using it.",
     summary:
-      "The service is back online with GPT models only; Claude has not returned. Use /v1/messages when calling its models.",
+      "The site's models have changed to Claude Opus 4.8 on a Kiro channel; use /v1/messages when calling them. Some users reported data-theft and injection problems, so avoid private scenarios and watch the prompt while using it.",
     details:
-      "JustWoker is operational again, but its current model lineup is limited to GPT and the former Claude route has not returned. Call the site's models through /v1/messages. The previously known registration gate was a GitHub account at least one year old. Sign-up credit, daily check-ins, and rates were not re-verified in this update, so check the current values on the site.",
+      "JustWoker previously came back on a GPT route, and its models have now changed to Claude Opus 4.8 over a Kiro channel. Call the site's models through /v1/messages. Note that some users reported data-theft and injection problems with this channel, so avoid private scenarios, watch the prompt while using it, and stop if something looks off. The previously known registration gate was a GitHub account at least one year old; confirm sign-up credit, daily check-ins, and rates on the site.",
     registration: "It previously required a GitHub account at least one year old; verify the current registration status and gate on the sign-up page.",
     signupBonus: "Check the current value on the site",
     dailyCheckin: "Check the current value on the site",
-    models: "GPT only (use /v1/messages for calls)",
-    experience: "Back online; currently GPT only",
-    caveat: "Only GPT models are currently available and Claude has not returned; use /v1/messages for model calls. Registration gates, bonuses, check-ins, rates, and stability were not re-verified in this update, so confirm the current rules on the site.",
-    benefits: ["Back online", "Ranked near the top", "GPT only", "Use /v1/messages", "Verify the GitHub gate on the site"],
+    models: "Claude Opus 4.8 (Kiro channel; use /v1/messages for calls)",
+    experience: "Back online; now Claude Opus 4.8 over a Kiro channel",
+    caveat:
+      "Some users reported data-theft and injection problems with this channel: avoid private scenarios and watch the prompt while using it; use /v1/messages for model calls. Registration gates, bonuses, check-ins, rates, and stability were not re-verified, so confirm the current rules on the site.",
+    benefits: ["Back online", "Claude Opus 4.8", "Kiro channel", "Use /v1/messages", "Verify the GitHub gate on the site", "Not for private scenarios"],
   },
   "Sulmate 半公益站": {
     kind: "Registration paused / freemium service",
