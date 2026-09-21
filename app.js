@@ -29,6 +29,7 @@ const siteConfig = {
     "MotoMoto",
     "AnyRouter",
     "TokenForge（tokengate）",
+    "zquant",
     "CheapCodex",
     "Nofx",
     "AbinAPI",
@@ -200,6 +201,30 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-09-21 00:00",
+      addedAt: "2026-09-21",
+      updatedAt: "2026-09-21",
+      updateNote:
+        "新增收录：付费站，本人充值 20 多；倍率约 0.15，有 GPT 全模型和 Grok，站内带降智检测与降智雷达；进 QQ 群 738420477 可领 1 元试用。",
+      kind: "付费站 / GPT 与 Grok / 倍率约 0.15",
+      name: "zquant",
+      summary:
+        "付费站，本人充值 20 多；倍率约 0.15，有 GPT 全模型和 Grok。站内带降智检测和降智雷达——最近 GPT 风控比较严，降智很影响体验，使用前先看降智雷达；进 QQ 群 738420477 可领 1 块钱试用。",
+      details:
+        "本人充值 20 多的一家付费站。倍率 0.15 左右，模型以 GPT 全模型和 Grok 为主。这家带降智检测：最近 GPT 的风控比较严，降智很影响体验，用之前建议先在站内看降智雷达，确认当前没有降智再上车。想先试试的话可以进官方 QQ 群 738420477 领 1 块钱试用。",
+      registration: "通过邀请链接注册；进官方 QQ 群 738420477 可领 1 元试用。",
+      signupBonus: "进 QQ 群 738420477 领 1 元试用",
+      dailyCheckin: "未提供",
+      models: "GPT 全模型 / Grok",
+      experience: "本人充值 20 多；最近 GPT 风控较严，降智明显影响体验",
+      caveat:
+        "降智是这家目前最大的问题：GPT 风控严的时候体验落差很大，付费前先用 1 元试用加降智雷达确认；倍率约 0.15，降智情况会随上游风控变化，以站内实际显示为准。",
+      benefits: ["付费站", "本人充值 20 多", "倍率约 0.15", "GPT 全模型", "Grok", "有降智检测", "降智雷达", "进 QQ 群领 1 元试用"],
+      url: "https://sub2api.zquant.site/register?aff=Y2YY4BZ5MSD4",
+      pricing: "paid",
+      tone: "active",
+    },
     {
       publishedAt: "2026-09-21 00:00",
       addedAt: "2026-09-21",
@@ -1107,6 +1132,24 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  zquant: {
+    name: "zquant",
+    kind: "Paid service / GPT and Grok / about 0.15 rate",
+    updateNote:
+      "New listing: a paid service I have topped up over 20 on, with an about-0.15 rate, the full GPT lineup and Grok, plus in-site dumbing-down detection and a dumbing-down radar; claim a 1-yuan trial in QQ group 738420477.",
+    summary:
+      "A paid service I have topped up over 20 on, with an about-0.15 rate and the full GPT lineup plus Grok. It includes dumbing-down detection and a dumbing-down radar — GPT risk control has been strict lately and dumbing-down heavily affects the experience, so check the radar before use; join QQ group 738420477 for a 1-yuan trial.",
+    details:
+      "A paid service I have topped up over 20 on. The rate is around 0.15, with models focused on the full GPT lineup and Grok. This one includes dumbing-down detection: GPT risk control has been strict lately, and dumbing-down heavily affects the experience, so check the in-site dumbing-down radar first and confirm there is no dumbing-down before committing. To try it out first, join the official QQ group 738420477 for a 1-yuan trial.",
+    registration: "Register through the referral link; join the official QQ group 738420477 for a 1-yuan trial.",
+    signupBonus: "1-yuan trial in QQ group 738420477",
+    dailyCheckin: "Not provided",
+    models: "Full GPT lineup / Grok",
+    experience: "Topped up over 20 personally; GPT risk control has been strict lately and dumbing-down noticeably affects the experience",
+    caveat:
+      "Dumbing-down is the biggest issue here: when GPT risk control is strict, the experience drops sharply, so use the 1-yuan trial and the dumbing-down radar before paying. The rate is about 0.15 and dumbing-down tracks upstream risk control; confirm current values on the service.",
+    benefits: ["Paid service", "Topped up over 20 personally", "About 0.15 rate", "Full GPT lineup", "Grok", "Dumbing-down detection", "Dumbing-down radar", "1-yuan trial in the QQ group"],
+  },
   "星见雅": {
     name: "Xinjianya",
     kind: "Public service / GitHub or Linux DO sign-up / about 1000 daily check-in",
