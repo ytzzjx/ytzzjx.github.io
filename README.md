@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| hiyo | 公益站，GitHub 或 Linux DO 注册，注册送 20，有签到；目前只有 luna 模型，后续上 6-luna，**速度可能稍微较慢**。 | [注册](https://free.hiyo.top/register?aff=ASBDCX98PNNG) |
 | 星见雅 | 老牌公益站，GitHub 或 Linux DO 注册，**每日签到约 1000**；含 gpt-5.6-sol、gpt-5.6-terra、z-ai/glm-5.3、z-ai/glm-5.3-flash、moonshotai/kimi-k3 与 deepseek-ai/deepseek-v4-flash-0731。**gpt-5.6-sol 用起来怪怪的**，对该模型有依赖的话先小量试用。 | [注册](https://new.xinjianya.top/register?aff=NTKW) |
 | 墨白公益站 | 公益站，限 gmail / 163 / qq / foxmail / icloud 邮箱注册，需邮箱验证和人机验证；**每日签到 1-10，进官方 QQ 群 444158239（进群答案 zakozako）可再签到一次，相当于每天两次**。免费可用 DeepSeek V4.1 Flash（模型广场虽列出 936 个，实际可用不多）。 | [注册](https://new.ai.hinswu.top/sign-up?aff=L6as) |
 | Piu酱 | 公益站，**已重新开放注册，先到先得**；注册送 20 额度，每日随机签到 1-10 刀。含 gemini-3.8-flash-medium、gemini-3-pro、DeepSeek V4.1 Flash、GLM-5.3-Flash 等 14 个模型，按量与按次两种计费，**按次每次 0.2**，GLM、DeepSeek、MiMo 等模型倍率 0。8 月底开站，属新站。 | [注册](https://piu.du4s.com/sign-up?aff=SjXZ) |

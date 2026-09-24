@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-09-21",
+  lastUpdated: "2026-09-24",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "hiyo",
     "星见雅",
     "墨白公益站",
     "Piu酱",
@@ -201,6 +202,28 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-09-24 00:00",
+      addedAt: "2026-09-24",
+      updatedAt: "2026-09-24",
+      updateNote:
+        "新增收录：GitHub 或 Linux DO 注册，注册送 20，有签到；目前只有 luna 模型，后续上 6-luna，速度可能稍微较慢。",
+      kind: "公益站 / GitHub 或 Linux DO 注册 / 只有 luna",
+      name: "hiyo",
+      summary:
+        "公益站，GitHub 或 Linux DO 注册，注册送 20，有签到；目前只有 luna 模型，后续上 6-luna，速度可能稍微较慢。",
+      details:
+        "走 GitHub 或 Linux DO 注册，注册送 20，站内有签到。目前只有 luna 模型可用，站方称后续上 6-luna。速度可能稍微较慢，急用的话别抱太高期望。赠送和签到的金额单位以站内实际显示为准。",
+      registration: "GitHub 或 Linux DO 注册。",
+      signupBonus: "20",
+      dailyCheckin: "有签到（金额以站内显示为准）",
+      models: "luna（后续上 6-luna）",
+      experience: "速度可能稍微较慢",
+      caveat: "目前只有 luna 一个模型，选择比较单一，6-luna 还没上；速度可能稍微较慢；赠送与签到金额以站内实际显示为准。",
+      benefits: ["公益站", "GitHub 注册", "Linux DO 注册", "注册送 20", "有签到", "速度可能稍慢", "后续上 6-luna"],
+      url: "https://free.hiyo.top/register?aff=ASBDCX98PNNG",
+      tone: "active",
+    },
     {
       publishedAt: "2026-09-21 00:00",
       addedAt: "2026-09-21",
@@ -1135,6 +1158,23 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  hiyo: {
+    name: "hiyo",
+    kind: "Public service / GitHub or Linux DO sign-up / luna only",
+    updateNote:
+      "New listing: GitHub or Linux DO sign-up grants 20 with a daily check-in; only the luna model is available for now, 6-luna is coming later, and speed may be slightly slow.",
+    summary:
+      "A public service with GitHub or Linux DO sign-up, 20 on registration, and a daily check-in. Only the luna model is available for now, 6-luna is coming later, and speed may be slightly slow.",
+    details:
+      "Registration is via GitHub or Linux DO, granting 20 on sign-up, and the site has a daily check-in. Only the luna model is available at the moment, with 6-luna announced for later. Speed may be slightly slow, so do not expect too much if you are in a hurry. Confirm the units for sign-up and check-in credit on the site.",
+    registration: "Sign up with GitHub or Linux DO.",
+    signupBonus: "20",
+    dailyCheckin: "A daily check-in is available (confirm the amount on the site)",
+    models: "luna (6-luna coming later)",
+    experience: "Speed may be slightly slow",
+    caveat: "Only the luna model is available for now, so the lineup is narrow and 6-luna has not launched; speed may be slightly slow. Confirm sign-up and check-in amounts on the site.",
+    benefits: ["Public service", "GitHub sign-up", "Linux DO sign-up", "20 on sign-up", "Daily check-in", "Slightly slow", "6-luna coming later"],
+  },
   zquant: {
     name: "zquant",
     kind: "Paid service / GPT and Grok / about 0.15 rate",
