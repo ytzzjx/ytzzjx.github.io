@@ -9,9 +9,9 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
-    "hiyo",
     "星见雅",
     "墨白公益站",
+    "hiyo",
     "Piu酱",
     "GcmodAi",
     "StarBridge 公益站",
