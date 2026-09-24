@@ -60,7 +60,7 @@ All of these need a top-up for sustained use; sign-up credit only covers a trial
 | True SOTA | Paid-service freebie: $20 on sign-up with Kiro at about a 0.35 rate. Other models and check-in are unverified. | [Register](https://true-sota.com/register?aff=7SQNRMRSXPP4) |
 | Xingya | Paid token-based service: a 50 Sprout-point trial on sign-up, another 80 after a referral joins the QQ group, and 20-50 points per daily check-in; **checking in now requires joining the QQ group and using the code from its highlighted messages**. 1:100 top-up ratio, about 4 tokens per request, with Claude and newer Gemini models. | [Register](https://xingya.site/sign-up?aff=SV10) |
 | Hubway | An established relay I topped up 50 on for long-term use; registering and joining the group grants 10, top-ups are 1:10, and the advertised rate of about 0.6 works out to **roughly 0.06**. | [Register](https://hubway.cc/register?aff=H8ET6TLL4AEP) |
-| AIHub | Tested personally. Aggregates several upstreams with channel selection and **automatic failover**, which suits long continuous runs; $10 for joining the group, another $10 for an L-site review, lowest rate 0.06. | [Site](https://aihub.top/) |
+| AIHub | Tested personally. Aggregates several upstreams with channel selection and **automatic failover**, which suits long continuous runs; $10 for joining the group, another $10 for an L-site review, lowest rate 0.06. **Joining the group also shows each channel's intelligence status**, so you can check before picking a channel and avoid degraded or diluted ones. | [Site](https://aihub.top/) |
 
 ## Sites with registration paused
 
