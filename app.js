@@ -353,19 +353,21 @@ const siteConfig = {
       updatedAt: "2026-09-19",
       updateNote:
         "新增收录：GitHub 注册送 20 元、每日签到 10 元；含 gemini-3.8-flash-high、gpt-6-astra、gpt-5.6-sol 等 15 个模型，排在公益区首位。",
+      updatedAt: "2026-09-24",
+      updateNote: "站点服务器此前忘记续约，需要重新注册；注册链接已更新。",
       kind: "公益站 / GitHub 注册 / 注册送 20 签到 10",
       name: "StarBridge 公益站",
       summary:
-        "公益站，GitHub 注册送 20 元、每日签到 10 元；含 gemini-3.8-flash-high、gpt-6-astra、gpt-5.6-sol 等 15 个模型，额度按元显示。",
+        "公益站，GitHub 注册送 20 元、每日签到 10 元；含 gemini-3.8-flash-high、gpt-6-astra、gpt-5.6-sol 等 15 个模型，额度按元显示。站点服务器此前忘记续约，需要重新注册。",
       details:
-        "站内名称 StarBridge（api.careke.cn）。通过 GitHub 注册送 20 元，每日签到 10 元；模型广场无需登录即可查看，共 15 个模型，除 gemini-3.8-flash-high、gpt-6-astra、gpt-5.6-sol 外，还有 claude-sonnet-4-6、gpt-5.6-terra、gpt-5.6-luna、gpt-5.5 与多款 Gemini Flash 系列。注意：站点 9 月 18 日发布公告，称对部分接口实施限时开放、部分模型限量供应并暂停新用户注册，注册改走 GitHub，同时提示 Google 系模型限速、部分账号额度耗尽或请求失败；但 9 月 19 日实测邀请链接仍可注册成功，注册与模型可用情况请以站内实际为准。",
-      registration: "GitHub 注册（2026-09-19 实测可注册）。",
+        "站内名称 StarBridge（api.careke.cn）。通过 GitHub 注册送 20 元，每日签到 10 元；模型广场无需登录即可查看，共 15 个模型，除 gemini-3.8-flash-high、gpt-6-astra、gpt-5.6-sol 外，还有 claude-sonnet-4-6、gpt-5.6-terra、gpt-5.6-luna、gpt-5.5 与多款 Gemini Flash 系列。注意：站点服务器此前忘记续约，原账号需要重新注册；站点 9 月 18 日还发布过公告，称对部分接口实施限时开放、部分模型限量供应并暂停新用户注册，注册改走 GitHub，同时提示 Google 系模型限速、部分账号额度耗尽或请求失败。注册与模型可用情况请以站内实际为准。",
+      registration: "GitHub 注册；站点服务器此前忘记续约，原账号需要重新注册。",
       signupBonus: "20 元",
       dailyCheckin: "10 元",
       models: "gemini-3.8-flash-high / gpt-6-astra / gpt-5.6-sol / claude-sonnet-4-6 / gpt-5.6-terra / gpt-5.6-luna / gpt-5.5 等 15 个（公开模型广场核实）",
       experience: "暂无实测速度反馈；站方公告提示部分模型限量供应",
       caveat:
-        "站内 9 月 18 日公告称暂停新用户注册、部分接口限时开放、部分模型限量供应，注册改走 GitHub，但 9 月 19 日实测邀请链接仍可注册，两边不一致请以注册页实际为准；Gemini 系模型占比高，受 Google 限速调整影响的可能性较大；额度、签到与模型以站内实际显示为准。",
+        "站点服务器此前忘记续约，原账号需重新注册；站内 9 月 18 日公告曾称暂停新用户注册、部分接口限时开放、部分模型限量供应，注册改走 GitHub；Gemini 系模型占比高，受 Google 限速调整影响的可能性较大；额度、签到与模型以站内实际显示为准。",
       benefits: [
         "公益站",
         "GitHub 注册",
@@ -376,8 +378,9 @@ const siteConfig = {
         "gpt-5.6-sol",
         "含 Claude 与多款 Gemini/GPT",
         "模型广场公开可查",
+        "需重新注册",
       ],
-      url: "https://api.careke.cn/sign-up?aff=w6xn",
+      url: "https://api.careke.cn/sign-up?aff=MYwA",
       tone: "active",
     },
     {
@@ -1250,20 +1253,20 @@ const entryTranslations = {
   },
   "StarBridge 公益站": {
     name: "StarBridge Public Service",
-    kind: "Public service / GitHub sign-up / ¥20 on sign-up, ¥10 daily check-in",
+    kind: "Freemium / GitHub sign-up / ¥20 on sign-up, ¥10 daily check-in",
     updateNote:
-      "New listing: GitHub sign-up grants ¥20 and the daily check-in adds ¥10; 15 models including gemini-3.8-flash-high, gpt-6-astra, and gpt-5.6-sol, listed first in the free section.",
+      "The service's server lapsed due to a missed renewal, so re-registration is required; the registration link has been updated.",
     summary:
-      "A public service granting ¥20 on GitHub sign-up and ¥10 per daily check-in; 15 models including gemini-3.8-flash-high, gpt-6-astra, and gpt-5.6-sol, with credit displayed in yuan.",
+      "A public service granting ¥20 on GitHub sign-up and ¥10 per daily check-in; 15 models including gemini-3.8-flash-high, gpt-6-astra, and gpt-5.6-sol, with credit displayed in yuan. The service's server lapsed due to a missed renewal, so re-registration is required.",
     details:
-      "The service calls itself StarBridge (api.careke.cn). GitHub sign-up grants ¥20 and the daily check-in adds ¥10. The model marketplace is viewable without logging in and lists 15 models: besides gemini-3.8-flash-high, gpt-6-astra, and gpt-5.6-sol, there are claude-sonnet-4-6, gpt-5.6-terra, gpt-5.6-luna, gpt-5.5, and several Gemini Flash variants. Note: a September 18 announcement said some endpoints would be time-limited, some models limited in supply, and new-user registration paused, with sign-up moved to GitHub, while also warning about Google-service rate limits and accounts running out of credit; yet a September 19 test confirmed the referral link still works. Verify registration and model availability on the service.",
-    registration: "Register via GitHub (verified working on 2026-09-19).",
+      "The service calls itself StarBridge (api.careke.cn). GitHub sign-up grants ¥20 and the daily check-in adds ¥10. The model marketplace is viewable without logging in and lists 15 models: besides gemini-3.8-flash-high, gpt-6-astra, and gpt-5.6-sol, there are claude-sonnet-4-6, gpt-5.6-terra, gpt-5.6-luna, gpt-5.5, and several Gemini Flash variants. Note that the service's server lapsed due to a missed renewal, so existing accounts need to re-register. A September 18 announcement also said some endpoints would be time-limited, some models limited in supply, and new-user registration paused, with sign-up moved to GitHub, while warning about Google-service rate limits and accounts running out of credit. Verify registration and model availability on the service.",
+    registration: "Register via GitHub; the service's server lapsed due to a missed renewal, so existing accounts need to re-register.",
     signupBonus: "¥20",
     dailyCheckin: "¥10",
     models: "gemini-3.8-flash-high / gpt-6-astra / gpt-5.6-sol / claude-sonnet-4-6 / gpt-5.6-terra / gpt-5.6-luna / gpt-5.5 and more — 15 in total (verified on the public model marketplace)",
     experience: "No hands-on speed feedback yet; the announcement warns some models are limited supply",
     caveat:
-      "A September 18 in-site announcement said new-user registration was paused, some endpoints were time-limited, and some models were limited in supply, with sign-up moved to GitHub; yet the referral link still worked in a September 19 test — follow the actual sign-up page. Gemini models make up a large share, so the Google rate-limit adjustment may affect availability. Credit, check-in rewards, and models are subject to what the service displays.",
+      "The service's server lapsed due to a missed renewal, so existing accounts need to re-register. A September 18 in-site announcement said new-user registration was paused, some endpoints were time-limited, and some models were limited in supply, with sign-up moved to GitHub. Gemini models make up a large share, so the Google rate-limit adjustment may affect availability. Credit, check-in rewards, and models are subject to what the service displays.",
     benefits: [
       "Public service",
       "GitHub sign-up",
@@ -1274,6 +1277,7 @@ const entryTranslations = {
       "gpt-5.6-sol",
       "Claude plus Gemini/GPT lineup",
       "Public model marketplace",
+      "Re-registration required",
     ],
   },
   "Orevx Engine 半公益站": {
