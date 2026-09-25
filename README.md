@@ -53,8 +53,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| zquant | **付费站，本人充值 20 多。** 倍率约 0.15，有 GPT 全模型和 Grok。**这家带降智检测**：最近 GPT 风控比较严，降智很影响体验，**使用前先看站内降智雷达**；进 QQ 群 738420477 可领 1 块钱试用。 | [注册](https://sub2api.zquant.site/register?aff=Y2YY4BZ5MSD4) |
-| CheapCodex | **玩不起**：百亿补贴已取消，**每日签到等福利都没了**，注册送的 20 刀应该还在。GPT 倍率 2.5x 偏贵，赠送要按倍率折算。注册邮件系统有问题，收不到验证邮件请翻垃圾箱。 | [注册](https://api.cheapcodex.online/register?aff=2PSJ57HNVGZW) |
+| zquant | **付费站，本人充值 20 多。** 倍率约 0.15，有 GPT 全模型和 Grok。**这家带降智检测**：最近 GPT 风控比较严，降智很影响体验，**使用前先看站内降智雷达**；进 QQ 群 738420477 可领 1 块钱试用，站内还有签到，每次 0.1-1 刀。 | [注册](https://sub2api.zquant.site/register?aff=Y2YY4BZ5MSD4) |
 | AbinAPI | **推广期**：注册后加入官方 QQ 群 547911817，群内发送「/试用 你的用户名」**送 15 刀**，秒到账；另有**每日签到 1-10 元**。支持 GPT，充值比例 1:10，0.5 分组约 0.05，**0.75 分组约 0.075 且相对更稳**。 | [注册](https://www.abinapi.com/sign-up?aff=9yXf) |
 | 247看 API | **纯付费站，注册没有赠送**，需自行充值。常驻特惠分组倍率 0.06（有时更低），充值 1:1，含 GPT-5.6-luna。 | [注册](https://api.247kan.com/register?aff=MPVV6RM33864) |
 | True SOTA | 付费站羊毛，注册即送 20 刀，Kiro 约 0.35 倍率；其他模型与签到未核实。 | [注册](https://true-sota.com/register?aff=7SQNRMRSXPP4) |

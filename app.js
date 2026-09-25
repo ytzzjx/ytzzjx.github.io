@@ -31,7 +31,6 @@ const siteConfig = {
     "AnyRouter",
     "TokenForge（tokengate）",
     "zquant",
-    "CheapCodex",
     "Nofx",
     "AbinAPI",
     "247看 API",
@@ -227,23 +226,22 @@ const siteConfig = {
     {
       publishedAt: "2026-09-21 00:00",
       addedAt: "2026-09-21",
-      updatedAt: "2026-09-21",
-      updateNote:
-        "新增收录：付费站，本人充值 20 多；倍率约 0.15，有 GPT 全模型和 Grok，站内带降智检测与降智雷达；进 QQ 群 738420477 可领 1 元试用。",
+      updatedAt: "2026-09-24",
+      updateNote: "站内开了签到，每次 0.1-1 刀。",
       kind: "付费站 / GPT 与 Grok / 倍率约 0.15",
       name: "zquant",
       summary:
-        "付费站，本人充值 20 多；倍率约 0.15，有 GPT 全模型和 Grok。站内带降智检测和降智雷达——最近 GPT 风控比较严，降智很影响体验，使用前先看降智雷达；进 QQ 群 738420477 可领 1 块钱试用。",
+        "付费站，本人充值 20 多；倍率约 0.15，有 GPT 全模型和 Grok。站内带降智检测和降智雷达——最近 GPT 风控比较严，降智很影响体验，使用前先看降智雷达；进 QQ 群 738420477 可领 1 块钱试用，站内还有签到，每次 0.1-1 刀。",
       details:
-        "本人充值 20 多的一家付费站。倍率 0.15 左右，模型以 GPT 全模型和 Grok 为主。这家带降智检测：最近 GPT 的风控比较严，降智很影响体验，用之前建议先在站内看降智雷达，确认当前没有降智再上车。想先试试的话可以进官方 QQ 群 738420477 领 1 块钱试用。",
+        "本人充值 20 多的一家付费站。倍率 0.15 左右，模型以 GPT 全模型和 Grok 为主。这家带降智检测：最近 GPT 的风控比较严，降智很影响体验，用之前建议先在站内看降智雷达，确认当前没有降智再上车。想先试试的话可以进官方 QQ 群 738420477 领 1 块钱试用；站内开了签到，每次 0.1-1 刀。",
       registration: "通过邀请链接注册；进官方 QQ 群 738420477 可领 1 元试用。",
       signupBonus: "进 QQ 群 738420477 领 1 元试用",
-      dailyCheckin: "未提供",
+      dailyCheckin: "0.1-1 刀",
       models: "GPT 全模型 / Grok",
       experience: "本人充值 20 多；最近 GPT 风控较严，降智明显影响体验",
       caveat:
         "降智是这家目前最大的问题：GPT 风控严的时候体验落差很大，付费前先用 1 元试用加降智雷达确认；倍率约 0.15，降智情况会随上游风控变化，以站内实际显示为准。",
-      benefits: ["付费站", "本人充值 20 多", "倍率约 0.15", "GPT 全模型", "Grok", "有降智检测", "降智雷达", "进 QQ 群领 1 元试用"],
+      benefits: ["付费站", "本人充值 20 多", "倍率约 0.15", "GPT 全模型", "Grok", "有降智检测", "降智雷达", "每日签到 0.1-1 刀", "进 QQ 群领 1 元试用"],
       url: "https://sub2api.zquant.site/register?aff=Y2YY4BZ5MSD4",
       pricing: "paid",
       tone: "active",
@@ -548,27 +546,6 @@ const siteConfig = {
       tone: "active",
     },
     {
-      publishedAt: "2026-08-31 00:00",
-      addedAt: "2026-08-31",
-      updatedAt: "2026-09-04",
-      updateNote: "百亿补贴取消，签到等福利都没了，已改归付费区。",
-      kind: "玩不起 / 补贴取消 · 只剩注册赠送",
-      pricing: "paid",
-      name: "CheapCodex",
-      summary: "玩不起：百亿补贴活动已取消，每日签到等福利都没了，注册送的 20 刀应该还在。加上 GPT 倍率 2.5x 本来就贵，已改归付费区。注册系统的邮件有问题，可能收不到验证邮件，记得翻垃圾箱。",
-      details:
-        "百亿补贴活动已经取消，随之没了的是每日签到那类持续福利；注册送的 20 刀应该还留着。也就是说现在注册还能拿一笔一次性额度，但没有能让额度自己回来的机制了。GPT 倍率为 2.5x，比标准计费贵，20 刀实际能用多少要按这个折算。补贴撤了、日常福利也撤了，剩下的就是一个高价付费站，所以移到付费区。注册环节的老问题还在：邮件系统不稳，验证邮件可能收不到，先去垃圾箱找。",
-      registration: "邮箱注册。注册系统的邮件发送有问题，验证邮件可能进垃圾箱或收不到，请先翻垃圾箱。",
-      signupBonus: "20 刀（补贴取消后应该仍保留）",
-      dailyCheckin: "已取消（原为 20 刀）",
-      models: "GPT（倍率 2.5x）",
-      experience: "补贴取消、签到等福利已没；GPT 倍率 2.5x 偏贵",
-      caveat: "百亿补贴已取消，每日签到这类持续福利跟着没了，只剩注册那一次性的 20 刀，额度用完不会自己回来。GPT 倍率 2.5x，比标准计费贵，赠送的实际可用量要按倍率折算。注册时邮件系统有问题，可能收不到验证邮件，请查看垃圾箱。",
-      benefits: ["玩不起", "百亿补贴已取消", "签到等福利已没", "注册送 20 刀应仍保留", "GPT 倍率 2.5x 偏贵", "邮件可能进垃圾箱"],
-      url: "https://api.cheapcodex.online/register?aff=2PSJ57HNVGZW",
-      tone: "caution",
-    },
-    {
       publishedAt: "2026-08-20 10:15",
       updatedAt: "2026-09-21",
       updateNote:
@@ -821,21 +798,21 @@ const siteConfig = {
     },
     {
       publishedAt: "2026-08-20 00:00",
-      updatedAt: "2026-09-02",
-      updateNote: "推广期：进 QQ 群发 /试用 秒到账，另有每日签到 1-10 元。",
+      updatedAt: "2026-09-24",
+      updateNote: "站点程序换成了 sub2api，签到现在直接在站内完成：每天可签 1 次，随机到账 0.10-0.50 元；域名不变。",
       kind: "推广期 / 分组调用",
       pricing: "paid",
       name: "AbinAPI",
-      summary: "目前在推广期：加入官方 QQ 群 547911817，群内发送「/试用 你的用户名」送 15 刀，秒到账；另有每日签到 1-10 元。支持 GPT，充值比例 1:10，0.5 分组约等于 0.05，0.75 分组约等于 0.075 且相对更稳。",
+      summary: "目前在推广期：加入官方 QQ 群 547911817，群内发送「/试用 你的用户名」送 15 刀，秒到账；每天可在站内签到 1 次，随机到账 0.10-0.50 元。支持 GPT，充值比例 1:10，0.5 分组约等于 0.05，0.75 分组约等于 0.075 且相对更稳。",
       details:
-        "站方目前在做推广。领赠送额度的方式是加入官方 QQ 群 547911817，在群里发送「/试用 你的用户名」，送 15 刀，秒到账。推广期还开了每日签到，金额 1-10 元。支持 GPT，充值比例 1:10。支持分组调用：0.5 分组约等于 0.05 倍率，0.75 分组约等于 0.075，后者稳定性相对更好，赶时间的活可以直接走 0.75。",
+        "站方目前在做推广。领赠送额度的方式是加入官方 QQ 群 547911817，在群里发送「/试用 你的用户名」，送 15 刀，秒到账。每日签到现在直接在站内完成：每天可签到 1 次，随机到账 0.10-0.50 元；站点程序已换成 sub2api，域名一直是 www.abinapi.com 没变。支持 GPT，充值比例 1:10。支持分组调用：0.5 分组约等于 0.05 倍率，0.75 分组约等于 0.075，后者稳定性相对更好，赶时间的活可以直接走 0.75。",
       registration: "通过邀请链接注册；之后加入官方 QQ 群 547911817，在群内发送「/试用 你的用户名」领取 15 刀，秒到账。",
       signupBonus: "15 刀（进群发「/试用 你的用户名」领取）",
-      dailyCheckin: "1-10 元",
+      dailyCheckin: "每天可签 1 次，随机到账 0.10-0.50 元（站内直接签到）",
       models: "GPT",
-      experience: "推广期，有每日签到；0.75 分组稳定性相对更好",
+      experience: "推广期，站内可每日签到；0.75 分组稳定性相对更好",
       caveat: "领赠送额度必须进 QQ 群 547911817 用「/试用 你的用户名」这条指令，没进群就领不到。推广期的赠送和每日签到属于阶段性政策，随时可能收紧。支持分组调用，0.75 分组相对更稳定；实际倍率和服务状态请以站内调用结果为准。",
-      benefits: ["推广期", "进 QQ 群发 /试用 送 15 刀", "秒到账", "每日签到 1-10 元", "充值比例 1:10", "0.5 分组约 0.05", "0.75 分组约 0.075", "0.75 分组更稳"],
+      benefits: ["推广期", "进 QQ 群发 /试用 送 15 刀", "秒到账", "站内每日签到随机 0.10-0.50 元", "充值比例 1:10", "0.5 分组约 0.05", "0.75 分组约 0.075", "0.75 分组更稳"],
       url: "https://www.abinapi.com/sign-up?aff=9yXf",
       tone: "active",
     },
@@ -1184,20 +1161,19 @@ const entryTranslations = {
   zquant: {
     name: "zquant",
     kind: "Paid service / GPT and Grok / about 0.15 rate",
-    updateNote:
-      "New listing: a paid service I have topped up over 20 on, with an about-0.15 rate, the full GPT lineup and Grok, plus in-site dumbing-down detection and a dumbing-down radar; claim a 1-yuan trial in QQ group 738420477.",
+    updateNote: "An on-site check-in is now live, worth 0.1-1 each time.",
     summary:
-      "A paid service I have topped up over 20 on, with an about-0.15 rate and the full GPT lineup plus Grok. It includes dumbing-down detection and a dumbing-down radar — GPT risk control has been strict lately and dumbing-down heavily affects the experience, so check the radar before use; join QQ group 738420477 for a 1-yuan trial.",
+      "A paid service I have topped up over 20 on, with an about-0.15 rate and the full GPT lineup plus Grok. It includes dumbing-down detection and a dumbing-down radar — GPT risk control has been strict lately and dumbing-down heavily affects the experience, so check the radar before use; join QQ group 738420477 for a 1-yuan trial, and an on-site check-in adds 0.1-1 each time.",
     details:
-      "A paid service I have topped up over 20 on. The rate is around 0.15, with models focused on the full GPT lineup and Grok. This one includes dumbing-down detection: GPT risk control has been strict lately, and dumbing-down heavily affects the experience, so check the in-site dumbing-down radar first and confirm there is no dumbing-down before committing. To try it out first, join the official QQ group 738420477 for a 1-yuan trial.",
+      "A paid service I have topped up over 20 on. The rate is around 0.15, with models focused on the full GPT lineup and Grok. This one includes dumbing-down detection: GPT risk control has been strict lately, and dumbing-down heavily affects the experience, so check the in-site dumbing-down radar first and confirm there is no dumbing-down before committing. To try it out first, join the official QQ group 738420477 for a 1-yuan trial; an on-site check-in is also live, worth 0.1-1 each time.",
     registration: "Register through the referral link; join the official QQ group 738420477 for a 1-yuan trial.",
     signupBonus: "1-yuan trial in QQ group 738420477",
-    dailyCheckin: "Not provided",
+    dailyCheckin: "0.1-1 each time",
     models: "Full GPT lineup / Grok",
     experience: "Topped up over 20 personally; GPT risk control has been strict lately and dumbing-down noticeably affects the experience",
     caveat:
       "Dumbing-down is the biggest issue here: when GPT risk control is strict, the experience drops sharply, so use the 1-yuan trial and the dumbing-down radar before paying. The rate is about 0.15 and dumbing-down tracks upstream risk control; confirm current values on the service.",
-    benefits: ["Paid service", "Topped up over 20 personally", "About 0.15 rate", "Full GPT lineup", "Grok", "Dumbing-down detection", "Dumbing-down radar", "1-yuan trial in the QQ group"],
+    benefits: ["Paid service", "Topped up over 20 personally", "About 0.15 rate", "Full GPT lineup", "Grok", "Dumbing-down detection", "Dumbing-down radar", "Daily check-in 0.1-1", "1-yuan trial in the QQ group"],
   },
   "星见雅": {
     name: "Xinjianya",
@@ -1502,18 +1478,19 @@ const entryTranslations = {
   },
   AbinAPI: {
     kind: "Promotion period / group routing",
-    updateNote: "Promotion period: send /试用 in the QQ group for instant credit, plus a daily check-in of 1-10 yuan.",
+    updateNote:
+      "The site now runs on sub2api, and the daily check-in is done directly on the site: once a day, randomly credited 0.10-0.50 yuan; the domain is unchanged.",
     summary:
-      "Currently running a promotion: join the official QQ group 547911817 and send \"/试用 your-username\" in the group for $15, credited instantly. There is also a daily check-in of 1-10 yuan. GPT is supported, top-ups convert 1:10, and the 0.5 group works out to about 0.05 while the 0.75 group runs at about 0.075 and is noticeably steadier.",
+      "Currently running a promotion: join the official QQ group 547911817 and send \"/试用 your-username\" in the group for $15, credited instantly. You can also check in once a day on the site, randomly credited 0.10-0.50 yuan. GPT is supported, top-ups convert 1:10, and the 0.5 group works out to about 0.05 while the 0.75 group runs at about 0.075 and is noticeably steadier.",
     details:
-      "The operator is running a promotion. To claim credit, join the official QQ group 547911817 and send \"/试用 your-username\" in the group for $15; it lands instantly. The promotion also comes with a daily check-in worth 1-10 yuan. GPT is supported and top-ups convert 1:10. It supports group routing: the 0.5 group works out to roughly a 0.05 rate and the 0.75 group to about 0.075, with the latter comparatively more stable — worth using directly when the work is time-sensitive.",
+      "The operator is running a promotion. To claim credit, join the official QQ group 547911817 and send \"/试用 your-username\" in the group for $15; it lands instantly. The daily check-in is now completed directly on the site: once a day, randomly credited 0.10-0.50 yuan; the site now runs on sub2api and the domain is unchanged at www.abinapi.com. GPT is supported and top-ups convert 1:10. It supports group routing: the 0.5 group works out to roughly a 0.05 rate and the 0.75 group to about 0.075, with the latter comparatively more stable — worth using directly when the work is time-sensitive.",
     registration: "Register through the referral link, then join the official QQ group 547911817 and send \"/试用 your-username\" to claim $15; it arrives instantly.",
     signupBonus: "$15 (claim by sending \"/试用 your-username\" in the group)",
-    dailyCheckin: "1-10 yuan",
+    dailyCheckin: "Once a day, randomly 0.10-0.50 yuan (checked in on the site)",
     models: "GPT",
-    experience: "In a promotion period with a daily check-in; the 0.75 group is comparatively steadier",
+    experience: "In a promotion period with an on-site daily check-in; the 0.75 group is comparatively steadier",
     caveat: "Claiming credit requires the QQ group 547911817 and the \"/试用 your-username\" command — without joining the group you cannot claim it. The promotional grant and daily check-in are a temporary policy and may tighten at any time. Group routing is supported and the 0.75 group is comparatively more stable; rely on actual call results for rates and service status.",
-    benefits: ["Promotion period", "$15 via /试用 in QQ group", "Instant credit", "Daily check-in 1-10 yuan", "1:10 top-up", "0.5 group about 0.05", "0.75 group about 0.075", "0.75 group steadier"],
+    benefits: ["Promotion period", "$15 via /试用 in QQ group", "Instant credit", "On-site daily check-in, random 0.10-0.50 yuan", "1:10 top-up", "0.5 group about 0.05", "0.75 group about 0.075", "0.75 group steadier"],
   },
   "247看 API": {
     kind: "Paid only / standing 0.06 rate",
@@ -1529,21 +1506,6 @@ const entryTranslations = {
     experience: "Paid-only service with a standing 0.06 discount group",
     caveat: "Paid-only with no sign-up credit, so a top-up is required. The discount group is permanent, but rates and group rules may change — rely on what the service shows. Top-ups convert 1:1.",
     benefits: ["Paid only", "Standing discount group", "0.06 rate", "Sometimes lower", "1:1 top-up", "GPT-5.6-luna"],
-  },
-  CheapCodex: {
-    kind: "Cannot keep it up / subsidy cancelled · sign-up credit only",
-    updateNote: "The subsidy campaign was cancelled and perks like the daily check-in are gone; moved to the paid tab.",
-    summary:
-      "It could not keep the promotion up: the subsidy campaign has been cancelled and perks like the daily check-in are gone, though the $20 sign-up credit should still be there. With GPT billed at 2.5x on top of that, it has moved to the paid tab. The registration email system is unreliable — verification mail may not arrive, so check your spam folder.",
-    details:
-      "The subsidy campaign has been cancelled, and what went with it are the recurring perks such as the daily check-in; the $20 sign-up credit should still be in place. In other words, registering still gets you a one-off allowance, but nothing brings credit back after that. GPT is billed at 2.5x the standard rate, so discount that $20 accordingly. With the subsidy gone and the daily perks gone, what remains is an expensive paid service — hence the move to the paid tab. The old sign-up problem persists: the mail system is flaky and the verification email may not arrive, so check the spam folder first.",
-    registration: "Email registration. The registration mail system has problems — the verification email may land in spam or fail to arrive, so check the spam folder first.",
-    signupBonus: "$20 (should still stand after the subsidy ended)",
-    dailyCheckin: "Cancelled (previously $20)",
-    models: "GPT (2.5x rate)",
-    experience: "Subsidy cancelled and perks like check-in gone; GPT at 2.5x is on the expensive side",
-    caveat: "The subsidy campaign has been cancelled and recurring perks like the daily check-in went with it, leaving only the one-off $20 from sign-up — once it is spent, nothing replenishes it. GPT is billed at 2.5x the standard rate, so the usable value of that credit is lower than the number suggests. At sign-up, the mail system may fail to deliver the verification email — check your spam folder.",
-    benefits: ["Cannot keep it up", "Subsidy cancelled", "Check-in and perks gone", "$20 sign-up should remain", "GPT 2.5x rate", "Mail may land in spam"],
   },
   Denxio: {
     kind: "Free service stopped / upstream pool banned",
