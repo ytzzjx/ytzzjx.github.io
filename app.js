@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-09-24",
+  lastUpdated: "2026-09-25",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
@@ -798,21 +798,21 @@ const siteConfig = {
     },
     {
       publishedAt: "2026-08-20 00:00",
-      updatedAt: "2026-09-24",
-      updateNote: "站点程序换成了 sub2api，签到现在直接在站内完成：每天可签 1 次，随机到账 0.10-0.50 元；域名不变。",
+      updatedAt: "2026-09-25",
+      updateNote: "站点程序换成了 sub2api，签到改站内直接签（每天 1 次，随机 0.10-0.50 元），充值比例从 1:10 改为 1:1；域名不变。",
       kind: "推广期 / 分组调用",
       pricing: "paid",
       name: "AbinAPI",
-      summary: "目前在推广期：加入官方 QQ 群 547911817，群内发送「/试用 你的用户名」送 15 刀，秒到账；每天可在站内签到 1 次，随机到账 0.10-0.50 元。支持 GPT，充值比例 1:10，0.5 分组约等于 0.05，0.75 分组约等于 0.075 且相对更稳。",
+      summary: "目前在推广期：加入官方 QQ 群 547911817，群内发送「/试用 你的用户名」送 15 刀，秒到账；每天可在站内签到 1 次，随机到账 0.10-0.50 元。支持 GPT，充值比例 1:1，0.5 分组约等于 0.05，0.75 分组约等于 0.075 且相对更稳。",
       details:
-        "站方目前在做推广。领赠送额度的方式是加入官方 QQ 群 547911817，在群里发送「/试用 你的用户名」，送 15 刀，秒到账。每日签到现在直接在站内完成：每天可签到 1 次，随机到账 0.10-0.50 元；站点程序已换成 sub2api，域名一直是 www.abinapi.com 没变。支持 GPT，充值比例 1:10。支持分组调用：0.5 分组约等于 0.05 倍率，0.75 分组约等于 0.075，后者稳定性相对更好，赶时间的活可以直接走 0.75。",
+        "站方目前在做推广。领赠送额度的方式是加入官方 QQ 群 547911817，在群里发送「/试用 你的用户名」，送 15 刀，秒到账。每日签到现在直接在站内完成：每天可签到 1 次，随机到账 0.10-0.50 元；站点程序已换成 sub2api，域名一直是 www.abinapi.com 没变。支持 GPT，充值比例已从 1:10 改为 1:1。支持分组调用：0.5 分组约等于 0.05 倍率，0.75 分组约等于 0.075，后者稳定性相对更好，赶时间的活可以直接走 0.75。",
       registration: "通过邀请链接注册；之后加入官方 QQ 群 547911817，在群内发送「/试用 你的用户名」领取 15 刀，秒到账。",
       signupBonus: "15 刀（进群发「/试用 你的用户名」领取）",
       dailyCheckin: "每天可签 1 次，随机到账 0.10-0.50 元（站内直接签到）",
       models: "GPT",
       experience: "推广期，站内可每日签到；0.75 分组稳定性相对更好",
       caveat: "领赠送额度必须进 QQ 群 547911817 用「/试用 你的用户名」这条指令，没进群就领不到。推广期的赠送和每日签到属于阶段性政策，随时可能收紧。支持分组调用，0.75 分组相对更稳定；实际倍率和服务状态请以站内调用结果为准。",
-      benefits: ["推广期", "进 QQ 群发 /试用 送 15 刀", "秒到账", "站内每日签到随机 0.10-0.50 元", "充值比例 1:10", "0.5 分组约 0.05", "0.75 分组约 0.075", "0.75 分组更稳"],
+      benefits: ["推广期", "进 QQ 群发 /试用 送 15 刀", "秒到账", "站内每日签到随机 0.10-0.50 元", "充值比例 1:1", "0.5 分组约 0.05", "0.75 分组约 0.075", "0.75 分组更稳"],
       url: "https://www.abinapi.com/sign-up?aff=9yXf",
       tone: "active",
     },
@@ -1479,18 +1479,18 @@ const entryTranslations = {
   AbinAPI: {
     kind: "Promotion period / group routing",
     updateNote:
-      "The site now runs on sub2api, and the daily check-in is done directly on the site: once a day, randomly credited 0.10-0.50 yuan; the domain is unchanged.",
+      "The site now runs on sub2api, and the daily check-in is done directly on the site: once a day, randomly credited 0.10-0.50 yuan; top-ups changed from 1:10 to 1:1; the domain is unchanged.",
     summary:
-      "Currently running a promotion: join the official QQ group 547911817 and send \"/试用 your-username\" in the group for $15, credited instantly. You can also check in once a day on the site, randomly credited 0.10-0.50 yuan. GPT is supported, top-ups convert 1:10, and the 0.5 group works out to about 0.05 while the 0.75 group runs at about 0.075 and is noticeably steadier.",
+      "Currently running a promotion: join the official QQ group 547911817 and send \"/试用 your-username\" in the group for $15, credited instantly. You can also check in once a day on the site, randomly credited 0.10-0.50 yuan. GPT is supported, top-ups convert 1:1, and the 0.5 group works out to about 0.05 while the 0.75 group runs at about 0.075 and is noticeably steadier.",
     details:
-      "The operator is running a promotion. To claim credit, join the official QQ group 547911817 and send \"/试用 your-username\" in the group for $15; it lands instantly. The daily check-in is now completed directly on the site: once a day, randomly credited 0.10-0.50 yuan; the site now runs on sub2api and the domain is unchanged at www.abinapi.com. GPT is supported and top-ups convert 1:10. It supports group routing: the 0.5 group works out to roughly a 0.05 rate and the 0.75 group to about 0.075, with the latter comparatively more stable — worth using directly when the work is time-sensitive.",
+      "The operator is running a promotion. To claim credit, join the official QQ group 547911817 and send \"/试用 your-username\" in the group for $15; it lands instantly. The daily check-in is now completed directly on the site: once a day, randomly credited 0.10-0.50 yuan; the site now runs on sub2api and the domain is unchanged at www.abinapi.com. GPT is supported and top-ups have changed from 1:10 to 1:1. It supports group routing: the 0.5 group works out to roughly a 0.05 rate and the 0.75 group to about 0.075, with the latter comparatively more stable — worth using directly when the work is time-sensitive.",
     registration: "Register through the referral link, then join the official QQ group 547911817 and send \"/试用 your-username\" to claim $15; it arrives instantly.",
     signupBonus: "$15 (claim by sending \"/试用 your-username\" in the group)",
     dailyCheckin: "Once a day, randomly 0.10-0.50 yuan (checked in on the site)",
     models: "GPT",
     experience: "In a promotion period with an on-site daily check-in; the 0.75 group is comparatively steadier",
     caveat: "Claiming credit requires the QQ group 547911817 and the \"/试用 your-username\" command — without joining the group you cannot claim it. The promotional grant and daily check-in are a temporary policy and may tighten at any time. Group routing is supported and the 0.75 group is comparatively more stable; rely on actual call results for rates and service status.",
-    benefits: ["Promotion period", "$15 via /试用 in QQ group", "Instant credit", "On-site daily check-in, random 0.10-0.50 yuan", "1:10 top-up", "0.5 group about 0.05", "0.75 group about 0.075", "0.75 group steadier"],
+    benefits: ["Promotion period", "$15 via /试用 in QQ group", "Instant credit", "On-site daily check-in, random 0.10-0.50 yuan", "1:1 top-up", "0.5 group about 0.05", "0.75 group about 0.075", "0.75 group steadier"],
   },
   "247看 API": {
     kind: "Paid only / standing 0.06 rate",
