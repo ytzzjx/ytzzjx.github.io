@@ -737,8 +737,8 @@ const siteConfig = {
     {
       publishedAt: "2026-08-24 00:00",
       addedAt: "2026-08-24",
-      updatedAt: "2026-09-21",
-      updateNote: "已更换域名为 beizhi.dedyn.io，该站只能 http 访问，https 打不开。",
+      updatedAt: "2026-09-25",
+      updateNote: "域名 beizhi.dedyn.io 现已支持 https 访问。",
       kind: "半公益站",
       name: "北执半公益站",
       summary: "半公益站，提供免费的国产模型；签到额度较多，并支持 Gemini 新模型和 Claude。",
@@ -749,9 +749,9 @@ const siteConfig = {
       dailyCheckin: "额度较多",
       models: "免费国产模型 / Gemini 新模型 / Claude",
       experience: "统一 OpenAI 格式接口，一键切换模型",
-      caveat: "每分钟最多 15 次请求，不适合 Agent 或自动化高频任务；站点由个人维护，不提供商业 SLA，请勿用于生产环境。已更换域名为 beizhi.dedyn.io，**该站只能 http 访问，https 打不开，收藏时不要加 s**。",
+      caveat: "每分钟最多 15 次请求，不适合 Agent 或自动化高频任务；站点由个人维护，不提供商业 SLA，请勿用于生产环境。域名已更换为 beizhi.dedyn.io，现已支持 https 访问。",
       benefits: ["免费国产模型", "签到额度较多", "Gemini 新模型", "Claude", "统一 OpenAI 格式接口", "一键切换模型"],
-      url: "http://beizhi.dedyn.io/sign-up?aff=hk5Q",
+      url: "https://beizhi.dedyn.io/sign-up?aff=hk5Q",
       tone: "active",
     },
     {
@@ -1785,7 +1785,7 @@ const entryTranslations = {
   "北执半公益站": {
     kind: "Freemium service",
     name: "Beizhi Freemium Service",
-    updateNote: "The domain changed to beizhi.dedyn.io, and the site is reachable over http only — https does not work.",
+    updateNote: "The domain beizhi.dedyn.io now supports https access.",
     summary:
       "A freemium service with free Chinese models, generous check-in credit, and access to newer Gemini and Claude models.",
     details:
@@ -1795,7 +1795,7 @@ const entryTranslations = {
     dailyCheckin: "Generous credit",
     models: "Free Chinese models / newer Gemini models / Claude",
     experience: "Unified OpenAI-compatible API with one-click model switching",
-    caveat: "Limited to 15 requests per minute, so it is not suitable for agents or high-frequency automation. It is personally maintained without a commercial SLA and should not be used in production. The domain has changed to beizhi.dedyn.io, and the site is reachable over http only — https does not work, so do not add the s.",
+    caveat: "Limited to 15 requests per minute, so it is not suitable for agents or high-frequency automation. It is personally maintained without a commercial SLA and should not be used in production. The domain has changed to beizhi.dedyn.io, which now supports https access.",
     benefits: ["Free Chinese models", "Generous check-in credit", "Newer Gemini models", "Claude", "Unified OpenAI-compatible API", "One-click model switching"],
   },
   Xingya: {

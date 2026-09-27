@@ -40,7 +40,7 @@
 | TokenForge（tokengate） | **已恢复正常，每日签到 20 刀，仍是这里主要的 Claude Opus 5 线路。** 账号被站方清空过，**需要重新注册**。此前实测的注入（模型被锁成只用英文回答）没有复测，第一次调用时用中文问一句自己验一下。 | [注册](https://tokenforge.ai.studio/sign-up?aff=iheu) |
 | Nofx | 注册链接注册送 20，**加入 Discord 另送 5**，每天可签到 5（签到上限 50），GPT-5.6-sol 可用且倍率 0.6x；站内没找到充值入口，已归到公益区。 | [注册链接](https://nofx.one/zh-CN/sign-in?ref=PWF8Z79Q) |
 | Rinko NAI 生图公益站 | 专注 API 生图，使用 NAI Diffusion 模型；每日签到 25 代币，带作品广场。 | [注册](https://nai.rinko.ai/sign-up?aff=OQhG) |
-| 北执半公益站 | 半公益站，仅支持主流邮箱注册，有统一 OpenAI 格式接口，签到额度较多，含 Gemini 新模型和 Claude。**已更换域名，且该站只能 http 访问，https 打不开，不要加 s。** | [注册](http://beizhi.dedyn.io/sign-up?aff=hk5Q) |
+| 北执半公益站 | 半公益站，仅支持主流邮箱注册，有统一 OpenAI 格式接口，签到额度较多，含 Gemini 新模型和 Claude。已更换域名，**现已支持 https 访问**。 | [注册](https://beizhi.dedyn.io/sign-up?aff=hk5Q) |
 | Jasperio | 免费生图与轻量对话，无需额外注册，图片请尽快下载。 | [直达](https://jasperio.xyz:8848/) |
 | PAI 生图公益站 | 公益生图站，登录送额度，含 gpt-image 系列与轻量对话。 | [注册](https://pai.zaiduyu.top/#/auth?ref=EA5364BCCDE4) |
 | GemAI（哈基米公益站） | 邀请链接注册，注册送 200、每日签到 13，按次计费，推荐酒馆用户，含 Gemini 新模型与 Claude。 | [注册](https://api.gemai.cc/sign-up?aff=8Ouk3uT6) |
