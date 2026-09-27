@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Camila 公益站",
     "Ovo 半公益站",
     "Axis AI 公益站",
     "星见雅",
@@ -203,6 +204,41 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-09-25 00:00",
+      addedAt: "2026-09-25",
+      updatedAt: "2026-09-25",
+      updateNote:
+        "新增收录：注册送 5000 积分、每日签到 200 左右；公益组 11 个模型倍率 0 为主，另有按次分组（gemini 约 0.015/次、grok 与 GPT 0.01/次），邮箱验证或 GitHub 注册。",
+      kind: "公益站 / 注册送 5000 积分 / 签到 200 左右",
+      name: "Camila 公益站",
+      summary:
+        "公益站，注册送 5000 积分、每日签到 200 左右；模型广场公开共 51 个，公益组 11 个模型倍率 0 为主，另有按次专用分组（gemini 约 0.015/次、grok 与 GPT 0.01/次）。邮箱验证注册或 GitHub 注册。",
+      details:
+        "站内名称就叫「公益站」，这里按域名记作 Camila（free.camila.qzz.io，New API 程序）。额度单位是积分（✨）。注册送 5000 积分，每日签到 200 左右（用户提供，接口确认签到已开启）；支持邮箱验证注册或 GitHub 注册，注册环节无人机验证。模型广场无需登录即可查看，共 51 个模型：公益组 11 个（glm-5.2、glm-5.3-flash、step-3.7-flash、mimo-v2.5、deepseek-v4.1-flash 等，多数倍率 0）；按次专用分组——gemini 专用约 0.015/次（27 个 gemini 模型）、ds 分组 0.019/次、grok 专用 0.01/次、gpt 专用 0.01/次、glm 分组 0.029/次；另有 vip/ssvip/svip/recharge 付费分组和 5 个生图模型。8 月 22 日公告称 gemini 只有一个号、5 小时限额很快、7 天后会添加号池；当前置顶公告为中秋三天「中秋狂欢」分组免费使用全模型，属限时活动。",
+      registration: "邮箱验证注册或 GitHub 注册。",
+      signupBonus: "5000 积分",
+      dailyCheckin: "200 左右",
+      models:
+        "公益组 11 个（glm-5.2 / glm-5.3-flash / step-3.7-flash / mimo-v2.5 / deepseek-v4.1-flash 等，倍率 0 为主）；按次分组 gemini 约 0.015/次、grok 与 GPT 0.01/次、ds 0.019/次、glm 0.029/次；全站 51 个",
+      experience: "模型广场公开可查；公益组多数模型倍率 0",
+      caveat:
+        "8 月公告称 gemini 只有一个号、5 小时限额很快（称 7 天后加号池，现状以站内为准）；公益组多数模型倍率 0，按次分组价格以站内为准；vip/ssvip/svip/recharge 为付费分组；「中秋狂欢」免费分组是限时活动，过后恢复原规则。",
+      benefits: [
+        "公益站",
+        "注册送 5000 积分",
+        "每日签到 200 左右",
+        "公益组 11 个模型",
+        "倍率 0 为主",
+        "gemini 约 0.015/次",
+        "grok 与 GPT 0.01/次",
+        "GitHub 注册",
+        "邮箱验证注册",
+        "含生图模型",
+      ],
+      url: "https://free.camila.qzz.io/sign-up?aff=qF18",
+      tone: "active",
+    },
     {
       publishedAt: "2026-09-25 00:00",
       addedAt: "2026-09-25",
@@ -1211,6 +1247,36 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  "Camila 公益站": {
+    name: "Camila Public Service",
+    kind: "Public service / 5000 points on sign-up / about 200 daily check-in",
+    updateNote:
+      "New listing: 5000 points on sign-up and an about-200 daily check-in; the 11-model public group is mostly at a 0x rate, with per-call groups (gemini about 0.015/call, grok and GPT 0.01/call); email-verified or GitHub sign-up.",
+    summary:
+      "A public service granting 5000 points on sign-up with an about-200 daily check-in. The public model marketplace lists 51 models: the 11-model public group is mostly at a 0x rate, with per-call groups (gemini about 0.015/call, grok and GPT 0.01/call). Email-verified or GitHub sign-up.",
+    details:
+      "The in-site name is literally \"公益站\" (public service), so it is listed here as Camila after its domain free.camila.qzz.io (running New API). Credit is measured in points (✨). Sign-up grants 5000 points and the daily check-in adds about 200 (per user report; the status API confirms the check-in is live). Registration is by email verification or GitHub, with no captcha at sign-up. The model marketplace is viewable without logging in and lists 51 models: the 11-model public group (glm-5.2, glm-5.3-flash, step-3.7-flash, mimo-v2.5, deepseek-v4.1-flash, and more, mostly at a 0x rate); per-call groups — gemini-dedicated at about 0.015/call (27 gemini models), the ds group at 0.019/call, grok-dedicated at 0.01/call, gpt-dedicated at 0.01/call, and the glm group at 0.029/call; plus vip/ssvip/svip/recharge paid groups and 5 image models. An August 22 announcement said gemini runs on a single account with a 5-hour limit that runs out quickly and that a pool would be added after 7 days; the current pinned announcement offers free access to all models in the temporary \"Mid-Autumn carnival\" group for three days over the holiday.",
+    registration: "Register with email verification or via GitHub.",
+    signupBonus: "5000 points",
+    dailyCheckin: "About 200",
+    models:
+      "Public group of 11 (glm-5.2 / glm-5.3-flash / step-3.7-flash / mimo-v2.5 / deepseek-v4.1-flash and more, mostly 0x rate); per-call groups gemini about 0.015/call, grok and GPT 0.01/call, ds 0.019/call, glm 0.029/call; 51 models in total",
+    experience: "The model marketplace is public; most public-group models are at a 0x rate",
+    caveat:
+      "An August announcement said gemini runs on a single account with a 5-hour limit that runs out fast (a pool was promised after 7 days; check current status on the site). Most public-group models are at a 0x rate and per-call prices are shown in the marketplace. The vip/ssvip/svip/recharge groups are paid tiers. The free \"Mid-Autumn carnival\" group is a limited-time event and reverts afterwards.",
+    benefits: [
+      "Public service",
+      "5000 points on sign-up",
+      "About 200 daily check-in",
+      "11-model public group",
+      "Mostly 0x rate",
+      "gemini about 0.015/call",
+      "grok and GPT 0.01/call",
+      "GitHub sign-up",
+      "Email-verified sign-up",
+      "Image models included",
+    ],
+  },
   "Ovo 半公益站": {
     name: "Ovo Freemium Service",
     kind: "Freemium / SillyTavern-oriented / ¥5 on sign-up, about ¥2 daily check-in",
