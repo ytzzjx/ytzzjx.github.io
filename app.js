@@ -207,15 +207,15 @@ const siteConfig = {
       addedAt: "2026-09-25",
       updatedAt: "2026-09-25",
       updateNote:
-        "新增收录：完全免费的公益 AI 对话平台（非 API 中转）；用户名 + 邮箱 + QQ 号注册（QQ 号必填，邀请码可选）或 GitHub 注册，提交后需站方审核；有 Claude Fable 5、GPT-6 Luna（无限额度）、Qwen 3.8 Max、GLM-5.3 Flash。",
+        "新增收录：完全免费的公益 AI 对话平台（非 API 中转）；用户名 + 邮箱 + QQ 号注册（QQ 号必填，邀请码可选）或 GitHub 注册，提交后需站方审核；进官方 QQ 群可领赠送的 go 套餐；有 Claude Fable 5、GPT-6 Luna（无限额度）、Qwen 3.8 Max、GLM-5.3 Flash。",
       kind: "公益站 / 对话平台 / 注册需审核",
       name: "Axis AI 公益站",
       summary:
-        "完全免费的公益 AI 对话平台（站内自述，非 API 中转）；用户名 + 邮箱 + QQ 号注册（QQ 号必填，邀请码可选）或 GitHub 注册，提交后需站方审核。有 Claude Fable 5、GPT-6 Luna（无限额度）、Qwen 3.8 Max、GLM-5.3 Flash。官方 QQ 群 309623044。",
+        "完全免费的公益 AI 对话平台（站内自述，非 API 中转）；用户名 + 邮箱 + QQ 号注册（QQ 号必填，邀请码可选）或 GitHub 注册，提交后需站方审核；进官方 QQ 群 309623044 可领赠送的 go 套餐。有 Claude Fable 5、GPT-6 Luna（无限额度）、Qwen 3.8 Max、GLM-5.3 Flash。",
       details:
-        "站内名称 Axis AI，站内自述「完全免费的公益 AI 平台」，是网页对话平台——登录后直接在站内对话，不提供 API 接口。注册需要用户名、邮箱、QQ 号（必填）和密码，邀请码可选（注册链接自带）；也支持 GitHub 注册。注册、登录、兑换、反馈等环节都有 Cloudflare 人机验证，注册提交后需站方审核，不是提交就秒过。可用模型有 Claude Fable 5、GPT-6 Luna（无限额度）、Qwen 3.8 Max、GLM-5.3 Flash（用户提供）。官方 QQ 群 309623044。",
+        "站内名称 Axis AI，站内自述「完全免费的公益 AI 平台」，是网页对话平台——登录后直接在站内对话，不提供 API 接口。注册需要用户名、邮箱、QQ 号（必填）和密码，邀请码可选（注册链接自带）；也支持 GitHub 注册。注册、登录、兑换、反馈等环节都有 Cloudflare 人机验证，注册提交后需站方审核，不是提交就秒过。站内是套餐制，进官方 QQ 群 309623044 可以领取赠送的 go 套餐（用户提供）。可用模型有 Claude Fable 5、GPT-6 Luna（无限额度）、Qwen 3.8 Max、GLM-5.3 Flash（用户提供）。",
       registration: "用户名 + 邮箱 + QQ 号（必填）+ 密码注册，邀请码可选；或 GitHub 注册。提交后需站方审核。",
-      signupBonus: "未提供",
+      signupBonus: "进 QQ 群 309623044 领赠送的 go 套餐",
       dailyCheckin: "未提供",
       models: "Claude Fable 5 / GPT-6 Luna（无限额度）/ Qwen 3.8 Max / GLM-5.3 Flash",
       experience: "网页对话平台，非 API 中转",
@@ -229,6 +229,7 @@ const siteConfig = {
         "GPT-6 Luna（无限额度）",
         "Qwen 3.8 Max",
         "GLM-5.3 Flash",
+        "进群领 go 套餐",
         "GitHub 注册",
         "邀请码可选",
         "QQ 号必填",
@@ -1182,13 +1183,13 @@ const entryTranslations = {
     name: "Axis AI",
     kind: "Public service / chat platform / sign-up requires review",
     updateNote:
-      "New listing: a completely free public-benefit AI chat platform (not an API relay); sign up with username + email + QQ number (required, invite code optional) or GitHub, followed by a manual review; models include Claude Fable 5, GPT-6 Luna (unlimited quota), Qwen 3.8 Max, and GLM-5.3 Flash.",
+      "New listing: a completely free public-benefit AI chat platform (not an API relay); sign up with username + email + QQ number (required, invite code optional) or GitHub, followed by a manual review; joining the official QQ group grants the complimentary go plan; models include Claude Fable 5, GPT-6 Luna (unlimited quota), Qwen 3.8 Max, and GLM-5.3 Flash.",
     summary:
-      "A completely free public-benefit AI chat platform (per the site itself, not an API relay); sign up with a username, email, and QQ number (required, invite code optional) or via GitHub, and submissions go through a manual review. Models include Claude Fable 5, GPT-6 Luna (unlimited quota), Qwen 3.8 Max, and GLM-5.3 Flash. Official QQ group 309623044.",
+      "A completely free public-benefit AI chat platform (per the site itself, not an API relay); sign up with a username, email, and QQ number (required, invite code optional) or via GitHub, and submissions go through a manual review; joining the official QQ group 309623044 grants the complimentary go plan. Models include Claude Fable 5, GPT-6 Luna (unlimited quota), Qwen 3.8 Max, and GLM-5.3 Flash.",
     details:
-      "The service calls itself Axis AI and describes itself as \"a completely free public-benefit AI platform\". It is a web chat platform — you log in and chat in the browser, with no API endpoints offered. Registration needs a username, email, QQ number (required), and password, with an optional invite code (the link carries one); GitHub sign-up is also supported. Cloudflare human verification covers sign-up, login, redemption, and feedback, and submissions go through a manual review rather than instant approval. Models include Claude Fable 5, GPT-6 Luna (unlimited quota), Qwen 3.8 Max, and GLM-5.3 Flash (per user report). The official QQ group is 309623044.",
+      "The service calls itself Axis AI and describes itself as \"a completely free public-benefit AI platform\". It is a web chat platform — you log in and chat in the browser, with no API endpoints offered. Registration needs a username, email, QQ number (required), and password, with an optional invite code (the link carries one); GitHub sign-up is also supported. Cloudflare human verification covers sign-up, login, redemption, and feedback, and submissions go through a manual review rather than instant approval. The service is plan-based, and joining the official QQ group 309623044 grants the complimentary go plan (per user report). Models include Claude Fable 5, GPT-6 Luna (unlimited quota), Qwen 3.8 Max, and GLM-5.3 Flash (per user report).",
     registration: "Sign up with a username, email, QQ number (required), and password, with an optional invite code; or via GitHub. Submissions go through a manual review.",
-    signupBonus: "Not provided",
+    signupBonus: "The complimentary go plan, claimed in QQ group 309623044",
     dailyCheckin: "Not provided",
     models: "Claude Fable 5 / GPT-6 Luna (unlimited quota) / Qwen 3.8 Max / GLM-5.3 Flash",
     experience: "A web chat platform, not an API relay",
@@ -1202,6 +1203,7 @@ const entryTranslations = {
       "GPT-6 Luna (unlimited quota)",
       "Qwen 3.8 Max",
       "GLM-5.3 Flash",
+      "Complimentary go plan via the QQ group",
       "GitHub sign-up",
       "Invite code optional",
       "QQ number required",
