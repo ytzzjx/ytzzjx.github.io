@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "玖时API 半公益站",
     "Camila 公益站",
     "Ovo 半公益站",
     "Axis AI 公益站",
@@ -204,6 +205,40 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-09-26 00:00",
+      addedAt: "2026-09-26",
+      updatedAt: "2026-09-26",
+      updateNote:
+        "新增收录：半公益站，注册送 3 元、有签到；模型极多（164 个）以 Claude 系为主，按次计费，k-特惠 opus 0.1078 元/次、sonnet 0.0539 元/次。",
+      kind: "半公益站 / 注册送 3 / 模型极多按次计费",
+      name: "玖时API 半公益站",
+      summary:
+        "半公益站，注册送 3 元、有签到；模型极多（164 个）以 Claude 系为主，按次计费——k-特惠 opus 0.1078 元/次、sonnet 0.0539 元/次，另有 gemini、GPT、Grok 与网逆系列。",
+      details:
+        "站内名称「玖时API」（api.jiushi.xin），额度按元显示。注册送 3 元，有签到（金额以站内显示为准）；注册仅支持邮箱验证，没有 GitHub / Linux DO 登录，注册环节无人机验证。模型广场公开可查，共 164 个模型，以 Claude 系为主：opus 4.5/4.6/4.7/4.8/5、sonnet、fable 各有多个渠道分组，另有 gemini 系列、GPT 与 Grok。按次计费，价格随渠道分组不同：9 月 26 日公告 k-特惠降价后 opus VIP 0.1078 元/次、sonnet VIP 0.0539 元/次；网页逆向系列 0.085 元/次（站方自述非官方直连、介意逆向请勿使用）；官混系列因封控严重 9 月调价至 0.98 元/次。站内有在线充值系统，QQ 售后群 822106149、通知群 1126699954。",
+      registration: "邮箱验证注册，无人机验证。",
+      signupBonus: "3 元",
+      dailyCheckin: "有签到（金额以站内显示为准）",
+      models:
+        "164 个，Claude 系为主（opus 4.5-5 / sonnet / fable 多渠道分组）；另有 gemini 系列、GPT、Grok；k-特惠 opus 0.1078 元/次、sonnet 0.0539 元/次",
+      experience: "按次计费，价格随渠道分组不同；9 月内多次调价",
+      caveat:
+        "网页逆向系列为站方自述的非官方直连渠道，介意逆向请勿使用；官混系列封控严重曾调价至 0.98 元/次，价格随上游风控波动频繁，以站内实际显示为准；签到金额以站内显示为准。",
+      benefits: [
+        "半公益站",
+        "注册送 3 元",
+        "有签到",
+        "模型极多（164 个）",
+        "Claude 系为主",
+        "按次计费",
+        "k-特惠 opus 0.1078 元/次",
+        "在线充值",
+        "QQ 售后群",
+      ],
+      url: "https://api.jiushi.xin/register?aff=KQiA",
+      tone: "active",
+    },
     {
       publishedAt: "2026-09-25 00:00",
       addedAt: "2026-09-25",
@@ -1247,6 +1282,35 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  "玖时API 半公益站": {
+    name: "Jiushi API Freemium Service",
+    kind: "Freemium / ¥3 on sign-up / very large lineup, per-call billing",
+    updateNote:
+      "New listing: a freemium service granting ¥3 on sign-up with a daily check-in; a very large lineup of 164 models focused on the Claude family, billed per call — k-特惠 opus at ¥0.1078/call and sonnet at ¥0.0539/call.",
+    summary:
+      "A freemium service: ¥3 on sign-up with a daily check-in. A very large lineup of 164 models focused on the Claude family, billed per call — k-特惠 opus at ¥0.1078/call and sonnet at ¥0.0539/call, plus gemini, GPT, Grok, and web-reverse series.",
+    details:
+      "The service calls itself \"玖时API\" (api.jiushi.xin), with credit displayed in yuan. Sign-up grants ¥3 and a daily check-in is available (confirm the amount on the service); registration is by email verification only, with no GitHub or Linux DO sign-in and no captcha. The public model marketplace lists 164 models dominated by the Claude family — opus 4.5/4.6/4.7/4.8/5, sonnet, and fable across multiple channel groups — plus gemini series, GPT, and Grok. Billing is per call and varies by channel group: a September 26 announcement cut k-特惠 prices to opus VIP ¥0.1078/call and sonnet VIP ¥0.0539/call; the web-reverse series runs at ¥0.085/call (described by the operator as not officially connected — avoid it if you mind reverse-engineered channels); the 官混 series was repriced to ¥0.98/call in September amid heavy risk control. An online top-up system is available, with after-sales QQ group 822106149 and a notice-only group 1126699954.",
+    registration: "Register with email verification; no captcha.",
+    signupBonus: "¥3",
+    dailyCheckin: "A daily check-in is available (confirm the amount on the service)",
+    models:
+      "164 models, dominated by the Claude family (opus 4.5-5 / sonnet / fable across channel groups); also gemini series, GPT, and Grok; k-特惠 opus ¥0.1078/call, sonnet ¥0.0539/call",
+    experience: "Per-call billing with prices varying by channel group; several price changes within September",
+    caveat:
+      "The web-reverse series is, per the operator, not officially connected — avoid it if you mind reverse-engineered channels. The 官混 series was repriced to ¥0.98/call amid heavy risk control, and prices fluctuate with upstream risk control, so confirm them on the service. The check-in amount is shown on the service.",
+    benefits: [
+      "Freemium",
+      "¥3 on sign-up",
+      "Daily check-in",
+      "Very large lineup (164 models)",
+      "Claude-focused",
+      "Per-call billing",
+      "k-特惠 opus ¥0.1078/call",
+      "Online top-up",
+      "After-sales QQ group",
+    ],
+  },
   "Camila 公益站": {
     name: "Camila Public Service",
     kind: "Public service / 5000 points on sign-up / about 200 daily check-in",
