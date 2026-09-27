@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Axis AI 公益站",
     "星见雅",
     "墨白公益站",
     "hiyo",
@@ -201,6 +202,38 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-09-25 00:00",
+      addedAt: "2026-09-25",
+      updatedAt: "2026-09-25",
+      updateNote:
+        "新增收录：完全免费的公益 AI 对话平台（非 API 中转）；用户名 + 邮箱 + QQ 号注册（QQ 号必填，邀请码可选）或 GitHub 注册，提交后需站方审核；官方 QQ 群 309623044。",
+      kind: "公益站 / 对话平台 / 注册需审核",
+      name: "Axis AI 公益站",
+      summary:
+        "完全免费的公益 AI 对话平台（站内自述，非 API 中转）；用户名 + 邮箱 + QQ 号注册（QQ 号必填，邀请码可选）或 GitHub 注册，提交后需站方审核。官方 QQ 群 309623044。",
+      details:
+        "站内名称 Axis AI，站内自述「完全免费的公益 AI 平台」，是网页对话平台——登录后直接在站内对话，不提供 API 接口。注册需要用户名、邮箱、QQ 号（必填）和密码，邀请码可选（注册链接自带）；也支持 GitHub 注册。注册、登录、兑换、反馈等环节都有 Cloudflare 人机验证，注册提交后需站方审核，不是提交就秒过。官方 QQ 群 309623044。可用模型清单需要登录后才能看到，站内未公开。",
+      registration: "用户名 + 邮箱 + QQ 号（必填）+ 密码注册，邀请码可选；或 GitHub 注册。提交后需站方审核。",
+      signupBonus: "未提供",
+      dailyCheckin: "未提供",
+      models: "未公开（需登录查看）",
+      experience: "网页对话平台，非 API 中转",
+      caveat:
+        "这是对话平台，没有 API 接口，想接工具或客户端的注意；QQ 号是必填项，介意的话别注册；注册后需站方审核，不保证即时通过；模型清单以站内实际显示为准。",
+      benefits: [
+        "公益站",
+        "完全免费",
+        "对话平台非 API",
+        "GitHub 注册",
+        "邀请码可选",
+        "QQ 号必填",
+        "注册需审核",
+        "QQ 群 309623044",
+      ],
+      url: "https://ai.onyxaxis.org/register?invite=AMMRWZ5P",
+      tone: "active",
+    },
     {
       publishedAt: "2026-09-24 00:00",
       addedAt: "2026-09-24",
@@ -1141,6 +1174,33 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  "Axis AI 公益站": {
+    name: "Axis AI",
+    kind: "Public service / chat platform / sign-up requires review",
+    updateNote:
+      "New listing: a completely free public-benefit AI chat platform (not an API relay); sign up with username + email + QQ number (required, invite code optional) or GitHub, followed by a manual review; official QQ group 309623044.",
+    summary:
+      "A completely free public-benefit AI chat platform (per the site itself, not an API relay); sign up with a username, email, and QQ number (required, invite code optional) or via GitHub, and submissions go through a manual review. Official QQ group 309623044.",
+    details:
+      "The service calls itself Axis AI and describes itself as \"a completely free public-benefit AI platform\". It is a web chat platform — you log in and chat in the browser, with no API endpoints offered. Registration needs a username, email, QQ number (required), and password, with an optional invite code (the link carries one); GitHub sign-up is also supported. Cloudflare human verification covers sign-up, login, redemption, and feedback, and submissions go through a manual review rather than instant approval. The official QQ group is 309623044. The model list is only visible after logging in and is not public.",
+    registration: "Sign up with a username, email, QQ number (required), and password, with an optional invite code; or via GitHub. Submissions go through a manual review.",
+    signupBonus: "Not provided",
+    dailyCheckin: "Not provided",
+    models: "Not public (visible after logging in)",
+    experience: "A web chat platform, not an API relay",
+    caveat:
+      "This is a chat platform with no API endpoints — take note if you want to wire it into tools or clients. The QQ number is required, so skip it if that bothers you. Sign-ups go through a manual review and are not approved instantly. Confirm the model lineup on the service.",
+    benefits: [
+      "Public service",
+      "Completely free",
+      "Chat platform, not an API",
+      "GitHub sign-up",
+      "Invite code optional",
+      "QQ number required",
+      "Sign-up requires review",
+      "QQ group 309623044",
+    ],
+  },
   hiyo: {
     name: "hiyo",
     kind: "Public service / GitHub or Linux DO sign-up / luna only",
