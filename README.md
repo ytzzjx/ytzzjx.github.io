@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| Ovo 半公益站 | 半公益酒馆站，注册送 5 元、每日签到约 2 元；有 Claude 和 Gemini，**gemini 0.04 元一次、claude-opus-4-6 0.3 元一次**，按次计费。 | [注册](https://ovoapi.cn/sign-up?aff=st79) |
 | Axis AI 公益站 | **完全免费的公益 AI 对话平台（站内自述，非 API 中转）**，登录后直接在站内对话。有 Claude Fable 5、**GPT-6 Luna（无限额度）**、Qwen 3.8 Max、GLM-5.3 Flash。用户名 + 邮箱 + QQ 号注册（**QQ 号必填**，邀请码可选）或 GitHub 注册，**提交后需站方审核**；各环节有 CF 人机验证。官方 QQ 群 309623044，**进群可领赠送的 go 套餐**。 | [注册](https://ai.onyxaxis.org/register?invite=AMMRWZ5P) |
 | 星见雅 | 老牌公益站，GitHub 或 Linux DO 注册，**每日签到约 1000**；含 gpt-5.6-sol、gpt-5.6-terra、z-ai/glm-5.3、z-ai/glm-5.3-flash、moonshotai/kimi-k3 与 deepseek-ai/deepseek-v4-flash-0731。**gpt-5.6-sol 用起来怪怪的**，对该模型有依赖的话先小量试用。 | [注册](https://new.xinjianya.top/register?aff=NTKW) |
 | 墨白公益站 | 公益站，限 gmail / 163 / qq / foxmail / icloud 邮箱注册，需邮箱验证和人机验证；**每日签到 1-10，进官方 QQ 群 444158239（进群答案 zakozako）可再签到一次，相当于每天两次**。免费可用 DeepSeek V4.1 Flash（模型广场虽列出 936 个，实际可用不多）。 | [注册](https://new.ai.hinswu.top/sign-up?aff=L6as) |

@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Ovo 半公益站",
     "Axis AI 公益站",
     "星见雅",
     "墨白公益站",
@@ -202,6 +203,37 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-09-25 00:00",
+      addedAt: "2026-09-25",
+      updatedAt: "2026-09-25",
+      updateNote:
+        "新增收录：半公益酒馆站，注册送 5 元、每日签到约 2 元；有 Claude 和 Gemini，gemini 0.04 元一次、claude-opus-4-6 0.3 元一次。",
+      kind: "半公益站 / 酒馆站 / 注册送 5 签到约 2",
+      name: "Ovo 半公益站",
+      summary:
+        "半公益酒馆站，注册送 5 元、每日签到约 2 元；有 Claude 和 Gemini，gemini 0.04 元一次、claude-opus-4-6 0.3 元一次。",
+      details:
+        "站内名称 ovo（ovoapi.cn），面向酒馆（SillyTavern）用户的半公益站，额度按元显示。注册送 5 元，每日签到约 2 元。站内有 Claude 和 Gemini 可用：gemini 0.04 元一次，claude-opus-4-6 0.3 元一次，均按次计费。",
+      registration: "通过邀请链接注册。",
+      signupBonus: "5 元",
+      dailyCheckin: "约 2 元",
+      models: "Claude / Gemini（gemini 0.04 元一次、claude-opus-4-6 0.3 元一次）",
+      experience: "酒馆站，按次计费",
+      caveat: "签到金额与模型价格可能调整，以站内实际显示为准；可用模型清单以站内为准。",
+      benefits: [
+        "半公益站",
+        "酒馆站",
+        "注册送 5 元",
+        "每日签到约 2 元",
+        "Claude",
+        "Gemini",
+        "gemini 0.04 元一次",
+        "claude-opus-4-6 0.3 元一次",
+      ],
+      url: "https://ovoapi.cn/sign-up?aff=st79",
+      tone: "active",
+    },
     {
       publishedAt: "2026-09-25 00:00",
       addedAt: "2026-09-25",
@@ -1179,6 +1211,32 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  "Ovo 半公益站": {
+    name: "Ovo Freemium Service",
+    kind: "Freemium / SillyTavern-oriented / ¥5 on sign-up, about ¥2 daily check-in",
+    updateNote:
+      "New listing: a freemium SillyTavern-oriented service granting ¥5 on sign-up with an about-¥2 daily check-in; Claude and Gemini available, with gemini at ¥0.04 per call and claude-opus-4-6 at ¥0.3 per call.",
+    summary:
+      "A freemium SillyTavern-oriented service: ¥5 on sign-up and an about-¥2 daily check-in. Claude and Gemini are available — gemini at ¥0.04 per call and claude-opus-4-6 at ¥0.3 per call.",
+    details:
+      "The service calls itself ovo (ovoapi.cn) and is oriented toward SillyTavern users, with credit displayed in yuan. Sign-up grants ¥5 and the daily check-in adds about ¥2. Claude and Gemini are available: gemini at ¥0.04 per call and claude-opus-4-6 at ¥0.3 per call, both billed per request.",
+    registration: "Register through the referral link.",
+    signupBonus: "¥5",
+    dailyCheckin: "About ¥2",
+    models: "Claude / Gemini (gemini ¥0.04 per call, claude-opus-4-6 ¥0.3 per call)",
+    experience: "SillyTavern-oriented, billed per request",
+    caveat: "Check-in amounts and model prices may change; confirm them on the service. The available model list is subject to what the site shows.",
+    benefits: [
+      "Freemium",
+      "SillyTavern-oriented",
+      "¥5 on sign-up",
+      "About ¥2 daily check-in",
+      "Claude",
+      "Gemini",
+      "gemini ¥0.04 per call",
+      "claude-opus-4-6 ¥0.3 per call",
+    ],
+  },
   "Axis AI 公益站": {
     name: "Axis AI",
     kind: "Public service / chat platform / sign-up requires review",
