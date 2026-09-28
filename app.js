@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "星桥 公益站",
     "玖时API 半公益站",
     "Camila 公益站",
     "Ovo 半公益站",
@@ -204,6 +205,36 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-09-26 00:00",
+      addedAt: "2026-09-26",
+      updatedAt: "2026-09-26",
+      updateNote:
+        "新增收录：公益站，邀请码注册送 200 次、每拉一人送 100 次、每日签到 20 次；只有 Gemini，全模型 0.02 元/次，不支持充值。",
+      kind: "公益站 / 只有 Gemini / 按次计费",
+      name: "星桥 公益站",
+      summary:
+        "公益站，邀请码注册送 200 次，每拉一人再送 100 次，每日签到 20 次；只有 Gemini 系模型，全模型 0.02 元/次按次计费，不支持充值。",
+      details:
+        "站内名称「星桥」（xingqiao.chat）。额度按次计算：走邀请码注册送 200 次，邀请一人注册再送 100 次，每日签到 20 次。只有 Gemini 系模型，全模型定价 0.02 元/次。不支持充值，额度全靠注册赠送、邀请和签到。注册为邮箱验证，没有 GitHub / Linux DO 登录，注册环节无人机验证；签到已开启（接口确认）。",
+      registration: "邮箱验证注册（走邀请链接），无人机验证。",
+      signupBonus: "200 次（邀请码注册）；每拉一人再送 100 次",
+      dailyCheckin: "20 次",
+      models: "只有 Gemini 系（全模型 0.02 元/次）",
+      experience: "按次计费，额度以次数计",
+      caveat: "只有 Gemini 系模型，想用 Claude / GPT 的别选这个站；次数与价格规则可能调整，以站内实际显示为准。",
+      benefits: [
+        "公益站",
+        "注册送 200 次",
+        "邀请一人送 100 次",
+        "每日签到 20 次",
+        "只有 Gemini",
+        "0.02 元/次",
+        "不支持充值",
+      ],
+      url: "https://xingqiao.chat/sign-up?aff=11NC",
+      tone: "active",
+    },
     {
       publishedAt: "2026-09-26 00:00",
       addedAt: "2026-09-26",
@@ -1262,6 +1293,31 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  "星桥 公益站": {
+    name: "Xingqiao Public Service",
+    kind: "Public service / Gemini only / per-call billing",
+    updateNote:
+      "New listing: a public service granting 200 calls on invite-code sign-up, another 100 per person referred, and 20 per daily check-in; Gemini models only at a flat ¥0.02/call, with no top-ups.",
+    summary:
+      "A public service granting 200 calls on invite-code sign-up, another 100 for each person you refer, and 20 per daily check-in. Gemini models only, all priced at ¥0.02 per call, and no top-ups.",
+    details:
+      "The service calls itself \"星桥\" (Xingqiao, xingqiao.chat). Credit is measured in calls: invite-code sign-up grants 200 calls, each referred registration adds 100, and the daily check-in gives 20. Gemini models only, all priced at ¥0.02 per call. Top-ups are not supported — credit comes entirely from the sign-up grant, referrals, and check-ins. Registration is by email verification, with no GitHub or Linux DO sign-in and no captcha; the check-in is live (confirmed via the status API).",
+    registration: "Register with email verification through the referral link; no captcha.",
+    signupBonus: "200 calls (invite-code sign-up); another 100 per person referred",
+    dailyCheckin: "20 calls",
+    models: "Gemini series only (all models ¥0.02/call)",
+    experience: "Per-call billing, with credit measured in number of calls",
+    caveat: "Gemini models only — look elsewhere if you need Claude or GPT. Call counts and pricing rules may change; confirm them on the service.",
+    benefits: [
+      "Public service",
+      "200 calls on sign-up",
+      "100 per person referred",
+      "20 per daily check-in",
+      "Gemini only",
+      "¥0.02/call",
+      "No top-ups",
+    ],
+  },
   "玖时API 半公益站": {
     name: "Jiushi API Freemium Service",
     kind: "Freemium / ¥3 on sign-up / very large lineup, per-call billing",
