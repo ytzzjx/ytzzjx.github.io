@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| Artbloom 公益站 | 公益站，GitHub 注册（**账号需满一年**）送 **100 刀**，即到账。有 claude-opus-5、**claude-opus-5-5**（均 $2/$10 每百万 token）、DeepSeek-V4-Flash、kimi-k3（均 $1/$3）与生图模型（$0.02-0.5/张），OpenAI 兼容接口，模型页透明计价。 | [注册](https://api.artbloom.tech/signup?ref=564I5GN2SY) |
 | 星桥 公益站 | 公益站，邀请码注册送 200 次、**每拉一人再送 100 次**、每日签到 20 次；只有 Gemini 系模型，全模型 **0.02 元/次** 按次计费，**不支持充值**。邮箱验证注册。 | [注册](https://xingqiao.chat/sign-up?aff=11NC) |
 | 玖时API 半公益站 | 半公益站，注册送 3 元、**签到 1 毛左右**；模型极多（**164 个，Claude 系为主**），按次计费——k-特惠 opus 0.1078 元/次、sonnet 0.0539 元/次，另有 gemini、GPT、Grok 与网逆系列（站方自述非官方直连，介意逆向勿用）。邮箱验证注册。 | [注册](https://api.jiushi.xin/register?aff=KQiA) |
 | Camila 公益站 | 公益站，注册送 5000 积分、每日签到 200 左右；公益组 11 个模型倍率 0 为主，另有按次分组（**gemini 约 0.015/次、grok 与 GPT 0.01/次**），含生图模型。邮箱验证或 GitHub 注册，无人机验证。8 月公告称 gemini 只有一个号、5 小时限额快（称会加号池）。 | [注册](https://free.camila.qzz.io/sign-up?aff=qF18) |
