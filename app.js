@@ -217,7 +217,7 @@ const siteConfig = {
       summary:
         "公益站，通过邀请链接用 GitHub 注册（账号需满一年）送 100 刀，即到账。有 claude-opus-5、claude-opus-5-5、DeepSeek-V4-Flash、kimi-k3 与生图模型，OpenAI 兼容接口，模型页透明计价。",
       details:
-        "站内名称 Artbloom（api.artbloom.tech），自研网关程序（非 New API），页脚自述「OpenAI-compatible · Self-hosted」。通过邀请链接以 GitHub 注册送 100 刀，注册即到账；GitHub 账号需注册满一年。模型与价格在公开模型页透明列出：语言模型按每百万 token 计费——claude-opus-5 与 claude-opus-5-5 均为输入 $2 / 输出 $10，DeepSeek-V4-Flash 与 kimi-k3 均为输入 $1 / 输出 $3；生图 gpt-image-2.5 系列（含 flare、sunburst 变体）按张计费，低/中/高画质分别为 $0.02 / $0.1 / $0.5。接口 OpenAI 兼容：/v1/chat/completions、/v1/images/generations、/v1/images/edits。",
+        "站内名称 Artbloom（api.artbloom.tech），自研网关程序（非 New API），页脚自述「OpenAI-compatible · Self-hosted」。首页明确所有新账号都送 100 刀（无需绑卡），走邀请链接注册会在注册时激活被邀请奖励；除注册赠送与邀请外，公开页面未发现签到、兑换码等其他获取额度的入口。GitHub 账号需注册满一年。模型与价格在公开模型页透明列出：语言模型按每百万 token 计费——claude-opus-5 与 claude-opus-5-5 均为输入 $2 / 输出 $10，DeepSeek-V4-Flash 与 kimi-k3 均为输入 $1 / 输出 $3；生图 gpt-image-2.5 系列（含 flare、sunburst 变体）按张计费，低/中/高画质分别为 $0.02 / $0.1 / $0.5。接口 OpenAI 兼容：/v1/chat/completions、/v1/images/generations、/v1/images/edits。",
       registration: "通过邀请链接以 GitHub 注册（GitHub 账号需注册满一年）。",
       signupBonus: "100 刀（注册即到账）",
       dailyCheckin: "未提供",
@@ -225,7 +225,7 @@ const siteConfig = {
         "claude-opus-5 / claude-opus-5-5（均 $2 输入、$10 输出每百万 token）/ DeepSeek-V4-Flash / kimi-k3（均 $1 输入、$3 输出）；生图 gpt-image-2.5 系列 $0.02-0.5/张",
       experience: "自研网关，OpenAI 兼容接口，模型页公开透明计价",
       caveat:
-        "语言模型按官方价每百万 token 计费，100 刀的 token 量要按这个价折算，不是折扣倍率；GitHub 账号需注册满一年；模型与价格以站内模型页为准。",
+        "语言模型按官方价每百万 token 计费，100 刀的 token 量要按这个价折算，不是折扣倍率；GitHub 账号需注册满一年；公开范围内额度来源只有注册赠送和邀请，登录区内是否有其他活动需注册后确认；模型与价格以站内模型页为准。",
       benefits: [
         "公益站",
         "注册送 100 刀",
@@ -1336,7 +1336,7 @@ const entryTranslations = {
     summary:
       "A public service granting $100 instantly on sign-up through the referral link with GitHub (accounts must be at least one year old). Offers claude-opus-5, claude-opus-5-5, DeepSeek-V4-Flash, kimi-k3, and image models over an OpenAI-compatible API with transparent pricing.",
     details:
-      "The service calls itself Artbloom (api.artbloom.tech), a custom-built gateway (not New API) whose footer reads \"OpenAI-compatible · Self-hosted\". Signing up through the referral link with GitHub grants $100 in credit, added instantly; GitHub accounts must be at least one year old. Models and prices are listed transparently on the public models page: language models are billed per million tokens — claude-opus-5 and claude-opus-5-5 at $2 input / $10 output, DeepSeek-V4-Flash and kimi-k3 at $1 input / $3 output; the gpt-image-2.5 image series (including flare and sunburst variants) is billed per image at $0.02 / $0.1 / $0.5 for low/medium/high quality. The API is OpenAI-compatible: /v1/chat/completions, /v1/images/generations, and /v1/images/edits.",
+      "The service calls itself Artbloom (api.artbloom.tech), a custom-built gateway (not New API) whose footer reads \"OpenAI-compatible · Self-hosted\". The homepage states that all new accounts start with $100 in free credit (no card required), and signing up through a referral link activates an invited-user bonus at registration; besides the sign-up grant and referrals, no check-in, redemption-code, or other credit-earning entry points appear on the public pages. GitHub accounts must be at least one year old. Models and prices are listed transparently on the public models page: language models are billed per million tokens — claude-opus-5 and claude-opus-5-5 at $2 input / $10 output, DeepSeek-V4-Flash and kimi-k3 at $1 input / $3 output; the gpt-image-2.5 image series (including flare and sunburst variants) is billed per image at $0.02 / $0.1 / $0.5 for low/medium/high quality. The API is OpenAI-compatible: /v1/chat/completions, /v1/images/generations, and /v1/images/edits.",
     registration: "Sign up with GitHub through the referral link (the GitHub account must be at least one year old).",
     signupBonus: "$100 (added instantly on sign-up)",
     dailyCheckin: "Not provided",
@@ -1344,7 +1344,7 @@ const entryTranslations = {
       "claude-opus-5 / claude-opus-5-5 (both $2 input, $10 output per 1M tokens) / DeepSeek-V4-Flash / kimi-k3 (both $1 input, $3 output); gpt-image-2.5 image series $0.02-0.5 per image",
     experience: "Custom-built gateway with an OpenAI-compatible API and transparent public pricing",
     caveat:
-      "Language models are billed at official rates per million tokens, so work out the $100 in token volume at those prices rather than expecting a discount multiplier. The GitHub account must be at least one year old. Models and prices are subject to the public models page.",
+      "Language models are billed at official rates per million tokens, so work out the $100 in token volume at those prices rather than expecting a discount multiplier. The GitHub account must be at least one year old. Within the public pages, credit comes only from the sign-up grant and referrals — confirm any in-dashboard extras after registering. Models and prices are subject to the public models page.",
     benefits: [
       "Public service",
       "$100 on sign-up",
