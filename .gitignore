@@ -9,3 +9,8 @@ assets/
 # 想启用时把两个目录去掉忽略、并在 index.html 里加回导航入口即可。
 guide/
 faq/
+
+# 本地测试与辅助工具
+.zcode/
+.zcodeignore
+server.js

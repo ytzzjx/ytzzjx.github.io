@@ -51,6 +51,14 @@
       data-domains="ytzzjx.github.io"
     ></script>
     <script src="app.js?v=f807fae3" defer></script>
+    <script>
+      (function() {
+        try {
+          var t = localStorage.getItem("directory-theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+          if (t === "dark") document.documentElement.setAttribute("data-theme", "dark");
+        } catch(e) {}
+      })();
+    </script>
   </head>
   <body>
     <header class="site-header" id="top">
@@ -64,6 +72,29 @@
       </nav>
 
       <div class="header-actions">
+        <button
+          type="button"
+          class="theme-toggle-btn"
+          id="theme-toggle"
+          aria-label="切换夜间/日间模式"
+          title="切换夜间/日间模式"
+          data-theme-toggle
+        >
+          <svg class="theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+          <svg class="theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display: none;">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+        </button>
         <div class="language-switcher" role="group" aria-label="语言选择" data-language-switcher>
           <button type="button" class="language-option" data-lang-option="zh-CN" aria-pressed="true">中文</button>
           <button type="button" class="language-option" data-lang-option="en" aria-pressed="false">EN</button>
@@ -136,6 +167,43 @@
           </div>
           <p class="section-note" data-section-note>整张卡片均可点击</p>
         </div>
+
+        <div class="feed-toolbar" role="search" aria-label="站点过滤与检索">
+          <div class="search-box">
+            <span class="search-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.3-4.3"></path>
+              </svg>
+            </span>
+            <input
+              type="search"
+              class="search-input"
+              id="feed-search"
+              placeholder="搜索站名、模型（如 Claude、GPT）、规则或福利..."
+              aria-label="搜索站点"
+              autocomplete="off"
+              data-feed-search
+            />
+            <span class="search-kbd" aria-hidden="true">Ctrl K</span>
+            <button type="button" class="search-clear-btn" id="search-clear" aria-label="清空搜索" title="清空搜索" hidden data-search-clear>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 6 6 18"></path>
+                <path d="m6 6 12 12"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="filter-chips" role="group" aria-label="场景快捷筛选" data-filter-chips>
+            <span class="filter-chip-label" data-filter-label>快捷筛选:</span>
+            <button type="button" class="filter-chip" data-filter-tag="all" aria-pressed="true">全部</button>
+            <button type="button" class="filter-chip" data-filter-tag="claude" aria-pressed="false">Claude 线路</button>
+            <button type="button" class="filter-chip" data-filter-tag="openai" aria-pressed="false">OpenAI/Codex</button>
+            <button type="button" class="filter-chip" data-filter-tag="checkin" aria-pressed="false">每日签到</button>
+            <button type="button" class="filter-chip" data-filter-tag="draw" aria-pressed="false">生图/画画</button>
+            <button type="button" class="filter-chip" data-filter-tag="easyreg" aria-pressed="false">免绑易注</button>
+          </div>
+        </div>
+
         <div class="feed-list" id="feed-items"></div>
       </section>
 
