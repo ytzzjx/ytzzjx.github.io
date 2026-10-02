@@ -1258,6 +1258,23 @@ const pageCopy = {
     archivedYesterday: "昨天下架",
     archivedDaysAgo: "{days} 天前下架",
     updateNoteLabel: "本次更新",
+    searchPlaceholder: "搜索站名、模型（如 Claude、GPT）、规则或福利...",
+    filterLabel: "快捷筛选:",
+    filterAll: "全部",
+    filterClaude: "Claude 线路",
+    filterOpenAI: "OpenAI/Codex",
+    filterCheckin: "每日签到",
+    filterDraw: "生图/画画",
+    filterEasyReg: "免绑易注",
+    expandDetails: "展开详情与避坑",
+    collapseDetails: "收起详情",
+    emptyTitle: "未检索到匹配站点",
+    emptyDesc: "没有找到符合条件的站点，请尝试更换关键词或清除筛选标签。",
+    emptyReset: "清空筛选条件",
+    themeToggleLabel: "切换夜间/日间模式",
+    themeDark: "夜间炭墨",
+    themeLight: "日间暖纸",
+    copied: "已复制",
   },
   en: {
     brand: "Public AI API Directory",
@@ -1324,6 +1341,23 @@ const pageCopy = {
     archivedYesterday: "Delisted yesterday",
     archivedDaysAgo: "Delisted {days} days ago",
     updateNoteLabel: "This update",
+    searchPlaceholder: "Search services, models (Claude, GPT), terms, or benefits...",
+    filterLabel: "Quick filters:",
+    filterAll: "All",
+    filterClaude: "Claude Lines",
+    filterOpenAI: "OpenAI/Codex",
+    filterCheckin: "Daily Check-in",
+    filterDraw: "Image Generation",
+    filterEasyReg: "Easy Sign-up",
+    expandDetails: "Show details & caveats",
+    collapseDetails: "Hide details",
+    emptyTitle: "No matching services found",
+    emptyDesc: "No services matched your current query or filter tags. Try different keywords or reset filters.",
+    emptyReset: "Reset filters",
+    themeToggleLabel: "Toggle Night/Day theme",
+    themeDark: "Night Ink",
+    themeLight: "Day Paper",
+    copied: "Copied!",
   },
 };
 
@@ -2261,6 +2295,195 @@ const defaultPricing = "public";
 const supportedPricing = new Set([defaultPricing, "paid"]);
 let currentPricing = defaultPricing;
 
+// 搜索与快捷标签过滤状态
+let currentSearchQuery = "";
+let currentFilterTag = "all";
+
+// 主题状态：light（日间暖纸） / dark（夜间炭墨）
+let currentTheme = "light";
+
+const initTheme = () => {
+  try {
+    const stored = window.localStorage.getItem("directory-theme");
+    if (stored === "dark" || stored === "light") {
+      currentTheme = stored;
+    } else if (window.matchMedia?.("(prefers-color-scheme: dark)").matches) {
+      currentTheme = "dark";
+    }
+  } catch {
+    currentTheme = "light";
+  }
+  applyTheme(currentTheme);
+};
+
+const applyTheme = (theme) => {
+  currentTheme = theme;
+  document.documentElement.setAttribute("data-theme", theme);
+  try {
+    window.localStorage.setItem("directory-theme", theme);
+  } catch {}
+  const darkIcon = document.querySelector(".theme-icon-dark");
+  const lightIcon = document.querySelector(".theme-icon-light");
+  const toggleBtn = document.querySelector("[data-theme-toggle]");
+  if (darkIcon && lightIcon) {
+    if (theme === "dark") {
+      darkIcon.style.display = "none";
+      lightIcon.style.display = "block";
+    } else {
+      darkIcon.style.display = "block";
+      lightIcon.style.display = "none";
+    }
+  }
+  if (toggleBtn) {
+    const copy = pageCopy[currentLocale];
+    const tip = theme === "dark" ? copy.themeLight : copy.themeDark;
+    toggleBtn.setAttribute("title", tip);
+    toggleBtn.setAttribute("aria-label", tip);
+  }
+};
+
+const toggleTheme = () => {
+  const nextTheme = currentTheme === "dark" ? "light" : "dark";
+  applyTheme(nextTheme);
+};
+
+// 卡片渐进式折叠状态追踪（集合内为已展开的站点名）
+const expandedEntries = new Set();
+
+const toggleEntryExpanded = (name) => {
+  const isNowExpanded = !expandedEntries.has(name);
+  if (isNowExpanded) {
+    expandedEntries.add(name);
+  } else {
+    expandedEntries.delete(name);
+  }
+
+  const article = document.querySelector(`[data-entry-name="${CSS.escape(name)}"]`);
+  if (!article) {
+    renderPage();
+    return;
+  }
+
+  article.classList.toggle("is-expanded", isNowExpanded);
+  const btn = article.querySelector("[data-expand-btn]");
+  const expandable = article.querySelector(".entry-expandable");
+  const copy = pageCopy[currentLocale];
+  if (btn) {
+    btn.setAttribute("aria-expanded", String(isNowExpanded));
+    const span = btn.querySelector("span");
+    if (span) span.textContent = isNowExpanded ? copy.collapseDetails : copy.expandDetails;
+  }
+  if (expandable) {
+    expandable.setAttribute("data-expanded", String(isNowExpanded));
+  }
+};
+
+// 场景快捷筛选匹配规则
+const matchesFilterTag = (entry, tag) => {
+  if (!tag || tag === "all") return true;
+
+  const translation = entryTranslations[entry.name] || {};
+  const textPool = [
+    entry.name,
+    translation.name,
+    entry.models,
+    translation.models,
+    entry.summary,
+    translation.summary,
+    entry.details,
+    translation.details,
+    entry.caveat,
+    translation.caveat,
+    entry.registration,
+    translation.registration,
+    ...(Array.isArray(entry.benefits) ? entry.benefits : []),
+    ...(Array.isArray(translation.benefits) ? translation.benefits : []),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+
+  switch (tag) {
+    case "claude":
+      return /claude|opus/i.test(textPool);
+
+    case "openai":
+      return /gpt|openai|codex/i.test(textPool);
+
+    case "checkin": {
+      const checkinZh = String(entry.dailyCheckin || "").trim();
+      const checkinEn = String(translation.dailyCheckin || "").trim();
+      if (!checkinZh && !checkinEn) return false;
+      const combined = `${checkinZh} ${checkinEn}`.toLowerCase();
+      if (combined === "0" || combined === "无" || combined === "none" || combined === "-") return false;
+      return true;
+    }
+
+    case "draw":
+      return /生图|画画|nai|pai|draw|midjourney|flux|image|dall-e|sd/i.test(textPool);
+
+    case "easyreg":
+      return /免绑|邮箱|无需.*github|免github|无需绑|账号密码|即开即用|免验证|自由注册|简单/i.test(
+        `${entry.registration || ""} ${translation.registration || ""} ${textPool}`
+      );
+
+    default:
+      return true;
+  }
+};
+
+// 实时搜索关键词匹配规则（支持空格分词多关键词匹配）
+const matchesSearchQuery = (entry, query) => {
+  if (!query || !query.trim()) return true;
+  const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  if (!terms.length) return true;
+
+  const translation = entryTranslations[entry.name] || {};
+  const searchPool = [
+    entry.name,
+    translation.name,
+    entry.kind,
+    translation.kind,
+    entry.summary,
+    translation.summary,
+    entry.details,
+    translation.details,
+    entry.models,
+    translation.models,
+    entry.registration,
+    translation.registration,
+    entry.signupBonus,
+    translation.signupBonus,
+    entry.dailyCheckin,
+    translation.dailyCheckin,
+    entry.experience,
+    translation.experience,
+    entry.caveat,
+    translation.caveat,
+    ...(Array.isArray(entry.benefits) ? entry.benefits : []),
+    ...(Array.isArray(translation.benefits) ? translation.benefits : []),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+
+  return terms.every((term) => searchPool.includes(term));
+};
+
+// 点击复制轻量反馈
+const showCopyFeedback = (element, text) => {
+  if (element.querySelector(".copy-feedback-tip")) return;
+  element.classList.add("is-copied");
+  const tip = document.createElement("span");
+  tip.className = "copy-feedback-tip";
+  tip.textContent = text;
+  element.append(tip);
+  setTimeout(() => {
+    tip.remove();
+    element.classList.remove("is-copied");
+  }, 1200);
+};
+
 // 不写 pricing 就算公益，这样只有纯付费站需要标注。
 const entryPricing = (entry) => (entry.pricing === "paid" ? "paid" : "public");
 
@@ -2463,8 +2686,11 @@ const renderEntry = (sourceEntry) => {
     ? `<span class="entry-arrow" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span>`
     : "";
 
+  const isExpanded = expandedEntries.has(sourceEntry.name);
+  const expandBtnText = isExpanded ? copy.collapseDetails : copy.expandDetails;
+
   return `
-    <article class="feed-item" data-tone="${tone}"${showUpdate ? ' data-updated="true"' : ""}>
+    <article class="feed-item${isExpanded ? " is-expanded" : ""}" data-tone="${tone}"${showUpdate ? ' data-updated="true"' : ""} data-entry-name="${safeAnalyticsName}">
       <div class="feed-meta">
         <time datetime="${datetime}" aria-label="${escapeHtml(copy.publishedAt)} ${escapeHtml(entry.publishedAt)}">
           <span>${escapeHtml(publishedAt.date)}</span>
@@ -2477,19 +2703,34 @@ const renderEntry = (sourceEntry) => {
           <h3>${safeName}</h3>
           ${updateNote}
           <p class="entry-description">${escapeHtml(entry.summary)}</p>
-          <p class="entry-details">${escapeHtml(entry.details)}</p>
           <div class="entry-quota">
             ${quotaCell(copy.signupBonus, entry.signupBonus)}
             ${quotaCell(copy.dailyCheckin, entry.dailyCheckin)}
           </div>
-          <div class="entry-info">
-            ${infoRow("user-round-plus", copy.registration, entry.registration)}
-            ${infoRow("sparkles", copy.models, entry.models)}
-            ${infoRow("gauge", copy.experience, entry.experience)}
-            ${infoRow("triangle-alert", copy.caution, entry.caveat)}
-            <div class="entry-info-row">
-              <span class="entry-info-label"><i data-lucide="gift" aria-hidden="true"></i>${escapeHtml(copy.benefits)}</span>
-              <ul class="benefit-tags">${benefitTags}</ul>
+          <div class="entry-info-row">
+            <span class="entry-info-label"><i data-lucide="sparkles" aria-hidden="true"></i>${escapeHtml(copy.models)}</span>
+            <p class="registration-text">${escapeHtml(entry.models)}</p>
+          </div>
+          <div class="entry-info-row">
+            <span class="entry-info-label"><i data-lucide="gift" aria-hidden="true"></i>${escapeHtml(copy.benefits)}</span>
+            <ul class="benefit-tags">${benefitTags}</ul>
+          </div>
+          <button type="button" class="entry-toggle-btn" data-expand-btn="${safeAnalyticsName}" aria-expanded="${isExpanded}">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m6 9 6 6 6-6"></path>
+            </svg>
+            <span>${escapeHtml(expandBtnText)}</span>
+          </button>
+          <div class="entry-expandable" data-expanded="${isExpanded}">
+            <div class="entry-expandable-content">
+              <div class="entry-expandable-inner">
+                <p class="entry-details">${escapeHtml(entry.details)}</p>
+                <div class="entry-info">
+                  ${infoRow("user-round-plus", copy.registration, entry.registration)}
+                  ${infoRow("gauge", copy.experience, entry.experience)}
+                  ${infoRow("triangle-alert", copy.caution, entry.caveat)}
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -2739,10 +2980,49 @@ const renderPage = () => {
     })
     .map(({ entry }) => entry);
 
-  // 分区切换只过滤当前显示的列表；结构化数据仍然输出全部站点，
-  // 否则搜索引擎只能看到公益区那一半。
-  const visibleEntries = orderedEntries.filter((entry) => entryPricing(entry) === currentPricing);
-  document.querySelector("#feed-items").innerHTML = visibleEntries.map(renderEntry).join("");
+  // 过滤当前显示的列表：分区 + 搜索词 + 快捷场景标签
+  const visibleEntries = orderedEntries.filter((entry) => {
+    if (entryPricing(entry) !== currentPricing) return false;
+    if (!matchesFilterTag(entry, currentFilterTag)) return false;
+    if (!matchesSearchQuery(entry, currentSearchQuery)) return false;
+    return true;
+  });
+
+  const feedItemsEl = document.querySelector("#feed-items");
+
+  if (visibleEntries.length === 0) {
+    if (feedItemsEl) {
+      feedItemsEl.innerHTML = `
+        <div class="feed-empty" role="status">
+          <h3 data-empty-title>${escapeHtml(copy.emptyTitle)}</h3>
+          <p data-empty-desc>${escapeHtml(copy.emptyDesc)}</p>
+          <button type="button" class="feed-empty-reset" data-empty-reset>${escapeHtml(copy.emptyReset)}</button>
+        </div>
+      `;
+    }
+  } else {
+    if (feedItemsEl) feedItemsEl.innerHTML = visibleEntries.map(renderEntry).join("");
+  }
+
+  // 国际化与文案更新
+  applyText("[data-filter-label]", copy.filterLabel);
+  applyText("[data-filter-tag='all']", copy.filterAll);
+  applyText("[data-filter-tag='claude']", copy.filterClaude);
+  applyText("[data-filter-tag='openai']", copy.filterOpenAI);
+  applyText("[data-filter-tag='checkin']", copy.filterCheckin);
+  applyText("[data-filter-tag='draw']", copy.filterDraw);
+  applyText("[data-filter-tag='easyreg']", copy.filterEasyReg);
+
+  const searchInputEl = document.querySelector("[data-feed-search]");
+  if (searchInputEl) {
+    searchInputEl.setAttribute("placeholder", copy.searchPlaceholder);
+    searchInputEl.setAttribute("aria-label", copy.searchPlaceholder);
+  }
+
+  // 快捷标签选中状态
+  document.querySelectorAll("[data-filter-tag]").forEach((btn) => {
+    btn.setAttribute("aria-pressed", String(btn.dataset.filterTag === currentFilterTag));
+  });
 
   applyText("[data-section-note]", currentPricing === "paid" ? copy.pricingPaidNote : copy.pricingPublicNote);
   applyText("[data-site-count]", String(visibleEntries.length).padStart(2, "0"));
@@ -2802,6 +3082,7 @@ const setPricing = (pricing, { announce = true } = {}) => {
 
 document.addEventListener("DOMContentLoaded", () => {
   currentLocale = resolveLocale();
+  initTheme();
 
   document.querySelectorAll("[data-lang-option]").forEach((button) => {
     button.addEventListener("click", () => setLocale(button.dataset.langOption));
@@ -2815,6 +3096,131 @@ document.addEventListener("DOMContentLoaded", () => {
     changesExpanded = !changesExpanded;
     renderRecentChanges(pageCopy[currentLocale]);
   });
+
+  // 主题切换按钮
+  document.querySelector("[data-theme-toggle]")?.addEventListener("click", toggleTheme);
+
+  // 搜索输入框交互（防抖处理提升手感）
+  const searchInput = document.querySelector("[data-feed-search]");
+  const searchClear = document.querySelector("[data-search-clear]");
+
+  let searchDebounceTimer = null;
+  searchInput?.addEventListener("input", (e) => {
+    const val = e.target.value;
+    if (searchClear) searchClear.hidden = !val;
+    clearTimeout(searchDebounceTimer);
+    searchDebounceTimer = setTimeout(() => {
+      currentSearchQuery = val;
+      renderPage();
+    }, 120);
+  });
+
+  searchClear?.addEventListener("click", () => {
+    if (searchInput) {
+      searchInput.value = "";
+      searchInput.focus();
+    }
+    searchClear.hidden = true;
+    currentSearchQuery = "";
+    renderPage();
+  });
+
+  // 全局快捷键：Ctrl/Cmd + K 快速聚焦搜索框，Esc 清空/退出
+  window.addEventListener("keydown", (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+      e.preventDefault();
+      searchInput?.focus();
+      searchInput?.select();
+    } else if (e.key === "Escape" && document.activeElement === searchInput) {
+      if (searchInput.value) {
+        searchInput.value = "";
+        if (searchClear) searchClear.hidden = true;
+        currentSearchQuery = "";
+        renderPage();
+      } else {
+        searchInput.blur();
+      }
+    }
+  });
+
+  // 快捷场景标签切换
+  document.querySelectorAll("[data-filter-tag]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const tag = button.dataset.filterTag;
+      if (currentFilterTag === tag) return;
+      currentFilterTag = tag;
+      renderPage();
+    });
+  });
+
+  // 卡片容器事件代理：展开折叠、重置空状态、防误触与轻量文本复制
+  const feedItemsContainer = document.querySelector("#feed-items");
+  feedItemsContainer?.addEventListener(
+    "click",
+    (e) => {
+      // 1. 空状态一键重置
+      const resetBtn = e.target.closest("[data-empty-reset]");
+      if (resetBtn) {
+        e.preventDefault();
+        currentSearchQuery = "";
+        currentFilterTag = "all";
+        if (searchInput) searchInput.value = "";
+        if (searchClear) searchClear.hidden = true;
+        renderPage();
+        return;
+      }
+
+      // 2. 卡片展开/收起详情
+      const expandBtn = e.target.closest("[data-expand-btn]");
+      if (expandBtn) {
+        e.preventDefault();
+        e.stopPropagation();
+        const entryName = expandBtn.dataset.expandBtn;
+        if (entryName) toggleEntryExpanded(entryName);
+        return;
+      }
+
+      // 3. 点击福利标签一键复制内容
+      const tagItem = e.target.closest(".benefit-tags li");
+      if (tagItem) {
+        e.preventDefault();
+        e.stopPropagation();
+        const text = tagItem.textContent.trim();
+        if (text) {
+          const copy = pageCopy[currentLocale];
+          const doFeedback = () => showCopyFeedback(tagItem, copy.copied);
+          if (navigator.clipboard?.writeText) {
+            navigator.clipboard.writeText(text).then(doFeedback).catch(() => {
+              try {
+                const ta = document.createElement("textarea");
+                ta.value = text;
+                ta.style.position = "fixed";
+                ta.style.opacity = "0";
+                document.body.append(ta);
+                ta.select();
+                document.execCommand("copy");
+                ta.remove();
+              } catch {}
+              doFeedback();
+            });
+          } else {
+            doFeedback();
+          }
+        }
+        return;
+      }
+
+      // 4. 折叠面板内的文本划选与点击交互，阻止触发整卡跳转
+      const expandable = e.target.closest(".entry-expandable");
+      if (expandable && !e.target.closest("a")) {
+        e.stopPropagation();
+        if (window.getSelection()?.toString().length > 0) {
+          e.preventDefault();
+        }
+      }
+    },
+    { capture: true },
+  );
 
   renderPage();
 });
