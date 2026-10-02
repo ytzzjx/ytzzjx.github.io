@@ -2414,9 +2414,9 @@ const matchesFilterTag = (entry, tag) => {
       const checkinZh = String(entry.dailyCheckin || "").trim();
       const checkinEn = String(translation.dailyCheckin || "").trim();
       if (!checkinZh && !checkinEn) return false;
-      const combined = `${checkinZh} ${checkinEn}`.toLowerCase();
-      if (combined === "0" || combined === "无" || combined === "none" || combined === "-") return false;
-      return true;
+      // 「未提供」「未核实」这类没给出签到额度的，按没有签到处理。
+      const noCheckin = /未提供|未核实|无需签到|不支持|没有|无签到|not (provided|offered|required|available)|unavailable|unverified|no check-?in|none/i;
+      return !noCheckin.test(checkinZh) && !noCheckin.test(checkinEn);
     }
 
     case "draw":
