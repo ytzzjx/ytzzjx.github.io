@@ -987,21 +987,21 @@ const siteConfig = {
     },
     {
       publishedAt: "2026-08-20 00:00",
-      updatedAt: "2026-10-03",
-      updateNote: "现在不用进 QQ 群；Grok Heavy 0.08，其他模型也有，但这个倍率更低且好用。",
+      updatedAt: "2026-10-04",
+      updateNote: "签到 0.1-0.5 元。",
       kind: "付费站 / Grok Heavy 0.08",
       pricing: "paid",
       name: "AbinAPI",
-      summary: "现在不用进 QQ 群。Grok Heavy 倍率 0.08，其他模型也有，但这个倍率更低且好用。",
+      summary: "现在不用进 QQ 群。Grok Heavy 倍率 0.08，其他模型也有，但这个倍率更低且好用；签到 0.1-0.5 元。",
       details:
-        "现在不用进 QQ 群。Grok Heavy 的倍率是 0.08，站里其他模型也有，但这个倍率更低，而且好用。站点程序是 sub2api，域名一直是 www.abinapi.com。",
+        "现在不用进 QQ 群。Grok Heavy 的倍率是 0.08，站里其他模型也有，但这个倍率更低，而且好用。签到 0.1-0.5 元。站点程序是 sub2api，域名一直是 www.abinapi.com。",
       registration: "通过邀请链接注册，不用进 QQ 群。",
       signupBonus: "未提供",
-      dailyCheckin: "未提供",
+      dailyCheckin: "0.1-0.5 元",
       models: "Grok Heavy（0.08）/ 其他模型",
       experience: "Grok Heavy 0.08，倍率低且好用",
       caveat: "付费站。Grok Heavy 目前是 0.08，其他模型也有，但这个更低且好用；实际倍率和可用模型以站内显示为准。",
-      benefits: ["付费站", "不用进 QQ 群", "Grok Heavy 0.08", "其他模型也有", "倍率低且好用"],
+      benefits: ["付费站", "不用进 QQ 群", "Grok Heavy 0.08", "其他模型也有", "倍率低且好用", "签到 0.1-0.5 元"],
       url: "https://www.abinapi.com/sign-up?aff=9yXf",
       tone: "active",
     },
@@ -1874,20 +1874,19 @@ const entryTranslations = {
   },
   AbinAPI: {
     kind: "Paid service / Grok Heavy 0.08",
-    updateNote:
-      "Joining the QQ group is no longer required. Grok Heavy is 0.08; other models are available, but this one is cheaper and works well.",
+    updateNote: "Check-in is 0.1-0.5 yuan.",
     summary:
-      "Joining the QQ group is no longer required. Grok Heavy runs at 0.08; other models are available, but this one is cheaper and works well.",
+      "Joining the QQ group is no longer required. Grok Heavy runs at 0.08; other models are available, but this one is cheaper and works well. Check-in is 0.1-0.5 yuan.",
     details:
-      "Joining the QQ group is no longer required. Grok Heavy runs at a 0.08 rate. Other models are available, but this one is cheaper and works well. The service runs on sub2api, and the domain remains www.abinapi.com.",
+      "Joining the QQ group is no longer required. Grok Heavy runs at a 0.08 rate. Other models are available, but this one is cheaper and works well. Check-in is 0.1-0.5 yuan. The service runs on sub2api, and the domain remains www.abinapi.com.",
     registration: "Register through the referral link; joining the QQ group is not required.",
     signupBonus: "Not provided",
-    dailyCheckin: "Not provided",
+    dailyCheckin: "0.1-0.5 yuan",
     models: "Grok Heavy (0.08) / other models",
     experience: "Grok Heavy at 0.08 is inexpensive and works well",
     caveat:
       "Paid service. Grok Heavy is currently 0.08. Other models are available, but this one is cheaper and works well; confirm the current rates and model list in the service.",
-    benefits: ["Paid service", "No QQ group required", "Grok Heavy 0.08", "Other models available", "Inexpensive and works well"],
+    benefits: ["Paid service", "No QQ group required", "Grok Heavy 0.08", "Other models available", "Inexpensive and works well", "Check-in 0.1-0.5 yuan"],
   },
   Denxio: {
     kind: "Free service stopped / upstream pool banned",
