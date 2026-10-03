@@ -727,15 +727,17 @@ h2 {
 }
 
 .feed-list {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
+  /* 按列排布：展开一张卡片只拉高它所在的那一列，后面的卡片上移补位，不会整行留空。 */
+  columns: 3;
+  column-gap: 12px;
 }
 
 .feed-item {
   min-width: 0;
   display: flex;
   flex-direction: column;
+  break-inside: avoid;
+  margin-bottom: 12px;
 }
 
 .feed-item + .feed-item {
@@ -1330,7 +1332,7 @@ h3 {
 
 @media (max-width: 980px) {
   .feed-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    columns: 2;
   }
 }
 
@@ -1418,8 +1420,7 @@ h3 {
   }
 
   .feed-list {
-    grid-template-columns: 1fr;
-    gap: 10px;
+    columns: 1;
   }
 
   .feed-item {
