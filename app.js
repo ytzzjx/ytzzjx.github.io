@@ -212,7 +212,7 @@ const siteConfig = {
       addedAt: "2026-10-04",
       updatedAt: "2026-10-04",
       updateNote:
-        "换域名为 ai.1tim.com（原 ai.wv4.cn 已停止解析）；现在仅支持 GitHub 账号注册且不限注册时间；模型增至 23 个、8 个分组，新增群友贡献高可用分组与 Kimi 渠道；astra 满血可过糖果题。",
+        "换域名为 ai.1tim.com（原 ai.wv4.cn 已停止解析）；现在仅支持 GitHub 账号注册且不限注册时间；模型增至 23 个、8 个分组，新增群友贡献高可用分组与 Kimi 渠道；astra 满血可过糖果题。补充：该站站长以前开过叫「新云」的付费站，风评不好、闹得不愉快，最后没了。",
       kind: "公益站 / 仅 GitHub 注册 / 23 个模型 8 分组",
       name: "xxzl 公益站",
       summary:
@@ -227,7 +227,7 @@ const siteConfig = {
       experience:
         "仅 GitHub 注册且不限注册时间；23 个模型 8 分组，Claude / GPT / DeepSeek 各有群友贡献高可用版本；用户反馈 astra 满血可过糖果题",
       caveat:
-        "公益站。额度按美元显示，注册赠送与签到金额由用户提供，具体以站内实际显示为准。注册方式用户反馈仅 GitHub，但接口显示邮箱注册开关也开着，以注册页实际为准。各分组限制是站方自己写的：普通 Claude / GPT 组可用性不高、模型随机空降，GLM 组随时拉闸，DeepSeek 组与 Kimi 组都是每天 1000 刀的共享池、用完即没；群友贡献高可用分组要在群里发「真寻酱捏」领取，GPT 版无账号需等 5 小时、Claude 版限并发。模型清单与分组以站内模型广场为准。",
+        "公益站。额度按美元显示，注册赠送与签到金额由用户提供，具体以站内实际显示为准。注册方式用户反馈仅 GitHub，但接口显示邮箱注册开关也开着，以注册页实际为准。各分组限制是站方自己写的：普通 Claude / GPT 组可用性不高、模型随机空降，GLM 组随时拉闸，DeepSeek 组与 Kimi 组都是每天 1000 刀的共享池、用完即没；群友贡献高可用分组要在群里发「真寻酱捏」领取，GPT 版无账号需等 5 小时、Claude 版限并发。站长历史：该站站长以前开过一个叫「新云」的付费站，风评不好、闹得不愉快，最后没了（用户提供）。模型清单与分组以站内模型广场为准。",
       benefits: [
         "公益站",
         "邀请注册送 200",
@@ -1406,7 +1406,7 @@ const entryTranslations = {
     name: "xxzl",
     kind: "Public service / GitHub sign-up only / 23 models in 8 groups",
     updateNote:
-      "Moved to ai.1tim.com (the old ai.wv4.cn stopped resolving); registration is now GitHub-only with no account-age limit; models grew to 23 across 8 groups, adding contributor-backed high-availability groups and a Kimi channel; astra is full-powered and passes candy-level questions.",
+      "Moved to ai.1tim.com (the old ai.wv4.cn stopped resolving); registration is now GitHub-only with no account-age limit; models grew to 23 across 8 groups, adding contributor-backed high-availability groups and a Kimi channel; astra is full-powered and passes candy-level questions. Added: the operator of this service previously ran a paid service called 「新云」 with a poor reputation, ended on bad terms, and is now gone.",
     summary:
       "A public service currently open to GitHub accounts only, with no account-age limit (per user report). Sign-up through the invite link grants 200 and the daily check-in grants 5. Models grew to 23 across 8 groups, adding \"contributor-backed high-availability\" groups and a Kimi channel; users report astra is full-powered and passes candy-level questions.",
     details:
@@ -1419,7 +1419,7 @@ const entryTranslations = {
     experience:
       "GitHub-only registration with no account-age limit; 23 models in 8 groups with contributor-backed high-availability variants for Claude, GPT, and DeepSeek; users report astra is full-powered and passes candy-level questions",
     caveat:
-      "Public service. Quota is displayed in USD; the sign-up grant and check-in amount come from a user report, so confirm them in the service. Registration is reported as GitHub-only, but the API shows email registration enabled as well — go by the sign-up page. The per-group limits are the operator's own wording: the standard Claude and GPT groups have low availability with models dropping in at random, the GLM group can be cut at any time, and both the DeepSeek and Kimi groups run on a $1,000 daily shared pool that runs out. The contributor-backed high-availability groups require sending \"真寻酱捏\" in the group; the GPT variant has a 5-hour wait when no accounts are available and the Claude variant has a concurrency limit. The model list and grouping are subject to the in-site model page.",
+      "Public service. Quota is displayed in USD; the sign-up grant and check-in amount come from a user report, so confirm them in the service. Registration is reported as GitHub-only, but the API shows email registration enabled as well — go by the sign-up page. The per-group limits are the operator's own wording: the standard Claude and GPT groups have low availability with models dropping in at random, the GLM group can be cut at any time, and both the DeepSeek and Kimi groups run on a $1,000 daily shared pool that runs out. The contributor-backed high-availability groups require sending \"真寻酱捏\" in the group; the GPT variant has a 5-hour wait when no accounts are available and the Claude variant has a concurrency limit. Operator history: the operator of this service previously ran a paid service called 「新云」 with a poor reputation, ended on bad terms, and is now gone (per user report). The model list and grouping are subject to the in-site model page.",
     benefits: [
       "Public service",
       "200 on invite sign-up",
