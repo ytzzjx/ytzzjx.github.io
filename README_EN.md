@@ -16,6 +16,7 @@ These are the sites I currently track that still accept registration, with the m
 
 | Site | Summary | Link |
 | --- | --- | --- |
+| xxzl | A public service granting **200 on invite sign-up and 5 per check-in**. Models are split into **Claude / GPT / DeepSeek / GLM groups**: the Claude group does not guarantee advanced models; the GPT group drops in 6-astra or the 6-series sol at random while **guaranteeing luna and keeping astra undumbed**; the **DeepSeek group runs official keys on a $1,000 daily shared pool that runs out**; the GLM group guarantees only 5.3-flash. Email-verified registration, with image generation. (The old ai.wv4.cn no longer resolves; the service now runs at ai.1tim.com.) | [Register](https://ai.1tim.com/sign-up?aff=TyKU) |
 | Artbloom | A public service granting **$100 instantly** on sign-up through the referral link with GitHub (**accounts must be at least one year old**). Offers claude-opus-5, **claude-opus-5-5** (both $2/$10 per 1M tokens), DeepSeek-V4-Flash, kimi-k3 (both $1/$3), and image models ($0.02-0.5/image) over an OpenAI-compatible API with transparent pricing. | [Register](https://api.artbloom.tech/signup?ref=564I5GN2SY) |
 | Xingqiao Public Service | A public service granting 200 calls on invite-code sign-up, **another 100 per person referred**, and 20 per daily check-in; Gemini models only, all at **¥0.02/call**, with **no top-ups**. Email-verified registration. | [Register](https://xingqiao.chat/sign-up?aff=11NC) |
 | Jiushi API Freemium Service | A freemium service: ¥3 on sign-up with an **about-¥0.1 daily check-in**; a very large lineup (**164 models, Claude-focused**), billed per call — k-特惠 opus at ¥0.1078/call and sonnet at ¥0.0539/call, plus gemini, GPT, Grok, and web-reverse series (described by the operator as not officially connected; avoid if you mind reverse channels). Email-verified registration. | [Register](https://api.jiushi.xin/register?aff=KQiA) |
@@ -86,6 +87,5 @@ Currently archived (no access links are provided):
 - TabiToken (delisted 2026-09-09): no models are available, pending recovery.
 - GoRouter (delisted 2026-09-09): no models are available, and reliability had already declined.
 - Zynk Public Service (delisted 2026-08-29): the service is dead and its domain no longer works.
-- xxzl (delisted 2026-10-04): the domain no longer resolves and the service is dead.
 
 Available models, rates, and check-in amounts may change at any time. Always confirm with each site's announcements and actual usage.
