@@ -16,7 +16,6 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| xxzl 公益站 | 公益站，**邀请注册送 200、签到 5**。模型分 **Claude / GPT / DeepSeek / GLM 四个分组**：Claude 组不保证高级模型可用；GPT 组随机空降 6-astra 或 6 系列 sol，**保证 luna 可用且 astra 不降智**；**DeepSeek 组走官方 key、每天 1000 刀共享池用完即没**；GLM 组只保证 5.3-flash。邮箱验证注册，支持生图。 | [注册](https://ai.wv4.cn/sign-up?aff=TyKU) |
 | Artbloom 公益站 | 公益站，GitHub 注册（**账号需满一年**）送 **100 刀**，即到账。有 claude-opus-5、**claude-opus-5-5**（均 $2/$10 每百万 token）、DeepSeek-V4-Flash、kimi-k3（均 $1/$3）与生图模型（$0.02-0.5/张），OpenAI 兼容接口，模型页透明计价。 | [注册](https://api.artbloom.tech/signup?ref=564I5GN2SY) |
 | 星桥 公益站 | 公益站，邀请码注册送 200 次、**每拉一人再送 100 次**、每日签到 20 次；只有 Gemini 系模型，全模型 **0.02 元/次** 按次计费，**不支持充值**。邮箱验证注册。 | [注册](https://xingqiao.chat/sign-up?aff=11NC) |
 | 玖时API 半公益站 | 半公益站，注册送 3 元、**签到 1 毛左右**；模型极多（**164 个，Claude 系为主**），按次计费——k-特惠 opus 0.1078 元/次、sonnet 0.0539 元/次，另有 gemini、GPT、Grok 与网逆系列（站方自述非官方直连，介意逆向勿用）。邮箱验证注册。 | [注册](https://api.jiushi.xin/register?aff=KQiA) |
@@ -87,6 +86,7 @@
 - TabiToken（2026-09-09 下架）：站内已无可用模型，等待恢复。
 - GoRouter（2026-09-09 下架）：站内已无可用模型，且此前稳定性已经下降。
 - Zynk 公益站（2026-08-29 下架）：站点已失效，域名无法正常使用。
+- xxzl 公益站（2026-10-04 下架）：域名无法解析，站点失效。
 
 推荐站点的可用模型、倍率和签到额度可能随时调整，请以站点内公告和实际使用情况为准。
 

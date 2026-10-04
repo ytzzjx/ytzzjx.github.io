@@ -9,7 +9,6 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
-    "xxzl 公益站",
     "Artbloom 公益站",
     "星桥 公益站",
     "玖时API 半公益站",
@@ -205,44 +204,32 @@ const siteConfig = {
       url: "https://gy.leyanshi.me/sign-up?aff=lorI",
       tone: "closed",
     },
-  ],
-  entries: [
     {
+      archivedAt: "2026-10-04",
+      archivedReason: "域名已无法解析，站点失效；已从在线推荐下架并移入失效区，恢复后再重新核实。",
       publishedAt: "2026-10-04 00:00",
       addedAt: "2026-10-04",
       updatedAt: "2026-10-04",
-      updateNote:
-        "新增收录：公益站，邀请注册送 200、签到 5；Claude 与 GPT 与 DeepSeek 与 GLM 四个分组，DeepSeek 组走官方 key、每天 1000 刀共享池。",
-      kind: "公益站 / 四分组 / 注册送 200",
+      updateNote: "域名已无法解析，站点失效，已从在线推荐下架并移入失效区。",
+      kind: "公益站 / 已失效",
       name: "xxzl 公益站",
-      summary:
-        "公益站，邀请注册送 200、签到 5。模型分 Claude、GPT、DeepSeek、GLM 四个分组：Claude 组不保证高级模型可用，GPT 组随机空降 6-astra 或 6 系列 sol、保证 luna 可用且 astra 不降智，DeepSeek 组走官方 key、每天共享池 1000 刀用完即没，GLM 组随时拉闸、只保证 5.3-flash 高稳定。",
+      summary: "站点已失效：域名 ai.wv4.cn 无法解析，页面打不开。收录时记录的信息：邀请注册送 200、签到 5，Claude / GPT / DeepSeek / GLM 四个分组。",
       details:
-        "站内名称 xxzl（ai.wv4.cn），New API 程序。邀请链接注册送 200、每日签到 5（用户提供）。模型广场公开可查，共 21 个模型、分四个分组：Claude 组含 opus 4.6/4.7/4.8/5/5-5、sonnet 4-6/5、fable 5 与 fable 5-1、haiku 4-5，站方自述「不保证高级模型可用，但是低级一点可以的，不保证长时间高智商」；GPT 组含 gpt-6-astra、gpt-6-sol、gpt-6.1-sol、gpt-6-luna、gpt-5.5、gpt-5.6-luna/sol/terra，站方自述「可用性不高，随机空降 6-astra 或者 6 系列 sol，保证 luna 模型可用，astra 不降智」；DeepSeek 组是「超高速 deepseek-v4.1-flash 官方 key，不降智高稳定性，每天共享池 1000 刀用完即没，有两个模型另一个 -2 的是备用」；GLM 组「随时拉闸，仅保证 5.3-flash 可用高稳定，5.3 找渠道中随机掉落」。额度按美元显示；站内有签到，支持生图功能与任务功能；注册为用户名 + 密码 + 邮箱验证码，没有 GitHub / Linux DO 登录，注册环节无人机验证。站点提供阿里云全球加速入口，推荐国内用户直连。",
-      registration: "用户名 + 密码 + 邮箱验证码注册（走邀请链接），无人机验证。",
-      signupBonus: "200",
-      dailyCheckin: "5",
+        "站点在收录当天仍可访问，随后域名 ai.wv4.cn 便无法解析（114 DNS 与阿里 DNS 均返回 NXDOMAIN），页面打不开，已从在线推荐下架。收录时记录的信息：邀请注册送 200、签到 5；模型分四个分组——Claude 组不保证高级模型可用，GPT 组随机空降 6-astra 或 6 系列 sol、保证 luna 可用且 astra 不降智，DeepSeek 组走官方 key、每天共享池 1000 刀用完即没，GLM 组随时拉闸、只保证 5.3-flash。以上均为失效前的历史信息，若恢复需重新核实。",
+      registration: "已失效；原为用户名 + 密码 + 邮箱验证码注册（走邀请链接），无人机验证。",
+      signupBonus: "原为 200",
+      dailyCheckin: "原为 5",
       models:
-        "Claude（opus 4.6-5、sonnet 4-6/5、fable 5/5-1、haiku 4-5）/ GPT（6-astra、6-sol、6.1-sol、6-luna、5.5、5.6-luna/sol/terra）/ DeepSeek（v4.1-flash 官方 key，每天 1000 刀共享池）/ GLM（5.3-flash）",
-      experience:
-        "四分组各有限制说明：Claude 组不保证高级模型、GPT 组保证 luna 可用且 astra 不降智、DeepSeek 组官方 key 每天 1000 刀共享池、GLM 组只保证 5.3-flash",
+        "原为 Claude（opus 4.6-5、sonnet 4-6/5、fable 5/5-1、haiku 4-5）/ GPT（6-astra、6-sol、6.1-sol、6-luna、5.5、5.6-luna/sol/terra）/ DeepSeek（v4.1-flash 官方 key，每天 1000 刀共享池）/ GLM（5.3-flash）；当前站点失效",
+      experience: "收录当天可访问，随后域名无法解析，站点失效",
       caveat:
-        "公益站。额度按美元显示，注册赠送与签到金额由用户提供，具体以站内实际显示为准。各分组的可用性限制是站方自己写的：Claude 组不保证高级模型长时间高智商，GPT 组可用性不高、模型随机空降，GLM 组随时拉闸，DeepSeek 组是每天 1000 刀的共享池、用完即没。模型清单与分组以站内模型广场为准。",
-      benefits: [
-        "公益站",
-        "邀请注册送 200",
-        "签到 5",
-        "Claude 分组",
-        "GPT 分组",
-        "DeepSeek 官方 key",
-        "每天 1000 刀共享池",
-        "GLM 5.3-flash",
-        "支持生图",
-        "阿里云加速",
-      ],
+        "站点已失效，域名 ai.wv4.cn 无法解析、页面打不开，恢复时间未知。收录时的赠送、签到、模型与分组均为历史信息，恢复后需重新核实。",
+      benefits: ["站点已失效", "域名无法解析", "原邀请注册送 200", "原签到 5", "原四分组", "原 DeepSeek 每天 1000 刀共享池"],
       url: "https://ai.wv4.cn/sign-up?aff=TyKU",
-      tone: "active",
+      tone: "closed",
     },
+  ],
+  entries: [
     {
       publishedAt: "2026-09-26 00:00",
       addedAt: "2026-09-26",
@@ -1403,34 +1390,22 @@ const pageCopy = {
 const entryTranslations = {
   "xxzl 公益站": {
     name: "xxzl",
-    kind: "Public service / four groups / 200 on sign-up",
-    updateNote:
-      "New listing: a public service granting 200 on invite sign-up and 5 per check-in, with Claude, GPT, DeepSeek, and GLM groups. The DeepSeek group runs official keys with a shared pool of $1,000 a day.",
+    kind: "Public service / delisted",
+    updateNote: "The domain no longer resolves, so the service was removed from the live recommendations and moved to the unavailable archive.",
+    archivedReason: "The domain no longer resolves and the service is unreachable; removed from the live recommendations and moved to the unavailable archive, to be re-verified if it returns.",
     summary:
-      "A public service granting 200 on invite sign-up and 5 per check-in. Models are split into Claude, GPT, DeepSeek, and GLM groups: the Claude group does not guarantee advanced models, the GPT group drops in 6-astra or the 6-series sol at random while guaranteeing luna and keeping astra undumbed, the DeepSeek group runs official keys with a $1,000 daily shared pool that runs out, and the GLM group can be cut at any time with only 5.3-flash guaranteed.",
+      "The service is dead: the domain ai.wv4.cn no longer resolves and the page will not load. What it offered while listed: 200 on invite sign-up and 5 per check-in, with Claude, GPT, DeepSeek, and GLM groups.",
     details:
-      "The service calls itself xxzl (ai.wv4.cn) and runs on New API. Invite-link sign-up grants 200 and the daily check-in grants 5 (per user report). The public model list shows 21 models across four groups: the Claude group covers opus 4.6/4.7/4.8/5/5-5, sonnet 4-6/5, fable 5 and fable 5-1, and haiku 4-5, with the operator stating it \"does not guarantee advanced models but lower-tier ones work, and long high-intelligence sessions are not guaranteed\"; the GPT group covers gpt-6-astra, gpt-6-sol, gpt-6.1-sol, gpt-6-luna, gpt-5.5, and gpt-5.6-luna/sol/terra, with the operator saying availability is low, 6-astra or the 6-series sol drop in at random, luna is guaranteed, and astra is not dumbed down; the DeepSeek group is described as \"ultra-fast deepseek-v4.1-flash on official keys, not dumbed down and highly stable, with a shared pool of $1,000 a day that runs out, and a second -2 model as backup\"; the GLM group \"can be cut at any time, with only 5.3-flash guaranteed stable while a 5.3 channel is being sourced and drops in at random\". Quota is displayed in USD. The service has a check-in, image generation, and a task feature. Registration uses a username, password, and an email verification code, with no GitHub or Linux DO login and no human verification. An Alibaba Cloud global-acceleration endpoint is provided and recommended for users in mainland China.",
-    registration: "Sign up with a username, password, and email verification code through the invite link; no human verification.",
-    signupBonus: "200",
-    dailyCheckin: "5",
+      "The service was reachable on the day it was listed, but its domain ai.wv4.cn then stopped resolving (both 114 DNS and Alibaba DNS return NXDOMAIN) and the page no longer loads, so it was removed from the live recommendations. What was recorded while it was live: 200 on invite sign-up and 5 per check-in; models were split into four groups — the Claude group did not guarantee advanced models, the GPT group dropped in 6-astra or the 6-series sol at random while guaranteeing luna and keeping astra undumbed, the DeepSeek group ran official keys with a $1,000 daily shared pool that runs out, and the GLM group could be cut at any time with only 5.3-flash guaranteed. All of this is pre-delisting history and must be re-verified if the service returns.",
+    registration: "Delisted; previously username, password, and email verification code through the invite link, with no human verification.",
+    signupBonus: "Previously 200",
+    dailyCheckin: "Previously 5",
     models:
-      "Claude (opus 4.6-5, sonnet 4-6/5, fable 5/5-1, haiku 4-5) / GPT (6-astra, 6-sol, 6.1-sol, 6-luna, 5.5, 5.6-luna/sol/terra) / DeepSeek (v4.1-flash on official keys, $1,000 daily shared pool) / GLM (5.3-flash)",
-    experience:
-      "Each of the four groups has its own stated limits: Claude does not guarantee advanced models, GPT guarantees luna and keeps astra undumbed, DeepSeek runs official keys on a $1,000 daily shared pool, and GLM guarantees only 5.3-flash",
+      "Previously Claude (opus 4.6-5, sonnet 4-6/5, fable 5/5-1, haiku 4-5) / GPT (6-astra, 6-sol, 6.1-sol, 6-luna, 5.5, 5.6-luna/sol/terra) / DeepSeek (v4.1-flash on official keys, $1,000 daily shared pool) / GLM (5.3-flash); currently dead",
+    experience: "Reachable on the listing day, then the domain stopped resolving and the service died",
     caveat:
-      "Public service. Quota is displayed in USD; the sign-up grant and check-in amount come from a user report, so confirm them in the service. The per-group limits are the operator's own wording: the Claude group does not guarantee advanced models or long high-intelligence sessions, the GPT group has low availability with models dropping in at random, the GLM group can be cut at any time, and the DeepSeek group is a $1,000 daily shared pool that runs out. The model list and grouping are subject to the in-site model page.",
-    benefits: [
-      "Public service",
-      "200 on invite sign-up",
-      "Check-in 5",
-      "Claude group",
-      "GPT group",
-      "DeepSeek official keys",
-      "$1,000 daily shared pool",
-      "GLM 5.3-flash",
-      "Image generation",
-      "Alibaba Cloud acceleration",
-    ],
+      "The service is dead: ai.wv4.cn no longer resolves and the page will not load, with no known recovery date. The grant, check-in, models, and grouping above are history and must be re-verified if it returns.",
+    benefits: ["Delisted", "Domain no longer resolves", "Previously 200 on sign-up", "Previously check-in 5", "Previously four groups", "Previously $1,000 daily shared pool"],
   },
   "Artbloom 公益站": {
     name: "Artbloom",
