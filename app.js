@@ -212,31 +212,33 @@ const siteConfig = {
       addedAt: "2026-10-04",
       updatedAt: "2026-10-04",
       updateNote:
-        "换域名为 ai.1tim.com（原 ai.wv4.cn 已停止解析）；邀请注册送 200、签到 5，四个分组不变。",
-      kind: "公益站 / 四分组 / 注册送 200",
+        "换域名为 ai.1tim.com（原 ai.wv4.cn 已停止解析）；现在仅支持 GitHub 账号注册且不限注册时间；模型增至 23 个、8 个分组，新增群友贡献高可用分组与 Kimi 渠道；astra 满血可过糖果题。",
+      kind: "公益站 / 仅 GitHub 注册 / 23 个模型 8 分组",
       name: "xxzl 公益站",
       summary:
-        "公益站，邀请注册送 200、签到 5。模型分 Claude、GPT、DeepSeek、GLM 四个分组：Claude 组不保证高级模型可用，GPT 组随机空降 6-astra 或 6 系列 sol、保证 luna 可用且 astra 不降智，DeepSeek 组走官方 key、每天共享池 1000 刀用完即没，GLM 组随时拉闸、只保证 5.3-flash 高稳定。",
+        "公益站，目前仅支持 GitHub 账号注册，且不限注册时间（用户提供）。邀请链接注册送 200、每日签到 5。模型增至 23 个、分 8 个分组，新增「群友贡献高可用」分组与 Kimi 渠道；用户反馈 astra 满血可过糖果题。",
       details:
-        "站内名称 xxzl，现域名为 ai.1tim.com（原域名 ai.wv4.cn 已停止解析，两者指向同一台服务器），New API 程序。邀请链接注册送 200、每日签到 5（用户提供）。模型广场公开可查，现为 14 个模型、分四个分组：Claude 组含 opus 4.6/4.7、sonnet 4-6，站方自述「不保证高级模型可用，但是低级一点可以的，不保证长时间高智商」；GPT 组含 gpt-6-astra、gpt-6-sol、gpt-6.1-sol、gpt-6-luna、gpt-5.5、gpt-5.6-luna/sol/terra，站方自述「可用性不高，随机空降 6-astra 或者 6 系列 sol，保证 luna 模型可用，astra 不降智」；DeepSeek 组是「超高速 deepseek-v4.1-flash 官方 key，不降智高稳定性，每天共享池 1000 刀用完即没，有两个模型另一个 -2 的是备用」；GLM 组「随时拉闸，仅保证 5.3-flash 可用高稳定，5.3 找渠道中随机掉落」。额度按美元显示；站内有签到，支持生图功能与任务功能；注册为用户名 + 密码 + 邮箱验证码，没有 GitHub / Linux DO 登录，注册环节无人机验证。",
-      registration: "用户名 + 密码 + 邮箱验证码注册（走邀请链接），无人机验证。",
+        "站内名称 xxzl（页脚 xxzlAPI），现域名为 ai.1tim.com（原域名 ai.wv4.cn 已停止解析，两者指向同一台服务器），New API 程序。邀请链接注册送 200、每日签到 5（用户提供）。目前仅支持 GitHub 账号注册，且不限制注册时间（用户提供）；接口侧 GitHub OAuth 与邮箱注册开关都显示为开启，实际以注册页为准。模型广场公开可查，现为 23 个模型、分 8 个分组：Claude 组 6 个（opus 5-5、sonnet 5、opus 5、opus 4-8、opus 4-7、sonnet 4-6），站方自述「不保证高级模型可用，不可用去群友贡献，但是低级一点可以的，不保证长时间高智商」；GPT 组 8 个（gpt-6-astra、gpt-6-sol、gpt-6.1-sol、gpt-6-luna、gpt-5.5、gpt-5.6-luna/sol/terra），站方自述「GPT 懂得都懂可用性不高，如果这个用不了去用群友贡献，随机空降 6-astra 或者 6 系列 sol，保证 luna 模型可用，astra 不降智」；DeepSeek 组 2 个（deepseek-v4.1-flash 与备用 -2），站方自述「超高速 deepseek-v4.1-flash 官方 key，不降智高稳定性，每天共享池 1000 刀用完即没」；GLM 组 1 个（glm-5.3-flash），站方自述「随时拉闸，仅保证 5.3-flash 可用高稳定」；Kimi 组 1 个（kimi-k3-1），站方自述「神秘渠道 kimi3.1 高智商高稳定性可过糖果，感谢某企业贡献，每天共享池 1000 刀」。Claude / GPT / DeepSeek 三个分组各有一个「群友贡献高可用」版本，站方自述在群里发一句「真寻酱捏」即可获得高可用性高智商，可用一些高级分组，但 GPT 群友贡献组提示无账号要等 5 小时，Claude 群友贡献组限制并发。额度按美元显示；站内有签到，支持生图功能与任务功能。",
+      registration: "目前仅支持 GitHub 账号注册，不限注册时间（用户提供）；接口显示邮箱注册开关也开着，以注册页实际显示为准。",
       signupBonus: "200",
       dailyCheckin: "5",
       models:
-        "Claude（opus 4.6/4.7、sonnet 4-6）/ GPT（6-astra、6-sol、6.1-sol、6-luna、5.5、5.6-luna/sol/terra）/ DeepSeek（v4.1-flash 官方 key，每天 1000 刀共享池）/ GLM（5.3-flash）",
+        "23 个模型 8 分组：Claude（opus 5-5、sonnet 5、opus 5、opus 4-8、opus 4-7、sonnet 4-6）/ GPT（6-astra、6-sol、6.1-sol、6-luna、5.5、5.6-luna/sol/terra）/ DeepSeek（v4.1-flash 官方 key，每天 1000 刀共享池）/ GLM（5.3-flash）/ Kimi（k3-1 神秘渠道，每天 1000 刀共享池）；另有 Claude / GPT / DeepSeek 各一个群友贡献高可用分组",
       experience:
-        "四分组各有限制说明：Claude 组不保证高级模型、GPT 组保证 luna 可用且 astra 不降智、DeepSeek 组官方 key 每天 1000 刀共享池、GLM 组只保证 5.3-flash",
+        "仅 GitHub 注册且不限注册时间；23 个模型 8 分组，Claude / GPT / DeepSeek 各有群友贡献高可用版本；用户反馈 astra 满血可过糖果题",
       caveat:
-        "公益站。额度按美元显示，注册赠送与签到金额由用户提供，具体以站内实际显示为准。各分组的可用性限制是站方自己写的：Claude 组不保证高级模型长时间高智商，GPT 组可用性不高、模型随机空降，GLM 组随时拉闸，DeepSeek 组是每天 1000 刀的共享池、用完即没。模型清单与分组以站内模型广场为准。",
+        "公益站。额度按美元显示，注册赠送与签到金额由用户提供，具体以站内实际显示为准。注册方式用户反馈仅 GitHub，但接口显示邮箱注册开关也开着，以注册页实际为准。各分组限制是站方自己写的：普通 Claude / GPT 组可用性不高、模型随机空降，GLM 组随时拉闸，DeepSeek 组与 Kimi 组都是每天 1000 刀的共享池、用完即没；群友贡献高可用分组要在群里发「真寻酱捏」领取，GPT 版无账号需等 5 小时、Claude 版限并发。模型清单与分组以站内模型广场为准。",
       benefits: [
         "公益站",
         "邀请注册送 200",
         "签到 5",
-        "Claude 分组",
-        "GPT 分组",
+        "仅 GitHub 注册",
+        "不限注册时间",
+        "23 个模型 8 分组",
+        "astra 满血可过糖果题",
+        "群友贡献高可用分组",
+        "Kimi 渠道",
         "DeepSeek 官方 key",
-        "每天 1000 刀共享池",
-        "GLM 5.3-flash",
         "支持生图",
       ],
       url: "https://ai.1tim.com/sign-up?aff=TyKU",
@@ -1402,31 +1404,33 @@ const pageCopy = {
 const entryTranslations = {
   "xxzl 公益站": {
     name: "xxzl",
-    kind: "Public service / four groups / 200 on sign-up",
+    kind: "Public service / GitHub sign-up only / 23 models in 8 groups",
     updateNote:
-      "Moved to the domain ai.1tim.com (the old ai.wv4.cn no longer resolves); 200 on invite sign-up and 5 per check-in, with the same four groups.",
+      "Moved to ai.1tim.com (the old ai.wv4.cn stopped resolving); registration is now GitHub-only with no account-age limit; models grew to 23 across 8 groups, adding contributor-backed high-availability groups and a Kimi channel; astra is full-powered and passes candy-level questions.",
     summary:
-      "A public service granting 200 on invite sign-up and 5 per check-in. Models are split into Claude, GPT, DeepSeek, and GLM groups: the Claude group does not guarantee advanced models, the GPT group drops in 6-astra or the 6-series sol at random while guaranteeing luna and keeping astra undumbed, the DeepSeek group runs official keys with a $1,000 daily shared pool that runs out, and the GLM group can be cut at any time with only 5.3-flash guaranteed.",
+      "A public service currently open to GitHub accounts only, with no account-age limit (per user report). Sign-up through the invite link grants 200 and the daily check-in grants 5. Models grew to 23 across 8 groups, adding \"contributor-backed high-availability\" groups and a Kimi channel; users report astra is full-powered and passes candy-level questions.",
     details:
-      "The service calls itself xxzl and now lives at ai.1tim.com (the old ai.wv4.cn no longer resolves; both pointed at the same server). It runs on New API. Invite-link sign-up grants 200 and the daily check-in grants 5 (per user report). The public model list currently shows 14 models across four groups: the Claude group covers opus 4.6/4.7 and sonnet 4-6, with the operator stating it \"does not guarantee advanced models but lower-tier ones work, and long high-intelligence sessions are not guaranteed\"; the GPT group covers gpt-6-astra, gpt-6-sol, gpt-6.1-sol, gpt-6-luna, gpt-5.5, and gpt-5.6-luna/sol/terra, with the operator saying availability is low, 6-astra or the 6-series sol drop in at random, luna is guaranteed, and astra is not dumbed down; the DeepSeek group is described as \"ultra-fast deepseek-v4.1-flash on official keys, not dumbed down and highly stable, with a shared pool of $1,000 a day that runs out, and a second -2 model as backup\"; the GLM group \"can be cut at any time, with only 5.3-flash guaranteed stable while a 5.3 channel is being sourced and drops in at random\". Quota is displayed in USD. The service has a check-in, image generation, and a task feature. Registration uses a username, password, and an email verification code, with no GitHub or Linux DO login and no human verification.",
-    registration: "Sign up with a username, password, and email verification code through the invite link; no human verification.",
+      "The service calls itself xxzl (footer xxzlAPI) and now lives at ai.1tim.com (the old ai.wv4.cn stopped resolving; both pointed at the same server). It runs on New API. Sign-up through the invite link grants 200 and the daily check-in grants 5 (per user report). Registration currently uses GitHub accounts only, with no account-age limit (per user report); the API shows both GitHub OAuth and email registration enabled, so go by what the sign-up page actually shows. The public model list now shows 23 models across 8 groups: the Claude group has 6 (opus 5-5, sonnet 5, opus 5, opus 4-8, opus 4-7, sonnet 4-6), with the operator stating it \"does not guarantee advanced models — go to the contributor group if unavailable, but lower-tier ones work, and long high-intelligence sessions are not guaranteed\"; the GPT group has 8 (gpt-6-astra, gpt-6-sol, gpt-6.1-sol, gpt-6-luna, gpt-5.5, gpt-5.6-luna/sol/terra), with the operator saying \"GPT availability is low as everyone knows — if this fails use the contributor group; 6-astra or the 6-series sol drop in at random, luna is guaranteed, and astra is not dumbed down\"; the DeepSeek group has 2 (deepseek-v4.1-flash plus the -2 backup), described as \"ultra-fast deepseek-v4.1-flash on official keys, not dumbed down and highly stable, with a shared pool of $1,000 a day that runs out\"; the GLM group has 1 (glm-5.3-flash), described as \"can be cut at any time, with only 5.3-flash guaranteed and stable while a 5.3 channel is being sourced and drops in at random\"; the Kimi group has 1 (kimi-k3-1), described as \"a mystery channel for kimi3.1 with high intelligence and stability that passes candy-level questions, thanks to a company contribution, on a shared pool of $1,000 a day\". The Claude, GPT, and DeepSeek groups each have a \"contributor-backed high-availability\" variant, which the operator describes as needing one \"真寻酱捏\" in the group for high availability and high intelligence, unlocking some advanced groups — but the GPT variant notes a 5-hour wait when there are no accounts available, and the Claude variant has a concurrency limit. Quota is displayed in USD. The service has a check-in, image generation, and a task feature.",
+    registration: "GitHub accounts only, with no account-age limit (per user report); the API shows email registration enabled too, so go by the sign-up page.",
     signupBonus: "200",
     dailyCheckin: "5",
     models:
-      "Claude (opus 4.6/4.7, sonnet 4-6) / GPT (6-astra, 6-sol, 6.1-sol, 6-luna, 5.5, 5.6-luna/sol/terra) / DeepSeek (v4.1-flash on official keys, $1,000 daily shared pool) / GLM (5.3-flash)",
+      "23 models in 8 groups: Claude (opus 5-5, sonnet 5, opus 5, opus 4-8, opus 4-7, sonnet 4-6) / GPT (6-astra, 6-sol, 6.1-sol, 6-luna, 5.5, 5.6-luna/sol/terra) / DeepSeek (v4.1-flash on official keys, $1,000 daily shared pool) / GLM (5.3-flash) / Kimi (k3-1 on a mystery channel, $1,000 daily shared pool); plus a contributor-backed high-availability variant for Claude, GPT, and DeepSeek",
     experience:
-      "Each of the four groups has its own stated limits: Claude does not guarantee advanced models, GPT guarantees luna and keeps astra undumbed, DeepSeek runs official keys on a $1,000 daily shared pool, and GLM guarantees only 5.3-flash",
+      "GitHub-only registration with no account-age limit; 23 models in 8 groups with contributor-backed high-availability variants for Claude, GPT, and DeepSeek; users report astra is full-powered and passes candy-level questions",
     caveat:
-      "Public service. Quota is displayed in USD; the sign-up grant and check-in amount come from a user report, so confirm them in the service. The per-group limits are the operator's own wording: the Claude group does not guarantee advanced models or long high-intelligence sessions, the GPT group has low availability with models dropping in at random, the GLM group can be cut at any time, and the DeepSeek group is a $1,000 daily shared pool that runs out. The model list and grouping are subject to the in-site model page.",
+      "Public service. Quota is displayed in USD; the sign-up grant and check-in amount come from a user report, so confirm them in the service. Registration is reported as GitHub-only, but the API shows email registration enabled as well — go by the sign-up page. The per-group limits are the operator's own wording: the standard Claude and GPT groups have low availability with models dropping in at random, the GLM group can be cut at any time, and both the DeepSeek and Kimi groups run on a $1,000 daily shared pool that runs out. The contributor-backed high-availability groups require sending \"真寻酱捏\" in the group; the GPT variant has a 5-hour wait when no accounts are available and the Claude variant has a concurrency limit. The model list and grouping are subject to the in-site model page.",
     benefits: [
       "Public service",
       "200 on invite sign-up",
       "Check-in 5",
-      "Claude group",
-      "GPT group",
+      "GitHub sign-up only",
+      "No account-age limit",
+      "23 models in 8 groups",
+      "Astra passes candy-level questions",
+      "Contributor-backed high-availability groups",
+      "Kimi channel",
       "DeepSeek official keys",
-      "$1,000 daily shared pool",
-      "GLM 5.3-flash",
       "Image generation",
     ],
   },
