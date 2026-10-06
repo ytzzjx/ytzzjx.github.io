@@ -448,9 +448,9 @@ const siteConfig = {
     {
       publishedAt: "2026-09-24 00:00",
       addedAt: "2026-09-24",
-      updatedAt: "2026-09-24",
+      updatedAt: "2026-10-06",
       updateNote:
-        "新增收录：GitHub 或 Linux DO 注册，注册送 20，有签到；目前只有 luna 模型，后续上 6-luna，速度可能稍微较慢。",
+        "补充备用邀请码，卡片旁新增备用注册入口；其余不变（GitHub 或 Linux DO 注册，注册送 20，有签到；目前只有 luna 模型，后续上 6-luna，速度可能稍微较慢）。",
       kind: "公益站 / GitHub 或 Linux DO 注册 / 只有 luna",
       name: "hiyo",
       summary:
@@ -465,6 +465,8 @@ const siteConfig = {
       caveat: "目前只有 luna 一个模型，选择比较单一，6-luna 还没上；速度可能稍微较慢；赠送与签到金额以站内实际显示为准。",
       benefits: ["公益站", "GitHub 注册", "Linux DO 注册", "注册送 20", "有签到", "速度可能稍慢", "后续上 6-luna"],
       url: "https://free.hiyo.top/register?aff=ASBDCX98PNNG",
+      altUrl: "https://free.hiyo.top/register?aff=GTV52T7GU2EF",
+      altLabel: "备用邀请码注册入口",
       tone: "active",
     },
     {
@@ -1621,6 +1623,7 @@ const entryTranslations = {
     experience: "Speed may be slightly slow",
     caveat: "Only the luna model is available for now, so the lineup is narrow and 6-luna has not launched; speed may be slightly slow. Confirm sign-up and check-in amounts on the site.",
     benefits: ["Public service", "GitHub sign-up", "Linux DO sign-up", "20 on sign-up", "Daily check-in", "Slightly slow", "6-luna coming later"],
+    altLabel: "Backup invite-code sign-up link",
   },
   zquant: {
     name: "zquant",
