@@ -16,7 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| xxzl 公益站 | 公益站，**仅支持 GitHub 账号注册且不限注册时间**。**邀请注册送 200、签到 5**。模型增至 **23 个、8 个分组**，含 Claude（opus 5-5、sonnet 5 等）/ GPT（astra、sol 等）/ DeepSeek（官方 key，每天 1000 刀共享池）/ GLM / Kimi；Claude、GPT、DeepSeek 另有**群友贡献高可用分组**。用户反馈 **astra 满血可过糖果题**。 | [注册](https://ai.1tim.com/sign-up?aff=TyKU) |
+| xxzl 公益站 | 公益站，**新注册需注册满一年的 GitHub 账号；邮箱注册将不再开放，老用户需尽快绑定 GitHub 否则删号**。**邀请注册送 200、签到 5**。模型增至 **23 个、8 个分组**，含 Claude（opus 5-5、sonnet 5 等）/ GPT（astra、sol 等）/ DeepSeek（官方 key，每天 1000 刀共享池）/ GLM / Kimi；Claude、GPT、DeepSeek 另有**群友贡献高可用分组**。用户反馈 **astra 满血可过糖果题**。 | [注册](https://ai.1tim.com/sign-up?aff=TyKU) |
 | Artbloom 公益站 | 公益站，GitHub 注册（**账号需满一年**）送 **100 刀**，即到账。有 claude-opus-5、**claude-opus-5-5**（均 $2/$10 每百万 token）、DeepSeek-V4-Flash、kimi-k3（均 $1/$3）与生图模型（$0.02-0.5/张），OpenAI 兼容接口，模型页透明计价。 | [注册](https://api.artbloom.tech/signup?ref=564I5GN2SY) |
 | 星桥 公益站 | 公益站，邀请码注册送 200 次、**每拉一人再送 100 次**、每日签到 20 次；只有 Gemini 系模型，全模型 **0.02 元/次** 按次计费，**不支持充值**。邮箱验证注册。 | [注册](https://xingqiao.chat/sign-up?aff=11NC) |
 | 玖时API 半公益站 | 半公益站，注册送 3 元、**签到 1 毛左右**；模型极多（**164 个，Claude 系为主**），按次计费——k-特惠 opus 0.1078 元/次、sonnet 0.0539 元/次，另有 gemini、GPT、Grok 与网逆系列（站方自述非官方直连，介意逆向勿用）。邮箱验证注册。 | [注册](https://api.jiushi.xin/register?aff=KQiA) |
@@ -24,8 +24,8 @@
 | Ovo 半公益站 | 半公益酒馆站，注册送 5 元、每日签到约 2 元；有 Claude 和 Gemini，**gemini 0.04 元一次、claude-opus-4-6 0.3 元一次**，按次计费。 | [注册](https://ovoapi.cn/sign-up?aff=st79) |
 | Axis AI 公益站 | **完全免费的公益 AI 对话平台（站内自述，非 API 中转）**，登录后直接在站内对话。有 Claude Fable 5、**GPT-6 Luna（无限额度）**、Qwen 3.8 Max、GLM-5.3 Flash。用户名 + 邮箱 + QQ 号注册（**QQ 号必填**，邀请码可选）或 GitHub 注册，**提交后需站方审核**；各环节有 CF 人机验证。官方 QQ 群 309623044，**进群可领赠送的 go 套餐**。 | [注册](https://ai.onyxaxis.org/register?invite=AMMRWZ5P) |
 | 星见雅 | 老牌公益站，GitHub 或 Linux DO 注册，**每日签到约 1000**；含 gpt-5.6-sol、gpt-5.6-terra、z-ai/glm-5.3、z-ai/glm-5.3-flash、moonshotai/kimi-k3 与 deepseek-ai/deepseek-v4-flash-0731。**gpt-5.6-sol 用起来怪怪的**，对该模型有依赖的话先小量试用。 | [注册](https://new.xinjianya.top/register?aff=NTKW) |
-| 墨白公益站 | 公益站，限 gmail / 163 / qq / foxmail / icloud 邮箱注册，需邮箱验证和人机验证；**每日签到 1-10，进官方 QQ 群 444158239（进群答案 zakozako）可再签到一次，相当于每天两次**。免费可用 DeepSeek V4.1 Flash（模型广场虽列出 936 个，实际可用不多）。 | [注册](https://new.ai.hinswu.top/sign-up?aff=L6as) |
-| hiyo | 公益站，GitHub 或 Linux DO 注册，注册送 20，有签到；目前只有 luna 模型，后续上 6-luna，**速度可能稍微较慢**。 | [注册](https://free.hiyo.top/register?aff=ASBDCX98PNNG) |
+| 墨白公益站 | 公益站，限 gmail / 163 / qq / foxmail / icloud 邮箱注册，需邮箱验证和人机验证，**需要绑定 OIDC，否则会删号**；**每日签到 1-10，进官方 QQ 群 444158239（进群答案 zakozako）可再签到一次，相当于每天两次**。免费可用 DeepSeek V4.1 Flash（模型广场虽列出 936 个，实际可用不多）。 | [注册](https://new.ai.hinswu.top/sign-up?aff=L6as) |
+| hiyo | 公益站，GitHub 或 Linux DO 注册，注册送 20，有签到；已上线 gpt-6-luna，**速度可能稍微较慢**。 | [注册](https://free.hiyo.top/register?aff=ASBDCX98PNNG) |
 | Piu酱 | 公益站，**已重新开放注册，先到先得**；注册送 20 额度，每日随机签到 1-10 刀。含 gemini-3.8-flash-medium、gemini-3-pro、DeepSeek V4.1 Flash、GLM-5.3-Flash 等 14 个模型，按量与按次两种计费，**按次每次 0.2**，GLM、DeepSeek、MiMo 等模型倍率 0。8 月底开站，属新站。 | [注册](https://piu.du4s.com/sign-up?aff=SjXZ) |
 | GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1。注册送 1 块，**现已开签到，每天约 1 毛（约十次请求）**；订阅两档也划算——5 元每周重置 30 元额度，**20 元每天重置 300 元额度**（每天约三万次请求）。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://zc.gcmod.cn/sign-up?aff=4wem) |
 | StarBridge 公益站 | 公益站，GitHub 注册送 20 元、每日签到 10 元；含 gemini-3.8-flash-high、gpt-6-astra、gpt-5.6-sol、claude-sonnet-4-6 等 15 个模型，模型广场公开可查。**站点服务器此前忘记续约，原账号需要重新注册**；站内 9 月 18 日公告曾称暂停新用户注册、部分模型限量供应，注册改走 GitHub；Gemini 占比高，受 Google 限速调整影响的可能性较大。 | [注册](https://api.careke.cn/sign-up?aff=MYwA) |
@@ -72,7 +72,7 @@
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
 | ArityFlow | 目前已关闭注册，恢复开放后再更新。此前支持 QQ 注册、邀请码注册有额度赠送，每日签到最高 50；签到需要签到码，请加入 QQ 群获取。按次计费，主要面向酒馆用户；除 coding 分组外严查编程行为。 | [注册页](https://www.arityflow.top/sign-up?aff=PTiI) |
-| Sulmate 半公益站 | 已停止新用户注册，恢复开放后再更新。原有公益池全站共享额度，含 VIP 付费分组；已有账号的签到和调用规则以站内实际说明为准。 | [站点](https://free.sulmate.cn/) |
+| Sulmate 半公益站 | 现在需要注册码才能注册。原有公益组全站共享额度，VIP 组支持付费调用；已有账号的签到和调用规则以站内实际说明为准。 | [站点](https://free.sulmate.cn/) |
 
 ## 已失效的站点
 
