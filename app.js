@@ -248,6 +248,7 @@ const siteConfig = {
       updateNote:
         "更正为 API 中转站（OpenAI 兼容 /v1），不再是「非 API 中转」的对话平台；模型按接口实际清单更新为 8 个；注册改为 OneAuth（QQ）OAuth 登录；新增国庆福利与 5 天签到得重置卡；按用户要求移到公益区首位。",
       kind: "公益 API 中转站 / OpenAI 兼容 / 8 个模型",
+      recommended: true,
       name: "Axis AI 公益站",
       summary:
         "免费的公益 API 中转站，OpenAI 兼容接口（/v1），当前可用 claude-opus-5.5、claude-sonnet-5.5、gpt-6-astra、gpt-6.1-sol、gpt-6-sol、gpt-6-luna、gpt-5.6-sol、gpt-5.6-luna 共 8 个模型。注册走 OneAuth（QQ 登录）OAuth，需邮箱和 QQ 号，提交后需站方审核。国庆期间福利较多，连续签到 5 天可得一张重置卡（用户提供）。",
@@ -1385,6 +1386,7 @@ const pageCopy = {
     filterDraw: "生图/画画",
     filterEasyReg: "免绑易注",
     filterNoDumbGpt: "不降智 GPT",
+    filterRecommended: "站长推荐",
     expandDetails: "展开详情与避坑",
     collapseDetails: "收起详情",
     emptyTitle: "未检索到匹配站点",
@@ -1469,6 +1471,7 @@ const pageCopy = {
     filterDraw: "Image Generation",
     filterEasyReg: "Easy Sign-up",
     filterNoDumbGpt: "Undumbed GPT",
+    filterRecommended: "Recommended by the webmaster",
     expandDetails: "Show details & caveats",
     collapseDetails: "Hide details",
     emptyTitle: "No matching services found",
@@ -2681,6 +2684,11 @@ const matchesFilterTag = (entry, tag) => {
       // 站方或用户明确写了「不降智」的 GPT 才命中，避免把只是列了 GPT 的站也算进来。
       return /不降智.{0,6}gpt|gpt.{0,6}不降智|undumbed.{0,12}gpt|gpt.{0,12}undumbed|not dumbed.{0,12}gpt|gpt.{0,12}not dumbed|no dumbing.{0,12}gpt/i.test(textPool);
 
+    case "recommended":
+      // 站长推荐是策展标记，靠条目上的 recommended 字段，不用文本匹配——
+      // 否则任何文案里出现「推荐」二字的站都会被误算进来。
+      return Boolean(entry.recommended);
+
     case "easyreg":
       return /免绑|邮箱|无需.*github|免github|无需绑|账号密码|即开即用|免验证|自由注册|简单/i.test(
         `${entry.registration || ""} ${translation.registration || ""} ${textPool}`
@@ -3272,6 +3280,7 @@ const renderPage = () => {
   applyText("[data-filter-tag='draw']", copy.filterDraw);
   applyText("[data-filter-tag='easyreg']", copy.filterEasyReg);
   applyText("[data-filter-tag='nodumbgpt']", copy.filterNoDumbGpt);
+  applyText("[data-filter-tag='recommended']", copy.filterRecommended);
 
   const searchInputEl = document.querySelector("[data-feed-search]");
   if (searchInputEl) {
