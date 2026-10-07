@@ -9,13 +9,13 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Axis AI 公益站",
     "xxzl 公益站",
     "Artbloom 公益站",
     "星桥 公益站",
     "玖时API 半公益站",
     "Camila 公益站",
     "Ovo 半公益站",
-    "Axis AI 公益站",
     "星见雅",
     "墨白公益站",
     "hiyo",
@@ -208,6 +208,47 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-09-25 00:00",
+      addedAt: "2026-09-25",
+      updatedAt: "2026-10-06",
+      updateNote:
+        "更正为 API 中转站（OpenAI 兼容 /v1），不再是「非 API 中转」的对话平台；模型按接口实际清单更新为 8 个；注册改为 OneAuth（QQ）OAuth 登录；新增国庆福利与 5 天签到得重置卡；按用户要求移到公益区首位。",
+      kind: "公益 API 中转站 / OpenAI 兼容 / 8 个模型",
+      name: "Axis AI 公益站",
+      summary:
+        "免费的公益 API 中转站，OpenAI 兼容接口（/v1），当前可用 claude-opus-5.5、claude-sonnet-5.5、gpt-6-astra、gpt-6.1-sol、gpt-6-sol、gpt-6-luna、gpt-5.6-sol、gpt-5.6-luna 共 8 个模型。注册走 OneAuth（QQ 登录）OAuth，需邮箱和 QQ 号，提交后需站方审核。国庆期间福利较多，连续签到 5 天可得一张重置卡（用户提供）。",
+      details:
+        "站内名称 Axis AI（ai.onyxaxis.org），站内自述「完全免费的公益 AI 平台」，实际是 API 中转站——提供 OpenAI 兼容接口 /v1，本站早期的条目误记为「非 API 中转的对话平台」，现已更正。用 /v1/models 实测当前有 8 个模型：claude-opus-5.5、claude-sonnet-5.5、gpt-6-astra、gpt-6.1-sol、gpt-6-sol、gpt-6-luna、gpt-5.6-sol、gpt-5.6-luna（同一渠道组 obsidian-arc）。注册方面：目前只开 OneAuth（QQ 登录）OAuth，注册时必须填用户名，邮箱为必填但暂不强制验证，QQ 号必填，邀请模式为开放；注册、创建 API Key 等环节有 Turnstile 人机验证，注册提交后需站方审核。站内有重置卡机制，卡片可重置 5 小时 / 周 / 月 / 全部窗口，国庆期间福利较多，连续签到 5 天可得一张重置卡（用户提供）。官方 QQ 群 309623044。",
+      registration: "OneAuth（QQ 登录）OAuth 注册，需填用户名、邮箱（必填）和 QQ 号，邀请开放；注册与创建 Key 有 Turnstile 验证，提交后需站方审核。",
+      signupBonus: "国庆福利较多（以站内为准）；连续签到 5 天得一张重置卡（用户提供）",
+      dailyCheckin: "有签到；连续签到 5 天得一张重置卡（用户提供）",
+      models:
+        "OpenAI 兼容 /v1，8 个模型：claude-opus-5.5 / claude-sonnet-5.5 / gpt-6-astra / gpt-6.1-sol / gpt-6-sol / gpt-6-luna / gpt-5.6-sol / gpt-5.6-luna；GPT 不降智（用户提供）",
+      experience:
+        "免费公益中转站，OpenAI 兼容接口；8 个模型覆盖 Claude opus/sonnet 与 GPT 6 系，**GPT 不降智**；国庆福利多，5 天签到得重置卡；接口实测可调通",
+      caveat:
+        "接口严禁接入 SillyTavern（酒馆）、RisuAI、Agnai 等角色扮演前端，也不得转售或分发 Key 给他人接入——这是站方公告明令禁止的。同时禁止破甲 / 破限 / 越狱提示词、色情及擦边内容、恶意代码与网络攻击等，系统自动检测，一经发现直接永久封号且不予申诉。QQ 号必填，介意的话别注册；注册后需站方审核，不保证即时通过。模型清单随站内调整，以实际可调用为准。",
+      benefits: [
+        "公益站",
+        "完全免费",
+        "API 中转站",
+        "OpenAI 兼容接口",
+        "claude-opus-5.5",
+        "claude-sonnet-5.5",
+        "gpt-6-astra",
+        "gpt-6-sol",
+        "gpt-6-luna",
+        "GPT 不降智",
+        "接口实测可调通",
+        "国庆福利",
+        "5 天签到得重置卡",
+        "重置卡可重置用量窗口",
+        "QQ 群 309623044",
+      ],
+      url: "https://ai.onyxaxis.org/register?invite=AMMRWZ5P",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-06 00:00",
       addedAt: "2026-10-06",
@@ -444,43 +485,6 @@ const siteConfig = {
         "claude-opus-4-6 0.3 元一次",
       ],
       url: "https://ovoapi.cn/sign-up?aff=st79",
-      tone: "active",
-    },
-    {
-      publishedAt: "2026-09-25 00:00",
-      addedAt: "2026-09-25",
-      updatedAt: "2026-09-25",
-      updateNote:
-        "新增收录：完全免费的公益 AI 对话平台（非 API 中转）；用户名 + 邮箱 + QQ 号注册（QQ 号必填，邀请码可选）或 GitHub 注册，提交后需站方审核；进官方 QQ 群可领赠送的 go 套餐；有 Claude Fable 5、GPT-6 Luna（无限额度）、Qwen 3.8 Max、GLM-5.3 Flash。",
-      kind: "公益站 / 对话平台 / 注册需审核",
-      name: "Axis AI 公益站",
-      summary:
-        "完全免费的公益 AI 对话平台（站内自述，非 API 中转）；用户名 + 邮箱 + QQ 号注册（QQ 号必填，邀请码可选）或 GitHub 注册，提交后需站方审核；进官方 QQ 群 309623044 可领赠送的 go 套餐。有 Claude Fable 5、GPT-6 Luna（无限额度）、Qwen 3.8 Max、GLM-5.3 Flash。",
-      details:
-        "站内名称 Axis AI，站内自述「完全免费的公益 AI 平台」，是网页对话平台——登录后直接在站内对话，不提供 API 接口。注册需要用户名、邮箱、QQ 号（必填）和密码，邀请码可选（注册链接自带）；也支持 GitHub 注册。注册、登录、兑换、反馈等环节都有 Cloudflare 人机验证，注册提交后需站方审核，不是提交就秒过。站内是套餐制，进官方 QQ 群 309623044 可以领取赠送的 go 套餐（用户提供）。可用模型有 Claude Fable 5、GPT-6 Luna（无限额度）、Qwen 3.8 Max、GLM-5.3 Flash（用户提供）。",
-      registration: "用户名 + 邮箱 + QQ 号（必填）+ 密码注册，邀请码可选；或 GitHub 注册。提交后需站方审核。",
-      signupBonus: "进 QQ 群 309623044 领赠送的 go 套餐",
-      dailyCheckin: "未提供",
-      models: "Claude Fable 5 / GPT-6 Luna（无限额度）/ Qwen 3.8 Max / GLM-5.3 Flash",
-      experience: "网页对话平台，非 API 中转",
-      caveat:
-        "这是对话平台，没有 API 接口，想接工具或客户端的注意；QQ 号是必填项，介意的话别注册；注册后需站方审核，不保证即时通过；模型清单以站内实际显示为准。",
-      benefits: [
-        "公益站",
-        "完全免费",
-        "对话平台非 API",
-        "Claude Fable 5",
-        "GPT-6 Luna（无限额度）",
-        "Qwen 3.8 Max",
-        "GLM-5.3 Flash",
-        "进群领 go 套餐",
-        "GitHub 注册",
-        "邀请码可选",
-        "QQ 号必填",
-        "注册需审核",
-        "QQ 群 309623044",
-      ],
-      url: "https://ai.onyxaxis.org/register?invite=AMMRWZ5P",
       tone: "active",
     },
     {
@@ -1507,6 +1511,43 @@ const entryTranslations = {
       "Image generation",
     ],
   },
+  "Axis AI 公益站": {
+    name: "Axis AI",
+    kind: "Public-benefit API relay / OpenAI-compatible / 8 models",
+    updateNote:
+      "Corrected to an API relay (OpenAI-compatible /v1) rather than a chat platform with no API; the model list was updated to the 8 models actually returned by the endpoint; registration is now OneAuth (QQ) OAuth; added the National Day benefits and the reset card after five days of check-ins; moved to the top of the public-benefit section at the user's request.",
+    summary:
+      "A free public-benefit API relay with an OpenAI-compatible endpoint (/v1), currently offering 8 models: claude-opus-5.5, claude-sonnet-5.5, gpt-6-astra, gpt-6.1-sol, gpt-6-sol, gpt-6-luna, gpt-5.6-sol, and gpt-5.6-luna. Registration goes through OneAuth (QQ login) OAuth and needs an email and QQ number, with submissions manually reviewed. National Day benefits are generous, and five consecutive days of check-ins grant a reset card (per user report).",
+    details:
+      "The service calls itself Axis AI (ai.onyxaxis.org) and describes itself as \"a completely free public-benefit AI platform\". It is in fact an API relay, exposing an OpenAI-compatible /v1 endpoint — an earlier version of this entry wrongly described it as a chat platform with no API, and that has been corrected. Testing /v1/models shows 8 models available right now: claude-opus-5.5, claude-sonnet-5.5, gpt-6-astra, gpt-6.1-sol, gpt-6-sol, gpt-6-luna, gpt-5.6-sol, and gpt-5.6-luna (all under the obsidian-arc channel group). Registration: only OneAuth (QQ login) OAuth is enabled, a username is mandatory, email is required though not force-verified, the QQ number is required, and invites are open. Turnstile human verification covers sign-up and API-key creation, and submissions go through a manual review. The service also has a reset-card mechanism where a card resets the 5-hour, weekly, monthly, or full usage window; National Day benefits are generous, and five consecutive days of check-ins grant a reset card (per user report). The official QQ group is 309623044.",
+    registration: "Register through OneAuth (QQ login) OAuth with a username, email (required), and QQ number; invites are open. Turnstile verification covers sign-up and API-key creation, and submissions go through a manual review.",
+    signupBonus: "Generous National Day benefits (confirm in the service); a reset card after five consecutive days of check-ins (per user report)",
+    dailyCheckin: "A check-in is available; five consecutive days grant a reset card (per user report)",
+    models:
+      "OpenAI-compatible /v1 with 8 models: claude-opus-5.5 / claude-sonnet-5.5 / gpt-6-astra / gpt-6.1-sol / gpt-6-sol / gpt-6-luna / gpt-5.6-sol / gpt-5.6-luna; GPT is not dumbed down (per user report)",
+    experience:
+      "A free public-benefit relay with an OpenAI-compatible endpoint; 8 models spanning Claude opus/sonnet and GPT 6-series, with GPT not dumbed down; generous National Day benefits with a reset card after five days of check-ins; verified callable in testing",
+    caveat:
+      "Per the operator's notice, the API must not be wired into role-play frontends such as SillyTavern, RisuAI, or Agnai, and keys must not be resold or shared for others to use. Jailbreaking, role-play bypasses, forged system instructions, encoding obfuscation, \"developer mode\" tricks, pornographic or borderline content, malicious code, and network attacks are likewise banned. Detection is automatic and violations lead to an immediate permanent ban with no appeal. The QQ number is required, so skip it if that bothers you; sign-ups are manually reviewed and are not approved instantly. The model list changes with the service, so confirm what is actually callable.",
+    benefits: [
+      "Public service",
+      "Completely free",
+      "API relay",
+      "OpenAI-compatible endpoint",
+      "claude-opus-5.5",
+      "claude-sonnet-5.5",
+      "gpt-6-astra",
+      "gpt-6-sol",
+      "gpt-6-luna",
+      "GPT not dumbed down",
+      "Verified callable",
+      "National Day benefits",
+      "Reset card after five days of check-ins",
+      "Reset cards reset usage windows",
+      "QQ group 309623044",
+    ],
+  },
+
   "Artbloom 公益站": {
     name: "Artbloom",
     kind: "Public service / one-year GitHub sign-up / $100 on registration",
