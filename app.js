@@ -1384,6 +1384,7 @@ const pageCopy = {
     filterCheckin: "每日签到",
     filterDraw: "生图/画画",
     filterEasyReg: "免绑易注",
+    filterNoDumbGpt: "不降智 GPT",
     expandDetails: "展开详情与避坑",
     collapseDetails: "收起详情",
     emptyTitle: "未检索到匹配站点",
@@ -1467,6 +1468,7 @@ const pageCopy = {
     filterCheckin: "Daily Check-in",
     filterDraw: "Image Generation",
     filterEasyReg: "Easy Sign-up",
+    filterNoDumbGpt: "Undumbed GPT",
     expandDetails: "Show details & caveats",
     collapseDetails: "Hide details",
     emptyTitle: "No matching services found",
@@ -2675,6 +2677,10 @@ const matchesFilterTag = (entry, tag) => {
     case "draw":
       return /生图|画画|nai|pai|draw|midjourney|flux|image|dall-e|sd/i.test(textPool);
 
+    case "nodumbgpt":
+      // 站方或用户明确写了「不降智」的 GPT 才命中，避免把只是列了 GPT 的站也算进来。
+      return /不降智.{0,6}gpt|gpt.{0,6}不降智|undumbed.{0,12}gpt|gpt.{0,12}undumbed|not dumbed.{0,12}gpt|gpt.{0,12}not dumbed|no dumbing.{0,12}gpt/i.test(textPool);
+
     case "easyreg":
       return /免绑|邮箱|无需.*github|免github|无需绑|账号密码|即开即用|免验证|自由注册|简单/i.test(
         `${entry.registration || ""} ${translation.registration || ""} ${textPool}`
@@ -3265,6 +3271,7 @@ const renderPage = () => {
   applyText("[data-filter-tag='checkin']", copy.filterCheckin);
   applyText("[data-filter-tag='draw']", copy.filterDraw);
   applyText("[data-filter-tag='easyreg']", copy.filterEasyReg);
+  applyText("[data-filter-tag='nodumbgpt']", copy.filterNoDumbGpt);
 
   const searchInputEl = document.querySelector("[data-feed-search]");
   if (searchInputEl) {
