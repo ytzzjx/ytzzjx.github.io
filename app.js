@@ -579,17 +579,17 @@ const siteConfig = {
       kind: "付费站 / GPT 与 Grok / 倍率约 0.15 / 国庆充值 1:1.1",
       name: "zquant",
       summary:
-        "付费站，本人充值 20 多；倍率约 0.15，有 GPT 全模型和 Grok。站内带降智检测和降智雷达——最近 GPT 风控比较严，降智很影响体验，使用前先看降智雷达；进 QQ 群 738420477 可领 1 块钱试用，站内还有签到，每次 0.1-1 刀，但现在需要充值满 20 才能签到。国庆活动期间充值按 1:1.1 算。",
+        "付费站，本人充值 20 多；倍率约 0.15，有 GPT 全模型和 Grok，**GPT 不降智**。站内带降智检测和降智雷达——最近 GPT 风控比较严，降智很影响体验，使用前先看降智雷达；进 QQ 群 738420477 可领 1 块钱试用，站内还有签到，每次 0.1-1 刀，但现在需要充值满 20 才能签到。国庆活动期间充值按 1:1.1 算。",
       details:
         "本人充值 20 多的一家付费站。倍率 0.15 左右，模型以 GPT 全模型和 Grok 为主。这家带降智检测：最近 GPT 的风控比较严，降智很影响体验，用之前建议先在站内看降智雷达，确认当前没有降智再上车。想先试试的话可以进官方 QQ 群 738420477 领 1 块钱试用；站内开了签到，每次 0.1-1 刀，但现在需要充值满 20 才能签到。国庆活动期间充值按 1:1.1 算。",
       registration: "通过邀请链接注册；进官方 QQ 群 738420477 可领 1 元试用。",
       signupBonus: "进 QQ 群 738420477 领 1 元试用",
       dailyCheckin: "0.1-1 刀（需充值满 20 才能签到）",
-      models: "GPT 全模型 / Grok",
-      experience: "本人充值 20 多；最近 GPT 风控较严，降智明显影响体验",
+      models: "GPT 全模型 / Grok；GPT 不降智",
+      experience: "本人充值 20 多；GPT 不降智，但最近整体风控较严、仍建议看降智雷达",
       caveat:
-        "降智是这家目前最大的问题：GPT 风控严的时候体验落差很大，付费前先用 1 元试用加降智雷达确认；倍率约 0.15，降智情况会随上游风控变化，以站内实际显示为准。",
-      benefits: ["付费站", "本人充值 20 多", "倍率约 0.15", "GPT 全模型", "Grok", "有降智检测", "降智雷达", "每日签到 0.1-1 刀", "充值满 20 才能签到", "国庆充值 1:1.1", "进 QQ 群领 1 元试用"],
+        "降智是这家目前最需要留意的问题：GPT 风控严的时候体验落差很大，付费前先用 1 元试用加降智雷达确认；倍率约 0.15，降智情况会随上游风控变化，以站内实际显示为准。",
+      benefits: ["付费站", "本人充值 20 多", "倍率约 0.15", "GPT 全模型", "Grok", "有降智检测", "降智雷达", "GPT 不降智", "每日签到 0.1-1 刀", "充值满 20 才能签到", "国庆充值 1:1.1", "进 QQ 群领 1 元试用"],
       url: "https://sub2api.zquant.site/register?aff=Y2YY4BZ5MSD4",
       pricing: "paid",
       tone: "active",
@@ -1784,17 +1784,17 @@ const entryTranslations = {
     kind: "Paid service / GPT and Grok / about 0.15 rate / 1:1.1 top-ups for National Day",
     updateNote: "Top-ups convert at 1:1.1 during the National Day promotion.",
     summary:
-      "A paid service I have topped up over 20 on, with an about-0.15 rate and the full GPT lineup plus Grok. It includes dumbing-down detection and a dumbing-down radar — GPT risk control has been strict lately and dumbing-down heavily affects the experience, so check the radar before use; join QQ group 738420477 for a 1-yuan trial, and an on-site check-in adds 0.1-1 each time, but it now requires a top-up of at least 20. During the National Day promotion, top-ups convert at 1:1.1.",
+      "A paid service I have topped up over 20 on, with an about-0.15 rate and the full GPT lineup plus Grok, **with GPT not dumbed down**. It includes dumbing-down detection and a dumbing-down radar — GPT risk control has been strict lately and dumbing-down heavily affects the experience, so check the radar before use; join QQ group 738420477 for a 1-yuan trial, and an on-site check-in adds 0.1-1 each time, but it now requires a top-up of at least 20. During the National Day promotion, top-ups convert at 1:1.1.",
     details:
       "A paid service I have topped up over 20 on. The rate is around 0.15, with models focused on the full GPT lineup and Grok. This one includes dumbing-down detection: GPT risk control has been strict lately, and dumbing-down heavily affects the experience, so check the in-site dumbing-down radar first and confirm there is no dumbing-down before committing. To try it out first, join the official QQ group 738420477 for a 1-yuan trial; an on-site check-in is also live, worth 0.1-1 each time, but it now requires a top-up of at least 20. During the National Day promotion, top-ups convert at 1:1.1.",
     registration: "Register through the referral link; join the official QQ group 738420477 for a 1-yuan trial.",
     signupBonus: "1-yuan trial in QQ group 738420477",
     dailyCheckin: "0.1-1 each time (requires a top-up of at least 20)",
-    models: "Full GPT lineup / Grok",
-    experience: "Topped up over 20 personally; GPT risk control has been strict lately and dumbing-down noticeably affects the experience",
+    models: "Full GPT lineup / Grok; GPT is not dumbed down",
+    experience: "Topped up over 20 personally; GPT is not dumbed down, though risk control has been strict lately and the radar is still worth checking",
     caveat:
-      "Dumbing-down is the biggest issue here: when GPT risk control is strict, the experience drops sharply, so use the 1-yuan trial and the dumbing-down radar before paying. The rate is about 0.15 and dumbing-down tracks upstream risk control; confirm current values on the service.",
-    benefits: ["Paid service", "Topped up over 20 personally", "About 0.15 rate", "Full GPT lineup", "Grok", "Dumbing-down detection", "Dumbing-down radar", "Daily check-in 0.1-1", "Check-in requires a top-up of at least 20", "1:1.1 top-ups for National Day", "1-yuan trial in the QQ group"],
+      "Dumbing-down is the thing to watch most here: when GPT risk control is strict, the experience drops sharply, so use the 1-yuan trial and the dumbing-down radar before paying. The rate is about 0.15 and dumbing-down tracks upstream risk control; confirm current values in the service.",
+    benefits: ["Paid service", "Topped up over 20 personally", "About 0.15 rate", "Full GPT lineup", "Grok", "Dumbing-down detection", "Dumbing-down radar", "GPT not dumbed down", "Daily check-in 0.1-1", "Check-in requires a top-up of at least 20", "1:1.1 top-ups for National Day", "1-yuan trial in the QQ group"],
   },
   "星见雅": {
     name: "Xinjianya",
@@ -3390,8 +3390,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("[data-filter-tag]").forEach((button) => {
     button.addEventListener("click", () => {
       const tag = button.dataset.filterTag;
-      if (currentFilterTag === tag) return;
-      currentFilterTag = tag;
+      // 再点一次当前已选中的标签即取消筛选，回到「全部」。
+      currentFilterTag = currentFilterTag === tag ? "all" : tag;
       renderPage();
     });
   });
