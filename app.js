@@ -294,12 +294,12 @@ const siteConfig = {
       kind: "付费站 / 33 个模型 13 分组 / cc-max 满血",
       name: "SheApi",
       summary:
-        "付费站，注册送 1、有签到。33 个模型分成 13 个分组，低倍率分组有 plus_0720 的 0.04 和 deepseek / glm / kimi 的 0.07；grok 分组 0.09 是 **grok-heavy 号池、不降智**（注意是 Grok 而不是 GPT）；cc-max 是满血且有防封微注入。注册只支持 QQ 邮箱。",
+        "付费站，注册送 1、签到 0.2 左右。33 个模型分成 13 个分组，低倍率分组有 plus_0720 的 0.04 和 deepseek / glm / kimi 的 0.07；grok 分组 0.09 是 **grok-heavy 号池、不降智**（注意是 Grok 而不是 GPT）；cc-max 是满血且有防封微注入。注册只支持 QQ 邮箱。",
       details:
-        "站内名称 SheApi（www.sheapi.top），页脚 © 2026 SheApi，New API 程序，额度按美元显示（汇率约 7.3）。注册只支持 QQ 邮箱，注册环节无人机验证，需邮箱验证；注册送 1，站内有签到。官方提示：注册建议别开梯子，收不到验证码先检查垃圾箱，确定没有的加 QQ 3355691290 手工注册，TG 通知群 t.me/chengcheng2026_bot。模型广场公开可查，33 个模型、13 个分组：cc-max（倍率 1.2，站方称「满血 ccmax，有防封微注入」）、gpt-max（0.6，「满血官 key，无惧官方路由，不降智商」）、pro（0.2，「稳定，快速，Pro 号池，不降智」）、grok（0.09，「grok-heavy 号池，不降智」）、luna（0.3，gpt-5.6-luna 与 gpt-6-luna 专用分组）、plus_0720（0.04，「性价比，gpt 系列，更稳定」）、deepseek / glm / kimi（均 0.07，「自研特供渠道」）、gpt-image-2（1，0.04 每张，1k/2k/4k 生图）、gpt-image-2-原生（1.5，0.06 每张，高画质 4k 接近原生），另有「特殊测试组」（99，站方标注「勿选，仅供管理员测试使用」）。cc-max 分组公告已下架。模型覆盖 Claude opus 5-5 / 5 / 4-8 / 4-7 / 4-6、sonnet 5 / 4-6、fable 5 / 5-1，GPT 6-astra / 6-sol / 6.1-sol / 6-luna / 5.6-luna / 5.6-sol / 5.6-terra / 5.5，Grok 4.5 / 4.6 / 4.7，DeepSeek v4-pro / v4-flash / v4.1-flash，GLM 5.2 / 5.3，Kimi k3，以及 gpt-image-2 系列生图（按张计费）。充值与售卡走 pay.ldxp.cn/shop/QYHYA5BR，客服 QQ 3355691290，退款按余额 90%。",
-      registration: "注册只支持 QQ 邮箱，需邮箱验证，无人机验证；注册送 1。",
+        "站内名称 SheApi（www.sheapi.top），页脚 © 2026 SheApi，New API 程序，额度按美元显示（汇率约 7.3）。注册只支持 QQ 邮箱，注册环节无人机验证，需邮箱验证；注册送 1，每日签到 0.2 左右（用户提供）。官方提示：注册建议别开梯子，收不到验证码先检查垃圾箱，确定没有的加 QQ 3355691290 手工注册，TG 通知群 t.me/chengcheng2026_bot。模型广场公开可查，33 个模型、13 个分组：cc-max（倍率 1.2，站方称「满血 ccmax，有防封微注入」）、gpt-max（0.6，「满血官 key，无惧官方路由，不降智商」）、pro（0.2，「稳定，快速，Pro 号池，不降智」）、grok（0.09，「grok-heavy 号池，不降智」）、luna（0.3，gpt-5.6-luna 与 gpt-6-luna 专用分组）、plus_0720（0.04，「性价比，gpt 系列，更稳定」）、deepseek / glm / kimi（均 0.07，「自研特供渠道」）、gpt-image-2（1，0.04 每张，1k/2k/4k 生图）、gpt-image-2-原生（1.5，0.06 每张，高画质 4k 接近原生），另有「特殊测试组」（99，站方标注「勿选，仅供管理员测试使用」）。cc-max 分组公告已下架。模型覆盖 Claude opus 5-5 / 5 / 4-8 / 4-7 / 4-6、sonnet 5 / 4-6、fable 5 / 5-1，GPT 6-astra / 6-sol / 6.1-sol / 6-luna / 5.6-luna / 5.6-sol / 5.6-terra / 5.5，Grok 4.5 / 4.6 / 4.7，DeepSeek v4-pro / v4-flash / v4.1-flash，GLM 5.2 / 5.3，Kimi k3，以及 gpt-image-2 系列生图（按张计费）。充值与售卡走 pay.ldxp.cn/shop/QYHYA5BR，客服 QQ 3355691290，退款按余额 90%。",
+      registration: "注册只支持 QQ 邮箱，需邮箱验证，无人机验证；注册送 1，每日签到 0.2 左右。",
       signupBonus: "1",
-      dailyCheckin: "有签到",
+      dailyCheckin: "0.2 左右（用户提供）",
       models:
         "33 个模型 13 分组：cc-max ×1.2（满血、有防封微注入）/ gpt-max ×0.6（满血官 key）/ pro ×0.2（Pro 号池）/ grok ×0.09 / luna ×0.3 / plus_0720 ×0.04 / deepseek、glm、kimi ×0.07；gpt-image-2 按张 0.04、原生版 0.06",
       experience:
@@ -309,7 +309,7 @@ const siteConfig = {
       benefits: [
         "付费站",
         "注册送 1",
-        "有签到",
+        "签到 0.2 左右",
         "33 个模型 13 分组",
         "cc-max 满血",
         "防封微注入",
@@ -1494,12 +1494,12 @@ const entryTranslations = {
     updateNote:
       "New listing: a paid service granting 1 on registration with a check-in; 33 models in 13 groups, where the grok group is a grok-heavy account pool that runs undumbed and plus_0720 is at a 0.04 rate. Registration accepts QQ email only.",
     summary:
-      "A paid service granting 1 on registration with a check-in. It carries 33 models across 13 groups: the cheapest are plus_0720 at 0.04 and deepseek / glm / kimi at 0.07, the grok group at 0.09 is a **grok-heavy account pool and runs undumbed** (this is Grok, not GPT); cc-max is full-powered with anti-ban micro-injection. Registration accepts QQ email only.",
+      "A paid service granting 1 on registration, with a check-in worth about 0.2. It carries 33 models across 13 groups: the cheapest are plus_0720 at 0.04 and deepseek / glm / kimi at 0.07, the grok group at 0.09 is a **grok-heavy account pool and runs undumbed** (this is Grok, not GPT); cc-max is full-powered with anti-ban micro-injection. Registration accepts QQ email only.",
     details:
       "The service calls itself SheApi (www.sheapi.top, footer © 2026 SheApi), runs on New API, and displays credit in USD at about 7.3. Registration accepts QQ email only, with email verification and no human verification; registration grants 1 and the site has a check-in. Per the operator: do not use a VPN while registering, check spam first if no verification code arrives, add QQ 3355691290 for manual registration if none shows up, and the Telegram notice group is t.me/chengcheng2026_bot. The public model list shows 33 models in 13 groups: cc-max (1.2x, described as \"full-power ccmax, with anti-ban micro-injection\"), gpt-max (0.6x, \"full-power official keys, immune to official routing, no dumbing-down\"), pro (0.2x, \"stable and fast, Pro account pool, not dumbed\"), grok (0.09x, \"grok-heavy account pool, not dumbed\"), luna (0.3x, a dedicated group for gpt-5.6-luna and gpt-6-luna), plus_0720 (0.04x, \"value for money, GPT series, more stable\"), deepseek / glm / kimi (all 0.07x, described as self-developed special channels), gpt-image-2 (1x, $0.04 per image, 1k/2k/4k), gpt-image-2-native (1.5x, $0.06 per image, high-quality 4k close to native), plus a \"special test group\" (99x, marked by the operator as admin-testing only and not to be selected). An announcement says the cc-max group has been taken offline. Model coverage includes Claude opus 5-5 / 5 / 4-8 / 4-7 / 4-6, sonnet 5 / 4-6, fable 5 / 5-1; GPT 6-astra / 6-sol / 6.1-sol / 6-luna / 5.6-luna / 5.6-sol / 5.6-terra / 5.5; Grok 4.5 / 4.6 / 4.7; DeepSeek v4-pro / v4-flash / v4.1-flash; GLM 5.2 / 5.3; Kimi k3; and the gpt-image-2 image series (billed per image). Top-ups go through pay.ldxp.cn/shop/QYHYA5BR or customer service on QQ 3355691290, and refunds pay 90% of the remaining balance.",
-    registration: "Register with a QQ email address, with email verification and no human verification; registration grants 1.",
+    registration: "Register with a QQ email address, with email verification and no human verification; registration grants 1 and the daily check-in is worth about 0.2.",
     signupBonus: "1",
-    dailyCheckin: "A check-in is available",
+    dailyCheckin: "About 0.2 per check-in (per user report)",
     models:
       "33 models in 13 groups: cc-max 1.2x (full power, anti-ban micro-injection) / gpt-max 0.6x (full-power official keys) / pro 0.2x (Pro account pool) / grok 0.09x / luna 0.3x / plus_0720 0.04x / deepseek, glm, kimi 0.07x; gpt-image-2 at $0.04 per image and the native version at $0.06",
     experience:
@@ -1509,7 +1509,7 @@ const entryTranslations = {
     benefits: [
       "Paid service",
       "1 on registration",
-      "Check-in available",
+      "Check-in about 0.2",
       "33 models in 13 groups",
       "cc-max full power",
       "Anti-ban micro-injection",
