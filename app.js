@@ -37,6 +37,7 @@ const siteConfig = {
     "MotoMoto",
     "AnyRouter",
     "TokenForge（tokengate）",
+    "Edge API",
     "SheApi",
     "sub-coco",
     "zquant",
@@ -208,6 +209,38 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-07 00:00",
+      addedAt: "2026-10-07",
+      updatedAt: "2026-10-07",
+      updateNote: "新收录：付费站，走 aff 注册送 1 刀，0.07 倍率不降智 GPT；注册为邮箱验证。",
+      kind: "付费站 / 走 aff 送 1 刀 / 0.07 倍不降智 GPT",
+      name: "Edge API",
+      summary:
+        "付费站，走 aff 注册送 1 刀；有 0.07 倍率的不降智 GPT（用户提供）。额度按人民币显示。",
+      details:
+        "站内名称 Edge API（另有 ai.mxmt.cn 与 ai.femkj.cn 备用入口），New API 程序，额度按人民币显示。注册为邮箱验证，走 aff 送 1 刀。0.07 倍率不降智 GPT 为用户提供。",
+      registration: "邮箱验证注册（走邀请链接），无人机验证；走 aff 注册送 1 刀。",
+      signupBonus: "1 刀（走 aff 注册）",
+      dailyCheckin: "以站内实际显示为准",
+      models:
+        "0.07 倍不降智 GPT（用户提供）；站方公告分组倍率 deepseek / GLM 0.10，Claude-MAX 满血 0.80",
+      experience:
+        "付费站，走 aff 注册送 1 刀，0.07 倍率不降智 GPT",
+      caveat:
+        "付费站，充值前先小额验证。注册赠送 1 刀与 0.07 倍率为用户提供，站方注明倍率不是官方折扣、以模型价格页和消费记录为准。主用 ai.mxmt.cn，备用 ai.femkj.cn 与 ai.lffm.cn。",
+      benefits: [
+        "付费站",
+        "走 aff 注册送 1 刀",
+        "0.07 倍率不降智 GPT",
+        "Claude-MAX 满血 0.80 倍",
+        "便宜生图",
+        "QQ 群 1094759296",
+      ],
+      url: "https://ai.lffm.cn/sign-up?aff=Xw7r",
+      pricing: "paid",
+      tone: "active",
+    },
     {
       publishedAt: "2026-09-25 00:00",
       addedAt: "2026-09-25",
@@ -1476,6 +1509,36 @@ const entryTranslations = {
       "Grok group undumbed",
       "gpt-image-2 image generation",
       "QQ email only",
+    ],
+  },
+  "Edge API": {
+    name: "Edge API",
+    kind: "Paid service / 1 on registration / 0.07x undumbed GPT",
+    updateNote:
+      "New listing: a paid service granting 1 on sign-up through the referral link, with undumbed GPT at a 0.07 rate (per user report); registration uses email verification.",
+    summary:
+      "A paid service granting 1 on sign-up through the referral link, with undumbed GPT available at a 0.07 rate (per user report). Credit is displayed in CNY.",
+    details:
+      "The service calls itself Edge API (ai.lffm.cn, with ai.mxmt.cn and ai.femkj.cn as additional entry points), runs on New API, and displays credit in CNY. Registration uses email verification; signing up through the referral link grants 1. The 0.07x undumbed GPT is per user report.",
+    registration: "Register with email verification through the referral link, with no human verification; signing up through the referral link grants 1.",
+    signupBonus: "1 (through the referral link)",
+    dailyCheckin: "Go by what the service shows",
+    models:
+      "0.07x undumbed GPT (per user report); the operator announcement lists deepseek / GLM at 0.10x and full-power Claude-MAX at 0.80x",
+    experience:
+      "A paid service; 1 on sign-up through the referral link; 0.07x undumbed GPT",
+    caveat:
+      "A paid service — verify with a small top-up first. The 1 grant and the 0.07 rate come from a user report; the operator notes rates are not official discounts and are subject to the model price page and consumption records. Use ai.mxmt.cn as the primary and ai.femkj.cn or ai.lffm.cn as backups.",
+    benefits: [
+      "Paid service",
+      "1 on sign-up through the referral link",
+      "0.07x undumbed GPT",
+      "deepseek / GLM at 0.10x",
+      "Full-power Claude-MAX at 0.80x",
+      "Cheap image generation",
+      "Three switchable entry points",
+      "Domestic ICP-registered entry point",
+      "QQ group 1094759296",
     ],
   },
   "xxzl 公益站": {
