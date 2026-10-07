@@ -1103,8 +1103,8 @@ const siteConfig = {
     },
     {
       publishedAt: "2026-08-20 00:00",
-      updatedAt: "2026-10-04",
-      updateNote: "签到 0.1-0.5 元。",
+      updatedAt: "2026-10-07",
+      updateNote: "注册链接更换为新的 aff 码 Q8KA3A9E6CBR（原 9yXf 已停用），路径由 sign-up 改为 register；其余不变（签到 0.1-0.5 元，Grok Heavy 0.08）。",
       kind: "付费站 / Grok Heavy 0.08",
       pricing: "paid",
       name: "AbinAPI",
@@ -1118,7 +1118,7 @@ const siteConfig = {
       experience: "Grok Heavy 0.08，倍率低且好用",
       caveat: "付费站。Grok Heavy 目前是 0.08，其他模型也有，但这个更低且好用；实际倍率和可用模型以站内显示为准。",
       benefits: ["付费站", "不用进 QQ 群", "Grok Heavy 0.08", "其他模型也有", "倍率低且好用", "签到 0.1-0.5 元"],
-      url: "https://www.abinapi.com/sign-up?aff=9yXf",
+      url: "https://www.abinapi.com/register?aff=Q8KA3A9E6CBR",
       tone: "active",
     },
     {
@@ -2125,7 +2125,7 @@ const entryTranslations = {
   },
   AbinAPI: {
     kind: "Paid service / Grok Heavy 0.08",
-    updateNote: "Check-in is 0.1-0.5 yuan.",
+    updateNote: "The registration link changed to the new referral code Q8KA3A9E6CBR (the old 9yXf is retired) and the path is now /register instead of /sign-up; otherwise unchanged (check-in 0.1-0.5 yuan, Grok Heavy at 0.08).",
     summary:
       "Joining the QQ group is no longer required. Grok Heavy runs at 0.08; other models are available, but this one is cheaper and works well. Check-in is 0.1-0.5 yuan.",
     details:
