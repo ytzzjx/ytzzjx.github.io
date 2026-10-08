@@ -60,6 +60,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| Aotera | **付费新站，Plus 分组 0.1 倍率不降智 GPT**（Pro 0.17、Pro 500 0.24）；7 个模型全是 GPT 系。邮箱验证加人机验证注册。**开业活动：进群人数每到一个阶段领红包，第一天签到送 6**。 | [注册](https://aotera.cc/sign-up?aff=NYYY) |
 | Edge API | **付费站，走 aff 注册送 0.1、进群由管理发给 1**；有 **0.07 倍率的不降智 GPT**（用户提供）。额度按人民币显示，邮箱验证注册。 | [注册](https://ai.lffm.cn/sign-up?aff=Xw7r) |
 | SheApi | **付费站，注册送 1、签到 0.2 左右。** 33 个模型 13 个分组：**cc-max 满血且带防封微注入**、gpt-max 满血官 key、pro 号池、**grok 不降智**；**plus_0720 倍率 0.04** 最便宜，deepseek / glm / kimi 0.07，另有 gpt-image-2 生图（0.04 每张）。**注册只支持 QQ 邮箱**，禁止跑蒸馏。 | [注册](https://www.sheapi.top/sign-up?aff=moEE) |
 | sub-coco | **付费源头站，zquant 的一个上游，也是很多站点的源头，利润比较低。** 没有签到，注册不送额度；现已上线 **0.08 的 GPT 不降智分组**，国庆期间另有 **0.2 倍的福利官 key**。 | [注册](https://www.sub-coco.org/register?aff=WSKLQ874RAKN) |
