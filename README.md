@@ -27,7 +27,7 @@
 | 墨白公益站 | 公益站，限 gmail / 163 / qq / foxmail / icloud 邮箱注册，需邮箱验证和人机验证，**需要绑定 OIDC，否则会删号**；**每日签到 1-10，进官方 QQ 群 444158239（进群答案 zakozako）可再签到一次，相当于每天两次**。免费可用 DeepSeek V4.1 Flash（模型广场虽列出 936 个，实际可用不多）。 | [注册](https://new.ai.hinswu.top/sign-up?aff=L6as) |
 | hiyo | 公益站，GitHub 或 Linux DO 注册，注册送 20，有签到；已上线 gpt-6-luna，**速度可能稍微较慢**。 | [注册](https://free.hiyo.top/register?aff=ASBDCX98PNNG) |
 | Piu酱 | 公益站，**已重新开放注册，先到先得**；注册送 20 额度，每日随机签到 1-10 刀。含 gemini-3.8-flash-medium、gemini-3-pro、DeepSeek V4.1 Flash、GLM-5.3-Flash 等 14 个模型，按量与按次两种计费，**按次每次 0.2**，GLM、DeepSeek、MiMo 等模型倍率 0。8 月底开站，属新站。 | [注册](https://piu.du4s.com/sign-up?aff=SjXZ) |
-| GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1。注册送 1 块，**现已开签到，每天约 1 毛（约十次请求）**；订阅两档也划算——5 元每周重置 30 元额度，**20 元每天重置 300 元额度**（每天约三万次请求）。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://zc.gcmod.cn/sign-up?aff=4wem) |
+| GcmodAi | 全部模型**每次请求一分钱**（不按 token 计量），充值 1:1。注册送 1 块，**现已开签到，每天约 1 毛（约十次请求）**；订阅两档也划算——5 元每周重置 30 元额度，**20 元每天重置 300 元额度**（每天约三万次请求）。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。 | [注册](https://gcmod.bond/register?aff=4wem) |
 | StarBridge 公益站 | 公益站，GitHub 注册送 20 元、每日签到 10 元；含 gemini-3.8-flash-high、gpt-6-astra、gpt-5.6-sol、claude-sonnet-4-6 等 15 个模型，模型广场公开可查。**站点服务器此前忘记续约，原账号需要重新注册**；站内 9 月 18 日公告曾称暂停新用户注册、部分模型限量供应，注册改走 GitHub；Gemini 占比高，受 Google 限速调整影响的可能性较大。 | [注册](https://api.careke.cn/sign-up?aff=MYwA) |
 | AgentRouter | 注册送 75 刀、每日签到 25 刀；现已支持 GLM-5.3、DeepSeek V4 Flash，Claude 倍率上调、GPT-5.6-sol 倍率下调。GitHub 老号或 Linux Do 账号；国内打不开原站可直接走国内入口，无需代理。 | [注册](https://agentrouter.org/register?aff=i3Xz) / [国内入口](https://ps.air-outer.com/register?aff=i3Xz) |
 | JustWoker 公益站 | **模型已换成 Claude Opus 4.8，走 Kiro 渠道**；调用请使用 /v1/messages。**有部分用户反馈该渠道存在偷数据和注入问题：不要用在隐私场景，使用时盯着提示词。** 原有注册门槛为 GitHub 账号满 1 年，当前注册与福利规则以站内显示为准。 | [注册](https://api.justwoker.icu/sign-up?aff=T5tm) |
@@ -60,7 +60,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| Aotera | **付费新站，Plus 分组 0.1 倍率不降智 GPT**（Pro 0.17、Pro 500 0.24）；7 个模型全是 GPT 系。邮箱验证加人机验证注册。**开业活动：进群人数每到一个阶段领红包，第一天签到送 6**。 | [注册](https://aotera.cc/sign-up?aff=NYYY) |
+| Aotera | **付费新站，Plus 分组 0.1 倍率不降智 GPT**（Pro 0.17、Pro 500 0.24）；7 个模型全是 GPT 系。邮箱验证加人机验证注册。**开业活动：进群人数每到一个阶段领红包，第一天签到送 6**（以群内公告和站内为准）。 | [注册](https://aotera.cc/sign-up?aff=NYYY) |
 | Edge API | **付费站，走 aff 注册送 0.1、进群由管理发给 1**；有 **0.07 倍率的不降智 GPT**（用户提供）。额度按人民币显示，邮箱验证注册。 | [注册](https://ai.lffm.cn/sign-up?aff=Xw7r) |
 | SheApi | **付费站，注册送 1、签到 0.2 左右。** 33 个模型 13 个分组：**cc-max 满血且带防封微注入**、gpt-max 满血官 key、pro 号池、**grok 不降智**；**plus_0720 倍率 0.04** 最便宜，deepseek / glm / kimi 0.07，另有 gpt-image-2 生图（0.04 每张）。**注册只支持 QQ 邮箱**，禁止跑蒸馏。 | [注册](https://www.sheapi.top/sign-up?aff=moEE) |
 | sub-coco | **付费源头站，zquant 的一个上游，也是很多站点的源头，利润比较低。** 没有签到，注册不送额度；现已上线 **0.08 的 GPT 不降智分组**，国庆期间另有 **0.2 倍的福利官 key**。 | [注册](https://www.sub-coco.org/register?aff=WSKLQ874RAKN) |

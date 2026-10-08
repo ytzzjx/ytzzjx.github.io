@@ -214,19 +214,19 @@ const siteConfig = {
       publishedAt: "2026-10-07 00:00",
       addedAt: "2026-10-07",
       updatedAt: "2026-10-07",
-      updateNote: "新收录：付费站，0.1 倍率不降智 GPT；开业活动，进群人数每到一个阶段领红包，第一天签到送 6。",
+      updateNote: "新收录：付费站，Plus 0.1 倍率不降智 GPT（用户确认）；开业活动，进群人数每到一个阶段领红包，第一天签到送 6。",
       kind: "付费站 / 0.1 倍不降智 GPT / 开业活动",
       name: "Aotera",
       summary:
-        "付费新站，Plus 分组 0.1 倍率、GPT 不降智；Pro 0.17 倍、Pro 500 0.24 倍。注册有 Turnstile 人机验证与邮箱验证。开业活动：进群人数每到一个阶段领红包，第一天签到送 6（用户提供）。",
+        "付费新站，Plus 分组 0.1 倍率、GPT 不降智；Pro 0.17 倍、Pro 500 0.24 倍。注册有 Turnstile 人机验证与邮箱验证。开业活动：进群人数每到一个阶段领红包，第一天签到送 6。",
       details:
-        "站内名称 Aotera（aotera.cc），New API 程序，额度按人民币（¥）显示。Plus 分组 0.1 倍率，站方自述该组不降智（用户提供）；Pro 0.17 倍、Pro 500 0.24 倍。模型广场公开可查，当前 7 个全是 GPT 系：gpt-6-astra、gpt-6-sol、gpt-6-luna、gpt-6.1-sol、gpt-5.6-luna、gpt-5.6-sol、gpt-5.6-terra，三个分组都能用。注册需邮箱验证并开 Turnstile 人机验证，无 GitHub / Linux DO 登录；站内有签到。开业活动：进群人数每到一个阶段领红包，第一天签到送 6（用户提供），具体规则与结束时间以群内公告和站内显示为准。",
+        "站内名称 Aotera（aotera.cc），New API 程序，额度按人民币（¥）显示。Plus 分组 0.1 倍率，不降智（已确认）；Pro 0.17 倍、Pro 500 0.24 倍。模型广场公开可查，当前 7 个全是 GPT 系：gpt-6-astra、gpt-6-sol、gpt-6-luna、gpt-6.1-sol、gpt-5.6-luna、gpt-5.6-sol、gpt-5.6-terra，三个分组都能用。注册需邮箱验证并开 Turnstile 人机验证，无 GitHub / Linux DO 登录；站内有签到。开业活动：进群人数每到一个阶段领红包，第一天签到送 6，具体规则与结束时间以群内公告和站内显示为准。",
       registration: "邮箱验证注册并完成 Turnstile 人机验证（走邀请链接）。",
       signupBonus: "开业活动：进群人数每阶段领红包（以群内公告为准）",
-      dailyCheckin: "有签到；开业第一天签到送 6（用户提供）",
+      dailyCheckin: "有签到；开业第一天签到送 6",
       models: "Plus ×0.1（不降智）/ Pro ×0.17 / Pro 500 ×0.24；7 个 GPT 系模型（6-astra、6-sol、6-luna、6.1-sol、5.6-luna/sol/terra）",
       experience: "付费新站开业；Plus 组 0.1 倍不降智 GPT；第一天签到送 6，进群按人数阶段发红包",
-      caveat: "付费站，开业活动的红包与签到赠送均为用户提供，阶段规则、金额和结束时间以群内公告和站内显示为准。注册有人机验证；模型目前以 GPT 系为主，倍率与可用模型以站内模型广场为准。",
+      caveat: "付费站，开业活动的红包与签到赠送以群内公告和站内显示为准，阶段规则、金额和结束时间可能随时调整。注册有人机验证；模型目前以 GPT 系为主，倍率与可用模型以站内模型广场为准。",
       benefits: [
         "付费站",
         "0.1 倍率不降智 GPT",
@@ -891,8 +891,8 @@ const siteConfig = {
     {
       publishedAt: "2026-08-31 00:00",
       addedAt: "2026-08-31",
-      updatedAt: "2026-09-20",
-      updateNote: "新增 Kimi-K3，已移到公益区前列。",
+      updatedAt: "2026-10-07",
+      updateNote: "换域名为 gcmod.bond（原 zc.gcmod.cn 已停用），注册链接改用新域名；新增 Kimi-K3 并已移到公益区前列。",
       kind: "半公益站 / 一分钱一次",
       name: "GcmodAi",
       summary: "全部模型按次计费，每次请求一分钱（0.01 元），不看 token 用量。注册送 1 块，现已开签到，每天约 1 毛、够跑十次请求；订阅两档也划算——5 元每周重置 30 元额度，20 元每天重置 300 元额度。含 Kimi-K3、GPT-5.6-luna 与 DeepSeek V4 Pro。",
@@ -905,7 +905,7 @@ const siteConfig = {
       experience: "全模型每次请求一分钱；签到够轻量用，跑量走订阅",
       caveat: "签到每天约 1 毛，只够十次请求，跑量还是得订阅或充值（1:1）。订阅套餐价格和额度都是人民币（5 元 / 30 元额度每周重置，20 元 / 300 元额度每天重置），有效期都是一个月。签到金额、并发和具体模型清单以站内实际显示为准，套餐价格与额度也可能调整。",
       benefits: ["每次请求一分钱", "不按 token 计费", "注册送 1 块", "每日签到约 1 毛", "20 元档每天重置 300 元额度", "5 元档每周重置 30 元额度", "订阅升 VIP 分组", "充值 1:1", "Kimi-K3", "GPT-5.6-luna", "DeepSeek V4 Pro"],
-      url: "https://zc.gcmod.cn/sign-up?aff=4wem",
+      url: "https://gcmod.bond/register?aff=4wem",
       tone: "active",
     },
     {
@@ -1556,18 +1556,18 @@ const entryTranslations = {
     name: "Aotera",
     kind: "Paid service / 0.1x undumbed GPT / opening promotion",
     updateNote:
-      "New listing: a paid service with undumbed GPT at a 0.1 rate; opening promotion with red packets as group membership hits each stage and 6 granted on the first day of check-ins.",
+      "New listing: a paid service with undumbed GPT at 0.1x on the Plus group (confirmed); opening promotion with red packets as group membership hits each stage and 6 granted on the first day of check-ins.",
     summary:
-      "A new paid service: the Plus group runs undumbed GPT at 0.1x, with Pro at 0.17x and Pro 500 at 0.24x. Registration needs a captcha and email verification. Opening promotion: red packets as group membership hits each stage, and 6 granted on the first day of check-ins (per user report).",
+      "A new paid service: the Plus group runs undumbed GPT at 0.1x, with Pro at 0.17x and Pro 500 at 0.24x. Registration needs a captcha and email verification. Opening promotion: red packets as group membership hits each stage, and 6 granted on the first day of check-ins.",
     details:
-      "The service calls itself Aotera (aotera.cc), runs on New API, and displays credit in CNY (¥). The Plus group runs at a 0.1 rate, which the operator describes as undumbed (per user report); Pro runs at 0.17x and Pro 500 at 0.24x. The public model list currently shows 7 models, all GPT-family: gpt-6-astra, gpt-6-sol, gpt-6-luna, gpt-6.1-sol, gpt-5.6-luna, gpt-5.6-sol, and gpt-5.6-terra, all available in the three groups. Registration needs email verification and a Turnstile captcha, with no GitHub or Linux DO login; the service has a check-in. Opening promotion: red packets as group membership hits each stage, and 6 granted on the first day of check-ins (per user report) — the stage rules, amounts, and end date follow the group announcement and the service.",
+      "The service calls itself Aotera (aotera.cc), runs on New API, and displays credit in CNY (¥). The Plus group runs at a 0.1 rate and is undumbed (confirmed); Pro runs at 0.17x and Pro 500 at 0.24x. The public model list currently shows 7 models, all GPT-family: gpt-6-astra, gpt-6-sol, gpt-6-luna, gpt-6.1-sol, gpt-5.6-luna, gpt-5.6-sol, and gpt-5.6-terra, all available in the three groups. Registration needs email verification and a Turnstile captcha, with no GitHub or Linux DO login; the service has a check-in. Opening promotion: red packets as group membership hits each stage, and 6 granted on the first day of check-ins — the stage rules, amounts, and end date follow the group announcement and the service.",
     registration: "Register with email verification and complete the Turnstile captcha through the referral link.",
     signupBonus: "Opening promotion: red packets as group membership hits each stage (see the group announcement)",
-    dailyCheckin: "A check-in is available; 6 granted on the first day of the promotion (per user report)",
+    dailyCheckin: "A check-in is available; 6 granted on the first day of the promotion",
     models: "Plus 0.1x (undumbed) / Pro 0.17x / Pro 500 0.24x; 7 GPT-family models (6-astra, 6-sol, 6-luna, 6.1-sol, 5.6-luna/sol/terra)",
     experience: "A new paid service; undumbed GPT at 0.1x on the Plus group; 6 on the first-day check-in and red packets as group membership hits each stage",
     caveat:
-      "A paid service. The promotion's red packets and first-day check-in credit come from a user report; the stage rules, amounts, and end date follow the group announcement and the service. Registration uses a captcha. Models are currently GPT-family, so confirm rates and availability on the in-site model page.",
+      "A paid service. The promotion's red packets and first-day check-in credit follow the group announcement and the service; the stage rules, amounts, and end date may change at any time. Registration uses a captcha. Models are currently GPT-family, so confirm rates and availability on the in-site model page.",
     benefits: [
       "Paid service",
       "0.1x undumbed GPT",
