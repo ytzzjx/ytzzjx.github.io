@@ -41,7 +41,6 @@ const siteConfig = {
     "Aotera",
     "Edge API",
     "SheApi",
-    "sub-coco",
     "zquant",
     "Nofx",
     "AbinAPI",
@@ -604,30 +603,6 @@ const siteConfig = {
       url: "https://free.hiyo.top/register?aff=ASBDCX98PNNG",
       altUrl: "https://free.hiyo.top/register?aff=GTV52T7GU2EF",
       altLabel: "备用邀请码注册入口",
-      tone: "active",
-    },
-    {
-      publishedAt: "2026-10-03 00:00",
-      addedAt: "2026-10-03",
-      updatedAt: "2026-10-03",
-      updateNote: "福利官 key 已常驻：0.2 倍率不降智 GPT，96% 以上缓存；按用户要求标记为站长推荐。",
-      kind: "源头站 / 0.2 倍不降智 GPT 官 key 常驻",
-      recommended: true,
-      name: "sub-coco",
-      summary:
-        "付费源头站，zquant 的一个上游，也是很多站点的源头，利润比较低。没有签到，注册不送额度；**0.2 倍率不降智 GPT 的福利官 key 已常驻**，带 96% 以上缓存——本人一直在 zquant 用这条线。",
-      details:
-        "这是 zquant 的一个上游，也是很多站点的源头。源头站的利润比较低。没有签到，注册也不送额度。福利官 key 已常驻（不再是国庆限时活动）：0.2 倍率、GPT 不降智、96% 以上缓存；用户反馈一直在 zquant 使用这条线。此前另有 0.08 的 GPT 不降智分组，其余模型以站内实际显示为准。",
-      registration: "通过邀请链接注册，注册不送额度。",
-      signupBonus: "不送",
-      dailyCheckin: "没有签到",
-      models: "0.2 倍率不降智 GPT（福利官 key，常驻，96% 以上缓存）；另有 0.08 的 GPT 不降智分组",
-      experience: "用户长期在 zquant 使用这条线：0.2 倍不降智 GPT、96% 以上缓存；源头站利润较低",
-      caveat:
-        "付费源头站，利润比较低。没有签到，注册不送额度。0.2 倍不降智 GPT 的福利官 key 用户反馈已常驻，但仍以站内实际显示为准；缓存比例 96% 以上与倍率同为用户口径，实际以模型价格页和消费记录为准。",
-      benefits: ["付费站", "源头站", "利润较低", "没有签到", "注册不送", "0.2 倍不降智 GPT", "福利官 key 常驻", "96% 以上缓存", "zquant 同线在用", "站长推荐"],
-      url: "https://www.sub-coco.org/register?aff=WSKLQ874RAKN",
-      pricing: "paid",
       tone: "active",
     },
     {
@@ -2195,23 +2170,6 @@ const entryTranslations = {
     experience: "Tested personally; automatic failover suits long continuous work; the group shows each channel's intelligence status",
     caveat: "Paid service. The automatic switching policy is unconfirmed, and I never claimed the L-site review bonus — check the terms in the service. Channel intelligence status is whatever the group shows and may lag. The operator's claim about testing channels and refunding for diluted or poisoned responses is their own statement, which I have not verified independently.",
     benefits: ["Long-term use", "Tested personally", "Multi-upstream", "Automatic failover", "The group shows each channel's intelligence status", "$10 for joining", "$10 for L-site review", "Lowest rate 0.06"],
-  },
-  "sub-coco": {
-    name: "sub-coco",
-    kind: "Source service / permanent 0.2x undumbed GPT official key",
-    updateNote: "The official key benefit is now permanent: undumbed GPT at 0.2x with over 96% cache; marked as recommended by the webmaster at the user's request.",
-    summary:
-      "A paid source service, one upstream of zquant and the source behind many other services, with relatively low margins. There is no check-in and no sign-up credit. The **0.2x undumbed GPT official key is now permanent**, carrying over 96% cache — I have been using this line on zquant.",
-    details:
-      "This is one upstream of zquant and the source behind many other services. As a source service, its margins are relatively low. There is no check-in and registration grants no credit. The official key benefit is now permanent rather than a National Day promotion: undumbed GPT at 0.2x with over 96% cache; the user reports using this line on zquant. A separate 0.08x undumbed GPT group also exists; confirm the rest of the model range in the service.",
-    registration: "Register through the referral link; registration grants no credit.",
-    signupBonus: "None",
-    dailyCheckin: "No check-in",
-    models: "0.2x undumbed GPT (official key, permanent, over 96% cache); a separate 0.08x undumbed GPT group also exists",
-    experience: "The line I have been using on zquant: 0.2x undumbed GPT with over 96% cache; a source service with relatively low margins",
-    caveat:
-      "A paid source service with relatively low margins. There is no check-in and registration grants no credit. The 0.2x undumbed GPT official key is reported as permanent, but confirm it in the service; the over-96% cache ratio and the rate are user figures, so check the model price page and consumption records for actuals.",
-    benefits: ["Paid service", "Source service", "Low margins", "No check-in", "No sign-up credit", "0.2x undumbed GPT", "Permanent official key", "Over 96% cache", "Same line as on zquant", "Recommended by the webmaster"],
   },
   AbinAPI: {
     kind: "Paid service / Grok Heavy 0.08",
