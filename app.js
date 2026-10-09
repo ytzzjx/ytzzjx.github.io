@@ -37,6 +37,7 @@ const siteConfig = {
     "MotoMoto",
     "AnyRouter",
     "TokenForge（tokengate）",
+    "Joja Token",
     "Aotera",
     "Edge API",
     "SheApi",
@@ -210,6 +211,30 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-09 00:00",
+      addedAt: "2026-10-09",
+      updatedAt: "2026-10-09",
+      updateNote: "新收录：付费站，注册送 10 刀、0.25 倍率不降智 GPT（均为用户提供）；New API 程序，额度按美元显示，无每日签到。",
+      kind: "付费站 / 注册送 10 刀 / 0.25 倍不降智 GPT",
+      name: "Joja Token",
+      summary:
+        "付费新站，走邀请链接注册送 10 刀，GPT 0.25 倍率且不降智（用户提供）。额度按美元显示，注册支持邮箱验证或 GitHub 登录。",
+      details:
+        "站内名称 Joja Token（jojatoken.com），New API 程序，额度按美元（$）显示。GPT 0.25 倍率、不降智（用户提供）。模型广场公开可查，当前为 8 个 GPT 系模型：gpt-5.5、gpt-5.6-terra、gpt-5.6-sol、gpt-5.6-luna、gpt-6-sol、gpt-6-luna、gpt-6-astra、gpt-6.1-sol，另有 gpt-image 生图系列，分 ChatGPT Pro 与 ChatGPT Image 两个分组；站方公告已上线 GPT-6.1 Sol 与 GPT-6 Sol / Luna。注册支持邮箱验证或 GitHub 登录，有人机验证；站内无每日签到。官方群：QQ 群 376060423、TG 群 t.me/JojaToken。",
+      registration: "走邀请链接注册，支持邮箱验证或 GitHub 登录，有人机验证。",
+      signupBonus: "注册送 10 刀（用户提供）",
+      dailyCheckin: "无",
+      models:
+        "0.25 倍不降智 GPT（用户提供）；8 个 GPT 系模型（5.5、5.6-terra/sol/luna、6-sol/luna/astra、6.1-sol）与 gpt-image 生图系列",
+      experience: "注册送 10 刀、0.25 倍不降智 GPT（均为用户提供）；无签到",
+      caveat:
+        "付费站，注册赠送金额、0.25 倍率与不降智情况均为用户口径，实际以站内模型广场和消费记录为准；站内无每日签到，注册有人机验证与邮箱验证，具体门槛以注册页为准。",
+      benefits: ["付费站", "注册送 10 刀", "0.25 倍不降智 GPT", "8 个 GPT 系模型", "gpt-image 生图", "GitHub 登录"],
+      url: "https://jojatoken.com/sign-up?aff=kdie",
+      pricing: "paid",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-07 00:00",
       addedAt: "2026-10-07",
@@ -1551,6 +1576,32 @@ const entryTranslations = {
       "Grok-heavy pool, undumbed",
       "gpt-image-2 image generation",
       "QQ email only",
+    ],
+  },
+  "Joja Token": {
+    name: "Joja Token",
+    kind: "Paid service / 10 on registration / 0.25x undumbed GPT",
+    updateNote:
+      "New listing: a paid service granting 10 on registration with undumbed GPT at a 0.25 rate (both per user report); it runs on New API, displays credit in USD, and has no daily check-in.",
+    summary:
+      "A new paid service: signing up through the referral link grants 10, and GPT runs undumbed at a 0.25 rate (per user report). Credit is displayed in USD, and registration accepts email verification or GitHub login.",
+    details:
+      "The service calls itself Joja Token (jojatoken.com), runs on New API, and displays credit in USD. GPT runs at a 0.25 rate and is undumbed (per user report). The public model list currently shows 8 GPT-family models — gpt-5.5, gpt-5.6-terra, gpt-5.6-sol, gpt-5.6-luna, gpt-6-sol, gpt-6-luna, gpt-6-astra, and gpt-6.1-sol — plus the gpt-image series, split between the ChatGPT Pro and ChatGPT Image groups; an announcement says GPT-6.1 Sol and GPT-6 Sol / Luna are now live. Registration accepts email verification or GitHub login and uses a captcha; there is no daily check-in. Official groups: QQ group 376060423 and the Telegram group t.me/JojaToken.",
+    registration: "Register through the referral link with email verification or GitHub login; a captcha is required.",
+    signupBonus: "10 on registration (per user report)",
+    dailyCheckin: "None",
+    models:
+      "0.25x undumbed GPT (per user report); 8 GPT-family models (5.5, 5.6-terra/sol/luna, 6-sol/luna/astra, 6.1-sol) and the gpt-image series",
+    experience: "10 on registration and 0.25x undumbed GPT (both per user report); no check-in",
+    caveat:
+      "A paid service: the sign-up credit, the 0.25 rate, and the undumbed claim are all per user report — confirm against the in-site model page and consumption records. There is no daily check-in, and registration uses a captcha and email verification; the exact requirements follow the sign-up page.",
+    benefits: [
+      "Paid service",
+      "10 on registration",
+      "0.25x undumbed GPT",
+      "8 GPT-family models",
+      "gpt-image generation",
+      "GitHub login",
     ],
   },
   "Aotera": {
