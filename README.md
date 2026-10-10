@@ -60,7 +60,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| Joja Token | **付费新站，走邀请链接注册送 10 刀**；**0.25 倍率不降智 GPT**（用户提供）。8 个 GPT 系模型（5.5、5.6-terra/sol/luna、6-sol/luna/astra、6.1-sol）另有 gpt-image 生图，额度按美元显示。邮箱验证或 GitHub 登录，有人机验证；**无每日签到**。 | [注册](https://jojatoken.com/sign-up?aff=kdie) |
+| Joja Token | **付费新站，走邀请链接注册送 1 刀**；**0.25 倍率不降智 GPT**（用户提供）。8 个 GPT 系模型（5.5、5.6-terra/sol/luna、6-sol/luna/astra、6.1-sol）另有 gpt-image 生图，额度按美元显示。邮箱验证或 GitHub 登录，有人机验证；**无每日签到**。 | [注册](https://jojatoken.com/sign-up?aff=kdie) |
 | Aotera | **付费新站，Plus 分组 0.1 倍率不降智 GPT**（Pro 0.17、Pro 500 0.24）；7 个模型全是 GPT 系。邮箱验证加人机验证注册。**开业活动：进群人数每到一个阶段领红包，第一天签到送 6**（以群内公告和站内为准）。 | [注册](https://aotera.cc/sign-up?aff=NYYY) |
 | Edge API | **付费站，走 aff 注册送 0.1、进群由管理发给 1**；有 **0.07 倍率的不降智 GPT**（用户提供）。额度按人民币显示，邮箱验证注册。 | [注册](https://ai.lffm.cn/sign-up?aff=Xw7r) |
 | SheApi | **付费站，注册送 1、签到 0.2 左右。** 33 个模型 13 个分组：**cc-max 满血且带防封微注入**、gpt-max 满血官 key、pro 号池、**grok 不降智**；**plus_0720 倍率 0.04** 最便宜，deepseek / glm / kimi 0.07，另有 gpt-image-2 生图（0.04 每张）。**注册只支持 QQ 邮箱**，禁止跑蒸馏。 | [注册](https://www.sheapi.top/sign-up?aff=moEE) |
