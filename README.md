@@ -60,6 +60,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| STA1N API | **付费酒馆站、源头站**（用户提供）。**QQ 邮箱注册送 30 🍪**；按次计费：**Claude Opus 5-5 1.6🍪/次**、Sonnet 5 1.1🍪/次、Gemini 3.8 Flash 0.22🍪/次（1🍪≈¥0.1）。含 Claude（Kiro 渠道）、Gemini 3.1-3.8、DeepSeek、Kimi-K3、GLM、豆包、NAI 生图等 **115 个模型**。**三万人福利：限时免费领 500🍪 订阅（两天，含全部 Gemini 与特价 DeepSeek）**。**站方禁止拿邀请链接拉陌生人，核实即永久封号**。 | [注册](https://cdn.sta1n.cn/sign-up?aff=7zlp) |
 | Joja Token | **付费新站，走邀请链接注册送 1 刀**；**0.25 倍率不降智 GPT**（用户提供）。8 个 GPT 系模型（5.5、5.6-terra/sol/luna、6-sol/luna/astra、6.1-sol）另有 gpt-image 生图，额度按美元显示。邮箱验证或 GitHub 登录，有人机验证；**无每日签到**。 | [注册](https://jojatoken.com/sign-up?aff=kdie) |
 | Aotera | **付费新站，Plus 分组 0.1 倍率不降智 GPT**（Pro 0.17、Pro 500 0.24）；7 个模型全是 GPT 系。邮箱验证加人机验证注册。**开业活动：进群人数每到一个阶段领红包，第一天签到送 6**（以群内公告和站内为准）。 | [注册](https://aotera.cc/sign-up?aff=NYYY) |
 | Edge API | **付费站，走 aff 注册送 0.1、进群由管理发给 1**；有 **0.07 倍率的不降智 GPT**（用户提供）。额度按人民币显示，邮箱验证注册。 | [注册](https://ai.lffm.cn/sign-up?aff=Xw7r) |

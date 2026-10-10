@@ -37,6 +37,7 @@ const siteConfig = {
     "MotoMoto",
     "AnyRouter",
     "TokenForge（tokengate）",
+    "STA1N API",
     "Joja Token",
     "Aotera",
     "Edge API",
@@ -210,6 +211,30 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-10 00:00",
+      addedAt: "2026-10-10",
+      updatedAt: "2026-10-10",
+      updateNote: "新收录：付费酒馆站（源头站），QQ 邮箱注册送 30 🍪（用户提供）；115 个模型，按次计费 Claude Opus 5-5 1.6🍪/次、Gemini 3.8 Flash 0.22🍪/次，无签到。三万人福利：限时免费领 500🍪 订阅（两天）。",
+      kind: "付费站 / 源头站 / 酒馆向 / 注册送 30 🍪",
+      name: "STA1N API",
+      summary:
+        "付费酒馆站、源头站（用户提供）。QQ 邮箱注册送 30 🍪；按次与按量两种计费：Claude Opus 5-5 1.6🍪/次、Sonnet 5 1.1🍪/次、Gemini 3.8 Flash 0.22🍪/次。含 Claude（Kiro 渠道）/ Gemini 3.1-3.8 / DeepSeek / Kimi-K3 / GLM / 豆包 / NAI 生图等 115 个模型。**三万人福利：限时免费领 500🍪 订阅（两天，含全部 Gemini 与特价 DeepSeek）**。",
+      details:
+        "站内名称 STA1N API（cdn.sta1n.cn），New API 程序，额度以 🍪（饼干）显示，1 🍪 ≈ ¥0.1（卡网 100 🍪 售价 10 元）。站方公告自述「本站为源头站和 AIRP 最大上游站」，称全站模型假一赔百、发现掺水或非上游 100 倍退款、不记录不保留数据；10 月公告称已运营约 7 个月、用户 3 万。三万人福利（限时活动）：为全站用户准备 500🍪 订阅，含全部 Gemini 模型与特价 DeepSeek（= 官方 200 元额度），48 小时有效，10 月 11 日 2:00 前在钱包用余额兑换领取。模型广场公开可查，共 115 个模型：Claude 走 Kiro 渠道（Opus 5-5 / 5 / 4-8 / 4-7 / 4-6，Sonnet 5-5 / 5 / 4-6），Gemini 3.1-3.8 系列，DeepSeek V4.1 Flash（特价）与 V4 Pro，Kimi-K3、GLM-5.2 / 5.3、豆包、MiniMax、小米 MiMo，另有 NAI 生图（nai-diffusion-4-5 / 5）。模型分 default / Lite / Max / Plus / Pro / Pro+ 等订阅分组与「公益/免费」组（3 个 Gemini lite 免费模型）。国内直连 cdn.sta1n.cn，沿海 / 海外直连 api.sta1n.site；站内另售 NAI 生图密钥（1100 次 ¥9.9 起）。",
+      registration: "QQ 邮箱注册（用户提供），需邮箱验证；走邀请链接会弹窗确认邀请人是熟人后才能继续。",
+      signupBonus: "注册送 30 🍪（用户提供）；另有三万人限时福利 500🍪 订阅（48 小时有效）",
+      dailyCheckin: "无",
+      models:
+        "Claude（Kiro）Opus 5-5 / 5 / 4-8 / 4-7 / 4-6、Sonnet 5-5 / 5 / 4-6；Gemini 3.1-3.8；DeepSeek V4.1 Flash（特价）/ V4 Pro；Kimi-K3；GLM-5.2 / 5.3；豆包、MiniMax、MiMo；NAI 生图",
+      experience: "酒馆向，站内另售 NAI 生图密钥；源头站（用户提供）",
+      caveat:
+        "付费站，价格以站内模型广场为准（1 🍪 ≈ ¥0.1，卡网 100 🍪 售 10 元）。三万人 500🍪 订阅为限时活动：48 小时有效、需在 10 月 11 日 2:00 前于钱包兑换，规则与截止时间以群内公告和站内显示为准。站方严禁用邀请链接拉陌生人：注册弹窗要求确认邀请人是熟人，若核实链接是陌生人在评论区 / Q 群传播，账号会被永久封禁；恶意批量注册同样封禁。微信支付需去卡网购买兑换码。「源头站」「假一赔百」为站方自述，未独立核实。",
+      benefits: ["付费站", "源头站", "酒馆向", "注册送 30 🍪", "三万人福利 500🍪 订阅（限时）", "Claude Opus 5-5", "Kiro 渠道", "115 个模型", "NAI 生图密钥", "QQ 邮箱注册"],
+      url: "https://cdn.sta1n.cn/sign-up?aff=7zlp",
+      pricing: "paid",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-09 00:00",
       addedAt: "2026-10-09",
@@ -1551,6 +1576,36 @@ const entryTranslations = {
       "Grok-heavy pool, undumbed",
       "gpt-image-2 image generation",
       "QQ email only",
+    ],
+  },
+  "STA1N API": {
+    name: "STA1N API",
+    kind: "Paid service / source service / tavern-oriented / 30 cookies on registration",
+    updateNote:
+      "New listing: a paid tavern-oriented source service granting 30 cookies on registration with a QQ email (per user report); 115 models, with per-request pricing at 1.6 cookies for Claude Opus 5-5 and 0.22 for Gemini 3.8 Flash, and no check-in. 30,000-user perk: a free 500-cookie subscription for a limited two-day window.",
+    summary:
+      "A paid tavern-oriented source service (per user report). Register with a QQ email for 30 cookies; billing is per request or per usage: Claude Opus 5-5 at 1.6 cookies, Sonnet 5 at 1.1, and Gemini 3.8 Flash at 0.22 per request. It carries 115 models including Claude (Kiro channel), Gemini 3.1-3.8, DeepSeek, Kimi-K3, GLM, Doubao, and NAI image generation. **30,000-user perk: a free limited-time 500-cookie subscription (two days, covering all Gemini models and the discounted DeepSeek)**.",
+    details:
+      "The service calls itself STA1N API (cdn.sta1n.cn), runs on New API, and displays credit in cookies (🍪) at about ¥0.1 each (100 cookies sell for 10 yuan on the card shop). An operator announcement describes it as a source service and the largest upstream of AIRP, claiming a 100x refund for diluted or non-upstream models and no data retention; an October announcement says it has run for about seven months with 30,000 users. 30,000-user perk (limited-time event): a 500-cookie subscription for every user, covering all Gemini models and the discounted DeepSeek (equal to 200 yuan of official credit), valid for 48 hours and claimable in the wallet before 2:00 on October 11. The public model list shows 115 models: Claude via the Kiro channel (Opus 5-5 / 5 / 4-8 / 4-7 / 4-6 and Sonnet 5-5 / 5 / 4-6), the Gemini 3.1-3.8 series, DeepSeek V4.1 Flash (discounted) and V4 Pro, Kimi-K3, GLM-5.2 / 5.3, Doubao, MiniMax, Xiaomi MiMo, and NAI image generation (nai-diffusion-4-5 / 5). Models are split across the default / Lite / Max / Plus / Pro / Pro+ subscription groups and a free group (3 free Gemini lite models). Direct connection in China is cdn.sta1n.cn, with api.sta1n.site for coastal and overseas users; the shop also sells NAI image keys (1,100 requests from ¥9.9).",
+    registration: "Register with a QQ email (per user report) and email verification; the referral link shows a dialog that must confirm the inviter is an acquaintance before you can continue.",
+    signupBonus: "30 cookies on registration (per user report); plus a limited-time 30,000-user perk of a 500-cookie subscription (valid 48 hours)",
+    dailyCheckin: "None",
+    models:
+      "Claude (Kiro) Opus 5-5 / 5 / 4-8 / 4-7 / 4-6 and Sonnet 5-5 / 5 / 4-6; Gemini 3.1-3.8; DeepSeek V4.1 Flash (discounted) / V4 Pro; Kimi-K3; GLM-5.2 / 5.3; Doubao, MiniMax, MiMo; NAI image generation",
+    experience: "Tavern-oriented, with NAI image keys sold in the shop; a source service (per user report)",
+    caveat:
+      "A paid service — prices follow the in-site model page (1 cookie is about ¥0.1; 100 cookies sell for 10 yuan on the card shop). The 500-cookie subscription is a limited-time event: valid 48 hours and must be claimed in the wallet before 2:00 on October 11, with rules and deadlines following the group announcement and the service. The operator strictly bans sharing referral links with strangers: the sign-up dialog requires confirming the inviter is an acquaintance, and accounts are permanently banned if a link is verified as spread by strangers in comment sections or QQ groups; bulk registration is banned as well. WeChat Pay requires buying a redemption code on the card shop. The source-service and 100x-refund claims are the operator's own and have not been independently verified.",
+    benefits: [
+      "Paid service",
+      "Source service",
+      "Tavern-oriented",
+      "30 cookies on registration",
+      "30,000-user perk: 500-cookie subscription (limited)",
+      "Claude Opus 5-5",
+      "Kiro channel",
+      "115 models",
+      "NAI image keys",
+      "QQ email registration",
     ],
   },
   "Joja Token": {
