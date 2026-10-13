@@ -39,7 +39,6 @@ const siteConfig = {
     "AnyRouter",
     "TokenForge（tokengate）",
     "STA1N API",
-    "Joja Token",
     "Aotera",
     "Edge API",
     "SheApi",
@@ -56,6 +55,7 @@ const siteConfig = {
     "GemAI（哈基米公益站）",
     "Hubway",
     "AIHub",
+    "Joja Token",
     "SeekAI",
   ],
   // 「公益 / 付费」两个分区靠条目上的 pricing 字段区分：
@@ -263,7 +263,7 @@ const siteConfig = {
       publishedAt: "2026-10-09 00:00",
       addedAt: "2026-10-09",
       updatedAt: "2026-10-09",
-      updateNote: "注册赠送口径更正：由 10 刀下调为 1 刀（用户提供）。0.25 倍率不降智 GPT、无每日签到不变。",
+      updateNote: "注册赠送按站内现状更正为 1 刀（用户提供）；优先级下调，移到付费区末尾。0.25 倍率不降智 GPT、无每日签到不变。",
       kind: "付费站 / 注册送 1 刀 / 0.25 倍不降智 GPT",
       name: "Joja Token",
       summary:
@@ -277,7 +277,7 @@ const siteConfig = {
         "0.25 倍不降智 GPT（用户提供）；8 个 GPT 系模型（5.5、5.6-terra/sol/luna、6-sol/luna/astra、6.1-sol）与 gpt-image 生图系列",
       experience: "注册送 1 刀、0.25 倍不降智 GPT（均为用户提供）；无签到",
       caveat:
-        "付费站，注册赠送金额、0.25 倍率与不降智情况均为用户口径，实际以站内模型广场和消费记录为准——注册赠送近日已从 10 刀下调到 1 刀，随时可能再变；站内无每日签到，注册有人机验证与邮箱验证，具体门槛以注册页为准。",
+        "付费站，注册赠送金额、0.25 倍率与不降智情况均为用户口径，实际以站内模型广场和消费记录为准；站内无每日签到，注册有人机验证与邮箱验证，具体门槛以注册页为准。",
       benefits: ["付费站", "注册送 1 刀", "0.25 倍不降智 GPT", "8 个 GPT 系模型", "gpt-image 生图", "GitHub 登录"],
       url: "https://jojatoken.com/sign-up?aff=kdie",
       pricing: "paid",
@@ -1666,7 +1666,7 @@ const entryTranslations = {
     name: "Joja Token",
     kind: "Paid service / 1 on registration / 0.25x undumbed GPT",
     updateNote:
-      "The sign-up credit was corrected: it was reduced from 10 to 1 (per user report). The 0.25x undumbed GPT rate and the lack of a daily check-in are unchanged.",
+      "The sign-up credit is 1 as currently shown on the service (per user report); priority lowered and the entry moved to the bottom of the paid section. The 0.25x undumbed GPT rate and the lack of a daily check-in are unchanged.",
     summary:
       "A new paid service: signing up through the referral link grants 1, and GPT runs undumbed at a 0.25 rate (per user report). Credit is displayed in USD, and registration accepts email verification or GitHub login.",
     details:
@@ -1678,7 +1678,7 @@ const entryTranslations = {
       "0.25x undumbed GPT (per user report); 8 GPT-family models (5.5, 5.6-terra/sol/luna, 6-sol/luna/astra, 6.1-sol) and the gpt-image series",
     experience: "1 on registration and 0.25x undumbed GPT (both per user report); no check-in",
     caveat:
-      "A paid service: the sign-up credit, the 0.25 rate, and the undumbed claim are all per user report — confirm against the in-site model page and consumption records. The sign-up credit was recently cut from 10 to 1 and may change again. There is no daily check-in, and registration uses a captcha and email verification; the exact requirements follow the sign-up page.",
+      "A paid service: the sign-up credit, the 0.25 rate, and the undumbed claim are all per user report — confirm against the in-site model page and consumption records. There is no daily check-in, and registration uses a captcha and email verification; the exact requirements follow the sign-up page.",
     benefits: [
       "Paid service",
       "1 on registration",

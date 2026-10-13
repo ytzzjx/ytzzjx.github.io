@@ -62,7 +62,6 @@
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
 | STA1N API | **付费酒馆站、源头站**（用户提供）。**QQ 邮箱注册送 30 🍪**；按次计费：**Claude Opus 5-5 1.6🍪/次**、Sonnet 5 1.1🍪/次、Gemini 3.8 Flash 0.22🍪/次（1🍪≈¥0.1）。含 Claude（Kiro 渠道）、Gemini 3.1-3.8、DeepSeek、Kimi-K3、GLM、豆包、NAI 生图等 **115 个模型**。**三万人福利：限时免费领 500🍪 订阅（两天，含全部 Gemini 与特价 DeepSeek）**。**站方禁止拿邀请链接拉陌生人，核实即永久封号**。 | [注册](https://cdn.sta1n.cn/sign-up?aff=7zlp) |
-| Joja Token | **付费新站，走邀请链接注册送 1 刀**；**0.25 倍率不降智 GPT**（用户提供）。8 个 GPT 系模型（5.5、5.6-terra/sol/luna、6-sol/luna/astra、6.1-sol）另有 gpt-image 生图，额度按美元显示。邮箱验证或 GitHub 登录，有人机验证；**无每日签到**。 | [注册](https://jojatoken.com/sign-up?aff=kdie) |
 | Aotera | **付费新站，Plus 分组 0.1 倍率不降智 GPT**（Pro 0.17、Pro 500 0.24）；7 个模型全是 GPT 系。邮箱验证加人机验证注册。**开业活动：进群人数每到一个阶段领红包，第一天签到送 6**（以群内公告和站内为准）。 | [注册](https://aotera.cc/sign-up?aff=NYYY) |
 | Edge API | **付费站，走 aff 注册送 0.1、进群由管理发给 1**；有 **0.07 倍率的不降智 GPT**（用户提供）。额度按人民币显示，邮箱验证注册。 | [注册](https://ai.lffm.cn/sign-up?aff=Xw7r) |
 | SheApi | **付费站，注册送 1、签到 0.2 左右。** 33 个模型 13 个分组：**cc-max 满血且带防封微注入**、gpt-max 满血官 key、pro 号池、**grok 不降智**；**plus_0720 倍率 0.04** 最便宜，deepseek / glm / kimi 0.07，另有 gpt-image-2 生图（0.04 每张）。**注册只支持 QQ 邮箱**，禁止跑蒸馏。 | [注册](https://www.sheapi.top/sign-up?aff=moEE) |
@@ -71,6 +70,7 @@
 | Xingya | 付费代币站，注册领试吃 50 芽点，邀请好友注册并加入 QQ 群再送 80 芽点，每日签到 20-50 芽点；**签到需先进 QQ 群，在群精华里取签到码**。充值比例 1:100，按次计费约 4 代币/请求，含小克与 Gemini 新模型。 | [注册](https://xingya.site/sign-up?aff=SV10) |
 | Hubway | 老牌中转，本人充值 50 长期自用；注册并进群送 10，充值比例 1:10，标示倍率约 0.6 但**实际约 0.06**。 | [注册](https://hubway.cc/register?aff=H8ET6TLL4AEP) |
 | AIHub | 本人实测，聚合多家上游可自选渠道，**渠道异常时自动切换**，适合持续工作；进群送 10 刀，L 站好评再送 10 刀，最低倍率 0.06。**进群还能看到各个渠道的智力状态**，挑渠道前可以先看一眼，避开正在降智或掺水的渠道。 | [站点](https://aihub.top/) |
+| Joja Token | **付费新站，走邀请链接注册送 1 刀**；**0.25 倍率不降智 GPT**（用户提供）。8 个 GPT 系模型（5.5、5.6-terra/sol/luna、6-sol/luna/astra、6.1-sol）另有 gpt-image 生图，额度按美元显示。邮箱验证或 GitHub 登录，有人机验证；**无每日签到**。 | [注册](https://jojatoken.com/sign-up?aff=kdie) |
 
 ## 暂停注册的站点
 
