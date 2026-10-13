@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "大肥鱼公益站",
     "Axis AI 公益站",
     "xxzl 公益站",
     "Artbloom 公益站",
@@ -211,6 +212,29 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-13 00:00",
+      addedAt: "2026-10-13",
+      updatedAt: "2026-10-13",
+      updateNote: "新收录：公益新站（自研对话站），仅 QQ 邮箱注册（用户提供）；聊天界面 + OpenAI 兼容 /v1 接口，85 个模型经接口实测、可调通；注册即用基础套餐、当前无用量限制，每日签到连续 5 天领重置卡；开服冲福利进行中。",
+      kind: "公益站 / 自研对话站 + OpenAI 兼容接口 / 新站开服",
+      name: "大肥鱼公益站",
+      summary:
+        "公益新站，自研对话站（非 New API），仅 QQ 邮箱注册。聊天界面 + OpenAI 兼容 /v1 接口，85 个模型（Claude / GPT / Gemini / DeepSeek / GLM / Grok / Kimi 等），接口实测可调通。注册即用基础套餐、当前无用量限制；每日签到，连续 5 天领重置卡；开服冲福利按人数解锁全站奖励。",
+      details:
+        "站内名称「大肥鱼公益站」（arc.103-121-95-72.sslip.io），跑的是自研开源程序 Obsidian Arc（github.com/OnyxAxiOwO/ObsidianArc，MIT），是个自托管 AI 对话站：聊天界面之外也提供 OpenAI 兼容 /v1 接口，/v1/models 实测 85 个模型、聊天接口实测可调通。注册仅支持 QQ 邮箱，需邮箱验证与人机验证。新注册用户默认「基础套餐」：含全部实测可用模型、永久有效，当前站内显示无用量限制；每日签到，连续签到 5 天领 1 张重置卡（30 天有效），重置卡用于重置用量窗口。开服冲福利为阶段活动：满 50 人已给全体用户各发 1 张重置卡（全窗口、30 天有效）；100 人时所有套餐额度翻倍（基础套餐每天 100 → 200 次，Go 套餐每 5 小时 1000 → 2000 次）；150 人再发重置卡 ×2；200 人在前一档基础上再翻倍——自动结算、无需申请，以站内公告为准。模型覆盖 Claude（fable-5、haiku-4-5、opus 4-6 / 4-8 / 5 / 5-5、sonnet 4-6 / 5 / 5-5）、GPT（5.5、5.6-luna / sol / terra、6-astra / luna / sol、6.1-sol）、Gemini 2.5-3.8 系列、DeepSeek（V4.1-Flash / V4-Pro / V4-Flash）、GLM 5.1-5.3、Grok 4.6 / 4.7 / 4.20、Kimi K2.7-Code / K3、Qwen 3.6-3.8、MiniMax M2-M3.1 与 gpt-image 生图等；上游渠道含 apigoto / vyceai / sensenova 等。",
+      registration: "仅 QQ 邮箱注册，需邮箱验证与人机验证（走邀请链接）。",
+      signupBonus: "注册即用基础套餐：含全部实测可用模型、永久有效（当前无用量限制）",
+      dailyCheckin: "有签到；连续签到 5 天领 1 张重置卡（30 天有效）",
+      models:
+        "85 个（接口实测）：Claude fable-5 / haiku-4-5 / opus 4-6·4-8·5·5-5 / sonnet 4-6·5·5-5；GPT 5.5 / 5.6-luna·sol·terra / 6-astra·luna·sol / 6.1-sol；Gemini 2.5-3.8；DeepSeek V4.1-Flash / V4-Pro / V4-Flash；GLM 5.1-5.3；Grok 4.6 / 4.7 / 4.20；Kimi K2.7-Code / K3；Qwen 3.6-3.8；MiniMax M2-M3.1；gpt-image 生图",
+      experience: "新站开服，冲福利进行中；聊天界面与 API 都可用，接口实测可调通",
+      caveat:
+        "新站（站内公告发布于收录前一天），站方称可用性功能里渠道显示健康但不一定可用、实际调用可能报错，正在修复。开服冲福利是阶段活动，档位与发放规则以站内公告为准。注册需 QQ 邮箱并完成邮箱验证与人机验证；模型多带上游后缀（apigoto / vyceai / sensenova 等），具体可用性以站内为准。",
+      benefits: ["公益站", "QQ 邮箱注册", "注册即用基础套餐", "当前无用量限制", "每日签到", "连续签到 5 天领重置卡", "开服冲福利进行中", "85 个模型", "OpenAI 兼容 /v1 接口", "接口实测可调通"],
+      url: "https://arc.103-121-95-72.sslip.io/register?invite=XXPSNBJP",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-10 00:00",
       addedAt: "2026-10-10",
@@ -1547,6 +1571,36 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  "大肥鱼公益站": {
+    name: "Big Fat Fish Public Service",
+    kind: "Public service / self-hosted chat app + OpenAI-compatible API / newly opened",
+    updateNote:
+      "New listing: a new public service (a self-hosted chat app), QQ email registration only (per user report); a chat UI plus an OpenAI-compatible /v1 endpoint, with 85 models verified callable through the API; a base plan usable right after registration with no usage limit currently shown, a daily check-in, and a reset card after five consecutive check-ins; an opening milestone event is in progress.",
+    summary:
+      "A new public service — a self-hosted chat app rather than New API — with QQ email registration only. It offers a chat UI plus an OpenAI-compatible /v1 endpoint, with 85 models (Claude / GPT / Gemini / DeepSeek / GLM / Grok / Kimi and more) verified callable in testing. A base plan works right after registration with no usage limit currently shown; there is a daily check-in and a reset card after five consecutive check-ins, plus an opening milestone event that unlocks site-wide rewards as the user count grows.",
+    details:
+      "The service calls itself \"大肥鱼公益站\" (arc.103-121-95-72.sslip.io) and runs the self-hosted open-source app Obsidian Arc (github.com/OnyxAxiOwO/ObsidianArc, MIT) — a self-hosted AI chat server that offers an OpenAI-compatible /v1 endpoint alongside its chat UI; /v1/models returned 85 models and a chat completion smoke test succeeded. Registration accepts QQ email only, with email verification and a captcha. New accounts get the default \"base plan\": all verified models, valid permanently, with no usage limit currently shown on the site; there is a daily check-in, and five consecutive check-ins grant one reset card (valid 30 days) that resets a usage window. The opening milestone event works in stages: at 50 users every user received one reset card (all windows, 30 days); at 100 users all plan quotas double (base plan 100 → 200 requests per day, Go plan 1,000 → 2,000 per 5 hours); at 150 users two more reset cards each; at 200 users another doubling on top of the previous stage — settled automatically with no application needed, per the in-site announcement. Model coverage includes Claude (fable-5, haiku-4-5, opus 4-6 / 4-8 / 5 / 5-5, sonnet 4-6 / 5 / 5-5), GPT (5.5, 5.6-luna / sol / terra, 6-astra / luna / sol, 6.1-sol), the Gemini 2.5-3.8 series, DeepSeek (V4.1-Flash / V4-Pro / V4-Flash), GLM 5.1-5.3, Grok 4.6 / 4.7 / 4.20, Kimi K2.7-Code / K3, Qwen 3.6-3.8, MiniMax M2-M3.1, and gpt-image generation; upstream channels include apigoto / vyceai / sensenova among others.",
+    registration: "Register with a QQ email only, with email verification and a captcha (through the referral link).",
+    signupBonus: "The base plan works right after registration: all verified models, valid permanently (no usage limit currently shown)",
+    dailyCheckin: "A check-in is available; five consecutive check-ins grant one reset card (valid 30 days)",
+    models:
+      "85 models (verified via API): Claude fable-5 / haiku-4-5 / opus 4-6, 4-8, 5, 5-5 / sonnet 4-6, 5, 5-5; GPT 5.5 / 5.6-luna, sol, terra / 6-astra, luna, sol / 6.1-sol; Gemini 2.5-3.8; DeepSeek V4.1-Flash / V4-Pro / V4-Flash; GLM 5.1-5.3; Grok 4.6 / 4.7 / 4.20; Kimi K2.7-Code / K3; Qwen 3.6-3.8; MiniMax M2-M3.1; gpt-image generation",
+    experience: "A newly opened service with an opening milestone event in progress; both the chat UI and the API work, and the API was verified callable in testing",
+    caveat:
+      "A new service (the in-site announcement was posted the day before listing); the operator notes that channels shown as healthy in the availability feature may still fail on real calls and that a fix is in progress. The opening milestone event is a staged promotion, so the tiers and payout rules follow the in-site announcement. Registration requires a QQ email plus email verification and a captcha; many models carry upstream suffixes (apigoto / vyceai / sensenova and others), so confirm availability in the service.",
+    benefits: [
+      "Public service",
+      "QQ email registration",
+      "Base plan usable right after registration",
+      "No usage limit currently shown",
+      "Daily check-in",
+      "Reset card after five consecutive check-ins",
+      "Opening milestone event in progress",
+      "85 models",
+      "OpenAI-compatible /v1 endpoint",
+      "Verified callable in testing",
+    ],
+  },
   SheApi: {
     name: "SheApi",
     kind: "Paid service / 33 models in 13 groups / full-power cc-max",
