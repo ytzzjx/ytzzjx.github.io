@@ -627,26 +627,28 @@ const siteConfig = {
     {
       publishedAt: "2026-09-25 00:00",
       addedAt: "2026-09-25",
-      updatedAt: "2026-09-25",
+      updatedAt: "2026-10-14",
       updateNote:
-        "新增收录：半公益酒馆站，注册送 5 元、每日签到约 2 元；有 Claude 和 Gemini，gemini 0.04 元一次、claude-opus-4-6 0.3 元一次。",
-      kind: "半公益站 / 酒馆站 / 注册送 5 签到约 2",
+        "签到规则调整：原「每日签到固定领取 1 额度」改为「昨日消费返利」——普通用户返前一日实际消费的 5%，VIP 用户返 10%。注册送 5 元、模型与价格不变。",
+      kind: "半公益站 / 酒馆站 / 签到改为昨日消费返利",
       name: "Ovo 半公益站",
       summary:
-        "半公益酒馆站，注册送 5 元、每日签到约 2 元；有 Claude 和 Gemini，gemini 0.04 元一次、claude-opus-4-6 0.3 元一次。",
+        "半公益酒馆站，注册送 5 元；**每日签到已改为「昨日消费返利」：普通用户返前一日 API 实际消费的 5%，VIP 返 10%**。有 Claude 和 Gemini，gemini 0.04 元一次、claude-opus-4-6 0.3 元一次。",
       details:
-        "站内名称 ovo（ovoapi.cn），面向酒馆（SillyTavern）用户的半公益站，额度按元显示。注册送 5 元，每日签到约 2 元。站内有 Claude 和 Gemini 可用：gemini 0.04 元一次，claude-opus-4-6 0.3 元一次，均按次计费。",
+        "站内名称 ovo（ovoapi.cn），面向酒馆（SillyTavern）用户的半公益站，额度按元显示。注册送 5 元。签到规则已调整：不再固定领取 1 额度，改为按「昨日消费返利」发放——普通用户领取前一日 API 实际消费金额的 5%，VIP 用户 10%；也就是说要先有消费才有返利，不消费则签不到额度。站内有 Claude 和 Gemini 可用：gemini 0.04 元一次，claude-opus-4-6 0.3 元一次，均按次计费。",
       registration: "通过邀请链接注册。",
       signupBonus: "5 元",
-      dailyCheckin: "约 2 元",
+      dailyCheckin: "昨日消费返利：普通用户返前一日消费的 5%，VIP 返 10%",
       models: "Claude / Gemini（gemini 0.04 元一次、claude-opus-4-6 0.3 元一次）",
-      experience: "酒馆站，按次计费",
-      caveat: "签到金额与模型价格可能调整，以站内实际显示为准；可用模型清单以站内为准。",
+      experience: "酒馆站，按次计费；签到改为消费返利，需有消费才有额度回血",
+      caveat:
+        "签到已由固定额度改为「昨日消费返利」（普通 5%、VIP 10%），不再是无条件领取，规则与比例以站内实际显示为准；模型价格可能调整，可用模型清单以站内为准。",
       benefits: [
         "半公益站",
         "酒馆站",
         "注册送 5 元",
-        "每日签到约 2 元",
+        "签到改为昨日消费返利（普通 5%）",
+        "VIP 返 10%",
         "Claude",
         "Gemini",
         "gemini 0.04 元一次",
@@ -1989,24 +1991,26 @@ const entryTranslations = {
   },
   "Ovo 半公益站": {
     name: "Ovo Freemium Service",
-    kind: "Freemium / SillyTavern-oriented / ¥5 on sign-up, about ¥2 daily check-in",
+    kind: "Freemium / SillyTavern-oriented / check-in changed to spending rebate",
     updateNote:
-      "New listing: a freemium SillyTavern-oriented service granting ¥5 on sign-up with an about-¥2 daily check-in; Claude and Gemini available, with gemini at ¥0.04 per call and claude-opus-4-6 at ¥0.3 per call.",
+      "Check-in rule changed: the previous \"flat 1 credit per daily check-in\" is now a \"yesterday's-spending rebate\" — 5% of the previous day's actual API spending for regular users and 10% for VIP users. The ¥5 sign-up credit, models, and prices are unchanged.",
     summary:
-      "A freemium SillyTavern-oriented service: ¥5 on sign-up and an about-¥2 daily check-in. Claude and Gemini are available — gemini at ¥0.04 per call and claude-opus-4-6 at ¥0.3 per call.",
+      "A freemium SillyTavern-oriented service granting ¥5 on sign-up; **the daily check-in is now a \"yesterday's-spending rebate\": regular users get 5% of the previous day's actual API spending and VIP users 10%**. Claude and Gemini are available — gemini at ¥0.04 per call and claude-opus-4-6 at ¥0.3 per call.",
     details:
-      "The service calls itself ovo (ovoapi.cn) and is oriented toward SillyTavern users, with credit displayed in yuan. Sign-up grants ¥5 and the daily check-in adds about ¥2. Claude and Gemini are available: gemini at ¥0.04 per call and claude-opus-4-6 at ¥0.3 per call, both billed per request.",
+      "The service calls itself ovo (ovoapi.cn) and is oriented toward SillyTavern users, with credit displayed in yuan. Sign-up grants ¥5. The check-in rule has changed: instead of a flat 1 credit it now pays a \"yesterday's-spending rebate\" — 5% of the previous day's actual API spending for regular users and 10% for VIP users, so you need to have spent something to earn the rebate. Claude and Gemini are available: gemini at ¥0.04 per call and claude-opus-4-6 at ¥0.3 per call, both billed per request.",
     registration: "Register through the referral link.",
     signupBonus: "¥5",
-    dailyCheckin: "About ¥2",
+    dailyCheckin: "Yesterday's-spending rebate: 5% for regular users, 10% for VIP",
     models: "Claude / Gemini (gemini ¥0.04 per call, claude-opus-4-6 ¥0.3 per call)",
-    experience: "SillyTavern-oriented, billed per request",
-    caveat: "Check-in amounts and model prices may change; confirm them on the service. The available model list is subject to what the site shows.",
+    experience: "SillyTavern-oriented, billed per request; the check-in is now a spending rebate, so credit only comes back if you spend",
+    caveat:
+      "The check-in changed from a flat amount to a \"yesterday's-spending rebate\" (5% regular, 10% VIP), so it is no longer unconditional — confirm the rules and percentages on the service. Model prices may change; the available model list is subject to what the site shows.",
     benefits: [
       "Freemium",
       "SillyTavern-oriented",
       "¥5 on sign-up",
-      "About ¥2 daily check-in",
+      "Check-in now a spending rebate (5% regular)",
+      "10% for VIP",
       "Claude",
       "Gemini",
       "gemini ¥0.04 per call",
