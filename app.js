@@ -38,6 +38,7 @@ const siteConfig = {
     "MotoMoto",
     "AnyRouter",
     "TokenForge（tokengate）",
+    "Prime Relay",
     "STA1N API",
     "Aotera",
     "Edge API",
@@ -212,6 +213,30 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-14 00:00",
+      addedAt: "2026-10-14",
+      updatedAt: "2026-10-14",
+      updateNote: "新收录：付费站，QQ 邮箱注册；拉新福利——邀请好友注册并进 QQ 群，双方各得 $10 额度（每账号最多邀请 10 人）。GPT 0.015、Claude 0.02、DeepSeek 0.015、Kimi 0.025 倍率分组；充值 1:10；签到 $1-3/天（需先累计充值满 5 元且当日调用一次）。",
+      kind: "付费站 / 多分组低倍率 / 拉新送 $10",
+      name: "Prime Relay",
+      summary:
+        "付费站，一个密钥接 Claude、GPT、Gemini 等主流模型，倍率公开：GPT 福利组 0.015、Claude 福利组 0.02、DeepSeek 0.015、Kimi 0.025、Grok / Gemini 0.015。QQ 邮箱注册；**拉新福利：邀请好友注册并进 QQ 群，双方各得 $10 额度（每账号最多邀请 10 人）**；充值 1:10；签到 $1-3/天。",
+      details:
+        "站内名称 Prime Relay（primerelay.online），Sub2API 程序，主打「一个密钥，畅用多个 AI 模型」，注册只支持 QQ 邮箱（无人机验证）。模型广场公开可查，12 个分组 36 个模型：Qwen 组 0.01x、DeepSeek 组 0.015x、GLM 组 0.015x、GPT-福利组 0.015x（只支持 5.6 系列）、Gemini / Gemma / Grok 组 0.015x、Claude-福利组 0.02x、Seed 组 0.02x、Kimi 组 0.025x、DALL-E 生图（1K/2K 0.6 元/张、4K 0.8 元/张）、CC-MAX 满血组 0.9x；另有部分分组有高峰倍率。Claude 覆盖 fable-5 / fable-5-1 / opus 4-6 至 5-5 / sonnet 5，GPT 覆盖 5.5 / 5.5-pro / 5.6-luna / 5.6-sol / 5.6-terra，另有 DeepSeek V4 系列、Grok 4.5 / 4.6、Kimi K2.6 / K3、GLM 5.2 / 5.3、Qwen 3.7 / 3.8、Gemini 3.1-3.7、Seed 2.1、gpt-image 生图系列。充值比例 1:10（1 元 = 10 刀额度）；每日签到 $1-3，需先累计充值满 5 元且当天成功调用一次 API。官方 QQ 群 239561070（机器人应答，进群后发送「/绑定 你的注册邮箱」完成验证）。邀请返利：被邀请人充值后邀请人获得返利额度，可转入余额。",
+      registration: "QQ 邮箱注册（走邀请链接），无人机验证。",
+      signupBonus: "拉新福利：邀请好友注册并进 QQ 群，双方各得 $10 额度（每账号最多邀请 10 人）",
+      dailyCheckin: "每日签到 $1-3（需先累计充值满 5 元，且当日成功调用一次 API）",
+      models:
+        "12 个分组 36 个模型：Claude（fable-5 / fable-5-1 / opus 4-6~5-5 / sonnet 5，福利组 0.02x）/ GPT（5.5、5.5-pro、5.6-luna / sol / terra，福利组 0.015x）/ DeepSeek V4 系列（0.015x）/ Grok 4.5 / 4.6（0.015x）/ Gemini 3.1-3.7（0.015x）/ Kimi K2.6 / K3（0.025x）/ GLM 5.2 / 5.3（0.015x）/ Qwen 3.7 / 3.8（0.01x）/ Seed 2.1（0.02x）/ gpt-image 生图（1K/2K 0.6 元、4K 0.8 元每张）",
+      experience: "倍率公开、模型广场标注各分组综合倍率；多上游冗余、自动切换；QQ 群内机器人应答",
+      caveat:
+        "付费站，倍率与分组以站内模型广场为准（部分分组有高峰倍率）。签到有门槛：需先累计充值满 5 元，且当日成功调用一次 API 后才能签到。注册只支持 QQ 邮箱。拉新 $10 额度需双方完成注册并进群绑定邮箱，每账号最多邀请 10 人。连续签到满 30 天可申请退还全部 50 元（需人工审核）。",
+      benefits: ["付费站", "QQ 邮箱注册", "拉新双方各得 $10 额度", "GPT 福利组 0.015", "Claude 福利组 0.02", "DeepSeek 0.015", "Kimi 0.025", "充值 1:10", "签到 $1-3/天", "36 个模型"],
+      url: "https://www.primerelay.online/register?aff=YA6SASN2Q73P",
+      pricing: "paid",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-13 00:00",
       addedAt: "2026-10-13",
@@ -1630,6 +1655,36 @@ const entryTranslations = {
       "Grok-heavy pool, undumbed",
       "gpt-image-2 image generation",
       "QQ email only",
+    ],
+  },
+  "Prime Relay": {
+    name: "Prime Relay",
+    kind: "Paid service / multi-group low rates / $10 referral bonus",
+    updateNote:
+      "New listing: a paid service with QQ email registration; referral perk — invite a friend who registers and joins the QQ group and both sides get $10 in credit (up to 10 invites per account). Rate groups: GPT 0.015, Claude 0.02, DeepSeek 0.015, Kimi 0.025; top-ups convert 1:10; check-in pays $1-3 per day (requires at least 5 yuan in cumulative top-ups and one API call that day).",
+    summary:
+      "A paid service: one key reaches Claude, GPT, Gemini and other mainstream models, with published rates — GPT welfare group 0.015, Claude welfare group 0.02, DeepSeek 0.015, Kimi 0.025, Grok / Gemini 0.015. Register with a QQ email; **referral perk: invite a friend who registers and joins the QQ group and both sides get $10 in credit (up to 10 invites per account)**; top-ups convert 1:10; check-in pays $1-3 per day.",
+    details:
+      "The service calls itself Prime Relay (primerelay.online), runs on Sub2API, and pitches \"one key, many AI models\"; registration accepts QQ email only (no captcha). The public model plaza shows 12 groups and 36 models: Qwen 0.01x, DeepSeek 0.015x, GLM 0.015x, GPT welfare 0.015x (5.6 series only), Gemini / Gemma / Grok 0.015x, Claude welfare 0.02x, Seed 0.02x, Kimi 0.025x, DALL-E image generation (1K/2K at 0.6 yuan per image, 4K at 0.8), and a CC-MAX full-power group at 0.9x; some groups also have peak-hour rates. Claude coverage runs from fable-5 / fable-5-1 through opus 4-6 to 5-5 and sonnet 5; GPT covers 5.5 / 5.5-pro / 5.6-luna / 5.6-sol / 5.6-terra; plus DeepSeek V4 series, Grok 4.5 / 4.6, Kimi K2.6 / K3, GLM 5.2 / 5.3, Qwen 3.7 / 3.8, Gemini 3.1-3.7, Seed 2.1, and the gpt-image series. Top-ups convert 1:10 (1 yuan = 10 USD of credit); the daily check-in pays $1-3 and requires at least 5 yuan in cumulative top-ups plus one successful API call that day. Official QQ group: 239561070 (a bot answers; after joining, send \"/绑定 your-registration-email\" to verify). Referral rebates: when an invitee tops up, the inviter earns rebate credit that can be transferred to balance.",
+    registration: "Register with a QQ email through the referral link; no captcha.",
+    signupBonus: "Referral perk: invite a friend who registers and joins the QQ group and both sides get $10 in credit (up to 10 invites per account)",
+    dailyCheckin: "$1-3 per check-in (requires at least 5 yuan in cumulative top-ups and one successful API call that day)",
+    models:
+      "12 groups, 36 models: Claude (fable-5 / fable-5-1 / opus 4-6 to 5-5 / sonnet 5, welfare group 0.02x) / GPT (5.5, 5.5-pro, 5.6-luna / sol / terra, welfare group 0.015x) / DeepSeek V4 series (0.015x) / Grok 4.5 / 4.6 (0.015x) / Gemini 3.1-3.7 (0.015x) / Kimi K2.6 / K3 (0.025x) / GLM 5.2 / 5.3 (0.015x) / Qwen 3.7 / 3.8 (0.01x) / Seed 2.1 (0.02x) / gpt-image generation (0.6 yuan per 1K/2K image, 0.8 per 4K)",
+    experience: "Rates are published and the model plaza labels each group's combined rate; multiple upstreams with automatic failover; a bot answers in the QQ group",
+    caveat:
+      "A paid service — rates and groups follow the in-site model plaza (some groups have peak-hour rates). The check-in has requirements: at least 5 yuan in cumulative top-ups plus one successful API call that day. Registration accepts QQ email only. The $10 referral credit requires both sides to register and join the group with a bound email, up to 10 invites per account. Thirty consecutive check-ins let you apply to refund the full 50 yuan (manually reviewed).",
+    benefits: [
+      "Paid service",
+      "QQ email registration",
+      "$10 referral credit for both sides",
+      "GPT welfare group 0.015",
+      "Claude welfare group 0.02",
+      "DeepSeek 0.015",
+      "Kimi 0.025",
+      "Top-ups convert 1:10",
+      "Check-in $1-3 per day",
+      "36 models",
     ],
   },
   "STA1N API": {
