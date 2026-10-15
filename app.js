@@ -445,6 +445,7 @@ const siteConfig = {
       updateNote: "新收录：付费站，注册送 1，有签到；33 个模型 13 个分组，grok 分组是 grok-heavy 号池不降智、plus_0720 倍率 0.04。注册只支持 QQ 邮箱。",
       kind: "付费站 / 33 个模型 13 分组 / cc-max 满血",
       name: "SheApi",
+      egg: true,
       summary:
         "付费站，注册送 1、签到 0.2 左右。33 个模型分成 13 个分组，低倍率分组有 plus_0720 的 0.04 和 deepseek / glm / kimi 的 0.07；grok 分组 0.09 是 **grok-heavy 号池、不降智**（注意是 Grok 而不是 GPT）；cc-max 是满血且有防封微注入。注册只支持 QQ 邮箱。",
       details:
