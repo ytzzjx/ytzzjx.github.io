@@ -261,8 +261,8 @@ const siteConfig = {
     {
       publishedAt: "2026-10-14 00:00",
       addedAt: "2026-10-14",
-      updatedAt: "2026-10-14",
-      updateNote: "新收录：付费站，QQ 邮箱注册；拉新福利——邀请好友注册并进 QQ 群，双方各得 $10 额度（每账号最多邀请 10 人）。GPT 0.015、Claude 0.02、DeepSeek 0.015、Kimi 0.025 倍率分组；充值 1:10；签到 $1-3/天（需先累计充值满 5 元且当日调用一次）。",
+      updatedAt: "2026-10-15",
+      updateNote: "邀请链接换成新的邀请码（用户提供）。",
       kind: "付费站 / 多分组低倍率 / 拉新送 $10",
       name: "Prime Relay",
       egg: true,
@@ -279,7 +279,7 @@ const siteConfig = {
       caveat:
         "付费站，倍率与分组以站内模型广场为准（部分分组有高峰倍率）。签到有门槛：需先累计充值满 5 元，且当日成功调用一次 API 后才能签到。注册只支持 QQ 邮箱。拉新 $10 额度需双方完成注册并进群绑定邮箱，每账号最多邀请 10 人。连续签到满 30 天可申请退还全部 50 元（需人工审核）。",
       benefits: ["付费站", "QQ 邮箱注册", "拉新双方各得 $10 额度", "GPT 福利组 0.015", "Claude 福利组 0.02", "DeepSeek 0.015", "Kimi 0.025", "充值 1:10", "签到 $1-3/天", "36 个模型"],
-      url: "https://www.primerelay.online/register?aff=YA6SASN2Q73P",
+      url: "https://www.primerelay.online/register?aff=W24WQGYYH84S",
       pricing: "paid",
       tone: "active",
     },
@@ -1748,8 +1748,7 @@ const entryTranslations = {
   "Prime Relay": {
     name: "Prime Relay",
     kind: "Paid service / multi-group low rates / $10 referral bonus",
-    updateNote:
-      "New listing: a paid service with QQ email registration; referral perk — invite a friend who registers and joins the QQ group and both sides get $10 in credit (up to 10 invites per account). Rate groups: GPT 0.015, Claude 0.02, DeepSeek 0.015, Kimi 0.025; top-ups convert 1:10; check-in pays $1-3 per day (requires at least 5 yuan in cumulative top-ups and one API call that day).",
+    updateNote: "The referral link was switched to a new invite code (per user report).",
     summary:
       "A paid service: one key reaches Claude, GPT, Gemini and other mainstream models, with published rates — GPT welfare group 0.015, Claude welfare group 0.02, DeepSeek 0.015, Kimi 0.025, Grok / Gemini 0.015. Register with a QQ email; **referral perk: invite a friend who registers and joins the QQ group and both sides get $10 in credit (up to 10 invites per account)**; top-ups convert 1:10; check-in pays $1-3 per day.",
     details:
