@@ -241,6 +241,7 @@ const siteConfig = {
       updateNote: "新收录：付费站，QQ 邮箱注册；拉新福利——邀请好友注册并进 QQ 群，双方各得 $10 额度（每账号最多邀请 10 人）。GPT 0.015、Claude 0.02、DeepSeek 0.015、Kimi 0.025 倍率分组；充值 1:10；签到 $1-3/天（需先累计充值满 5 元且当日调用一次）。",
       kind: "付费站 / 多分组低倍率 / 拉新送 $10",
       name: "Prime Relay",
+      egg: true,
       summary:
         "付费站，一个密钥接 Claude、GPT、Gemini 等主流模型，倍率公开：GPT 福利组 0.015、Claude 福利组 0.02、DeepSeek 0.015、Kimi 0.025、Grok / Gemini 0.015。QQ 邮箱注册；**拉新福利：邀请好友注册并进 QQ 群，双方各得 $10 额度（每账号最多邀请 10 人）**；充值 1:10；签到 $1-3/天。",
       details:
@@ -312,6 +313,7 @@ const siteConfig = {
       updateNote: "注册赠送按站内现状更正为 1 刀（用户提供）；优先级下调，移到付费区末尾。0.25 倍率不降智 GPT、无每日签到不变。",
       kind: "付费站 / 注册送 1 刀 / 0.25 倍不降智 GPT",
       name: "Joja Token",
+      egg: true,
       summary:
         "付费新站，走邀请链接注册送 1 刀，GPT 0.25 倍率且不降智（用户提供）。额度按美元显示，注册支持邮箱验证或 GitHub 登录。",
       details:
@@ -1521,7 +1523,7 @@ const pageCopy = {
     filterRecommended: "站长推荐",
     filterEgg: "🥚 鸡蛋",
     eggBadge: "🥚 鸡蛋",
-    eggBadgeTitle: "福利不保证稳定性，充值请谨慎",
+    eggBadgeTitle: "赛博鸡蛋：站长只薅过免费额度，没充过钱，付费体验没验证过，充值请谨慎",
     expandDetails: "展开详情与避坑",
     collapseDetails: "收起详情",
     emptyTitle: "未检索到匹配站点",
@@ -1609,7 +1611,7 @@ const pageCopy = {
     filterRecommended: "Recommended by the webmaster",
     filterEgg: "🥚 Egg",
     eggBadge: "🥚 Egg",
-    eggBadgeTitle: "A fragile \"egg\" service: bonuses don't come with any stability guarantee — top up with caution",
+    eggBadgeTitle: "Cyber egg: the webmaster has only claimed the free credit and never paid, so the paid experience is unverified — top up with caution",
     expandDetails: "Show details & caveats",
     collapseDetails: "Hide details",
     emptyTitle: "No matching services found",
@@ -2946,8 +2948,8 @@ const matchesFilterTag = (entry, tag) => {
       return Boolean(entry.recommended);
 
     case "egg":
-      // 鸡蛋同样是策展标记：福利不保证稳定性、充值需谨慎，只在用户点名的站上打 egg 字段，
-      // 不从 caveat 文案推断，否则写了「稳定性不保证」的站会被自动算进来。
+      // 鸡蛋是策展标记：站长只薅过免费额度、没充过钱，付费体验未验证，只在用户点名的站上打 egg 字段，
+      // 不从 caveat 文案推断，否则写了「未验证」的站会被自动算进来。
       return Boolean(entry.egg);
 
     case "easyreg":
@@ -3185,7 +3187,7 @@ const renderEntry = (sourceEntry) => {
   const updateBadge = showUpdate
     ? `<span class="entry-updated">${escapeHtml(formatUpdatedAgo(updatedDays, copy))}</span>`
     : "";
-  // 鸡蛋是策展警告，跟时效印章分开摆：福利不保证稳定性，充值需谨慎。
+  // 鸡蛋是策展标记，跟时效印章分开摆：站长只薅过免费额度、付费体验未验证。
   const eggBadge = sourceEntry.egg
     ? `<span class="entry-egg" title="${escapeHtml(copy.eggBadgeTitle)}">${escapeHtml(copy.eggBadge)}</span>`
     : "";
