@@ -61,6 +61,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| DZH Smart AI | **付费站，有不降智 GPT，经常发红包**（均为用户提供）。邮箱注册，预充值，模型与倍率以站内显示为准。 | [注册](https://dzhsmartai.com/register?aff=64KWB9NX6JP4) |
 | Prime Relay | **付费站，一个密钥接 Claude、GPT、Gemini 等主流模型，倍率公开**：GPT 福利组 0.015、Claude 福利组 0.02、DeepSeek 0.015、Kimi 0.025、Grok / Gemini 0.015。QQ 邮箱注册；**拉新福利：邀请好友注册并进 QQ 群，双方各得 $10 额度（每账号最多邀请 10 人）**；**充值 1:10**；签到 $1-3/天（需先累计充值满 5 元且当日调用一次）。12 个分组 36 个模型，含 Claude opus 5-5、GPT 5.6 系列、Grok 4.6、Kimi K3 与 gpt-image 生图。 | [注册](https://www.primerelay.online/register?aff=YA6SASN2Q73P) |
 | STA1N API | **付费酒馆站、源头站**（用户提供）。**QQ 邮箱注册送 30 🍪**；按次计费：**Claude Opus 5-5 1.6🍪/次**、Sonnet 5 1.1🍪/次、Gemini 3.8 Flash 0.22🍪/次（1🍪≈¥0.1）。含 Claude（Kiro 渠道）、Gemini 3.1-3.8、DeepSeek、Kimi-K3、GLM、豆包、NAI 生图等 **115 个模型**。**三万人福利：限时免费领 500🍪 订阅（两天，含全部 Gemini 与特价 DeepSeek）**。**站方禁止拿邀请链接拉陌生人，核实即永久封号**。 | [注册](https://cdn.sta1n.cn/sign-up?aff=7zlp) |
 | Aotera | **付费站，Plus 分组 0.1 倍率不降智 GPT**（Pro 0.17、Pro 500 0.24）；7 个模型全是 GPT 系。邮箱验证加人机验证注册。**无签到**（原开业第一天签到送 6 已取消）。开业活动：进群人数每到一个阶段领红包（以群内公告和站内为准）。 | [注册](https://aotera.cc/sign-up?aff=NYYY) |
