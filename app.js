@@ -1519,6 +1519,9 @@ const pageCopy = {
     filterEasyReg: "免绑易注",
     filterNoDumbGpt: "不降智 GPT",
     filterRecommended: "站长推荐",
+    filterEgg: "🥚 鸡蛋",
+    eggBadge: "🥚 鸡蛋",
+    eggBadgeTitle: "福利不保证稳定性，充值请谨慎",
     expandDetails: "展开详情与避坑",
     collapseDetails: "收起详情",
     emptyTitle: "未检索到匹配站点",
@@ -1604,6 +1607,9 @@ const pageCopy = {
     filterEasyReg: "Easy Sign-up",
     filterNoDumbGpt: "Undumbed GPT",
     filterRecommended: "Recommended by the webmaster",
+    filterEgg: "🥚 Egg",
+    eggBadge: "🥚 Egg",
+    eggBadgeTitle: "A fragile \"egg\" service: bonuses don't come with any stability guarantee — top up with caution",
     expandDetails: "Show details & caveats",
     collapseDetails: "Hide details",
     emptyTitle: "No matching services found",
@@ -2939,6 +2945,11 @@ const matchesFilterTag = (entry, tag) => {
       // 否则任何文案里出现「推荐」二字的站都会被误算进来。
       return Boolean(entry.recommended);
 
+    case "egg":
+      // 鸡蛋同样是策展标记：福利不保证稳定性、充值需谨慎，只在用户点名的站上打 egg 字段，
+      // 不从 caveat 文案推断，否则写了「稳定性不保证」的站会被自动算进来。
+      return Boolean(entry.egg);
+
     case "easyreg":
       return /免绑|邮箱|无需.*github|免github|无需绑|账号密码|即开即用|免验证|自由注册|简单/i.test(
         `${entry.registration || ""} ${translation.registration || ""} ${textPool}`
@@ -3174,6 +3185,10 @@ const renderEntry = (sourceEntry) => {
   const updateBadge = showUpdate
     ? `<span class="entry-updated">${escapeHtml(formatUpdatedAgo(updatedDays, copy))}</span>`
     : "";
+  // 鸡蛋是策展警告，跟时效印章分开摆：福利不保证稳定性，充值需谨慎。
+  const eggBadge = sourceEntry.egg
+    ? `<span class="entry-egg" title="${escapeHtml(copy.eggBadgeTitle)}">${escapeHtml(copy.eggBadge)}</span>`
+    : "";
   // 英文说明缺失时整行不渲染，避免中文漏到英文页上。
   const updateNote = showUpdate && entry.updateNote
     ? `<p class="entry-update-note"><i data-lucide="history" aria-hidden="true"></i><span><strong>${escapeHtml(copy.updateNoteLabel)}</strong>${escapeHtml(entry.updateNote)}</span></p>`
@@ -3217,7 +3232,7 @@ const renderEntry = (sourceEntry) => {
       ${cardOpenTag}
         <div class="entry-content">
           <p class="entry-kind">${escapeHtml(entry.kind)} / ${escapeHtml(localizedTones[tone])}${updateBadge}</p>
-          <h3>${safeName}</h3>
+          <h3>${safeName}${eggBadge}</h3>
           ${updateNote}
           <p class="entry-description">${escapeHtml(entry.summary)}</p>
           <div class="entry-quota">
@@ -3531,6 +3546,8 @@ const renderPage = () => {
   applyText("[data-filter-tag='easyreg']", copy.filterEasyReg);
   applyText("[data-filter-tag='nodumbgpt']", copy.filterNoDumbGpt);
   applyText("[data-filter-tag='recommended']", copy.filterRecommended);
+  applyText("[data-filter-tag='egg']", copy.filterEgg);
+  document.querySelector("[data-filter-tag='egg']")?.setAttribute("title", copy.eggBadgeTitle);
 
   const searchInputEl = document.querySelector("[data-feed-search]");
   if (searchInputEl) {

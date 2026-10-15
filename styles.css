@@ -861,6 +861,25 @@ h2 {
   color: var(--coral);
 }
 
+/* 鸡蛋标记：琥珀印章，跟在站名后面，警示「福利不保证稳定性，充值请谨慎」，与绿色的更新印章和红色的故障区分开 */
+.entry-egg {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 6px;
+  color: var(--amber);
+  background: color-mix(in srgb, var(--amber) 12%, var(--surface));
+  border: 1px solid var(--amber);
+  border-radius: 1px;
+  font-family: var(--font-mono);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  line-height: 1.4;
+  vertical-align: 2px;
+  cursor: help;
+}
+
 /* 时效标记：墨绿/青色印章，微倾斜，传递「最新/活跃更新」，避免与红色的谨慎/故障混淆 */
 .entry-updated {
   display: inline-block;
