@@ -709,6 +709,7 @@ const siteConfig = {
       updatedAt: "2026-10-04",
       updateNote: "国庆活动期间充值 1:1.1。",
       kind: "付费站 / GPT 与 Grok / 倍率约 0.15 / 国庆充值 1:1.1",
+      recommended: true,
       name: "zquant",
       summary:
         "付费站，本人充值 20 多；倍率约 0.15，有 GPT 全模型和 Grok，**GPT 不降智**。站内带降智检测和降智雷达——最近 GPT 风控比较严，降智很影响体验，使用前先看降智雷达；进 QQ 群 738420477 可领 1 块钱试用，站内还有签到，每次 0.1-1 刀，但现在需要充值满 20 才能签到。国庆活动期间充值按 1:1.1 算。",
@@ -1522,6 +1523,7 @@ const pageCopy = {
     filterEasyReg: "免绑易注",
     filterNoDumbGpt: "不降智 GPT",
     filterRecommended: "站长推荐",
+    filterSelfUse: "站长自用",
     filterEgg: "🥚 鸡蛋",
     eggBadge: "🥚 鸡蛋",
     eggBadgeTitle: "赛博鸡蛋：站长只薅过免费额度，没充过钱，付费体验没验证过，充值请谨慎",
@@ -1610,6 +1612,7 @@ const pageCopy = {
     filterEasyReg: "Easy Sign-up",
     filterNoDumbGpt: "Undumbed GPT",
     filterRecommended: "Recommended by the webmaster",
+    filterSelfUse: "Used by the webmaster",
     filterEgg: "🥚 Egg",
     eggBadge: "🥚 Egg",
     eggBadgeTitle: "Cyber egg: the webmaster has only claimed the free credit and never paid, so the paid experience is unverified — top up with caution",
@@ -3548,7 +3551,8 @@ const renderPage = () => {
   applyText("[data-filter-tag='draw']", copy.filterDraw);
   applyText("[data-filter-tag='easyreg']", copy.filterEasyReg);
   applyText("[data-filter-tag='nodumbgpt']", copy.filterNoDumbGpt);
-  applyText("[data-filter-tag='recommended']", copy.filterRecommended);
+  // 同一个标记在两个分区叫法不同：公益区是「站长推荐」，付费区是「站长自用」。
+  applyText("[data-filter-tag='recommended']", currentPricing === "paid" ? copy.filterSelfUse : copy.filterRecommended);
   applyText("[data-filter-tag='egg']", copy.filterEgg);
   document.querySelector("[data-filter-tag='egg']")?.setAttribute("title", copy.eggBadgeTitle);
 
