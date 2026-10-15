@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-10-14",
+  lastUpdated: "2026-10-15",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "1412's API",
     "大肥鱼公益站",
     "Axis AI 公益站",
     "xxzl 公益站",
@@ -213,6 +214,26 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-15 00:00",
+      addedAt: "2026-10-15",
+      updatedAt: "2026-10-15",
+      updateNote: "新收录：公益站，注册送 92、每日签到 10 左右（用户提供）；有 GPT 等模型。",
+      kind: "公益站 / 注册送 92 / 每日签到约 10",
+      name: "1412's API",
+      summary: "公益站，注册送 92、每日签到 10 左右（用户提供）。有 GPT 等模型。",
+      details:
+        "站内名称 1412's API（napi.kid1412.qzz.io），New API 程序。注册送 92，每日签到 10 左右（用户提供）。模型方面有 GPT 等模型，具体以站内显示为准。",
+      registration: "通过邀请链接注册。",
+      signupBonus: "92（用户提供）",
+      dailyCheckin: "10 左右（用户提供）",
+      models: "GPT 等模型（以站内显示为准）",
+      experience: "注册送 92、每日签到 10 左右（用户提供）",
+      caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准；模型清单以站内为准。",
+      benefits: ["公益站", "注册送 92", "每日签到约 10", "GPT 等模型"],
+      url: "https://napi.kid1412.qzz.io/sign-up?aff=hHM0",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-14 00:00",
       addedAt: "2026-10-14",
@@ -1598,6 +1619,21 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  "1412's API": {
+    name: "1412's API",
+    kind: "Public service / 92 on registration / about 10 per check-in",
+    updateNote: "New listing: a public service granting 92 on registration with a check-in worth about 10 (per user report); GPT and other models are available.",
+    summary: "A public service granting 92 on registration, with a check-in worth about 10 (per user report). GPT and other models are available.",
+    details:
+      "The service calls itself 1412's API (napi.kid1412.qzz.io) and runs on New API. Registration grants 92 and the daily check-in is worth about 10 (per user report). GPT and other models are available; confirm the model list on the service.",
+    registration: "Register through the referral link.",
+    signupBonus: "92 (per user report)",
+    dailyCheckin: "About 10 (per user report)",
+    models: "GPT and other models (confirm on the service)",
+    experience: "92 on registration and about 10 per check-in (per user report)",
+    caveat: "The sign-up credit and check-in amount are per user report — confirm them on the service. The model list is subject to what the site shows.",
+    benefits: ["Public service", "92 on registration", "About 10 per check-in", "GPT and other models"],
+  },
   "大肥鱼公益站": {
     name: "Big Fat Fish Public Service",
     kind: "Public service / self-hosted chat app + OpenAI-compatible API / newly opened",

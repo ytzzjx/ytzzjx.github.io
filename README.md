@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| 1412's API | 公益站，**注册送 92、每日签到 10 左右**（用户提供）。有 GPT 等模型，具体以站内显示为准。 | [注册](https://napi.kid1412.qzz.io/sign-up?aff=hHM0) |
 | 大肥鱼公益站 | **公益新站（自研对话站，非 New API）**，仅 QQ 邮箱注册。聊天界面 + OpenAI 兼容 /v1 接口，**85 个模型**（Claude / GPT / Gemini / DeepSeek / GLM / Grok / Kimi 等），接口实测可调通。**注册即用基础套餐、当前无用量限制**；每日签到，**连续 5 天领重置卡**；**开服冲福利进行中**（按人数解锁全站额度翻倍等）。 | [注册](https://arc.103-121-95-72.sslip.io/register?invite=XXPSNBJP) |
 | xxzl 公益站 | 公益站，**新注册需注册满一年的 GitHub 账号；邮箱注册将不再开放，老用户需尽快绑定 GitHub 否则删号**。**邀请注册送 200、签到 5**。模型增至 **23 个、8 个分组**，含 Claude（opus 5-5、sonnet 5 等）/ GPT（astra、sol 等）/ DeepSeek（官方 key，每天 1000 刀共享池）/ GLM / Kimi；Claude、GPT、DeepSeek 另有**群友贡献高可用分组**。用户反馈 **astra 满血可过糖果题**。 | [注册](https://ai.1tim.com/sign-up?aff=TyKU) |
 | Artbloom 公益站 | 公益站，GitHub 注册（**账号需满一年**）送 **100 刀**，即到账。有 claude-opus-5、**claude-opus-5-5**（均 $2/$10 每百万 token）、DeepSeek-V4-Flash、kimi-k3（均 $1/$3）与生图模型（$0.02-0.5/张），OpenAI 兼容接口，模型页透明计价。 | [注册](https://api.artbloom.tech/signup?ref=564I5GN2SY) |
