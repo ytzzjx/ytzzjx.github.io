@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-10-15",
+  lastUpdated: "2026-10-16",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "10API",
     "大肥鱼公益站",
     "Axis AI 公益站",
     "xxzl 公益站",
@@ -215,6 +216,26 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-16 00:00",
+      addedAt: "2026-10-16",
+      updatedAt: "2026-10-16",
+      updateNote: "新收录：公益站，每日签到 10M token，可用 deepseek-v4.1-flash 与 glm-5.3-flash（用户提供）。",
+      kind: "公益站 / 每日签到 10M token",
+      name: "10API",
+      summary: "公益站，每日签到可得 10M token，可用 deepseek-v4.1-flash 与 glm-5.3-flash（用户提供）。",
+      details:
+        "站内页面标题为 10API（nextapi.store）。每日签到可得 10M token，可用模型有 deepseek-v4.1-flash 与 glm-5.3-flash（均为用户提供），其余以站内显示为准。",
+      registration: "通过邀请链接注册。",
+      signupBonus: "未提供",
+      dailyCheckin: "10M token（用户提供）",
+      models: "deepseek-v4.1-flash / glm-5.3-flash（用户提供）",
+      experience: "每日签到 10M token（用户提供）",
+      caveat: "签到额度与可用模型为用户提供，以站内实际显示为准。",
+      benefits: ["公益站", "每日签到 10M token", "deepseek-v4.1-flash", "glm-5.3-flash"],
+      url: "https://nextapi.store/login?inv=INVY5KXY1ZN",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-15 00:00",
       addedAt: "2026-10-15",
@@ -1653,6 +1674,21 @@ const pageCopy = {
 };
 
 const entryTranslations = {
+  "10API": {
+    name: "10API",
+    kind: "Public service / 10M tokens per check-in",
+    updateNote: "New listing: a public service with a daily check-in of 10M tokens, offering deepseek-v4.1-flash and glm-5.3-flash (per user report).",
+    summary: "A public service with a daily check-in of 10M tokens, offering deepseek-v4.1-flash and glm-5.3-flash (per user report).",
+    details:
+      "The page title reads 10API (nextapi.store). The daily check-in grants 10M tokens, and the available models include deepseek-v4.1-flash and glm-5.3-flash (all per user report); confirm the rest on the service.",
+    registration: "Register through the referral link.",
+    signupBonus: "Not provided",
+    dailyCheckin: "10M tokens (per user report)",
+    models: "deepseek-v4.1-flash / glm-5.3-flash (per user report)",
+    experience: "10M tokens per daily check-in (per user report)",
+    caveat: "The check-in amount and available models are per user report — confirm them on the service.",
+    benefits: ["Public service", "10M tokens per check-in", "deepseek-v4.1-flash", "glm-5.3-flash"],
+  },
   "1412's API": {
     name: "1412's API",
     kind: "Registration paused",
