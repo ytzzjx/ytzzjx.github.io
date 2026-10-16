@@ -900,11 +900,11 @@ window.entryTranslationsData = {
   AgentRouter: {
     kind: "Public service / GPT and Claude released daily at 10:00 and 19:00",
     updateNote:
-      "GLM-5.3 has been delisted; GPT (Azure channel, not dumbed down) and Claude are now released on a schedule at 10:00 and 19:00 daily, and DeepSeek is deepseek-v4.1-flash. Marked as recommended by the webmaster at the user's request.",
+      "DeepSeek appears as deepseek-v4-flash in the service's model list, but it is mapped and equivalent to deepseek-v4.1-flash (per user report).",
     summary:
       "GPT (Azure channel, not dumbed down) and Claude models are released on a schedule at 10:00 and 19:00 daily, and DeepSeek is deepseek-v4.1-flash. New accounts receive $75 and daily check-ins add $25. If the main site is unreachable from mainland China, use the mainland sign-up link on the card.",
     details:
-      "GPT runs on the Azure channel and is not dumbed down; like Claude, it is released on a schedule at 10:00 and 19:00 daily and may be unavailable at other times. DeepSeek is served as deepseek-v4.1-flash. New accounts receive $75 and daily check-ins add $25; the service is fast and stable. It requires a GitHub account created before December 2025, or a Linux Do account. Users in mainland China can register directly through the mainland link below the card with no proxy needed; the requirements are identical. Normal use may bring credit top-ups or Core group access, but the exact rules are unconfirmed.",
+      "GPT runs on the Azure channel and is not dumbed down; like Claude, it is released on a schedule at 10:00 and 19:00 daily and may be unavailable at other times. DeepSeek is served as deepseek-v4.1-flash (the model list shows deepseek-v4-flash, which is the mapped name). New accounts receive $75 and daily check-ins add $25; the service is fast and stable. It requires a GitHub account created before December 2025, or a Linux Do account. Users in mainland China can register directly through the mainland link below the card with no proxy needed; the requirements are identical. Normal use may bring credit top-ups or Core group access, but the exact rules are unconfirmed.",
     registration: "GitHub account created before December 2025, or a Linux Do account; mainland users can use the mainland sign-up link instead.",
     signupBonus: "$75 credit",
     dailyCheckin: "$25",

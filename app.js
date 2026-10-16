@@ -1145,14 +1145,14 @@ const siteConfig = {
     },
     {
       publishedAt: "2026-08-26 00:00",
-      updatedAt: "2026-10-10",
-      updateNote: "GLM-5.3 已下架；GPT（Azure 渠道，不降智）与 Claude 每天 10 点和 19 点定时放出，DeepSeek 为 deepseek-v4.1-flash。按用户要求标记为站长推荐。",
+      updatedAt: "2026-10-16",
+      updateNote: "DeepSeek 在站内模型列表里显示为 deepseek-v4-flash，实际做了映射，等价于 deepseek-v4.1-flash（用户提供）。",
       kind: "公益站 / 每天 10 点、19 点放出 GPT 与 Claude",
       recommended: true,
       name: "AgentRouter",
       summary: "GPT（Azure 渠道，不降智）与 Claude 模型每天 10 点和 19 点定时放出，DeepSeek 为 deepseek-v4.1-flash。注册送 75 刀、每日签到 25 刀。国内打不开原站可直接走卡片上的国内注册入口。",
       details:
-        "GPT 走 Azure 渠道、不降智，与 Claude 一样每天 10 点和 19 点定时放出，其余时间可能不可用；DeepSeek 提供 deepseek-v4.1-flash。注册送 75 刀、每日签到 25 刀，速度快且稳定。GitHub 需要是 2025 年 12 月之前注册的老号，没有的话可以使用 Linux Do 账号。国内无法访问原站时，用卡片下方的「国内注册入口」按钮直接注册即可，注册要求与原地址一致，也无需代理。站长表示正常使用可能获得消耗额度补充或 Core 分组（标注 0.8 折）奖励，具体获取和发放规则尚未确认。",
+        "GPT 走 Azure 渠道、不降智，与 Claude 一样每天 10 点和 19 点定时放出，其余时间可能不可用；DeepSeek 提供 deepseek-v4.1-flash（站内模型列表显示为 deepseek-v4-flash，是映射后的名字）。注册送 75 刀、每日签到 25 刀，速度快且稳定。GitHub 需要是 2025 年 12 月之前注册的老号，没有的话可以使用 Linux Do 账号。国内无法访问原站时，用卡片下方的「国内注册入口」按钮直接注册即可，注册要求与原地址一致，也无需代理。站长表示正常使用可能获得消耗额度补充或 Core 分组（标注 0.8 折）奖励，具体获取和发放规则尚未确认。",
       registration: "GitHub 老号（2025 年 12 月之前注册）或 Linux Do 账号；国内走「国内注册入口」，要求一致。",
       signupBonus: "75 刀",
       dailyCheckin: "25 刀",
