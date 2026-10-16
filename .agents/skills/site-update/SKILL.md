@@ -15,7 +15,7 @@ description: 快速维护本仓库的公益、半公益和付费中转站目录�
 | --- | --- |
 | `app.js` → `siteConfig.entries` | 在线站点的中文数据、链接和分类 |
 | `app.js` → `siteConfig.displayOrder` | 站名排序；与在线条目一一对应 |
-| `app.js` → `entryTranslations[站名]` | 英文文案，包含本次涉及的 `updateNote` 等字段 |
+| `entry-translations.js` → `[站名]` | 英文文案，包含本次涉及的 `updateNote` 等字段 |
 | `app.js` → `siteConfig.archivedEntries` | 下架留档；与在线列表互斥 |
 | `README.md` / `README_EN.md` | 同步目标站点的摘要、链接及所属章节；不重写其他行 |
 | `运营推广/站点状态核实台账.csv` | 下架、恢复时同步已有记录的状态；普通文案更新不必通读 |

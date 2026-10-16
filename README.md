@@ -105,8 +105,8 @@
 
 | 命令 | 用途 | 什么时候跑 |
 | --- | --- | --- |
-| `node scripts/check-consistency.mjs` | 校验 `entries` / `displayOrder` / `entryTranslations` / 两份 README / `icons.js` 图标是否齐平 | 每次增删站点后、提交前 |
-| `node scripts/build-site-meta.mjs` | 重新生成 `sitemap.xml` 和 `失效站点/README.md`，并按文件哈希刷新 HTML 里的 `?v=` 缓存参数 | 改过 `app.js` / `styles.css` / `icons.js` 后，或归档了站点后 |
+| `node scripts/check-consistency.mjs` | 校验 `entries` / `displayOrder` / `entry-translations.js` / 两份 README / `icons.js` 图标是否齐平 | 每次增删站点后、提交前 |
+| `node scripts/build-site-meta.mjs` | 重新生成 `sitemap.xml` 和 `失效站点/README.md`，并按文件哈希刷新 HTML 里的 `?v=` 缓存参数 | 改过 `app.js` / `styles.css` / `icons.js` / `entry-translations.js` 后，或归档了站点后 |
 | `node scripts/build-icons.mjs` | 从 lucide-static 重新打包 `icons.js` | 新增或删除 `data-lucide` 图标后 |
 | `python scripts/build_og_image.py` | 重新生成分享封面 `og-cover.png` | 标题、配色或站点数量变化后 |
 

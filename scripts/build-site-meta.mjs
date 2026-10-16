@@ -10,7 +10,8 @@ const ORIGIN = "https://ytzzjx.github.io";
 const ROOT = path.resolve(import.meta.dirname, "..");
 
 // 需要打版本号的静态资源，以及引用它们的页面。
-const VERSIONED_ASSETS = ["styles.css", "app.js", "icons.js"];
+// entry-translations.js 由 app.js 按需加载，版本号写在 index.html 的 data-translations-src 上。
+const VERSIONED_ASSETS = ["styles.css", "app.js", "icons.js", "entry-translations.js"];
 const PAGES = ["index.html", "guide/index.html", "faq/index.html", "faq/agentrouter/index.html"];
 
 // sitemap 收录的页面；changefreq 按实际更新节奏给。
@@ -126,7 +127,7 @@ ${benefits}`;
 
 这里存放已经从页面下架的站点，只作留档。**下面的链接都不再推荐访问。**
 站点恢复时，把 \`archivedEntries\` 里对应的对象移回 \`siteConfig.entries\`，并把名字加回 \`displayOrder\`，
-然后重新跑一次 \`node scripts/build-site-meta.mjs\`。英文文案一直留在 \`entryTranslations\` 里，不需要搬。
+然后重新跑一次 \`node scripts/build-site-meta.mjs\`。英文文案一直留在 \`entry-translations.js\` 里，不需要搬。
 
 共 ${entries.length} 个。
 

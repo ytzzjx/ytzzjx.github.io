@@ -19,12 +19,14 @@ const parseDateOnly = (value) => {
 };
 
 // app.js 是普通脚本而不是模块，用受控的桩对象把它执行一遍，取出里面的配置。
+// 英文翻译在 entry-translations.js（中文用户不加载），这里拼进来一起校验。
 const loadConfig = async () => {
   const source = await readFile(path.join(ROOT, "app.js"), "utf8");
+  const translationsSource = await readFile(path.join(ROOT, "entry-translations.js"), "utf8");
   const factory = new Function(
     "window",
     "document",
-    `${source}\nreturn { siteConfig, entryTranslations, pageCopy, toneLabels };`,
+    `${source}\n${translationsSource}\nreturn { siteConfig, entryTranslations, pageCopy, toneLabels };`,
   );
   const documentStub = {
     addEventListener() {},
@@ -39,7 +41,9 @@ const loadConfig = async () => {
     location: { search: "", href: "https://ytzzjx.github.io/" },
     history: { replaceState() {} },
   };
-  return factory(windowStub, documentStub);
+  const config = factory(windowStub, documentStub);
+  Object.assign(config.entryTranslations, windowStub.entryTranslationsData || {});
+  return config;
 };
 
 const { siteConfig, entryTranslations, pageCopy, toneLabels } = await loadConfig();

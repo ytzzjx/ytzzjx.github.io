@@ -44,13 +44,19 @@
     <link rel="stylesheet" href="styles.css?v=5223dfbb" />
     <link rel="preconnect" href="https://cloud.umami.is" />
     <script src="icons.js?v=d1ddf2fc" defer></script>
-    <script
-      defer
-      src="https://cloud.umami.is/script.js"
-      data-website-id="2b930e98-7868-43b1-b2bf-7cb9c5f36d60"
-      data-domains="ytzzjx.github.io"
-    ></script>
-    <script src="app.js?v=5019dbc9" defer></script>
+    <script>
+      // 统计脚本不挡首屏：defer 脚本会拖住 DOMContentLoaded，而列表渲染挂在 DCL 上，
+      // 第三方慢一点整个页面就跟着慢。改成页面 load 之后再加载，失败也不影响列表。
+      window.addEventListener("load", function () {
+        var s = document.createElement("script");
+        s.defer = true;
+        s.src = "https://cloud.umami.is/script.js";
+        s.setAttribute("data-website-id", "2b930e98-7868-43b1-b2bf-7cb9c5f36d60");
+        s.setAttribute("data-domains", "ytzzjx.github.io");
+        document.head.appendChild(s);
+      });
+    </script>
+    <script src="app.js?v=3f432ff2" data-translations-src="entry-translations.js?v=240bd133" defer></script>
     <script>
       (function() {
         try {
