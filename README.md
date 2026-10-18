@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| 风绘 API | 公益站，**支持 GitHub 与邮箱注册，注册送 2、签到 0.3**（用户提供）。目前只有 DeepSeek：**deepseek-flash 已是最新的 1017 版本**（当前限时免费）、deepseek-v4-pro。 | [注册](https://api.huidev.com/sign-up?aff=SPqL) |
 | 慧慧云 | 公益站，**注册送 1，有免费分组，无签到**（用户提供）。免费分组实测可调 **auto（随机路由高级模型）、grok-4.7、grok-composer-2.5-fast、sensenova-6.8-flash-lite** 共 4 个模型；模型广场另有 Gemini、Claude (kiro)、按次计费的 Gemini 与 DeepSeek 分组。 | [注册](https://api.huihuiyun.top/register?aff=AHAL3TAU466P) |
 | 10API | 公益站，**每日签到可得 10M token**，可用 **deepseek-v4.1-flash** 与 **glm-5.3-flash**（均为用户提供）。QQ 群 1085268015。 | [注册](https://nextapi.store/login?inv=INVY5KXY1ZN) |
 | 大肥鱼公益站 | **公益新站（自研对话站，非 New API）**，仅 QQ 邮箱注册。聊天界面 + OpenAI 兼容 /v1 接口，**85 个模型**（Claude / GPT / Gemini / DeepSeek / GLM / Grok / Kimi 等），接口实测可调通。**注册即用基础套餐、当前无用量限制**；每日签到，**连续 5 天领重置卡**；**开服冲福利进行中**（按人数解锁全站额度翻倍等）。 | [注册](https://arc.103-121-95-72.sslip.io/register?invite=XXPSNBJP) |

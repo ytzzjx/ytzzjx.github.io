@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-10-17",
+  lastUpdated: "2026-10-18",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "风绘 API",
     "慧慧云",
     "10API",
     "大肥鱼公益站",
@@ -217,6 +218,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-18 00:00",
+      addedAt: "2026-10-18",
+      updatedAt: "2026-10-18",
+      updateNote: "新收录：公益站，支持 GitHub 与邮箱注册，注册送 2、签到 0.3（用户提供）；目前只有 DeepSeek，deepseek-flash 已是最新的 1017 版本。",
+      kind: "公益站 / 注册送 2 / 签到 0.3",
+      name: "风绘 API",
+      summary:
+        "公益站，支持 GitHub 与邮箱注册，注册送 2、签到 0.3（用户提供）。目前只有 DeepSeek，deepseek-flash 已是最新的 1017 版本。",
+      details:
+        "站内名称风绘 API（api.huidev.com），New API 程序，额度按人民币（¤）显示。支持 GitHub OAuth 与邮箱注册（需邮箱验证），注册送 2、每日签到 0.3（均为用户提供）。模型目前只有 DeepSeek 两个：deepseek-flash 已更新为 DeepSeek V4.1 Flash 的 1017 版本（站方描述：相比上一版在各项基准测试中提升明显），以及 deepseek-v4-pro；公开价格接口显示 deepseek-flash 当前为限时免费，deepseek-v4-pro 工作日 9-12 点、14-18 点为高峰时段，其余为空闲时段，具体扣费以站内记录为准。",
+      registration: "GitHub OAuth 或邮箱注册（需邮箱验证），走邀请链接。",
+      signupBonus: "2（用户提供）",
+      dailyCheckin: "0.3（用户提供）",
+      models: "deepseek-flash（V4.1 Flash 1017 版，当前限时免费）/ deepseek-v4-pro",
+      experience: "注册送 2、签到 0.3（用户提供）；目前只有 DeepSeek 两个模型",
+      caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准。deepseek-flash 的限时免费与 deepseek-v4-pro 的高峰/空闲计价来自公开价格接口，站方可能随时调整，实际扣费以站内记录为准。",
+      benefits: ["公益站", "GitHub 注册", "邮箱注册", "注册送 2", "签到 0.3", "deepseek-flash 1017 版", "deepseek-v4-pro"],
+      url: "https://api.huidev.com/sign-up?aff=SPqL",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-17 00:00",
       addedAt: "2026-10-17",

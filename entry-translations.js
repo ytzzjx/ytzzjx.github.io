@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "风绘 API": {
+    name: "Fenghui API",
+    kind: "Public service / 2 on registration / 0.3 per check-in",
+    updateNote: "New listing: a public service supporting GitHub and email registration, granting 2 on sign-up with a 0.3 check-in (per user report); it currently carries only DeepSeek, and deepseek-flash is already on the latest 1017 build.",
+    summary: "A public service supporting GitHub and email registration, granting 2 on sign-up with a 0.3 check-in (per user report). It currently carries only DeepSeek, and deepseek-flash is already on the latest 1017 build.",
+    details:
+      "The service calls itself Fenghui API (api.huidev.com), runs on New API, and displays credit in CNY (¤). Registration works through GitHub OAuth or email with email verification; it grants 2 on sign-up and 0.3 per daily check-in (both per user report). Only two DeepSeek models are listed: deepseek-flash, updated to the 1017 build of DeepSeek V4.1 Flash (the operator says it improves noticeably on benchmarks versus the previous build), and deepseek-v4-pro. The public pricing API shows deepseek-flash as free for a limited time, while deepseek-v4-pro bills peak hours on weekdays 09:00-12:00 and 14:00-18:00 and off-peak at other times; confirm actual charges in your usage records.",
+    registration: "Register with GitHub OAuth or an email address (email verification required) through the referral link.",
+    signupBonus: "2 (per user report)",
+    dailyCheckin: "0.3 (per user report)",
+    models: "deepseek-flash (V4.1 Flash 1017 build, currently free for a limited time) / deepseek-v4-pro",
+    experience: "2 on registration and 0.3 per check-in (per user report); only two DeepSeek models for now",
+    caveat: "The sign-up credit and check-in amount are per user report — confirm them on the service. The limited-time free status of deepseek-flash and the peak/off-peak pricing of deepseek-v4-pro come from the public pricing API and may change at any time; actual charges follow your usage records.",
+    benefits: ["Public service", "GitHub registration", "Email registration", "2 on registration", "0.3 per check-in", "deepseek-flash 1017 build", "deepseek-v4-pro"],
+  },
   "慧慧云": {
     name: "HuiHuiYun",
     kind: "Public service / free group available / 4 models",
