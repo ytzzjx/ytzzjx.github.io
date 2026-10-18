@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "421-API": {
+    name: "421-API",
+    kind: "Public service / 0.5 yuan trial on registration / about 0.5 per check-in",
+    updateNote: "New listing: a public service with QQ email registration, granting 0.5 yuan of trial credit on sign-up and about 0.5 per check-in (per user report).",
+    summary: "A public service with QQ email registration, granting new users 0.5 yuan of trial credit on sign-up and about 0.5 per check-in (per user report).",
+    details:
+      "The service calls itself 421-API (421api.xyz), runs on New API, and displays credit in CNY (¤). Registration uses a QQ email address with email verification, and there is no GitHub or Linux DO login. New users receive 0.5 yuan of trial credit on sign-up, and the daily check-in is worth about 0.5 (both per user report). Available models and rates follow the in-site model plaza.",
+    registration: "Register with a QQ email address and email verification through the referral link.",
+    signupBonus: "0.5 yuan of trial credit (per user report)",
+    dailyCheckin: "About 0.5 (per user report)",
+    models: "Follow the in-site model plaza",
+    experience: "0.5 yuan of trial credit on sign-up and about 0.5 per check-in (per user report)",
+    caveat: "The sign-up credit and check-in amount are per user report — confirm them on the service; available models and rates follow the in-site model plaza.",
+    benefits: ["Public service", "QQ email registration", "0.5 yuan on registration", "About 0.5 per check-in"],
+  },
   "风绘 API": {
     name: "Fenghui API",
     kind: "Public service / 2 on registration / 0.3 per check-in",

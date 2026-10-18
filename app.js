@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "421-API",
     "风绘 API",
     "慧慧云",
     "10API",
@@ -218,6 +219,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-18 00:00",
+      addedAt: "2026-10-18",
+      updatedAt: "2026-10-18",
+      updateNote: "新收录：公益站，QQ 邮箱注册，注册送 0.5 元试用额度、签到 0.5 左右（用户提供）。",
+      kind: "公益站 / 注册送 0.5 元 / 签到 0.5 左右",
+      name: "421-API",
+      summary:
+        "公益站，QQ 邮箱注册，新用户注册送 0.5 元试用额度，签到 0.5 左右（用户提供）。",
+      details:
+        "站内名称 421-API（421api.xyz），New API 程序，额度按人民币（¤）显示。QQ 邮箱注册，需邮箱验证，没有 GitHub / Linux DO 登录。新用户注册送 0.5 元试用额度，每日签到 0.5 左右（均为用户提供）。可用模型与倍率以站内模型广场为准。",
+      registration: "QQ 邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "0.5 元试用额度（用户提供）",
+      dailyCheckin: "0.5 左右（用户提供）",
+      models: "以站内模型广场为准",
+      experience: "注册送 0.5 元试用额度、签到 0.5 左右（用户提供）",
+      caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准；可用模型与倍率以站内模型广场为准。",
+      benefits: ["公益站", "QQ 邮箱注册", "注册送 0.5 元", "签到 0.5 左右"],
+      url: "https://421api.xyz/sign-up?aff=sOMa",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-18 00:00",
       addedAt: "2026-10-18",
