@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "OmniRush": {
+    name: "OmniRush",
+    kind: "Public service / 10M gpt-6-astra per day",
+    updateNote: "New listing: a public service offering 10M gpt-6-astra per day (per user report); it requires binding Discord and GitHub, and the GitHub account must be at least 7 days old.",
+    summary: "A public service offering 10M gpt-6-astra per day (per user report). It requires binding Discord and GitHub, and the GitHub account must be at least 7 days old.",
+    details:
+      "The service calls itself OmniRush (omnirush.ai) and ships an AI coding client (desktop app plus CLI), with a free allowance that refills daily and no paid tier. It offers 10M gpt-6-astra per day (per user report). Registration requires binding Discord and GitHub, and the GitHub account must be at least 7 days old (per user report; the official FAQ also states the 7-day requirement). The site also lists GPT 6 Astra, GPT 6.1 Sol, and GPT 6 Sol, and its Discord is discord.gg/hACMSrEm4h.",
+    registration: "Bind Discord and GitHub; the GitHub account must be at least 7 days old (per user report).",
+    signupBonus: "Not provided",
+    dailyCheckin: "Not provided; 10M gpt-6-astra per day (per user report)",
+    models: "gpt-6-astra (10M per day, per user report); the site also lists GPT 6.1 Sol and GPT 6 Sol",
+    experience: "10M gpt-6-astra per day (per user report); the free allowance refills daily",
+    caveat: "The daily allowance and models are per user report — confirm them on the service. Registration requires a GitHub account at least 7 days old plus a bound Discord (per user report, matching the official FAQ); some sign-ups are held for manual review.",
+    benefits: ["Public service", "10M gpt-6-astra per day", "Discord binding required", "GitHub binding required", "GitHub account ≥ 7 days", "Daily refilling allowance"],
+  },
   "421-API": {
     name: "421-API",
     kind: "Public service / 0.5 yuan trial on registration / about 0.5 per check-in",

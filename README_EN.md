@@ -16,6 +16,7 @@ These are the sites I currently track that still accept registration, with the m
 
 | Site | Summary | Link |
 | --- | --- | --- |
+| OmniRush | A public service offering **10M gpt-6-astra per day** (per user report). **It requires binding Discord and GitHub, and the GitHub account must be at least 7 days old**; the free allowance refills daily with no paid tier, and GPT 6.1 Sol / GPT 6 Sol are also listed. | [Register](https://omnirush.ai/console?ref=SUS3JHD9) |
 | 421-API | A public service with **QQ email registration, granting new users 0.5 yuan of trial credit and about 0.5 per check-in** (per user report). Credit is displayed in CNY. | [Register](https://421api.xyz/sign-up?aff=sOMa) |
 | Fenghui API | A public service with **GitHub-only registration, granting 2 on sign-up and 0.3 per check-in** (per user report). It currently carries only DeepSeek: **deepseek-flash is already on the latest 1017 build** (free for a limited time) and deepseek-v4-pro. | [Register](https://api.huidev.com/sign-up?aff=SPqL) |
 | HuiHuiYun | A public service **granting 1 on registration, with a free group and no check-in** (per user report). The free group returned **auto (random-routed advanced model), grok-4.7, grok-composer-2.5-fast, and sensenova-6.8-flash-lite** in testing — 4 models in all; the model plaza also has Gemini, Claude (kiro), and per-request Gemini and DeepSeek groups. | [Register](https://api.huihuiyun.top/register?aff=AHAL3TAU466P) |

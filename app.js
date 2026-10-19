@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-10-18",
+  lastUpdated: "2026-10-19",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "OmniRush",
     "421-API",
     "风绘 API",
     "慧慧云",
@@ -219,6 +220,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-19 00:00",
+      addedAt: "2026-10-19",
+      updatedAt: "2026-10-19",
+      updateNote: "新收录：公益站，每天 10M gpt-6-astra（用户提供）；需绑定 Discord 和 GitHub，GitHub 注册不能短于 7 天。",
+      kind: "公益站 / 每天 10M gpt-6-astra",
+      name: "OmniRush",
+      summary:
+        "公益站，每天 10M gpt-6-astra（用户提供）。需绑定 Discord 和 GitHub，GitHub 账号注册时间不能短于 7 天。",
+      details:
+        "站内名称 OmniRush（omnirush.ai），面向 AI 编程的客户端（桌面应用 + CLI），免费额度每天刷新、无付费档。每天 10M gpt-6-astra（用户提供）。注册需绑定 Discord 和 GitHub，且 GitHub 账号注册时间不能短于 7 天（用户提供；官网 FAQ 同样写明需要至少 7 天号龄）。官网还列出 GPT 6 Astra、GPT 6.1 Sol、GPT 6 Sol 三个模型，Discord 为 discord.gg/hACMSrEm4h。",
+      registration: "需绑定 Discord 与 GitHub，GitHub 账号注册时间不能短于 7 天（用户提供）。",
+      signupBonus: "未提供",
+      dailyCheckin: "未提供；每天 10M gpt-6-astra（用户提供）",
+      models: "gpt-6-astra（每天 10M，用户提供）；官网另列 GPT 6.1 Sol、GPT 6 Sol",
+      experience: "每天 10M gpt-6-astra（用户提供）；免费额度每天刷新",
+      caveat: "每天额度与模型为用户提供，以站内实际显示为准。注册门槛为 GitHub 账号至少 7 天且需绑定 Discord（用户提供，官网 FAQ 一致）；部分注册会转人工审核。",
+      benefits: ["公益站", "每天 10M gpt-6-astra", "需绑定 Discord", "需绑定 GitHub", "GitHub 号龄 ≥ 7 天", "免费额度每日刷新"],
+      url: "https://omnirush.ai/console?ref=SUS3JHD9",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-18 00:00",
       addedAt: "2026-10-18",
