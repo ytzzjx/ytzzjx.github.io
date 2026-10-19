@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "星云智联API",
     "OmniRush",
     "421-API",
     "风绘 API",
@@ -220,6 +221,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-19 00:00",
+      addedAt: "2026-10-19",
+      updatedAt: "2026-10-19",
+      updateNote: "新收录：公益站，注册送 1、签到 2 左右（用户提供）；免费组 0 倍率，站方公告称部分模型公益运行、明确「不要充值」。",
+      kind: "公益站 / 注册送 1 / 签到 2 左右 / 免费组 0 倍率",
+      name: "星云智联API",
+      summary:
+        "公益站，注册送 1、签到 2 左右（用户提供）。有 0 倍率的免费组，站方公告称部分模型公益运行、明确「不要充值」。36 个模型，含 DeepSeek、GLM、Kimi、Qwen、Gemini 与 gpt-5.3。",
+      details:
+        "站内名称星云智联API（api.xincloud.top），New API 程序，额度按人民币（¤）显示。邮箱注册，需邮箱验证，无 GitHub / Linux DO 登录；注册送 1、每日签到 2 左右（均为用户提供）。站方公告：部分模型目前公益运行，请点站内广告按钮助力，并明确「不要充值」。分组倍率公开：免费组 0 倍（每分钟 10 次请求 / 5 次成功）、标准1倍、快速1.5倍、高速2倍、极速2.5倍、高阶生产力 6 倍（站方标注非必要不要调用）。36 个模型，免费组含公益-200k上下文、公益-星云智联、free-deepseek-v4.1-flash、free-glm-5.3、free-glm-5.3-flash、free-kimi-k3、free-kimi-k2.6、free-gpt-oss-20b、公益-mimo-v2.6-flash、公益-muse-spark-1.3、公益-fast 与若干 free-test；付费分组含 deepseek-v4.1-flash、deepseek-v4-pro、DeepSeek-V4-Pro(2)、DeepSeek-V4-Flash、glm-5.2、glm-5.3、glm-5.3-flash、kimi-k3、qwen3.8-max、qwen3.8-flash、gpt-5.3、gemini-2.5-flash、gemini-3.5-flash-lite、gemini-3.6-flash、gemini-3.8-flash、gemini-3-flash。另有邀请奖励活动：邀请人每位 ¥10、新人 ¥1，截止 2026-10-31；QQ 群 1124978261。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "1（用户提供）",
+      dailyCheckin: "2 左右（用户提供）",
+      models: "36 个模型，含免费组（0 倍率）与 DeepSeek / GLM / Kimi / Qwen / Gemini / gpt-5.3 等付费分组",
+      experience: "注册送 1、签到 2 左右（用户提供）；有 0 倍率免费组",
+      caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准。站方公告称部分模型公益运行、明确「不要充值」，并请用户点站内广告助力；免费组有每分钟 10 次请求 / 5 次成功限制。分组倍率与模型以站内模型广场为准，可能随时调整。",
+      benefits: ["公益站", "注册送 1", "签到 2 左右", "免费组 0 倍率", "36 个模型", "DeepSeek / GLM / Kimi / Qwen / Gemini", "站方公告不要充值"],
+      url: "https://api.xincloud.top/sign-up?aff=YOv3",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-19 00:00",
       addedAt: "2026-10-19",
