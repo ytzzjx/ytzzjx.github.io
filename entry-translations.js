@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "晚晚舟": {
+    name: "WanWanZhou",
+    kind: "Public service / 1 on registration / 1 yuan per check-in after 5 referrals",
+    updateNote: "New listing: 1 on registration, and after referring 5 people a daily check-in pays 1 yuan (per user report); the Hachimi flash series runs at 0.01 and the Claude-O series at 0.05.",
+    summary: "A public service granting 1 on registration; after referring 5 people, a daily check-in pays 1 yuan (per user report). The Hachimi flash series runs at 0.01 and the Claude-O series at 0.05.",
+    details:
+      "The service calls itself WanWanZhou (wanwanzhou.top), describes itself as a tavern-focused long-form companion line, and runs on Sub2API. Registration accepts QQ email only (email verification required, no captcha), with no GitHub or Linux DO login. It grants 1 on registration, and after referring 5 people a daily check-in pays 1 yuan (both per user report). Rates: the Hachimi flash series at 0.01 and the Claude-O series at 0.05 (per user report); the in-site model plaza is not public, so confirm the full list after logging in. Referral rebates are enabled and the payment entry is closed.",
+    registration: "Register with a QQ email address and email verification through the referral link.",
+    signupBonus: "1 (per user report)",
+    dailyCheckin: "1 yuan per day after referring 5 people (per user report)",
+    models: "Hachimi flash series at 0.01 and Claude-O series at 0.05 (per user report); confirm the full list after logging in",
+    experience: "1 on registration; 1 yuan per daily check-in after referring 5 people (per user report)",
+    caveat: "The sign-up credit, check-in condition, and rates are per user report — confirm them on the service. The check-in only unlocks after referring 5 people, and the in-site model plaza is not public, so the model list follows what the site shows after login.",
+    benefits: ["Public service", "QQ email registration", "1 on registration", "1 yuan daily check-in after 5 referrals", "Hachimi flash at 0.01", "Claude-O series at 0.05"],
+  },
   "星云智联API": {
     name: "Xingyun Zhilian API",
     kind: "Public service / 1 on registration / about 2 per check-in / free group at 0x",

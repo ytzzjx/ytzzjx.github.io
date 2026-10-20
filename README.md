@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| 晚晚舟 | 公益站（酒馆专线），**QQ 邮箱注册，注册送 1；拉 5 人后可每天签到领 1r**（用户提供）。**哈基米 flash 系列 0.01、克 o 系列 0.05**。 | [注册](https://wanwanzhou.top/register?aff=E44252EBQGS2) |
 | 星云智联API | 公益站，**注册送 1、签到 2 左右**（用户提供）。**必须加 2 群 1124978261，并在群里 @机器人发「/验证 绑定码」激活**，否则调用提示无可用渠道、账号会被清理（一人一码）。**有 0 倍率免费组**，站方公告称部分模型公益运行、明确**「不要充值」**（点站内广告助力即可）。36 个模型，含 DeepSeek、GLM、Kimi、Qwen、Gemini 与 gpt-5.3；另有邀请奖励（邀请人 ¥10、新人 ¥1，截止 10/31）。 | [注册](https://api.xincloud.top/sign-up?aff=YOv3) |
 | OmniRush | 公益站，**每天 10M gpt-6-astra**（用户提供）。**需绑定 Discord 和 GitHub，GitHub 账号注册不能短于 7 天**；免费额度每天刷新、无付费档，另有 GPT 6.1 Sol / GPT 6 Sol。 | [注册](https://omnirush.ai/console?ref=SUS3JHD9) |
 | 421-API | 公益站，**QQ 邮箱注册，新用户注册送 0.5 元试用额度，签到 0.5 左右**（用户提供）。额度按人民币显示。 | [注册](https://421api.xyz/sign-up?aff=sOMa) |

@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-10-19",
+  lastUpdated: "2026-10-20",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "晚晚舟",
     "星云智联API",
     "OmniRush",
     "421-API",
@@ -221,6 +222,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-20 00:00",
+      addedAt: "2026-10-20",
+      updatedAt: "2026-10-20",
+      updateNote: "新收录：注册送 1，拉 5 人后可每天签到领 1r（用户提供）；哈基米 flash 系列 0.01、克 o 系列 0.05。",
+      kind: "公益站 / 注册送 1 / 拉 5 人后每天签到 1r",
+      name: "晚晚舟",
+      summary:
+        "公益站，注册送 1，拉 5 人后可每天签到领 1r（用户提供）。哈基米 flash 系列 0.01、克 o 系列 0.05。",
+      details:
+        "站内名称晚晚舟（wanwanzhou.top），站内自述「酒馆专线 · 长篇陪伴」，Sub2API 程序。注册只收 QQ 邮箱（需邮箱验证，无人机验证），没有 GitHub / Linux DO 登录。注册送 1，拉 5 人后可每天签到领 1r（均为用户提供）。模型倍率：哈基米 flash 系列 0.01、克 o 系列 0.05（用户提供）；站内模型广场未对外开放，完整清单以登录后站内显示为准。站点开通了邀请返利，支付入口关闭。",
+      registration: "QQ 邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "1（用户提供）",
+      dailyCheckin: "拉 5 人后可每天签到领 1r（用户提供）",
+      models: "哈基米 flash 系列 0.01、克 o 系列 0.05（用户提供）；完整清单以登录后站内为准",
+      experience: "注册送 1；拉 5 人后每天签到 1r（用户提供）",
+      caveat: "注册赠送、签到条件与倍率均为用户提供，以站内实际显示为准。签到需先拉够 5 人才能解锁；站内模型广场未对外开放，模型清单以登录后站内显示为准。",
+      benefits: ["公益站", "QQ 邮箱注册", "注册送 1", "拉 5 人后每天签到 1r", "哈基米 flash 0.01", "克 o 系列 0.05"],
+      url: "https://wanwanzhou.top/register?aff=E44252EBQGS2",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-19 00:00",
       addedAt: "2026-10-19",
