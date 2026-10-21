@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "汐のAPI": {
+    name: "Shio API",
+    kind: "Public service / 15 on registration / 10 per check-in",
+    updateNote: "New listing: a public service with QQ email registration, granting 15 on sign-up and 10 per check-in (per user report); 101 models, with the default group at 1x, VIP 0.8x, and SVIP 0.6x.",
+    summary: "A public service with QQ email registration, granting 15 on sign-up and 10 per check-in (per user report). 101 models, with the default group at 1x, VIP 0.8x, and SVIP 0.6x, plus separate Claude / GPT / Gemini groups and a domestic wb group.",
+    details:
+      "The service calls itself Shio API (api.203236.xyz), runs on New API, and displays credit in the site's custom currency 🕯. Registration uses QQ email with email verification and no GitHub / Linux DO / Telegram login; it grants 15 on sign-up with 10 per daily check-in (both per user report). The model plaza lists 101 models: the default group at 1x (45 models), VIP 0.8x, and SVIP 0.6x; vendor groups split out Claude_default 8 / Claude_vip 6 / Claude_svip 4, GPT_default 8 / GPT_vip 6 / GPT_svip 4, Gemini_default 3 / Gemini_vip 2.5 / Gemini_svip 2, plus a domestic wb group at 1x (22 models with the cn: prefix). Coverage includes Claude (fable-5 / fable-5-1 / opus 4.5 / 4.6 / sonnet 4-5 / sonnet 5 / 5-5), GPT (6-astra / 6-sol / 5.6-sol / gpt-image-2 series), Gemini (3.6 / 3.8-flash / 4-argon-low), DeepSeek (V4-Flash / V4-Flash-Vision-Exp / v3.2), GLM 5.3 / 5.3-flash, Grok 4.6, Kimi, Qwen3.8-27B, step-5-preview, gpt-oss-20b, and the agnes series. Operator notice: two or more accounts on one residential IP keep only the earliest one, accounts on datacenter or proxy IPs are all banned, and the check runs every 15 minutes.",
+    registration: "Register with a QQ email address and email verification through the referral link.",
+    signupBonus: "15 (per user report)",
+    dailyCheckin: "10 (per user report)",
+    models: "101 models: Claude (fable-5 / opus 4.5-4.6 / sonnet 4-5 to 5-5) / GPT (6-astra, 6-sol, 5.6-sol, gpt-image-2 series) / Gemini (3.6, 3.8-flash, 4-argon-low) / DeepSeek V4 / GLM 5.3 / Grok 4.6 / Kimi / Qwen and more",
+    experience: "15 on registration and 10 per check-in (per user report); group rates are public, with SVIP lowest at 0.6x",
+    caveat: "The sign-up credit and check-in amount are per user report — confirm them on the service. Multiple accounts on one IP get banned (residential IPs keep only the earliest account; datacenter or proxy IPs are all banned, checked every 15 minutes), and an invitee tripping risk control also wipes 5 of the inviter's candles. Credit is displayed in the custom currency 🕯.",
+    benefits: ["Public service", "QQ email registration", "15 on registration", "10 per check-in", "101 models", "SVIP 0.6x", "Domestic wb group"],
+  },
   "晚晚舟": {
     name: "WanWanZhou",
     kind: "Public service / 1 on registration / 1 yuan per check-in after 5 referrals",
