@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "狸猫 AI",
     "汐のAPI",
     "晚晚舟",
     "星云智联API",
@@ -223,6 +224,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-21 00:00",
+      addedAt: "2026-10-21",
+      updatedAt: "2026-10-21",
+      updateNote: "新收录：公益站，仅 QQ 邮箱注册，注册送 1、签到 1 毛（用户提供）；模型广场 25 个模型，default / 国模 / 生图三组均 1 倍。",
+      kind: "公益站 / 注册送 1 / 签到 1 毛",
+      name: "狸猫 AI",
+      summary:
+        "公益站，仅 QQ 邮箱注册，注册送 1、签到 1 毛（用户提供）。模型广场 25 个模型，覆盖 Claude、GPT、Gemini、DeepSeek、Grok、Kimi 与生图，default / 国模 / 生图三组均 1 倍率。",
+      details:
+        "站内名称狸猫 AI（limao-api.com），New API 程序，额度按自定义货币 ฅ 显示。仅允许 QQ 邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录；注册送 1、每日签到 1 毛（均为用户提供）。模型广场公开 25 个模型，按供应商分：Anthropic 8、Google 6、DeepSeek 4、xAI 3、Moonshot AI 2、OpenAI 2；分组 default ×1、国模 ×1、生图 ×1。覆盖 Claude（含 [按量]claude-opus-4-6 0.75/3.75 每 1M、[活动]claude-opus-4-6 0.05/次）、GPT（gpt-image-2 0.03/张、gpt-image-2.5 0.025/张）、Gemini（gemini-4-argon 0.1/次等）、DeepSeek（0.2/1 每 1M）、Grok（grok-imagine-image 系列 0.025/张）、Kimi（kimi-k3 4/20 每 1M、kimi-k3-c 0.07/次）。官方 QQ 群 1128305622，群内获取卡密、反馈问题、模型更新通知；虚拟商品兑换后不退不换。开业限时活动（至 10 月 21 日）：在小红书发布体验帖并带 #airp #AI工具 标签，发布满 12 小时且不删帖得 3 额度或 2 元红包，30 赞 + 5 评论再得 3 额度或 2 元红包，之后每多 30 赞再得 3 额度或 2 元红包。",
+      registration: "仅允许 QQ 邮箱注册，需邮箱验证（走邀请链接）；收不到验证码先查垃圾邮件。",
+      signupBonus: "1（用户提供）",
+      dailyCheckin: "1 毛（用户提供）",
+      models: "25 个模型：Claude（opus 4-6 等）/ GPT（gpt-image-2 系列）/ Gemini（4-argon 等）/ DeepSeek / Grok（grok-imagine 系列）/ Kimi（k3、k3-c）",
+      experience: "注册送 1、签到 1 毛（用户提供）；模型广场带实时状态、延迟与吞吐",
+      caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准。仅支持 QQ 邮箱注册，收不到验证码记得查垃圾邮件；虚拟商品兑换后不退不换，密钥不要外传。开业活动规则与截止时间以站内公告为准。",
+      benefits: ["公益站", "仅 QQ 邮箱注册", "注册送 1", "签到 1 毛", "25 个模型", "default / 国模 / 生图均 1 倍", "QQ 群 1128305622"],
+      url: "https://limao-api.com/sign-up?aff=QKlJ",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-21 00:00",
       addedAt: "2026-10-21",

@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "狸猫 AI": {
+    name: "Limao AI",
+    kind: "Public service / 1 on registration / 0.1 yuan per check-in",
+    updateNote: "New listing: a public service with QQ email registration only, granting 1 on sign-up and 0.1 yuan per check-in (per user report); the model plaza lists 25 models, and the default / domestic / image groups all run at 1x.",
+    summary: "A public service with QQ email registration only, granting 1 on sign-up and 0.1 yuan per check-in (per user report). The model plaza lists 25 models covering Claude, GPT, Gemini, DeepSeek, Grok, Kimi, and image generation, with the default / domestic / image groups all at 1x.",
+    details:
+      "The service calls itself Limao AI (limao-api.com), runs on New API, and displays credit in the custom currency ฅ. Only QQ email registration is allowed, with email verification and no GitHub / Linux DO / Telegram login; it grants 1 on sign-up and 0.1 yuan per daily check-in (both per user report). The model plaza lists 25 models by vendor: Anthropic 8, Google 6, DeepSeek 4, xAI 3, Moonshot AI 2, OpenAI 2; groups are default ×1, domestic ×1, and image ×1. Coverage includes Claude ([metered] claude-opus-4-6 at 0.75/3.75 per 1M, [promo] claude-opus-4-6 at 0.05 per request), GPT (gpt-image-2 at 0.03 per image, gpt-image-2.5 at 0.025 per image), Gemini (gemini-4-argon at 0.1 per request and more), DeepSeek (0.2/1 per 1M), Grok (grok-imagine-image series at 0.025 per image), and Kimi (kimi-k3 at 4/20 per 1M, kimi-k3-c at 0.07 per request). Official QQ group 1128305622, where redemption codes, feedback, and model updates are handled; virtual goods are non-refundable after redemption. Opening limited-time event (through Oct 21): post a review on Xiaohongshu with the #airp and #AI工具 tags; a post that stays up 12 hours earns 3 credit or a 2-yuan red packet, 30 likes plus 5 comments earns another 3 credit or 2-yuan red packet, and every further 30 likes earns the same again.",
+    registration: "QQ email registration only, with email verification through the referral link; check spam if the code does not arrive.",
+    signupBonus: "1 (per user report)",
+    dailyCheckin: "0.1 yuan (per user report)",
+    models: "25 models: Claude (opus 4-6 etc.) / GPT (gpt-image-2 series) / Gemini (4-argon etc.) / DeepSeek / Grok (grok-imagine series) / Kimi (k3, k3-c)",
+    experience: "1 on registration and 0.1 yuan per check-in (per user report); the model plaza shows live status, latency, and throughput",
+    caveat: "The sign-up credit and check-in amount are per user report — confirm them on the service. Only QQ email registration is supported, so check spam if the verification code does not arrive; virtual goods are non-refundable after redemption and keys should not be shared. The opening event's rules and end date follow the in-site notice.",
+    benefits: ["Public service", "QQ email registration only", "1 on registration", "0.1 yuan per check-in", "25 models", "default / domestic / image groups at 1x", "QQ group 1128305622"],
+  },
   "汐のAPI": {
     name: "Shio API",
     kind: "Public service / 15 on registration / 10 per check-in",
