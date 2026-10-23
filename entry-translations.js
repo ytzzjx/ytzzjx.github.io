@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "HyxAPI": {
+    name: "HyxAPI",
+    kind: "Public service / about 15 per check-in",
+    updateNote: "New listing: a public service with no sign-up bonus and a check-in worth about 15 (per user report); it supports email, GitHub, and Linux DO login, with credit displayed in USD.",
+    summary: "A public service with no sign-up bonus and a check-in worth about 15 (per user report). It supports email, GitHub, and Linux DO login, with credit displayed in USD. Models include the DeepSeek V4 series, GLM 5.x, and GPT 5.6.",
+    details:
+      "The service calls itself HyxAPI (hyxware.com), runs on New API, and displays credit in USD. Registration works through email (with email verification), GitHub, or Linux DO login, with no Turnstile captcha. There is no sign-up bonus, and the daily check-in is worth about 15 (both per user report). The model page lists public prices: deepseek-v4-flash-0731 at $0.44 in / $1.32 out per 1M, deepseek-v4-pro at $0.66/$1.98, deepseek-v4-pro-0813 at $0.6918/$2.0754, deepseek-v4.1-flash at $0.165/$0.66, glm-5 at $0.59758/$2.68911, glm-5.1 at $0.89637/$3.58548, plus glm-5.2, glm-5.3, gpt-5.6-luna and more; the DeepSeek group's first token lands in about 2.7 seconds. Model cards show live success rate, latency, and throughput.",
+    registration: "Register with an email address (email verification required) or log in with GitHub / Linux DO through the referral link.",
+    signupBonus: "None",
+    dailyCheckin: "About 15 (per user report)",
+    models: "DeepSeek V4 series (v4-flash-0731, v4-pro, v4-pro-0813, v4.1-flash) / GLM 5, 5.1, 5.2, 5.3 / GPT 5.6-luna and more",
+    experience: "No sign-up bonus and about 15 per check-in (per user report); the model page shows public prices and live status",
+    caveat: "The absence of a sign-up bonus and the check-in amount are per user report — confirm them on the service. Models and prices follow the in-site model page and may change at any time.",
+    benefits: ["Public service", "Email / GitHub / Linux DO login", "No sign-up bonus", "About 15 per check-in", "DeepSeek V4 series", "GLM 5.x", "Live status panel"],
+  },
   "长春叙": {
     name: "Changchun Xu",
     kind: "Public service / 4.16 on registration (1 from tomorrow)",

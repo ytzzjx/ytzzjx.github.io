@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-10-23",
+  lastUpdated: "2026-10-24",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "HyxAPI",
     "长春叙",
     "狸猫 AI",
     "汐のAPI",
@@ -225,6 +226,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-24 00:00",
+      addedAt: "2026-10-24",
+      updatedAt: "2026-10-24",
+      updateNote: "新收录：公益站，注册无赠送、签到 15 左右（用户提供）；支持邮箱、GitHub 与 Linux DO 登录，额度按美元显示。",
+      kind: "公益站 / 签到 15 左右",
+      name: "HyxAPI",
+      summary:
+        "公益站，注册无赠送，签到 15 左右（用户提供）。支持邮箱、GitHub 与 Linux DO 登录，额度按美元显示。模型有 DeepSeek V4 系列、GLM 5.x、GPT 5.6 等。",
+      details:
+        "站内名称 HyxAPI（hyxware.com），New API 程序，额度按美元显示。支持邮箱注册（需邮箱验证）、GitHub 与 Linux DO 登录，无 Turnstile 人机验证。注册无赠送，每日签到 15 左右（均为用户提供）。模型页公开价格：deepseek-v4-flash-0731 输入 $0.44 / 输出 $1.32 每 1M，deepseek-v4-pro $0.66/$1.98，deepseek-v4-pro-0813 $0.6918/$2.0754，deepseek-v4.1-flash $0.165/$0.66，glm-5 $0.59758/$2.68911，glm-5.1 $0.89637/$3.58548，另有 glm-5.2、glm-5.3、gpt-5.6-luna 等；DeepSeek 分组首 Token 约 2.7 秒。模型卡片带实时成功率、延迟与吞吐。",
+      registration: "邮箱注册（需邮箱验证），或 GitHub / Linux DO 登录（走邀请链接）。",
+      signupBonus: "无",
+      dailyCheckin: "15 左右（用户提供）",
+      models: "DeepSeek V4 系列（v4-flash-0731、v4-pro、v4-pro-0813、v4.1-flash）/ GLM 5、5.1、5.2、5.3 / GPT 5.6-luna 等",
+      experience: "注册无赠送、签到 15 左右（用户提供）；模型页公开价格与实时状态",
+      caveat: "注册无赠送、签到金额为用户提供，以站内实际显示为准。模型与价格以站内模型页为准，可能随时调整。",
+      benefits: ["公益站", "邮箱 / GitHub / Linux DO 登录", "注册无赠送", "签到 15 左右", "DeepSeek V4 系列", "GLM 5.x", "实时状态面板"],
+      url: "https://hyxware.com/auth?mode=register&aff=iSln",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-23 00:00",
       addedAt: "2026-10-23",
