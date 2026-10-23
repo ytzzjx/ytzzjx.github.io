@@ -16,7 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| 长春叙 | 公益站，**注册送 4.16，明天起改为送 1**（用户提供）。**gemini-3.8-flash 按次 0.01、gemini-4-argon 按次 0.2**；44 个模型，分 ds按次、哈基米按次/按量、小克按次/按量 五组，额度按人民币显示。 | [注册](https://changchunxu.xyz/sign-up?aff=YRjX) |
+| 长春叙 | 公益站，**注册送 4.16，明天起改为送 1，签到 0.2 左右**（用户提供）。**gemini-3.8-flash 按次 0.01、gemini-4-argon 按次 0.2**；44 个模型，分 ds按次、哈基米按次/按量、小克按次/按量 五组，额度按人民币显示。 | [注册](https://changchunxu.xyz/sign-up?aff=YRjX) |
 | 狸猫 AI | 公益站，**仅 QQ 邮箱注册，注册送 1、签到 1 毛**（用户提供）。模型广场 **25 个模型**，覆盖 Claude / GPT / Gemini / DeepSeek / Grok / Kimi 与生图，default / 国模 / 生图三组均 1 倍率；额度按自定义货币 ฅ 显示。QQ 群 1128305622。 | [注册](https://limao-api.com/sign-up?aff=QKlJ) |
 | 汐のAPI | 公益站，**QQ 邮箱注册，注册送 15 额度、签到 10**（用户提供）。**101 个模型**：默认组 1 倍、VIP 0.8、SVIP 0.6，另有 Claude / GPT / Gemini 独立分组和国内 wb 组；额度按自定义货币 🕯 显示。**同 IP 多账号会被封**（住宅 IP 只留最早一个，机房/代理 IP 全封）；**封号很严，请注意自己的 IP，国内可以直连**（用户提供）。 | [注册](https://api.203236.xyz/sign-up?aff=mNfo) |
 | 晚晚舟 | 公益站（酒馆专线），**QQ 邮箱注册，注册送 1；拉 5 人后可每天签到领 1r**（用户提供）。**哈基米 flash 系列 0.01、克 o 系列 0.05**。 | [注册](https://wanwanzhou.top/register?aff=E44252EBQGS2) |
