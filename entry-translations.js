@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "长春叙": {
+    name: "Changchun Xu",
+    kind: "Public service / 4.16 on registration (1 from tomorrow)",
+    updateNote: "New listing: a public service granting 4.16 on sign-up, dropping to 1 from tomorrow (per user report); gemini-3.8-flash costs 0.01 per request and gemini-4-argon 0.2.",
+    summary: "A public service granting 4.16 on sign-up, dropping to 1 from tomorrow (per user report). gemini-3.8-flash costs 0.01 per request and gemini-4-argon 0.2; 44 models split across five groups: ds per-request, Hachimi per-request / per-token, and Claude per-request / per-token.",
+    details:
+      "The service calls itself Changchun Xu (changchunxu.xyz), runs on New API, and displays credit in CNY (￥) at a 7.3 rate. Registration uses email with email verification and no GitHub or Linux DO login; it grants 4.16 on sign-up, dropping to 1 from tomorrow (per user report). The model plaza lists 44 models in 5 groups: ds per-request, Hachimi per-request, Hachimi per-token, Claude per-request, and Claude per-token. Gemini per request: gemini-3.8-flash 0.01, gemini-4-argon 0.2, gemini-3.5-flash 0.01, gemini-2.5-flash 0.01, gemini-2.5-pro 0.06; Gemini per token: the 3.x series at about 0.0247/0.0904 per 1M (input/output); Claude per request splits by channel (kiro, enterprise, tavern, anti-gravity), with kiro opus/sonnet around 0.06, enterprise around 0.5, and claude-fable-5 enterprise at 1.0; Claude per token: opus 4-6 to 5-5 about 0.274/1.37 per 1M, sonnet 4-6/5 about 0.593/2.96 per 1M, fable-5 about 1.37/6.92 per 1M; DeepSeek per request: deepseek-v4.1-flash, v4-flash, v3.2, and the 0.01-per-request entry all at 0.01. In-site note: pick a group when creating an API key, or the model list will not load.",
+    registration: "Register with an email address and email verification through the referral link.",
+    signupBonus: "4.16, dropping to 1 from tomorrow (per user report)",
+    dailyCheckin: "Follow what the site shows",
+    models: "44 models: Gemini (3.8-flash, 4-argon, 3.5-flash, 2.5 series) / Claude (opus 4-6 to 5-5, sonnet 4-5 to 5, fable-5, split by kiro / enterprise / tavern / anti-gravity channels) / DeepSeek (v4.1-flash, v4-flash, v3.2)",
+    experience: "4.16 on registration (1 from tomorrow); Gemini from 0.01 per request",
+    caveat: "The sign-up credit and the switch to 1 are per user report — confirm them on the service. You must pick a group when creating an API key, or the model list will not load. Per-request and per-token billing coexist with large differences between channels, so actual charges follow your usage records.",
+    benefits: ["Public service", "4.16 on registration (1 from tomorrow)", "gemini-3.8-flash at 0.01 per request", "gemini-4-argon at 0.2 per request", "44 models", "Claude billed per channel"],
+  },
   "狸猫 AI": {
     name: "Limao AI",
     kind: "Public service / 1 on registration / 0.1 yuan per check-in",

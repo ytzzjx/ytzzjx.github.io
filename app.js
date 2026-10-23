@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-10-21",
+  lastUpdated: "2026-10-23",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "长春叙",
     "狸猫 AI",
     "汐のAPI",
     "晚晚舟",
@@ -224,6 +225,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-23 00:00",
+      addedAt: "2026-10-23",
+      updatedAt: "2026-10-23",
+      updateNote: "新收录：公益站，注册送 4.16（明天起改为送 1，用户提供）；gemini-3.8-flash 按次 0.01、gemini-4-argon 按次 0.2。",
+      kind: "公益站 / 注册送 4.16（明天起 1）",
+      name: "长春叙",
+      summary:
+        "公益站，注册送 4.16，明天起改为送 1（用户提供）。gemini-3.8-flash 按次 0.01、gemini-4-argon 按次 0.2；44 个模型，分 ds按次、哈基米按次/按量、小克按次/按量 五组。",
+      details:
+        "站内名称长春叙（changchunxu.xyz），New API 程序，额度按人民币（￥）显示，汇率 7.3。邮箱注册，需邮箱验证，无 GitHub / Linux DO 登录；注册送 4.16，明天起改为送 1（用户提供）。模型广场公开 44 个模型，分 5 个分组：ds按次、哈基米按次、哈基米按量、小克按次、小克按量。Gemini 按次：gemini-3.8-flash 0.01/次、gemini-4-argon 0.2/次、gemini-3.5-flash 0.01/次、gemini-2.5-flash 0.01/次、gemini-2.5-pro 0.06/次；Gemini 按量：3.x 系列约 0.0247/0.0904 每 1M（输入/输出）；Claude 按次分 kiro、企业、酒馆、反重力等渠道，kiro 渠道 opus/sonnet 系列约 0.06/次、企业渠道约 0.5/次、claude-fable-5 企业 1.0/次；Claude 按量：opus 4-6~5-5 约 0.274/1.37 每 1M、sonnet 4-6/5 约 0.593/2.96 每 1M、fable-5 约 1.37/6.92 每 1M；DeepSeek 按次：deepseek-v4.1-flash、v4-flash、v3.2 与「（0.01/次）法王d老师」均 0.01/次。站内提示：创建 API 密钥时要选分组，否则拉取不到模型。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "4.16（明天起改为 1，用户提供）",
+      dailyCheckin: "以站内实际显示为准",
+      models: "44 个模型：Gemini（3.8-flash、4-argon、3.5-flash、2.5 系列）/ Claude（opus 4-6~5-5、sonnet 4-5~5、fable-5，分 kiro / 企业 / 酒馆 / 反重力渠道）/ DeepSeek（v4.1-flash、v4-flash、v3.2）",
+      experience: "注册送 4.16（明天起 1）；Gemini 按次最低 0.01/次",
+      caveat: "注册赠送金额与改为 1 的时间为用户提供，以站内实际显示为准。创建 API 密钥时必须选分组，否则拉取不到模型。按次与按量计费并存，倍率与渠道差异较大，实际扣费以站内记录为准。",
+      benefits: ["公益站", "注册送 4.16（明天起 1）", "gemini-3.8-flash 0.01/次", "gemini-4-argon 0.2/次", "44 个模型", "Claude 分渠道计费"],
+      url: "https://changchunxu.xyz/sign-up?aff=YRjX",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-21 00:00",
       addedAt: "2026-10-21",
