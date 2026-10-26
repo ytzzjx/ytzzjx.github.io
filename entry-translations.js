@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "Krisphyn API": {
+    name: "Krisphyn API",
+    kind: "Public service / 1 on registration / 0.6 per check-in",
+    updateNote: "New listing: a public service granting 1 on sign-up and 0.6 per check-in (per user report); 106 models across 22 groups, with the free group at 0.01x covering 18 models; the notice says it is not open to mainland China users, and a non-mainland-China verification is required after sign-up.",
+    summary: "A public service granting 1 on sign-up and 0.6 per check-in (per user report). 106 models across 22 groups, with the free group at 0.01x covering 18 models (step-5-preview, kimi-k3, gemini-3.8-flash, and more); the notice says it is not open to mainland China users, and a non-mainland-China verification is required after sign-up.",
+    details:
+      "The service calls itself Krisphyn API (api.krisphyn.cc), runs on New API, and displays credit in the custom currency 🍀. Registration supports email (with verification), GitHub, and Telegram OAuth, with no Linux DO login and no Turnstile captcha; it grants 1 on sign-up and 0.6 per daily check-in (both per user report). The model plaza lists 106 models across 22 groups: the free group at 0.01x (18 models including step-5-preview, Qwen3.8-27B, longcat-2.5, mimo-v2.6-flash, gemini-3.8-flash, sensenova-6.8-flash-lite, agnes-2.5-flash, kimi-k3); paid groups include agnes 0.01x, audio 0.02x, autoclaw 0.01x, claude 0.03x (claude-opus-5, opus-4.8, haiku-4.5, fable-5.1), deepseek 0.011x, gemini gcp (non-discounted) 0.205x, glm 0.01x (glm-4.5-air, 5.2, 4.7-flash, 5.3), gpt 0.028x (marked unstable), gpt plus (special) 0.053x (marked average stability), grok 0.02x (grok-4.6, composer-2.5-fast, 4.3), kimi 0.015x, qwen 0.02x, sensenova 0.1x, and video generations 0.1x. Operator notice: the service is not open to mainland China users, and new accounts must complete a non-mainland-China verification on the page; payment amounts exclude platform fees, so pay the full amount; a 'not visible' status on the model plaza does not mean unusable — try it yourself. Official QQ 1126949271, Telegram t.me/+oNk9wfnLeVkxNDJh.",
+    registration: "Register with email (verification required), GitHub, or Telegram OAuth through the referral link; the notice says the service is not open to mainland China users, and a non-mainland-China verification is required after sign-up.",
+    signupBonus: "1 (per user report)",
+    dailyCheckin: "0.6 (per user report)",
+    models: "106 models: free group 18 (step-5-preview, kimi-k3, gemini-3.8-flash, Qwen3.8-27B, longcat-2.5, mimo-v2.6-flash, sensenova-6.8-flash-lite, agnes-2.5-flash) / Claude (opus-5, 4.8, haiku-4.5, fable-5.1) / Gemini (3.5/3.6/3-pro) / DeepSeek (v4.1-flash-1017) / GLM (4.5-air, 5.2, 5.3) / Grok (4.6, 4.3, composer-2.5-fast) / Kimi / Qwen and more",
+    experience: "1 on registration and 0.6 per check-in (per user report); 106 models, free group at 0.01x",
+    caveat: "**The notice says the service is not open to mainland China users, and a non-mainland-China verification is required after sign-up.** The sign-up credit and check-in amount are per user report — confirm them on the service. A 'not visible' status on the model plaza does not necessarily mean unusable; the gpt group is marked unstable and gpt plus average. Credit uses the custom currency 🍀, and payment amounts exclude platform fees, so pay the full amount. Group rates and models may change at any time.",
+    benefits: ["Public service", "Email / GitHub / Telegram login", "1 on registration", "0.6 per check-in", "Free group at 0.01x (18 models)", "106 models", "22 groups"],
+  },
   "HyxAPI": {
     name: "HyxAPI",
     kind: "Public service / about 15 per check-in",

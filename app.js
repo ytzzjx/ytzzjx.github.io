@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-10-24",
+  lastUpdated: "2026-10-26",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Krisphyn API",
     "HyxAPI",
     "长春叙",
     "狸猫 AI",
@@ -249,6 +250,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-26 00:00",
+      addedAt: "2026-10-26",
+      updatedAt: "2026-10-26",
+      updateNote: "新收录：公益站，注册送 1、签到 0.6（用户提供）；106 个模型，22 个分组，免费组 0.01 倍含 18 个模型；公告称不对中国大陆用户开放，注册后需做非中国大陆认证。",
+      kind: "公益站 / 注册送 1 / 签到 0.6",
+      name: "Krisphyn API",
+      summary:
+        "公益站，注册送 1、签到 0.6（用户提供）。106 个模型，22 个分组，免费组 0.01 倍含 18 个模型（step-5-preview、kimi-k3、gemini-3.8-flash 等）；公告称不对中国大陆用户开放，注册后需做非中国大陆认证。",
+      details:
+        "站内名称 Krisphyn API（api.krisphyn.cc），New API 程序，额度按自定义货币 🍀 显示。注册支持邮箱（需验证）、GitHub 与 Telegram OAuth，无 Linux DO 登录，无 Turnstile 人机验证；注册送 1、每日签到 0.6（均为用户提供）。模型广场公开 106 个模型，22 个分组：免费组 0.01 倍（18 个，含 step-5-preview、Qwen3.8-27B、longcat-2.5、mimo-v2.6-flash、gemini-3.8-flash、sensenova-6.8-flash-lite、agnes-2.5-flash、kimi-k3 等）；付费分组 agnes 0.01、audio 0.02、autoclaw 0.01、claude 0.03（claude-opus-5、opus-4.8、haiku-4.5、fable-5.1 等）、deepseek 0.011、gemini gcp(不惠) 0.205、glm 0.01（glm-4.5-air、5.2、4.7-flash、5.3）、gpt 0.028（站方标注「不稳」）、gpt plus(特惠) 0.053（站方标注稳定性一般）、grok 0.02（grok-4.6、composer-2.5-fast、4.3 等）、kimi 0.015、qwen 0.02、sensenova 0.1、video generations 0.1 等。站方公告：本站不对中国大陆用户开放，新账号注册后需前往页面进行非中国大陆用户认证；付款金额不含平台手续费，需足额支付；模型广场显示「看不到」状态不代表使用不了，可自行尝试。官方 QQ 1126949271、Telegram t.me/+oNk9wfnLeVkxNDJh。",
+      registration: "邮箱（需验证）、GitHub 或 Telegram OAuth 注册（走邀请链接）；公告称不对中国大陆用户开放，注册后需做非中国大陆用户认证。",
+      signupBonus: "1（用户提供）",
+      dailyCheckin: "0.6（用户提供）",
+      models: "106 个模型：免费组 18 个（step-5-preview、kimi-k3、gemini-3.8-flash、Qwen3.8-27B、longcat-2.5、mimo-v2.6-flash、sensenova-6.8-flash-lite、agnes-2.5-flash 等）/ Claude（opus-5、4.8、haiku-4.5、fable-5.1）/ Gemini（3.5/3.6/3-pro）/ DeepSeek（v4.1-flash-1017）/ GLM（4.5-air、5.2、5.3）/ Grok（4.6、4.3、composer-2.5-fast）/ Kimi / Qwen 等",
+      experience: "注册送 1、签到 0.6（用户提供）；106 个模型，免费组 0.01 倍",
+      caveat: "**公告称本站不对中国大陆用户开放，注册后需做非中国大陆用户认证**。注册赠送与签到金额为用户提供，以站内实际显示为准。模型广场的「看不到」状态不一定代表不可用，可自行尝试；gpt 分组站方标注「不稳」、gpt plus 标注稳定性一般。额度为自定义货币 🍀，付款金额不含平台手续费需足额支付。分组倍率与模型可能随时调整。",
+      benefits: ["公益站", "邮箱 / GitHub / Telegram 登录", "注册送 1", "签到 0.6", "免费组 0.01 倍（18 个模型）", "106 个模型", "22 个分组"],
+      url: "https://api.krisphyn.cc/sign-up?aff=RHNm",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-24 00:00",
       addedAt: "2026-10-24",
