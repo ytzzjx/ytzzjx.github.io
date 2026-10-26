@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "秋刀鱼": {
+    name: "Qiudaoyu",
+    kind: "Paid service / tavern line / 2.5 on registration / argon at 0.02 per request",
+    updateNote: "New listing: a paid tavern-oriented service granting 2.5 on registration with no check-in (per user report); the highlight is argon at 0.02 per request.",
+    summary: "A paid tavern-oriented service granting 2.5 on registration with no check-in (per user report). The highlight is argon at 0.02 per request (per user report).",
+    details:
+      "The service calls itself Qiudaoyu (qiudaoy.com), runs on New API, and displays credit in the custom currency 🐟️. Registration uses email with email verification and no GitHub / Linux DO / Telegram login. It grants 2.5 on registration and has no check-in (both per user report). The highlight is argon at 0.02 per request (per user report), which suits tavern use; the remaining models and group rates follow what the site shows after login.",
+    registration: "Register with an email address and email verification through the referral link.",
+    signupBonus: "2.5 (per user report)",
+    dailyCheckin: "None (per user report)",
+    models: "Highlight: argon at 0.02 per request (per user report); confirm the remaining models after login",
+    experience: "2.5 on registration (per user report); argon at 0.02 per request, suitable for taverns",
+    caveat: "A paid tavern-oriented service. The sign-up credit, argon at 0.02 per request, and the absence of a check-in are per user report — confirm them on the service; the remaining models and rates follow the in-site model plaza after login.",
+    benefits: ["Paid service", "Tavern line", "2.5 on registration", "No check-in", "Argon at 0.02 per request"],
+  },
   "Krisphyn API": {
     name: "Krisphyn API",
     kind: "Public service / 1 on registration / 0.6 per check-in",

@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "秋刀鱼",
     "Krisphyn API",
     "HyxAPI",
     "长春叙",
@@ -250,6 +251,28 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-26 00:00",
+      addedAt: "2026-10-26",
+      updatedAt: "2026-10-26",
+      updateNote: "新收录：付费酒馆站，注册送 2.5、没有签到（用户提供）；重点：argon 0.02/次。",
+      kind: "付费站 / 酒馆站 / 注册送 2.5 / argon 0.02/次",
+      name: "秋刀鱼",
+      summary:
+        "付费酒馆站，注册送 2.5，没有签到（用户提供）。重点：argon 0.02/次（用户提供）。",
+      details:
+        "站内名称秋刀鱼（qiudaoy.com），New API 程序，额度按自定义货币 🐟️ 显示。注册为邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录。注册送 2.5，没有签到（均为用户提供）。重点：argon 0.02/次（用户提供），适合酒馆场景；其余模型与分组倍率以登录后站内显示为准。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "2.5（用户提供）",
+      dailyCheckin: "无（用户提供）",
+      models: "重点：argon 0.02/次（用户提供）；其余模型以登录后站内显示为准",
+      experience: "注册送 2.5（用户提供）；argon 0.02/次，适合酒馆",
+      caveat: "付费酒馆站。注册赠送、argon 0.02/次与没有签到均为用户提供，以站内实际显示为准；其余模型与倍率以登录后站内模型广场为准。",
+      benefits: ["付费站", "酒馆站", "注册送 2.5", "没有签到", "argon 0.02/次"],
+      url: "https://qiudaoy.com/sign-up?aff=V9zw",
+      pricing: "paid",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-26 00:00",
       addedAt: "2026-10-26",
