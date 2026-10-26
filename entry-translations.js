@@ -815,8 +815,10 @@ window.entryTranslationsData = {
     benefits: ["GitHub sign-up", "5 sign-up credits", "15-25 daily check-in", "Global proxy supported", "Regional restrictions", "Daily pass: 5 balance activates 20", "gpt-5.6-sol", "gpt-5.6-terra", "gpt-5.6-luna", "gpt-5.3-codex-spark", "gpt-5.5"],
   },
   MotoMoto: {
-    kind: "Public service / GitHub sign-up / OpenAI for Codex only",
-    updateNote: "Password registration is closed, so sign-up is now via GitHub; the check-in is a flat $50; added the rule that OpenAI models may only be used inside Codex.",
+    kind: "Unavailable / waiting for recovery",
+    updateNote: "The service is unreachable; removed from the live recommendations and moved to the unavailable archive.",
+    archivedAt: "2026-10-26",
+    archivedReason: "The service is unreachable, so at the user's request it was removed from the live recommendations and moved to the unavailable archive pending recovery; registration, bonuses, and models must be re-verified once it returns.",
     summary:
       "Registration grants $50 ($30 on sign-up plus $20 for the invite code) at a 1x rate, with a daily check-in of about $50. Password registration is closed, so new users must sign up through GitHub; older accounts can still log in with a password but have to bind GitHub soon or be treated as farming accounts. Note that the operator restricts OpenAI models to use inside Codex — wiring them into other agents counts as a violation.",
     details:
