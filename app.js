@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-10-26",
+  lastUpdated: "2026-10-27",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Nini-API",
     "秋刀鱼",
     "Krisphyn API",
     "HyxAPI",
@@ -251,6 +252,28 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-27 00:00",
+      addedAt: "2026-10-27",
+      updatedAt: "2026-10-27",
+      updateNote: "新收录：付费站，注册进群绑定送 10 刀（用户提供）；分组倍率公开，低价组多为按次计费。",
+      kind: "付费站 / 注册送 10 刀（进群绑定）",
+      name: "Nini-API",
+      summary:
+        "付费站，注册进群绑定送 10 刀（用户提供）。分组倍率公开，低价组多为按次计费（deepseek-v4.1-flash、glm-5.2 均 0.015/次）；站方公告 kiro 特价号池已死并已调价。",
+      details:
+        "站内名称 Nini-API（x1.ninijoker-api.com），New API 程序，额度按人民币（¤）显示。注册为邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录；注册进群绑定送 10 刀（用户提供）。模型广场分组倍率公开：Qwen 官方 0.3、anti claude 0.5、ccmax 20x 0.95、deepseek官方 0.3、gemini ultra20x 0.3、glm官方 0.3、gpt pro20x 96攒 0.18、gpt pro20x企业组 0.26、gpt 官切 ×1、gpt 混合池 0.23、gpt 混合池 自营 0.12、gpt 特惠组 0.1、gpt 福利组 0.05、grok heavy 0.15、kimi 官方 0.3、kiro claude 96攒 0.12、kiro claude 正价 0.5。低价组按次计费：deepseek-v4-pro 0.015/次、deepseek-v4.1-flash 0.015/次、glm-5.2 0.03/次、glm-5.3 与 glm-5.3-flash 0.01-0.03/次、kimi-k2.7 与 kimi-k2.6 0.02/次、minimax-m3、qwen3.8-max 等。站方公告：kiro 特价号池已死，已经调价。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）；注册后进群绑定送 10 刀（用户提供）。",
+      signupBonus: "注册进群绑定送 10 刀（用户提供）",
+      dailyCheckin: "未提供",
+      models: "低价组按次计费：deepseek-v4-pro 与 v4.1-flash 0.015/次、glm-5.2 0.03/次、glm-5.3 / 5.3-flash 0.01-0.03/次、kimi-k2.7 / k2.6 0.02/次、minimax-m3、qwen3.8-max；另有 Claude / GPT / Gemini / Grok 等分组",
+      experience: "注册进群绑定送 10 刀（用户提供）；低价组按次计费，适合尝鲜",
+      caveat: "付费站。注册赠送为用户提供，以站内实际显示为准。站方公告 kiro 特价号池已死并已调价，倍率随时可能变，以站内模型广场为准。",
+      benefits: ["付费站", "注册送 10 刀（进群绑定）", "低价组按次计费", "deepseek-v4.1-flash 0.015/次", "glm-5.2 0.03/次", "分组倍率公开"],
+      url: "https://x1.ninijoker-api.com/sign-up?aff=2856",
+      pricing: "paid",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-26 00:00",
       addedAt: "2026-10-26",
