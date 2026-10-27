@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-10-27",
+  lastUpdated: "2026-10-28",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "猫のAPI",
     "Nini-API",
     "秋刀鱼",
     "Krisphyn API",
@@ -252,6 +253,28 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-28 00:00",
+      addedAt: "2026-10-28",
+      updatedAt: "2026-10-28",
+      updateNote: "新收录：付费站，注册送 0.1（用户提供）；deepseek 官 key 现在免费（用户提供）；有 Eggs 分组。",
+      kind: "付费站 / 注册送 0.1 / Eggs 分组",
+      name: "猫のAPI",
+      summary:
+        "付费站，注册送 0.1（用户提供）。deepseek 官 key 现在是免费（用户提供）。分组倍率公开，含 Eggs 分组（站方自述赛博鸡蛋、不保证可用性与延迟）。",
+      details:
+        "站内名称猫のAPI（www.catpawrouter.com），New API 程序，额度按美元显示。注册为邮箱注册，需邮箱验证并开 Turnstile 人机验证，无 GitHub / Linux DO / Telegram 登录；注册送 0.1（用户提供）。deepseek 官 key 现在是免费（用户提供）。模型广场公开 33 个模型，7 个分组：ChatGPT-Official 0.35（官方 KEY 直连、满血、不降智、无 Cyber 限制）、ChatGPT-Pro 0.3（正价 Pro 500 号池，可在 Codex 客户端使用，也能养马养虾和外接脚本，优选不降智）、Claude-Max 1.1（官方 Max 20X 满血版，可在 Claude Desktop 使用）、DeepSeek 1（官方 KEY 直连、稳定性高、支持全模型）、ChinaModelsPool① 0.03 / ② 0.06 / ③ 0.11、auto 1、Eggs 0（站方自述「赛博鸡蛋分组，本分组不售后，不保证可用性与延迟」）。DeepSeek 相关模型：deepseek-flash 即 DeepSeek V4.1 Flash 1017 快照（V4.1 Flash 的 10 月 17 日版本，552B 骨干、输入激活 8B 输出 16B，原生图像理解，压缩 KV 缓存约为上一代 Flash 的四分之一），另有 deepseek-v4-pro、deepseek-v4-pro-0813、deepseek-v4-flash-0731、deepseek-v4.1-flash-1017。公开价格接口显示 DeepSeek 组计费分高峰/空闲两档（deepseek-flash 空闲 p×1+c×4、高峰 p×2+c×8；deepseek-v4-pro 空闲 p×4.5+c×13.5、高峰 p×9+c×27），与「官 key 免费」的口径不一致，以站内实际显示和调用为准。",
+      registration: "邮箱注册，需邮箱验证并完成 Turnstile 人机验证（走邀请链接）。",
+      signupBonus: "0.1（用户提供）",
+      dailyCheckin: "以站内实际显示为准",
+      models: "DeepSeek（deepseek-flash 即 V4.1 Flash 1017、v4-pro、v4-pro-0813、v4-flash-0731、v4.1-flash-1017）/ ChatGPT（官方 KEY 直连、Pro 500 号池）/ Claude（官方 Max 20X 满血）/ 国内模型池①②③",
+      experience: "注册送 0.1（用户提供）；deepseek 官 key 现在免费（用户提供）；分组倍率公开",
+      caveat: "付费站。注册赠送与 deepseek 免费均为用户提供，以站内实际显示为准。公开价格接口显示 DeepSeek 组分高峰/空闲两档计费且倍率为 1，与「官 key 免费」说法不一致，请以站内实际显示和调用记录为准。Eggs 分组站方明确不售后、不保证可用性与延迟。",
+      benefits: ["付费站", "注册送 0.1", "deepseek 官 key 免费（用户提供）", "有 Eggs 分组", "ChatGPT 官方直连 0.35", "Claude-Max 满血", "分组倍率公开"],
+      url: "https://www.catpawrouter.com/sign-up?aff=YugA",
+      pricing: "paid",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-27 00:00",
       addedAt: "2026-10-27",

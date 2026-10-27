@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "猫のAPI": {
+    name: "Cat's API",
+    kind: "Paid service / 0.1 on registration / Eggs group",
+    updateNote: "New listing: a paid service granting 0.1 on registration (per user report); the DeepSeek official key is currently free (per user report); it has an Eggs group.",
+    summary: "A paid service granting 0.1 on registration (per user report). The DeepSeek official key is currently free (per user report). Group rates are public, including an Eggs group the operator describes as a cyber-egg group with no guarantee of availability or latency.",
+    details:
+      "The service calls itself Cat's API (www.catpawrouter.com), runs on New API, and displays credit in USD. Registration uses email with email verification and a Turnstile captcha, with no GitHub / Linux DO / Telegram login; it grants 0.1 on registration (per user report). The DeepSeek official key is currently free (per user report). The model plaza lists 33 models across 7 groups: ChatGPT-Official 0.35 (official key direct, full power, undumbed, no Cyber limits), ChatGPT-Pro 0.3 (standard Pro 500 account pool, usable in Codex clients and for horse/shrimp keeping plus external scripts, preferably undumbed), Claude-Max 1.1 (official Max 20X full power, usable in Claude Desktop), DeepSeek 1 (official key direct, high stability, all models), ChinaModelsPool① 0.03 / ② 0.06 / ③ 0.11, auto 1, and Eggs 0 (the operator calls it a cyber-egg group with no after-sales and no guarantee of availability or latency). DeepSeek models: deepseek-flash is the October 17, 2026 snapshot of DeepSeek V4.1 Flash (552B backbone, 8B activated on input and 16B on output, native image understanding, compressed KV cache at roughly a quarter of the previous Flash generation), plus deepseek-v4-pro, deepseek-v4-pro-0813, deepseek-v4-flash-0731, and deepseek-v4.1-flash-1017. The public pricing API shows the DeepSeek group billing in peak/off-peak tiers (deepseek-flash off-peak p×1+c×4, peak p×2+c×8; deepseek-v4-pro off-peak p×4.5+c×13.5, peak p×9+c×27), which contradicts the free official key — confirm on the service and in your usage records.",
+    registration: "Register with an email address, email verification, and a Turnstile captcha through the referral link.",
+    signupBonus: "0.1 (per user report)",
+    dailyCheckin: "Follow what the site shows",
+    models: "DeepSeek (deepseek-flash, i.e. V4.1 Flash 1017, v4-pro, v4-pro-0813, v4-flash-0731, v4.1-flash-1017) / ChatGPT (official key direct, Pro 500 pool) / Claude (official Max 20X full power) / China model pools ①②③",
+    experience: "0.1 on registration (per user report); the DeepSeek official key is currently free (per user report); group rates are public",
+    caveat: "A paid service. The sign-up credit and the free DeepSeek are per user report — confirm them on the service. The public pricing API shows the DeepSeek group billing in peak/off-peak tiers at 1x, which contradicts the free official key, so confirm against the site's actual display and usage records. The operator explicitly states the Eggs group has no after-sales and no guarantee of availability or latency.",
+    benefits: ["Paid service", "0.1 on registration", "DeepSeek official key free (per user report)", "Eggs group", "ChatGPT official direct at 0.35", "Claude-Max full power", "Public group rates"],
+  },
   "Nini-API": {
     name: "Nini-API",
     kind: "Paid service / 10 on registration after group binding",
