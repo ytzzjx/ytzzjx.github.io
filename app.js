@@ -291,7 +291,7 @@ const siteConfig = {
       experience: "注册送 1、签到 0.6（用户提供）；106 个模型，免费组 0.01 倍",
       caveat: "**公告称本站不对中国大陆用户开放，注册后需做非中国大陆用户认证**。注册赠送与签到金额为用户提供，以站内实际显示为准。模型广场的「看不到」状态不一定代表不可用，可自行尝试；gpt 分组站方标注「不稳」、gpt plus 标注稳定性一般。额度为自定义货币 🍀，付款金额不含平台手续费需足额支付。分组倍率与模型可能随时调整。",
       benefits: ["公益站", "邮箱 / GitHub / Telegram 登录", "注册送 1", "签到 0.6", "免费组 0.01 倍（18 个模型）", "106 个模型", "22 个分组"],
-      url: "https://api.krisphyn.cc/sign-up?aff=RHNm",
+      url: "https://free.krisphyn.cc/sign-up?aff=RHNm",
       tone: "active",
     },
     {
