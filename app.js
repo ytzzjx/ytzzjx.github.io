@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-10-28",
+  lastUpdated: "2026-10-30",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "ThousandYuan Ai",
     "猫のAPI",
     "Nini-API",
     "秋刀鱼",
@@ -253,6 +254,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-30 00:00",
+      addedAt: "2026-10-30",
+      updatedAt: "2026-10-30",
+      updateNote: "新收录：公益站，注册送 30、每日签到送 50（用户提供）；13 个模型，default / vip 两组均 1 倍率。",
+      kind: "公益站 / 注册送 30 / 签到送 50",
+      name: "ThousandYuan Ai",
+      summary:
+        "公益站，注册送 30，每日签到送 50（用户提供）。13 个模型，default 与 vip 两组都是 1 倍率，含 Claude、GPT、Gemini、DeepSeek、Grok、Kimi 等。",
+      details:
+        "站内名称 ThousandYuan Ai（api.thousandyuan.dpdns.org），New API 程序，额度按美元显示。注册为邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无 Turnstile 人机验证；注册送 30，每日签到送 50（均为用户提供）。模型广场公开 13 个模型，分 default 与 vip 两组、倍率均为 1：claude-opus-5-5、claude-sonnet-5-0、gpt-6-1-sol、gemini-4、deepseek-v4.1-flash、grok-4.7、glm-5.3、glm-5.3-flash、qwen3.8、kimi-k2.6、minimax-m3、minimax-m3.1-flash、spark-x2.6。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "30（用户提供）",
+      dailyCheckin: "50（用户提供）",
+      models: "claude-opus-5-5、claude-sonnet-5-0、gpt-6-1-sol、gemini-4、deepseek-v4.1-flash、grok-4.7、glm-5.3 / 5.3-flash、qwen3.8、kimi-k2.6、minimax-m3 / m3.1-flash、spark-x2.6（default / vip 两组均 1 倍）",
+      experience: "注册送 30、每日签到送 50（用户提供）；主流模型齐全，倍率 1 倍",
+      caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准。模型与倍率以站内模型广场为准，可能随时调整。",
+      benefits: ["公益站", "邮箱注册", "注册送 30", "签到送 50", "13 个模型", "default / vip 均 1 倍"],
+      url: "https://api.thousandyuan.dpdns.org/sign-up?aff=vDuG",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-28 00:00",
       addedAt: "2026-10-28",

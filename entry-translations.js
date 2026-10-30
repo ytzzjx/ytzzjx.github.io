@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "ThousandYuan Ai": {
+    name: "ThousandYuan Ai",
+    kind: "Public service / 30 on registration / 50 per check-in",
+    updateNote: "New listing: a public service granting 30 on sign-up and 50 per daily check-in (per user report); 13 models, with both the default and VIP groups at 1x.",
+    summary: "A public service granting 30 on sign-up and 50 per daily check-in (per user report). 13 models across the default and VIP groups, both at 1x, covering Claude, GPT, Gemini, DeepSeek, Grok, and Kimi.",
+    details:
+      "The service calls itself ThousandYuan Ai (api.thousandyuan.dpdns.org), runs on New API, and displays credit in USD. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or Turnstile captcha; it grants 30 on sign-up and 50 per daily check-in (both per user report). The model plaza lists 13 models in two groups, default and VIP, both at 1x: claude-opus-5-5, claude-sonnet-5-0, gpt-6-1-sol, gemini-4, deepseek-v4.1-flash, grok-4.7, glm-5.3, glm-5.3-flash, qwen3.8, kimi-k2.6, minimax-m3, minimax-m3.1-flash, and spark-x2.6.",
+    registration: "Register with an email address and email verification through the referral link.",
+    signupBonus: "30 (per user report)",
+    dailyCheckin: "50 (per user report)",
+    models: "claude-opus-5-5, claude-sonnet-5-0, gpt-6-1-sol, gemini-4, deepseek-v4.1-flash, grok-4.7, glm-5.3 / 5.3-flash, qwen3.8, kimi-k2.6, minimax-m3 / m3.1-flash, spark-x2.6 (both default and VIP groups at 1x)",
+    experience: "30 on registration and 50 per daily check-in (per user report); mainstream models covered at 1x",
+    caveat: "The sign-up credit and check-in amount are per user report — confirm them on the service. Models and rates follow the in-site model plaza and may change at any time.",
+    benefits: ["Public service", "Email registration", "30 on registration", "50 per check-in", "13 models", "Default and VIP both at 1x"],
+  },
   "猫のAPI": {
     name: "Cat's API",
     kind: "Paid service / 0.1 on registration / includes an Eggs group",

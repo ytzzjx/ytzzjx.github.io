@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| ThousandYuan Ai | 公益站，**注册送 30、每日签到送 50**（用户提供）。**13 个模型**，default 与 vip 两组均 1 倍率，含 claude-opus-5-5、gpt-6-1-sol、gemini-4、deepseek-v4.1-flash、grok-4.7、GLM 5.3、Kimi 等；额度按美元显示。 | [注册](https://api.thousandyuan.dpdns.org/sign-up?aff=vDuG) |
 | Krisphyn API | 公益站，**注册送 1、签到 0.6**（用户提供）。**106 个模型，22 个分组**，免费组 0.01 倍含 18 个模型（step-5-preview、kimi-k3、gemini-3.8-flash 等）；额度按自定义货币 🍀 显示。**公告称不对中国大陆用户开放，注册后需做非中国大陆认证**。 | [注册](https://free.krisphyn.cc/sign-up?aff=RHNm) |
 | HyxAPI | 公益站，**注册无赠送，签到 15 左右**（用户提供）。支持邮箱、GitHub 与 Linux DO 登录，额度按美元显示；模型有 DeepSeek V4 系列、GLM 5.x、GPT 5.6 等，模型页公开价格与实时状态。 | [注册](https://hyxware.com/auth?mode=register&aff=iSln) |
 | 长春叙 | 公益站，**注册送 4.16，明天起改为送 1，签到 0.2 左右**（用户提供）。**gemini-3.8-flash 按次 0.01、gemini-4-argon 按次 0.2**；44 个模型，分 ds按次、哈基米按次/按量、小克按次/按量 五组，额度按人民币显示。 | [注册](https://changchunxu.xyz/sign-up?aff=YRjX) |
