@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| 猫のAPI | 公益站，**模型免费**。登录后模型广场现为 8 个模型，输入/输出/缓存读取价格均显示 $0：claude-opus-5-5、gpt-6.1-sol、gpt-6.1-terra、gpt-5.2、kimi-k3、kimi-k3.1-pro、deepseek-flash（V4.1 Flash 1017）、glm-5.2、sensenova-6.8-flash-lite。注册送 0.1（用户提供）。 | [注册](https://www.catpawrouter.com/sign-up?aff=YugA) |
 | 玖观API | 公益站，**注册送 3**（用户提供）。**339 个模型**，按量 172 个、按次 167 个；**多个 0.001 倍限时免费分组**（DeepSeek/GLM/Kimi 免费使用、Gemini 2.5 flash 免费使用、小克 Claude 限时活动）。QQ 群 498648355。 | [注册](https://jiuguan.cloud/sign-up?aff=PvxS) |
 | Velunqi | 公益站，**注册送 110、签到 80 左右**（用户提供）。34 个模型，单一默认分组，额度按人民币显示；含 DeepSeek V4、GLM 5.x、Kimi k3、MiniMax m3、hy3/hy4、step-5-preview 等，倍率从 0.005 到 37.5 不等。 | [注册](https://velunqi.asia/sign-up?aff=EHhE) |
 | 公益中转api | 公益站，**注册送 2、签到 0.7 左右**（用户提供）。**35 个模型，倍率公开**：deepseek 与 kimi/glm 分组 0.2、gpt 与 gemini 分组 20、default 1，含 DeepSeek V4、GLM 5.x、Kimi、GPT 6-astra、Gemini、MiniMax 等。 | [注册](https://ces.ddddai.xyz/sign-up?aff=hlgS) |
@@ -76,7 +77,6 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| 猫のAPI | **付费站，注册送 0.1，deepseek 官 key 现在免费**（用户提供）。**站内有一个 Eggs 分组（0 倍）**，站方在该分组说明里自述不售后、不保证可用性与延迟。分组倍率公开：ChatGPT 官方直连 0.35、ChatGPT-Pro 0.3、Claude-Max 1.1、DeepSeek 1、国内模型池①②③ 0.03/0.06/0.11。 | [注册](https://www.catpawrouter.com/sign-up?aff=YugA) |
 | Nini-API | **付费站，注册进群绑定送 10 刀**（用户提供）。分组倍率公开，低价组多为按次计费：**deepseek-v4-pro 与 v4.1-flash 0.015/次**、glm-5.2 0.03/次、glm-5.3 系列 0.01-0.03/次、kimi-k2.7 / k2.6 0.02/次。邮箱注册，额度按人民币显示；站方公告 kiro 特价号池已死并已调价。 | [注册](https://x1.ninijoker-api.com/sign-up?aff=2856) |
 | 秋刀鱼 | **付费酒馆站，注册送 2.5，没有签到**（用户提供）。**重点：argon 0.02/次**（用户提供），适合酒馆场景；邮箱注册，额度按自定义货币 🐟️ 显示。 | [注册](https://qiudaoy.com/sign-up?aff=V9zw) |
 | DZH Smart AI | **付费站，注册送 0.1，有不降智 GPT，QQ 群 613833653 经常发红包**（用户提供）。**0.08 倍不降智 astra，缓存命中 80% 左右**；**AWS Bedrock 0.4 倍**（用户提供）。ChatGPT-PRO企业 组 0.18 倍，站方标注 gpt-6-astra、gpt-6.1-sol 不降智 100%；ChatGPT-PRO稳定 0.05 倍标注 90%+。**无签到**；每日抽奖 $0-1，需当日消费后才能参与，充值只增加次数。88 个模型，另有 Claude / Gemini / DeepSeek / grok / Kimi 与生图。 | [注册](https://dzhsmartai.com/register?aff=Y9UH5YBU33UB) |
