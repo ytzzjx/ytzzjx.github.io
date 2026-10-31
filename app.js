@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Velunqi",
     "公益中转api",
     "ThousandYuan Ai",
     "猫のAPI",
@@ -255,6 +256,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-31 00:00",
+      addedAt: "2026-10-31",
+      updatedAt: "2026-10-31",
+      updateNote: "新收录：公益站，注册送 110、签到 80 左右（用户提供）；34 个模型，单一默认分组。",
+      kind: "公益站 / 注册送 110 / 签到 80 左右",
+      name: "Velunqi",
+      summary:
+        "公益站，注册送 110，签到 80 左右（用户提供）。34 个模型，单一默认分组，额度按人民币显示。",
+      details:
+        "站内名称 Velunqi（velunqi.asia），New API 程序，额度按人民币显示。注册为邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无 Turnstile 人机验证；注册送 110，每日签到 80 左右（均为用户提供）。模型广场公开 34 个模型，只有 default 一个分组：DeepSeek（v4-flash 0.5、v4.1-flash 1、v4-pro 5）、GLM（5.3-flash 0.05、5.2 0.5、5.3 2.5）、Kimi（k2.8 0.5、k3 2.5、k3.1-pro 37.5）、MiniMax（m3 与 m3.1-flash 0.05）、mimo-v2.6-pro 0.05、hy3 与 hy4 0.05、space-bunny 0.05、step-5-preview 0.005、sensenova-6.8-flash-lite 0.005，另有 Qwen3.8-27B、Qwen3.8-Flash-Next、Qwen3-Embedding-8B、MiniCPM-V-4.7-35B-A3B、stepaudio-2.5 系列等。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "110（用户提供）",
+      dailyCheckin: "80 左右（用户提供）",
+      models: "34 个模型：DeepSeek（v4-flash、v4.1-flash、v4-pro）/ GLM（5.2、5.3、5.3-flash）/ Kimi（k2.8、k3、k3.1-pro）/ MiniMax（m3、m3.1-flash）/ hy3、hy4、step-5-preview、sensenova、Qwen3.8 等",
+      experience: "注册送 110、签到 80 左右（用户提供）；倍率跨度大，便宜的模型能到 0.005",
+      caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准。模型倍率跨度极大（step-5-preview 与 MiniCPM 0.005，kimi-k3.1-pro 37.5），实际消耗以站内模型广场和调用记录为准。",
+      benefits: ["公益站", "邮箱注册", "注册送 110", "签到 80 左右", "34 个模型", "额度按人民币显示"],
+      url: "https://velunqi.asia/sign-up?aff=EHhE",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-31 00:00",
       addedAt: "2026-10-31",

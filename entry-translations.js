@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  Velunqi: {
+    name: "Velunqi",
+    kind: "Public service / 110 on registration / about 80 per check-in",
+    updateNote: "New listing: a public service granting 110 on sign-up with a check-in worth about 80 (per user report); 34 models in a single default group.",
+    summary: "A public service granting 110 on sign-up with a check-in worth about 80 (per user report). 34 models in a single default group, with credit displayed in CNY.",
+    details:
+      "The service calls itself Velunqi (velunqi.asia), runs on New API, and displays credit in CNY. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or Turnstile captcha; it grants 110 on sign-up with a daily check-in worth about 80 (both per user report). The model plaza lists 34 models in a single default group: DeepSeek (v4-flash 0.5, v4.1-flash 1, v4-pro 5), GLM (5.3-flash 0.05, 5.2 0.5, 5.3 2.5), Kimi (k2.8 0.5, k3 2.5, k3.1-pro 37.5), MiniMax (m3 and m3.1-flash 0.05), mimo-v2.6-pro 0.05, hy3 and hy4 0.05, space-bunny 0.05, step-5-preview 0.005, and sensenova-6.8-flash-lite 0.005, plus Qwen3.8-27B, Qwen3.8-Flash-Next, Qwen3-Embedding-8B, MiniCPM-V-4.7-35B-A3B, and the stepaudio-2.5 series.",
+    registration: "Register with an email address and email verification through the referral link.",
+    signupBonus: "110 (per user report)",
+    dailyCheckin: "About 80 (per user report)",
+    models: "34 models: DeepSeek (v4-flash, v4.1-flash, v4-pro) / GLM (5.2, 5.3, 5.3-flash) / Kimi (k2.8, k3, k3.1-pro) / MiniMax (m3, m3.1-flash) / hy3, hy4, step-5-preview, sensenova, Qwen3.8 and more",
+    experience: "110 on registration and about 80 per check-in (per user report); rates span a wide range, with cheap models as low as 0.005",
+    caveat: "The sign-up credit and check-in amount are per user report — confirm them on the service. Model rates span a very wide range (step-5-preview and MiniCPM at 0.005, kimi-k3.1-pro at 37.5), so actual consumption follows the in-site model plaza and your usage records.",
+    benefits: ["Public service", "Email registration", "110 on registration", "About 80 per check-in", "34 models", "Credit displayed in CNY"],
+  },
   "公益中转api": {
     name: "Public Relay API",
     kind: "Public service / 2 on registration / about 0.7 per check-in",
