@@ -77,6 +77,9 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| tntapi | **付费站，007 倍、90 缓存，GPT 全模型不降智**（用户提供）。 | [注册](https://tntapi.com/register?aff=YEHKYD842LNC) |
+| 梦幻API | **付费站，008 倍、80 缓存，GPT 全模型不降智**（用户提供）。 | [注册](https://mhapi.net/register?aff=MPFATHYUYACF) |
+| beiluoxi | **付费站，GPT 007 不降智**（用户提供）。 | [注册](https://beiluoxi.ccwu.cc/register?aff=EKZSES6FNVPX) |
 | Nini-API | **付费站，注册进群绑定送 10 刀**（用户提供）。分组倍率公开，低价组多为按次计费：**deepseek-v4-pro 与 v4.1-flash 0.015/次**、glm-5.2 0.03/次、glm-5.3 系列 0.01-0.03/次、kimi-k2.7 / k2.6 0.02/次。邮箱注册，额度按人民币显示；站方公告 kiro 特价号池已死并已调价。 | [注册](https://x1.ninijoker-api.com/sign-up?aff=2856) |
 | 秋刀鱼 | **付费酒馆站，注册送 2.5，没有签到**（用户提供）。**重点：argon 0.02/次**（用户提供），适合酒馆场景；邮箱注册，额度按自定义货币 🐟️ 显示。 | [注册](https://qiudaoy.com/sign-up?aff=V9zw) |
 | DZH Smart AI | **付费站，注册送 0.1，有不降智 GPT，QQ 群 613833653 经常发红包**（用户提供）。**0.08 倍不降智 astra，缓存命中 80% 左右**；**AWS Bedrock 0.4 倍**（用户提供）。ChatGPT-PRO企业 组 0.18 倍，站方标注 gpt-6-astra、gpt-6.1-sol 不降智 100%；ChatGPT-PRO稳定 0.05 倍标注 90%+。**无签到**；每日抽奖 $0-1，需当日消费后才能参与，充值只增加次数。88 个模型，另有 Claude / Gemini / DeepSeek / grok / Kimi 与生图。 | [注册](https://dzhsmartai.com/register?aff=Y9UH5YBU33UB) |

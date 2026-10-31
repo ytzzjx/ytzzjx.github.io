@@ -2,6 +2,51 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  tntapi: {
+    name: "tntapi",
+    kind: "Paid service / 0.07x / 90% cache hit / undumbed GPT across the board",
+    updateNote: "New listing: a paid service at 0.07x with a 90% cache hit and undumbed GPT across the board (per user report).",
+    summary: "A paid service at 0.07x with a 90% cache hit and undumbed GPT across the board (per user report).",
+    details:
+      "The domain is tntapi.com, with registration through the referral link. It runs at 0.07x with a 90% cache hit and undumbed GPT across the board (all per user report). The public API returned 403, so the site name and rate details follow what the site shows.",
+    registration: "Register through the referral link.",
+    signupBonus: "Not provided",
+    dailyCheckin: "Not provided",
+    models: "Undumbed GPT across the board (per user report)",
+    experience: "0.07x with a 90% cache hit; undumbed GPT across the board (per user report)",
+    caveat: "A paid service. The 0.07x rate, 90% cache hit, and undumbed GPT are per user report — confirm them on the service. The public API returned 403 and could not be verified.",
+    benefits: ["Paid service", "0.07x", "90% cache hit", "Undumbed GPT across the board"],
+  },
+  "梦幻API": {
+    name: "Menghuan API",
+    kind: "Paid service / 0.08x / 80% cache hit / undumbed GPT across the board",
+    updateNote: "New listing: a paid service at 0.08x with an 80% cache hit and undumbed GPT across the board (per user report).",
+    summary: "A paid service at 0.08x with an 80% cache hit and undumbed GPT across the board (per user report).",
+    details:
+      "The service calls itself Menghuan API (mhapi.net). It runs at 0.08x with an 80% cache hit and undumbed GPT across the board (all per user report). The public status API returned 404 and the pricing API is not open, so the model list and groups follow what the site shows after login.",
+    registration: "Register through the referral link.",
+    signupBonus: "Not provided",
+    dailyCheckin: "Not provided",
+    models: "Undumbed GPT across the board (per user report)",
+    experience: "0.08x with an 80% cache hit; undumbed GPT across the board (per user report)",
+    caveat: "A paid service. The 0.08x rate, 80% cache hit, and undumbed GPT are per user report — confirm them on the service. The public API returned no data.",
+    benefits: ["Paid service", "0.08x", "80% cache hit", "Undumbed GPT across the board"],
+  },
+  beiluoxi: {
+    name: "beiluoxi",
+    kind: "Paid service / GPT at 0.07x / undumbed",
+    updateNote: "New listing: a paid service with GPT at 0.07x, undumbed (per user report).",
+    summary: "A paid service with GPT at 0.07x, undumbed (per user report).",
+    details:
+      "The domain is beiluoxi.ccwu.cc, with registration through the referral link. GPT runs at 0.07x and is undumbed (per user report). The public API connection was reset, so the site name and further details follow what the site shows.",
+    registration: "Register through the referral link.",
+    signupBonus: "Not provided",
+    dailyCheckin: "Not provided",
+    models: "GPT at 0.07x, undumbed (per user report)",
+    experience: "GPT at 0.07x, undumbed (per user report)",
+    caveat: "A paid service. The 0.07x rate and undumbed GPT are per user report — confirm them on the service. The public API connection was reset and could not be verified.",
+    benefits: ["Paid service", "GPT at 0.07x", "Undumbed"],
+  },
   "玖观API": {
     name: "Jiuguan API",
     kind: "Public service / 3 on registration / rotating free-access events",
