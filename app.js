@@ -5,10 +5,11 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-10-30",
+  lastUpdated: "2026-10-31",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "公益中转api",
     "ThousandYuan Ai",
     "猫のAPI",
     "Nini-API",
@@ -254,6 +255,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-31 00:00",
+      addedAt: "2026-10-31",
+      updatedAt: "2026-10-31",
+      updateNote: "新收录：公益站，注册送 2、签到 0.7 左右（用户提供）；35 个模型 5 个分组，倍率公开。",
+      kind: "公益站 / 注册送 2 / 签到 0.7 左右",
+      name: "公益中转api",
+      summary:
+        "公益站，注册送 2，签到 0.7 左右（用户提供）。35 个模型 5 个分组，倍率公开：deepseek 与 kimi/glm 分组 0.2、gpt 与 gemini 分组 20、default 1。",
+      details:
+        "站内名称公益中转api（ces.ddddai.xyz），New API 程序，额度按美元显示。注册为邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无 Turnstile 人机验证；注册送 2，每日签到 0.7 左右（均为用户提供）。模型广场公开 35 个模型，5 个分组：deepseek分组 0.2、default 1、gemini分组 20、gpt分组 20、kimi/glm分组 0.2。覆盖 DeepSeek（v4-pro、v4.1-flash-1017、v4.1-flash、v4-flash）、GLM（5、5.1、5.2、5.3 及 flashx / flash / turbo / 5v-turbo、glm-asr）、Kimi（k3、k2.7-code、k2.6、k2.5）、GPT（6-astra、5.6-luna / sol / terra）、Gemini（3.5-flash、3.1-pro-preview）、Qwen、MiniMax（m3、m2.7、m2.5、h3）、mimo 与 hy 系列等。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "2（用户提供）",
+      dailyCheckin: "0.7 左右（用户提供）",
+      models: "35 个模型：DeepSeek（v4-pro、v4.1-flash-1017）/ GLM（5、5.1-5.3 及 flash 系列）/ Kimi（k3、k2.7-code、k2.6）/ GPT（6-astra、5.6 系列）/ Gemini（3.5-flash、3.1-pro）/ MiniMax / Qwen 等",
+      experience: "注册送 2、签到 0.7 左右（用户提供）；倍率公开，deepseek 与 kimi/glm 分组仅 0.2",
+      caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准。分组倍率差异极大（deepseek / kimi-glm 0.2，gpt / gemini 20），选分组前看清计费；模型与倍率以站内模型广场为准。",
+      benefits: ["公益站", "邮箱注册", "注册送 2", "签到 0.7 左右", "35 个模型", "deepseek 分组 0.2", "倍率公开"],
+      url: "https://ces.ddddai.xyz/sign-up?aff=hlgS",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-30 00:00",
       addedAt: "2026-10-30",
