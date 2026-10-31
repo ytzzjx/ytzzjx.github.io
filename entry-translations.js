@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "玖观API": {
+    name: "Jiuguan API",
+    kind: "Public service / 3 on registration / rotating free-access events",
+    updateNote: "New listing: a public service granting 3 on registration (per user report); the operator's notice lists several limited-time free-access events, with QQ group 498648355.",
+    summary: "A public service granting 3 on registration (per user report). The operator's notice lists several limited-time free-access events: DeepSeek, 4-argon, gemini 3.8, and Claude models rotate through free access, and SVIP users can already use Gemini 2.5 for free; QQ group 498648355.",
+    details:
+      "The service calls itself Jiuguan API (jiuguan.cloud), runs on New API, and displays credit in the custom currency ✨. Registration uses email with email verification and a Turnstile captcha, with no GitHub / Linux DO / Telegram login; it grants 3 on registration (per user report). Operator notice: event 1 rotates DeepSeek, 4-argon, gemini 3.8, and Claude models through limited-time free access; event 2 hands out credit redemption codes at random; event 3 opens the OpenRouter channel's 4-Argon and 3.8 to all users for one day; event 4 gives SVIP members a mystery gift. The SVIP group already has free Gemini 2.5, which the operator says will gradually open to everyone. The operator says the Anti, Vertex, Kiro, OpenCode, and OpenRouter channels are live, with nearly all models self-managed, and an empty-reply compensation feature has been added; KIMI-3.1 PRO is live, and the SVIP group carries only OR-channel Claude and Gemini models, described as cut-off resistant but expensive. Referral event: sharing your link gives a friend 1 credit on sign-up and 5 more once they top up or redeem 10 or more. Official QQ group 498648355.",
+    registration: "Register with an email address, email verification, and a Turnstile captcha through the referral link.",
+    signupBonus: "3 (per user report)",
+    dailyCheckin: "Follow what the site shows",
+    models: "DeepSeek, 4-argon, gemini 3.8, Claude (rotating limited-time free access, per the operator's notice); the SVIP group has Gemini 2.5 and OR-channel Claude / Gemini",
+    experience: "3 on registration (per user report); several models rotate through limited-time free access",
+    caveat: "The sign-up credit is per user report — confirm it on the service. The limited-time free events, SVIP benefits, and channel details all come from the operator's notice; events may be adjusted or end at any time, so follow the latest announcements in the group and on the site. The model plaza's pricing API is not public and requires login.",
+    benefits: ["Public service", "Email registration", "3 on registration", "Rotating limited-time free access", "SVIP free Gemini 2.5", "Empty-reply compensation", "QQ group 498648355"],
+  },
   Velunqi: {
     name: "Velunqi",
     kind: "Public service / 110 on registration / about 80 per check-in",

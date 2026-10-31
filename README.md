@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| 玖观API | 公益站，**注册送 3**（用户提供）。**多个模型轮流限时免费**：DeepSeek、4-argon、gemini 3.8、Claude（站方公告），SVIP 已可免费用 Gemini 2.5；站方称 Anti / Vertex / Kiro / OpenCode / OpenRouter 多渠道自营，上线了空回补偿。QQ 群 498648355。 | [注册](https://jiuguan.cloud/sign-up?aff=PvxS) |
 | Velunqi | 公益站，**注册送 110、签到 80 左右**（用户提供）。34 个模型，单一默认分组，额度按人民币显示；含 DeepSeek V4、GLM 5.x、Kimi k3、MiniMax m3、hy3/hy4、step-5-preview 等，倍率从 0.005 到 37.5 不等。 | [注册](https://velunqi.asia/sign-up?aff=EHhE) |
 | 公益中转api | 公益站，**注册送 2、签到 0.7 左右**（用户提供）。**35 个模型，倍率公开**：deepseek 与 kimi/glm 分组 0.2、gpt 与 gemini 分组 20、default 1，含 DeepSeek V4、GLM 5.x、Kimi、GPT 6-astra、Gemini、MiniMax 等。 | [注册](https://ces.ddddai.xyz/sign-up?aff=hlgS) |
 | ThousandYuan Ai | 公益站，**注册送 30、每日签到送 50**（用户提供）。**13 个模型**，default 与 vip 两组均 1 倍率，含 claude-opus-5-5、gpt-6-1-sol、gemini-4、deepseek-v4.1-flash、grok-4.7、GLM 5.3、Kimi 等；额度按美元显示。 | [注册](https://api.thousandyuan.dpdns.org/sign-up?aff=vDuG) |

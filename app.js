@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "玖观API",
     "Velunqi",
     "公益中转api",
     "ThousandYuan Ai",
@@ -256,6 +257,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-10-31 00:00",
+      addedAt: "2026-10-31",
+      updatedAt: "2026-10-31",
+      updateNote: "新收录：公益站，注册送 3（用户提供）；站方公告多个限时免费活动，QQ 群 498648355。",
+      kind: "公益站 / 注册送 3 / 多限时免费活动",
+      name: "玖观API",
+      summary:
+        "公益站，注册送 3（用户提供）。站方公告多个限时免费活动：DeepSeek、4-argon、gemini 3.8、Claude 模型轮流限时免费，SVIP 用户已可免费使用 Gemini 2.5；QQ 群 498648355。",
+      details:
+        "站内名称玖观API（jiuguan.cloud），New API 程序，额度按自定义货币 ✨ 显示。注册为邮箱注册，需邮箱验证并开 Turnstile 人机验证，无 GitHub / Linux DO / Telegram 登录；注册送 3（用户提供）。站方公告：活动一为 DeepSeek、4-argon、gemini 3.8、Claude 四个模型轮流限时免费；活动二为不定时发放额度兑换码；活动三为 OpenRouter 渠道 4-Argon 与 3.8 限时一天对所有用户开放；活动四为 SVIP 分组神秘礼物。SVIP 分组已可免费使用 Gemini 2.5（站方称后续逐步放开给全用户）。站方称已上线 Anti、Vertex、Kiro、OpenCode、OpenRouter 多个渠道，几乎所有模型自营管理，并上线了「空回补偿」功能；KIMI-3.1 PRO 已上线，SVIP 分组只有 OR 渠道的 Claude 与 Gemini 全模型（站方称抗截断但价格贵）。邀请活动：分享链接好友注册得 1 额度，单笔充值或兑换满 10 再得 5 额度。官方 QQ 群 498648355。",
+      registration: "邮箱注册，需邮箱验证并完成 Turnstile 人机验证（走邀请链接）。",
+      signupBonus: "3（用户提供）",
+      dailyCheckin: "以站内实际显示为准",
+      models: "DeepSeek、4-argon、gemini 3.8、Claude（四个模型轮流限时免费，站方公告）；SVIP 分组有 Gemini 2.5 与 OR 渠道 Claude / Gemini 全模型",
+      experience: "注册送 3（用户提供）；多个模型轮流限时免费",
+      caveat: "注册赠送为用户提供，以站内实际显示为准。限时免费活动、SVIP 权益与渠道情况均来自站方公告，活动随时可能调整或结束，以群内和站内最新公告为准。模型广场价格接口未公开，需登录查看。",
+      benefits: ["公益站", "邮箱注册", "注册送 3", "模型轮流限时免费", "SVIP 免费用 Gemini 2.5", "空回补偿", "QQ 群 498648355"],
+      url: "https://jiuguan.cloud/sign-up?aff=PvxS",
+      tone: "active",
+    },
     {
       publishedAt: "2026-10-31 00:00",
       addedAt: "2026-10-31",
