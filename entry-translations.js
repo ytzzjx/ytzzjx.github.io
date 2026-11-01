@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "大白饭": {
+    name: "Da Bai Fan",
+    kind: "Public service / 1 on registration / about 0.5 per check-in",
+    updateNote: "New listing: a public service granting 1 on sign-up with a check-in worth about 0.5 (per user report); registrations have recently been capped at 100 per day (per user report, and the operator's notice the same day said the cap had been reached).",
+    summary: "A public service granting 1 on sign-up with a check-in worth about 0.5 (per user report). 61 models, with the NIM NVIDIA free-model group at 0x, default 0.08x, and gemini 0.12x. Registrations have recently been capped at 100 per day (per user report).",
+    details:
+      "The service calls itself Da Bai Fan (newapi.hkkkj.qzz.io), runs on New API, and displays credit in USD. Registration uses email with email verification and a Turnstile captcha, with no GitHub / Linux DO / Telegram login; it grants 1 on sign-up with a daily check-in worth about 0.5 (both per user report). Registrations have recently been capped at 100 per day (per user report), and the operator's notice the same day said today's registration limit had been reached and to come back tomorrow. The model plaza lists 61 models across 4 groups: the NIM NVIDIA free-model group at 0x (24 models including glm-5.3-flash-free, z-ai/glm-5.3-flash, the nvidia/nemotron series, and the llama series), default at 0.08x (27 models including gpt-6-luna, MiniMax-M2.5 and M3.1-Flash, glm-5.3-flash-free, and kilo-auto/free), gemini at 0.12x (7 models including gemini-3.5-flash and 3.6-flash with their thinking variants, marked by the operator as average stability), and image at 1x (the image group, hidream, hy-image-3.5, and more). Official chat group QQ 1078089816; the operator reminds users to pick a group themselves when creating a key.",
+    registration: "Register with an email address, email verification, and a Turnstile captcha through the referral link; registrations have recently been capped at 100 per day.",
+    signupBonus: "1 (per user report)",
+    dailyCheckin: "About 0.5 (per user report)",
+    models: "61 models: NIM NVIDIA free-model group at 0x (glm-5.3-flash, nemotron, llama, etc.) / default at 0.08x (gpt-6-luna, MiniMax M2.5 and M3.1-Flash) / gemini at 0.12x (3.5 and 3.6-flash with thinking variants) / image group",
+    experience: "1 on registration and about 0.5 per check-in (per user report); the NIM group has many 0x free models",
+    caveat: "The sign-up credit and check-in amount are per user report — confirm them on the service. Registrations have recently been capped at 100 per day (per user report), so once the day's quota fills you have to come back tomorrow. Pick a group yourself when creating a key; the operator marks the gemini group's stability as average.",
+    benefits: ["Public service", "Email registration", "1 on registration", "About 0.5 per check-in", "NIM free-model group at 0x", "61 models", "100 registrations per day"],
+  },
   tntapi: {
     name: "tntapi",
     kind: "Paid service / 0.07x / 90% cache hit / undumbed GPT across the board",

@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "大白饭",
     "tntapi",
     "梦幻API",
     "beiluoxi",
@@ -260,6 +261,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-01 00:00",
+      addedAt: "2026-11-01",
+      updatedAt: "2026-11-01",
+      updateNote: "新收录：公益站，注册送 1、签到 0.5 左右（用户提供）；最近每天限制 100 个注册（用户提供，站方公告同日提示已达限制）。",
+      kind: "公益站 / 注册送 1 / 签到 0.5 左右",
+      name: "大白饭",
+      summary:
+        "公益站，注册送 1，签到 0.5 左右（用户提供）。61 个模型，NIM 英伟达免费模型组 0 倍、default 0.08、gemini 0.12。最近每天限制 100 个注册（用户提供）。",
+      details:
+        "站内名称大白饭（newapi.hkkkj.qzz.io），New API 程序，额度按美元显示。注册为邮箱注册，需邮箱验证并开 Turnstile 人机验证，无 GitHub / Linux DO / Telegram 登录；注册送 1，每日签到 0.5 左右（均为用户提供）。最近每天限制 100 个注册（用户提供），站方公告同日提示「今日注册达限制，如需注册请明日再来」。模型广场公开 61 个模型，4 个分组：NIM 英伟达免费模型 0 倍（24 个，含 glm-5.3-flash-free、z-ai/glm-5.3-flash、nvidia/nemotron 系列、llama 系列等）、default 0.08 倍（27 个，含 gpt-6-luna、MiniMax-M2.5 / M3.1-Flash、glm-5.3-flash-free、kilo-auto/free 等）、gemini 0.12 倍（7 个，含 gemini-3.5-flash 与 3.6-flash 及其 thinking 版本，站方标注稳定性一般）、image 1 倍（生图分组，hidream、hy-image-3.5 等）。官方交流群 QQ 1078089816；站方提醒创建密钥请自行选择分组。",
+      registration: "邮箱注册，需邮箱验证并完成 Turnstile 人机验证（走邀请链接）；最近每天限制 100 个注册。",
+      signupBonus: "1（用户提供）",
+      dailyCheckin: "0.5 左右（用户提供）",
+      models: "61 个模型：NIM 英伟达免费模型组 0 倍（glm-5.3-flash、nemotron、llama 等）/ default 0.08 倍（gpt-6-luna、MiniMax M2.5 与 M3.1-Flash）/ gemini 0.12 倍（3.5 与 3.6-flash 及 thinking 版）/ image 生图组",
+      experience: "注册送 1、签到 0.5 左右（用户提供）；NIM 组 0 倍免费模型多",
+      caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准。最近每天限制 100 个注册（用户提供），当日满额后需次日再来。创建密钥时需自行选择分组；gemini 分组站方标注稳定性一般。",
+      benefits: ["公益站", "邮箱注册", "注册送 1", "签到 0.5 左右", "NIM 免费模型组 0 倍", "61 个模型", "每天限 100 注册"],
+      url: "https://newapi.hkkkj.qzz.io/sign-up?aff=SrUj",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-01 00:00",
       addedAt: "2026-11-01",

@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| 大白饭 | 公益站，**注册送 1、签到 0.5 左右**（用户提供）。**61 个模型**，NIM 英伟达免费模型组 0 倍、default 0.08、gemini 0.12；**最近每天限制 100 个注册**（用户提供）。QQ 群 1078089816。 | [注册](https://newapi.hkkkj.qzz.io/sign-up?aff=SrUj) |
 | 猫のAPI | 公益站，**模型免费**。登录后模型广场现为 8 个模型，输入/输出/缓存读取价格均显示 $0：claude-opus-5-5、gpt-6.1-sol、gpt-6.1-terra、gpt-5.2、kimi-k3、kimi-k3.1-pro、deepseek-flash（V4.1 Flash 1017）、glm-5.2、sensenova-6.8-flash-lite。注册送 0.1（用户提供）。 | [注册](https://www.catpawrouter.com/sign-up?aff=YugA) |
 | 玖观API | 公益站，**注册送 3**（用户提供）。**339 个模型**，按量 172 个、按次 167 个；**多个 0.001 倍限时免费分组**（DeepSeek/GLM/Kimi 免费使用、Gemini 2.5 flash 免费使用、小克 Claude 限时活动）。QQ 群 498648355。 | [注册](https://jiuguan.cloud/sign-up?aff=PvxS) |
 | Velunqi | 公益站，**注册送 110、签到 80 左右**（用户提供）。34 个模型，单一默认分组，额度按人民币显示；含 DeepSeek V4、GLM 5.x、Kimi k3、MiniMax m3、hy3/hy4、step-5-preview 等，倍率从 0.005 到 37.5 不等。 | [注册](https://velunqi.asia/sign-up?aff=EHhE) |
