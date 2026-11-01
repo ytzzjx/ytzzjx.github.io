@@ -30,7 +30,6 @@
 | 晚晚舟 | 公益站（酒馆专线），**QQ 邮箱注册，注册送 1；拉 5 人后可每天签到领 1r**（用户提供）。**哈基米 flash 系列 0.01、克 o 系列 0.05**。 | [注册](https://wanwanzhou.top/register?aff=E44252EBQGS2) |
 | 星云智联API | 公益站，**注册送 1、签到 2 左右**（用户提供）。**必须加 2 群 1124978261，并在群里 @机器人发「/验证 绑定码」激活**，否则调用提示无可用渠道、账号会被清理（一人一码）。**有 0 倍率免费组**，站方公告称部分模型公益运行、明确**「不要充值」**（点站内广告助力即可）。36 个模型，含 DeepSeek、GLM、Kimi、Qwen、Gemini 与 gpt-5.3；另有邀请奖励（邀请人 ¥10、新人 ¥1，截止 10/31）。 | [注册](https://api.xincloud.top/sign-up?aff=YOv3) |
 | OmniRush | 公益站，**每天 10M gpt-6-astra**（用户提供）。**需绑定 Discord 和 GitHub，GitHub 账号注册不能短于 7 天**；免费额度每天刷新、无付费档，另有 GPT 6.1 Sol / GPT 6 Sol。 | [注册](https://omnirush.ai/console?ref=SUS3JHD9) |
-| 421-API | 公益站，**QQ 邮箱注册，新用户注册送 0.5 元试用额度，签到 0.5 左右**（用户提供）。额度按人民币显示。 | [注册](https://421api.xyz/sign-up?aff=sOMa) |
 | 风绘 API | 公益站，**只能 GitHub 注册，注册送 2、签到 0.3**（用户提供）。目前只有 DeepSeek：**deepseek-flash 已是最新的 1017 版本**（当前限时免费）、deepseek-v4-pro。 | [注册](https://api.huidev.com/sign-up?aff=SPqL) |
 | 慧慧云 | 公益站，**注册送 1，有免费分组，无签到**（用户提供）。免费分组实测可调 **auto（随机路由高级模型）、grok-4.7、grok-composer-2.5-fast、sensenova-6.8-flash-lite** 共 4 个模型；模型广场另有 Gemini、Claude (kiro)、按次计费的 Gemini 与 DeepSeek 分组。 | [注册](https://api.huihuiyun.top/register?aff=AHAL3TAU466P) |
 | 10API | 公益站，**每日签到可得 10M token**，可用 **deepseek-v4.1-flash** 与 **glm-5.3-flash**（均为用户提供）。QQ 群 1085268015。 | [注册](https://nextapi.store/login?inv=INVY5KXY1ZN) |
@@ -118,6 +117,7 @@
 - GoRouter（2026-09-09 下架）：站内已无可用模型，且此前稳定性已经下降。
 - Zynk 公益站（2026-08-29 下架）：站点已失效，域名无法正常使用。
 - MotoMoto（2026-10-26 下架）：站点无法访问，恢复后需重新核实。
+- 421-API（2026-11-01 下架）：服务器无响应，站点无法访问，恢复后需重新核实。
 
 推荐站点的可用模型、倍率和签到额度可能随时调整，请以站点内公告和实际使用情况为准。
 
