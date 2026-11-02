@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "ZOO API",
     "大白饭",
     "tntapi",
     "梦幻API",
@@ -304,6 +305,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-02 00:00",
+      addedAt: "2026-11-02",
+      updatedAt: "2026-11-02",
+      updateNote: "新收录：公益站，注册送 0.5、签到 0.1-1（用户提供）；按次计费模型多，活动价太子 0.04/次、3.8 0.01/次。",
+      kind: "公益站 / 注册送 0.5 / 签到 0.1-1",
+      name: "ZOO API",
+      summary:
+        "公益站，注册送 0.5，签到 0.1-1（用户提供）。全站 1 元 = 1 🐱 无隐藏倍率；45 个模型，按次计费为主，太子（argon）0.04-0.08/次、3.8 flash 0.01-0.02/次。",
+      details:
+        "站内名称 ZOO API（zooapi.gfkfqtcx.com），New API 程序，额度按自定义货币 🐱 显示，站方称全站 1:1（1 元 = 1 🐱）无隐藏倍率。注册为邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无 Turnstile 人机验证；注册送 0.5，每日签到 0.1-1（均为用户提供）。模型广场公开 45 个模型，分 default 与普通按次两组，另有八八折、九五折、七八折、七折、日卡、promo 等分组；按次计费为主：太子（gemini-4-argon）0.04/次（活动价，需邀请 3 人解锁 promo 渠道）或 0.08/次（原价）、gemini-3.8-flash 0.01/次（活动价）或 0.02/次（原价）、claude-opus-4-6~5-5 0.06/次、claude-sonnet-4-6~5-5 0.035/次、deepseek-v4-pro 0.04/次、deepseek-v4.1-flash-1017 0.025/次、gemini-3.1-pro 0.04/次、gemini-2.5-flash 与 flash-lite 0.009/次。活动规则（截止 11 月 4 日 24:00）：邀请 3 位用户完成注册即可自动解锁 promo 渠道享受活动价，未达成按原价。开站充值活动：5 元档充 5 送 5（截止 11 月 1 日 24:00）。官方交流群 QQ 963359239。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "0.5（用户提供）",
+      dailyCheckin: "0.1-1（用户提供）",
+      models: "45 个模型，按次计费：太子 gemini-4-argon 0.04-0.08/次、gemini-3.8-flash 0.01-0.02/次、claude-opus 4-6~5-5 0.06/次、claude-sonnet 4-6~5-5 0.035/次、deepseek-v4-pro 0.04/次、deepseek-v4.1-flash 0.025/次、gemini-3.1-pro 0.04/次",
+      experience: "注册送 0.5、签到 0.1-1（用户提供）；按次计费，太子与 3.8 有活动价",
+      caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准。太子 0.04/次与 3.8 0.01/次的活动价需邀请 3 位用户完成注册解锁 promo 渠道（截止 11 月 4 日），未达成按原价计费；开站充 5 送 5 活动已于 11 月 1 日截止。额度按自定义货币 🐱 显示。",
+      benefits: ["公益站", "邮箱注册", "注册送 0.5", "签到 0.1-1", "太子 0.04/次（活动价）", "gemini-3.8-flash 0.01/次（活动价）", "45 个模型", "QQ 群 963359239"],
+      url: "https://zooapi.gfkfqtcx.com/sign-up?aff=UpPk",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-01 00:00",
       addedAt: "2026-11-01",

@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "ZOO API": {
+    name: "ZOO API",
+    kind: "Public service / 0.5 on registration / 0.1-1 per check-in",
+    updateNote: "New listing: a public service granting 0.5 on sign-up with a check-in worth 0.1-1 (per user report); mostly per-request billing, with promo prices of 0.04 per Argon request and 0.01 per 3.8 request.",
+    summary: "A public service granting 0.5 on sign-up with a check-in worth 0.1-1 (per user report). The whole site runs 1 yuan = 1 🐱 with no hidden multiplier; 45 models, mostly billed per request, with Argon at 0.04-0.08 per request and 3.8 flash at 0.01-0.02.",
+    details:
+      "The service calls itself ZOO API (zooapi.gfkfqtcx.com), runs on New API, and displays credit in the custom currency 🐱, which the operator says maps 1:1 to yuan across the site with no hidden multiplier. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or Turnstile captcha; it grants 0.5 on sign-up with a daily check-in worth 0.1-1 (both per user report). The model plaza lists 45 models across the default and per-request groups, plus 10%-off, 5%-off, 20%-off, 30%-off, daily-pass, and promo groups. Most are billed per request: Argon (gemini-4-argon) at 0.04 per request on promo (requires inviting 3 users to unlock the promo channel) or 0.08 at list price, gemini-3.8-flash at 0.01 on promo or 0.02 at list, claude-opus 4-6 to 5-5 at 0.06, claude-sonnet 4-6 to 5-5 at 0.035, deepseek-v4-pro at 0.04, deepseek-v4.1-flash-1017 at 0.025, gemini-3.1-pro at 0.04, and gemini-2.5-flash / flash-lite at 0.009. Promo rules (through 24:00 on November 4): inviting 3 users to complete registration automatically unlocks the promo channel at the promo prices, otherwise list prices apply. Opening top-up event: the 5-yuan tier gave 5 for 5, through 24:00 on November 1. Official chat group QQ 963359239.",
+    registration: "Register with an email address and email verification through the referral link.",
+    signupBonus: "0.5 (per user report)",
+    dailyCheckin: "0.1-1 (per user report)",
+    models: "45 models, mostly per request: Argon (gemini-4-argon) at 0.04-0.08, gemini-3.8-flash at 0.01-0.02, claude-opus 4-6 to 5-5 at 0.06, claude-sonnet 4-6 to 5-5 at 0.035, deepseek-v4-pro at 0.04, deepseek-v4.1-flash at 0.025, gemini-3.1-pro at 0.04",
+    experience: "0.5 on registration and 0.1-1 per check-in (per user report); per-request billing, with promo prices on Argon and 3.8",
+    caveat: "The sign-up credit and check-in amount are per user report — confirm them on the service. The 0.04-per-request Argon and 0.01-per-request 3.8 promo prices require inviting 3 users to complete registration and unlock the promo channel (through November 4); otherwise list prices apply. The 5-for-5 opening top-up event ended on November 1. Credit uses the custom currency 🐱.",
+    benefits: ["Public service", "Email registration", "0.5 on registration", "0.1-1 per check-in", "Argon at 0.04 per request (promo)", "gemini-3.8-flash at 0.01 per request (promo)", "45 models", "QQ group 963359239"],
+  },
   "大白饭": {
     name: "Da Bai Fan",
     kind: "Public service / 1 on registration / about 0.5 per check-in",
