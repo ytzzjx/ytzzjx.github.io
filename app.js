@@ -17,7 +17,6 @@ const siteConfig = {
     "玖观API",
     "猫のAPI",
     "Velunqi",
-    "公益中转api",
     "ThousandYuan Ai",
     "Nini-API",
     "秋刀鱼",
@@ -303,6 +302,30 @@ const siteConfig = {
       url: "https://api.justwoker.icu/sign-up?aff=T5tm",
       tone: "caution",
     },
+
+    {
+      archivedAt: "2026-11-02",
+      archivedReason: "据用户提供的消息，该站于 2026-11-02 20:00 关站；已从在线推荐下架并移入失效区，恢复后需重新核实。",
+      publishedAt: "2026-10-31 00:00",
+      addedAt: "2026-10-31",
+      updatedAt: "2026-11-02",
+      updateNote: "今晚 20:00 关站，已从在线推荐下架并移入失效区。",
+      kind: "已关站 / 等待恢复",
+      name: "公益中转api",
+      summary:
+        "站点已于 2026-11-02 20:00 关站。此前注册送 2，签到 0.7 左右；35 个模型 5 个分组，倍率公开：deepseek 与 kimi/glm 分组 0.2、gpt 与 gemini 分组 20、default 1。",
+      details:
+        "站点已于 2026-11-02 20:00 关站，恢复时间未知。此前信息：站内名称公益中转api（ces.ddddai.xyz），New API 程序，额度按美元显示。注册为邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无 Turnstile 人机验证；注册送 2，每日签到 0.7 左右（均为用户提供）。模型广场公开 35 个模型，5 个分组：deepseek分组 0.2、default 1、gemini分组 20、gpt分组 20、kimi/glm分组 0.2。覆盖 DeepSeek（v4-pro、v4.1-flash-1017、v4.1-flash、v4-flash）、GLM（5、5.1、5.2、5.3 及 flashx / flash / turbo / 5v-turbo、glm-asr）、Kimi（k3、k2.7-code、k2.6、k2.5）、GPT（6-astra、5.6-luna / sol / terra）、Gemini（3.5-flash、3.1-pro-preview）、Qwen、MiniMax（m3、m2.7、m2.5、h3）、mimo 与 hy 系列等。以上均为关站前的历史信息，恢复后需重新核实。",
+      registration: "站点已关站；原为邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "原为 2（用户提供）",
+      dailyCheckin: "原为 0.7 左右（用户提供）",
+      models: "原为 35 个模型：DeepSeek（v4-pro、v4.1-flash-1017）/ GLM（5、5.1-5.3 及 flash 系列）/ Kimi（k3、k2.7-code、k2.6）/ GPT（6-astra、5.6 系列）/ Gemini（3.5-flash、3.1-pro）/ MiniMax / Qwen 等；当前已关站",
+      experience: "站点已关站，等待恢复",
+      caveat: "站点已于 2026-11-02 20:00 关站（据用户提供的消息），恢复时间未知。此前的分组倍率差异（deepseek / kimi-glm 0.2，gpt / gemini 20）等信息为关站前口径，恢复后需全部重新核实。",
+      benefits: ["已关站", "等待恢复", "原注册送 2", "原签到 0.7 左右", "原 35 个模型", "原倍率公开"],
+      url: "https://ces.ddddai.xyz/sign-up?aff=hlgS",
+      tone: "caution",
+    },
   ],
   entries: [
     {
@@ -453,27 +476,6 @@ const siteConfig = {
       caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准。模型倍率跨度极大（step-5-preview 与 MiniCPM 0.005，kimi-k3.1-pro 37.5），实际消耗以站内模型广场和调用记录为准。",
       benefits: ["公益站", "邮箱注册", "注册送 110", "签到 80 左右", "34 个模型", "额度按人民币显示"],
       url: "https://velunqi.asia/sign-up?aff=EHhE",
-      tone: "active",
-    },
-    {
-      publishedAt: "2026-10-31 00:00",
-      addedAt: "2026-10-31",
-      updatedAt: "2026-10-31",
-      updateNote: "新收录：公益站，注册送 2、签到 0.7 左右（用户提供）；35 个模型 5 个分组，倍率公开。",
-      kind: "公益站 / 注册送 2 / 签到 0.7 左右",
-      name: "公益中转api",
-      summary:
-        "公益站，注册送 2，签到 0.7 左右（用户提供）。35 个模型 5 个分组，倍率公开：deepseek 与 kimi/glm 分组 0.2、gpt 与 gemini 分组 20、default 1。",
-      details:
-        "站内名称公益中转api（ces.ddddai.xyz），New API 程序，额度按美元显示。注册为邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无 Turnstile 人机验证；注册送 2，每日签到 0.7 左右（均为用户提供）。模型广场公开 35 个模型，5 个分组：deepseek分组 0.2、default 1、gemini分组 20、gpt分组 20、kimi/glm分组 0.2。覆盖 DeepSeek（v4-pro、v4.1-flash-1017、v4.1-flash、v4-flash）、GLM（5、5.1、5.2、5.3 及 flashx / flash / turbo / 5v-turbo、glm-asr）、Kimi（k3、k2.7-code、k2.6、k2.5）、GPT（6-astra、5.6-luna / sol / terra）、Gemini（3.5-flash、3.1-pro-preview）、Qwen、MiniMax（m3、m2.7、m2.5、h3）、mimo 与 hy 系列等。",
-      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
-      signupBonus: "2（用户提供）",
-      dailyCheckin: "0.7 左右（用户提供）",
-      models: "35 个模型：DeepSeek（v4-pro、v4.1-flash-1017）/ GLM（5、5.1-5.3 及 flash 系列）/ Kimi（k3、k2.7-code、k2.6）/ GPT（6-astra、5.6 系列）/ Gemini（3.5-flash、3.1-pro）/ MiniMax / Qwen 等",
-      experience: "注册送 2、签到 0.7 左右（用户提供）；倍率公开，deepseek 与 kimi/glm 分组仅 0.2",
-      caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准。分组倍率差异极大（deepseek / kimi-glm 0.2，gpt / gemini 20），选分组前看清计费；模型与倍率以站内模型广场为准。",
-      benefits: ["公益站", "邮箱注册", "注册送 2", "签到 0.7 左右", "35 个模型", "deepseek 分组 0.2", "倍率公开"],
-      url: "https://ces.ddddai.xyz/sign-up?aff=hlgS",
       tone: "active",
     },
     {

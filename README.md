@@ -21,7 +21,6 @@
 | 猫のAPI | 公益站，**模型免费**。登录后模型广场现为 8 个模型，输入/输出/缓存读取价格均显示 $0：claude-opus-5-5、gpt-6.1-sol、gpt-6.1-terra、gpt-5.2、kimi-k3、kimi-k3.1-pro、deepseek-flash（V4.1 Flash 1017）、glm-5.2、sensenova-6.8-flash-lite。注册送 0.1（用户提供）。 | [注册](https://www.catpawrouter.com/sign-up?aff=YugA) |
 | 玖观API | 公益站，**注册送 3**（用户提供）。**339 个模型**，按量 172 个、按次 167 个；**多个 0.001 倍限时免费分组**（DeepSeek/GLM/Kimi 免费使用、Gemini 2.5 flash 免费使用、小克 Claude 限时活动）。QQ 群 498648355。 | [注册](https://jiuguan.cloud/sign-up?aff=PvxS) |
 | Velunqi | 公益站，**注册送 110、签到 80 左右**（用户提供）。34 个模型，单一默认分组，额度按人民币显示；含 DeepSeek V4、GLM 5.x、Kimi k3、MiniMax m3、hy3/hy4、step-5-preview 等，倍率从 0.005 到 37.5 不等。 | [注册](https://velunqi.asia/sign-up?aff=EHhE) |
-| 公益中转api | 公益站，**注册送 2、签到 0.7 左右**（用户提供）。**35 个模型，倍率公开**：deepseek 与 kimi/glm 分组 0.2、gpt 与 gemini 分组 20、default 1，含 DeepSeek V4、GLM 5.x、Kimi、GPT 6-astra、Gemini、MiniMax 等。 | [注册](https://ces.ddddai.xyz/sign-up?aff=hlgS) |
 | ThousandYuan Ai | 公益站，**注册送 30、每日签到送 50**（用户提供）。**13 个模型**，default 与 vip 两组均 1 倍率，含 claude-opus-5-5、gpt-6-1-sol、gemini-4、deepseek-v4.1-flash、grok-4.7、GLM 5.3、Kimi 等；额度按美元显示。 | [注册](https://api.thousandyuan.dpdns.org/sign-up?aff=vDuG) |
 | Krisphyn API | 公益站，**注册送 1、签到 0.6**（用户提供）。**106 个模型，22 个分组**，免费组 0.01 倍含 18 个模型（step-5-preview、kimi-k3、gemini-3.8-flash 等）；额度按自定义货币 🍀 显示。**公告称不对中国大陆用户开放，注册后需做非中国大陆认证**。 | [注册](https://free.krisphyn.cc/sign-up?aff=RHNm) |
 | HyxAPI | 公益站，**注册无赠送，签到 15 左右**（用户提供）。支持邮箱、GitHub 与 Linux DO 登录，额度按美元显示；模型有 DeepSeek V4 系列、GLM 5.x、GPT 5.6 等，模型页公开价格与实时状态。 | [注册](https://hyxware.com/auth?mode=register&aff=iSln) |
@@ -119,6 +118,7 @@
 - MotoMoto（2026-10-26 下架）：站点无法访问，恢复后需重新核实。
 - 421-API（2026-11-01 下架）：服务器无响应，站点无法访问，恢复后需重新核实。
 - JustWoker 公益站（2026-11-02 下架）：站点无法访问（Cloudflare 522），恢复后需重新核实。
+- 公益中转api（2026-11-02 下架）：据用户消息于 2026-11-02 20:00 关站，恢复后需重新核实。
 
 推荐站点的可用模型、倍率和签到额度可能随时调整，请以站点内公告和实际使用情况为准。
 

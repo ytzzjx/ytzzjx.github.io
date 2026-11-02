@@ -109,8 +109,10 @@ window.entryTranslationsData = {
   },
   "公益中转api": {
     name: "Public Relay API",
-    kind: "Public service / 2 on registration / about 0.7 per check-in",
-    updateNote: "New listing: a public service granting 2 on sign-up with a check-in worth about 0.7 (per user report); 35 models across 5 groups, with public rates.",
+    kind: "Closed down / waiting for recovery",
+    updateNote: "The service closed at 20:00 tonight; removed from the live recommendations and moved to the unavailable archive.",
+    archivedAt: "2026-11-02",
+    archivedReason: "Per the user's message, the service closed at 20:00 on 2026-11-02; it was removed from the live recommendations and moved to the unavailable archive, and needs re-verification if it returns.",
     summary: "A public service granting 2 on sign-up with a check-in worth about 0.7 (per user report). 35 models across 5 groups with public rates: deepseek and kimi/glm groups at 0.2, gpt and gemini groups at 20, and default at 1.",
     details:
       "The service calls itself Public Relay API (ces.ddddai.xyz), runs on New API, and displays credit in USD. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or Turnstile captcha; it grants 2 on sign-up with a daily check-in worth about 0.7 (both per user report). The model plaza lists 35 models in 5 groups: deepseek group 0.2, default 1, gemini group 20, gpt group 20, and kimi/glm group 0.2. Coverage includes DeepSeek (v4-pro, v4.1-flash-1017, v4.1-flash, v4-flash), GLM (5, 5.1, 5.2, 5.3 plus flashx / flash / turbo / 5v-turbo, glm-asr), Kimi (k3, k2.7-code, k2.6, k2.5), GPT (6-astra, 5.6-luna / sol / terra), Gemini (3.5-flash, 3.1-pro-preview), Qwen, MiniMax (m3, m2.7, m2.5, h3), mimo, and the hy series.",
