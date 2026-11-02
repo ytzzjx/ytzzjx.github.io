@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "芙卡卡の小食堂",
     "ZOO API",
     "大白饭",
     "tntapi",
@@ -328,6 +329,28 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-02 00:00",
+      addedAt: "2026-11-02",
+      updatedAt: "2026-11-02",
+      updateNote: "新收录：公益站，注册送的额度能用 150 次 gemini-3.8-flash、无签到（用户提供），按鸡蛋福利对待、用完就扔。",
+      kind: "公益站 / 能用 150 次 gemini-3.8-flash / 无签到 / 鸡蛋",
+      name: "芙卡卡の小食堂",
+      egg: true,
+      summary:
+        "公益站，注册送的额度能用 150 次 gemini-3.8-flash，没有签到（用户提供）。当鸡蛋福利用，用完就扔。额度按自定义货币 🍭 显示。",
+      details:
+        "站内名称芙卡卡の小食堂（Fukaka AI，api.fuka.win），New API 程序，额度按自定义货币 🍭 显示。注册为邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无 Turnstile 人机验证；注册送的额度能用 150 次 gemini-3.8-flash，没有签到（均为用户提供）。登录后模型广场 64 个模型（Anthropic 34、Google 20、OpenAI 4、DeepSeek 3、智谱 3），分组有 default、哈基米专享、哈基米按量、小克专享、小克按量，倍率均显示 1 倍；按量计费 26 个、按次计费 38 个。抽看到的价格：百香果+ 的 claude-4.x 6/次、覆盆子的 claude-4.5/4.6 8/次、孤生竹的 claude-4.5 输入 100 / 输出 500 / 缓存 10（每百万）、芙容浦的 gemini-4-argon 输入 140 / 输出 700（每百万）、originali 与 deepseek 1/次。站方页脚称是独立第三方聚合转发，不直接收款，充值只走第三方寄售的兑换码。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "能用 150 次 gemini-3.8-flash（用户提供）",
+      dailyCheckin: "无（用户提供）",
+      models: "注册额度能用 150 次 gemini-3.8-flash（用户提供）。广场共 64 个模型（Anthropic 34、Google 20、OpenAI 4、DeepSeek 3、智谱 3）；分组 default / 哈基米专享 / 哈基米按量 / 小克专享 / 小克按量均 1 倍；按次 38 个、按量 26 个。抽查：claude-4.x 6/次、claude-4.5/4.6 8/次、claude-4.5 按量输入 100/输出 500、gemini-4-argon 输入 140/输出 700、deepseek 1/次",
+      experience: "注册额度能用 150 次 gemini-3.8-flash、无签到（用户提供）；当鸡蛋福利，用完就扔",
+      caveat: "按鸡蛋福利对待：只薅注册送的免费额度，付费体验没验证过，充值请谨慎，用完就扔。能用 150 次 gemini-3.8-flash 与无签到为用户提供，以站内实际显示为准。其余模型价格为登录后广场抽查，分组与价格随时可能变，以站内为准。额度按自定义货币 🍭 显示。",
+      benefits: ["公益站", "鸡蛋福利", "邮箱注册", "能用 150 次 gemini-3.8-flash", "无签到", "64 个模型", "用完就扔"],
+      url: "https://api.fuka.win/sign-up?aff=Erxa",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-02 00:00",
       addedAt: "2026-11-02",

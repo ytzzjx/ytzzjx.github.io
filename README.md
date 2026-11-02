@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| 芙卡卡の小食堂 | 公益站，**注册送的额度能用 150 次 gemini-3.8-flash、无签到**（用户提供）。当鸡蛋福利用，用完就扔。模型广场 **64 个模型**，分组倍率均 1 倍；额度按自定义货币 🍭 显示。 | [注册](https://api.fuka.win/sign-up?aff=Erxa) |
 | ZOO API | 公益站，**注册送 0.5、签到 0.1-1**（用户提供）。全站 1 元 = 1 🐱 无隐藏倍率；45 个模型按次计费，太子 0.04-0.08/次、3.8 flash 0.01-0.02/次（邀请 3 人解锁活动价）。QQ 群 963359239。 | [注册](https://zooapi.gfkfqtcx.com/sign-up?aff=UpPk) |
 | 大白饭 | 公益站，**注册送 1、签到 0.5 左右**（用户提供）。**61 个模型**，NIM 英伟达免费模型组 0 倍、default 0.08、gemini 0.12；**最近每天限制 100 个注册**（用户提供）。QQ 群 1078089816。 | [注册](https://newapi.hkkkj.qzz.io/sign-up?aff=SrUj) |
 | 猫のAPI | 公益站，**模型免费**。登录后模型广场现为 8 个模型，输入/输出/缓存读取价格均显示 $0：claude-opus-5-5、gpt-6.1-sol、gpt-6.1-terra、gpt-5.2、kimi-k3、kimi-k3.1-pro、deepseek-flash（V4.1 Flash 1017）、glm-5.2、sensenova-6.8-flash-lite。注册送 0.1（用户提供）。 | [注册](https://www.catpawrouter.com/sign-up?aff=YugA) |

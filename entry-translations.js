@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "芙卡卡の小食堂": {
+    name: "Fukaka's Little Canteen",
+    kind: "Public service / 150 gemini-3.8-flash calls / no check-in / egg",
+    updateNote: "New listing: a public service whose sign-up credit covers 150 gemini-3.8-flash calls, with no check-in (per user report), treated as egg credit to use and discard.",
+    summary: "A public service whose sign-up credit covers 150 gemini-3.8-flash calls, with no check-in (per user report). Treat it as egg credit and discard it once spent. Credit is shown in the custom currency 🍭.",
+    details:
+      "The service calls itself 芙卡卡の小食堂 (Fukaka AI, api.fuka.win), runs on New API, and displays credit in the custom currency 🍭. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or Turnstile captcha; the sign-up credit covers 150 gemini-3.8-flash calls and there is no check-in (both per user report). The logged-in model plaza lists 64 models (34 Anthropic, 20 Google, 4 OpenAI, 3 DeepSeek, 3 Zhipu) across the default, Hakimi exclusive, Hakimi metered, Claude exclusive, and Claude metered groups, all shown at 1x; 26 are billed per token and 38 per request. Spot-checked prices: claude-4.x at 6 per request, claude-4.5/4.6 at 8 per request, a metered claude-4.5 at 100 input / 500 output / 10 cache per million, gemini-4-argon at 140 input / 700 output per million, and originali and deepseek at 1 per request. The footer says it is an independent third-party relay that does not take payment directly — top-ups go through redemption codes sold on third-party stores.",
+    registration: "Register with an email address and email verification through the referral link.",
+    signupBonus: "Covers 150 gemini-3.8-flash calls (per user report)",
+    dailyCheckin: "None (per user report)",
+    models: "The sign-up credit covers 150 gemini-3.8-flash calls (per user report). The plaza lists 64 models (34 Anthropic, 20 Google, 4 OpenAI, 3 DeepSeek, 3 Zhipu); default / Hakimi exclusive / Hakimi metered / Claude exclusive / Claude metered groups all at 1x; 38 per request and 26 per token. Spot checks: claude-4.x at 6 per request, claude-4.5/4.6 at 8, metered claude-4.5 at 100 input / 500 output, gemini-4-argon at 140 input / 700 output, deepseek at 1 per request",
+    experience: "Sign-up credit covers 150 gemini-3.8-flash calls, with no check-in (per user report); treat it as egg credit and discard it once spent",
+    caveat: "Treated as egg credit: only the free sign-up credit has been claimed, the paid experience is unverified, so top up with caution and discard it once spent. The 150 gemini-3.8-flash calls and the lack of a check-in are per user report — confirm them on the service. Other model prices are spot checks from the logged-in plaza and groups and prices can change, so confirm them on the service. Credit uses the custom currency 🍭.",
+    benefits: ["Public service", "Egg credit", "Email registration", "150 gemini-3.8-flash calls", "No check-in", "64 models", "Use and discard"],
+  },
   "ZOO API": {
     name: "ZOO API",
     kind: "Public service / 0.5 on registration / 0.1-1 per check-in",
