@@ -1156,22 +1156,22 @@ window.entryTranslationsData = {
     tutorialLabel: "Join the Telegram channel for recovery news and the registration code",
   },
   "JustWoker 公益站": {
-    kind: "Public service / Claude Opus 4.8 / Kiro channel",
+    kind: "Unavailable / waiting for recovery",
     name: "JustWoker Public Service",
-    updateNote:
-      "The model lineup changed to Claude Opus 4.8 on a Kiro channel; some users reported data-theft and injection problems, so avoid private scenarios and watch the prompt while using it.",
+    updateNote: "The service is unreachable; removed from the live recommendations and moved to the unavailable archive.",
+    archivedReason: "The service is unreachable (Cloudflare 522, origin timeout), so it was removed from the live recommendations and moved to the unavailable archive; registration, benefits, models, and rates must be re-verified after recovery.",
     summary:
-      "The site's models have changed to Claude Opus 4.8 on a Kiro channel; use /v1/messages when calling them. Some users reported data-theft and injection problems, so avoid private scenarios and watch the prompt while using it.",
+      "The service is currently unreachable (Cloudflare 522, origin timeout). Before the outage it was a public service offering Claude Opus 4.8 over a Kiro channel called through /v1/messages; some users reported data-theft and injection problems with that channel.",
     details:
-      "JustWoker previously came back on a GPT route, and its models have now changed to Claude Opus 4.8 over a Kiro channel. Call the site's models through /v1/messages. Note that some users reported data-theft and injection problems with this channel, so avoid private scenarios, watch the prompt while using it, and stop if something looks off. The previously known registration gate was a GitHub account at least one year old; confirm sign-up credit, daily check-ins, and rates on the site.",
-    registration: "It previously required a GitHub account at least one year old; verify the current registration status and gate on the sign-up page.",
-    signupBonus: "Check the current value on the site",
-    dailyCheckin: "Check the current value on the site",
-    models: "Claude Opus 4.8 (Kiro channel; use /v1/messages for calls)",
-    experience: "Back online; now Claude Opus 4.8 over a Kiro channel",
+      "The service is currently unreachable with no known recovery date. Before the outage the site's models were Claude Opus 4.8 over a Kiro channel, and calls went through the compatible /v1/messages path; some users reported data-theft and injection problems with this channel, so avoid private scenarios and watch the prompt while using it. The previously known registration gate was a GitHub account at least one year old; sign-up credit, daily check-ins, and rates followed the site's own display. All of that is historical information from before the outage; registration, benefits, and models need to be verified again after recovery.",
+    registration: "Unreachable; it previously required a GitHub account at least one year old, with the exact gate shown on the sign-up page.",
+    signupBonus: "Previously shown on the site",
+    dailyCheckin: "Previously shown on the site",
+    models: "Previously Claude Opus 4.8 (Kiro channel; use /v1/messages for calls); service currently unavailable",
+    experience: "Unreachable; waiting for recovery",
     caveat:
-      "Some users reported data-theft and injection problems with this channel: avoid private scenarios and watch the prompt while using it; use /v1/messages for model calls. Registration gates, bonuses, check-ins, rates, and stability were not re-verified, so confirm the current rules on the site.",
-    benefits: ["Back online", "Claude Opus 4.8", "Kiro channel", "Use /v1/messages", "Verify the GitHub gate on the site", "Not for private scenarios"],
+      "The service is currently unreachable with no known recovery date. Users previously reported data-theft and injection problems with this Kiro channel, so even after recovery avoid private scenarios and watch the prompt while using it; registration gates, bonuses, check-ins, rates, and stability all need to be confirmed on the site when it returns.",
+    benefits: ["Unreachable", "Waiting for recovery", "Previously Claude Opus 4.8", "Previously a Kiro channel", "Use /v1/messages for calls", "Not for private scenarios after recovery"],
   },
   "Sulmate 半公益站": {
     kind: "Registration code required / freemium service",

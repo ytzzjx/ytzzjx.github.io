@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-11-01",
+  lastUpdated: "2026-11-02",
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
@@ -47,7 +47,6 @@ const siteConfig = {
     "StarBridge 公益站",
     "Orevx Engine 半公益站",
     "AgentRouter",
-    "JustWoker 公益站",
     "Hyper 公益站",
     "ze（芙芙中转站）",
     "sunapi 公益站",
@@ -279,6 +278,28 @@ const siteConfig = {
       caveat: "站点目前无法访问，恢复时间未知。注册赠送与签到金额为失效前用户提供的历史口径；站点恢复后，注册方式、赠送、签到、模型和倍率都需以站内实际显示为准。",
       benefits: ["站点失效", "等待恢复", "原 QQ 邮箱注册", "原注册送 0.5 元", "原签到 0.5 左右"],
       url: "https://421api.xyz/sign-up?aff=sOMa",
+      tone: "caution",
+    },
+    {
+      archivedAt: "2026-11-02",
+      archivedReason: "站点无法访问（Cloudflare 522，回源超时），已从在线推荐下架并移入失效区；恢复后需重新核实注册、福利、模型与倍率。",
+      publishedAt: "2026-08-20 10:15",
+      updatedAt: "2026-11-02",
+      updateNote: "站点无法访问，已从在线推荐下架并移入失效区。",
+      kind: "站点失效 / 等待恢复",
+      name: "JustWoker 公益站",
+      summary:
+        "站点目前无法访问（Cloudflare 522，回源超时）。失效前为公益站，模型为 Claude Opus 4.8（Kiro 渠道，调用走 /v1/messages）；有部分用户反馈该渠道存在偷数据和注入问题。",
+      details:
+        "站点目前无法访问，恢复时间未知。失效前情况：站内模型为 Claude Opus 4.8，渠道是 Kiro，调用站内模型请使用兼容接口的 /v1/messages 路径；有部分用户反馈该渠道存在偷数据和注入问题，不要用在隐私场景，使用时盯着提示词。此前已知注册需要 GitHub 账号且账号注册时间满 1 年；注册赠送、每日签到和倍率以站内实际显示为准。以上均为失效前的历史信息，恢复后的注册、福利和模型情况需要重新核实。",
+      registration: "站点失效；原为需使用注册满 1 年的 GitHub 账号，具体门槛以注册页提示为准。",
+      signupBonus: "原以站内显示为准",
+      dailyCheckin: "原以站内显示为准",
+      models: "原为 Claude Opus 4.8（Kiro 渠道，调用使用 /v1/messages）；当前站点失效",
+      experience: "站点失效，等待恢复",
+      caveat: "站点目前无法访问，恢复时间未知。失效前该 Kiro 渠道有用户反馈偷数据和注入问题，恢复后仍建议不要用在隐私场景、使用时盯着提示词；注册门槛、赠送、签到、倍率和稳定性都需以站内届时实际显示为准。",
+      benefits: ["站点失效", "等待恢复", "原 Claude Opus 4.8", "原 Kiro 渠道", "调用使用 /v1/messages", "恢复后勿用于隐私场景"],
+      url: "https://api.justwoker.icu/sign-up?aff=T5tm",
       tone: "caution",
     },
   ],
@@ -1543,28 +1564,6 @@ const siteConfig = {
       caveat: "签到每天约 1 毛，只够十次请求，跑量还是得订阅或充值（1:1）。订阅套餐价格和额度都是人民币（5 元 / 30 元额度每周重置，20 元 / 300 元额度每天重置），有效期都是一个月。签到金额、并发和具体模型清单以站内实际显示为准，套餐价格与额度也可能调整。",
       benefits: ["每次请求一分钱", "不按 token 计费", "注册送 1 块", "每日签到约 1 毛", "20 元档每天重置 300 元额度", "5 元档每周重置 30 元额度", "订阅升 VIP 分组", "充值 1:1", "Kimi-K3", "GPT-5.6-luna", "DeepSeek V4 Pro"],
       url: "https://gcmod.bond/register?aff=4wem",
-      tone: "active",
-    },
-    {
-      publishedAt: "2026-08-20 10:15",
-      updatedAt: "2026-09-21",
-      updateNote:
-        "站内模型已换成 Claude Opus 4.8（Kiro 渠道）；有部分用户反馈存在偷数据和注入问题，不要用在隐私场景，使用时盯着提示词。",
-      kind: "公益站 / Claude Opus 4.8 / Kiro 渠道",
-      name: "JustWoker 公益站",
-      summary:
-        "站内模型已换成 Claude Opus 4.8，走 Kiro 渠道；调用站内模型请使用 /v1/messages。有部分用户反馈存在偷数据和注入问题，不要用在隐私场景，使用时盯着提示词。",
-      details:
-        "JustWoker 此前以 GPT 线路恢复，现在站内模型已换成 Claude Opus 4.8，渠道是 Kiro。调用站内模型请使用兼容接口的 /v1/messages 路径。需要注意：有部分用户反馈该渠道存在偷数据和注入问题，所以不要用在隐私场景，使用时盯着提示词，发现不对就停。此前已知注册需要 GitHub 账号且账号注册时间满 1 年；注册赠送、每日签到和倍率以站内实际显示为准。",
-      registration: "此前需使用注册满 1 年的 GitHub 账号；当前注册状态与门槛以注册页实际显示为准。",
-      signupBonus: "以站内当前显示为准",
-      dailyCheckin: "以站内当前显示为准",
-      models: "Claude Opus 4.8（Kiro 渠道，调用请使用 /v1/messages）",
-      experience: "已恢复可用；当前为 Claude Opus 4.8，走 Kiro 渠道",
-      caveat:
-        "有部分用户反馈该渠道存在偷数据和注入问题：不要用在隐私场景，使用时盯着提示词；模型调用请使用 /v1/messages。注册门槛、赠送、签到、倍率和稳定性未复核，请以站内实际规则为准。",
-      benefits: ["已恢复可用", "Claude Opus 4.8", "Kiro 渠道", "调用使用 /v1/messages", "GitHub 账号门槛以站内为准", "勿用于隐私场景"],
-      url: "https://api.justwoker.icu/sign-up?aff=T5tm",
       tone: "active",
     },
     {
