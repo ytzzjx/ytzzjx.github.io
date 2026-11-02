@@ -9,6 +9,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Jasper",
     "芙卡卡の小食堂",
     "ZOO API",
     "大白饭",
@@ -329,6 +330,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-02 00:00",
+      addedAt: "2026-11-02",
+      updatedAt: "2026-11-02",
+      updateNote: "新收录：公益站，免费模型多（用户提供）；Unlimited 组 0 倍 59 个、Free 组 0.01 倍 9 个。注册赠送与签到金额待确认。",
+      kind: "公益站 / 免费模型多",
+      name: "Jasper",
+      summary:
+        "公益站，免费模型多（用户提供）。149 个模型，Unlimited 组 0 倍 59 个、Free 组 0.01 倍 9 个。额度按自定义货币 ✦ 显示。",
+      details:
+        "站内名称 Jasper（api.yjs.im），New API 程序，额度按自定义货币 ✦ 显示，站方公告充值比例 ✦10 = $1.6 = ¥10。注册为邮箱注册并需邮箱验证，同时支持 GitHub 登录，无 Linux DO / Telegram 登录，无 Turnstile 人机验证；注册开放（站方公告）。模型广场公开 149 个模型、20 余个分组。免费模型集中在两组：Unlimited 组 0 倍、59 个（站方标注不限制二次转发与使用量，含 nvidia/deepseek-v4.1-flash、amd/deepseek-v4-flash、nvidia/glm-5.3-flash、nvidia/glm-5.3、nvidia/step-5-preview、sensenova-6.8-flash-lite、kilo-auto/free、openrouter/free 等）；Free 组 0.01 倍、9 个（deepseek-v4-flash、deepseek-v4-pro、deepseek-v4.1-flash、glm-5.3、glm-5.3-flash、glm-5.2、step-5-preview、claude-opus-5-5-web），站方标注免费模型随时调整、禁止转发。其余分组为付费倍率，如 DeepSeek 0.06、OpenModels 0.15、Codex-Budget 0.07、Gpt-Undegraded 0.12（站方标注不降智但不稳定）、Claude-Kiro-Discount 0.06、Gemini 0.25。站方页脚声明仅面向海外华人、中国大陆地区请勿使用；唯一联系方式 xunqian0818@gmail.com，Telegram 频道 t.me/JasperNotice。",
+      registration: "邮箱注册并需邮箱验证，也支持 GitHub 登录（走邀请链接）。",
+      signupBonus: "待确认",
+      dailyCheckin: "有签到，金额待确认",
+      models: "149 个模型。免费：Unlimited 组 0 倍 59 个（nvidia/deepseek-v4.1-flash、amd/deepseek-v4-flash、nvidia/glm-5.3-flash、nvidia/glm-5.3、nvidia/step-5-preview、sensenova-6.8-flash-lite、kilo-auto/free、openrouter/free 等）/ Free 组 0.01 倍 9 个（deepseek-v4-flash、deepseek-v4-pro、deepseek-v4.1-flash、glm-5.3、glm-5.3-flash、glm-5.2、step-5-preview、claude-opus-5-5-web）。付费组：DeepSeek 0.06、OpenModels 0.15、Codex-Budget 0.07、Gpt-Undegraded 0.12、Claude-Kiro-Discount 0.06、Gemini 0.25",
+      experience: "免费模型多：Unlimited 组 0 倍 59 个、Free 组 0.01 倍 9 个（用户提供有很多免费模型）",
+      caveat: "注册赠送与签到金额未核实，待确认。免费模型以站内为准，站方标注 Free 组随时调整并禁止转发；Unlimited 组标注不限制二次转发与使用量。页脚声明仅面向海外华人、中国大陆地区请勿使用。额度按自定义货币 ✦ 显示，站方公告充值比例 ✦10 = $1.6 = ¥10。",
+      benefits: ["公益站", "邮箱或 GitHub 注册", "Unlimited 组 0 倍 59 个", "Free 组 0.01 倍 9 个", "149 个模型", "有签到"],
+      url: "https://api.yjs.im/sign-up?aff=5uGC",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-02 00:00",
       addedAt: "2026-11-02",

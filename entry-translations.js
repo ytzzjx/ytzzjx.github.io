@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  Jasper: {
+    name: "Jasper",
+    kind: "Public service / many free models",
+    updateNote: "New listing: a public service with many free models (per user report); the Unlimited group has 59 models at 0x and the Free group has 9 at 0.01x. The sign-up credit and check-in amount are unconfirmed.",
+    summary: "A public service with many free models (per user report). 149 models, with the Unlimited group at 0x (59 models) and the Free group at 0.01x (9 models). Credit is shown in the custom currency ✦.",
+    details:
+      "The service calls itself Jasper (api.yjs.im), runs on New API, and displays credit in the custom currency ✦; an operator notice sets the top-up rate at ✦10 = $1.6 = ¥10. Registration uses email with email verification and also supports GitHub login, with no Linux DO / Telegram login or Turnstile captcha; registration is open (per an operator notice). The model plaza lists 149 models across more than 20 groups. Free models sit in two groups: Unlimited at 0x with 59 models (the operator says it does not limit redistribution or usage, including nvidia/deepseek-v4.1-flash, amd/deepseek-v4-flash, nvidia/glm-5.3-flash, nvidia/glm-5.3, nvidia/step-5-preview, sensenova-6.8-flash-lite, kilo-auto/free, and openrouter/free), and Free at 0.01x with 9 models (deepseek-v4-flash, deepseek-v4-pro, deepseek-v4.1-flash, glm-5.3, glm-5.3-flash, glm-5.2, step-5-preview, and claude-opus-5-5-web), which the operator says change at any time and must not be redistributed. The other groups are paid, such as DeepSeek at 0.06x, OpenModels at 0.15x, Codex-Budget at 0.07x, Gpt-Undegraded at 0.12x (marked undumbed but unstable), Claude-Kiro-Discount at 0.06x, and Gemini at 0.25x. The footer says the service is for overseas Chinese users only and asks users in mainland China not to use it; the only contact is xunqian0818@gmail.com, and the Telegram channel is t.me/JasperNotice.",
+    registration: "Register with an email address and email verification, or with GitHub, through the referral link.",
+    signupBonus: "Unconfirmed",
+    dailyCheckin: "Check-in is enabled; the amount is unconfirmed",
+    models: "149 models. Free: the Unlimited group at 0x with 59 (nvidia/deepseek-v4.1-flash, amd/deepseek-v4-flash, nvidia/glm-5.3-flash, nvidia/glm-5.3, nvidia/step-5-preview, sensenova-6.8-flash-lite, kilo-auto/free, openrouter/free, and more) / the Free group at 0.01x with 9 (deepseek-v4-flash, deepseek-v4-pro, deepseek-v4.1-flash, glm-5.3, glm-5.3-flash, glm-5.2, step-5-preview, claude-opus-5-5-web). Paid groups: DeepSeek 0.06x, OpenModels 0.15x, Codex-Budget 0.07x, Gpt-Undegraded 0.12x, Claude-Kiro-Discount 0.06x, Gemini 0.25x",
+    experience: "Many free models: the Unlimited group has 59 at 0x and the Free group has 9 at 0.01x (the user reported many free models)",
+    caveat: "The sign-up credit and check-in amount are unverified and unconfirmed. Free models follow the service, and the operator says the Free group changes at any time and must not be redistributed, while the Unlimited group is marked as not limiting redistribution or usage. The footer says the service is for overseas Chinese users only and asks users in mainland China not to use it. Credit uses the custom currency ✦, and an operator notice sets the top-up rate at ✦10 = $1.6 = ¥10.",
+    benefits: ["Public service", "Email or GitHub registration", "Unlimited group at 0x with 59 models", "Free group at 0.01x with 9 models", "149 models", "Check-in enabled"],
+  },
   "芙卡卡の小食堂": {
     name: "Fukaka's Little Canteen",
     kind: "Public service / 150 gemini-3.8-flash calls / no check-in / egg",
