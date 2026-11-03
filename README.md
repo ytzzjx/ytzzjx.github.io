@@ -78,7 +78,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| API 智纽 | **付费站，注册不送**（用户提供）。**双 11 活动**：每天晚上 0.01 倍、100% 不降智、95% 缓存、1 秒首字的 GPT，每晚供应 1 小时，持续到 11 月 11 日 23:59（限个人使用、10 RPM 3 并发）。46 个模型，额度按美元显示。 | [注册](https://ai.apizn.com/sign-up?aff=AFT4) |
+| API 智纽 | **付费站，注册不送**（用户提供）。**双 11 活动**：0.01 倍、100% 不降智、95% 缓存、1 秒首字的 GPT，**该分组现在就开着**（用户提供，公告写的是每晚 1 小时），持续到 11 月 11 日 23:59（限个人使用、10 RPM 3 并发）。46 个模型，额度按美元显示。 | [注册](https://ai.apizn.com/sign-up?aff=AFT4) |
 | tntapi | **付费站，007 倍、90 缓存，GPT 全模型不降智**（用户提供）。 | [注册](https://tntapi.com/register?aff=YEHKYD842LNC) |
 | 梦幻API | **付费站，008 倍、80 缓存，GPT 全模型不降智**（用户提供）。 | [注册](https://mhapi.net/register?aff=MPFATHYUYACF) |
 | beiluoxi | **付费站，GPT 007 不降智**（用户提供）。 | [注册](https://beiluoxi.ccwu.cc/register?aff=EKZSES6FNVPX) |

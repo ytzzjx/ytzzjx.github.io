@@ -78,7 +78,7 @@ All of these need a top-up for sustained use; sign-up credit only covers a trial
 
 | Site | Summary | Link |
 | --- | --- | --- |
-| API Zhinu | **A paid service with no sign-up credit** (per user report). **Double-11 promo**: every night, 0.01x fully undumbed GPT with a 95% cache hit and a 1-second time to first token, supplied for one hour, through 23:59 on November 11 (personal use only, 10 RPM and 3 concurrent requests). 46 models, with credit in USD. | [Register](https://ai.apizn.com/sign-up?aff=AFT4) |
+| API Zhinu | **A paid service with no sign-up credit** (per user report). **Double-11 promo**: 0.01x fully undumbed GPT with a 95% cache hit and a 1-second time to first token, and **the group is open right now** (per user report; the notice says one hour each night), through 23:59 on November 11 (personal use only, 10 RPM and 3 concurrent requests). 46 models, with credit in USD. | [Register](https://ai.apizn.com/sign-up?aff=AFT4) |
 | tntapi | **A paid service at 0.07x with a 90% cache hit and undumbed GPT across the board** (per user report). | [Register](https://tntapi.com/register?aff=YEHKYD842LNC) |
 | Menghuan API | **A paid service at 0.08x with an 80% cache hit and undumbed GPT across the board** (per user report). | [Register](https://mhapi.net/register?aff=MPFATHYUYACF) |
 | beiluoxi | **A paid service with GPT at 0.07x, undumbed** (per user report). | [Register](https://beiluoxi.ccwu.cc/register?aff=EKZSES6FNVPX) |
