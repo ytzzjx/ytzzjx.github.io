@@ -1291,6 +1291,55 @@ h3 {
   line-height: 1.7;
 }
 
+/* 公告提醒：时效信息（如某站晚上关注册），过期后自动不展示。 */
+.announcement-board {
+  margin: 0 0 26px;
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--amber);
+  border-radius: 0;
+}
+
+.announcement-title {
+  margin: 0 0 6px;
+  color: var(--amber);
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.announcement-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+  list-style: none;
+}
+
+.announcement-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.announcement-site {
+  flex: none;
+  padding: 1px 6px;
+  color: var(--amber);
+  border: 1px solid currentColor;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+}
+
 /* 公益/付费切换器：与语言切换同一套墨框语言 */
 .pricing-switcher {
   height: 32px;

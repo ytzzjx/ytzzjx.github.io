@@ -5,7 +5,18 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-11-03",
+  lastUpdated: "2026-11-04",
+  // 时效性公告：只放会过期、需要及时看到的事，渲染在首页顶部「公告提醒」。
+  // 过了 expiresOn（本地日期）就不再展示，不用等下次改代码。
+  announcements: [
+    {
+      site: "晚晚舟",
+      text: "晚晚舟晚上关闭注册，并清理僵尸用户，记得及时调用。",
+      textEn: "Wanwanzhou closes registration at night and purges zombie accounts — remember to keep calling it.",
+      expiresOn: "2026-11-18",
+    },
+  ],
+  announcementsEn: { 晚晚舟: "Wanwanzhou" },
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
@@ -741,21 +752,21 @@ const siteConfig = {
     {
       publishedAt: "2026-10-20 00:00",
       addedAt: "2026-10-20",
-      updatedAt: "2026-10-20",
-      updateNote: "新收录：注册送 1，拉 5 人后可每天签到领 1r（用户提供）；哈基米 flash 系列 0.01、克 o 系列 0.05。",
-      kind: "公益站 / 注册送 1 / 拉 5 人后每天签到 1r",
+      updatedAt: "2026-11-04",
+      updateNote: "晚上关闭注册，并清理僵尸用户，记得及时调用（用户提供）。",
+      kind: "公益站 / 注册送 1 / 拉 5 人后每天签到 1r / 夜间关闭注册",
       name: "晚晚舟",
       summary:
-        "公益站，注册送 1，拉 5 人后可每天签到领 1r（用户提供）。哈基米 flash 系列 0.01、克 o 系列 0.05。",
+        "公益站，注册送 1，拉 5 人后可每天签到领 1r（用户提供）。哈基米 flash 系列 0.01、克 o 系列 0.05。晚上关闭注册并清理僵尸用户，记得及时调用（用户提供）。",
       details:
-        "站内名称晚晚舟（wanwanzhou.top），站内自述「酒馆专线 · 长篇陪伴」，Sub2API 程序。注册只收 QQ 邮箱（需邮箱验证，无人机验证），没有 GitHub / Linux DO 登录。注册送 1，拉 5 人后可每天签到领 1r（均为用户提供）。模型倍率：哈基米 flash 系列 0.01、克 o 系列 0.05（用户提供）；站内模型广场未对外开放，完整清单以登录后站内显示为准。站点开通了邀请返利，支付入口关闭。",
-      registration: "QQ 邮箱注册，需邮箱验证（走邀请链接）。",
+        "站内名称晚晚舟（wanwanzhou.top），站内自述「酒馆专线 · 长篇陪伴」，Sub2API 程序。注册只收 QQ 邮箱（需邮箱验证，无人机验证），没有 GitHub / Linux DO 登录。注册送 1，拉 5 人后可每天签到领 1r（均为用户提供）。晚上关闭注册，并清理僵尸用户，记得及时调用（用户提供）。模型倍率：哈基米 flash 系列 0.01、克 o 系列 0.05（用户提供）；站内模型广场未对外开放，完整清单以登录后站内显示为准。站点开通了邀请返利，支付入口关闭。",
+      registration: "QQ 邮箱注册，需邮箱验证（走邀请链接）；晚上关闭注册。",
       signupBonus: "1（用户提供）",
       dailyCheckin: "拉 5 人后可每天签到领 1r（用户提供）",
       models: "哈基米 flash 系列 0.01、克 o 系列 0.05（用户提供）；完整清单以登录后站内为准",
-      experience: "注册送 1；拉 5 人后每天签到 1r（用户提供）",
-      caveat: "注册赠送、签到条件与倍率均为用户提供，以站内实际显示为准。签到需先拉够 5 人才能解锁；站内模型广场未对外开放，模型清单以登录后站内显示为准。",
-      benefits: ["公益站", "QQ 邮箱注册", "注册送 1", "拉 5 人后每天签到 1r", "哈基米 flash 0.01", "克 o 系列 0.05"],
+      experience: "注册送 1；拉 5 人后每天签到 1r（用户提供）；晚上关闭注册，记得及时调用",
+      caveat: "注册赠送、签到条件与倍率均为用户提供，以站内实际显示为准。晚上关闭注册，并清理僵尸用户，记得及时调用（用户提供）。签到需先拉够 5 人才能解锁；站内模型广场未对外开放，模型清单以登录后站内显示为准。",
+      benefits: ["公益站", "QQ 邮箱注册", "注册送 1", "拉 5 人后每天签到 1r", "哈基米 flash 0.01", "克 o 系列 0.05", "晚上关闭注册"],
       url: "https://wanwanzhou.top/register?aff=E44252EBQGS2",
       tone: "active",
     },
@@ -2131,6 +2142,7 @@ const pageCopy = {
     archiveNote: "仅作状态留档，不再推荐访问；恢复后会重新核实并移回在线列表。",
     archiveDateLabel: "下架日期",
     archiveReasonFallback: "已从在线推荐下架并移入失效区。",
+    announcementTitle: "公告提醒",
     updatedToday: "今天更新",
     updatedYesterday: "昨天更新",
     updatedDaysAgo: "{days} 天前更新",
@@ -2220,6 +2232,7 @@ const pageCopy = {
     archiveNote: "Kept for status history only and no longer recommended. Recovered services are re-verified before returning to the live directory.",
     archiveDateLabel: "Delisted",
     archiveReasonFallback: "Removed from the live recommendations and moved to the unavailable archive.",
+    announcementTitle: "Announcements",
     updatedToday: "Updated today",
     updatedYesterday: "Updated yesterday",
     updatedDaysAgo: "Updated {days} days ago",
@@ -2538,6 +2551,46 @@ const localizeEntry = (entry) =>
   currentLocale === "en" && entryTranslations[entry.name]
     ? { ...entry, ...entryTranslations[entry.name] }
     : entry;
+
+// 公告提醒：只显示未过期的条目，过期自动隐藏，不用等改代码。
+const renderAnnouncements = (copy) => {
+  const board = document.querySelector("[data-announcement-board]");
+  const list = document.querySelector("[data-announcement-list]");
+  if (!board || !list) return;
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const items = (siteConfig.announcements ?? []).filter((item) => {
+    if (!item.text) return false;
+    if (!item.expiresOn) return true;
+    const expiry = new Date(`${item.expiresOn}T00:00:00`);
+    return Number.isNaN(expiry.getTime()) || expiry >= today;
+  });
+
+  if (!items.length) {
+    list.innerHTML = "";
+    board.hidden = true;
+    return;
+  }
+
+  list.innerHTML = items
+    .map((item) => {
+      const site =
+        currentLocale === "en" && siteConfig.announcementsEn?.[item.site]
+          ? siteConfig.announcementsEn[item.site]
+          : item.site;
+      const text = currentLocale === "en" && item.textEn ? item.textEn : item.text;
+      return `<li class="announcement-item">
+        ${site ? `<span class="announcement-site">${escapeHtml(site)}</span>` : ""}
+        <span>${escapeHtml(text)}</span>
+      </li>`;
+    })
+    .join("");
+
+  board.hidden = false;
+  applyText("[data-announcement-title]", copy.announcementTitle);
+};
 
 // 英文翻译单独放在 entry-translations.js，按需加载：中文用户不下载这 ~170KB，
 // 切到英文时拉一次（之后命中缓存）。加载失败不阻塞渲染，退化成显示中文。
@@ -3082,6 +3135,7 @@ const renderPage = () => {
   });
 
   renderRecentChanges(copy);
+  renderAnnouncements(copy);
   renderArchivedEntries(copy);
   applyMetaForLocale(copy);
   applyStructuredData(copy, orderedEntries);
