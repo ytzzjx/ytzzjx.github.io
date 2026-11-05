@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| 万家灯火 | 公益站，**用链接注册送 1、进群 1064350952 绑定再送 5，合计 6 刀；群内签到 0.1-1**（用户提供）。**26 个国产模型**（DeepSeek / GLM / Kimi / Qwen / 混元 / MiMo / MiniMax），按量与按次两套价格：DeepSeek V4 flash 系列输入 0.2/输出 0.8 或 0.01/次，glm-5.3 输入 1.6/输出 5.6，kimi-k3 输入 4/输出 20。注册限 QQ / 126 / Gmail 邮箱，额度按人民币显示。 | [注册](https://wjapi.vip/register?aff=ZJFB7ZVSEMYJ) |
 | Dubhe Free API | 公益站，**262 个模型，倍率极低**，default 与 vip 两组均 1 倍。gpt-6-sol / gpt-6.1-sol / gpt-6-astra 与 claude-opus-4-6 / claude-fable-5 均 0.00375，gemini-4-argon 0.0001，kimi-k3 0.001，glm-5.3-flash 0.0000075；另有 [free] 前缀模型倍率 0.25。邮箱注册，有签到。注册赠送与签到金额待确认。页脚称公益项目、不保证 SLA。 | [注册](https://ai.skill.wales/sign-up?aff=jqc8) |
 | 稳token | 付费站，按鸡蛋归入公益区。**注册送 3 米额度、无签到**（用户提供）。只用 **gemini-3.8-flash 0.0035/次**（限时特惠一周）与 **gemini-4-argon-count 0.08/次**；**不要使用站内其他模型**，外国模型按人民币倍率计价、不值（用户提供）。广场 102 个模型，额度按人民币显示。QQ 群 418438107 / 1127420849。 | [注册](https://api.wentoken.si/sign-up?aff=HMTK) |
 | Jasper | 公益站，**免费模型多**（用户提供）。**149 个模型**：Unlimited 组 0 倍 59 个、Free 组 0.01 倍 9 个（deepseek-v4-flash、glm-5.3-flash、step-5-preview、claude-opus-5-5-web 等）；额度按自定义货币 ✦ 显示。邮箱或 GitHub 注册。注册赠送与签到金额待确认。页脚声明仅面向海外华人、中国大陆请勿使用。 | [注册](https://api.yjs.im/sign-up?aff=5uGC) |
