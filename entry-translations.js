@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "稳token": {
+    name: "Wen Token",
+    kind: "Public service / 3 yuan on registration / egg",
+    updateNote: "New listing: a paid service filed under the public section as an egg. Sign-up grants 3 yuan; gemini-3.8-flash is 0.0035 per call and gemini-4-argon-count is 0.08 per call; do not use the other models on the site (per user report).",
+    summary: "A paid service filed under the public section as an egg, granting 3 yuan on sign-up with no check-in (per user report). Only use gemini-3.8-flash at 0.0035 per call and gemini-4-argon-count at 0.08 per call; do not use the other models.",
+    details:
+      "The service calls itself 稳token (api.wentoken.si), runs on New API, and displays credit in CNY. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or Turnstile captcha; sign-up grants 3 yuan of credit (per the operator's notice, matching the user's report) and there is no check-in. The model plaza lists 102 models. The user names only two worth using: gemini-3.8-flash at ¥0.0035 per call in the limited-time Gemini promo group (0.35x; the operator's notice says the promo started on November 4 and runs for one week), and gemini-4-argon-count at ¥0.08 per call in the Gemini per-call welfare group (1x). The operator's notice also says Gemini 3.8 flash and 4a stay at cost price permanently. The remaining groups (AWS Bedrock official key at 3.2x, CC Max enterprise-stable at 1.5x, default at 1x, GPT enterprise-stable at 0.3x, GPT image at 1x, and the flagship domestic-model group) price foreign models at a CNY multiplier, which the user explicitly says is not worth it — do not use them. Endpoint https://wentoken.si/v1; QQ groups 418438107 (group 2) and 1127420849 (group 3), WeChat support wxai2366.",
+    registration: "Register with an email address and email verification through the referral link.",
+    signupBonus: "3 yuan of credit (per user report, matching the operator's notice)",
+    dailyCheckin: "None",
+    models: "Only two: gemini-3.8-flash at ¥0.0035 per call (limited-time Gemini promo group, one week from November 4) / gemini-4-argon-count at ¥0.08 per call (Gemini per-call welfare group). The plaza lists 102 models; do not use the rest",
+    experience: "3 yuan on registration; gemini-3.8-flash at 0.0035 per call and gemini-4-argon-count at 0.08 per call (per user report)",
+    caveat: "Treated as an egg: only the free sign-up credit has been claimed, the paid experience is unverified, so top up with caution. **Do not use the other models on the site** — foreign models are priced at a CNY multiplier and are not worth it (per user report). The 0.0035-per-call price on 3.8-flash is a limited promo (the operator's notice says one week from November 4); after it ends, confirm the price on the service. Credit is displayed in CNY.",
+    benefits: ["Egg credit", "Email registration", "3 yuan on registration", "No check-in", "gemini-3.8-flash at 0.0035 per call", "gemini-4-argon-count at 0.08 per call", "Do not use other models"],
+  },
   "API 智纽": {
     name: "API Zhinu",
     kind: "Paid service / Double-11 promo / 0.01x undumbed GPT nightly",

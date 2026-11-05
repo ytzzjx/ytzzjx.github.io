@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-05",
   // 时效性公告：只放会过期、需要及时看到的事，渲染在首页顶部「公告提醒」。
   // 过了 expiresOn（本地日期）就不再展示，不用等下次改代码。
   announcements: [
@@ -20,6 +20,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "稳token",
     "API 智纽",
     "Jasper",
     "芙卡卡の小食堂",
@@ -342,6 +343,28 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-05 00:00",
+      addedAt: "2026-11-05",
+      updatedAt: "2026-11-05",
+      updateNote: "新收录：付费站按鸡蛋归入公益区。注册送 3 米，gemini-3.8-flash 0.0035/次、gemini-4-argon-count 0.08/次；不要使用站内其他模型（用户提供）。",
+      kind: "公益站 / 注册送 3 米 / 鸡蛋",
+      name: "稳token",
+      egg: true,
+      summary:
+        "付费站，按鸡蛋归入公益区，注册送 3 米额度，无签到（用户提供）。只用 gemini-3.8-flash 0.0035/次 与 gemini-4-argon-count 0.08/次，不要使用站内其他模型。",
+      details:
+        "站内名称稳token（api.wentoken.si），New API 程序，额度按人民币显示。注册为邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无 Turnstile 人机验证；注册就送 3 米额度（站方公告，与用户口径一致），无签到。模型广场 102 个模型。用户点名只用两个：gemini-3.8-flash 每次调用 ¥0.0035，在 gemini限时超级特惠 组（0.35 倍，站方公告称 11 月 4 日起限时特惠一周）；gemini-4-argon-count 按次 ¥0.08，在 Gemini福利按次 组（1 倍）。站方公告另称 Gemini 3.8flash 和 4a 永久为成本价。其余分组（awsb官key可蒸馏 3.2 倍、cc max企业级稳定 1.5 倍、default 1 倍、gpt企业级稳定 0.3 倍、gpt-image生图 1 倍、旗舰国模等）的外国模型价格按人民币倍率计价，用户明确说不值、不要使用。接入地址 https://wentoken.si/v1；QQ 群 418438107（二群）、1127420849（三群），微信客服 wxai2366。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "3 米额度（用户提供，站方公告同口径）",
+      dailyCheckin: "无",
+      models: "只用两个：gemini-3.8-flash 每次 ¥0.0035（gemini限时超级特惠组，11月4日起限时一周）/ gemini-4-argon-count 每次 ¥0.08（Gemini福利按次组）。广场共 102 个模型，其余不要使用",
+      experience: "注册送 3 米；gemini-3.8-flash 0.0035/次、gemini-4-argon-count 0.08/次（用户提供）",
+      caveat: "按鸡蛋对待：只薅注册送的免费额度，付费体验没验证过，充值请谨慎。**不要使用站内其他模型**——外国模型价格按人民币倍率计价，不值（用户提供）。3.8-flash 的 0.0035/次是限时特惠（站方公告 11 月 4 日起一周），过期价格以站内为准。额度按人民币显示。",
+      benefits: ["鸡蛋福利", "邮箱注册", "注册送 3 米", "无签到", "gemini-3.8-flash 0.0035/次", "gemini-4-argon-count 0.08/次", "不要使用其他模型"],
+      url: "https://api.wentoken.si/sign-up?aff=HMTK",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-03 00:00",
       addedAt: "2026-11-03",
