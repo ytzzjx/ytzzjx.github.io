@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "Dubhe Free API": {
+    name: "Dubhe Free API",
+    kind: "Public service / many models / very low rates",
+    updateNote: "New listing: a public service with 262 models at very low rates, with both the default and VIP groups at 1x. The sign-up credit and check-in amount are unconfirmed.",
+    summary: "A public service with 262 models, both the default and VIP groups at 1x, and very low model rates. Check-in is enabled; the sign-up credit and check-in amount are unconfirmed.",
+    details:
+      "The service calls itself Dubhe Free API (ai.skill.wales), runs on New API, and displays credit in a custom unit named 额度. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or Turnstile captcha; registration is open and check-in is enabled, but the sign-up credit and check-in amount are unconfirmed. The model plaza lists 262 models, all billed per token, with both the default and VIP groups at 1x. Model rates are generally very low: gpt-4o at 0.00025, gpt-6-sol / gpt-6.1-sol / gpt-6-astra at 0.00375, claude-opus-4-6 / claude-fable-5 at 0.00375, gemini-4-argon at 0.0001, gemini-3.6-flash at 0.000025, grok-4.6 at 0.0001, kimi-k3 at 0.001, glm-5.3-flash at 0.0000075, qwen3.8-flash at 0.0000055, and deepseek-v4.1-flash-1017 at 0.00375. A separate batch of models prefixed [free] sits at 0.25 ([free]glm-5.3, [free]claude-opus-5-5, [free]kimi-k3, [free]gpt-6-astra, [free]gpt-6.1-sol, [free]claude-fable-5-1, and more). An operator notice says NOVA API (once.novai.su) funded the service with keys worth about 1000, of which about 600 were burned by mass account farming, and risk controls are being built. The footer calls it a public-benefit, non-commercial project with no SLA guarantee.",
+    registration: "Register with an email address and email verification through the referral link.",
+    signupBonus: "Unconfirmed",
+    dailyCheckin: "Check-in is enabled; the amount is unconfirmed",
+    models: "262 models, all billed per token, with both the default and VIP groups at 1x. Very low rates: gpt-6-sol / gpt-6.1-sol / gpt-6-astra at 0.00375, claude-opus-4-6 / claude-fable-5 at 0.00375, gemini-4-argon at 0.0001, grok-4.6 at 0.0001, kimi-k3 at 0.001, glm-5.3-flash at 0.0000075. Models prefixed [free] sit at 0.25",
+    experience: "Many models at very low rates; check-in enabled",
+    caveat: "The sign-up credit and check-in amount are unverified and unconfirmed. Model rates follow the in-site plaza and can change. The operator's notice says risk controls are being built (about 600 of the keys funded by NOVA API were burned by mass account farming). The footer calls it a public-benefit, non-commercial project with no SLA guarantee. Credit uses the custom unit 额度.",
+    benefits: ["Public service", "Email registration", "262 models", "Very low rates", "Default and VIP groups both at 1x", "Check-in enabled"],
+  },
   "稳token": {
     name: "Wen Token",
     kind: "Public service / 3 yuan on registration / egg",

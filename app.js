@@ -20,6 +20,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Dubhe Free API",
     "稳token",
     "API 智纽",
     "Jasper",
@@ -343,6 +344,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-05 00:00",
+      addedAt: "2026-11-05",
+      updatedAt: "2026-11-05",
+      updateNote: "新收录：公益站，262 个模型、倍率极低，default 与 vip 两组均 1 倍。注册赠送与签到金额待确认。",
+      kind: "公益站 / 模型多 / 倍率低",
+      name: "Dubhe Free API",
+      summary:
+        "公益站，262 个模型，default 与 vip 两组均 1 倍，模型倍率极低。有签到，注册赠送与签到金额待确认。",
+      details:
+        "站内名称 Dubhe Free API（ai.skill.wales），New API 程序，额度按自定义货币「额度」显示。注册为邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无 Turnstile 人机验证；注册开放，签到功能开启，注册赠送与签到金额待确认。模型广场公开 262 个模型，全部按量计费，default 与 vip 两组均 1 倍。模型倍率普遍极低：gpt-4o 0.00025、gpt-6-sol / gpt-6.1-sol / gpt-6-astra 0.00375、claude-opus-4-6 / claude-fable-5 0.00375、gemini-4-argon 0.0001、gemini-3.6-flash 0.000025、grok-4.6 0.0001、kimi-k3 0.001、glm-5.3-flash 0.0000075、qwen3.8-flash 0.0000055、deepseek-v4.1-flash-1017 0.00375。另有一批标 [free] 的模型倍率 0.25（[free]glm-5.3、[free]claude-opus-5-5、[free]kimi-k3、[free]gpt-6-astra、[free]gpt-6.1-sol、[free]claude-fable-5-1 等）。站方公告：NOVA API（once.novai.su）对本站进行了渠道资助，共计给予价值 1000 左右的 key，其中约 600 已被批量刷号用掉，正在进行风控建设。页脚称公益项目、非商业服务、不保证 SLA。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "待确认",
+      dailyCheckin: "有签到，金额待确认",
+      models: "262 个模型，全部按量计费，default 与 vip 两组均 1 倍。倍率极低：gpt-6-sol / gpt-6.1-sol / gpt-6-astra 0.00375、claude-opus-4-6 / claude-fable-5 0.00375、gemini-4-argon 0.0001、grok-4.6 0.0001、kimi-k3 0.001、glm-5.3-flash 0.0000075。另有 [free] 前缀模型倍率 0.25",
+      experience: "模型多、倍率极低；有签到",
+      caveat: "注册赠送与签到金额未核实，待确认。模型倍率以站内模型广场为准，可能随时调整。站方公告称正在进行风控建设（NOVA API 资助的 key 约 600 已被批量刷号用掉）。页脚声明公益项目、非商业服务、不保证 SLA。额度按自定义货币「额度」显示。",
+      benefits: ["公益站", "邮箱注册", "262 个模型", "倍率极低", "default 与 vip 均 1 倍", "有签到"],
+      url: "https://ai.skill.wales/sign-up?aff=jqc8",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-05 00:00",
       addedAt: "2026-11-05",
