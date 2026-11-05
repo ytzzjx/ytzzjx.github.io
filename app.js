@@ -372,6 +372,7 @@ const siteConfig = {
       updateNote: "GPT 上下文不双倍计费，目前主力（用户提供）。",
       kind: "付费站 / 目前主力 / 双11活动 / 0.01 不降智 GPT",
       name: "API 智纽",
+      recommended: true,
       summary:
         "付费站，目前主力（用户提供）。GPT 上下文不双倍计费。双 11 活动：0.01 倍、100% 不降智、95% 缓存命中、1 秒首字的 GPT，该分组现在就开着（用户提供），持续到 11 月 11 日 23:59。注册不送。",
       details:
