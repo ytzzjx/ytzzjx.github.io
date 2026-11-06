@@ -800,7 +800,7 @@ const siteConfig = {
       publishedAt: "2026-10-21 00:00",
       addedAt: "2026-10-21",
       updatedAt: "2026-11-06",
-      updateNote: "按用户要求去掉注册链接里的 aff 邀请参数（原 aff=mNfo）。",
+      quietUpdate: true,
       kind: "公益站 / 注册送 15 / 签到 10",
       name: "汐のAPI",
       summary:
