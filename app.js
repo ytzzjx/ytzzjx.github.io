@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "ZIFEIYU API",
     "EazyData API",
     "万家灯火",
     "Dubhe Free API",
@@ -352,6 +353,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-08 00:00",
+      addedAt: "2026-11-08",
+      updatedAt: "2026-11-08",
+      updateNote: "新收录：公益站，Linux DO 登录，打游戏赚额度（用户提供）。",
+      kind: "公益站 / Linux DO 登录 / 打游戏赚额度",
+      name: "ZIFEIYU API",
+      summary:
+        "公益站，Linux DO 登录注册，打游戏赚额度（用户提供）。额度按美元显示；模型与签到未公开，待确认。",
+      details:
+        "站内名称 ZIFEIYU API（ai.112102.xyz），New API 开源分支，站方公告称代码开源（github.com/zi-fei-yu-2020/new-api-zifeiyu），额度按美元显示，汇率 7.3。注册走 Linux DO 登录，邮箱注册与密码注册均关闭，无 GitHub / Telegram 登录。站方特色是打游戏赚额度（用户提供）；模型广场与签到未公开，pricing 与 models 接口需登录，待确认。",
+      registration: "Linux DO 登录注册（走邀请链接）；邮箱与密码注册均关闭。",
+      signupBonus: "待确认",
+      dailyCheckin: "待确认",
+      models: "待确认（模型广场与价格接口需登录）",
+      experience: "Linux DO 登录；打游戏赚额度（用户提供）",
+      caveat: "打游戏赚额度为用户提供，具体玩法与赚取的额度以站内为准。模型清单、倍率与签到未公开，pricing 与 models 接口需登录，待确认。",
+      benefits: ["公益站", "Linux DO 登录", "打游戏赚额度", "代码开源", "额度按美元显示"],
+      url: "https://ai.112102.xyz/sign-up?aff=94cf",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-08 00:00",
       addedAt: "2026-11-08",

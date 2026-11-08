@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "ZIFEIYU API": {
+    name: "ZIFEIYU API",
+    kind: "Public service / Linux DO login / earn credit by playing games",
+    updateNote: "New listing: a public service with Linux DO login where you earn credit by playing games (per user report).",
+    summary: "A public service with Linux DO login registration, where you earn credit by playing games (per user report). Credit is displayed in USD; the model list and check-in are not public and are unconfirmed.",
+    details:
+      "The service calls itself ZIFEIYU API (ai.112102.xyz), runs on an open-source New API fork, and states in its notice that the code is open source (github.com/zi-fei-yu-2020/new-api-zifeiyu). Credit is displayed in USD at a 7.3 rate. Registration goes through Linux DO login; email and password registration are both disabled, with no GitHub or Telegram login. Its signature feature is earning credit by playing games (per user report); the model plaza and check-in are not public, and the pricing and models endpoints require login, so they are unconfirmed.",
+    registration: "Register through Linux DO login (via the referral link); email and password registration are both disabled.",
+    signupBonus: "Unconfirmed",
+    dailyCheckin: "Unconfirmed",
+    models: "Unconfirmed (the model plaza and pricing endpoint require login)",
+    experience: "Linux DO login; earn credit by playing games (per user report)",
+    caveat: "Earning credit by playing games is per user report — the exact rules and credit follow the service. The model list, rates, and check-in are not public; the pricing and models endpoints require login, so they are unconfirmed.",
+    benefits: ["Public service", "Linux DO login", "Earn credit by playing games", "Open-source code", "Credit in USD"],
+  },
   "EazyData API": {
     name: "EazyData API",
     kind: "Public service / 50 on registration / 132 models",
