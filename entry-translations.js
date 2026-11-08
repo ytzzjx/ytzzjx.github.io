@@ -5,7 +5,7 @@ window.entryTranslationsData = {
   "EazyData API": {
     name: "EazyData API",
     kind: "Public service / 50 on registration / 132 models",
-    updateNote: "There is prompt injection; do not use it in privacy- or security-sensitive contexts (per user report).",
+    updateNote: "The injected prompt is a model-jailbreak prompt; do not use it in privacy- or security-sensitive contexts (per user report).",
     summary: "A public service granting 50 on registration (per user report), with gemini-3.8-flash and deepseek-v4.1-flash-1017 available (per user report). The public price list covers 132 models, with default at 1x, vip at 0.9x, and svip at 0.8x; credit is displayed in USD.",
     details:
       "The service calls itself EazyData API (eazydata.org), runs on New API, and displays credit in USD. Registration uses email with email verification and a click captcha, with no GitHub / Linux DO / Telegram / WeChat login and Turnstile disabled; registration grants 50 (per user report), and there is no check-in (per user report). The model plaza lists 132 models across three groups: default at 1x, vip at 0.9x, and svip at 0.8x. The user names gemini-3.8-flash (0.375x, 5x completion, 0.1 cache) and deepseek-v4.1-flash-1017 (0.5x, 4x completion, 0.02 cache) as usable, both in all three groups.",
@@ -14,7 +14,7 @@ window.entryTranslationsData = {
     dailyCheckin: "None (per user report)",
     models: "Named by the user: gemini-3.8-flash at 0.375x and deepseek-v4.1-flash-1017 at 0.5x, both in the default / vip / svip groups; the plaza lists 132 models with default at 1x, vip at 0.9x, and svip at 0.8x",
     experience: "50 on registration with no check-in; gemini-3.8-flash and deepseek-v4.1-flash-1017 are available in all three groups (per user report)",
-    caveat: "**There is prompt injection — do not use it in privacy- or security-sensitive contexts** (per user report). The 50 sign-up credit, the available models, and the lack of a check-in are per user report — confirm them on the service and in the model plaza. Rates follow the public price list and can change.",
+    caveat: "**The injected prompt is a model-jailbreak prompt — do not use it in privacy- or security-sensitive contexts** (per user report). The 50 sign-up credit, the available models, and the lack of a check-in are per user report — confirm them on the service and in the model plaza. Rates follow the public price list and can change.",
     benefits: ["Public service", "Email registration", "50 on registration", "gemini-3.8-flash", "deepseek-v4.1-flash-1017", "132 models"],
   },
   "万家灯火": {

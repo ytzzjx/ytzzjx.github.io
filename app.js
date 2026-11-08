@@ -356,7 +356,7 @@ const siteConfig = {
       publishedAt: "2026-11-08 00:00",
       addedAt: "2026-11-08",
       updatedAt: "2026-11-08",
-      updateNote: "有提示词注入，不要在隐私和安全的场所使用（用户提供）。",
+      updateNote: "有模型破甲提示词注入，不要在隐私和安全的场所使用（用户提供）。",
       kind: "公益站 / 注册送 50 / 132 个模型",
       name: "EazyData API",
       summary:
@@ -368,7 +368,7 @@ const siteConfig = {
       dailyCheckin: "无（用户提供）",
       models: "用户点名：gemini-3.8-flash 0.375 倍、deepseek-v4.1-flash-1017 0.5 倍，default / vip / svip 三组均可用；广场共 132 个模型，分组 default 1 倍、vip 0.9、svip 0.8",
       experience: "注册送 50，无签到；gemini-3.8-flash 与 deepseek-v4.1-flash-1017 三组均可用（用户提供）",
-      caveat: "**有提示词注入，不要在隐私和安全的场所使用**（用户提供）。注册赠送 50、可用模型与无签到为用户提供，以站内实际发放和模型广场为准。倍率为站内公开价目，可能随时调整。",
+      caveat: "**有模型破甲提示词注入，不要在隐私和安全的场所使用**（用户提供）。注册赠送 50、可用模型与无签到为用户提供，以站内实际发放和模型广场为准。倍率为站内公开价目，可能随时调整。",
       benefits: ["公益站", "邮箱注册", "注册送 50", "gemini-3.8-flash", "deepseek-v4.1-flash-1017", "132 个模型"],
       url: "https://eazydata.org/sign-up?aff=goIo",
       tone: "active",
