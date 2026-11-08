@@ -10,13 +10,19 @@ const siteConfig = {
   // 过了 expiresOn（本地日期）就不再展示，不用等下次改代码。
   announcements: [
     {
+      site: "慧慧云",
+      text: "慧慧云注册开放到 11 月 11 日，要注册的抓紧。",
+      textEn: "HuiHuiYun registration is open until November 11 — register soon.",
+      expiresOn: "2026-11-11",
+    },
+    {
       site: "晚晚舟",
       text: "晚晚舟晚上关闭注册，并清理僵尸用户，记得及时调用。",
       textEn: "Wanwanzhou closes registration at night and purges zombie accounts — remember to keep calling it.",
       expiresOn: "2026-11-18",
     },
   ],
-  announcementsEn: { 晚晚舟: "Wanwanzhou" },
+  announcementsEn: { 慧慧云: "HuiHuiYun", 晚晚舟: "Wanwanzhou" },
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
