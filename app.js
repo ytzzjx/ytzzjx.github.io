@@ -785,8 +785,8 @@ const siteConfig = {
     {
       publishedAt: "2026-10-23 00:00",
       addedAt: "2026-10-23",
-      updatedAt: "2026-10-23",
-      updateNote: "补充签到 0.2 左右（用户提供）。",
+      updatedAt: "2026-11-08",
+      updateNote: "现已开放注册（用户提供；公开接口 register_enabled=true 确认）。",
       kind: "公益站 / 注册送 4.16（明天起 1）/ 签到 0.2 左右",
       name: "长春叙",
       summary:
