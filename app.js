@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "EazyData API",
     "万家灯火",
     "Dubhe Free API",
     "稳token",
@@ -351,6 +352,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-08 00:00",
+      addedAt: "2026-11-08",
+      updatedAt: "2026-11-08",
+      updateNote: "新收录：公益站，注册送 50，可用 gemini-3.8-flash 与 deepseek-v4.1-flash-1017（用户提供）。",
+      kind: "公益站 / 注册送 50 / 132 个模型",
+      name: "EazyData API",
+      summary:
+        "公益站，注册送 50（用户提供），可用 gemini-3.8-flash 与 deepseek-v4.1-flash-1017（用户提供）。公开价目 132 个模型，default 1 倍、vip 0.9、svip 0.8，额度按美元显示。",
+      details:
+        "站内名称 EazyData API（eazydata.org），New API 程序，额度按美元显示。注册为邮箱注册，需邮箱验证，有点选验证码，无 GitHub / Linux DO / Telegram / 微信登录，Turnstile 关闭；注册送 50（用户提供），签到待确认。模型广场公开 132 个模型，default 1 倍、vip 0.9、svip 0.8；用户点名可用 gemini-3.8-flash（0.375 倍，补全 5 倍、缓存 0.1）与 deepseek-v4.1-flash-1017（0.5 倍，补全 4 倍、缓存 0.02），三组均可用。",
+      registration: "邮箱注册，需邮箱验证，有点选验证码（走邀请链接）。",
+      signupBonus: "50（用户提供）",
+      dailyCheckin: "待确认",
+      models: "用户点名：gemini-3.8-flash 0.375 倍、deepseek-v4.1-flash-1017 0.5 倍，default / vip / svip 三组均可用；广场共 132 个模型，分组 default 1 倍、vip 0.9、svip 0.8",
+      experience: "注册送 50；gemini-3.8-flash 与 deepseek-v4.1-flash-1017 三组均可用（用户提供）",
+      caveat: "注册赠送 50 与可用模型为用户提供，以站内实际发放和模型广场为准；签到未核实，待确认。倍率为站内公开价目，可能随时调整。",
+      benefits: ["公益站", "邮箱注册", "注册送 50", "gemini-3.8-flash", "deepseek-v4.1-flash-1017", "132 个模型"],
+      url: "https://eazydata.org/sign-up?aff=goIo",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-05 00:00",
       addedAt: "2026-11-05",
