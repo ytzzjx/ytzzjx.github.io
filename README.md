@@ -16,7 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| EazyData API | 公益站，**注册送 50**（用户提供）。可用 **gemini-3.8-flash** 与 **deepseek-v4.1-flash-1017**（用户提供）。公开价目 **132 个模型**，default 1 倍、vip 0.9、svip 0.8；gemini-3.8-flash 0.375 倍（补全 5 倍、缓存 0.1）、deepseek-v4.1-flash-1017 0.5 倍（补全 4 倍、缓存 0.02），三组均可用。邮箱注册、需邮箱验证、有点选验证码；额度按美元显示。无签到（用户提供）。 | [注册](https://eazydata.org/sign-up?aff=goIo) |
+| EazyData API | 公益站，**注册送 50**（用户提供）。可用 **gemini-3.8-flash** 与 **deepseek-v4.1-flash-1017**（用户提供）。公开价目 **132 个模型**，default 1 倍、vip 0.9、svip 0.8；gemini-3.8-flash 0.375 倍（补全 5 倍、缓存 0.1）、deepseek-v4.1-flash-1017 0.5 倍（补全 4 倍、缓存 0.02），三组均可用。邮箱注册、需邮箱验证、有点选验证码；额度按美元显示。无签到（用户提供）。**有提示词注入，不要在隐私和安全的场所使用**（用户提供）。 | [注册](https://eazydata.org/sign-up?aff=goIo) |
 | 万家灯火 | 公益站，**用链接注册送 1、进群 1064350952 绑定再送 2，合计 3 刀；群内签到改为充值 10 刀后解锁**（用户提供）。**有 0.08 倍不降智 GPT**（用户提供）。公开价目 **26 个国产模型**（DeepSeek / GLM / Kimi / Qwen / 混元 / MiMo / MiniMax），按量与按次两套价格：DeepSeek V4 flash 系列输入 0.2/输出 0.8 或 0.01/次，glm-5.3 输入 1.6/输出 5.6，kimi-k3 输入 4/输出 20。注册限 QQ / 126 / Gmail 邮箱，额度按人民币显示。 | [注册](https://wjapi.vip/register?aff=ZJFB7ZVSEMYJ) |
 | Dubhe Free API | 公益站，**262 个模型，倍率极低**，default 与 vip 两组均 1 倍。gpt-6-sol / gpt-6.1-sol / gpt-6-astra 与 claude-opus-4-6 / claude-fable-5 均 0.00375，gemini-4-argon 0.0001，kimi-k3 0.001，glm-5.3-flash 0.0000075；另有 [free] 前缀模型倍率 0.25。邮箱注册，有签到。注册赠送与签到金额待确认。页脚称公益项目、不保证 SLA。 | [注册](https://ai.skill.wales/sign-up?aff=jqc8) |
 | 稳token | 付费站，按鸡蛋归入公益区。**注册送 3 米额度、无签到**（用户提供）。只用 **gemini-3.8-flash 0.0035/次**（限时特惠一周）与 **gemini-4-argon-count 0.08/次**；**不要使用站内其他模型**，外国模型按人民币倍率计价、不值（用户提供）。广场 102 个模型，额度按人民币显示。QQ 群 418438107 / 1127420849。 | [注册](https://api.wentoken.si/sign-up?aff=HMTK) |
