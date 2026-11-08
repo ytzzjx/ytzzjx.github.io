@@ -4,18 +4,18 @@
 window.entryTranslationsData = {
   "ZIFEIYU API": {
     name: "ZIFEIYU API",
-    kind: "Public service / Linux DO login / earn credit by playing games",
-    updateNote: "New listing: a public service with Linux DO login where you earn credit by playing games (per user report).",
-    summary: "A public service with Linux DO login registration, where you earn credit by playing games (per user report). Credit is displayed in USD; the model list and check-in are not public and are unconfirmed.",
+    kind: "Public service / Linux DO login / earn money by playing games",
+    updateNote: "There is no check-in; you earn money by playing games — one game per day, and 12 was just earned (per user report).",
+    summary: "A public service with Linux DO login registration, where you earn money by playing games — one game per day, and 12 was just earned (per user report). No check-in. Credit is displayed in USD; the model list is not public and is unconfirmed.",
     details:
-      "The service calls itself ZIFEIYU API (ai.112102.xyz), runs on an open-source New API fork, and states in its notice that the code is open source (github.com/zi-fei-yu-2020/new-api-zifeiyu). Credit is displayed in USD at a 7.3 rate. Registration goes through Linux DO login; email and password registration are both disabled, with no GitHub or Telegram login. Its signature feature is earning credit by playing games (per user report); the model plaza and check-in are not public, and the pricing and models endpoints require login, so they are unconfirmed.",
+      "The service calls itself ZIFEIYU API (ai.112102.xyz), runs on an open-source New API fork, and states in its notice that the code is open source (github.com/zi-fei-yu-2020/new-api-zifeiyu). Credit is displayed in USD at a 7.3 rate. Registration goes through Linux DO login; email and password registration are both disabled, with no GitHub or Telegram login. Its signature feature is earning money by playing games: one game per day, and 12 was just earned (both per user report); there is no check-in (per user report). The model plaza is not public, and the pricing and models endpoints require login, so they are unconfirmed.",
     registration: "Register through Linux DO login (via the referral link); email and password registration are both disabled.",
     signupBonus: "Unconfirmed",
-    dailyCheckin: "Unconfirmed",
+    dailyCheckin: "None (per user report)",
     models: "Unconfirmed (the model plaza and pricing endpoint require login)",
-    experience: "Linux DO login; earn credit by playing games (per user report)",
-    caveat: "Earning credit by playing games is per user report — the exact rules and credit follow the service. The model list, rates, and check-in are not public; the pricing and models endpoints require login, so they are unconfirmed.",
-    benefits: ["Public service", "Linux DO login", "Earn credit by playing games", "Open-source code", "Credit in USD"],
+    experience: "Linux DO login; earn money by playing games — one game per day, 12 just earned (per user report)",
+    caveat: "One game per day, the 12 just earned, and the lack of a check-in are all per user report — the earning rules and the actual credit follow the service. The model list and rates are not public; the pricing and models endpoints require login, so they are unconfirmed.",
+    benefits: ["Public service", "Linux DO login", "Earn money by playing games", "One game per day", "Open-source code", "Credit in USD"],
   },
   "EazyData API": {
     name: "EazyData API",
