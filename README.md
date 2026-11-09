@@ -16,7 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| 银杏 | 公益站，**注册送 5 块，进群 1047911746 私聊群主再送 5，邀请送 1，合计新用户注册送 6**（用户提供）。公开价目 **31 个模型**，分组倍率 kiro pro 0.25、codex 0.3、deepseek 0.3、GLM / codex pro / adobe 0.4、gemini ant 0.6、gemini ultra 0.8，含 Claude opus 5-5、gpt-6.1-sol / terra、gemini-3.8-flash / 4-argon、deepseek-v4.1-flash-1017 与生图。邮箱注册、需邮箱验证；额度按美元显示。签到待确认。 | [注册](https://svip.katioai.com/sign-up?aff=3dBN) |
+| 银杏 | 公益站，**注册送 5 块，进群 1047911746 私聊群主再送 5，邀请送 1，合计新用户注册送 11 块**（用户提供）。公开价目 **31 个模型**，分组倍率 kiro pro 0.25、codex 0.3、deepseek 0.3、GLM / codex pro / adobe 0.4、gemini ant 0.6、gemini ultra 0.8，含 Claude opus 5-5、gpt-6.1-sol / terra、gemini-3.8-flash / 4-argon、deepseek-v4.1-flash-1017 与生图。邮箱注册、需邮箱验证；额度按美元显示。签到待确认。 | [注册](https://svip.katioai.com/sign-up?aff=3dBN) |
 | ZIFEIYU API | 公益站，**Linux DO 登录注册，打游戏赚钱，一天一把，刚刚赚了 12**（用户提供）。**无签到**（用户提供）。站方公告称代码开源（new-api-zifeiyu 分支）。额度按美元显示；邮箱与密码注册均关闭，无 GitHub / Telegram 登录。模型未公开，待确认。**按次计费：gemini-3.8-flash 0.5/次、minimax-m3.1-flash 0.1/次、glm-5.3-flash 0.5/次**（用户提供）。 | [注册](https://ai.112102.xyz/sign-up?aff=94cf) |
 | EazyData API | 公益站，**注册送 50**（用户提供）。可用 **gemini-3.8-flash** 与 **deepseek-v4.1-flash-1017**（用户提供）。公开价目 **132 个模型**，default 1 倍、vip 0.9、svip 0.8；gemini-3.8-flash 0.375 倍（补全 5 倍、缓存 0.1）、deepseek-v4.1-flash-1017 0.5 倍（补全 4 倍、缓存 0.02），三组均可用。邮箱注册、需邮箱验证、有点选验证码；额度按美元显示。无签到（用户提供）。**有模型破甲提示词注入，不要在隐私和安全的场所使用**（用户提供）。 | [注册](https://eazydata.org/sign-up?aff=goIo) |
 | 万家灯火 | 公益站，**用链接注册送 1、进群 1064350952 绑定再送 2，合计 3 刀；群内签到改为充值 10 刀后解锁**（用户提供）。**有 0.08 倍不降智 GPT**（用户提供）。公开价目 **26 个国产模型**（DeepSeek / GLM / Kimi / Qwen / 混元 / MiMo / MiniMax），按量与按次两套价格：DeepSeek V4 flash 系列输入 0.2/输出 0.8 或 0.01/次，glm-5.3 输入 1.6/输出 5.6，kimi-k3 输入 4/输出 20。注册限 QQ / 126 / Gmail 邮箱，额度按人民币显示。 | [注册](https://wjapi.vip/register?aff=ZJFB7ZVSEMYJ) |
