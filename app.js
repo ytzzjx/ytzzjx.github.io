@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "银杏",
     "ZIFEIYU API",
     "EazyData API",
     "万家灯火",
@@ -353,6 +354,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-09 00:00",
+      addedAt: "2026-11-09",
+      updatedAt: "2026-11-09",
+      updateNote: "新收录：公益站，注册送 5 块，进群 1047911746 私聊群主再送 5，邀请送 1，合计新用户注册送 6（用户提供）。",
+      kind: "公益站 / 注册送 6 块 / 邀请送 1",
+      name: "银杏",
+      summary:
+        "公益站，注册送 5 块，进群 1047911746 私聊群主再送 5，邀请送 1，合计新用户注册送 6（均为用户提供）。公开价目 31 个模型，分组倍率 0.25-0.8，额度按美元显示。",
+      details:
+        "站内名称银杏（svip.katioai.com），New API 程序，额度按美元显示，汇率 7.3。邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram / 微信登录，无人机验证；注册送 5 块，进 QQ 群 1047911746 私聊群主再送 5，邀请送 1，合计新用户注册送 6（均为用户提供），签到待确认。模型广场公开 31 个模型，分组倍率 kiro pro 0.25、codex 0.3、deepseek 0.3、GLM / codex pro / adobe 0.4、codex max pro 0.5、gemini ant 0.6、gemini ultra 0.8，含 Claude opus 5-5、gpt-6.1-sol / terra、gemini-3.8-flash / 4-argon、deepseek-v4.1-flash-1017、glm-5.3-flash 与 gpt-image-2 系列生图。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）；进群 1047911746 私聊群主再送 5。",
+      signupBonus: "注册送 5 块，进群私聊群主再送 5，邀请送 1，合计 6 块（用户提供）",
+      dailyCheckin: "待确认",
+      models: "31 个模型，分组倍率 kiro pro 0.25、codex 0.3、deepseek 0.3、GLM / codex pro / adobe 0.4、gemini ant 0.6、gemini ultra 0.8；含 Claude opus 5-5、gpt-6.1-sol / terra、gemini-3.8-flash / 4-argon、deepseek-v4.1-flash-1017、glm-5.3-flash 与生图",
+      experience: "注册合计送 6 块；31 个模型，kiro pro 组 0.25 倍最低",
+      caveat: "注册赠送与邀请奖励为用户提供，以站内和群内实际发放为准；进群 1047911746 私聊群主才有额外的 5 块。签到未核实，待确认。分组倍率为站内公开价目，可能随时调整。",
+      benefits: ["公益站", "邮箱注册", "注册合计送 6 块", "进群再送 5", "邀请送 1", "31 个模型"],
+      url: "https://svip.katioai.com/sign-up?aff=3dBN",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-08 00:00",
       addedAt: "2026-11-08",

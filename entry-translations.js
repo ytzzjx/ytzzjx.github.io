@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "银杏": {
+    name: "Yinxing",
+    kind: "Public service / 6 yuan on registration / 1 per referral",
+    updateNote: "New listing: a public service granting 5 yuan on registration, another 5 for DMing the group owner in group 1047911746, and 1 per referral — 6 yuan in total for a new user (per user report).",
+    summary: "A public service granting 5 yuan on registration, another 5 for joining group 1047911746 and DMing the group owner, and 1 per referral — 6 yuan in total for a new user (all per user report). The public price list covers 31 models with group rates from 0.25 to 0.8, and credit is displayed in USD.",
+    details:
+      "The service calls itself 银杏 (svip.katioai.com), runs on New API, and displays credit in USD at a 7.3 rate. Registration uses email with email verification and no GitHub / Linux DO / Telegram / WeChat login or captcha; registration grants 5 yuan, joining QQ group 1047911746 and DMing the group owner grants another 5, and each referral grants 1 — 6 yuan in total for a new user (all per user report). The check-in is unconfirmed. The model plaza lists 31 models with group rates: kiro pro 0.25, codex 0.3, deepseek 0.3, GLM / codex pro / adobe 0.4, codex max pro 0.5, gemini ant 0.6, and gemini ultra 0.8. Coverage includes Claude opus 5-5, gpt-6.1-sol / terra, gemini-3.8-flash / 4-argon, deepseek-v4.1-flash-1017, glm-5.3-flash, and the gpt-image-2 image series.",
+    registration: "Register with an email address and email verification through the referral link; joining group 1047911746 and DMing the group owner grants another 5.",
+    signupBonus: "5 yuan on registration, another 5 for DMing the group owner, and 1 per referral — 6 yuan in total (per user report)",
+    dailyCheckin: "Unconfirmed",
+    models: "31 models with group rates: kiro pro 0.25, codex 0.3, deepseek 0.3, GLM / codex pro / adobe 0.4, gemini ant 0.6, and gemini ultra 0.8; covers Claude opus 5-5, gpt-6.1-sol / terra, gemini-3.8-flash / 4-argon, deepseek-v4.1-flash-1017, glm-5.3-flash, and image models",
+    experience: "6 yuan in total on registration; 31 models, with the kiro pro group lowest at 0.25x",
+    caveat: "The sign-up credit and referral reward are per user report — confirm them on the service and in the group; the extra 5 yuan requires DMing the group owner in group 1047911746. The check-in is unverified and unconfirmed. Group rates follow the public price list and can change.",
+    benefits: ["Public service", "Email registration", "6 yuan on registration in total", "Another 5 for joining the group", "1 per referral", "31 models"],
+  },
   "ZIFEIYU API": {
     name: "ZIFEIYU API",
     kind: "Public service / Linux DO login / earn money by playing games / per-request billing",
