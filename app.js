@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "星驰API公益站",
     "FreeGG",
     "AgentRouter",
     "银杏",
@@ -355,6 +356,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-12 00:00",
+      addedAt: "2026-11-12",
+      updatedAt: "2026-11-12",
+      updateNote: "新收录：公益站，先注册站再加 TG 群，首次加群送 1000 元兑换码，邀请上不封顶；现有 gpt-6.1-sol，0.5 倍率（均为用户提供）。",
+      kind: "公益站 / 加群送 1000 元兑换码 / 邀请上不封顶",
+      name: "星驰API公益站",
+      summary:
+        "公益站，先注册站再加 TG 群。首次加群送 1000 元兑换码；每邀请一位好友进群再私聊机器人可再领一次，上不封顶；发送 /start 也能再领一次（均为用户提供）。现有 gpt-6.1-sol，0.5 倍率（用户提供）。",
+      details:
+        "站内名称星驰API公益站（xingchiapi.com，接口 api.xingchiapi.com），Sub2API 程序，支付入口关闭。注册为邮箱注册，无需邮箱验证，有 Turnstile 人机验证，无 GitHub / Linux DO 等第三方登录，兑换码功能开启。福利走 Telegram：先注册站，再加群 t.me/xingchi66bot（邀请链接 t.me/xingchi66bot?start=inv_8653517481），首次加群私聊机器人可领 1000 元兑换码；每邀请一位好友进群，再私聊机器人可再领一次，上不封顶；发送 /start 也能再领一次（均为用户提供）。现有模型 gpt-6.1-sol，0.5 倍率（用户提供）；模型广场未公开。",
+      registration: "邮箱注册，无需邮箱验证，有 Turnstile 验证（走邀请链接）；先注册站，再加 TG 群领兑换码。",
+      signupBonus: "首次加 TG 群私聊机器人领 1000 元兑换码（用户提供）",
+      dailyCheckin: "待确认",
+      models: "现有 gpt-6.1-sol，0.5 倍率（用户提供）；模型广场未公开",
+      experience: "加群领 1000 元兑换码，邀请上不封顶；gpt-6.1-sol 0.5 倍率（均为用户提供）",
+      caveat: "兑换码与邀请规则、gpt-6.1-sol 倍率均为用户提供，以站内和 TG 群实际发放为准。模型广场未公开，模型清单与价格待确认。",
+      benefits: ["公益站", "邮箱注册", "加群送 1000 元兑换码", "邀请上不封顶", "gpt-6.1-sol 0.5 倍率"],
+      url: "https://xingchiapi.com/register?aff=6F9G3HF4B8W6",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-12 00:00",
       addedAt: "2026-11-12",

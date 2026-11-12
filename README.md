@@ -16,6 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| 星驰API公益站 | 公益站，**先注册站再加 TG 群**。**首次加群送 1000 元兑换码**；每邀请一位好友进群再私聊机器人可再领一次，**上不封顶**；发送 /start 也能再领一次（均为用户提供）。现有 **gpt-6.1-sol，0.5 倍率**（用户提供）。邮箱注册、无需邮箱验证、有 Turnstile 验证；支付入口关闭。TG 机器人 t.me/xingchi66bot。 | [注册](https://xingchiapi.com/register?aff=6F9G3HF4B8W6) |
 | FreeGG | 公益站，**GitHub 注册（推测一年以上），只有 gpt-6.1-sol（动态计费，输入/输出均 $1/1M），注册送 50，每天签到 20**（均为用户提供）。只走 GitHub OAuth，邮箱与密码注册均关闭，有 Turnstile 验证；额度按美元显示。模型广场与价格接口需登录，未公开。 | [注册](https://freegg.app/sign-up?aff=Ynwv) |
 | AgentRouter | 注册送 75 刀、每日签到 25 刀；**GPT（Azure 渠道，不降智）与 Claude 模型每天 10 点和 19 点定时放出**，DeepSeek 为 **deepseek-v4.1-flash**（站内模型列表显示 deepseek-v4-flash，是映射后的名字）。GitHub 老号或 Linux Do 账号；国内打不开原站可直接走国内入口，无需代理。 | [注册](https://agentrouter.org/register?aff=i3Xz) / [国内入口](https://ps.air-outer.com/register?aff=i3Xz) |
 | 银杏 | 公益站，**注册送 5 块，进群 1047911746 私聊群主再送 5，邀请送 1，合计新用户注册送 11 块**（用户提供）。公开价目 **31 个模型**，分组倍率 kiro pro 0.25、codex 0.3、deepseek 0.3、GLM / codex pro / adobe 0.4、gemini ant 0.6、gemini ultra 0.8，含 Claude opus 5-5、gpt-6.1-sol / terra、gemini-3.8-flash / 4-argon、deepseek-v4.1-flash-1017 与生图。邮箱注册、需邮箱验证；额度按美元显示。签到待确认。 | [注册](https://svip.katioai.com/sign-up?aff=3dBN) |

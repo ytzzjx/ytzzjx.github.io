@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "星驰API公益站": {
+    name: "Xingchi API",
+    kind: "Public service / 1000 yuan redemption code for joining the group / unlimited referrals",
+    updateNote: "New listing: a public service where you register first and then join the Telegram group; the first join gives a 1000 yuan redemption code and referrals are uncapped. It currently has gpt-6.1-sol at 0.5x (all per user report).",
+    summary: "A public service where you register first and then join the Telegram group. The first join gives a 1000 yuan redemption code; each friend you invite into the group lets you claim another code by DMing the bot, with no cap; sending /start also claims another one (all per user report). It currently has gpt-6.1-sol at 0.5x (per user report).",
+    details:
+      "The service calls itself 星驰API公益站 (xingchiapi.com, API at api.xingchiapi.com), runs on Sub2API, and has its payment entry disabled. Registration uses email with no email verification and a Turnstile captcha, with no GitHub / Linux DO or other third-party login, and redemption codes are enabled. The welfare runs through Telegram: register first, then join t.me/xingchi66bot (invite link t.me/xingchi66bot?start=inv_8653517481); the first join lets you claim a 1000 yuan redemption code by DMing the bot, each friend invited into the group lets you claim another code by DMing the bot again with no cap, and sending /start also claims another one (all per user report). It currently carries gpt-6.1-sol at 0.5x (per user report); the model plaza is not public.",
+    registration: "Register with an email address, no email verification, and a Turnstile check (through the referral link); register first, then join the Telegram group to claim redemption codes.",
+    signupBonus: "Claim a 1000 yuan redemption code by DMing the bot after your first Telegram group join (per user report)",
+    dailyCheckin: "Unconfirmed",
+    models: "Currently gpt-6.1-sol at 0.5x (per user report); the model plaza is not public",
+    experience: "Join the group for a 1000 yuan redemption code with uncapped referrals; gpt-6.1-sol at 0.5x (all per user report)",
+    caveat: "The redemption code and referral rules and the gpt-6.1-sol rate are all per user report — confirm them on the service and in the Telegram group. The model plaza is not public, so the model list and prices are unconfirmed.",
+    benefits: ["Public service", "Email registration", "1000 yuan code for joining the group", "Uncapped referrals", "gpt-6.1-sol at 0.5x"],
+  },
   "FreeGG": {
     name: "FreeGG",
     kind: "Public service / GitHub registration / only gpt-6.1-sol / 50 on registration",
