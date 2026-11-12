@@ -16,7 +16,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
-| FreeGG | 公益站，**GitHub 注册（推测一年以上），只有 gpt-6.1-sol，注册送 50，每天签到 20**（均为用户提供）。只走 GitHub OAuth，邮箱与密码注册均关闭，有 Turnstile 验证；额度按美元显示。模型广场与价格接口需登录，未公开。 | [注册](https://freegg.app/sign-up?aff=Ynwv) |
+| FreeGG | 公益站，**GitHub 注册（推测一年以上），只有 gpt-6.1-sol（动态计费，输入/输出均 $1/1M），注册送 50，每天签到 20**（均为用户提供）。只走 GitHub OAuth，邮箱与密码注册均关闭，有 Turnstile 验证；额度按美元显示。模型广场与价格接口需登录，未公开。 | [注册](https://freegg.app/sign-up?aff=Ynwv) |
 | AgentRouter | 注册送 75 刀、每日签到 25 刀；**GPT（Azure 渠道，不降智）与 Claude 模型每天 10 点和 19 点定时放出**，DeepSeek 为 **deepseek-v4.1-flash**（站内模型列表显示 deepseek-v4-flash，是映射后的名字）。GitHub 老号或 Linux Do 账号；国内打不开原站可直接走国内入口，无需代理。 | [注册](https://agentrouter.org/register?aff=i3Xz) / [国内入口](https://ps.air-outer.com/register?aff=i3Xz) |
 | 银杏 | 公益站，**注册送 5 块，进群 1047911746 私聊群主再送 5，邀请送 1，合计新用户注册送 11 块**（用户提供）。公开价目 **31 个模型**，分组倍率 kiro pro 0.25、codex 0.3、deepseek 0.3、GLM / codex pro / adobe 0.4、gemini ant 0.6、gemini ultra 0.8，含 Claude opus 5-5、gpt-6.1-sol / terra、gemini-3.8-flash / 4-argon、deepseek-v4.1-flash-1017 与生图。邮箱注册、需邮箱验证；额度按美元显示。签到待确认。 | [注册](https://svip.katioai.com/sign-up?aff=3dBN) |
 | ZIFEIYU API | 公益站，**Linux DO 登录注册，打游戏赚钱，一天一把，刚刚赚了 12**（用户提供）。**无签到**（用户提供）。站方公告称代码开源（new-api-zifeiyu 分支）。额度按美元显示；邮箱与密码注册均关闭，无 GitHub / Telegram 登录。模型未公开，待确认。**按次计费：gemini-3.8-flash 0.5/次、minimax-m3.1-flash 0.1/次、glm-5.3-flash 0.5/次**（用户提供）。 | [注册](https://ai.112102.xyz/sign-up?aff=94cf) |
