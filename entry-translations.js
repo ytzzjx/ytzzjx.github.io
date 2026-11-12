@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "FreeGG": {
+    name: "FreeGG",
+    kind: "Public service / GitHub registration / only gpt-6.1-sol / 50 on registration",
+    updateNote: "New listing: a public service with GitHub registration (the account is presumed to be at least a year old), only gpt-6.1-sol, 50 on registration, and 20 per daily check-in (all per user report).",
+    summary: "A public service with GitHub registration (the account is presumed to be at least a year old), only gpt-6.1-sol, 50 on registration, and 20 per daily check-in (all per user report). Credit is displayed in USD.",
+    details:
+      "The service calls itself FreeGG (freegg.app), runs on New API, and displays credit in USD at a 7.3 rate. Registration goes through GitHub OAuth only; email and password registration are both disabled and Turnstile is enabled, and the GitHub account is presumed to need to be at least a year old (per user report). It carries only one model, gpt-6.1-sol (per user report), with 50 on registration and 20 per daily check-in (both per user report). The model plaza and pricing endpoint require login and are not public.",
+    registration: "Register through GitHub login (via the referral link); email and password registration are both disabled and Turnstile is enabled.",
+    signupBonus: "50 (per user report)",
+    dailyCheckin: "20 per day (per user report)",
+    models: "Only gpt-6.1-sol (per user report)",
+    experience: "50 on registration and 20 per daily check-in; only gpt-6.1-sol (all per user report)",
+    caveat: "The sign-up credit, check-in amount, available model, and the GitHub account age requirement are all per user report — confirm them on the service. The model plaza and pricing endpoint require login and are not public.",
+    benefits: ["Public service", "GitHub registration", "Only gpt-6.1-sol", "50 on registration", "20 per daily check-in"],
+  },
   "银杏": {
     name: "Yinxing",
     kind: "Public service / 11 yuan on registration / 1 per referral",

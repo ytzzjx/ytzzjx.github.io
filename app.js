@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益中转分享",
   intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-11-08",
+  lastUpdated: "2026-11-12",
   // 时效性公告：只放会过期、需要及时看到的事，渲染在首页顶部「公告提醒」。
   // 过了 expiresOn（本地日期）就不再展示，不用等下次改代码。
   announcements: [
@@ -26,6 +26,8 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "FreeGG",
+    "AgentRouter",
     "银杏",
     "ZIFEIYU API",
     "EazyData API",
@@ -72,7 +74,6 @@ const siteConfig = {
     "GcmodAi",
     "StarBridge 公益站",
     "Orevx Engine 半公益站",
-    "AgentRouter",
     "Hyper 公益站",
     "ze（芙芙中转站）",
     "sunapi 公益站",
@@ -354,6 +355,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-12 00:00",
+      addedAt: "2026-11-12",
+      updatedAt: "2026-11-12",
+      updateNote: "新收录：公益站，GitHub 注册（推测一年以上），只有 gpt-6.1-sol，注册送 50，每天签到 20（均为用户提供）。",
+      kind: "公益站 / GitHub 注册 / 只有 gpt-6.1-sol / 注册送 50",
+      name: "FreeGG",
+      summary:
+        "公益站，GitHub 注册（推测一年以上），只有 gpt-6.1-sol，注册送 50，每天签到 20（均为用户提供）。额度按美元显示。",
+      details:
+        "站内名称 FreeGG（freegg.app），New API 程序，额度按美元显示，汇率 7.3。注册只走 GitHub OAuth，邮箱注册与密码注册均关闭，有 Turnstile 人机验证；GitHub 账号推测需一年以上（用户提供）。只有 gpt-6.1-sol 一个模型（用户提供）；注册送 50，每天签到 20（均为用户提供）。模型广场与价格接口需登录，未公开。",
+      registration: "GitHub 登录注册（走邀请链接）；邮箱与密码注册均关闭，有 Turnstile 验证。",
+      signupBonus: "50（用户提供）",
+      dailyCheckin: "每天 20（用户提供）",
+      models: "只有 gpt-6.1-sol（用户提供）",
+      experience: "注册送 50、每天签到 20；只有 gpt-6.1-sol（均为用户提供）",
+      caveat: "注册赠送、签到金额、可用模型与 GitHub 账号年限要求均为用户提供，以站内实际显示为准。模型广场与价格接口需登录，未公开。",
+      benefits: ["公益站", "GitHub 注册", "只有 gpt-6.1-sol", "注册送 50", "每天签到 20"],
+      url: "https://freegg.app/sign-up?aff=Ynwv",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-09 00:00",
       addedAt: "2026-11-09",
