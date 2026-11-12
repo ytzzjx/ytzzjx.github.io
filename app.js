@@ -372,7 +372,7 @@ const siteConfig = {
       dailyCheckin: "待确认",
       models: "现有 gpt-6.1-sol，0.5 倍率（用户提供）；模型广场未公开",
       experience: "加群领 1000 元兑换码，邀请上不封顶；gpt-6.1-sol 0.5 倍率（均为用户提供）",
-      caveat: "兑换码与邀请规则、gpt-6.1-sol 倍率均为用户提供，以站内和 TG 群实际发放为准。模型广场未公开，模型清单与价格待确认。",
+      caveat: "兑换码与邀请规则、gpt-6.1-sol 倍率均为用户提供，以站内和 TG 群实际发放为准。TG 机器人会有点卡（用户提供），领兑换码时多些耐心。模型广场未公开，模型清单与价格待确认。",
       benefits: ["公益站", "邮箱注册", "加群送 1000 元兑换码", "邀请上不封顶", "gpt-6.1-sol 0.5 倍率"],
       url: "https://xingchiapi.com/register?aff=6F9G3HF4B8W6",
       tone: "active",

@@ -14,7 +14,7 @@ window.entryTranslationsData = {
     dailyCheckin: "Unconfirmed",
     models: "Currently gpt-6.1-sol at 0.5x (per user report); the model plaza is not public",
     experience: "Join the group for a 1000 yuan redemption code with uncapped referrals; gpt-6.1-sol at 0.5x (all per user report)",
-    caveat: "The redemption code and referral rules and the gpt-6.1-sol rate are all per user report — confirm them on the service and in the Telegram group. The model plaza is not public, so the model list and prices are unconfirmed.",
+    caveat: "The redemption code and referral rules and the gpt-6.1-sol rate are all per user report — confirm them on the service and in the Telegram group. The Telegram bot is a bit laggy (per user report), so be patient when claiming codes. The model plaza is not public, so the model list and prices are unconfirmed.",
     benefits: ["Public service", "Email registration", "1000 yuan code for joining the group", "Uncapped referrals", "gpt-6.1-sol at 0.5x"],
   },
   "FreeGG": {
