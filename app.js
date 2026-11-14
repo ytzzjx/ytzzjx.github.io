@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Axo AI",
     "星驰API公益站",
     "FreeGG",
     "AgentRouter",
@@ -356,6 +357,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-14 00:00",
+      addedAt: "2026-11-14",
+      updatedAt: "2026-11-14",
+      updateNote: "新收录：公益站，注册送 2，进群联系群主领 3，一共 5；0.03 倍率不降智 GPT；无签到（均为用户提供）。",
+      kind: "公益站 / 注册送 5 / 0.03 倍率不降智 GPT",
+      name: "Axo AI",
+      summary:
+        "公益站，注册送 2，进群联系群主领 3，一共 5（均为用户提供）。有 0.03 倍率不降智 GPT（用户提供，站方公告称「GPT-不降智-特价 0.03x 持续供给」）。无签到。公开价目 25 个模型，额度按人民币显示。",
+      details:
+        "站内名称 Axo AI（axoai.cc），New API 程序，额度按人民币显示。注册支持邮箱（需邮箱验证）、GitHub 与 Linux DO 登录，无 Turnstile 人机验证；注册送 2，进群联系群主领 3，一共 5（均为用户提供）；无签到（用户提供）。群号 149635520、群主 QQ 1439346723，站方公告称进群或联系 QQ 发 ID 领测试额度。模型广场公开 25 个模型，分组倍率 GPT-不降智-特价 0.03、deepseek 0.12、Claude-Kiro-正价 0.35、Gemini UItra 0.45、Claude-企业 0.5、生图-1k 0.5、CCMax 两组 0.9、GPT-不降智 0.2、GPT-官方 / GPT企业-稳定-不降智 0.3、生图 1，含 gpt-6.1-sol / terra / 6-astra / 6-sol、claude-opus-5-5 / fable-5、gemini-3.8-flash / 4-argon、deepseek-v4.1-flash / v4-pro 与 gpt-image-2 系列生图。站方公告：GPT-不降智-特价 0.03x 持续供给；ccmax 0.9x 目前还算稳定、可上量；上线 Claude Cursor 渠道，满血高智商、不限制 0.2x。",
+      registration: "邮箱（需邮箱验证）/ GitHub / Linux DO 登录注册（走邀请链接）；进群 149635520 联系群主领 3。",
+      signupBonus: "注册送 2，进群联系群主领 3，一共 5（用户提供）",
+      dailyCheckin: "无（用户提供）",
+      models: "25 个模型，分组倍率 GPT-不降智-特价 0.03、deepseek 0.12、Claude-Kiro-正价 0.35、Gemini UItra 0.45、Claude-企业 0.5、CCMax 0.9、GPT-不降智 0.2、GPT-官方 / GPT企业-稳定-不降智 0.3、生图 1；含 gpt-6.1-sol / terra、claude-opus-5-5、gemini-3.8-flash / 4-argon、deepseek-v4.1-flash 与生图",
+      experience: "注册一共送 5；0.03 倍率不降智 GPT（均为用户提供）",
+      caveat: "注册赠送与进群领 3 为用户提供，以站内和群内实际发放为准；群号 149635520 与群主 QQ 1439346723 来自站方公告。0.03 倍率为站内分组价，站方公告称持续供给，可能随时调整。无签到（用户提供）。",
+      benefits: ["公益站", "注册一共送 5", "0.03 倍率不降智 GPT", "25 个模型", "GitHub / Linux DO 登录"],
+      url: "https://axoai.cc/sign-up?aff=QDqX",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-12 00:00",
       addedAt: "2026-11-12",

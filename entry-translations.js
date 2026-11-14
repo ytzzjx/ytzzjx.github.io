@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "Axo AI": {
+    name: "Axo AI",
+    kind: "Public service / 5 on registration / undumbed GPT at 0.03x",
+    updateNote: "New listing: a public service granting 2 on registration and another 3 for contacting the group owner in the group — 5 in total — with undumbed GPT at 0.03x and no check-in (all per user report).",
+    summary: "A public service granting 2 on registration and another 3 for contacting the group owner in the group — 5 in total (all per user report). It has undumbed GPT at 0.03x (per user report; the operator's notice says the GPT-undumbed promo group at 0.03x has continuous supply). No check-in. The public price list covers 25 models, and credit is displayed in CNY.",
+    details:
+      "The service calls itself Axo AI (axoai.cc), runs on New API, and displays credit in CNY. Registration supports email (with email verification), GitHub, and Linux DO login, with no Turnstile captcha; registration grants 2, and contacting the group owner in the group grants another 3 — 5 in total (both per user report). There is no check-in (per user report). The group is 149635520 and the group owner's QQ is 1439346723; the operator's notice says to join the group or contact that QQ and send your ID to claim test credit. The model plaza lists 25 models with group rates: GPT-undumbed promo 0.03, deepseek 0.12, Claude-Kiro 0.35, Gemini Ultra 0.45, Claude enterprise 0.5, image-1k 0.5, the two CCMax groups 0.9, GPT-undumbed 0.2, GPT official / GPT enterprise-stable-undumbed 0.3, and image 1. Coverage includes gpt-6.1-sol / terra / 6-astra / 6-sol, claude-opus-5-5 / fable-5, gemini-3.8-flash / 4-argon, deepseek-v4.1-flash / v4-pro, and the gpt-image-2 image series. Operator notices: the GPT-undumbed promo group at 0.03x has continuous supply; ccmax at 0.9x is fairly stable and can take volume; a Claude Cursor channel is live at full strength with no limits at 0.2x.",
+    registration: "Register with email (email verification), GitHub, or Linux DO through the referral link; join group 149635520 and contact the group owner for another 3.",
+    signupBonus: "2 on registration plus 3 for contacting the group owner — 5 in total (per user report)",
+    dailyCheckin: "None (per user report)",
+    models: "25 models with group rates: GPT-undumbed promo 0.03, deepseek 0.12, Claude-Kiro 0.35, Gemini Ultra 0.45, Claude enterprise 0.5, CCMax 0.9, GPT-undumbed 0.2, GPT official / GPT enterprise-stable-undumbed 0.3, image 1; covers gpt-6.1-sol / terra, claude-opus-5-5, gemini-3.8-flash / 4-argon, deepseek-v4.1-flash, and image models",
+    experience: "5 in total on registration; undumbed GPT at 0.03x (both per user report)",
+    caveat: "The sign-up credit and the 3 for contacting the group owner are per user report — confirm them on the service and in the group; group 149635520 and the group owner's QQ 1439346723 come from the operator's notice. The 0.03x rate is an in-site group price that the notice says has continuous supply, and it can change. There is no check-in (per user report).",
+    benefits: ["Public service", "5 in total on registration", "Undumbed GPT at 0.03x", "25 models", "GitHub / Linux DO login"],
+  },
   "星驰API公益站": {
     name: "Xingchi API",
     kind: "Public service / 1000 yuan redemption code for joining the group / unlimited referrals",
