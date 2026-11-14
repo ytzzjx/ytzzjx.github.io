@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "Huan api": {
+    name: "Huan api",
+    kind: "Public service / 40 on registration / 0.7 per check-in / 202 models",
+    updateNote: "New listing: a public service granting 40 on registration with 0.7 per check-in; channels show red because the scheduled probe is not enabled (all per user report).",
+    summary: "A public service granting 40 on registration with 0.7 per check-in (both per user report). The public price list covers 202 models, with the default group lowest at 0.02x; credit uses the custom currency 🍀.",
+    details:
+      "The service calls itself Huan api and titles its page Novalyte LLM API relay gateway (api.novalyte.cn); it runs on New API, carries ICP filing 皖ICP备2026030679号, and displays credit in the custom currency 🍀. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or captcha; registration grants 40 and the check-in 0.7 (both per user report). The model plaza lists 202 models with group rates: default 0.02, high-speed daily 0.2, Gemini 0.25, the junk group 0.5, channel 2 0.56, high-speed 0.8, ultra-high-speed 0.88, and SiliconFlow / vip 1. Coverage includes gpt-6.1-sol / terra / 6-sol, claude-opus-5-5, gemini-3.8-flash / 4-carbon, deepseek-v4.1-flash-1017, glm-5.3, kimi, qwen3.8-max, and a large number of open-weight Qwen / GLM models. Channels showing red means the scheduled probe is not enabled (per user report) and does not mean the channels are down.",
+    registration: "Register with an email address and email verification through the referral link.",
+    signupBonus: "40 (per user report)",
+    dailyCheckin: "0.7 (per user report)",
+    models: "202 models with group rates: default 0.02, high-speed daily 0.2, Gemini 0.25, junk group 0.5, channel 2 0.56, high-speed 0.8, ultra-high-speed 0.88, and SiliconFlow / vip 1; covers gpt-6.1-sol / terra, claude-opus-5-5, gemini-3.8-flash, deepseek-v4.1-flash-1017, glm-5.3, and many open-weight models",
+    experience: "40 on registration and 0.7 per check-in; 202 models, with the default group at 0.02x (both per user report)",
+    caveat: "The sign-up credit and check-in amount are per user report — confirm them on the service. Channels showing red is because the scheduled probe is not enabled (per user report) and does not mean the channels are unavailable. Rates follow the public price list and can change.",
+    benefits: ["Public service", "Email registration", "40 on registration", "0.7 per check-in", "202 models", "default group at 0.02x"],
+  },
   "Axo AI": {
     name: "Axo AI",
     kind: "Public service / 5 on registration / undumbed GPT at 0.03x",

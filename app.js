@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Huan api",
     "Axo AI",
     "星驰API公益站",
     "FreeGG",
@@ -357,6 +358,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-14 00:00",
+      addedAt: "2026-11-14",
+      updatedAt: "2026-11-14",
+      updateNote: "新收录：公益站，注册送 40，签到 0.7；站内渠道显示为红是没开定时探针（均为用户提供）。",
+      kind: "公益站 / 注册送 40 / 签到 0.7 / 202 个模型",
+      name: "Huan api",
+      summary:
+        "公益站，注册送 40，签到 0.7（均为用户提供）。公开价目 202 个模型，default 组 0.02 倍最低，额度按自定义货币 🍀 显示。",
+      details:
+        "站内名称 Huan api，页面标题 Novalyte 大模型 API 中转网关（api.novalyte.cn），New API 程序，有皖ICP备2026030679号备案，额度按自定义货币 🍀 显示。邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无人机验证；注册送 40，签到 0.7（均为用户提供）。模型广场公开 202 个模型，分组倍率 default 0.02、高速日卡 0.2、Gemini 0.25、废物分组 0.5、渠道2 0.56、高速分组 0.8、超高速分组 0.88、硅基流动 / vip 1，含 gpt-6.1-sol / terra / 6-sol、claude-opus-5-5、gemini-3.8-flash / 4-carbon、deepseek-v4.1-flash-1017、glm-5.3、kimi、qwen3.8-max 与大量 Qwen / GLM 开源权重模型。站内渠道显示为红是没开定时探针（用户提供），不代表渠道不可用。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "40（用户提供）",
+      dailyCheckin: "0.7（用户提供）",
+      models: "202 个模型，分组倍率 default 0.02、高速日卡 0.2、Gemini 0.25、废物分组 0.5、渠道2 0.56、高速分组 0.8、超高速分组 0.88、硅基流动 / vip 1；含 gpt-6.1-sol / terra、claude-opus-5-5、gemini-3.8-flash、deepseek-v4.1-flash-1017、glm-5.3 与大量开源权重模型",
+      experience: "注册送 40、签到 0.7；202 个模型，default 组 0.02 倍（均为用户提供）",
+      caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准。站内渠道显示为红是因为没开定时探针（用户提供），不代表渠道不可用。倍率为站内公开价目，可能随时调整。",
+      benefits: ["公益站", "邮箱注册", "注册送 40", "签到 0.7", "202 个模型", "default 0.02 倍"],
+      url: "https://api.novalyte.cn/sign-up?aff=aLgj",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-14 00:00",
       addedAt: "2026-11-14",
