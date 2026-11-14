@@ -14,8 +14,8 @@ window.entryTranslationsData = {
     dailyCheckin: "None (per user report)",
     models: "25 models with group rates: GPT-undumbed promo 0.03, deepseek 0.12, Claude-Kiro 0.35, Gemini Ultra 0.45, Claude enterprise 0.5, CCMax 0.9, GPT-undumbed 0.2, GPT official / GPT enterprise-stable-undumbed 0.3, image 1; covers gpt-6.1-sol / terra, claude-opus-5-5, gemini-3.8-flash / 4-argon, deepseek-v4.1-flash, and image models",
     experience: "5 in total on registration; undumbed GPT at 0.03x (both per user report)",
-    caveat: "The sign-up credit and the 3 for contacting the group owner are per user report — confirm them on the service and in the group; group 149635520 and the group owner's QQ 1439346723 come from the operator's notice. The 0.03x rate is an in-site group price that the notice says has continuous supply, and it can change. There is no check-in (per user report).",
-    benefits: ["Public service", "5 in total on registration", "Undumbed GPT at 0.03x", "25 models", "GitHub / Linux DO login"],
+    caveat: "Treated as an egg: only the free credit from registration and the group has been claimed, the paid experience is unverified, so top up with caution. The sign-up credit and the 3 for contacting the group owner are per user report — confirm them on the service and in the group; group 149635520 and the group owner's QQ 1439346723 come from the operator's notice. The 0.03x rate is an in-site group price that the notice says has continuous supply, and it can change. There is no check-in (per user report).",
+    benefits: ["Public service", "Egg credit", "5 in total on registration", "Undumbed GPT at 0.03x", "25 models", "GitHub / Linux DO login"],
   },
   "星驰API公益站": {
     name: "Xingchi API",
