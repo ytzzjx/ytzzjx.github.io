@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "Moto API": {
+    name: "Moto API",
+    kind: "Public service / egg / 1 USD for sending your ID in the group / GPT at 0.01x",
+    updateNote: "New listing: a public service (egg group) granting 1 USD for sending your ID in the group and 1 USD per referral; GPT is currently at 0.01x and DeepSeek is free (all per user report).",
+    summary: "A public service treated as an egg. Join group 1135947685 and send your ID for 1 USD, and each referral pays 1 USD (both per user report). GPT is currently at 0.01x and DeepSeek is free (per user report). Credit is displayed in USD.",
+    details:
+      "The service calls itself Moto API (motoapi.com), runs on New API, and displays credit in USD. Registration uses email with email verification and a Turnstile captcha, with no GitHub / Linux DO / Telegram login. Join QQ group 1135947685 and send your ID for 1 USD, and each referral pays 1 USD (both per user report); GPT is currently at 0.01x and DeepSeek is free (per user report). The operator notice says it unifies access to OpenAI, Claude, Gemini, and other model platforms and gives group 1135947685; the model plaza and pricing endpoint require login and are not public.",
+    registration: "Register with an email address and email verification; registration has a Turnstile check (through the referral link); join group 1135947685 and send your ID for 1 USD.",
+    signupBonus: "1 USD for sending your ID in the group, and 1 USD per referral (per user report)",
+    dailyCheckin: "Unconfirmed",
+    models: "GPT is currently at 0.01x and DeepSeek is free (both per user report); the model plaza is not public",
+    experience: "1 USD for sending your ID in the group and 1 USD per referral; GPT at 0.01x and DeepSeek free (all per user report)",
+    caveat: "Treated as an egg: only the free credit from the group and referrals has been claimed, the paid experience is unverified, so top up with caution. The credit amounts, the referral reward, and the GPT / DeepSeek prices are all per user report — confirm them on the service and in the group; the 0.01x GPT rate is a current snapshot and can change.",
+    benefits: ["Public service", "Egg credit", "1 USD for joining the group", "1 USD per referral", "GPT at 0.01x", "DeepSeek free"],
+  },
   "Huan api": {
     name: "Huan api",
     kind: "Public service / 40 on registration / 0.7 per check-in / 202 models",

@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Moto API",
     "Huan api",
     "Axo AI",
     "星驰API公益站",
@@ -358,6 +359,28 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-16 00:00",
+      addedAt: "2026-11-16",
+      updatedAt: "2026-11-16",
+      updateNote: "新收录：公益站（鸡蛋分组），进群发 ID 送 1 刀、拉 1 人送 1 刀；GPT 目前 0.01 倍、DeepSeek 免费（均为用户提供）。",
+      kind: "公益站 / 鸡蛋 / 进群送 1 刀 / GPT 0.01 倍",
+      name: "Moto API",
+      egg: true,
+      summary:
+        "公益站，按鸡蛋对待。进群 1135947685 发 ID 送 1 刀，拉 1 人送 1 刀（均为用户提供）。GPT 目前倍率 0.01x，DeepSeek 免费（用户提供）。额度按美元显示。",
+      details:
+        "站内名称 Moto API（motoapi.com），New API 程序，额度按美元显示。邮箱注册，需邮箱验证，有 Turnstile 人机验证，无 GitHub / Linux DO / Telegram 登录。进 QQ 群 1135947685 发 ID 送 1 刀，拉 1 人送 1 刀（均为用户提供）；GPT 目前倍率 0.01x，DeepSeek 免费（用户提供）。站方公告：统一接入 OpenAI、Claude、Gemini 等多家模型平台，群号 1135947685；模型广场与价格接口需登录，未公开。",
+      registration: "邮箱注册，需邮箱验证，有 Turnstile 验证（走邀请链接）；进群 1135947685 发 ID 领 1 刀。",
+      signupBonus: "进群发 ID 送 1 刀，拉 1 人送 1 刀（用户提供）",
+      dailyCheckin: "待确认",
+      models: "GPT 目前倍率 0.01x，DeepSeek 免费（均为用户提供）；模型广场未公开",
+      experience: "进群发 ID 送 1 刀、拉 1 人送 1 刀；GPT 0.01 倍、DeepSeek 免费（均为用户提供）",
+      caveat: "按鸡蛋对待：只薅进群和拉新送的免费额度，付费体验没验证过，充值请谨慎。赠送金额、拉新奖励与 GPT / DeepSeek 价格均为用户提供，以站内和群内实际发放为准；GPT 0.01 倍为「目前」口径，可能随时调整。",
+      benefits: ["公益站", "鸡蛋福利", "进群送 1 刀", "拉 1 人送 1 刀", "GPT 0.01 倍", "DeepSeek 免费"],
+      url: "https://motoapi.com/sign-up?aff=JHXX",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-14 00:00",
       addedAt: "2026-11-14",
