@@ -1,10 +1,11 @@
-// 生成 sitemap.xml 和 失效站点/README.md，并按文件内容哈希刷新各 HTML 里的 ?v= 缓存参数。
+// 生成中英文静态目录、专题、sitemap 和归档，并刷新 HTML 的资源缓存参数。
 // 提交前跑一次即可：
 //   node scripts/build-site-meta.mjs
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { buildSearchPages, SEARCH_ROUTES } from "./search-pages.mjs";
 
 const ORIGIN = "https://ytzzjx.github.io";
 const ROOT = path.resolve(import.meta.dirname, "..");
@@ -12,12 +13,13 @@ const ROOT = path.resolve(import.meta.dirname, "..");
 // 需要打版本号的静态资源，以及引用它们的页面。
 // entry-translations.js 由 app.js 按需加载，版本号写在 index.html 的 data-translations-src 上。
 const VERSIONED_ASSETS = ["styles.css", "app.js", "icons.js", "entry-translations.js"];
-const PAGES = ["index.html", "guide/index.html", "faq/index.html", "faq/agentrouter/index.html"];
+const PAGES = ["index.html", ...SEARCH_ROUTES.map((route) => route.file), "guide/index.html", "faq/index.html", "faq/agentrouter/index.html"];
 
 // sitemap 收录的页面；changefreq 按实际更新节奏给。
-// file 用来判断这一页是否已经提交进 git——没提交就不会部署，写进 sitemap 只会得到 404。
+// 草稿页用 file 判断是否被 git 跟踪；generated 页面由本脚本保证生成。
 const ROUTES = [
   { path: "/", file: "index.html", changefreq: "daily", priority: "1.0", localized: true },
+  ...SEARCH_ROUTES,
   { path: "/guide/", file: "guide/index.html", changefreq: "monthly", priority: "0.6", localized: false },
   { path: "/faq/", file: "faq/index.html", changefreq: "weekly", priority: "0.6", localized: false },
   {
@@ -39,13 +41,6 @@ const listTrackedFiles = () => {
   }
 };
 
-const readLastUpdated = async () => {
-  const source = await readFile(path.join(ROOT, "app.js"), "utf8");
-  const match = source.match(/lastUpdated:\s*"(\d{4}-\d{2}-\d{2})"/);
-  if (!match) throw new Error("app.js 里找不到 siteConfig.lastUpdated");
-  return match[1];
-};
-
 const hashAsset = async (name) => {
   const content = await readFile(path.join(ROOT, name));
   return createHash("sha256").update(content).digest("hex").slice(0, 8);
@@ -53,28 +48,7 @@ const hashAsset = async (name) => {
 
 const ARCHIVE_DIR = path.join(ROOT, "失效站点");
 
-// 归档目录里的说明文件完全由 archivedEntries 生成，避免和 app.js 里的记录各说一套。
-const loadArchivedEntries = async () => {
-  const source = await readFile(path.join(ROOT, "app.js"), "utf8");
-  const factory = new Function("window", "document", `${source}\nreturn siteConfig;`);
-  const config = factory(
-    {
-      localStorage: { getItem: () => null, setItem() {} },
-      location: { search: "", href: "https://ytzzjx.github.io/" },
-      history: { replaceState() {} },
-    },
-    {
-      addEventListener() {},
-      querySelector: () => null,
-      querySelectorAll: () => [],
-      documentElement: {},
-      head: { append() {} },
-      createElement: () => ({}),
-    },
-  );
-  return config.archivedEntries ?? [];
-};
-
+// 归档说明完全由 archivedEntries 生成，避免和 app.js 里的记录各说一套。
 const buildArchiveDoc = (entries) => {
   if (!entries.length) {
     return `# 失效站点
@@ -137,12 +111,15 @@ ${sections}`;
 const buildSitemap = (lastmod, routes) => {
   const entries = routes.map(({ path: route, changefreq, priority, localized }) => {
     const url = `${ORIGIN}${route}`;
-    // 中英文共用同一 URL，只有首页需要 hreflang 声明两个变体。
+    // 中英文各有独立静态地址；配对首页和专题页。
+    const zhRoute = route.startsWith("/en/") ? route.replace(/^\/en\//, "/") : route;
+    const zhUrl = `${ORIGIN}${zhRoute}`;
+    const enUrl = `${ORIGIN}/en${zhRoute}`;
     const alternates = localized
       ? [
-          `    <xhtml:link rel="alternate" hreflang="zh-Hans" href="${url}" />`,
-          `    <xhtml:link rel="alternate" hreflang="en" href="${url}?lang=en" />`,
-          `    <xhtml:link rel="alternate" hreflang="x-default" href="${url}" />`,
+          `    <xhtml:link rel="alternate" hreflang="zh-Hans" href="${zhUrl}" />`,
+          `    <xhtml:link rel="alternate" hreflang="en" href="${enUrl}" />`,
+          `    <xhtml:link rel="alternate" hreflang="x-default" href="${zhUrl}" />`,
         ].join("\n")
       : "";
     return [
@@ -190,18 +167,20 @@ const stampPages = async (versions) => {
   return stamped;
 };
 
-const lastUpdated = await readLastUpdated();
+const config = await buildSearchPages();
+const lastUpdated = config.siteConfig.lastUpdated;
 const versions = Object.fromEntries(
   await Promise.all(VERSIONED_ASSETS.map(async (name) => [name, await hashAsset(name)])),
 );
 
 const tracked = listTrackedFiles();
-const publishedRoutes = tracked ? ROUTES.filter((route) => tracked.has(route.file)) : ROUTES;
+// 专题和英文首页每次构建必定生成；草稿仍须被 git 跟踪才会写进 sitemap。
+const publishedRoutes = tracked ? ROUTES.filter((route) => route.generated || tracked.has(route.file)) : ROUTES;
 const skippedRoutes = ROUTES.filter((route) => !publishedRoutes.includes(route));
 
 await writeFile(path.join(ROOT, "sitemap.xml"), buildSitemap(lastUpdated, publishedRoutes), "utf8");
 
-const archivedEntries = await loadArchivedEntries();
+const archivedEntries = config.siteConfig.archivedEntries ?? [];
 await mkdir(ARCHIVE_DIR, { recursive: true });
 await writeFile(path.join(ARCHIVE_DIR, "README.md"), buildArchiveDoc(archivedEntries), "utf8");
 

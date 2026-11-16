@@ -1,14 +1,18 @@
-# 公益中转分享
+# 公益 AI API 导航 · 公益中转分享
 
 > 阅读英文版：[English](./README_EN.md)
 
-好用的站点、注册方式和最新福利，一页看完，点击直达。
+整理 Claude、GPT、Gemini 等 AI API 中转站的免费额度、注册条件、每日签到与风险提示，区分公益、半公益和付费服务。
+
+**[打开导航](https://ytzzjx.github.io/)** · [Claude 公益 API](https://ytzzjx.github.io/topics/claude/) · [每日签到与免费额度](https://ytzzjx.github.io/topics/daily-checkin/) · [邮箱注册与账号绑定条件](https://ytzzjx.github.io/topics/registration/)
 
 **使用提醒：不建议拿中转站的模型做逆向、蒸馏、涩情等操作，除非站点明确公告不禁止。** 这类用法会把站方买来的上游账号搞封，最后是整站的人一起没得用。
 
 ## 语言
 
 页面内置中文 / English 切换，右上角有"中文 / EN"按钮，点击即可在两种语言之间切换，无需刷新。切换结果会记录在浏览器本地，下次打开仍保持上次选择。
+
+中英文首页和专题页均包含静态站点列表，未启用 JavaScript 时也能打开链接、展开详情。[英文首页](https://ytzzjx.github.io/en/) 有独立地址；旧的 `?lang=en` 链接仍可使用。
 
 ## 现在开放注册的站点
 
@@ -137,12 +141,12 @@
 
 ## 本地维护脚本
 
-站点是纯静态页面，不需要构建就能部署。`scripts/` 下是四个可选的辅助脚本，只依赖 Node（图标脚本需要联网，封面脚本需要 Python + Pillow）：
+站点部署时只需托管生成后的静态文件。修改数据后，先用 Node 生成页面和元信息，再运行检查；GitHub Pages 无需运行 Node。图标脚本需要联网，封面脚本需要 Python + Pillow。
 
 | 命令 | 用途 | 什么时候跑 |
 | --- | --- | --- |
-| `node scripts/check-consistency.mjs` | 校验 `entries` / `displayOrder` / `entry-translations.js` / 两份 README / `icons.js` 图标是否齐平 | 每次增删站点后、提交前 |
-| `node scripts/build-site-meta.mjs` | 重新生成 `sitemap.xml` 和 `失效站点/README.md`，并按文件哈希刷新 HTML 里的 `?v=` 缓存参数 | 改过 `app.js` / `styles.css` / `icons.js` / `entry-translations.js` 后，或归档了站点后 |
+| `node scripts/check-consistency.mjs` | 校验数据、排序、翻译、README 和图标，并检查八个搜索页面的静态内容、链接参数、语言配对与资源版本 | 生成完成后、提交前 |
+| `node scripts/build-site-meta.mjs` | 生成中英文首页、专题、`sitemap.xml` 和归档，并刷新 HTML 资源版本 | 改过数据、页面生成规则或静态资源后 |
 | `node scripts/build-icons.mjs` | 从 lucide-static 重新打包 `icons.js` | 新增或删除 `data-lucide` 图标后 |
 | `python scripts/build_og_image.py` | 重新生成分享封面 `og-cover.png` | 标题、配色或站点数量变化后 |
 

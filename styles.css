@@ -732,6 +732,77 @@ h2 {
   column-gap: 12px;
 }
 
+/* 搜索专题与脚本接管前的静态目录，共用现有卡片和配色。 */
+.topic-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 18px;
+  margin: 0 0 24px;
+  font-size: 14px;
+}
+
+.topic-links > span {
+  color: var(--muted);
+}
+
+.topic-links a,
+.static-entry-link {
+  color: var(--cyan-deep);
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
+
+.topic-links a:focus-visible,
+.static-entry-link:focus-visible,
+.static-entry-details > summary:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 4px;
+}
+
+.static-entry-details {
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.static-entry-details > summary {
+  cursor: pointer;
+  color: var(--cyan-deep);
+}
+
+.static-entry-details[open] > summary {
+  margin-bottom: 12px;
+}
+
+.static-paid {
+  margin: 24px 0;
+}
+
+.static-paid > summary {
+  cursor: pointer;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+html:not(.directory-ready) .feed-toolbar,
+html:not(.directory-ready) .pricing-switcher,
+html:not(.directory-ready) .language-switcher,
+html:not(.directory-ready) .theme-toggle-btn {
+  display: none;
+}
+
+.directory-ready .static-language-link {
+  display: none;
+}
+
+.topic-guide {
+  margin-bottom: 24px;
+}
+
+.topic-guide p + p {
+  margin-top: 12px;
+}
+
 .feed-item {
   min-width: 0;
   display: flex;

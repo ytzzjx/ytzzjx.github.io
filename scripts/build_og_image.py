@@ -54,14 +54,14 @@ def main() -> None:
     draw.rectangle([56, 56, 66, HEIGHT - 56], fill=CYAN)
 
     draw.text((116, 132), "PUBLIC BENEFIT DIRECTORY", font=font(BOLD, 26), fill=CYAN)
-    draw.text((116, 196), "公益中转分享", font=font(BOLD, 92), fill=INK)
+    draw.text((116, 196), "公益 AI API 导航", font=font(BOLD, 76), fill=INK)
     draw.text(
         (116, 330),
-        "好用的站点、注册方式和最新福利",
+        "免费额度、每日签到与注册条件",
         font=font(REGULAR, 40),
         fill=INK,
     )
-    draw.text((116, 392), "一页看完，点击直达。", font=font(REGULAR, 40), fill=MUTED)
+    draw.text((116, 392), "Claude · GPT · Gemini 中转站合集", font=font(REGULAR, 36), fill=MUTED)
 
     # 底部信息条：收录数量 + 域名。
     draw.line([116, 476, WIDTH - 116, 476], fill=LINE, width=2)

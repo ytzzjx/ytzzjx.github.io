@@ -2,10 +2,10 @@
 const siteConfig = {
   brand: "公益中转分享",
   eyebrow: "PUBLIC BENEFIT DIRECTORY",
-  title: "公益中转分享",
-  intro: "好用的站点、注册方式和最新福利，一页看完，点击直达。我会尽量更新最新情况，欢迎多多关注。",
+  title: "公益 AI API 导航",
+  intro: "整理 Claude、GPT、Gemini 等 AI API 中转站的免费额度、注册条件、每日签到与风险提示，区分公益、半公益和付费服务，方便按需查找。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-11-14",
+  lastUpdated: "2026-11-16",
   // 时效性公告：只放会过期、需要及时看到的事，渲染在首页顶部「公告提醒」。
   // 过了 expiresOn（本地日期）就不再展示，不用等下次改代码。
   announcements: [
@@ -2334,8 +2334,12 @@ const pageCopy = {
     disclaimer: siteConfig.disclaimer,
     usageNotice:
       "使用提醒：不建议拿中转站的模型做逆向、蒸馏、涩情等操作，除非站点明确公告不禁止。这类用法会把站方买来的上游账号搞封，最后是整站的人一起没得用。",
-    documentTitle: "公益中转分享 | 站点与福利导航",
-    metaDescription: "公益中转分享，集中整理注册方式、活动福利、模型信息与风险提示。",
+    documentTitle: "公益 AI API 导航｜免费额度、签到福利与中转站合集",
+    metaDescription: "公益 AI API 导航，整理 Claude、GPT、Gemini 等中转站的免费额度、每日签到、注册条件、模型信息与风险提示，区分公益、半公益和付费服务。",
+    topicsLabel: "按需求浏览",
+    topicClaude: "Claude 公益 API",
+    topicCheckin: "每日签到与免费额度",
+    topicRegistration: "邮箱注册与账号绑定条件",
     lastUpdated: "更新于",
     signupBonus: "注册赠送",
     dailyCheckin: "每日签到",
@@ -2411,7 +2415,7 @@ const pageCopy = {
     eyebrow: "PUBLIC BENEFIT DIRECTORY",
     title: "Public AI API Directory",
     intro:
-      "Tested AI API services, registration requirements, current bonuses, and risk notes in one place. I update service status whenever possible.",
+      "Find Claude, GPT, and Gemini API relay services, free credit, registration requirements, daily check-ins, and risk notes. Free, freemium, and paid services are listed separately.",
     nav: "Curated services · Direct links",
     updateStatus: "Actively maintained",
     directoryLabel: "Service directory",
@@ -2423,9 +2427,13 @@ const pageCopy = {
       "Bonuses, check-in rewards, and model availability are for reference only. Rules may change at any time; verify details on each service before use.",
     usageNotice:
       "Usage note: do not use a relay service's models for reverse engineering, distillation, or pornographic content unless the service explicitly says it allows them. That kind of use gets the upstream accounts the operator paid for banned, and everyone on the service loses access.",
-    documentTitle: "Public AI API Directory | Services and bonuses",
+    documentTitle: "Free AI API Directory | Credits, Daily Check-ins and Relay Services",
     metaDescription:
-      "A maintained directory of AI API services with registration requirements, bonuses, model availability, and risk notes.",
+      "Browse Claude, GPT, and Gemini API relay services with free credit, daily check-ins, registration requirements, model information, and risk notes. Includes free, freemium, and paid services.",
+    topicsLabel: "Browse by need",
+    topicClaude: "Claude API services with free credit",
+    topicCheckin: "Daily check-ins and free credit",
+    topicRegistration: "Email registration and account requirements",
     lastUpdated: "Updated",
     signupBonus: "Sign-up bonus",
     dailyCheckin: "Daily check-in",
@@ -2763,16 +2771,14 @@ const resolveLocale = () => {
   const requestedLocale = new URLSearchParams(window.location.search).get("lang");
   if (requestedLocale === "en") return "en";
   if (requestedLocale === "zh" || requestedLocale === defaultLocale) return defaultLocale;
+  if (window.location.pathname === "/en/" || window.location.pathname === "/en/index.html") return "en";
   return getStoredLocale() || defaultLocale;
 };
 
 const updateLocaleInUrl = (locale) => {
   const url = new URL(window.location.href);
-  if (locale === defaultLocale) {
-    url.searchParams.delete("lang");
-  } else {
-    url.searchParams.set("lang", locale);
-  }
+  url.pathname = locale === defaultLocale ? "/" : "/en/";
+  url.searchParams.delete("lang");
   window.history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);
 };
 
@@ -3104,10 +3110,9 @@ const renderArchivedEntries = (copy) => {
   applyText("[data-archive-note]", copy.archiveNote);
 };
 
-// 中英文共用同一个 URL（靠 ?lang 区分），所以 canonical 和 Open Graph 要跟着语言走，
-// 否则分享出去的卡片语言和实际页面对不上。
+// 英文有可直接抓取的 /en/ 页面；旧 ?lang=en 链接仍可切换，canonical 指向新地址。
 const applyMetaForLocale = (copy) => {
-  const canonicalUrl = currentLocale === defaultLocale ? `${SITE_ORIGIN}/` : `${SITE_ORIGIN}/?lang=en`;
+  const canonicalUrl = currentLocale === defaultLocale ? `${SITE_ORIGIN}/` : `${SITE_ORIGIN}/en/`;
   const setMeta = (selector, attribute, value) =>
     document.querySelector(selector)?.setAttribute(attribute, value);
 
@@ -3262,6 +3267,13 @@ const renderPage = () => {
   applyText("[data-eyebrow]", copy.eyebrow);
   applyText("[data-title]", copy.title);
   applyText("[data-intro]", copy.intro);
+  applyText("[data-topics-label]", copy.topicsLabel);
+  applyText("[data-topic-claude]", copy.topicClaude);
+  applyText("[data-topic-checkin]", copy.topicCheckin);
+  applyText("[data-topic-registration]", copy.topicRegistration);
+  document.querySelectorAll("[data-topic-path]").forEach((link) => {
+    link.setAttribute("href", `${currentLocale === "en" ? "/en" : ""}/topics/${link.dataset.topicPath}/`);
+  });
   applyText("[data-nav-copy]", copy.nav);
   applyText("[data-update-status]", copy.updateStatus);
   applyText("[data-site-count-label]", copy.siteCountLabel);
@@ -3327,6 +3339,10 @@ const renderPage = () => {
   } else {
     if (feedItemsEl) feedItemsEl.innerHTML = visibleEntries.map(renderEntry).join("");
   }
+
+  // 脚本接管后用分区按钮浏览付费站；未运行脚本时保留原生可展开的付费列表。
+  document.querySelector("[data-static-paid]")?.remove();
+  document.documentElement.classList.add("directory-ready");
 
   // 国际化与文案更新
   applyText("[data-filter-label]", copy.filterLabel);

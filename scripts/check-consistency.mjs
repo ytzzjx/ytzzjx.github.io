@@ -3,6 +3,7 @@
 import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
+import { checkSearchPages } from "./check-search-pages.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const problems = [];
@@ -381,4 +382,5 @@ if (problems.length) {
   console.error(`\n共 ${problems.length} 处需要修复。`);
   process.exit(1);
 }
+await checkSearchPages();
 console.log("没有发现不一致。");

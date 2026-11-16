@@ -2,13 +2,17 @@
 
 > 阅读中文版：[中文](./README.md)
 
-A one-page directory of useful API relay sites, registration methods, and the latest promotions. Open a card to jump straight to the site.
+A directory of Claude, GPT, and Gemini API relay services, free credit, registration requirements, daily check-ins, and risk notes. Free, freemium, and paid services are listed separately.
+
+**[Open the English directory](https://ytzzjx.github.io/en/)** · [Claude API services](https://ytzzjx.github.io/en/topics/claude/) · [Daily check-ins and free credit](https://ytzzjx.github.io/en/topics/daily-checkin/) · [Email registration and account requirements](https://ytzzjx.github.io/en/topics/registration/)
 
 **Usage note: do not use a relay service's models for reverse engineering, distillation, or pornographic content unless the service explicitly says it allows them.** That kind of use gets the upstream accounts the operator paid for banned, and everyone on the service loses access.
 
 ## Language
 
 The page has a built-in Chinese / English switcher. Use the "中文 / EN" button at the top right to switch languages without reloading. Your choice is stored in the browser, so it persists on your next visit.
+
+Both language versions and topic pages include static service lists. Links and expandable details work without JavaScript. The English homepage has its own `/en/` URL; legacy `?lang=en` links still work.
 
 ## Sites open for registration
 
