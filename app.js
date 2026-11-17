@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益 AI API 导航",
   intro: "整理 Claude、GPT、Gemini 等 AI API 中转站的免费额度、注册条件、每日签到与风险提示，区分公益、半公益和付费服务，方便按需查找。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-11-16",
+  lastUpdated: "2026-11-17",
   // 时效性公告：只放会过期、需要及时看到的事，渲染在首页顶部「公告提醒」。
   // 过了 expiresOn（本地日期）就不再展示，不用等下次改代码。
   announcements: [
@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "少十元",
     "Moto API",
     "Huan api",
     "Axo AI",
@@ -359,6 +360,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-17 00:00",
+      addedAt: "2026-11-17",
+      updatedAt: "2026-11-17",
+      updateNote: "新收录：公益站，注册送 8888 额度，签到 8000 多额度（均为用户提供）。",
+      kind: "公益站 / 注册送 8888 额度 / 签到 8000 多额度 / 37 个模型",
+      name: "少十元",
+      summary:
+        "公益站，注册送 8888 额度，签到 8000 多额度（均为用户提供）。公开价目 37 个模型，全部按次计费，default 与 vip 两组均 1 倍。",
+      details:
+        "站内名称少十元（shaoshiyuan.xyz），New API 程序，额度按美元显示。邮箱注册，需设置密码，无需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无人机验证；注册送 8888 额度，签到 8000 多额度（均为用户提供）。模型广场公开 37 个模型，全部按次计费，default 与 vip 两组均 1 倍；模型名前的 [N] 即每次调用的额度价，从 [5]ywd/nemotron-3-ultra-550b-a55b 到 [3000]manxue/gemini-4-argon / gemini-4-argon-low，含 gemini-3.8-flash、gemini-4-carbon / 4-hydrogen、gpt-6-astra / 6.1-sol、deepseek-v4-pro / v4-flash、glm-5.3、kimi-k3 / k3.1-pro、hy4、minimax-m3.1-flash、grok-4.7、step-5-preview 与 sensenova / spark 等。",
+      registration: "邮箱注册，需设置密码，无需邮箱验证（走邀请链接）。",
+      signupBonus: "8888 额度（用户提供）",
+      dailyCheckin: "8000 多额度（用户提供）",
+      models: "37 个模型全部按次计费，default 与 vip 两组均 1 倍；按次价 5-3000 额度（模型名 [N] 前缀），含 gemini-3.8-flash、gemini-4-argon / carbon / hydrogen、gpt-6-astra / 6.1-sol、deepseek-v4-pro、glm-5.3、kimi-k3、hy4、grok-4.7 等",
+      experience: "注册送 8888 额度、签到 8000 多额度；37 个模型全按次计费（均为用户提供）",
+      caveat: "注册赠送与签到金额为用户提供，以站内实际显示为准。站方公告：目前还在调整测试，稳定性可能会有点差，实在不行先等等或者先用其他模型。按次价为站内公开价目（模型名 [N] 前缀），可能随时调整；两组倍率均为 1。",
+      benefits: ["公益站", "邮箱注册", "注册送 8888 额度", "签到 8000 多额度", "37 个模型", "按次计费"],
+      url: "https://shaoshiyuan.xyz/sign-up?aff=asgD",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-16 00:00",
       addedAt: "2026-11-16",

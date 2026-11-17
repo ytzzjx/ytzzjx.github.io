@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "少十元": {
+    name: "Shaoshiyuan",
+    kind: "Public service / 8888 credit on registration / 8000+ per check-in / 37 models",
+    updateNote: "New listing: a public service granting 8888 credit on registration and 8000+ per check-in (both per user report).",
+    summary: "A public service granting 8888 credit on registration and 8000+ per check-in (both per user report). The public price list covers 37 models, all billed per request, with both the default and vip groups at 1x.",
+    details:
+      "The service calls itself 少十元 (shaoshiyuan.xyz), runs on New API, and displays credit in USD. Registration uses email with a password and no email verification, and there is no GitHub / Linux DO / Telegram login or captcha; registration grants 8888 credit and the check-in 8000+ (both per user report). The model plaza lists 37 models, all billed per request, with both the default and vip groups at 1x. The [N] prefix in a model name is its per-call credit price, ranging from [5]ywd/nemotron-3-ultra-550b-a55b to [3000]manxue/gemini-4-argon and gemini-4-argon-low. Coverage includes gemini-3.8-flash, gemini-4-carbon / 4-hydrogen, gpt-6-astra / 6.1-sol, deepseek-v4-pro / v4-flash, glm-5.3, kimi-k3 / k3.1-pro, hy4, minimax-m3.1-flash, grok-4.7, step-5-preview, and sensenova / spark models.",
+    registration: "Register with an email address and a password, no email verification (through the referral link).",
+    signupBonus: "8888 credit (per user report)",
+    dailyCheckin: "8000+ credit (per user report)",
+    models: "37 models, all billed per request, with both the default and vip groups at 1x; per-call prices run 5-3000 credit (the [N] prefix in model names), covering gemini-3.8-flash, gemini-4-argon / carbon / hydrogen, gpt-6-astra / 6.1-sol, deepseek-v4-pro, glm-5.3, kimi-k3, hy4, and grok-4.7",
+    experience: "8888 credit on registration and 8000+ per check-in; all 37 models billed per request (both per user report)",
+    caveat: "The sign-up credit and check-in amount are per user report — confirm them on the service. The operator notice says the service is still being adjusted and tested, stability may be poor, and it is better to wait or use other models for now. Per-call prices follow the public price list (the [N] prefix in model names) and can change; both group rates are 1.",
+    benefits: ["Public service", "Email registration", "8888 credit on registration", "8000+ per check-in", "37 models", "Per-request billing"],
+  },
   "Moto API": {
     name: "Moto API",
     kind: "Public service / egg / 1 USD for sending your ID in the group / GPT at 0.01x",
