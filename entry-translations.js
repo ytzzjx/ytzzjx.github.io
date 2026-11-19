@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "MyAPI公益": {
+    name: "MyAPI Public",
+    kind: "Public service / 100 on registration / bind in the group / 10x undumbed",
+    updateNote: "New listing: a public service granting 100 on registration; bind in QQ group 714847682; groups at 10x undumbed and 1x dumbed; a daily check-in in the group (all per user report).",
+    summary: "A public service granting 100 on registration (per user report). Bind in QQ group 714847682; groups run at 10x undumbed and 1x dumbed (both per user report). A daily check-in is available in the group (per user report). Credit is displayed in USD.",
+    details:
+      "The service calls itself MyAPI公益 (free.myaiapi.site:8080), runs an AI API gateway, uses the endpoint http://free.myaiapi.site:8080/v1 (HTTP only), and displays credit in USD. Registration uses email with email verification and no GitHub / Linux DO or other third-party login or captcha; registration grants 100 (per user report). You must bind in QQ group 714847682 (per user report; the in-site subtitle also reads join QQ group 714847682); groups run at 10x undumbed and 1x dumbed (per user report); a daily check-in is available in the group (per user report). The site has Xianyu top-up, catfk redemption-code top-up, and an image workbench; the model plaza is not public, so the model list is unconfirmed.",
+    registration: "Register with an email address and email verification through the referral link; bind in group 714847682.",
+    signupBonus: "100 (per user report)",
+    dailyCheckin: "A daily check-in in the group; the amount is unconfirmed (per user report)",
+    models: "Groups at 10x undumbed and 1x dumbed (both per user report); the model plaza is not public, so the list is unconfirmed",
+    experience: "100 on registration; a 10x undumbed group; a daily check-in in the group (all per user report)",
+    caveat: "The sign-up credit, group rates, and check-in are all per user report — confirm them on the service and in the group. The endpoint is HTTP only (http://free.myaiapi.site:8080/v1), so mind that when calling. The model plaza is not public, so the model list is unconfirmed.",
+    benefits: ["Public service", "Email registration", "100 on registration", "10x undumbed", "Bind in the group", "Daily group check-in"],
+  },
   "少十元": {
     name: "Shaoshiyuan",
     kind: "Public service / 8888 credit on registration / login after binding in the group / 6666-8888 per check-in",

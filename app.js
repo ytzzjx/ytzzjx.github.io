@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益 AI API 导航",
   intro: "整理 Claude、GPT、Gemini 等 AI API 中转站的免费额度、注册条件、每日签到与风险提示，区分公益、半公益和付费服务，方便按需查找。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-11-17",
+  lastUpdated: "2026-11-19",
   // 时效性公告：只放会过期、需要及时看到的事，渲染在首页顶部「公告提醒」。
   // 过了 expiresOn（本地日期）就不再展示，不用等下次改代码。
   announcements: [
@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "MyAPI公益",
     "少十元",
     "Moto API",
     "Huan api",
@@ -360,7 +361,28 @@ const siteConfig = {
     },
   ],
   entries: [
-     {
+    {
+      publishedAt: "2026-11-19 00:00",
+      addedAt: "2026-11-19",
+      updatedAt: "2026-11-19",
+      updateNote: "新收录：公益站，注册送 100，进群 714847682 绑定；分组 10 倍不降智、1 倍降智；群内每天可签到（均为用户提供）。",
+      kind: "公益站 / 注册送 100 / 进群绑定 / 10 倍不降智",
+      name: "MyAPI公益",
+      summary:
+        "公益站，注册送 100（用户提供）。进 QQ 群 714847682 绑定；分组 10 倍不降智、1 倍降智（均为用户提供）。群内可每天签到（用户提供）。额度按美元显示。",
+      details:
+        "站内名称 MyAPI公益（free.myaiapi.site:8080），AI API Gateway 中转，接入地址 http://free.myaiapi.site:8080/v1（仅 HTTP），额度按美元显示。邮箱注册，需邮箱验证，无 GitHub / Linux DO 等第三方登录，无人机验证；注册送 100（用户提供）。需进 QQ 群 714847682 绑定（用户提供，站内副标题同为「加QQ群：714847682」）；分组 10 倍不降智、1 倍降智（用户提供）；群内可每天签到（用户提供）。站内有闲鱼充值、云猫兑换码充值入口与生图工作台；模型广场未公开，模型清单待确认。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）；进群 714847682 绑定。",
+      signupBonus: "100（用户提供）",
+      dailyCheckin: "群内每天可签到，金额待确认（用户提供）",
+      models: "分组 10 倍不降智、1 倍降智（均为用户提供）；模型广场未公开，清单待确认",
+      experience: "注册送 100；10 倍不降智分组；群内每天可签到（均为用户提供）",
+      caveat: "注册赠送、分组倍率与签到均为用户提供，以站内和群内实际为准。接入地址仅 HTTP（http://free.myaiapi.site:8080/v1），调用时注意。模型广场未公开，模型清单待确认。",
+      benefits: ["公益站", "邮箱注册", "注册送 100", "10 倍不降智", "进群绑定", "群内每天签到"],
+      url: "http://free.myaiapi.site:8080/register?aff=KNKXN62DPJ98",
+      tone: "active",
+    },
+    {
       publishedAt: "2026-11-17 00:00",
       addedAt: "2026-11-17",
       updatedAt: "2026-11-17",
