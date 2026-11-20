@@ -2,6 +2,36 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "芋头饭 API": {
+    name: "Yutoufan API",
+    kind: "Public service / egg / 150 on registration / gemini-4-hydrogen-c at 4 yuan per call",
+    updateNote: "New listing: a public service (egg group) granting 150 on registration with no check-in; the self-operated gemini-4-hydrogen-c costs 4 yuan per call (all per user report).",
+    summary: "A public service treated as an egg, granting 150 on registration with no check-in (both per user report). The self-operated gemini-4-hydrogen-c costs 4 yuan per call (per user report). The public price list covers 54 models, with both the default and vip groups at 1x; credit is displayed in USD.",
+    details:
+      "The service calls itself 芋头饭 API (api.yutou.fun), runs on New API, and displays credit in USD. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or captcha; registration grants 150 and there is no check-in (both per user report). The user names the self-operated gemini-4-hydrogen-c at 4 yuan per call. The model plaza lists 54 models, with both the default and vip groups at 1x, covering the official-key / Kiro Claude line and the P / self-operated / APP / E Gemini lines, with per-call and expression billing side by side.",
+    registration: "Register with an email address and email verification through the referral link.",
+    signupBonus: "150 (per user report)",
+    dailyCheckin: "None (per user report)",
+    models: "The self-operated gemini-4-hydrogen-c at 4 yuan per call (per user report); the plaza lists 54 models, with both the default and vip groups at 1x, across several Claude and Gemini prefixed groups",
+    experience: "150 on registration; the self-operated gemini-4-hydrogen-c at 4 yuan per call (both per user report)",
+    caveat: "Treated as an egg: only the free sign-up credit has been claimed, the paid experience is unverified, so top up with caution. The sign-up credit, the lack of a check-in, and the model price are all per user report — confirm them on the service. Rates follow the public price list and can change.",
+    benefits: ["Public service", "Egg credit", "Email registration", "150 on registration", "gemini-4-hydrogen-c at 4 yuan per call", "54 models"],
+  },
+  "kevo": {
+    name: "kevo",
+    kind: "Public service / egg / 5 on registration / GPT from 0.05x",
+    updateNote: "New listing: a public service (egg group) granting 5 on registration with no check-in; GPT starts at 0.05x (both per user report).",
+    summary: "A public service treated as an egg, granting 5 on registration with no check-in (both per user report). GPT starts at 0.05x (per user report; the operator notice says the GPT promo undumbed group is at 0.055x). It serves users outside mainland China only (per the operator notice).",
+    details:
+      "The service calls itself kevo (ai.xiaowumin.top), runs on New API, and displays credit in USD at 1 USD = 500,000 quota with a 1:1 top-up rate (one yuan equals one dollar). Registration uses email with email verification and a Turnstile check, and GitHub login is supported; registration grants 5 (per user report; the operator notice says sign-up grants a $1 trial credit), and joining QQ group 835662486 and binding grants another 5 USD (per the operator notice). There is no check-in (per user report). GPT starts at 0.05x (per user report; the operator notice says the GPT promo undumbed group dropped to 0.055x), and gpt 6.2 is live at official pricing. Long-context requests (input over 272,000 tokens) are surcharged per official rules: 2x input and 1.5x output. Operator notices: top up via redemption codes at catfk.com/shop/BRJHTAPV; an IQ observation page at iq-ai.xiaowumin.top; servers are outside mainland China and the service is not provided to users in mainland China.",
+    registration: "Register with an email address and email verification; registration has a Turnstile check and GitHub login is supported (through the referral link); joining QQ group 835662486 and binding grants another 5 USD.",
+    signupBonus: "5 (per user report; the operator notice says sign-up grants a $1 trial credit and binding in QQ group 835662486 grants another 5 USD)",
+    dailyCheckin: "None (per user report)",
+    models: "GPT from 0.05x (per user report; the operator notice says the promo undumbed group is at 0.055x); gpt 6.2 is live at official pricing; the model plaza requires login and is not public",
+    experience: "5 on registration; GPT from 0.05x (both per user report)",
+    caveat: "Treated as an egg: only the free credit from registration and the group has been claimed, the paid experience is unverified, so top up with caution. The sign-up credit, the lack of a check-in, and the GPT rate are all per user report — confirm them on the service and in the group; the operator notice says $1 on sign-up, 5 USD for binding in the group, and 0.055x for the GPT promo undumbed group. The operator says it serves users outside mainland China only and does not provide service in mainland China.",
+    benefits: ["Public service", "Egg credit", "5 on registration", "GPT from 0.05x", "Another 5 USD for joining the group", "GitHub login"],
+  },
   "MyAPI公益": {
     name: "MyAPI Public",
     kind: "Public service / 100 on registration / bind in the group / 10x undumbed",

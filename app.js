@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益 AI API 导航",
   intro: "整理 Claude、GPT、Gemini 等 AI API 中转站的免费额度、注册条件、每日签到与风险提示，区分公益、半公益和付费服务，方便按需查找。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-11-19",
+  lastUpdated: "2026-11-20",
   // 时效性公告：只放会过期、需要及时看到的事，渲染在首页顶部「公告提醒」。
   // 过了 expiresOn（本地日期）就不再展示，不用等下次改代码。
   announcements: [
@@ -26,6 +26,8 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "芋头饭 API",
+    "kevo",
     "MyAPI公益",
     "少十元",
     "Moto API",
@@ -361,6 +363,50 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-20 00:00",
+      addedAt: "2026-11-20",
+      updatedAt: "2026-11-20",
+      updateNote: "新收录：公益站（鸡蛋分组），注册送 150，无签到；[自营]gemini-4-hydrogen-c 4 元一次（均为用户提供）。",
+      kind: "公益站 / 鸡蛋 / 注册送 150 / gemini-4-hydrogen-c 4 元一次",
+      name: "芋头饭 API",
+      egg: true,
+      summary:
+        "公益站，按鸡蛋对待，注册送 150，无签到（均为用户提供）。[自营]gemini-4-hydrogen-c 4 元一次（用户提供）。公开价目 54 个模型，default 与 vip 两组均 1 倍，额度按美元显示。",
+      details:
+        "站内名称芋头饭 API（api.yutou.fun），New API 程序，额度按美元显示。邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无人机验证；注册送 150，无签到（均为用户提供）。用户点名 [自营]gemini-4-hydrogen-c 4 元一次；模型广场公开 54 个模型，default 与 vip 两组均 1 倍，覆盖 [官Key] / [Kiro] Claude 系、[P] / [自营] / [APP] / [E] Gemini 系等，按次与表达式计费并存。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "150（用户提供）",
+      dailyCheckin: "无（用户提供）",
+      models: "[自营]gemini-4-hydrogen-c 4 元一次（用户提供）；广场共 54 个模型，default 与 vip 两组均 1 倍，含 Claude 与 Gemini 多个前缀分组",
+      experience: "注册送 150；[自营]gemini-4-hydrogen-c 4 元一次（均为用户提供）",
+      caveat: "按鸡蛋对待：只薅注册送的免费额度，付费体验没验证过，充值请谨慎。注册赠送、无签到与模型价格均为用户提供，以站内实际显示为准。倍率为站内公开价目，可能随时调整。",
+      benefits: ["公益站", "鸡蛋福利", "邮箱注册", "注册送 150", "gemini-4-hydrogen-c 4 元一次", "54 个模型"],
+      url: "https://api.yutou.fun/sign-up?aff=Bzvp",
+      tone: "active",
+    },
+    {
+      publishedAt: "2026-11-20 00:00",
+      addedAt: "2026-11-20",
+      updatedAt: "2026-11-20",
+      updateNote: "新收录：公益站（鸡蛋分组），注册送 5，无签到；GPT 倍率最低 0.05（均为用户提供）。",
+      kind: "公益站 / 鸡蛋 / 注册送 5 / GPT 最低 0.05",
+      name: "kevo",
+      egg: true,
+      summary:
+        "公益站，按鸡蛋对待，注册送 5，无签到（均为用户提供）。GPT 倍率最低 0.05（用户提供；站方公告称 GPT 特惠不降智分组 0.055x）。仅面向中国大陆以外地区用户（站方公告）。",
+      details:
+        "站内名称 kevo（ai.xiaowumin.top），New API 程序，额度按美元显示，1 USD = 500,000 quota，充值汇率为 1:1（一元等于一美元）。邮箱注册需邮箱验证，有 Turnstile 验证，支持 GitHub 登录；注册送 5（用户提供；站方公告称注册送 $1 试用额度），进 QQ 群 835662486 绑定再得 5 刀（站方公告）；无签到（用户提供）。GPT 倍率最低 0.05（用户提供；站方公告称 GPT 特惠不降智分组降价 0.055x），gpt 6.2 已上架、价格和官方一样。长上下文请求（输入超过 272,000 token）按官方规则加价：输入 2 倍、输出 1.5 倍。站方公告：充值走 catfk.com/shop/BRJHTAPV 兑换码；智商观测 iq-ai.xiaowumin.top；服务器在中国大陆境外，仅面向中国大陆以外地区用户，不向中国大陆境内提供服务。",
+      registration: "邮箱注册，需邮箱验证，有 Turnstile 验证，支持 GitHub 登录（走邀请链接）；进 QQ 群 835662486 绑定再得 5 刀。",
+      signupBonus: "5（用户提供；站方公告称注册送 $1 试用、进 QQ 群 835662486 绑定再得 5 刀）",
+      dailyCheckin: "无（用户提供）",
+      models: "GPT 倍率最低 0.05（用户提供；站方公告称特惠不降智分组 0.055x）；gpt 6.2 已上架、价格同官方；模型广场需登录，清单未公开",
+      experience: "注册送 5；GPT 最低 0.05 倍（均为用户提供）",
+      caveat: "按鸡蛋对待：只薅注册和进群送的免费额度，付费体验没验证过，充值请谨慎。注册赠送、无签到与 GPT 倍率均为用户提供，以站内和群内实际发放为准；站方公告口径为注册送 $1、进群绑定得 5 刀、GPT 特惠不降智分组 0.055x。站方称仅面向中国大陆以外地区用户，不向中国大陆境内提供服务。",
+      benefits: ["公益站", "鸡蛋福利", "注册送 5", "GPT 最低 0.05 倍", "进群再得 5 刀", "GitHub 登录"],
+      url: "https://ai.xiaowumin.top/sign-up?aff=bWUy",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-19 00:00",
       addedAt: "2026-11-19",
