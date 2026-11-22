@@ -426,9 +426,11 @@ window.entryTranslationsData = {
   },
   "Nini-API": {
     name: "Nini-API",
-    kind: "Paid service / 10 on registration after group binding",
-    updateNote: "New listing: a paid service granting 10 on registration once you bind in the group (per user report); group rates are public and the low-price groups are mostly billed per request.",
-    summary: "A paid service granting 10 on registration once you bind in the group (per user report). Group rates are public, with the low-price groups mostly billed per request (deepseek-v4.1-flash and glm-5.2 at 0.015 per request); the operator's notice says the discounted kiro account pool is dead and prices have been adjusted.",
+    kind: "Closed down / waiting for recovery",
+    updateNote: "The service is down; removed from the live list and moved to the unavailable archive.",
+    archivedAt: "2026-11-22",
+    archivedReason: "The service is down (per user report) and the recovery time is unknown; it was removed from the live list and moved to the unavailable archive, and needs re-verification if it returns.",
+    summary: "The service is down (per user report) and the recovery time is unknown. It used to be a paid service granting 10 on registration once you bind in the group; group rates were public and the low-price groups were mostly billed per request (deepseek-v4.1-flash and glm-5.2 at 0.015 per request); the operator's notice said the discounted kiro account pool was dead and prices had been adjusted.",
     details:
       "The service calls itself Nini-API (x1.ninijoker-api.com), runs on New API, and displays credit in CNY (¤). Registration uses email with email verification and no GitHub / Linux DO / Telegram login; it grants 10 on registration after binding in the group (per user report). Group rates are public: Qwen official 0.3, anti claude 0.5, ccmax 20x 0.95, deepseek official 0.3, gemini ultra20x 0.3, glm official 0.3, gpt pro20x 96 0.18, gpt pro20x enterprise 0.26, gpt official pool ×1, gpt mixed pool 0.23, gpt mixed pool self-operated 0.12, gpt special 0.1, gpt welfare 0.05, grok heavy 0.15, kimi official 0.3, kiro claude 96 0.12, kiro claude standard 0.5. Low-price groups are billed per request: deepseek-v4-pro 0.015, deepseek-v4.1-flash 0.015, glm-5.2 0.03, glm-5.3 and glm-5.3-flash 0.01-0.03, kimi-k2.7 and kimi-k2.6 0.02, plus minimax-m3 and qwen3.8-max. Operator notice: the discounted kiro account pool is dead and prices have been adjusted.",
     registration: "Register with an email address and email verification through the referral link; registration grants 10 after binding in the group (per user report).",
