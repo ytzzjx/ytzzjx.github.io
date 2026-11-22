@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益 AI API 导航",
   intro: "整理 Claude、GPT、Gemini 等 AI API 中转站的免费额度、注册条件、每日签到与风险提示，区分公益、半公益和付费服务，方便按需查找。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-11-20",
+  lastUpdated: "2026-11-22",
   // 时效性公告：只放会过期、需要及时看到的事，渲染在首页顶部「公告提醒」。
   // 过了 expiresOn（本地日期）就不再展示，不用等下次改代码。
   announcements: [
@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "易辞寻",
     "芋头饭 API",
     "kevo",
     "MyAPI公益",
@@ -385,6 +386,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-22 00:00",
+      addedAt: "2026-11-22",
+      updatedAt: "2026-11-22",
+      updateNote: "新收录：公益站，走邀请链接注册送 4.2、签到 2，gpt-6.2-astra 按次 0.021（均为用户提供）。",
+      kind: "公益站 / 注册送 4.2 / 签到 2 / gpt-6.2-astra 0.021 一次",
+      name: "易辞寻",
+      summary:
+        "公益站，走邀请链接注册送 4.2，签到 2，gpt-6.2-astra 按次 0.021（均为用户提供）。邮箱注册，需邮箱验证；额度按人民币显示。",
+      details:
+        "站内名称易辞寻（acf.xydaim.cn），页面标题为「辞拙中转站」，New API 程序，额度按人民币显示。邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无人机验证；走邀请链接注册送 4.2，签到 2（均为用户提供）。用户点名 gpt-6.2-astra 按次 0.021（用户提供）。站方公告：进群领试吃 QQ 群 1135761090；模型广场地址 acf.xydaim.cn/pricing；禁止对接其他中转站、禁止同一 IP 多账号（后果为删除封禁）、禁止破甲本站模型、禁止违法用途。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）；进 QQ 群 1135761090 领试吃。",
+      signupBonus: "走邀请链接注册送 4.2（用户提供）",
+      dailyCheckin: "2（用户提供）",
+      models: "gpt-6.2-astra 按次 0.021（用户提供）；模型广场 acf.xydaim.cn/pricing 需登录查看",
+      experience: "走邀请链接注册送 4.2、签到 2；gpt-6.2-astra 0.021/次（均为用户提供）",
+      caveat: "注册赠送、签到金额与模型价格均为用户提供，以站内实际显示为准。站方公告禁止对接其他中转站、同一 IP 多账号（删除封禁）、破甲本站模型与违法用途。模型广场需登录，模型清单未核实。",
+      benefits: ["公益站", "邮箱注册", "注册送 4.2", "签到 2", "gpt-6.2-astra 0.021/次", "QQ 群 1135761090"],
+      url: "https://acf.xydaim.cn/sign-up?aff=NzsO",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-20 00:00",
       addedAt: "2026-11-20",

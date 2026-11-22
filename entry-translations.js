@@ -2,6 +2,21 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "易辞寻": {
+    name: "Yicixun",
+    kind: "Public service / 4.2 on registration / 2 per check-in / gpt-6.2-astra at 0.021 per call",
+    updateNote: "New listing: a public service granting 4.2 on registration through the referral link, a 2 check-in, and gpt-6.2-astra at 0.021 per call (all per user report).",
+    summary: "A public service granting 4.2 on registration through the referral link and a 2 check-in (both per user report), with gpt-6.2-astra at 0.021 per call (per user report). Email registration with email verification; credit is displayed in CNY.",
+    details:
+      "The service calls itself 易辞寻 (acf.xydaim.cn) and titles itself Cici Relay Station; it runs on New API and displays credit in CNY. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or captcha; registering through the referral link grants 4.2 and the check-in is 2 (both per user report). The user names gpt-6.2-astra at 0.021 per call (per user report). Operator notices: join QQ group 1135761090 for a trial credit; the model plaza is at acf.xydaim.cn/pricing; connecting other relay services, using multiple accounts on one IP (deletion and bans), jailbreaking site models, and unlawful uses are all prohibited.",
+    registration: "Register with an email address and email verification through the referral link; join QQ group 1135761090 for a trial credit.",
+    signupBonus: "4.2 for registering through the referral link (per user report)",
+    dailyCheckin: "2 (per user report)",
+    models: "gpt-6.2-astra at 0.021 per call (per user report); the model plaza at acf.xydaim.cn/pricing requires login",
+    experience: "4.2 on registration through the referral link and a 2 check-in; gpt-6.2-astra at 0.021 per call (all per user report)",
+    caveat: "The sign-up credit, check-in amount, and model price are all per user report — confirm them on the service. The operator notice prohibits connecting other relay services, multiple accounts on one IP (deletion and bans), jailbreaking site models, and unlawful uses. The model plaza requires login, so the model list is unverified.",
+    benefits: ["Public service", "Email registration", "4.2 on registration", "2 per check-in", "gpt-6.2-astra at 0.021 per call", "QQ group 1135761090"],
+  },
   "芋头饭 API": {
     name: "Yutoufan API",
     kind: "Public service / egg / 150 on registration / gemini-4-hydrogen-c at 4 yuan per call",
