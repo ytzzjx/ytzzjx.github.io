@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "TheFirstSnow",
     "Zenshi",
     "Faiths GO",
     "易辞寻",
@@ -388,6 +389,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-24 00:00",
+      addedAt: "2026-11-24",
+      updatedAt: "2026-11-24",
+      updateNote: "新收录：公益站，注册送 2.5 元、签到 0.5（均为用户提供）。站方公告另写注册得 2 元，口径冲突已写 caveat。",
+      kind: "公益站 / 注册送 2.5 元 / 签到 0.5",
+      name: "TheFirstSnow",
+      summary:
+        "公益站，注册送 2.5 元、签到 0.5（均为用户提供）。邮箱注册，需邮箱验证，仅限 QQ 邮箱（QQ号@qq.com，站方公告）。公开价目 17 个模型，default 1 倍、开业福利组 0.5 倍，额度按美元显示。",
+      details:
+        "站内名称 TheFirstSnow（thefirstsnow.top），New API 程序，额度按美元显示，自定义货币符号 ❄️。邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无人机验证；站方公告要求注册仅限 QQ 邮箱（QQ号@qq.com）。注册送 2.5 元、签到 0.5（均为用户提供；站方公告写注册得 2 元，口径不一致）。邀请用户双方各得 0.5 元、邀请一人再得 0.5 元、上不封顶。模型广场公开 17 个模型，分组 default 1 倍、开业福利 0.5 倍，含 gemini-4-argon / 4-carbon / 4-hydrogen / 3.8-flash、claude-opus-5-5 / 4-6（满血 / kiro 渠道）、gpt-6.2-astra / 6.2-sol / 6-sol / 6.1-sol、deepseek-v4.1-flash。站方公告：售后交流群 1134979274；大额充值私聊站长 QQ 2020979876 享 85 折；累计充值满 50 元可获 vip 分组 95 折；充值链接 wzyp.cn/shop/1GGJ88XO，开业期间九折；小红书推广活动（截止 12 月 5 日 24:00）发帖点赞超 10 人可得 1r，上不封顶。",
+      registration: "邮箱注册，需邮箱验证，仅限 QQ 邮箱（QQ号@qq.com，走邀请链接）。",
+      signupBonus: "2.5 元（用户提供；站方公告写 2 元）",
+      dailyCheckin: "0.5（用户提供）",
+      models: "17 个模型，default 1 倍、开业福利组 0.5 倍；含 gemini-4-argon / 3.8-flash、claude-opus-5-5 / 4-6、gpt-6.2-astra / 6.2-sol / 6.1-sol、deepseek-v4.1-flash",
+      experience: "注册送 2.5 元、签到 0.5；邀请双方各得 0.5 元、上不封顶；开业福利组 0.5 倍",
+      caveat: "注册赠送 2.5 元与签到 0.5 为用户提供，以站内实际发放为准；站方公告写注册得 2 元，与用户口径不一致，以用户为准。站方要求仅限 QQ 邮箱注册（QQ号@qq.com）。分组倍率与推广活动以站内公告为准，可能随时调整。",
+      benefits: ["公益站", "注册送 2.5 元", "签到 0.5", "邀请双方各得 0.5", "开业福利 0.5 倍", "17 个模型"],
+      url: "https://thefirstsnow.top/sign-up?aff=cUwo",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-24 00:00",
       addedAt: "2026-11-24",

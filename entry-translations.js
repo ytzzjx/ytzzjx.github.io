@@ -2,6 +2,22 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "TheFirstSnow": {
+    name: "TheFirstSnow",
+    kind: "Public service / 2.5 yuan on registration / 0.5 per check-in",
+    updateNote: "New listing: a public service granting 2.5 yuan on registration and 0.5 per check-in (both per user report); the operator notice says 2 yuan on sign-up, a conflict noted in the caveat.",
+    summary: "A public service granting 2.5 yuan on registration and a 0.5 check-in (both per user report). Registration uses email with email verification and is limited to QQ addresses (qq-number@qq.com, per the operator notice). The public price list covers 17 models, with default at 1x and the opening promo group at 0.5x; credit is displayed in USD.",
+    details:
+      "The service calls itself TheFirstSnow (thefirstsnow.top), runs on New API, displays credit in USD, and uses the custom currency symbol snowflake. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or captcha; the operator notice limits registration to QQ addresses (qq-number@qq.com). Registration grants 2.5 yuan and the check-in 0.5 (both per user report; the operator notice says 2 yuan on sign-up, a mismatch). Referrals pay both sides 0.5 yuan each, another 0.5 per person invited, with no cap. The model plaza lists 17 models, with default at 1x and the opening promo group at 0.5x, including gemini-4-argon / 4-carbon / 4-hydrogen / 3.8-flash, claude-opus-5-5 / 4-6 (full-strength / kiro channels), gpt-6.2-astra / 6.2-sol / 6-sol / 6.1-sol, and deepseek-v4.1-flash. Operator notices: support group 1134979274; large top-ups via operator QQ 2020979876 for 15% off; cumulative top-ups over 50 yuan unlock a vip group at 5% off; top-up link wzyp.cn/shop/1GGJ88XO with 10% off during the opening; a Xiaohongshu promo (through Dec 5, 24:00) paying 1 yuan per post with over 10 likes with no cap.",
+    registration: "Register with a QQ email address (qq-number@qq.com) and email verification through the referral link.",
+    signupBonus: "2.5 yuan (per user report; the operator notice says 2 yuan)",
+
+    dailyCheckin: "0.5 (per user report)",
+    models: "17 models, with default at 1x and the opening promo group at 0.5x; covers gemini-4-argon / 3.8-flash, claude-opus-5-5 / 4-6, gpt-6.2-astra / 6.2-sol / 6.1-sol, and deepseek-v4.1-flash",
+    experience: "2.5 yuan on registration and a 0.5 check-in; referrals pay both sides 0.5 yuan with no cap; the opening promo group is at 0.5x",
+    caveat: "The 2.5 yuan sign-up credit and the 0.5 check-in are per user report — confirm them on the service. The operator notice says 2 yuan on sign-up, which conflicts with the user figure; the user figure is used here. The operator limits registration to QQ email addresses (qq-number@qq.com). Group rates and promotions follow the in-site notices and can change.",
+    benefits: ["Public service", "2.5 yuan on registration", "0.5 per check-in", "0.5 yuan for both sides per referral", "Opening promo group at 0.5x", "17 models"],
+  },
   "Zenshi": {
     name: "Zenshi",
     kind: "Public community / daily login lottery / extra credit for posting",
