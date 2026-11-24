@@ -20,6 +20,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| Zenshi | 公益社区，Faiths GO 的配套社区（也列有 LULUX Labs 生态）。**每日登录抽奖、发帖额外额度**（均为用户提供）；页面实测**每日首帖 +¥3**，审核通过后自动发给已绑定的 FaithsGo 账户，每个北京时间自然日限领一次。社区站，不直接提供 API 调用；领奖需先绑定 FaithsGo。 | [注册](https://zenshi.pages.dev/login?invite=HFB6B9DV&next=/forum) |
 | Faiths GO | 公益站，**注册送 10、签到 5、抽奖 5-100，国模正价**（均为用户提供）。**需加 QQ 群 732249109，生成验证码后 @FaithsGo 发送完成绑定**（群号与流程来自站内页面）。邮箱注册、需邮箱验证；额度按人民币显示。19 个模型，default 与 vip 两组均 1 倍。 | [注册](https://faithsgo.pages.dev/?ref=LK1e) |
 | 易辞寻 | 公益站，**走邀请链接注册送 4.2、签到 2**（均为用户提供）。**gpt-6.2-astra 按次 0.021**（用户提供）。邮箱注册、需邮箱验证；额度按人民币显示。进 QQ 群 1135761090 领试吃；站方公告禁止对接其他中转站、同 IP 多账号（删除封禁）、破甲本站模型。 | [注册](https://acf.xydaim.cn/sign-up?aff=NzsO) |
 | 芋头饭 API | 公益站，按鸡蛋对待，**注册送 150、无签到**（均为用户提供）。**[自营]gemini-4-hydrogen-c 4 元一次**（用户提供）。公开价目 **54 个模型**，default 与 vip 两组均 1 倍，含 Claude 与 Gemini 多个前缀分组。邮箱注册、需邮箱验证；额度按美元显示。 | [注册](https://api.yutou.fun/sign-up?aff=Bzvp) |

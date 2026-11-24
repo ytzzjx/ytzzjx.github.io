@@ -2,6 +2,22 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "Zenshi": {
+    name: "Zenshi",
+    kind: "Public community / daily login lottery / extra credit for posting",
+    updateNote: "New listing: the companion community of Faiths GO, with a daily login lottery and extra credit for posting; the page shows a verified +3 yuan for the first approved post each day, sent to a bound FaithsGo account.",
+    summary: "A public community, the companion community of Faiths GO (it also lists the LULUX Labs ecosystem). A daily login lottery and extra credit for posting (both per user report); the page shows a verified +3 yuan for the first approved post each day, automatically sent to a bound FaithsGo account, once per Beijing-time calendar day.",
+    details:
+      "The service calls itself Zenshi (zenshi.pages.dev) with the tagline Models, Agents, and Open-source Community; it is the companion community of Faiths GO (the page lists FaithsGo and LULUX Labs ecosystem entries). A daily login lottery and extra credit for posting are offered (both per user report); the page states that the first post approved each day earns +3 yuan, automatically sent to a bound FaithsGo account, limited to once per Beijing-time calendar day. Rewards require binding a FaithsGo account to arrive; lottery amounts and rules follow the service. This is a community site and does not directly provide API model calls.",
+    registration: "Register through the invite link (invite=HFB6B9DV); binding a FaithsGo account is required to receive rewards.",
+    signupBonus: "Daily login lottery (per user report; amounts follow the service)",
+
+    dailyCheckin: "Extra credit for posting; the page shows +3 yuan for the first post of the day (per user report and page check)",
+    models: "A community site with no direct API model calls; rewards go to the bound FaithsGo account",
+    experience: "Daily login lottery and extra credit for posting; +3 yuan for the first approved post of the day is sent to the FaithsGo account (per user report and page check)",
+    caveat: "The daily login lottery and posting credit are per user report; lottery amounts and rules follow the service. The +3 yuan for the first approved post was checked on the page: the post must be published and approved and the FaithsGo account must be bound, once per Beijing-time calendar day. Reward rules can change; follow the in-site notices.",
+    benefits: ["Public community", "Faiths GO companion community", "Daily login lottery", "+3 yuan for the first post of the day", "Extra credit for posting"],
+  },
   "Faiths GO": {
     name: "Faiths GO",
     kind: "Public service / 10 on registration / 5 per check-in / lottery 5-100 / bind in group",

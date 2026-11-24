@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Zenshi",
     "Faiths GO",
     "易辞寻",
     "芋头饭 API",
@@ -387,6 +388,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-24 00:00",
+      addedAt: "2026-11-24",
+      updatedAt: "2026-11-24",
+      updateNote: "新收录：Faiths GO 的配套社区，每日登录抽奖、发帖额外额度；页面实测每日首帖 +¥3 发给已绑定的 FaithsGo 账户（均用户提供/实测）。",
+      kind: "公益社区 / 每日登录抽奖 / 发帖额外额度",
+      name: "Zenshi",
+      summary:
+        "公益社区，Faiths GO 的配套社区（也列有 LULUX Labs 生态）。每日登录抽奖、发帖额外额度（均为用户提供）；页面实测每日首帖 +¥3，自动发给已绑定的 FaithsGo 账户，每个北京时间自然日限领一次。",
+      details:
+        "站内名称 Zenshi（zenshi.pages.dev），标语「模型、Agent 与开源社区」，是 Faiths GO 的配套社区站（页面上列有 FaithsGo 与 LULUX Labs 生态入口）。每日登录抽奖、发帖额外额度（均为用户提供）；页面实测「每日首帖 +¥3」：每天发布并审核通过第一条帖子后，自动向已绑定的 FaithsGo 账户发放 ¥3，每个北京时间自然日只能领取一次。奖励需要先绑定 FaithsGo 账户才能到账；抽奖具体金额与规则以站内为准。这是社区站，不直接提供 API 模型调用。",
+      registration: "邀请链接登录注册（带邀请参数 invite=HFB6B9DV）；领奖需先绑定 FaithsGo 账户。",
+      signupBonus: "每日登录抽奖（用户提供，金额以站内为准）",
+      dailyCheckin: "发帖额外额度；页面实测每日首帖 +¥3（用户提供/实测）",
+      models: "社区站，不直接提供 API 模型调用；奖励发往已绑定的 FaithsGo 账户",
+      experience: "每日登录抽奖、发帖额外额度；每日首帖 +¥3 自动发到 FaithsGo 账户（用户提供/实测）",
+      caveat: "每日登录抽奖与发帖额外额度为用户提供，抽奖金额与规则以站内为准。每日首帖 +¥3 为页面实测：需发布并通过审核、且已绑定 FaithsGo 账户，每个北京时间自然日限领一次。奖励细则可能调整，以站内公告为准。",
+      benefits: ["公益社区", "Faiths GO 配套社区", "每日登录抽奖", "每日首帖 +¥3", "发帖额外额度"],
+      url: "https://zenshi.pages.dev/login?invite=HFB6B9DV&next=/forum",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-24 00:00",
       addedAt: "2026-11-24",
