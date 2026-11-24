@@ -20,6 +20,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| Yezi API | 公益站，**GitHub 注册，注册送 3、签到 3-6**（均为用户提供）。**不准破甲**（用户提供）。公开接口 404，货币单位、模型清单与倍率未核实。 | [注册](https://ai.yezi.help:2053/register?lottery_invite=b298cb1d22459ccfb2bbaddd218cb115f32605e9592f5b5275c5fa50f7da1207) |
 | 渡舟AI | 公益站，**超级大鸡蛋**（用户提供）。**注册送 5，进群送 30（站长说明早起来发），邀请送 10，GPT 倍率 0.05，拉 5 人有签到，开业充一送一**（均为用户提供）。仅 GitHub 注册；联系 QQ 202227370。模型广场与价格接口未公开。 | [注册](https://duzhouai.ccwu.cc/register?aff=UXDLBD783ZYB) |
 | 南源API | 公益站，**注册送 40、签到 10-30，ds4.1 按次 0.2**（均为用户提供）。**注册比较麻烦**（用户提供，具体流程待确认）。公开接口返回 403，注册方式、模型清单与倍率未核实。 | [注册](https://api.nanyuanapi.com/sign-up?aff=iAy9) |
 | TheFirstSnow | 公益站，**注册送 2.5 元、签到 0.5**（均为用户提供）。邮箱注册、需邮箱验证，**仅限 QQ 邮箱**（QQ号@qq.com）。公开价目 **17 个模型**，default 1 倍、开业福利组 0.5 倍，含 gemini-4-argon / 3.8-flash、claude-opus-5-5、gpt-6.2-astra / 6.2-sol、deepseek-v4.1-flash。邀请双方各得 0.5 元、上不封顶；站方公告另写注册得 2 元（以用户 2.5 为准）。 | [注册](https://thefirstsnow.top/sign-up?aff=cUwo) |

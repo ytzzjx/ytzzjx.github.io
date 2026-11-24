@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益 AI API 导航",
   intro: "整理 Claude、GPT、Gemini 等 AI API 中转站的免费额度、注册条件、每日签到与风险提示，区分公益、半公益和付费服务，方便按需查找。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-11-24",
+  lastUpdated: "2026-11-25",
   // 时效性公告：只放会过期、需要及时看到的事，渲染在首页顶部「公告提醒」。
   // 过了 expiresOn（本地日期）就不再展示，不用等下次改代码。
   announcements: [
@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Yezi API",
     "渡舟AI",
     "南源API",
     "TheFirstSnow",
@@ -391,6 +392,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-25 00:00",
+      addedAt: "2026-11-25",
+      updatedAt: "2026-11-25",
+      updateNote: "新收录：公益站，GitHub 注册，注册送 3、签到 3-6，不准破甲（均为用户提供）。",
+      kind: "公益站 / GitHub 注册 / 注册送 3 / 签到 3-6",
+      name: "Yezi API",
+      summary:
+        "公益站，GitHub 注册，注册送 3，签到 3-6（均为用户提供）。不准破甲（用户提供）。公开接口 404，货币单位、模型清单与倍率未核实。",
+      details:
+        "站内名称按域名暂记 Yezi API（ai.yezi.help:2053），Sub2API 程序，页面标题为 Sub2API - AI API Gateway。GitHub 注册（用户提供）；注册送 3，签到 3-6（均为用户提供）；不准破甲（用户提供）。首页与 /api/status、/api/pricing、/api/notice 等常见公开接口均返回 404，站内配置、货币单位、模型清单与分组倍率未核实，待确认。",
+      registration: "GitHub 注册（走邀请链接，用户提供）。",
+      signupBonus: "3（用户提供）",
+      dailyCheckin: "3-6（用户提供）",
+      models: "待确认（公开接口 404，模型清单未获取）",
+      experience: "注册送 3、签到 3-6；不准破甲（均为用户提供）",
+      caveat: "注册赠送、签到金额与 GitHub 注册均为用户提供，以站内实际显示为准。不准破甲（用户提供）。公开接口 404，货币单位、模型清单与分组倍率未核实，待确认。",
+      benefits: ["公益站", "GitHub 注册", "注册送 3", "签到 3-6", "不准破甲"],
+      url: "https://ai.yezi.help:2053/register?lottery_invite=b298cb1d22459ccfb2bbaddd218cb115f32605e9592f5b5275c5fa50f7da1207",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-24 00:00",
       addedAt: "2026-11-24",

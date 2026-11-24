@@ -2,6 +2,22 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "Yezi API": {
+    name: "Yezi API",
+    kind: "Public service / GitHub registration / 3 on registration / 3-6 per check-in",
+    updateNote: "New listing: a public service with GitHub registration, 3 on registration, and a check-in of 3-6; jailbreaking models is not allowed (all per user report).",
+    summary: "A public service with GitHub registration granting 3 on registration and a check-in of 3-6 (both per user report). Jailbreaking models is not allowed (per user report). The public endpoints return 404, so the currency unit, model list, and rates are unverified.",
+    details:
+      "The name is taken from the domain for now: Yezi API (ai.yezi.help:2053), running Sub2API with the page title Sub2API - AI API Gateway. Registration uses GitHub (per user report); registration grants 3 and the check-in is 3-6 (both per user report); jailbreaking models is not allowed (per user report). The homepage and /api/status, /api/pricing, /api/notice and other common public endpoints all return 404, so the in-site config, currency unit, model list, and group rates are unverified.",
+    registration: "GitHub registration through the invite link (per user report).",
+    signupBonus: "3 (per user report)",
+
+    dailyCheckin: "3-6 (per user report)",
+    models: "Unconfirmed (public endpoints return 404, so the model list is unavailable)",
+    experience: "3 on registration and a 3-6 check-in; jailbreaking models is not allowed (all per user report)",
+    caveat: "The sign-up credit, check-in amount, and GitHub registration are all per user report — confirm them on the service. Jailbreaking models is not allowed (per user report). The public endpoints return 404, so the currency unit, model list, and group rates are unverified.",
+    benefits: ["Public service", "GitHub registration", "3 on registration", "3-6 per check-in", "No jailbreaking"],
+  },
   "渡舟AI": {
     name: "Duzhou AI",
     kind: "Public service / egg / 5 on registration / 30 for joining the group / 10 per referral",
