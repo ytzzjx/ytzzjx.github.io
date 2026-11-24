@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益 AI API 导航",
   intro: "整理 Claude、GPT、Gemini 等 AI API 中转站的免费额度、注册条件、每日签到与风险提示，区分公益、半公益和付费服务，方便按需查找。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-11-22",
+  lastUpdated: "2026-11-24",
   // 时效性公告：只放会过期、需要及时看到的事，渲染在首页顶部「公告提醒」。
   // 过了 expiresOn（本地日期）就不再展示，不用等下次改代码。
   announcements: [
@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "Faiths GO",
     "易辞寻",
     "芋头饭 API",
     "kevo",
@@ -386,6 +387,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-24 00:00",
+      addedAt: "2026-11-24",
+      updatedAt: "2026-11-24",
+      updateNote: "新收录：公益站，注册送 10，签到 5，抽奖 5-100；国模正价；需加 QQ 群 732249109 绑定（均为用户提供）。",
+      kind: "公益站 / 注册送 10 / 签到 5 / 抽奖 5-100 / 加群绑定",
+      name: "Faiths GO",
+      summary:
+        "公益站，注册送 10，签到 5，抽奖 5-100，国模正价（均为用户提供）。需加 QQ 群 732249109 绑定后才能使用（用户提供）。邮箱注册，需邮箱验证；额度按人民币显示。",
+      details:
+        "站内名称 Faiths GO（faithsgo.pages.dev），社区共同维护的 AI 模型共享入口，额度按人民币显示。邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无人机验证；走邀请链接注册送 10、签到 5、抽奖 5-100、国模正价（均为用户提供）。需加 QQ 群 732249109 绑定：站内生成验证码后到群里 @FaithsGo 发送完成验证，退群后验证自动失效（群号与绑定流程来自站内页面）。模型广场公开 19 个模型，default 与 vip 两组均 1 倍，含 gpt-6.1-sol / 6-luna、gemini-4-c / 4-h / 3.8-flash、deepseek-v4-pro / v4.1-flash、glm-5.3 / 5.3-flash、kimi-k3 / k3.1-pro、minimax-m3.1-flash、hy4、grok-4.7 / 4.7-fast、step-5-preview、mimo-v2.6-pro、nemotron-3.5-super-vl 与 space-bunny。国模正价（用户提供）。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）；加 QQ 群 732249109 生成验证码后 @FaithsGo 发送完成绑定。",
+      signupBonus: "走邀请链接注册送 10（用户提供）",
+      dailyCheckin: "5（用户提供）",
+      models: "19 个模型，default 与 vip 两组均 1 倍，国模正价（用户提供）；含 gpt-6.1-sol / 6-luna、gemini-4-c / 4-h / 3.8-flash、deepseek-v4-pro / v4.1-flash、glm-5.3 / 5.3-flash、kimi-k3 / k3.1-pro、grok-4.7 等",
+      experience: "注册送 10、签到 5、抽奖 5-100；需加群绑定；国模正价（均为用户提供）",
+      caveat: "注册赠送、签到、抽奖与国模正价均为用户提供，以站内和群内实际发放为准。站内页面另有「注册送 ¥5、每日签到送 ¥5、邀请 ¥50/人」的口径，与用户提供的 10 不一致，以用户口径为准；抽奖 5-100 的具体规则以站内为准。需加 QQ 群 732249109 完成绑定，退群后验证自动失效。",
+      benefits: ["公益站", "邮箱注册", "注册送 10", "签到 5", "抽奖 5-100", "加群绑定", "国模正价"],
+      url: "https://faithsgo.pages.dev/?ref=LK1e",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-22 00:00",
       addedAt: "2026-11-22",

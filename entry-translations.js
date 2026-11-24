@@ -2,6 +2,23 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "Faiths GO": {
+    name: "Faiths GO",
+    kind: "Public service / 10 on registration / 5 per check-in / lottery 5-100 / bind in group",
+    updateNote: "New listing: a public service granting 10 on registration, a 5 check-in, and a 5-100 lottery, with domestic models at regular price; QQ group 732249109 binding is required (all per user report).",
+    summary: "A public service granting 10 on registration, a 5 check-in, and a 5-100 lottery (all per user report), with domestic models at regular price. You must join QQ group 732249109 and bind to use it (per user report). Email registration with email verification; credit is displayed in CNY.",
+    details:
+      "The service calls itself Faiths GO (faithsgo.pages.dev), an AI model sharing entrance maintained by the community, and displays credit in CNY. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or captcha; registering through the referral link grants 10, the check-in is 5, the lottery pays 5-100, and domestic models are at regular price (all per user report). You must join QQ group 732249109 and bind: generate a verification code in the console, then @FaithsGo in the group and send it to finish; verification lapses when you leave the group (group number and flow from the in-site page). The model plaza lists 19 models, with both the default and vip groups at 1x, including gpt-6.1-sol / 6-luna, gemini-4-c / 4-h / 3.8-flash, deepseek-v4-pro / v4.1-flash, glm-5.3 / 5.3-flash, kimi-k3 / k3.1-pro, minimax-m3.1-flash, hy4, grok-4.7 / 4.7-fast, step-5-preview, mimo-v2.6-pro, nemotron-3.5-super-vl, and space-bunny.",
+    registration: "Register with an email address and email verification through the referral link; join QQ group 732249109, generate a verification code and @FaithsGo with it to bind.",
+    signupBonus: "10 for registering through the referral link (per user report)",
+
+    dailyCheckin: "5 (per user report)",
+    models: "19 models, with both the default and vip groups at 1x and domestic models at regular price (per user report); covers gpt-6.1-sol / 6-luna, gemini-4-c / 4-h / 3.8-flash, deepseek-v4-pro / v4.1-flash, glm-5.3 / 5.3-flash, kimi-k3 / k3.1-pro, and grok-4.7",
+    experience: "10 on registration, a 5 check-in, and a 5-100 lottery; group binding is required (all per user report)",
+    caveat: "The sign-up credit, check-in, lottery, and domestic-model pricing are all per user report — confirm them on the service and in the group. The in-site page also mentions 5 on sign-up, 5 per daily check-in, and 50 per referral, which conflicts with the user figure of 10; the user figure is used here. The exact lottery rules follow the service. You must join QQ group 732249109 and bind, and verification lapses when you leave the group.",
+
+    benefits: ["Public service", "Email registration", "10 on registration", "5 per check-in", "Lottery 5-100", "Bind in the group", "Domestic models at regular price"],
+  },
   "易辞寻": {
     name: "Yicixun",
     kind: "Public service / 4.2 on registration / 2 per check-in / gpt-6.2-astra at 0.021 per call",
