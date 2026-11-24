@@ -2,6 +2,22 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "南源API": {
+    name: "Nanyuan API",
+    kind: "Public service / 40 on registration / 10-30 per check-in / ds4.1 at 0.2 per call",
+    updateNote: "New listing: a public service granting 40 on registration, a check-in of 10-30, and ds4.1 at 0.2 per call; registration is somewhat troublesome (all per user report).",
+    summary: "A public service granting 40 on registration and a check-in of 10-30 (both per user report), with ds4.1 at 0.2 per call (per user report). Registration is somewhat troublesome (per user report). The public endpoints return 403, so the registration method, model list, and rates are unverified.",
+    details:
+      "The service calls itself Nanyuan API (api.nanyuanapi.com). Registration grants 40, the daily check-in 10-30, and ds4.1 (deepseek-v4.1) costs 0.2 per call (all per user report); registration is somewhat troublesome (per user report, exact flow follows the service). The homepage and /api/status and /api/pricing all return 403 (nginx Forbidden) both directly and through the proxy, so the in-site name, registration method, currency unit, model list, and group rates could not be read and remain unconfirmed.",
+    registration: "Register through the invite link; the actual in-site flow applies (the user says registration is somewhat troublesome; exact requirements unconfirmed).",
+    signupBonus: "40 (per user report)",
+
+    dailyCheckin: "10-30 (per user report)",
+    models: "ds4.1 (deepseek-v4.1) at 0.2 per call (per user report); the full model list is unconfirmed (403 from the endpoint)",
+    experience: "40 on registration, a 10-30 check-in, and ds4.1 at 0.2 per call; registration is somewhat troublesome (all per user report)",
+    caveat: "The sign-up credit, check-in amount, and ds4.1 price are all per user report — confirm them on the service. The user says registration is somewhat troublesome; the exact flow and requirements are unconfirmed. The public endpoints return 403, so the model list, group rates, and currency unit are unverified.",
+    benefits: ["Public service", "40 on registration", "10-30 per check-in", "ds4.1 at 0.2 per call", "Troublesome registration"],
+  },
   "TheFirstSnow": {
     name: "TheFirstSnow",
     kind: "Public service / 2.5 yuan on registration / 0.5 per check-in",

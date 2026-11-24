@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "南源API",
     "TheFirstSnow",
     "Zenshi",
     "Faiths GO",
@@ -389,6 +390,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-24 00:00",
+      addedAt: "2026-11-24",
+      updatedAt: "2026-11-24",
+      updateNote: "新收录：公益站，注册送 40，每日签到 10-30，ds4.1 按次 0.2；注册比较麻烦（均为用户提供）。",
+      kind: "公益站 / 注册送 40 / 签到 10-30 / ds4.1 0.2 一次",
+      name: "南源API",
+      summary:
+        "公益站，注册送 40，每日签到 10-30，ds4.1 按次 0.2（均为用户提供）。注册比较麻烦（用户提供）。公开接口返回 403，注册方式、模型清单与倍率未核实。",
+      details:
+        "站内名称南源API（api.nanyuanapi.com）。注册送 40，每日签到 10-30，ds4.1（deepseek-v4.1）按次 0.2（均为用户提供）；注册比较麻烦（用户提供，具体流程以站内为准）。首页与 /api/status、/api/pricing 直连及走代理均返回 403（nginx Forbidden），未能读取站内名称、注册方式、货币单位、模型清单与分组倍率，相关信息待确认。",
+      registration: "邀请链接注册，需以站内实际流程为准（用户提供注册比较麻烦，具体门槛待确认）。",
+      signupBonus: "40（用户提供）",
+      dailyCheckin: "10-30（用户提供）",
+      models: "ds4.1（deepseek-v4.1）按次 0.2（用户提供）；完整模型清单待确认（接口 403）",
+      experience: "注册送 40、签到 10-30、ds4.1 0.2/次；注册比较麻烦（均为用户提供）",
+      caveat: "注册赠送、签到金额与 ds4.1 价格均为用户提供，以站内实际显示为准。注册比较麻烦（用户提供），具体流程与门槛待确认。公开接口返回 403，模型清单、分组倍率与货币单位未核实，待确认。",
+      benefits: ["公益站", "注册送 40", "签到 10-30", "ds4.1 0.2/次", "注册较麻烦"],
+      url: "https://api.nanyuanapi.com/sign-up?aff=iAy9",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-24 00:00",
       addedAt: "2026-11-24",

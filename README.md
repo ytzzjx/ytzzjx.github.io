@@ -20,6 +20,7 @@
 
 | 站点 | 简介 | 直达 |
 | --- | --- | --- |
+| 南源API | 公益站，**注册送 40、签到 10-30，ds4.1 按次 0.2**（均为用户提供）。**注册比较麻烦**（用户提供，具体流程待确认）。公开接口返回 403，注册方式、模型清单与倍率未核实。 | [注册](https://api.nanyuanapi.com/sign-up?aff=iAy9) |
 | TheFirstSnow | 公益站，**注册送 2.5 元、签到 0.5**（均为用户提供）。邮箱注册、需邮箱验证，**仅限 QQ 邮箱**（QQ号@qq.com）。公开价目 **17 个模型**，default 1 倍、开业福利组 0.5 倍，含 gemini-4-argon / 3.8-flash、claude-opus-5-5、gpt-6.2-astra / 6.2-sol、deepseek-v4.1-flash。邀请双方各得 0.5 元、上不封顶；站方公告另写注册得 2 元（以用户 2.5 为准）。 | [注册](https://thefirstsnow.top/sign-up?aff=cUwo) |
 | Zenshi | 公益社区，Faiths GO 的配套社区（也列有 LULUX Labs 生态）。**每日登录抽奖、发帖额外额度**（均为用户提供）；页面实测**每日首帖 +¥3**，审核通过后自动发给已绑定的 FaithsGo 账户，每个北京时间自然日限领一次。社区站，不直接提供 API 调用；领奖需先绑定 FaithsGo。 | [注册](https://zenshi.pages.dev/login?invite=HFB6B9DV&next=/forum) |
 | Faiths GO | 公益站，**注册送 10、签到 5、抽奖 5-100，国模正价**（均为用户提供）。**需加 QQ 群 732249109，生成验证码后 @FaithsGo 发送完成绑定**（群号与流程来自站内页面）。邮箱注册、需邮箱验证；额度按人民币显示。19 个模型，default 与 vip 两组均 1 倍。 | [注册](https://faithsgo.pages.dev/?ref=LK1e) |
