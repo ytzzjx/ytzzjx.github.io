@@ -2,6 +2,22 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "渡舟AI": {
+    name: "Duzhou AI",
+    kind: "Public service / egg / 5 on registration / 30 for joining the group / 10 per referral",
+    updateNote: "New listing: a public service (a big egg) granting 5 on registration, 30 for joining the group, and 10 per referral; GPT at 0.05x, a check-in unlocked after five referrals, and a buy-one-get-one opening promo (all per user report).",
+    summary: "A public service, a big egg per user report: 5 on registration, 30 for joining the group (the operator says it will be sent the next morning), and 10 per referral; GPT at 0.05x, a check-in unlocked after five referrals, and a buy-one-get-one opening promo (all per user report). GitHub registration.",
+    details:
+      "The service calls itself Duzhou AI (duzhouai.ccwu.cc), an AI API gateway; its public homepage config shows GitHub-only registration, a referral reward of 10, check-in enabled, redemption codes enabled, the model plaza disabled, and payments enabled. Registration grants 5, joining the group grants 30 (the operator says it will be sent the next morning), each referral grants 10, GPT is at 0.05x, a check-in is unlocked after five referrals, and the opening promo is buy-one-get-one (all per user report); the configured referral reward of 10 matches the user figure. Contact QQ 202227370 from the site config. The model plaza and pricing endpoint are not public, so the model list is unconfirmed.",
+    registration: "GitHub registration only (through the referral link); join the group and contact the operator for the 30.",
+    signupBonus: "5 on registration, 30 for joining the group (to be sent the next morning), and 10 per referral (per user report)",
+
+    dailyCheckin: "Unlocked after five referrals (per user report)",
+    models: "GPT at 0.05x (per user report); the model plaza and pricing endpoint are not public, so the list is unconfirmed",
+    experience: "5 on registration, 30 for joining the group, and 10 per referral; GPT at 0.05x, a check-in after five referrals, and a buy-one-get-one opening promo (all per user report)",
+    caveat: "A big egg per user report: only the free credit has been claimed, the paid experience is unverified, so top up with caution. The 30 for joining the group will be sent the next morning, per the operator (per user report, not yet received); confirm it on the service. The check-in requires five referrals (per user report). The buy-one-get-one opening promo can change. The model plaza and pricing endpoint are not public; the GPT rate at 0.05x is per user report and may differ from the service.",
+    benefits: ["Public service", "Egg credit", "5 on registration", "30 for joining the group", "10 per referral", "GPT at 0.05x"],
+  },
   "南源API": {
     name: "Nanyuan API",
     kind: "Public service / 40 on registration / 10-30 per check-in / ds4.1 at 0.2 per call",
