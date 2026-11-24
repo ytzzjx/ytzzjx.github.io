@@ -49,7 +49,7 @@
 | 玖观API | 公益站，**注册送 3**（用户提供）。**339 个模型**，按量 172 个、按次 167 个；**多个 0.001 倍限时免费分组**（DeepSeek/GLM/Kimi 免费使用、Gemini 2.5 flash 免费使用、小克 Claude 限时活动）。QQ 群 498648355。 | [注册](https://jiuguan.cloud/sign-up?aff=PvxS) |
 | Velunqi | 公益站，**注册送 110、签到 80 左右**（用户提供）。34 个模型，单一默认分组，额度按人民币显示；含 DeepSeek V4、GLM 5.x、Kimi k3、MiniMax m3、hy3/hy4、step-5-preview 等，倍率从 0.005 到 37.5 不等。 | [注册](https://velunqi.asia/sign-up?aff=EHhE) |
 | ThousandYuan Ai | 公益站，**注册送 30、每日签到送 50**（用户提供）。**13 个模型**，default 与 vip 两组均 1 倍率，含 claude-opus-5-5、gpt-6-1-sol、gemini-4、deepseek-v4.1-flash、grok-4.7、GLM 5.3、Kimi 等；额度按美元显示。 | [注册](https://api.thousandyuan.dpdns.org/sign-up?aff=vDuG) |
-| Krisphyn API | 公益站，**注册送 1、签到 0.6**（用户提供）。**106 个模型，22 个分组**，免费组 0.01 倍含 18 个模型（step-5-preview、kimi-k3、gemini-3.8-flash 等）；额度按自定义货币 🍀 显示。**公告称不对中国大陆用户开放，注册后需做非中国大陆认证**。 | [注册](https://free.krisphyn.cc/sign-up?aff=RHNm) |
+| Krisphyn API | 公益站，**注册送 1、签到 0.6**（用户提供）。**86 个模型，21 个分组**，免费组 0.01 倍含 18 个模型（step-5-preview、kimi-k3、gemini-3.8-flash 等）；额度按自定义货币 🍀 显示。**公告称不对中国大陆用户开放，注册后需做非中国大陆认证**。 | [注册](https://api.krisphyn.cc/sign-up?aff=RHNm) |
 | HyxAPI | 公益站，**注册无赠送，签到 15 左右**（用户提供）。支持邮箱、GitHub 与 Linux DO 登录，额度按美元显示；模型有 DeepSeek V4 系列、GLM 5.x、GPT 5.6 等，模型页公开价格与实时状态。 | [注册](https://hyxware.com/auth?mode=register&aff=iSln) |
 | 长春叙 | 公益站，**注册送 4.16，明天起改为送 1，签到 0.2 左右**（用户提供）。**gemini-3.8-flash 按次 0.01、gemini-4-argon 按次 0.2**；44 个模型，分 ds按次、哈基米按次/按量、小克按次/按量 五组，额度按人民币显示。 | [注册](https://changchunxu.xyz/sign-up?aff=YRjX) |
 | 狸猫 AI | 公益站，**仅 QQ 邮箱注册，注册送 1、签到 1 毛**（用户提供）。模型广场 **25 个模型**，覆盖 Claude / GPT / Gemini / DeepSeek / Grok / Kimi 与生图，default / 国模 / 生图三组均 1 倍率；额度按自定义货币 ฅ 显示。QQ 群 1128305622。 | [注册](https://limao-api.com/sign-up?aff=QKlJ) |
