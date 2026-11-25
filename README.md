@@ -45,7 +45,6 @@
 | 稳token | 付费站，按鸡蛋归入公益区。**注册送 3 米额度、无签到**（用户提供）。只用 **gemini-3.8-flash 0.0035/次**（限时特惠一周）与 **gemini-4-argon-count 0.08/次**；**不要使用站内其他模型**，外国模型按人民币倍率计价、不值（用户提供）。广场 102 个模型，额度按人民币显示。QQ 群 418438107 / 1127420849。 | [注册](https://api.wentoken.si/sign-up?aff=HMTK) |
 | Jasper | 公益站，**免费模型多**（用户提供）。**149 个模型**：Unlimited 组 0 倍 59 个、Free 组 0.01 倍 9 个（deepseek-v4-flash、glm-5.3-flash、step-5-preview、claude-opus-5-5-web 等）；额度按自定义货币 ✦ 显示。邮箱或 GitHub 注册。注册赠送与签到金额待确认。页脚声明仅面向海外华人、中国大陆请勿使用。 | [注册](https://api.yjs.im/sign-up?aff=5uGC) |
 | 芙卡卡の小食堂 | 公益站，**注册送的额度能用 150 次 gemini-3.8-flash、无签到**（用户提供）。当鸡蛋福利用，用完就扔。模型广场 **64 个模型**，分组倍率均 1 倍；额度按自定义货币 🍭 显示。 | [注册](https://api.fuka.win/sign-up?aff=Erxa) |
-| ZOO API | 公益站，**注册送 0.5、签到 0.1-1**（用户提供）。全站 1 元 = 1 🐱 无隐藏倍率；45 个模型按次计费，太子 0.04-0.08/次、3.8 flash 0.01-0.02/次（邀请 3 人解锁活动价）。QQ 群 963359239。 | [注册](https://zooapi.gfkfqtcx.com/sign-up?aff=UpPk) |
 | 大白饭 | 公益站，**注册送 1、签到 0.5 左右**（用户提供）。**61 个模型**，NIM 英伟达免费模型组 0 倍、default 0.08、gemini 0.12；**最近每天限制 100 个注册**（用户提供）。QQ 群 1078089816。 | [注册](https://newapi.hkkkj.qzz.io/sign-up?aff=SrUj) |
 | 猫のAPI | 公益站，**模型免费**。登录后模型广场现为 8 个模型，输入/输出/缓存读取价格均显示 $0：claude-opus-5-5、gpt-6.1-sol、gpt-6.1-terra、gpt-5.2、kimi-k3、kimi-k3.1-pro、deepseek-flash（V4.1 Flash 1017）、glm-5.2、sensenova-6.8-flash-lite。注册送 0.1（用户提供）。 | [注册](https://www.catpawrouter.com/sign-up?aff=YugA) |
 | 玖观API | 公益站，**注册送 3**（用户提供）。**339 个模型**，按量 172 个、按次 167 个；**多个 0.001 倍限时免费分组**（DeepSeek/GLM/Kimi 免费使用、Gemini 2.5 flash 免费使用、小克 Claude 限时活动）。QQ 群 498648355。 | [注册](https://jiuguan.cloud/sign-up?aff=PvxS) |
@@ -146,6 +145,7 @@
 - MotoMoto（2026-10-26 下架）：站点无法访问，恢复后需重新核实。
 - 421-API（2026-11-01 下架）：服务器无响应，站点无法访问，恢复后需重新核实。
 - JustWoker 公益站（2026-11-02 下架）：站点无法访问（Cloudflare 522），恢复后需重新核实。
+- ZOO API（2026-11-25 下架）：站点已下线，恢复后需重新核实。
 - Nini-API（2026-11-22 下架）：站点已下线，恢复后需重新核实。
 - 公益中转api（2026-11-02 下架）：据用户消息于 2026-11-02 20:00 关站，恢复后需重新核实。
 

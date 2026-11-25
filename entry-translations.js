@@ -386,8 +386,10 @@ window.entryTranslationsData = {
   },
   "ZOO API": {
     name: "ZOO API",
-    kind: "Public service / 0.5 on registration / 0.1-1 per check-in",
-    updateNote: "New listing: a public service granting 0.5 on sign-up with a check-in worth 0.1-1 (per user report); mostly per-request billing, with promo prices of 0.04 per Argon request and 0.01 per 3.8 request.",
+    kind: "Closed down / waiting for recovery",
+    updateNote: "The service is down; removed from the live list and moved to the unavailable archive.",
+    archivedAt: "2026-11-25",
+    archivedReason: "The service is down (per user report) and the recovery time is unknown; it was removed from the live list and moved to the unavailable archive, and needs re-verification if it returns.",
     summary: "A public service granting 0.5 on sign-up with a check-in worth 0.1-1 (per user report). The whole site runs 1 yuan = 1 🐱 with no hidden multiplier; 45 models, mostly billed per request, with Argon at 0.04-0.08 per request and 3.8 flash at 0.01-0.02.",
     details:
       "The service calls itself ZOO API (zooapi.gfkfqtcx.com), runs on New API, and displays credit in the custom currency 🐱, which the operator says maps 1:1 to yuan across the site with no hidden multiplier. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or Turnstile captcha; it grants 0.5 on sign-up with a daily check-in worth 0.1-1 (both per user report). The model plaza lists 45 models across the default and per-request groups, plus 10%-off, 5%-off, 20%-off, 30%-off, daily-pass, and promo groups. Most are billed per request: Argon (gemini-4-argon) at 0.04 per request on promo (requires inviting 3 users to unlock the promo channel) or 0.08 at list price, gemini-3.8-flash at 0.01 on promo or 0.02 at list, claude-opus 4-6 to 5-5 at 0.06, claude-sonnet 4-6 to 5-5 at 0.035, deepseek-v4-pro at 0.04, deepseek-v4.1-flash-1017 at 0.025, gemini-3.1-pro at 0.04, and gemini-2.5-flash / flash-lite at 0.009. Promo rules (through 24:00 on November 4): inviting 3 users to complete registration automatically unlocks the promo channel at the promo prices, otherwise list prices apply. Opening top-up event: the 5-yuan tier gave 5 for 5, through 24:00 on November 1. Official chat group QQ 963359239.",
