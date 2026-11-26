@@ -1652,20 +1652,20 @@ window.entryTranslationsData = {
     benefits: ["Unlimited image2 generation", "Unlimited GPT-5.5-mini chat", "No check-in required", "Download images promptly", "Please use responsibly"],
   },
   AgentRouter: {
-    kind: "Public service / GPT and Claude released daily at 10:00 and 19:00",
+    kind: "Public service / only gpt-6.2-astra and gpt-6.2-sol",
     updateNote:
-      "DeepSeek appears as deepseek-v4-flash in the service's model list, but it is mapped and equivalent to deepseek-v4.1-flash (per user report).",
+      "Model update: it now carries only gpt-6.2-astra and gpt-6.2-sol (per user report).",
     summary:
-      "GPT (Azure channel, not dumbed down) and Claude models are released on a schedule at 10:00 and 19:00 daily, and DeepSeek is deepseek-v4.1-flash. New accounts receive $75 and daily check-ins add $25. If the main site is unreachable from mainland China, use the mainland sign-up link on the card.",
+      "It now carries only gpt-6.2-astra and gpt-6.2-sol (per user report). New accounts receive $75 and daily check-ins add $25. If the main site is unreachable from mainland China, use the mainland sign-up link on the card.",
     details:
-      "GPT runs on the Azure channel and is not dumbed down; like Claude, it is released on a schedule at 10:00 and 19:00 daily and may be unavailable at other times. DeepSeek is served as deepseek-v4.1-flash (the model list shows deepseek-v4-flash, which is the mapped name). New accounts receive $75 and daily check-ins add $25; the service is fast and stable. It requires a GitHub account created before December 2025, or a Linux Do account. Users in mainland China can register directly through the mainland link below the card with no proxy needed; the requirements are identical. Normal use may bring credit top-ups or Core group access, but the exact rules are unconfirmed.",
+      "It now carries only gpt-6.2-astra and gpt-6.2-sol (per user report). The former description of GPT (Azure channel, not dumbed down) and Claude released at 10:00 and 19:00 with DeepSeek as deepseek-v4.1-flash is outdated. New accounts receive $75 and daily check-ins add $25; the service is fast and stable. It requires a GitHub account created before December 2025, or a Linux Do account. Users in mainland China can register directly through the mainland link below the card with no proxy needed; the requirements are identical. Normal use may bring credit top-ups or Core group access, but the exact rules are unconfirmed.",
     registration: "GitHub account created before December 2025, or a Linux Do account; mainland users can use the mainland sign-up link instead.",
     signupBonus: "$75 credit",
     dailyCheckin: "$25",
-    models: "GPT not dumbed down (Azure channel) / Claude / DeepSeek V4.1 Flash",
-    experience: "Models are released daily at 10:00 and 19:00; fast and stable",
-    caveat: "GPT and Claude are released on a schedule at 10:00 and 19:00 daily and may be unavailable at other times. Sign out and back in for check-in credit to take effect; confirm exact rates and available models on the service. The normal-use reward mechanism remains unconfirmed.",
-    benefits: ["GPT not dumbed down (Azure channel)", "Models released at 10:00 and 19:00 daily", "Claude models", "DeepSeek V4.1 Flash", "$75 sign-up credit", "$25 daily check-in", "Older account required", "Mainland China link", "Recommended by the webmaster"],
+    models: "Only gpt-6.2-astra and gpt-6.2-sol (per user report)",
+    experience: "Only gpt-6.2-astra and gpt-6.2-sol now; fast and stable",
+    caveat: "It now carries only gpt-6.2-astra and gpt-6.2-sol (per user report); confirm them on the service. Sign out and back in for check-in credit to take effect; confirm exact rates and available models on the service. The normal-use reward mechanism remains unconfirmed.",
+    benefits: ["Only gpt-6.2-astra and gpt-6.2-sol", "$75 sign-up credit", "$25 daily check-in", "Older account required", "Mainland China link", "Recommended by the webmaster"],
     altLabel: "Mainland China sign-up link (no proxy needed)",
     tutorialLabel: "AgentRouter registration guide for mainland China (no proxy required)",
   },
