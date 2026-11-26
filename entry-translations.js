@@ -5,10 +5,10 @@ window.entryTranslationsData = {
   "风辞云": {
     name: "Fengciyun",
     kind: "Public service / 13.7 on registration / 0.1-0.6 per check-in / Kimi only",
-    updateNote: "New listing: a public service granting 13.7 on registration and a check-in of 0.1-0.6, currently carrying only Kimi models (all per user report).",
+    updateNote: "The service was renamed from Yicixun (acf.xydaim.cn) and moved to this domain; it grants 13.7 on registration and a check-in of 0.1-0.6, currently carrying only Kimi models (all per user report).",
     summary: "A public service granting 13.7 on registration and a check-in of 0.1-0.6 (both per user report), currently carrying only Kimi models (per user report). Email registration with email verification; the model plaza is enabled.",
     details:
-      "The service calls itself Fengciyun (ezch.xydaim.cn), an AI API gateway; its public homepage config shows email registration with verification, no GitHub / Linux DO / Google login or Turnstile, the model plaza enabled, payments enabled, and affiliate enabled. Registration grants 13.7 and the check-in is 0.1-0.6, and it currently carries only Kimi models (all per user report); it is a different service from Yicixun (acf.xydaim.cn) on the same main domain. The full model list and rates are unconfirmed.",
+      "The service calls itself Fengciyun (ezch.xydaim.cn), an AI API gateway; its public homepage config shows email registration with verification, no GitHub / Linux DO / Google login or Turnstile, the model plaza enabled, payments enabled, and affiliate enabled. Registration grants 13.7 and the check-in is 0.1-0.6, and it currently carries only Kimi models (all per user report); it replaces Yicixun (acf.xydaim.cn), which has been renamed and moved to this domain, and the old domain is no longer in use. The full model list and rates are unconfirmed.",
     registration: "Register with an email address and email verification through the referral link.",
     signupBonus: "13.7 (per user report)",
 
@@ -117,8 +117,10 @@ window.entryTranslationsData = {
   },
   "易辞寻": {
     name: "Yicixun",
-    kind: "Public service / 4.2 on registration / 2 per check-in / gpt-6.2-astra at 0.021 per call",
-    updateNote: "New listing: a public service granting 4.2 on registration through the referral link, a 2 check-in, and gpt-6.2-astra at 0.021 per call (all per user report).",
+    kind: "Renamed / see Fengciyun",
+    updateNote: "The service was renamed to Fengciyun and moved to ezch.xydaim.cn; removed from the live list and moved to the unavailable archive.",
+    archivedAt: "2026-11-26",
+    archivedReason: "The service was renamed to Fengciyun and moved to ezch.xydaim.cn; the old acf.xydaim.cn domain is no longer in use, and it was removed from the live list and moved to the unavailable archive.",
     summary: "A public service granting 4.2 on registration through the referral link and a 2 check-in (both per user report), with gpt-6.2-astra at 0.021 per call (per user report). Email registration with email verification; credit is displayed in CNY.",
     details:
       "The service calls itself 易辞寻 (acf.xydaim.cn) and titles itself Cici Relay Station; it runs on New API and displays credit in CNY. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or captcha; registering through the referral link grants 4.2 and the check-in is 2 (both per user report). The user names gpt-6.2-astra at 0.021 per call (per user report). Operator notices: join QQ group 1135761090 for a trial credit; the model plaza is at acf.xydaim.cn/pricing; connecting other relay services, using multiple accounts on one IP (deletion and bans), jailbreaking site models, and unlawful uses are all prohibited.",
