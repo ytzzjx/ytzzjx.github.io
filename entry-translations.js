@@ -2,6 +2,22 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "风辞云": {
+    name: "Fengciyun",
+    kind: "Public service / 13.7 on registration / 0.1-0.6 per check-in / Kimi only",
+    updateNote: "New listing: a public service granting 13.7 on registration and a check-in of 0.1-0.6, currently carrying only Kimi models (all per user report).",
+    summary: "A public service granting 13.7 on registration and a check-in of 0.1-0.6 (both per user report), currently carrying only Kimi models (per user report). Email registration with email verification; the model plaza is enabled.",
+    details:
+      "The service calls itself Fengciyun (ezch.xydaim.cn), an AI API gateway; its public homepage config shows email registration with verification, no GitHub / Linux DO / Google login or Turnstile, the model plaza enabled, payments enabled, and affiliate enabled. Registration grants 13.7 and the check-in is 0.1-0.6, and it currently carries only Kimi models (all per user report); it is a different service from Yicixun (acf.xydaim.cn) on the same main domain. The full model list and rates are unconfirmed.",
+    registration: "Register with an email address and email verification through the referral link.",
+    signupBonus: "13.7 (per user report)",
+
+    dailyCheckin: "0.1-0.6 (per user report)",
+    models: "Currently only Kimi models (per user report); the full model list and rates are unconfirmed",
+    experience: "13.7 on registration and a 0.1-0.6 check-in; currently Kimi models only (all per user report)",
+    caveat: "The sign-up credit, check-in amount, and model list are all per user report — confirm them on the service. Kimi-only is a current snapshot and the operator may add models at any time. The public pricing endpoint returns 404 and the model plaza requires login, so rates and the currency unit are unconfirmed.",
+    benefits: ["Public service", "Email registration", "13.7 on registration", "0.1-0.6 per check-in", "Kimi models only"],
+  },
   "Yezi API": {
     name: "Yezi API",
     kind: "Public service / GitHub registration / 3 on registration / 3-6 per check-in",

@@ -5,7 +5,7 @@ const siteConfig = {
   title: "公益 AI API 导航",
   intro: "整理 Claude、GPT、Gemini 等 AI API 中转站的免费额度、注册条件、每日签到与风险提示，区分公益、半公益和付费服务，方便按需查找。",
   githubUrl: "https://github.com/ytzzjx",
-  lastUpdated: "2026-11-25",
+  lastUpdated: "2026-11-26",
   // 时效性公告：只放会过期、需要及时看到的事，渲染在首页顶部「公告提醒」。
   // 过了 expiresOn（本地日期）就不再展示，不用等下次改代码。
   announcements: [
@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "风辞云",
     "Yezi API",
     "渡舟AI",
     "南源API",
@@ -414,6 +415,27 @@ const siteConfig = {
     },
   ],
   entries: [
+    {
+      publishedAt: "2026-11-26 00:00",
+      addedAt: "2026-11-26",
+      updatedAt: "2026-11-26",
+      updateNote: "新收录：公益站，注册送 13.7，签到 0.1-0.6，现在只有 kimi 模型（均为用户提供）。",
+      kind: "公益站 / 注册送 13.7 / 签到 0.1-0.6 / 只有 kimi",
+      name: "风辞云",
+      summary:
+        "公益站，注册送 13.7，签到 0.1-0.6（均为用户提供）。现在只有 kimi 模型（用户提供）。邮箱注册，需邮箱验证；模型广场已开启。",
+      details:
+        "站内名称风辞云（ezch.xydaim.cn），AI API Gateway 中转；首页公开配置显示邮箱注册需验证、无 GitHub / Linux DO / Google 登录、无 Turnstile 验证，模型广场已开启、支付入口开启，邀请返利开启。注册送 13.7，签到 0.1-0.6，现在只有 kimi 模型（均为用户提供）；与同主域名的易辞寻（acf.xydaim.cn）是不同站。完整模型清单与倍率待确认。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "13.7（用户提供）",
+      dailyCheckin: "0.1-0.6（用户提供）",
+      models: "现在只有 kimi 模型（用户提供）；完整模型清单与倍率待确认",
+      experience: "注册送 13.7、签到 0.1-0.6；目前只有 kimi 模型（均为用户提供）",
+      caveat: "注册赠送、签到金额与模型清单均为用户提供，以站内实际显示为准。目前只有 kimi 模型为当前口径，站方可能随时增加模型。公开价格接口 404，模型广场需登录，倍率与货币单位未核实，待确认。",
+      benefits: ["公益站", "邮箱注册", "注册送 13.7", "签到 0.1-0.6", "只有 kimi 模型"],
+      url: "https://ezch.xydaim.cn/register?aff=2C2NQZ3PEQ7F",
+      tone: "active",
+    },
     {
       publishedAt: "2026-11-25 00:00",
       addedAt: "2026-11-25",
