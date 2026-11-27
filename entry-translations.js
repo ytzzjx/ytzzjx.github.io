@@ -2,6 +2,22 @@
 // 中文用户不会下载这个文件。键名与 siteConfig.entries / archivedEntries 的 name 一一对应。
 // 缓存版本号由 scripts/build-site-meta.mjs 管理，写在 index.html 的 app.js 标签 data-translations-src 上。
 window.entryTranslationsData = {
+  "甜橙派": {
+    name: "Sweet Orange Pie",
+    kind: "Public service / egg / 100 credit on registration / Cookie gemini-4-hydrogen",
+    updateNote: "New listing: a public service treated as an egg and discarded after use, granting 100 credit on registration with no check-in; the Cookie gemini-4-hydrogen costs 4 credit per call (all per user report).",
+    summary: "A public service treated as an egg and discarded after use. It grants 100 credit on registration with no check-in (both per user report), and the Cookie gemini-4-hydrogen costs 4 credit per call (per user report). Email registration with email verification; credit uses the custom currency orange.",
+    details:
+      "The service calls itself Sweet Orange Pie (i.orangepie.org), runs on New API, and displays credit in the custom currency orange; the operator notice says the top-up rate is 1:100. Registration uses email with email verification and no GitHub / Linux DO / Telegram login or Turnstile captcha. It grants 100 credit on registration with no check-in, and the user names the Cookie gemini-4-hydrogen at 4 credit per call (all per user report); treat it as an egg and discard it after use. The model plaza lists 95 models across 14 groups (Cookie, Pancake, King Cake, Raspberry Financier, and more), all at 1x, and the public price list marks the Cookie gemini-4-hydrogen as billed per request.",
+    registration: "Register with an email address and email verification through the referral link.",
+    signupBonus: "100 credit (per user report)",
+
+    dailyCheckin: "None (per user report)",
+    models: "Cookie gemini-4-hydrogen at 4 credit per call (per user report); the plaza lists 95 models across 14 groups, all at 1x",
+    experience: "100 credit on registration with no check-in; the Cookie gemini-4-hydrogen at 4 credit per call (all per user report); treat it as an egg and discard after use",
+    caveat: "Treated as an egg: only the free sign-up credit has been claimed, it is discarded after use, the paid experience is unverified, so top up with caution. The sign-up credit, the lack of a check-in, and the model price are all per user report — confirm them on the service; the public price list marks the Cookie gemini-4-hydrogen as per-request billing, and any conflict follows the service. All group rates are 1x and can change.",
+    benefits: ["Public service", "Egg credit", "Email registration", "100 credit on registration", "No check-in", "Cookie gemini-4-hydrogen"],
+  },
   "风辞云": {
     name: "Fengciyun",
     kind: "Public service / 13.7 on registration / 0.1-0.6 per check-in / Kimi only",

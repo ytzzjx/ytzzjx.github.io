@@ -26,6 +26,7 @@ const siteConfig = {
   disclaimer:
     "以上额度、签到与模型信息仅供参考，各站活动和规则随时可能调整，请以站点内公告和实际使用情况为准，可能存在偏差。",
   displayOrder: [
+    "甜橙派",
     "风辞云",
     "Yezi API",
     "渡舟AI",
@@ -438,7 +439,28 @@ const siteConfig = {
   ],
   entries: [
     {
-      publishedAt: "2026-11-22 00:00",
+      publishedAt: "2026-11-27 00:00",
+      addedAt: "2026-11-27",
+      updatedAt: "2026-11-27",
+      updateNote: "新收录：公益站（鸡蛋，用完就丢），注册 100 额度，无签到，[曲奇]gemini-4-hydrogen 4 额度一次（均为用户提供）。",
+      kind: "公益站 / 鸡蛋 / 注册 100 额度 / 曲奇 gemini-4-hydrogen",
+      name: "甜橙派",
+      egg: true,
+      summary:
+        "公益站，按鸡蛋对待，用完就丢。注册送 100 额度，无签到；[曲奇]gemini-4-hydrogen 4 额度一次（均为用户提供）。邮箱注册，需邮箱验证；额度按自定义货币 🍊 显示。",
+      details:
+        "站内名称 🍊甜橙派🍊（i.orangepie.org），New API 程序，额度按自定义货币 🍊 显示，站方公告充值比例为 1:100 🍊。邮箱注册，需邮箱验证，无 GitHub / Linux DO / Telegram 登录，无 Turnstile 人机验证。注册送 100 额度，无签到，用户点名 [曲奇]gemini-4-hydrogen 4 额度一次（均为用户提供）；当鸡蛋用，用完就丢。模型广场公开 95 个模型、14 个分组（曲奇、松饼、国王饼、树莓费南雪等），分组倍率均为 1 倍，公开价目中 [曲奇]gemini-4-hydrogen 标为按次计费。",
+      registration: "邮箱注册，需邮箱验证（走邀请链接）。",
+      signupBonus: "100 额度（用户提供）",
+      dailyCheckin: "无（用户提供）",
+      models: "[曲奇]gemini-4-hydrogen 4 额度一次（用户提供）；广场共 95 个模型、14 个分组均 1 倍",
+      experience: "注册送 100 额度、无签到；[曲奇]gemini-4-hydrogen 4 额度一次（均为用户提供），当鸡蛋用完就丢",
+      caveat: "按鸡蛋对待：只薅注册送的免费额度，用完就丢，付费体验没验证过，充值请谨慎。注册赠送、无签到与模型价格均为用户提供，以站内实际显示为准；公开价目里 [曲奇]gemini-4-hydrogen 标为按次计费，与用户口径 4 额度一次不一致时以站内为准。分组倍率均为 1 倍，可能随时调整。",
+      benefits: ["公益站", "鸡蛋福利", "邮箱注册", "注册送 100 额度", "无签到", "曲奇 gemini-4-hydrogen"],
+      url: "https://i.orangepie.org/sign-up?aff=dHKQ",
+      tone: "active",
+    },
+    {      publishedAt: "2026-11-26 00:00",
       addedAt: "2026-11-22",
       updatedAt: "2026-11-26",
       updateNote: "站点由易辞寻（acf.xydaim.cn）更名换域名而来；注册送 13.7、签到 0.1-0.6，现在只有 kimi 模型（均为用户提供）。",
